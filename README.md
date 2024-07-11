@@ -1,10 +1,8 @@
 # Richelia_Comparative_Genomics
-This repository contains various analysis scripts, as well as intermediate data produced by those scripts, used in this study:""
-The repository includes:
-1. Prokka annotated genomes
-2. Pseudofinder annotated genomes
-3. GTDB-tk tree in newick format that was used to generate Figure 1 in the manuscript 
-4. Folder Genome stats - all of the scripts used to calculate genome stats (coding, intergenic spacer, transposase, pseudogenes, insertion sequences) together with R script to plot Figure 1 in the manuscript
-5. Folder GC concentent - script that calculates GC content in coding sequence vs short and long intergenic as well as R script for plotting Figure 2
-6. Folder Anvi'o - script that containes all the commands used in anvi'o to generate pangenome as well as all the files produced by anvio pangenomics worklflow. Table with all of the annotations that we ran inside of anvio
-7. 
+1. Prokka annotated genomes: Annotated genomes using Prokka.
+2. Pseudofinder annotated genomes: Annotated genomes using Pseudofinder.
+3. GTDB-tk tree: A tree in Newick format used to generate Figure 1 in the manuscript.
+4. Genome stats folder: Contains all scripts used to calculate genome statistics (coding regions, intergenic spacers, transposases, pseudogenes, insertion sequences) along with an R script to plot Figure 1 in the manuscript.
+5. GC content folder: Includes a script that calculates GC content in coding sequences versus short and long intergenic regions, as well as an R script for plotting Figure 2.
+6. Anvi'o folder: Contains scripts with all the commands used in Anvi'o to generate the pangenome, as well as all the files produced by the Anvi'o pangenomics workflow. Also includes a table with all annotations performed within Anvi'o.
+7. Supplementary data: Includes all the scripts and data featured in the supplement of the manuscript.
