@@ -1,0 +1,36 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job stats:
+job                                  count    min threads    max threads
+---------------------------------  -------  -------------  -------------
+annotate_contigs_database               15              1              1
+anvi_compute_genome_similarity           1              4              4
+anvi_gen_genomes_storage                 1              1              1
+anvi_get_sequences_for_gene_calls       14              4              4
+anvi_pan_genome                          1              4              4
+anvi_run_hmms                           14              4              4
+anvi_run_kegg_kofams                    14              4              4
+anvi_run_ncbi_cogs                      14              4              4
+anvi_script_run_eggnog_mapper           15              4              4
+emapper                                 15              1              1
+gen_external_genome_file                 1              1              1
+pangenomics_target_rule                  1              1              1
+total                                  106              1              4
+
+Select jobs to execute...
+
+[Tue Aug 22 19:01:12 2023]
+rule emapper:
+    input: 02_CONTIGS/SRR11343830_6-contigs-aa-sequences.fa
+    output: 02_CONTIGS/SRR11343830_6-contigs.emapper.annotations
+    log: 00_LOGS/SRR11343830_6-emapper.log
+    jobid: 152
+    reason: Missing output files: 02_CONTIGS/SRR11343830_6-contigs.emapper.annotations; Updated input files: 02_CONTIGS/SRR11343830_6-contigs-aa-sequences.fa
+    wildcards: group=SRR11343830_6
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=1
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2023-08-22T190112.660344.snakemake.log

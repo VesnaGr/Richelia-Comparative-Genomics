@@ -1,0 +1,358 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2761
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fswiss\fcharset0 Helvetica-Oblique;\f2\fswiss\fcharset0 Helvetica-Light;
+\f3\fnil\fcharset0 Monaco;\f4\fnil\fcharset204 PTSans-NarrowBold;\f5\fswiss\fcharset0 Helvetica-Bold;
+\f6\fnil\fcharset0 Menlo-Regular;\f7\fnil\fcharset0 Menlo-Bold;\f8\fnil\fcharset0 Georgia;
+\f9\fnil\fcharset0 .AppleSystemUIFontMonospaced-Regular;}
+{\colortbl;\red255\green255\blue255;\red25\green28\blue31;\red255\green255\blue255;\red38\green38\blue38;
+\red235\green235\blue235;\red93\green108\blue121;\red255\green255\blue255;\red0\green0\blue0;\red196\green26\blue22;
+\red155\green35\blue147;\red0\green0\blue0;\red32\green35\blue35;\red24\green26\blue30;\red244\green246\blue249;
+}
+{\*\expandedcolortbl;;\cssrgb\c12941\c14510\c16078;\cssrgb\c100000\c100000\c100000;\cssrgb\c20000\c20000\c19608;
+\cssrgb\c93725\c93725\c93725;\csgenericrgb\c36526\c42188\c47515;\csgenericrgb\c100000\c100000\c100000;\csgenericrgb\c0\c0\c0\c85000;\csgenericrgb\c77000\c10200\c8600;
+\csgenericrgb\c60759\c13753\c57628;\cssrgb\c0\c0\c0;\cssrgb\c16471\c18039\c18039;\cssrgb\c12157\c13725\c15686;\cssrgb\c96471\c97255\c98039;
+}
+\paperw11900\paperh16840\margl1440\margr1440\vieww25080\viewh13920\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 1. Step in Anvio pangenomics is to download/collect .fna (fast files) and store them in a directory called \'91genomes\'92\
+2. Make a .txt file with ONLY genome names - \'91genomes.txt\'92\
+3. We need to reformat fast files to contain short names and to bring them into a format that different anvio programs can use. For this we will use program called \'91
+\f1\i \AppleTypeServices\AppleTypeServicesF65539 \cf2 \cb3 \expnd0\expndtw0\kerning0
+anvi-script-reformat-fasta\'92
+\f2\i0\fs72 \AppleTypeServices\AppleTypeServicesF65539 \
+
+\f0\fs24 \AppleTypeServices \cf0 \cb1 \kerning1\expnd0\expndtw0 . Type in your command line: \
+\pard\pardeftab720\partightenfactor0
+
+\f3 \cf4 \cb5 \expnd0\expndtw0\kerning0
+# Directory containing the genome files\
+input_dir="/Users/vesna/github/anvio/anvio/data/EBAME/Richelia_pangenomics_June25/genomes"\
+\
+# Directory to store the reformatted files\
+output_dir="01_FASTA"\
+\
+# Ensure output directory exists\
+mkdir -p "$output_dir"\
+\
+# Loop through each genome name listed in genomes.txt\
+for g in $(cat genomes.txt)\
+do\
+    echo\
+    echo "Working on $g ..."\
+    echo\
+    input_path="$\{input_dir\}/$\{g\}.fna"\
+    output_path="$\{output_dir\}/$\{g\}_reformatted.fna"\
+\
+    # Check if input file exists\
+    if [[ -f "$input_path" ]]; then\
+        anvi-script-reformat-fasta "$input_path" \\\
+                                   --simplify-names \\\
+                                   -o "$output_path"\
+    else\
+        echo "File/Path Error: No such file: '$input_path'"\
+    fi\
+done\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0 \cf0 \cb1 \kerning1\expnd0\expndtw0 Now we have created FASTA-01 folder which contains reformatted fasta files that ANVIO can use!\
+\
+We can go ahead and create contigs database CONTIGS-DB with program anvi-gen-contigs-db for each genome and store those contigs in the folder 02-CONTIGS\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f3 \cf4 \cb5 \expnd0\expndtw0\kerning0
+# Define the input directory\
+input_dir="/Users/vesna/github/anvio/anvio/data/EBAME/Richelia_pangenomics_June25/genomes"\
+\
+# Define the output directory\
+output_dir="/Users/vesna/github/anvio/anvio/data/EBAME/Richelia_pangenomics_June25/02-CONTIGS"\
+\
+# Ensure the output directory exists\
+mkdir -p "$output_dir"\
+\
+# Loop through each genome name listed in genomes.txt\
+for g in $(cat genomes.txt)\
+do\
+    echo\
+    echo "Working on $g ..."\
+    echo\
+    input_file="$\{input_dir\}/$\{g\}.fna"\
+    output_file="$\{output_dir\}/contigs_$\{g\}.db"\
+    \
+    if [[ -f "$input_file" ]]; then\
+        anvi-gen-contigs-database -f "$input_file" \\\
+                                  -o "$output_file" \\\
+                                  --num-threads 4 \\\
+                                  -n "contigs_$\{g\}"\
+    else\
+        echo "File/Path Error: No such file: '$input_file'"\
+    fi\
+done\
+\
+\pard\pardeftab720\sa192\partightenfactor0
+
+\f4\b\fs38\fsmilli19200 \cf4 \cb3 Annotating contigs databases\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\b0\fs24 \cf0 \cb1 \kerning1\expnd0\expndtw0 First cd to the folder where we produced contigs, 02-CONTIGS\
+Then run this code:\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f3 \cf4 \cb5 \expnd0\expndtw0\kerning0
+for g in *.db\
+do\
+    anvi-run-hmms -c $g --num-threads 4\
+    anvi-run-ncbi-cogs -c $g --num-threads 4\
+    anvi-scan-trnas -c $g --num-threads 4\
+    anvi-run-scg-taxonomy -c $g --num-threads 4\
+    Anti-run-kegg-kofams -c $g --num-threads 4\
+done\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f4\b\fs38\fsmilli19200 \cf4 \cb3 \
+\
+\pard\pardeftab720\sa192\partightenfactor0
+\cf4 Importing prokka annotations into contigs-db\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural\partightenfactor0
+
+\f0\b0\fs24 \cf0 \cb1 \kerning1\expnd0\expndtw0 If we want to import prokka annotations into contigs database for each genome first we need to have Prokka gff files. We place them in folder called Prokka_gff. We need to parse this gff files before importing them to anvio. For this we have phyton script \'93gff_parser.py\'94 available here (https://merenlab.org/2017/05/18/working-with-prokka/). Then we run this as a bash script called \'91
+\f5\b process_gff_files.sh
+\f0\b0 \'92: \
+
+\f6 \cf6 \cb7 #!/bin/bash\cf8 \
+\pard\tx593\pardeftab593\partightenfactor0
+\cf8 mkdir -p \cf9 "Parsed_prokka"\cf8 \
+path_f=\cf9 "Prokka_gff"\cf8 \
+path_o=\cf9 "Parsed_prokka"\cf8 \
+\
+
+\f7\b \cf10 for
+\f6\b0 \cf8  file 
+\f7\b \cf10 in
+\f6\b0 \cf8  \cf9 "\cf8 $path_f\cf9 "\cf8 /*.gff; 
+\f7\b \cf10 do
+\f6\b0 \cf8 \
+    FILENAME=$(basename \cf9 "\cf8 $\{file%.*\}\cf9 "\cf8 )\
+    python gff_parser.py --gene-calls \cf9 "\cf8 $path_o\cf9 /calls_\cf8 $FILENAME\cf9 .txt"\cf8  --annotation \cf9 "\cf8 $path_o\cf9 /annot_\cf8 $FILENAME\cf9 .txt"\cf8  \cf9 "\cf8 $file\cf9 "\cf8 ;\
+
+\f7\b \cf10 done
+\f6\b0 \cf8 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural\partightenfactor0
+
+\f0 \cf0 \cb1 \
+Now we have processed gff files and we have them in the folder \'91
+\f5\b Parsed_Prokka
+\f0\b0 \'92 . The thing that is left to do is to import those annotations in CONTIGS-DB. This we do with the script \'91
+\f5\b import_prokka_annot.sh
+\f0\b0 \'92: 
+\f6 \cf6 \cb7 #!/bin/bash\cf8 \
+\pard\tx593\pardeftab593\partightenfactor0
+\cf8 \
+\pard\tx593\pardeftab593\partightenfactor0
+\cf6 # Define the paths\cf8 \
+path_f=\cf9 "02-CONTIGS"\cf8 \
+path_e=\cf9 "Parsed_prokka"\cf8 \
+\
+\cf6 # Log file for missing annotation files\cf8 \
+missing_log=\cf9 "missing_annotation_files.log"\cf8 \
+> \cf9 "\cf8 $missing_log\cf9 "\cf8   \cf6 # Clear log file if it exists\cf8 \
+\
+\cf6 # Loop over each .db file in the path_f directory\cf8 \
+\pard\tx593\pardeftab593\partightenfactor0
+
+\f7\b \cf10 for
+\f6\b0 \cf8  file 
+\f7\b \cf10 in
+\f6\b0 \cf8  $path_f/contigs_*.db; 
+\f7\b \cf10 do
+\f6\b0 \cf8 \
+    \cf6 # Extract the base filename without the extension and the 'contigs_' prefix\cf8 \
+    FILENAME=\cf9 `basename $\{file%.*\}`\cf8 \
+    FILENAME=$\{FILENAME#contigs_\}\
+    \
+    \cf6 # Define the expected annotation file path\cf8 \
+    annot_file=\cf9 "\cf8 $path_e\cf9 /annot_\cf8 $FILENAME\cf9 .txt"\cf8 \
+    \
+    \cf6 # Check if the annotation file exists, if not, try to adjust GCA to GCF\cf8 \
+    
+\f7\b \cf10 if
+\f6\b0 \cf8  [[ -f \cf9 "\cf8 $annot_file\cf9 "\cf8  ]]; 
+\f7\b \cf10 then
+\f6\b0 \cf8 \
+        \cf6 # If the file exists, run the anvi-import-functions command\cf8 \
+        anvi-import-functions -c \cf9 "\cf8 $file\cf9 "\cf8  -i \cf9 "\cf8 $annot_file\cf9 "\cf8 \
+    
+\f7\b \cf10 else
+\f6\b0 \cf8 \
+        \cf6 # If the file does not exist, try converting GCA to GCF\cf8 \
+        annot_file_alt=\cf9 "\cf8 $\{annot_file/GCA_/GCF_\}\cf9 "\cf8 \
+        
+\f7\b \cf10 if
+\f6\b0 \cf8  [[ -f \cf9 "\cf8 $annot_file_alt\cf9 "\cf8  ]]; 
+\f7\b \cf10 then
+\f6\b0 \cf8 \
+            \cf6 # If the alternative file exists, run the anvi-import-functions command\cf8 \
+            anvi-import-functions -c \cf9 "\cf8 $file\cf9 "\cf8  -i \cf9 "\cf8 $annot_file_alt\cf9 "\cf8 \
+        
+\f7\b \cf10 else
+\f6\b0 \cf8 \
+            \cf6 # If neither file exists, log the missing file\cf8 \
+            
+\f7\b \cf10 echo
+\f6\b0 \cf8  \cf9 "File not found: \cf8 $annot_file\cf9  or \cf8 $annot_file_alt\cf9 "\cf8  | tee -a \cf9 "\cf8 $missing_log\cf9 "\cf8 \
+        
+\f7\b \cf10 fi
+\f6\b0 \cf8 \
+    
+\f7\b \cf10 fi
+\f6\b0 \cf8 \
+
+\f7\b \cf10 done
+\f6\b0 \cf8 \
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural\partightenfactor0
+
+\f0 \cf0 \cb1 Now we have imported Prokka annotations into contigs-db\
+\
+\
+\pard\pardeftab720\sa390\partightenfactor0
+
+\f4\b\fs42 \cf4 \cb3 \expnd0\expndtw0\kerning0
+Importing eggnog mapper annotations into contigs-db\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural\partightenfactor0
+
+\f0\b0\fs24 \cf0 \cb1 \kerning1\expnd0\expndtw0 To import eggnog mapper annotations first we need to get AA sequences from Anvio for each genome. This we will do with a script called \'91
+\f5\b get_AA_seq.sh
+\f0\b0 \'92.\
+\pard\tx593\pardeftab593\partightenfactor0
+
+\f6 \cf6 \cb7 #!/bin/bash\cf8 \
+\
+\cf6 # Define the path\cf8 \
+path_f=\cf9 "02-CONTIGS"\cf8 \
+output_dir=\cf9 "amino_acid_sequences"\cf8 \
+\
+\cf6 # Create the output directory if it doesn't exist\cf8 \
+mkdir -p \cf9 "\cf8 $output_dir\cf9 "\cf8 \
+\
+\cf6 # Loop over each .db file in the path_f directory\cf8 \
+\pard\tx593\pardeftab593\partightenfactor0
+
+\f7\b \cf10 for
+\f6\b0 \cf8  file 
+\f7\b \cf10 in
+\f6\b0 \cf8  $path_f/contigs_*.db; 
+\f7\b \cf10 do
+\f6\b0 \cf8 \
+    \cf6 # Extract the base filename without the extension and the 'contigs_' prefix\cf8 \
+    FILENAME=\cf9 `basename $\{file%.*\}`\cf8 \
+    FILENAME=$\{FILENAME#contigs_\}\
+    \
+    \cf6 # Define the output file path\cf8 \
+    output_file=\cf9 "\cf8 $output_dir\cf9 /\cf8 $\{FILENAME\}\cf9 _aa_sequences.fa"\cf8 \
+    \
+    \cf6 # Run the anvi-get-sequences-for-gene-calls command for each .db file\cf8 \
+    anvi-get-sequences-
+\f7\b \cf10 for
+\f6\b0 \cf8 -gene-calls -c \cf9 "\cf8 $file\cf9 "\cf8  \\\
+                                      --get-aa-sequences \\\
+                                      -o \cf9 "\cf8 $output_file\cf9 "\cf8 \
+    \
+    
+\f7\b \cf10 echo
+\f6\b0 \cf8  \cf9 "Amino acid sequences for \cf8 $file\cf9  have been saved to \cf8 $output_file\cf9 "\cf8 \
+
+\f7\b \cf10 done
+\f6\b0 \cf8 \
+\
+
+\f7\b \cf10 echo
+\f6\b0 \cf8  \cf9 "All sequences have been processed and saved to the \cf8 $output_dir\cf9  directory."\
+\
+\
+\pard\tx593\pardeftab593\partightenfactor0
+\cf11 When we have amino acid sequences we can run emapper. We will get annotations files finishing with \'91.emapper.annotations\'92. Then we can import those files in CONTIGS-DB. Before doing so we have to:\
+\pard\pardeftab720\partightenfactor0
+
+\f8\fs30 \cf12 \cb1 \expnd0\expndtw0\kerning0
+1. add 'g' prefixes:\
+
+\f3\fs24 \
+sed -e 's/^/g/' annotationfile > annotationfile_fixed
+\f8\fs30 \
+2. remove first three lines (containing information about the version and command used, and the time)\
+\uc0\u8232 
+\f3\fs24 sed -i 1,3d annotationfile_fixed
+\f8\fs30 \
+\uc0\u8232 3. remove last three lines, (containing information about the scanned queries, runtime and rate)\
+
+\f3\fs24 sed -e :a -e '$d;N;2,3ba' -e 'P;D' -i annotationfile_fixed
+\f8\fs30 \
+\uc0\u8232 4. remove the 'g' in the first line\
+
+\f3\fs24 sed -ie '1s/^.//' annotationfile_fixed
+\f8\fs30 \
+\
+Finally then import using\
+
+\f3\fs24 anvi-script-run-eggnog-mapper -c contigs.db --annotation annotationfile_fixed --use-version 2.1.9
+\f6 \cf8 \cb7 \kerning1\expnd0\expndtw0 \
+\pard\tx593\pardeftab593\partightenfactor0
+\cf8 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural\partightenfactor0
+
+\f0 \cf0 \cb1 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f4\b\fs38\fsmilli19200 \cf4 \cb3 \expnd0\expndtw0\kerning0
+\
+\pard\pardeftab720\sa390\partightenfactor0
+
+\fs42 \cf4 Computing the pangenome\
+\pard\pardeftab720\sa390\partightenfactor0
+
+\f0\b0\fs24 \cf4 First we need to generate genome storage:
+\f4\b\fs42 \
+\pard\pardeftab720\partightenfactor0
+
+\f3\b0\fs24 \cf4 \cb5 anvi-gen-genomes-storage -e external-genomes.txt \\\
+                         -o 03-PAN/Richelia-GENOMES.db\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f0 \cf11 Then we can generate pangenome:\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f3 \cf4 anvi-pan-genome -g 03-PAN/Richelia-GENOMES.db \\\
+                --project-name Richelia \\\
+                --num-threads 4\
+\
+\
+\pard\pardeftab720\sa192\partightenfactor0
+
+\f4\b\fs38\fsmilli19200 \cf4 \cb3 Calculating average nucleotide identity between genomes\
+\pard\pardeftab720\partightenfactor0
+
+\f3\b0\fs24 \cf4 \cb5 anvi-compute-genome-similarity --external-genomes external-genomes.txt \\\
+                               --program pyANI \\\
+                               --output-dir ANI \\\
+                               --num-threads 4 \\\
+                               --pan-db 03-PAN/Richelia-PAN.db\
+\
+\
+\
+\pard\pardeftab720\sa192\partightenfactor0
+
+\f4\b\fs38\fsmilli19200 \cf4 \cb3 Running mOTU pan for estimating core and flexible genome
+\f9\b0\fs27\fsmilli13600 \cf13 \cb14 \
+\pard\pardeftab720\partightenfactor0
+\cf13 anvi-script-compute-bayesian-pan-core -p 03-PAN/Richelia-PAN.db -g 03-PAN/Richelia-GENOMES.db --store-in-db\
+\pard\pardeftab720\sa192\partightenfactor0
+
+\f3\fs24 \cf4 \cb5 \
+\pard\pardeftab720\partightenfactor0
+\cf4 \
+}

@@ -1,0 +1,10 @@
+Building DAG of jobs...
+IncompleteFilesException:
+The files below seem to be incomplete. If you are sure that certain files are not incomplete, mark them as complete with
+
+    snakemake --cleanup-metadata <filenames>
+
+To re-generate the files rerun your command with the --rerun-incomplete flag.
+Incomplete files:
+01_FASTA/GCA_030066045.1_ASM3006604v1_genomic/GCA_030066045.1_ASM3006604v1_genomic-contigs-prefix-formatted-only.fa
+01_FASTA/GCA_030066045.1_ASM3006604v1_genomic/GCA_030066045.1_ASM3006604v1_genomic-reformat-report.txt

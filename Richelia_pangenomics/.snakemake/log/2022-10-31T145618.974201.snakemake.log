@@ -1,0 +1,26 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job stats:
+job                                       count    min threads    max threads
+--------------------------------------  -------  -------------  -------------
+annotate_contigs_database                    14              1              1
+anvi_compute_genome_similarity                1              4              4
+anvi_gen_contigs_database                    14              4              4
+anvi_gen_genomes_storage                      1              1              1
+anvi_pan_genome                               1              4              4
+anvi_run_hmms                                14              1              1
+anvi_script_reformat_fasta                   14              1              1
+anvi_script_reformat_fasta_prefix_only       14              1              1
+gen_external_genome_file                      1              1              1
+pangenomics_target_rule                       1              1              1
+total                                        75              1              4
+
+Select jobs to execute...
+ProtectedOutputException in rule anvi_script_reformat_fasta_prefix_only  in line 62 of /Users/vesna/github/anvio/anvio/workflows/contigs/Snakefile:
+Write-protected output files for rule anvi_script_reformat_fasta_prefix_only:
+    output: 01_FASTA/GCF_900185595_1_CalSC01_2013_genomic/GCF_900185595_1_CalSC01_2013_genomic-contigs-prefix-formatted-only.fa, 01_FASTA/GCF_900185595_1_CalSC01_2013_genomic/GCF_900185595_1_CalSC01_2013_genomic-reformat-report.txt
+    wildcards: group=GCF_900185595_1_CalSC01_2013_genomic
+    affected files:
+        01_FASTA/GCF_900185595_1_CalSC01_2013_genomic/GCF_900185595_1_CalSC01_2013_genomic-contigs-prefix-formatted-only.fa

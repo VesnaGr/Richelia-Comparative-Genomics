@@ -1,0 +1,110 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job stats:
+job                               count    min threads    max threads
+------------------------------  -------  -------------  -------------
+annotate_contigs_database             1              1              1
+anvi_compute_genome_similarity        1              4              4
+anvi_gen_genomes_storage              1              1              1
+anvi_pan_genome                       1              4              4
+gen_external_genome_file              1              1              1
+pangenomics_target_rule               1              1              1
+total                                 6              1              4
+
+Select jobs to execute...
+
+[Mon Dec 19 11:52:58 2022]
+localrule annotate_contigs_database:
+    input: 02_CONTIGS/BGEO_SAMN07136523_METAG_IKJKMCAK-contigs.db, 02_CONTIGS/anvi_run_hmms-BGEO_SAMN07136523_METAG_IKJKMCAK.done, 02_CONTIGS/anvi_run_ncbi_cogs-BGEO_SAMN07136523_METAG_IKJKMCAK.done, 02_CONTIGS/anvi_run_kegg_kofams-BGEO_SAMN07136523_METAG_IKJKMCAK.done
+    output: 02_CONTIGS/BGEO_SAMN07136523_METAG_IKJKMCAK-annotate_contigs_database.done
+    log: 00_LOGS/BGEO_SAMN07136523_METAG_IKJKMCAK-annotate_contigs_database.log
+    jobid: 95
+    reason: Updated input files: 02_CONTIGS/BGEO_SAMN07136523_METAG_IKJKMCAK-contigs.db
+    wildcards: group=BGEO_SAMN07136523_METAG_IKJKMCAK
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T
+
+Touching output file 02_CONTIGS/BGEO_SAMN07136523_METAG_IKJKMCAK-annotate_contigs_database.done.
+[Mon Dec 19 11:52:58 2022]
+Finished job 95.
+1 of 6 steps (17%) done
+Select jobs to execute...
+
+[Mon Dec 19 11:52:58 2022]
+rule gen_external_genome_file:
+    input: 02_CONTIGS/GCA_000613065_1_RintRC_1_genomic-annotate_contigs_database.done, 02_CONTIGS/GCA_002377925_1_ASM237792v1_genomic-annotate_contigs_database.done, 02_CONTIGS/GCA_002470035_1_ASM247003v1_genomic-annotate_contigs_database.done, 02_CONTIGS/GCA_013214565_1_ASM1321456v1_genomic-annotate_contigs_database.done, 02_CONTIGS/GCA_900299445_1_Richelia_intracellularis_AM_2804_genomic-annotate_contigs_database.done, 02_CONTIGS/GCA_000350105_1_ASM35010v1_genomic-annotate_contigs_database.done, 02_CONTIGS/GCA_000350125_1_ASM35012v1_genomic-annotate_contigs_database.done, 02_CONTIGS/GCF_900185595_1_CalSC01_2013_genomic-annotate_contigs_database.done, 02_CONTIGS/TARA_MED_95_MAG_00146-annotate_contigs_database.done, 02_CONTIGS/TARA_PON_109_MAG_00086-annotate_contigs_database.done, 02_CONTIGS/MARD_SAMEA2272302_REFG_MMP2272302-annotate_contigs_database.done, 02_CONTIGS/MARD_SAMEA2272692_REFG_MMP2272692-annotate_contigs_database.done, 02_CONTIGS/MARD_SAMEA3138990_REFG_MMP3138990-annotate_contigs_database.done, 02_CONTIGS/BGEO_SAMN07136523_METAG_IKJKMCAK-annotate_contigs_database.done, 02_CONTIGS/GCA_000613065_1_RintRC_1_genomic-contigs.db, 02_CONTIGS/GCA_002377925_1_ASM237792v1_genomic-contigs.db, 02_CONTIGS/GCA_002470035_1_ASM247003v1_genomic-contigs.db, 02_CONTIGS/GCA_013214565_1_ASM1321456v1_genomic-contigs.db, 02_CONTIGS/GCA_900299445_1_Richelia_intracellularis_AM_2804_genomic-contigs.db, 02_CONTIGS/GCA_000350105_1_ASM35010v1_genomic-contigs.db, 02_CONTIGS/GCA_000350125_1_ASM35012v1_genomic-contigs.db, 02_CONTIGS/GCF_900185595_1_CalSC01_2013_genomic-contigs.db, 02_CONTIGS/TARA_MED_95_MAG_00146-contigs.db, 02_CONTIGS/TARA_PON_109_MAG_00086-contigs.db, 02_CONTIGS/MARD_SAMEA2272302_REFG_MMP2272302-contigs.db, 02_CONTIGS/MARD_SAMEA2272692_REFG_MMP2272692-contigs.db, 02_CONTIGS/MARD_SAMEA3138990_REFG_MMP3138990-contigs.db, 02_CONTIGS/BGEO_SAMN07136523_METAG_IKJKMCAK-contigs.db
+    output: external-genomes.txt
+    log: 00_LOGS/gen_external_genome_file.log
+    jobid: 3
+    reason: Input files updated by another job: 02_CONTIGS/BGEO_SAMN07136523_METAG_IKJKMCAK-annotate_contigs_database.done
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=1
+
+[Mon Dec 19 11:52:59 2022]
+Finished job 3.
+2 of 6 steps (33%) done
+Select jobs to execute...
+
+[Mon Dec 19 11:52:59 2022]
+rule anvi_gen_genomes_storage:
+    input: external-genomes.txt, external-genomes.txt
+    output: 03_PAN/Richelia-GENOMES.db
+    log: 00_LOGS/Richelia-anvi_gen_genomes_storage.log
+    jobid: 2
+    reason: Input files updated by another job: external-genomes.txt
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=1
+
+
+            anvi-gen-genomes-storage -o 03_PAN/Richelia-GENOMES.db                                                                          --external-genomes external-genomes.txt                                      >> 00_LOGS/Richelia-anvi_gen_genomes_storage.log 2>&1
+        
+[Mon Dec 19 11:53:06 2022]
+Finished job 2.
+3 of 6 steps (50%) done
+Select jobs to execute...
+
+[Mon Dec 19 11:53:06 2022]
+rule anvi_pan_genome:
+    input: 03_PAN/Richelia-GENOMES.db
+    output: 03_PAN/Richelia-PAN.db
+    log: 00_LOGS/Richelia-anvi_pan_genome.log
+    jobid: 1
+    reason: Input files updated by another job: 03_PAN/Richelia-GENOMES.db
+    threads: 4
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=4
+
+
+            anvi-pan-genome -g 03_PAN/Richelia-GENOMES.db --num-threads 4 -o 03_PAN --project-name Richelia                                                                                   >> 00_LOGS/Richelia-anvi_pan_genome.log 2>&1
+        
+[Mon Dec 19 12:00:56 2022]
+Finished job 1.
+4 of 6 steps (67%) done
+Select jobs to execute...
+
+[Mon Dec 19 12:00:56 2022]
+rule anvi_compute_genome_similarity:
+    input: 03_PAN/Richelia-PAN.db, external-genomes.txt, external-genomes.txt
+    output: 03_PAN/Richeliaanvi_compute_genome_similarity.done, 03_PAN/Richelia-ANI-OUTPUT
+    log: 00_LOGS/Richelia-anvi_compute_genome_similarity.log
+    jobid: 102
+    reason: Input files updated by another job: external-genomes.txt, 03_PAN/Richelia-PAN.db
+    threads: 4
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=4
+
+ anvi-compute-genome-similarity                                              --external-genomes external-genomes.txt                                             -T 4                                             -o 03_PAN/Richelia-ANI-OUTPUT                                             -p 03_PAN/Richelia-PAN.db                                              >> 00_LOGS/Richelia-anvi_compute_genome_similarity.log 2>&1
+Touching output file 03_PAN/Richeliaanvi_compute_genome_similarity.done.
+[Mon Dec 19 12:11:35 2022]
+Finished job 102.
+5 of 6 steps (83%) done
+Select jobs to execute...
+
+[Mon Dec 19 12:11:35 2022]
+localrule pangenomics_target_rule:
+    input: 03_PAN/Richelia-PAN.db, 03_PAN/Richeliaanvi_compute_genome_similarity.done
+    jobid: 0
+    reason: Input files updated by another job: 03_PAN/Richeliaanvi_compute_genome_similarity.done, 03_PAN/Richelia-PAN.db
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T
+
+[Mon Dec 19 12:11:35 2022]
+Finished job 0.
+6 of 6 steps (100%) done
+Complete log: .snakemake/log/2022-12-19T115258.184398.snakemake.log

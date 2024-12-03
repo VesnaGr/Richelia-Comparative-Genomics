@@ -1,0 +1,108 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job stats:
+job                                       count    min threads    max threads
+--------------------------------------  -------  -------------  -------------
+annotate_contigs_database                    14              1              1
+anvi_compute_genome_similarity                1              4              4
+anvi_gen_contigs_database                    14              4              4
+anvi_gen_genomes_storage                      1              1              1
+anvi_pan_genome                               1              4              4
+anvi_run_hmms                                14              1              1
+anvi_script_reformat_fasta                   14              1              1
+anvi_script_reformat_fasta_prefix_only       14              1              1
+gen_external_genome_file                      1              1              1
+pangenomics_target_rule                       1              1              1
+total                                        75              1              4
+
+Select jobs to execute...
+
+[Mon Oct 31 11:46:01 2022]
+rule anvi_script_reformat_fasta_prefix_only:
+    input: /Users/vesna/github/anvio/anvio/data/EBAME/Richelia_genomes/genomes/GCF_900185595.1_CalSC01_2013_genomic.faa
+    output: 01_FASTA/GCF_900185595.1_CalSC01_2013_genomic/GCF_900185595.1_CalSC01_2013_genomic-contigs-prefix-formatted-only.fa, 01_FASTA/GCF_900185595.1_CalSC01_2013_genomic/GCF_900185595.1_CalSC01_2013_genomic-reformat-report.txt
+    log: 00_LOGS/GCF_900185595.1_CalSC01_2013_genomic-anvi_script_reformat_fasta_prefix_only.log
+    jobid: 47
+    reason: Missing output files: 01_FASTA/GCF_900185595.1_CalSC01_2013_genomic/GCF_900185595.1_CalSC01_2013_genomic-contigs-prefix-formatted-only.fa
+    wildcards: group=GCF_900185595.1_CalSC01_2013_genomic
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=1
+
+anvi-script-reformat-fasta /Users/vesna/github/anvio/anvio/data/EBAME/Richelia_genomes/genomes/GCF_900185595.1_CalSC01_2013_genomic.faa -o 01_FASTA/GCF_900185595.1_CalSC01_2013_genomic/GCF_900185595.1_CalSC01_2013_genomic-contigs-prefix-formatted-only.fa -r 01_FASTA/GCF_900185595.1_CalSC01_2013_genomic/GCF_900185595.1_CalSC01_2013_genomic-reformat-report.txt --prefix GCF_900185595.1_CalSC01_2013_genomic   --simplify-names  >> 00_LOGS/GCF_900185595.1_CalSC01_2013_genomic-anvi_script_reformat_fasta_prefix_only.log 2>&1
+
+[Mon Oct 31 11:46:01 2022]
+rule anvi_script_reformat_fasta_prefix_only:
+    input: /Users/vesna/github/anvio/anvio/data/EBAME/Richelia_genomes/genomes/GCA_000613065.1_RintRC_1_genomic.faa
+    output: 01_FASTA/GCA_000613065.1_RintRC_1_genomic/GCA_000613065.1_RintRC_1_genomic-contigs-prefix-formatted-only.fa, 01_FASTA/GCA_000613065.1_RintRC_1_genomic/GCA_000613065.1_RintRC_1_genomic-reformat-report.txt
+    log: 00_LOGS/GCA_000613065.1_RintRC_1_genomic-anvi_script_reformat_fasta_prefix_only.log
+    jobid: 12
+    reason: Missing output files: 01_FASTA/GCA_000613065.1_RintRC_1_genomic/GCA_000613065.1_RintRC_1_genomic-contigs-prefix-formatted-only.fa
+    wildcards: group=GCA_000613065.1_RintRC_1_genomic
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=1
+
+anvi-script-reformat-fasta /Users/vesna/github/anvio/anvio/data/EBAME/Richelia_genomes/genomes/GCA_000613065.1_RintRC_1_genomic.faa -o 01_FASTA/GCA_000613065.1_RintRC_1_genomic/GCA_000613065.1_RintRC_1_genomic-contigs-prefix-formatted-only.fa -r 01_FASTA/GCA_000613065.1_RintRC_1_genomic/GCA_000613065.1_RintRC_1_genomic-reformat-report.txt --prefix GCA_000613065.1_RintRC_1_genomic   --simplify-names  >> 00_LOGS/GCA_000613065.1_RintRC_1_genomic-anvi_script_reformat_fasta_prefix_only.log 2>&1
+
+[Mon Oct 31 11:46:01 2022]
+rule anvi_script_reformat_fasta_prefix_only:
+    input: /Users/vesna/github/anvio/anvio/data/EBAME/Richelia_genomes/genomes/MARD_SAMEA3138990_REFG_MMP3138990.faa
+    output: 01_FASTA/MARD_SAMEA3138990_REFG_MMP3138990/MARD_SAMEA3138990_REFG_MMP3138990-contigs-prefix-formatted-only.fa, 01_FASTA/MARD_SAMEA3138990_REFG_MMP3138990/MARD_SAMEA3138990_REFG_MMP3138990-reformat-report.txt
+    log: 00_LOGS/MARD_SAMEA3138990_REFG_MMP3138990-anvi_script_reformat_fasta_prefix_only.log
+    jobid: 62
+    reason: Missing output files: 01_FASTA/MARD_SAMEA3138990_REFG_MMP3138990/MARD_SAMEA3138990_REFG_MMP3138990-contigs-prefix-formatted-only.fa
+    wildcards: group=MARD_SAMEA3138990_REFG_MMP3138990
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=1
+
+anvi-script-reformat-fasta /Users/vesna/github/anvio/anvio/data/EBAME/Richelia_genomes/genomes/MARD_SAMEA3138990_REFG_MMP3138990.faa -o 01_FASTA/MARD_SAMEA3138990_REFG_MMP3138990/MARD_SAMEA3138990_REFG_MMP3138990-contigs-prefix-formatted-only.fa -r 01_FASTA/MARD_SAMEA3138990_REFG_MMP3138990/MARD_SAMEA3138990_REFG_MMP3138990-reformat-report.txt --prefix MARD_SAMEA3138990_REFG_MMP3138990   --simplify-names  >> 00_LOGS/MARD_SAMEA3138990_REFG_MMP3138990-anvi_script_reformat_fasta_prefix_only.log 2>&1
+
+[Mon Oct 31 11:46:01 2022]
+rule anvi_script_reformat_fasta_prefix_only:
+    input: /Users/vesna/github/anvio/anvio/data/EBAME/Richelia_genomes/genomes/GCA_013214565.1_ASM1321456v1_genomic.faa
+    output: 01_FASTA/GCA_013214565.1_ASM1321456v1_genomic/GCA_013214565.1_ASM1321456v1_genomic-contigs-prefix-formatted-only.fa, 01_FASTA/GCA_013214565.1_ASM1321456v1_genomic/GCA_013214565.1_ASM1321456v1_genomic-reformat-report.txt
+    log: 00_LOGS/GCA_013214565.1_ASM1321456v1_genomic-anvi_script_reformat_fasta_prefix_only.log
+    jobid: 27
+    reason: Missing output files: 01_FASTA/GCA_013214565.1_ASM1321456v1_genomic/GCA_013214565.1_ASM1321456v1_genomic-contigs-prefix-formatted-only.fa
+    wildcards: group=GCA_013214565.1_ASM1321456v1_genomic
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=1
+
+anvi-script-reformat-fasta /Users/vesna/github/anvio/anvio/data/EBAME/Richelia_genomes/genomes/GCA_013214565.1_ASM1321456v1_genomic.faa -o 01_FASTA/GCA_013214565.1_ASM1321456v1_genomic/GCA_013214565.1_ASM1321456v1_genomic-contigs-prefix-formatted-only.fa -r 01_FASTA/GCA_013214565.1_ASM1321456v1_genomic/GCA_013214565.1_ASM1321456v1_genomic-reformat-report.txt --prefix GCA_013214565.1_ASM1321456v1_genomic   --simplify-names  >> 00_LOGS/GCA_013214565.1_ASM1321456v1_genomic-anvi_script_reformat_fasta_prefix_only.log 2>&1
+[Mon Oct 31 11:46:02 2022]
+Error in rule anvi_script_reformat_fasta_prefix_only:
+    jobid: 12
+    output: 01_FASTA/GCA_000613065.1_RintRC_1_genomic/GCA_000613065.1_RintRC_1_genomic-contigs-prefix-formatted-only.fa, 01_FASTA/GCA_000613065.1_RintRC_1_genomic/GCA_000613065.1_RintRC_1_genomic-reformat-report.txt
+    log: 00_LOGS/GCA_000613065.1_RintRC_1_genomic-anvi_script_reformat_fasta_prefix_only.log (check log file(s) for error message)
+    shell:
+        anvi-script-reformat-fasta /Users/vesna/github/anvio/anvio/data/EBAME/Richelia_genomes/genomes/GCA_000613065.1_RintRC_1_genomic.faa -o 01_FASTA/GCA_000613065.1_RintRC_1_genomic/GCA_000613065.1_RintRC_1_genomic-contigs-prefix-formatted-only.fa -r 01_FASTA/GCA_000613065.1_RintRC_1_genomic/GCA_000613065.1_RintRC_1_genomic-reformat-report.txt --prefix GCA_000613065.1_RintRC_1_genomic   --simplify-names  >> 00_LOGS/GCA_000613065.1_RintRC_1_genomic-anvi_script_reformat_fasta_prefix_only.log 2>&1
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Mon Oct 31 11:46:02 2022]
+Error in rule anvi_script_reformat_fasta_prefix_only:
+    jobid: 47
+    output: 01_FASTA/GCF_900185595.1_CalSC01_2013_genomic/GCF_900185595.1_CalSC01_2013_genomic-contigs-prefix-formatted-only.fa, 01_FASTA/GCF_900185595.1_CalSC01_2013_genomic/GCF_900185595.1_CalSC01_2013_genomic-reformat-report.txt
+    log: 00_LOGS/GCF_900185595.1_CalSC01_2013_genomic-anvi_script_reformat_fasta_prefix_only.log (check log file(s) for error message)
+    shell:
+        anvi-script-reformat-fasta /Users/vesna/github/anvio/anvio/data/EBAME/Richelia_genomes/genomes/GCF_900185595.1_CalSC01_2013_genomic.faa -o 01_FASTA/GCF_900185595.1_CalSC01_2013_genomic/GCF_900185595.1_CalSC01_2013_genomic-contigs-prefix-formatted-only.fa -r 01_FASTA/GCF_900185595.1_CalSC01_2013_genomic/GCF_900185595.1_CalSC01_2013_genomic-reformat-report.txt --prefix GCF_900185595.1_CalSC01_2013_genomic   --simplify-names  >> 00_LOGS/GCF_900185595.1_CalSC01_2013_genomic-anvi_script_reformat_fasta_prefix_only.log 2>&1
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job anvi_script_reformat_fasta_prefix_only since they might be corrupted:
+01_FASTA/GCA_000613065.1_RintRC_1_genomic/GCA_000613065.1_RintRC_1_genomic-reformat-report.txt
+[Mon Oct 31 11:46:02 2022]
+Error in rule anvi_script_reformat_fasta_prefix_only:
+    jobid: 27
+    output: 01_FASTA/GCA_013214565.1_ASM1321456v1_genomic/GCA_013214565.1_ASM1321456v1_genomic-contigs-prefix-formatted-only.fa, 01_FASTA/GCA_013214565.1_ASM1321456v1_genomic/GCA_013214565.1_ASM1321456v1_genomic-reformat-report.txt
+    log: 00_LOGS/GCA_013214565.1_ASM1321456v1_genomic-anvi_script_reformat_fasta_prefix_only.log (check log file(s) for error message)
+    shell:
+        anvi-script-reformat-fasta /Users/vesna/github/anvio/anvio/data/EBAME/Richelia_genomes/genomes/GCA_013214565.1_ASM1321456v1_genomic.faa -o 01_FASTA/GCA_013214565.1_ASM1321456v1_genomic/GCA_013214565.1_ASM1321456v1_genomic-contigs-prefix-formatted-only.fa -r 01_FASTA/GCA_013214565.1_ASM1321456v1_genomic/GCA_013214565.1_ASM1321456v1_genomic-reformat-report.txt --prefix GCA_013214565.1_ASM1321456v1_genomic   --simplify-names  >> 00_LOGS/GCA_013214565.1_ASM1321456v1_genomic-anvi_script_reformat_fasta_prefix_only.log 2>&1
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job anvi_script_reformat_fasta_prefix_only since they might be corrupted:
+01_FASTA/GCF_900185595.1_CalSC01_2013_genomic/GCF_900185595.1_CalSC01_2013_genomic-reformat-report.txt
+Removing output files of failed job anvi_script_reformat_fasta_prefix_only since they might be corrupted:
+01_FASTA/GCA_013214565.1_ASM1321456v1_genomic/GCA_013214565.1_ASM1321456v1_genomic-reformat-report.txt
+Write-protecting output file 01_FASTA/MARD_SAMEA3138990_REFG_MMP3138990/MARD_SAMEA3138990_REFG_MMP3138990-contigs-prefix-formatted-only.fa.
+[Mon Oct 31 11:46:02 2022]
+Finished job 62.
+1 of 75 steps (1%) done
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2022-10-31T114601.545346.snakemake.log

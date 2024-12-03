@@ -1,0 +1,42 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job stats:
+job                               count
+------------------------------  -------
+anvi_compute_genome_similarity        1
+anvi_gen_genomes_storage              1
+anvi_pan_genome                       1
+pangenomics_target_rule               1
+total                                 4
+
+Select jobs to execute...
+
+[Tue Jun 25 17:47:44 2024]
+rule anvi_gen_genomes_storage:
+    input: external-genomes.txt, external-genomes.txt
+    output: 03_PAN/Richelia-GENOMES.db
+    log: 00_LOGS/Richelia-anvi_gen_genomes_storage.log
+    jobid: 2
+    reason: Missing output files: 03_PAN/Richelia-GENOMES.db
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=1
+
+
+            anvi-gen-genomes-storage -o 03_PAN/Richelia-GENOMES.db                                                                          --external-genomes external-genomes.txt                                      >> 00_LOGS/Richelia-anvi_gen_genomes_storage.log 2>&1
+        
+[Tue Jun 25 17:47:45 2024]
+Error in rule anvi_gen_genomes_storage:
+    jobid: 2
+    input: external-genomes.txt, external-genomes.txt
+    output: 03_PAN/Richelia-GENOMES.db
+    log: 00_LOGS/Richelia-anvi_gen_genomes_storage.log (check log file(s) for error details)
+    shell:
+        
+            anvi-gen-genomes-storage -o 03_PAN/Richelia-GENOMES.db                                                                          --external-genomes external-genomes.txt                                      >> 00_LOGS/Richelia-anvi_gen_genomes_storage.log 2>&1
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2024-06-25T174743.919488.snakemake.log

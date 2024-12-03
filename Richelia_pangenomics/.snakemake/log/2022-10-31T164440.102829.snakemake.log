@@ -1,0 +1,10 @@
+Building DAG of jobs...
+Job stats:
+job                               count    min threads    max threads
+------------------------------  -------  -------------  -------------
+anvi_compute_genome_similarity        1              1              1
+anvi_gen_genomes_storage              1              1              1
+anvi_pan_genome                       1              1              1
+pangenomics_target_rule               1              1              1
+total                                 4              1              1
+

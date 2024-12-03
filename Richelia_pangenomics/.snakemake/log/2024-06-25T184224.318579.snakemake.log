@@ -1,0 +1,78 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job stats:
+job                               count
+------------------------------  -------
+anvi_compute_genome_similarity        1
+anvi_gen_genomes_storage              1
+anvi_pan_genome                       1
+pangenomics_target_rule               1
+total                                 4
+
+Select jobs to execute...
+
+[Tue Jun 25 18:42:24 2024]
+rule anvi_gen_genomes_storage:
+    input: external-genomes.txt, external-genomes.txt
+    output: 03_PAN/Richelia-GENOMES.db
+    log: 00_LOGS/Richelia-anvi_gen_genomes_storage.log
+    jobid: 2
+    reason: Missing output files: 03_PAN/Richelia-GENOMES.db
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=1
+
+
+            anvi-gen-genomes-storage -o 03_PAN/Richelia-GENOMES.db                                                                          --external-genomes external-genomes.txt                                      >> 00_LOGS/Richelia-anvi_gen_genomes_storage.log 2>&1
+        
+[Tue Jun 25 18:42:29 2024]
+Finished job 2.
+1 of 4 steps (25%) done
+Select jobs to execute...
+
+[Tue Jun 25 18:42:29 2024]
+rule anvi_pan_genome:
+    input: 03_PAN/Richelia-GENOMES.db
+    output: 03_PAN/Richelia-PAN.db
+    log: 00_LOGS/Richelia-anvi_pan_genome.log
+    jobid: 1
+    reason: Missing output files: 03_PAN/Richelia-PAN.db; Input files updated by another job: 03_PAN/Richelia-GENOMES.db; Code has changed since last execution
+    threads: 4
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=4
+
+
+            anvi-pan-genome -g 03_PAN/Richelia-GENOMES.db --num-threads 4 -o 03_PAN --project-name Richelia                                                                                   >> 00_LOGS/Richelia-anvi_pan_genome.log 2>&1
+        
+[Tue Jun 25 18:49:42 2024]
+Finished job 1.
+2 of 4 steps (50%) done
+Select jobs to execute...
+
+[Tue Jun 25 18:49:42 2024]
+rule anvi_compute_genome_similarity:
+    input: 03_PAN/Richelia-PAN.db, external-genomes.txt, external-genomes.txt
+    output: 03_PAN/Richeliaanvi_compute_genome_similarity.done, 03_PAN/Richelia-ANI-OUTPUT
+    log: 00_LOGS/Richelia-anvi_compute_genome_similarity.log
+    jobid: 3
+    reason: Missing output files: 03_PAN/Richeliaanvi_compute_genome_similarity.done; Input files updated by another job: 03_PAN/Richelia-PAN.db
+    threads: 4
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=4
+
+ anvi-compute-genome-similarity                                              --external-genomes external-genomes.txt                                             -T 4                                             -o 03_PAN/Richelia-ANI-OUTPUT                                             -p 03_PAN/Richelia-PAN.db                                              >> 00_LOGS/Richelia-anvi_compute_genome_similarity.log 2>&1
+Touching output file 03_PAN/Richeliaanvi_compute_genome_similarity.done.
+[Tue Jun 25 19:07:39 2024]
+Finished job 3.
+3 of 4 steps (75%) done
+Select jobs to execute...
+
+[Tue Jun 25 19:07:39 2024]
+localrule pangenomics_target_rule:
+    input: 03_PAN/Richelia-PAN.db, 03_PAN/Richeliaanvi_compute_genome_similarity.done
+    jobid: 0
+    reason: Input files updated by another job: 03_PAN/Richelia-PAN.db, 03_PAN/Richeliaanvi_compute_genome_similarity.done
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T
+
+[Tue Jun 25 19:07:39 2024]
+Finished job 0.
+4 of 4 steps (100%) done
+Complete log: .snakemake/log/2024-06-25T184224.318579.snakemake.log

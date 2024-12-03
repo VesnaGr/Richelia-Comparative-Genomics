@@ -1,0 +1,15 @@
+Building DAG of jobs...
+Job stats:
+job                               count    min threads    max threads
+------------------------------  -------  -------------  -------------
+annotate_contigs_database            14              1              1
+anvi_compute_genome_similarity        1              1              1
+anvi_gen_contigs_database            14              1              1
+anvi_gen_genomes_storage              1              1              1
+anvi_pan_genome                       1              1              1
+anvi_run_scg_taxonomy                14              1              1
+anvi_script_reformat_fasta           14              1              1
+gen_external_genome_file              1              1              1
+pangenomics_target_rule               1              1              1
+total                                61              1              1
+

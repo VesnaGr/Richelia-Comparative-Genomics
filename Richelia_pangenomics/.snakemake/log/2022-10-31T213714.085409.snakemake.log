@@ -1,0 +1,7 @@
+Building DAG of jobs...
+MissingInputException in rule anvi_script_reformat_fasta_prefix_only  in line 62 of /Users/vesna/github/anvio/anvio/workflows/contigs/Snakefile:
+Missing input files for rule anvi_script_reformat_fasta_prefix_only:
+    output: 01_FASTA/BGEO_SAMN07136523_METAG_scaffolds_min500/BGEO_SAMN07136523_METAG_scaffolds_min500-contigs-prefix-formatted-only.fa, 01_FASTA/BGEO_SAMN07136523_METAG_scaffolds_min500/BGEO_SAMN07136523_METAG_scaffolds_min500-reformat-report.txt
+    wildcards: group=BGEO_SAMN07136523_METAG_scaffolds_min500
+    affected files:
+        /Users/vesna/github/anvio/anvio/data/EBAME/Richelia_genomes/genomes/BGEO_SAMN07136523_METAG_scaffolds_min500.fa

@@ -1,0 +1,1123 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job stats:
+job                                       count    min threads    max threads
+--------------------------------------  -------  -------------  -------------
+annotate_contigs_database                    17              1              1
+anvi_compute_genome_similarity                1              4              4
+anvi_gen_contigs_database                    17              4              4
+anvi_gen_genomes_storage                      1              1              1
+anvi_pan_genome                               1              4              4
+anvi_run_hmms                                 3              4              4
+anvi_run_kegg_kofams                          3              4              4
+anvi_run_ncbi_cogs                            3              4              4
+anvi_script_reformat_fasta                   17              1              1
+anvi_script_reformat_fasta_prefix_only        3              1              1
+gen_external_genome_file                      1              1              1
+pangenomics_target_rule                       1              1              1
+total                                        68              1              4
+
+Select jobs to execute...
+
+[Mon Dec 19 15:53:05 2022]
+rule anvi_script_reformat_fasta:
+    input: 01_FASTA/GCA_000613065_1_RintRC_1_genomic/GCA_000613065_1_RintRC_1_genomic-contigs-prefix-formatted-only.fa
+    output: 01_FASTA/GCA_000613065_1_RintRC_1_genomic/GCA_000613065_1_RintRC_1_genomic-contigs.fa
+    log: 00_LOGS/GCA_000613065_1_RintRC_1_genomic-anvi_script_reformat_fasta.log
+    jobid: 6
+    reason: Missing output files: 01_FASTA/GCA_000613065_1_RintRC_1_genomic/GCA_000613065_1_RintRC_1_genomic-contigs.fa
+    wildcards: group=GCA_000613065_1_RintRC_1_genomic
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=1
+
+anvi-script-reformat-fasta 01_FASTA/GCA_000613065_1_RintRC_1_genomic/GCA_000613065_1_RintRC_1_genomic-contigs-prefix-formatted-only.fa -o 01_FASTA/GCA_000613065_1_RintRC_1_genomic/GCA_000613065_1_RintRC_1_genomic-contigs.fa --seq-type NT  >> 00_LOGS/GCA_000613065_1_RintRC_1_genomic-anvi_script_reformat_fasta.log 2>&1
+
+[Mon Dec 19 15:53:05 2022]
+rule anvi_script_reformat_fasta:
+    input: 01_FASTA/GCF_900185595_1_CalSC01_2013_genomic/GCF_900185595_1_CalSC01_2013_genomic-contigs-prefix-formatted-only.fa
+    output: 01_FASTA/GCF_900185595_1_CalSC01_2013_genomic/GCF_900185595_1_CalSC01_2013_genomic-contigs.fa
+    log: 00_LOGS/GCF_900185595_1_CalSC01_2013_genomic-anvi_script_reformat_fasta.log
+    jobid: 55
+    reason: Missing output files: 01_FASTA/GCF_900185595_1_CalSC01_2013_genomic/GCF_900185595_1_CalSC01_2013_genomic-contigs.fa
+    wildcards: group=GCF_900185595_1_CalSC01_2013_genomic
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=1
+
+anvi-script-reformat-fasta 01_FASTA/GCF_900185595_1_CalSC01_2013_genomic/GCF_900185595_1_CalSC01_2013_genomic-contigs-prefix-formatted-only.fa -o 01_FASTA/GCF_900185595_1_CalSC01_2013_genomic/GCF_900185595_1_CalSC01_2013_genomic-contigs.fa --seq-type NT  >> 00_LOGS/GCF_900185595_1_CalSC01_2013_genomic-anvi_script_reformat_fasta.log 2>&1
+
+[Mon Dec 19 15:53:05 2022]
+rule anvi_script_reformat_fasta_prefix_only:
+    input: /Users/vesna/github/anvio/anvio/data/EBAME/Richelia_genomes/genomes/SRR11343830_6.fna
+    output: 01_FASTA/SRR11343830_6/SRR11343830_6-contigs-prefix-formatted-only.fa, 01_FASTA/SRR11343830_6/SRR11343830_6-reformat-report.txt
+    log: 00_LOGS/SRR11343830_6-anvi_script_reformat_fasta_prefix_only.log
+    jobid: 105
+    reason: Missing output files: 01_FASTA/SRR11343830_6/SRR11343830_6-contigs-prefix-formatted-only.fa; Updated input files: /Users/vesna/github/anvio/anvio/data/EBAME/Richelia_genomes/genomes/SRR11343830_6.fna
+    wildcards: group=SRR11343830_6
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=1
+
+anvi-script-reformat-fasta /Users/vesna/github/anvio/anvio/data/EBAME/Richelia_genomes/genomes/SRR11343830_6.fna -o 01_FASTA/SRR11343830_6/SRR11343830_6-contigs-prefix-formatted-only.fa -r 01_FASTA/SRR11343830_6/SRR11343830_6-reformat-report.txt --prefix SRR11343830_6   --simplify-names --seq-type NT >> 00_LOGS/SRR11343830_6-anvi_script_reformat_fasta_prefix_only.log 2>&1
+
+[Mon Dec 19 15:53:05 2022]
+rule anvi_script_reformat_fasta:
+    input: 01_FASTA/MARD_SAMEA3138990_REFG_MMP3138990/MARD_SAMEA3138990_REFG_MMP3138990-contigs-prefix-formatted-only.fa
+    output: 01_FASTA/MARD_SAMEA3138990_REFG_MMP3138990/MARD_SAMEA3138990_REFG_MMP3138990-contigs.fa
+    log: 00_LOGS/MARD_SAMEA3138990_REFG_MMP3138990-anvi_script_reformat_fasta.log
+    jobid: 90
+    reason: Missing output files: 01_FASTA/MARD_SAMEA3138990_REFG_MMP3138990/MARD_SAMEA3138990_REFG_MMP3138990-contigs.fa
+    wildcards: group=MARD_SAMEA3138990_REFG_MMP3138990
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=1
+
+anvi-script-reformat-fasta 01_FASTA/MARD_SAMEA3138990_REFG_MMP3138990/MARD_SAMEA3138990_REFG_MMP3138990-contigs-prefix-formatted-only.fa -o 01_FASTA/MARD_SAMEA3138990_REFG_MMP3138990/MARD_SAMEA3138990_REFG_MMP3138990-contigs.fa --seq-type NT  >> 00_LOGS/MARD_SAMEA3138990_REFG_MMP3138990-anvi_script_reformat_fasta.log 2>&1
+[Mon Dec 19 15:53:07 2022]
+Finished job 6.
+1 of 68 steps (1%) done
+Select jobs to execute...
+
+[Mon Dec 19 15:53:07 2022]
+rule anvi_script_reformat_fasta_prefix_only:
+    input: /Users/vesna/github/anvio/anvio/data/EBAME/Richelia_genomes/genomes/SRR11343838_34.fna
+    output: 01_FASTA/SRR11343838_34/SRR11343838_34-contigs-prefix-formatted-only.fa, 01_FASTA/SRR11343838_34/SRR11343838_34-reformat-report.txt
+    log: 00_LOGS/SRR11343838_34-anvi_script_reformat_fasta_prefix_only.log
+    jobid: 119
+    reason: Missing output files: 01_FASTA/SRR11343838_34/SRR11343838_34-contigs-prefix-formatted-only.fa; Updated input files: /Users/vesna/github/anvio/anvio/data/EBAME/Richelia_genomes/genomes/SRR11343838_34.fna
+    wildcards: group=SRR11343838_34
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=1
+
+anvi-script-reformat-fasta /Users/vesna/github/anvio/anvio/data/EBAME/Richelia_genomes/genomes/SRR11343838_34.fna -o 01_FASTA/SRR11343838_34/SRR11343838_34-contigs-prefix-formatted-only.fa -r 01_FASTA/SRR11343838_34/SRR11343838_34-reformat-report.txt --prefix SRR11343838_34   --simplify-names --seq-type NT >> 00_LOGS/SRR11343838_34-anvi_script_reformat_fasta_prefix_only.log 2>&1
+[Mon Dec 19 15:53:07 2022]
+Finished job 90.
+2 of 68 steps (3%) done
+Select jobs to execute...
+
+[Mon Dec 19 15:53:07 2022]
+rule anvi_script_reformat_fasta:
+    input: 01_FASTA/GCA_013214565_1_ASM1321456v1_genomic/GCA_013214565_1_ASM1321456v1_genomic-contigs-prefix-formatted-only.fa
+    output: 01_FASTA/GCA_013214565_1_ASM1321456v1_genomic/GCA_013214565_1_ASM1321456v1_genomic-contigs.fa
+    log: 00_LOGS/GCA_013214565_1_ASM1321456v1_genomic-anvi_script_reformat_fasta.log
+    jobid: 27
+    reason: Missing output files: 01_FASTA/GCA_013214565_1_ASM1321456v1_genomic/GCA_013214565_1_ASM1321456v1_genomic-contigs.fa
+    wildcards: group=GCA_013214565_1_ASM1321456v1_genomic
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=1
+
+anvi-script-reformat-fasta 01_FASTA/GCA_013214565_1_ASM1321456v1_genomic/GCA_013214565_1_ASM1321456v1_genomic-contigs-prefix-formatted-only.fa -o 01_FASTA/GCA_013214565_1_ASM1321456v1_genomic/GCA_013214565_1_ASM1321456v1_genomic-contigs.fa --seq-type NT  >> 00_LOGS/GCA_013214565_1_ASM1321456v1_genomic-anvi_script_reformat_fasta.log 2>&1
+Write-protecting output file 01_FASTA/SRR11343830_6/SRR11343830_6-contigs-prefix-formatted-only.fa.
+[Mon Dec 19 15:53:07 2022]
+Finished job 105.
+3 of 68 steps (4%) done
+Select jobs to execute...
+
+[Mon Dec 19 15:53:07 2022]
+rule anvi_script_reformat_fasta:
+    input: 01_FASTA/SRR11343830_6/SRR11343830_6-contigs-prefix-formatted-only.fa
+    output: 01_FASTA/SRR11343830_6/SRR11343830_6-contigs.fa
+    log: 00_LOGS/SRR11343830_6-anvi_script_reformat_fasta.log
+    jobid: 104
+    reason: Missing output files: 01_FASTA/SRR11343830_6/SRR11343830_6-contigs.fa; Input files updated by another job: 01_FASTA/SRR11343830_6/SRR11343830_6-contigs-prefix-formatted-only.fa
+    wildcards: group=SRR11343830_6
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=1
+
+anvi-script-reformat-fasta 01_FASTA/SRR11343830_6/SRR11343830_6-contigs-prefix-formatted-only.fa -o 01_FASTA/SRR11343830_6/SRR11343830_6-contigs.fa --seq-type NT  >> 00_LOGS/SRR11343830_6-anvi_script_reformat_fasta.log 2>&1
+[Mon Dec 19 15:53:07 2022]
+Finished job 55.
+4 of 68 steps (6%) done
+Select jobs to execute...
+
+[Mon Dec 19 15:53:07 2022]
+rule anvi_script_reformat_fasta:
+    input: 01_FASTA/GCA_900299445_1_Richelia_intracellularis_AM_2804_genomic/GCA_900299445_1_Richelia_intracellularis_AM_2804_genomic-contigs-prefix-formatted-only.fa
+    output: 01_FASTA/GCA_900299445_1_Richelia_intracellularis_AM_2804_genomic/GCA_900299445_1_Richelia_intracellularis_AM_2804_genomic-contigs.fa
+    log: 00_LOGS/GCA_900299445_1_Richelia_intracellularis_AM_2804_genomic-anvi_script_reformat_fasta.log
+    jobid: 34
+    reason: Missing output files: 01_FASTA/GCA_900299445_1_Richelia_intracellularis_AM_2804_genomic/GCA_900299445_1_Richelia_intracellularis_AM_2804_genomic-contigs.fa
+    wildcards: group=GCA_900299445_1_Richelia_intracellularis_AM_2804_genomic
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=1
+
+anvi-script-reformat-fasta 01_FASTA/GCA_900299445_1_Richelia_intracellularis_AM_2804_genomic/GCA_900299445_1_Richelia_intracellularis_AM_2804_genomic-contigs-prefix-formatted-only.fa -o 01_FASTA/GCA_900299445_1_Richelia_intracellularis_AM_2804_genomic/GCA_900299445_1_Richelia_intracellularis_AM_2804_genomic-contigs.fa --seq-type NT  >> 00_LOGS/GCA_900299445_1_Richelia_intracellularis_AM_2804_genomic-anvi_script_reformat_fasta.log 2>&1
+Write-protecting output file 01_FASTA/SRR11343838_34/SRR11343838_34-contigs-prefix-formatted-only.fa.
+[Mon Dec 19 15:53:09 2022]
+Finished job 119.
+5 of 68 steps (7%) done
+Select jobs to execute...
+
+[Mon Dec 19 15:53:09 2022]
+rule anvi_script_reformat_fasta:
+    input: 01_FASTA/SRR11343838_34/SRR11343838_34-contigs-prefix-formatted-only.fa
+    output: 01_FASTA/SRR11343838_34/SRR11343838_34-contigs.fa
+    log: 00_LOGS/SRR11343838_34-anvi_script_reformat_fasta.log
+    jobid: 118
+    reason: Missing output files: 01_FASTA/SRR11343838_34/SRR11343838_34-contigs.fa; Input files updated by another job: 01_FASTA/SRR11343838_34/SRR11343838_34-contigs-prefix-formatted-only.fa
+    wildcards: group=SRR11343838_34
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=1
+
+anvi-script-reformat-fasta 01_FASTA/SRR11343838_34/SRR11343838_34-contigs-prefix-formatted-only.fa -o 01_FASTA/SRR11343838_34/SRR11343838_34-contigs.fa --seq-type NT  >> 00_LOGS/SRR11343838_34-anvi_script_reformat_fasta.log 2>&1
+[Mon Dec 19 15:53:09 2022]
+Finished job 34.
+6 of 68 steps (9%) done
+Select jobs to execute...
+
+[Mon Dec 19 15:53:09 2022]
+rule anvi_script_reformat_fasta:
+    input: 01_FASTA/GCA_000350105_1_ASM35010v1_genomic/GCA_000350105_1_ASM35010v1_genomic-contigs-prefix-formatted-only.fa
+    output: 01_FASTA/GCA_000350105_1_ASM35010v1_genomic/GCA_000350105_1_ASM35010v1_genomic-contigs.fa
+    log: 00_LOGS/GCA_000350105_1_ASM35010v1_genomic-anvi_script_reformat_fasta.log
+    jobid: 41
+    reason: Missing output files: 01_FASTA/GCA_000350105_1_ASM35010v1_genomic/GCA_000350105_1_ASM35010v1_genomic-contigs.fa
+    wildcards: group=GCA_000350105_1_ASM35010v1_genomic
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=1
+
+anvi-script-reformat-fasta 01_FASTA/GCA_000350105_1_ASM35010v1_genomic/GCA_000350105_1_ASM35010v1_genomic-contigs-prefix-formatted-only.fa -o 01_FASTA/GCA_000350105_1_ASM35010v1_genomic/GCA_000350105_1_ASM35010v1_genomic-contigs.fa --seq-type NT  >> 00_LOGS/GCA_000350105_1_ASM35010v1_genomic-anvi_script_reformat_fasta.log 2>&1
+[Mon Dec 19 15:53:09 2022]
+Finished job 27.
+7 of 68 steps (10%) done
+Select jobs to execute...
+
+[Mon Dec 19 15:53:09 2022]
+rule anvi_script_reformat_fasta:
+    input: 01_FASTA/MARD_SAMEA2272692_REFG_MMP2272692/MARD_SAMEA2272692_REFG_MMP2272692-contigs-prefix-formatted-only.fa
+    output: 01_FASTA/MARD_SAMEA2272692_REFG_MMP2272692/MARD_SAMEA2272692_REFG_MMP2272692-contigs.fa
+    log: 00_LOGS/MARD_SAMEA2272692_REFG_MMP2272692-anvi_script_reformat_fasta.log
+    jobid: 83
+    reason: Missing output files: 01_FASTA/MARD_SAMEA2272692_REFG_MMP2272692/MARD_SAMEA2272692_REFG_MMP2272692-contigs.fa
+    wildcards: group=MARD_SAMEA2272692_REFG_MMP2272692
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=1
+
+anvi-script-reformat-fasta 01_FASTA/MARD_SAMEA2272692_REFG_MMP2272692/MARD_SAMEA2272692_REFG_MMP2272692-contigs-prefix-formatted-only.fa -o 01_FASTA/MARD_SAMEA2272692_REFG_MMP2272692/MARD_SAMEA2272692_REFG_MMP2272692-contigs.fa --seq-type NT  >> 00_LOGS/MARD_SAMEA2272692_REFG_MMP2272692-anvi_script_reformat_fasta.log 2>&1
+[Mon Dec 19 15:53:09 2022]
+Finished job 104.
+8 of 68 steps (12%) done
+Select jobs to execute...
+
+[Mon Dec 19 15:53:09 2022]
+rule anvi_script_reformat_fasta:
+    input: 01_FASTA/GCA_002377925_1_ASM237792v1_genomic/GCA_002377925_1_ASM237792v1_genomic-contigs-prefix-formatted-only.fa
+    output: 01_FASTA/GCA_002377925_1_ASM237792v1_genomic/GCA_002377925_1_ASM237792v1_genomic-contigs.fa
+    log: 00_LOGS/GCA_002377925_1_ASM237792v1_genomic-anvi_script_reformat_fasta.log
+    jobid: 13
+    reason: Missing output files: 01_FASTA/GCA_002377925_1_ASM237792v1_genomic/GCA_002377925_1_ASM237792v1_genomic-contigs.fa
+    wildcards: group=GCA_002377925_1_ASM237792v1_genomic
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=1
+
+anvi-script-reformat-fasta 01_FASTA/GCA_002377925_1_ASM237792v1_genomic/GCA_002377925_1_ASM237792v1_genomic-contigs-prefix-formatted-only.fa -o 01_FASTA/GCA_002377925_1_ASM237792v1_genomic/GCA_002377925_1_ASM237792v1_genomic-contigs.fa --seq-type NT  >> 00_LOGS/GCA_002377925_1_ASM237792v1_genomic-anvi_script_reformat_fasta.log 2>&1
+[Mon Dec 19 15:53:10 2022]
+Finished job 41.
+9 of 68 steps (13%) done
+Select jobs to execute...
+
+[Mon Dec 19 15:53:10 2022]
+rule anvi_script_reformat_fasta:
+    input: 01_FASTA/TARA_PON_109_MAG_00086/TARA_PON_109_MAG_00086-contigs-prefix-formatted-only.fa
+    output: 01_FASTA/TARA_PON_109_MAG_00086/TARA_PON_109_MAG_00086-contigs.fa
+    log: 00_LOGS/TARA_PON_109_MAG_00086-anvi_script_reformat_fasta.log
+    jobid: 69
+    reason: Missing output files: 01_FASTA/TARA_PON_109_MAG_00086/TARA_PON_109_MAG_00086-contigs.fa
+    wildcards: group=TARA_PON_109_MAG_00086
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=1
+
+anvi-script-reformat-fasta 01_FASTA/TARA_PON_109_MAG_00086/TARA_PON_109_MAG_00086-contigs-prefix-formatted-only.fa -o 01_FASTA/TARA_PON_109_MAG_00086/TARA_PON_109_MAG_00086-contigs.fa --seq-type NT  >> 00_LOGS/TARA_PON_109_MAG_00086-anvi_script_reformat_fasta.log 2>&1
+[Mon Dec 19 15:53:10 2022]
+Finished job 118.
+10 of 68 steps (15%) done
+Select jobs to execute...
+
+[Mon Dec 19 15:53:10 2022]
+rule anvi_script_reformat_fasta:
+    input: 01_FASTA/GCA_002470035_1_ASM247003v1_genomic/GCA_002470035_1_ASM247003v1_genomic-contigs-prefix-formatted-only.fa
+    output: 01_FASTA/GCA_002470035_1_ASM247003v1_genomic/GCA_002470035_1_ASM247003v1_genomic-contigs.fa
+    log: 00_LOGS/GCA_002470035_1_ASM247003v1_genomic-anvi_script_reformat_fasta.log
+    jobid: 20
+    reason: Missing output files: 01_FASTA/GCA_002470035_1_ASM247003v1_genomic/GCA_002470035_1_ASM247003v1_genomic-contigs.fa
+    wildcards: group=GCA_002470035_1_ASM247003v1_genomic
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=1
+
+anvi-script-reformat-fasta 01_FASTA/GCA_002470035_1_ASM247003v1_genomic/GCA_002470035_1_ASM247003v1_genomic-contigs-prefix-formatted-only.fa -o 01_FASTA/GCA_002470035_1_ASM247003v1_genomic/GCA_002470035_1_ASM247003v1_genomic-contigs.fa --seq-type NT  >> 00_LOGS/GCA_002470035_1_ASM247003v1_genomic-anvi_script_reformat_fasta.log 2>&1
+[Mon Dec 19 15:53:11 2022]
+Finished job 83.
+11 of 68 steps (16%) done
+Select jobs to execute...
+
+[Mon Dec 19 15:53:11 2022]
+rule anvi_script_reformat_fasta:
+    input: 01_FASTA/TARA_MED_95_MAG_00146/TARA_MED_95_MAG_00146-contigs-prefix-formatted-only.fa
+    output: 01_FASTA/TARA_MED_95_MAG_00146/TARA_MED_95_MAG_00146-contigs.fa
+    log: 00_LOGS/TARA_MED_95_MAG_00146-anvi_script_reformat_fasta.log
+    jobid: 62
+    reason: Missing output files: 01_FASTA/TARA_MED_95_MAG_00146/TARA_MED_95_MAG_00146-contigs.fa
+    wildcards: group=TARA_MED_95_MAG_00146
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=1
+
+anvi-script-reformat-fasta 01_FASTA/TARA_MED_95_MAG_00146/TARA_MED_95_MAG_00146-contigs-prefix-formatted-only.fa -o 01_FASTA/TARA_MED_95_MAG_00146/TARA_MED_95_MAG_00146-contigs.fa --seq-type NT  >> 00_LOGS/TARA_MED_95_MAG_00146-anvi_script_reformat_fasta.log 2>&1
+[Mon Dec 19 15:53:11 2022]
+Finished job 13.
+12 of 68 steps (18%) done
+Select jobs to execute...
+
+[Mon Dec 19 15:53:11 2022]
+rule anvi_script_reformat_fasta:
+    input: 01_FASTA/BGEO_SAMN07136523_METAG_IKJKMCAK/BGEO_SAMN07136523_METAG_IKJKMCAK-contigs-prefix-formatted-only.fa
+    output: 01_FASTA/BGEO_SAMN07136523_METAG_IKJKMCAK/BGEO_SAMN07136523_METAG_IKJKMCAK-contigs.fa
+    log: 00_LOGS/BGEO_SAMN07136523_METAG_IKJKMCAK-anvi_script_reformat_fasta.log
+    jobid: 97
+    reason: Missing output files: 01_FASTA/BGEO_SAMN07136523_METAG_IKJKMCAK/BGEO_SAMN07136523_METAG_IKJKMCAK-contigs.fa
+    wildcards: group=BGEO_SAMN07136523_METAG_IKJKMCAK
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=1
+
+anvi-script-reformat-fasta 01_FASTA/BGEO_SAMN07136523_METAG_IKJKMCAK/BGEO_SAMN07136523_METAG_IKJKMCAK-contigs-prefix-formatted-only.fa -o 01_FASTA/BGEO_SAMN07136523_METAG_IKJKMCAK/BGEO_SAMN07136523_METAG_IKJKMCAK-contigs.fa --seq-type NT  >> 00_LOGS/BGEO_SAMN07136523_METAG_IKJKMCAK-anvi_script_reformat_fasta.log 2>&1
+[Mon Dec 19 15:53:12 2022]
+Finished job 69.
+13 of 68 steps (19%) done
+Select jobs to execute...
+
+[Mon Dec 19 15:53:12 2022]
+rule anvi_script_reformat_fasta_prefix_only:
+    input: /Users/vesna/github/anvio/anvio/data/EBAME/Richelia_genomes/genomes/SRR11343830_31.fna
+    output: 01_FASTA/SRR11343830_31/SRR11343830_31-contigs-prefix-formatted-only.fa, 01_FASTA/SRR11343830_31/SRR11343830_31-reformat-report.txt
+    log: 00_LOGS/SRR11343830_31-anvi_script_reformat_fasta_prefix_only.log
+    jobid: 112
+    reason: Missing output files: 01_FASTA/SRR11343830_31/SRR11343830_31-contigs-prefix-formatted-only.fa; Updated input files: /Users/vesna/github/anvio/anvio/data/EBAME/Richelia_genomes/genomes/SRR11343830_31.fna
+    wildcards: group=SRR11343830_31
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=1
+
+anvi-script-reformat-fasta /Users/vesna/github/anvio/anvio/data/EBAME/Richelia_genomes/genomes/SRR11343830_31.fna -o 01_FASTA/SRR11343830_31/SRR11343830_31-contigs-prefix-formatted-only.fa -r 01_FASTA/SRR11343830_31/SRR11343830_31-reformat-report.txt --prefix SRR11343830_31   --simplify-names --seq-type NT >> 00_LOGS/SRR11343830_31-anvi_script_reformat_fasta_prefix_only.log 2>&1
+[Mon Dec 19 15:53:12 2022]
+Finished job 20.
+14 of 68 steps (21%) done
+Select jobs to execute...
+
+[Mon Dec 19 15:53:12 2022]
+rule anvi_script_reformat_fasta:
+    input: 01_FASTA/GCA_000350125_1_ASM35012v1_genomic/GCA_000350125_1_ASM35012v1_genomic-contigs-prefix-formatted-only.fa
+    output: 01_FASTA/GCA_000350125_1_ASM35012v1_genomic/GCA_000350125_1_ASM35012v1_genomic-contigs.fa
+    log: 00_LOGS/GCA_000350125_1_ASM35012v1_genomic-anvi_script_reformat_fasta.log
+    jobid: 48
+    reason: Missing output files: 01_FASTA/GCA_000350125_1_ASM35012v1_genomic/GCA_000350125_1_ASM35012v1_genomic-contigs.fa
+    wildcards: group=GCA_000350125_1_ASM35012v1_genomic
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=1
+
+anvi-script-reformat-fasta 01_FASTA/GCA_000350125_1_ASM35012v1_genomic/GCA_000350125_1_ASM35012v1_genomic-contigs-prefix-formatted-only.fa -o 01_FASTA/GCA_000350125_1_ASM35012v1_genomic/GCA_000350125_1_ASM35012v1_genomic-contigs.fa --seq-type NT  >> 00_LOGS/GCA_000350125_1_ASM35012v1_genomic-anvi_script_reformat_fasta.log 2>&1
+[Mon Dec 19 15:53:12 2022]
+Finished job 62.
+15 of 68 steps (22%) done
+Select jobs to execute...
+
+[Mon Dec 19 15:53:12 2022]
+rule anvi_script_reformat_fasta:
+    input: 01_FASTA/MARD_SAMEA2272302_REFG_MMP2272302/MARD_SAMEA2272302_REFG_MMP2272302-contigs-prefix-formatted-only.fa
+    output: 01_FASTA/MARD_SAMEA2272302_REFG_MMP2272302/MARD_SAMEA2272302_REFG_MMP2272302-contigs.fa
+    log: 00_LOGS/MARD_SAMEA2272302_REFG_MMP2272302-anvi_script_reformat_fasta.log
+    jobid: 76
+    reason: Missing output files: 01_FASTA/MARD_SAMEA2272302_REFG_MMP2272302/MARD_SAMEA2272302_REFG_MMP2272302-contigs.fa
+    wildcards: group=MARD_SAMEA2272302_REFG_MMP2272302
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=1
+
+anvi-script-reformat-fasta 01_FASTA/MARD_SAMEA2272302_REFG_MMP2272302/MARD_SAMEA2272302_REFG_MMP2272302-contigs-prefix-formatted-only.fa -o 01_FASTA/MARD_SAMEA2272302_REFG_MMP2272302/MARD_SAMEA2272302_REFG_MMP2272302-contigs.fa --seq-type NT  >> 00_LOGS/MARD_SAMEA2272302_REFG_MMP2272302-anvi_script_reformat_fasta.log 2>&1
+[Mon Dec 19 15:53:12 2022]
+Finished job 97.
+16 of 68 steps (24%) done
+Select jobs to execute...
+Write-protecting output file 01_FASTA/SRR11343830_31/SRR11343830_31-contigs-prefix-formatted-only.fa.
+[Mon Dec 19 15:53:13 2022]
+Finished job 112.
+17 of 68 steps (25%) done
+
+[Mon Dec 19 15:53:13 2022]
+rule anvi_script_reformat_fasta:
+    input: 01_FASTA/SRR11343830_31/SRR11343830_31-contigs-prefix-formatted-only.fa
+    output: 01_FASTA/SRR11343830_31/SRR11343830_31-contigs.fa
+    log: 00_LOGS/SRR11343830_31-anvi_script_reformat_fasta.log
+    jobid: 111
+    reason: Missing output files: 01_FASTA/SRR11343830_31/SRR11343830_31-contigs.fa; Input files updated by another job: 01_FASTA/SRR11343830_31/SRR11343830_31-contigs-prefix-formatted-only.fa
+    wildcards: group=SRR11343830_31
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=1
+
+anvi-script-reformat-fasta 01_FASTA/SRR11343830_31/SRR11343830_31-contigs-prefix-formatted-only.fa -o 01_FASTA/SRR11343830_31/SRR11343830_31-contigs.fa --seq-type NT  >> 00_LOGS/SRR11343830_31-anvi_script_reformat_fasta.log 2>&1
+[Mon Dec 19 15:53:13 2022]
+Finished job 48.
+18 of 68 steps (26%) done
+Select jobs to execute...
+[Mon Dec 19 15:53:13 2022]
+Finished job 76.
+19 of 68 steps (28%) done
+[Mon Dec 19 15:53:15 2022]
+Finished job 111.
+20 of 68 steps (29%) done
+
+[Mon Dec 19 15:53:15 2022]
+rule anvi_gen_contigs_database:
+    input: 01_FASTA/SRR11343830_6/SRR11343830_6-contigs.fa
+    output: 02_CONTIGS/SRR11343830_6-contigs.db
+    log: 00_LOGS/SRR11343830_6-anvi_gen_contigs_database.log
+    jobid: 103
+    reason: Missing output files: 02_CONTIGS/SRR11343830_6-contigs.db; Input files updated by another job: 01_FASTA/SRR11343830_6/SRR11343830_6-contigs.fa
+    wildcards: group=SRR11343830_6
+    threads: 4
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=4
+
+anvi-gen-contigs-database -f 01_FASTA/SRR11343830_6/SRR11343830_6-contigs.fa -o 02_CONTIGS/SRR11343830_6-contigs.db   --project-name SRR11343830_6         -T 4 >> 00_LOGS/SRR11343830_6-anvi_gen_contigs_database.log 2>&1
+[Mon Dec 19 15:53:31 2022]
+Finished job 103.
+21 of 68 steps (31%) done
+Removing temporary output 01_FASTA/SRR11343830_6/SRR11343830_6-contigs.fa.
+Select jobs to execute...
+
+[Mon Dec 19 15:53:31 2022]
+rule anvi_gen_contigs_database:
+    input: 01_FASTA/GCF_900185595_1_CalSC01_2013_genomic/GCF_900185595_1_CalSC01_2013_genomic-contigs.fa
+    output: 02_CONTIGS/GCF_900185595_1_CalSC01_2013_genomic-contigs.db
+    log: 00_LOGS/GCF_900185595_1_CalSC01_2013_genomic-anvi_gen_contigs_database.log
+    jobid: 54
+    reason: Input files updated by another job: 01_FASTA/GCF_900185595_1_CalSC01_2013_genomic/GCF_900185595_1_CalSC01_2013_genomic-contigs.fa; Params have changed since last execution
+    wildcards: group=GCF_900185595_1_CalSC01_2013_genomic
+    threads: 4
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=4
+
+anvi-gen-contigs-database -f 01_FASTA/GCF_900185595_1_CalSC01_2013_genomic/GCF_900185595_1_CalSC01_2013_genomic-contigs.fa -o 02_CONTIGS/GCF_900185595_1_CalSC01_2013_genomic-contigs.db   --project-name GCF_900185595_1_CalSC01_2013_genomic         -T 4 >> 00_LOGS/GCF_900185595_1_CalSC01_2013_genomic-anvi_gen_contigs_database.log 2>&1
+[Mon Dec 19 15:53:43 2022]
+Finished job 54.
+22 of 68 steps (32%) done
+Removing temporary output 01_FASTA/GCF_900185595_1_CalSC01_2013_genomic/GCF_900185595_1_CalSC01_2013_genomic-contigs.fa.
+Select jobs to execute...
+
+[Mon Dec 19 15:53:43 2022]
+rule anvi_gen_contigs_database:
+    input: 01_FASTA/MARD_SAMEA3138990_REFG_MMP3138990/MARD_SAMEA3138990_REFG_MMP3138990-contigs.fa
+    output: 02_CONTIGS/MARD_SAMEA3138990_REFG_MMP3138990-contigs.db
+    log: 00_LOGS/MARD_SAMEA3138990_REFG_MMP3138990-anvi_gen_contigs_database.log
+    jobid: 89
+    reason: Input files updated by another job: 01_FASTA/MARD_SAMEA3138990_REFG_MMP3138990/MARD_SAMEA3138990_REFG_MMP3138990-contigs.fa; Params have changed since last execution
+    wildcards: group=MARD_SAMEA3138990_REFG_MMP3138990
+    threads: 4
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=4
+
+anvi-gen-contigs-database -f 01_FASTA/MARD_SAMEA3138990_REFG_MMP3138990/MARD_SAMEA3138990_REFG_MMP3138990-contigs.fa -o 02_CONTIGS/MARD_SAMEA3138990_REFG_MMP3138990-contigs.db   --project-name MARD_SAMEA3138990_REFG_MMP3138990         -T 4 >> 00_LOGS/MARD_SAMEA3138990_REFG_MMP3138990-anvi_gen_contigs_database.log 2>&1
+[Mon Dec 19 15:53:55 2022]
+Finished job 89.
+23 of 68 steps (34%) done
+Removing temporary output 01_FASTA/MARD_SAMEA3138990_REFG_MMP3138990/MARD_SAMEA3138990_REFG_MMP3138990-contigs.fa.
+Select jobs to execute...
+
+[Mon Dec 19 15:53:55 2022]
+rule anvi_gen_contigs_database:
+    input: 01_FASTA/GCA_000613065_1_RintRC_1_genomic/GCA_000613065_1_RintRC_1_genomic-contigs.fa
+    output: 02_CONTIGS/GCA_000613065_1_RintRC_1_genomic-contigs.db
+    log: 00_LOGS/GCA_000613065_1_RintRC_1_genomic-anvi_gen_contigs_database.log
+    jobid: 5
+    reason: Input files updated by another job: 01_FASTA/GCA_000613065_1_RintRC_1_genomic/GCA_000613065_1_RintRC_1_genomic-contigs.fa; Params have changed since last execution
+    wildcards: group=GCA_000613065_1_RintRC_1_genomic
+    threads: 4
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=4
+
+anvi-gen-contigs-database -f 01_FASTA/GCA_000613065_1_RintRC_1_genomic/GCA_000613065_1_RintRC_1_genomic-contigs.fa -o 02_CONTIGS/GCA_000613065_1_RintRC_1_genomic-contigs.db   --project-name GCA_000613065_1_RintRC_1_genomic         -T 4 >> 00_LOGS/GCA_000613065_1_RintRC_1_genomic-anvi_gen_contigs_database.log 2>&1
+[Mon Dec 19 15:54:06 2022]
+Finished job 5.
+24 of 68 steps (35%) done
+Removing temporary output 01_FASTA/GCA_000613065_1_RintRC_1_genomic/GCA_000613065_1_RintRC_1_genomic-contigs.fa.
+Select jobs to execute...
+
+[Mon Dec 19 15:54:06 2022]
+rule anvi_gen_contigs_database:
+    input: 01_FASTA/SRR11343838_34/SRR11343838_34-contigs.fa
+    output: 02_CONTIGS/SRR11343838_34-contigs.db
+    log: 00_LOGS/SRR11343838_34-anvi_gen_contigs_database.log
+    jobid: 117
+    reason: Missing output files: 02_CONTIGS/SRR11343838_34-contigs.db; Input files updated by another job: 01_FASTA/SRR11343838_34/SRR11343838_34-contigs.fa
+    wildcards: group=SRR11343838_34
+    threads: 4
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=4
+
+anvi-gen-contigs-database -f 01_FASTA/SRR11343838_34/SRR11343838_34-contigs.fa -o 02_CONTIGS/SRR11343838_34-contigs.db   --project-name SRR11343838_34         -T 4 >> 00_LOGS/SRR11343838_34-anvi_gen_contigs_database.log 2>&1
+[Mon Dec 19 15:54:15 2022]
+Finished job 117.
+25 of 68 steps (37%) done
+Removing temporary output 01_FASTA/SRR11343838_34/SRR11343838_34-contigs.fa.
+Select jobs to execute...
+
+[Mon Dec 19 15:54:15 2022]
+rule anvi_gen_contigs_database:
+    input: 01_FASTA/GCA_013214565_1_ASM1321456v1_genomic/GCA_013214565_1_ASM1321456v1_genomic-contigs.fa
+    output: 02_CONTIGS/GCA_013214565_1_ASM1321456v1_genomic-contigs.db
+    log: 00_LOGS/GCA_013214565_1_ASM1321456v1_genomic-anvi_gen_contigs_database.log
+    jobid: 26
+    reason: Input files updated by another job: 01_FASTA/GCA_013214565_1_ASM1321456v1_genomic/GCA_013214565_1_ASM1321456v1_genomic-contigs.fa; Params have changed since last execution
+    wildcards: group=GCA_013214565_1_ASM1321456v1_genomic
+    threads: 4
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=4
+
+anvi-gen-contigs-database -f 01_FASTA/GCA_013214565_1_ASM1321456v1_genomic/GCA_013214565_1_ASM1321456v1_genomic-contigs.fa -o 02_CONTIGS/GCA_013214565_1_ASM1321456v1_genomic-contigs.db   --project-name GCA_013214565_1_ASM1321456v1_genomic         -T 4 >> 00_LOGS/GCA_013214565_1_ASM1321456v1_genomic-anvi_gen_contigs_database.log 2>&1
+[Mon Dec 19 15:54:24 2022]
+Finished job 26.
+26 of 68 steps (38%) done
+Removing temporary output 01_FASTA/GCA_013214565_1_ASM1321456v1_genomic/GCA_013214565_1_ASM1321456v1_genomic-contigs.fa.
+Select jobs to execute...
+
+[Mon Dec 19 15:54:24 2022]
+rule anvi_gen_contigs_database:
+    input: 01_FASTA/GCA_900299445_1_Richelia_intracellularis_AM_2804_genomic/GCA_900299445_1_Richelia_intracellularis_AM_2804_genomic-contigs.fa
+    output: 02_CONTIGS/GCA_900299445_1_Richelia_intracellularis_AM_2804_genomic-contigs.db
+    log: 00_LOGS/GCA_900299445_1_Richelia_intracellularis_AM_2804_genomic-anvi_gen_contigs_database.log
+    jobid: 33
+    reason: Input files updated by another job: 01_FASTA/GCA_900299445_1_Richelia_intracellularis_AM_2804_genomic/GCA_900299445_1_Richelia_intracellularis_AM_2804_genomic-contigs.fa; Params have changed since last execution
+    wildcards: group=GCA_900299445_1_Richelia_intracellularis_AM_2804_genomic
+    threads: 4
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=4
+
+anvi-gen-contigs-database -f 01_FASTA/GCA_900299445_1_Richelia_intracellularis_AM_2804_genomic/GCA_900299445_1_Richelia_intracellularis_AM_2804_genomic-contigs.fa -o 02_CONTIGS/GCA_900299445_1_Richelia_intracellularis_AM_2804_genomic-contigs.db   --project-name GCA_900299445_1_Richelia_intracellularis_AM_2804_genomic         -T 4 >> 00_LOGS/GCA_900299445_1_Richelia_intracellularis_AM_2804_genomic-anvi_gen_contigs_database.log 2>&1
+[Mon Dec 19 15:54:31 2022]
+Finished job 33.
+27 of 68 steps (40%) done
+Removing temporary output 01_FASTA/GCA_900299445_1_Richelia_intracellularis_AM_2804_genomic/GCA_900299445_1_Richelia_intracellularis_AM_2804_genomic-contigs.fa.
+Select jobs to execute...
+
+[Mon Dec 19 15:54:31 2022]
+rule anvi_gen_contigs_database:
+    input: 01_FASTA/GCA_000350105_1_ASM35010v1_genomic/GCA_000350105_1_ASM35010v1_genomic-contigs.fa
+    output: 02_CONTIGS/GCA_000350105_1_ASM35010v1_genomic-contigs.db
+    log: 00_LOGS/GCA_000350105_1_ASM35010v1_genomic-anvi_gen_contigs_database.log
+    jobid: 40
+    reason: Input files updated by another job: 01_FASTA/GCA_000350105_1_ASM35010v1_genomic/GCA_000350105_1_ASM35010v1_genomic-contigs.fa; Params have changed since last execution
+    wildcards: group=GCA_000350105_1_ASM35010v1_genomic
+    threads: 4
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=4
+
+anvi-gen-contigs-database -f 01_FASTA/GCA_000350105_1_ASM35010v1_genomic/GCA_000350105_1_ASM35010v1_genomic-contigs.fa -o 02_CONTIGS/GCA_000350105_1_ASM35010v1_genomic-contigs.db   --project-name GCA_000350105_1_ASM35010v1_genomic         -T 4 >> 00_LOGS/GCA_000350105_1_ASM35010v1_genomic-anvi_gen_contigs_database.log 2>&1
+[Mon Dec 19 15:54:39 2022]
+Finished job 40.
+28 of 68 steps (41%) done
+Removing temporary output 01_FASTA/GCA_000350105_1_ASM35010v1_genomic/GCA_000350105_1_ASM35010v1_genomic-contigs.fa.
+Select jobs to execute...
+
+[Mon Dec 19 15:54:39 2022]
+rule anvi_gen_contigs_database:
+    input: 01_FASTA/MARD_SAMEA2272692_REFG_MMP2272692/MARD_SAMEA2272692_REFG_MMP2272692-contigs.fa
+    output: 02_CONTIGS/MARD_SAMEA2272692_REFG_MMP2272692-contigs.db
+    log: 00_LOGS/MARD_SAMEA2272692_REFG_MMP2272692-anvi_gen_contigs_database.log
+    jobid: 82
+    reason: Input files updated by another job: 01_FASTA/MARD_SAMEA2272692_REFG_MMP2272692/MARD_SAMEA2272692_REFG_MMP2272692-contigs.fa; Params have changed since last execution
+    wildcards: group=MARD_SAMEA2272692_REFG_MMP2272692
+    threads: 4
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=4
+
+anvi-gen-contigs-database -f 01_FASTA/MARD_SAMEA2272692_REFG_MMP2272692/MARD_SAMEA2272692_REFG_MMP2272692-contigs.fa -o 02_CONTIGS/MARD_SAMEA2272692_REFG_MMP2272692-contigs.db   --project-name MARD_SAMEA2272692_REFG_MMP2272692         -T 4 >> 00_LOGS/MARD_SAMEA2272692_REFG_MMP2272692-anvi_gen_contigs_database.log 2>&1
+[Mon Dec 19 15:54:46 2022]
+Finished job 82.
+29 of 68 steps (43%) done
+Removing temporary output 01_FASTA/MARD_SAMEA2272692_REFG_MMP2272692/MARD_SAMEA2272692_REFG_MMP2272692-contigs.fa.
+Select jobs to execute...
+
+[Mon Dec 19 15:54:46 2022]
+rule anvi_gen_contigs_database:
+    input: 01_FASTA/GCA_002377925_1_ASM237792v1_genomic/GCA_002377925_1_ASM237792v1_genomic-contigs.fa
+    output: 02_CONTIGS/GCA_002377925_1_ASM237792v1_genomic-contigs.db
+    log: 00_LOGS/GCA_002377925_1_ASM237792v1_genomic-anvi_gen_contigs_database.log
+    jobid: 12
+    reason: Input files updated by another job: 01_FASTA/GCA_002377925_1_ASM237792v1_genomic/GCA_002377925_1_ASM237792v1_genomic-contigs.fa; Params have changed since last execution
+    wildcards: group=GCA_002377925_1_ASM237792v1_genomic
+    threads: 4
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=4
+
+anvi-gen-contigs-database -f 01_FASTA/GCA_002377925_1_ASM237792v1_genomic/GCA_002377925_1_ASM237792v1_genomic-contigs.fa -o 02_CONTIGS/GCA_002377925_1_ASM237792v1_genomic-contigs.db   --project-name GCA_002377925_1_ASM237792v1_genomic         -T 4 >> 00_LOGS/GCA_002377925_1_ASM237792v1_genomic-anvi_gen_contigs_database.log 2>&1
+[Mon Dec 19 15:54:53 2022]
+Finished job 12.
+30 of 68 steps (44%) done
+Removing temporary output 01_FASTA/GCA_002377925_1_ASM237792v1_genomic/GCA_002377925_1_ASM237792v1_genomic-contigs.fa.
+Select jobs to execute...
+
+[Mon Dec 19 15:54:53 2022]
+rule anvi_gen_contigs_database:
+    input: 01_FASTA/TARA_PON_109_MAG_00086/TARA_PON_109_MAG_00086-contigs.fa
+    output: 02_CONTIGS/TARA_PON_109_MAG_00086-contigs.db
+    log: 00_LOGS/TARA_PON_109_MAG_00086-anvi_gen_contigs_database.log
+    jobid: 68
+    reason: Input files updated by another job: 01_FASTA/TARA_PON_109_MAG_00086/TARA_PON_109_MAG_00086-contigs.fa; Params have changed since last execution
+    wildcards: group=TARA_PON_109_MAG_00086
+    threads: 4
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=4
+
+anvi-gen-contigs-database -f 01_FASTA/TARA_PON_109_MAG_00086/TARA_PON_109_MAG_00086-contigs.fa -o 02_CONTIGS/TARA_PON_109_MAG_00086-contigs.db   --project-name TARA_PON_109_MAG_00086         -T 4 >> 00_LOGS/TARA_PON_109_MAG_00086-anvi_gen_contigs_database.log 2>&1
+[Mon Dec 19 15:54:59 2022]
+Finished job 68.
+31 of 68 steps (46%) done
+Removing temporary output 01_FASTA/TARA_PON_109_MAG_00086/TARA_PON_109_MAG_00086-contigs.fa.
+Select jobs to execute...
+
+[Mon Dec 19 15:54:59 2022]
+rule anvi_gen_contigs_database:
+    input: 01_FASTA/GCA_002470035_1_ASM247003v1_genomic/GCA_002470035_1_ASM247003v1_genomic-contigs.fa
+    output: 02_CONTIGS/GCA_002470035_1_ASM247003v1_genomic-contigs.db
+    log: 00_LOGS/GCA_002470035_1_ASM247003v1_genomic-anvi_gen_contigs_database.log
+    jobid: 19
+    reason: Input files updated by another job: 01_FASTA/GCA_002470035_1_ASM247003v1_genomic/GCA_002470035_1_ASM247003v1_genomic-contigs.fa; Params have changed since last execution
+    wildcards: group=GCA_002470035_1_ASM247003v1_genomic
+    threads: 4
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=4
+
+anvi-gen-contigs-database -f 01_FASTA/GCA_002470035_1_ASM247003v1_genomic/GCA_002470035_1_ASM247003v1_genomic-contigs.fa -o 02_CONTIGS/GCA_002470035_1_ASM247003v1_genomic-contigs.db   --project-name GCA_002470035_1_ASM247003v1_genomic         -T 4 >> 00_LOGS/GCA_002470035_1_ASM247003v1_genomic-anvi_gen_contigs_database.log 2>&1
+[Mon Dec 19 15:55:05 2022]
+Finished job 19.
+32 of 68 steps (47%) done
+Removing temporary output 01_FASTA/GCA_002470035_1_ASM247003v1_genomic/GCA_002470035_1_ASM247003v1_genomic-contigs.fa.
+Select jobs to execute...
+
+[Mon Dec 19 15:55:05 2022]
+rule anvi_gen_contigs_database:
+    input: 01_FASTA/TARA_MED_95_MAG_00146/TARA_MED_95_MAG_00146-contigs.fa
+    output: 02_CONTIGS/TARA_MED_95_MAG_00146-contigs.db
+    log: 00_LOGS/TARA_MED_95_MAG_00146-anvi_gen_contigs_database.log
+    jobid: 61
+    reason: Input files updated by another job: 01_FASTA/TARA_MED_95_MAG_00146/TARA_MED_95_MAG_00146-contigs.fa; Params have changed since last execution
+    wildcards: group=TARA_MED_95_MAG_00146
+    threads: 4
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=4
+
+anvi-gen-contigs-database -f 01_FASTA/TARA_MED_95_MAG_00146/TARA_MED_95_MAG_00146-contigs.fa -o 02_CONTIGS/TARA_MED_95_MAG_00146-contigs.db   --project-name TARA_MED_95_MAG_00146         -T 4 >> 00_LOGS/TARA_MED_95_MAG_00146-anvi_gen_contigs_database.log 2>&1
+[Mon Dec 19 15:55:11 2022]
+Finished job 61.
+33 of 68 steps (49%) done
+Removing temporary output 01_FASTA/TARA_MED_95_MAG_00146/TARA_MED_95_MAG_00146-contigs.fa.
+Select jobs to execute...
+
+[Mon Dec 19 15:55:11 2022]
+rule anvi_gen_contigs_database:
+    input: 01_FASTA/BGEO_SAMN07136523_METAG_IKJKMCAK/BGEO_SAMN07136523_METAG_IKJKMCAK-contigs.fa
+    output: 02_CONTIGS/BGEO_SAMN07136523_METAG_IKJKMCAK-contigs.db
+    log: 00_LOGS/BGEO_SAMN07136523_METAG_IKJKMCAK-anvi_gen_contigs_database.log
+    jobid: 96
+    reason: Input files updated by another job: 01_FASTA/BGEO_SAMN07136523_METAG_IKJKMCAK/BGEO_SAMN07136523_METAG_IKJKMCAK-contigs.fa; Params have changed since last execution
+    wildcards: group=BGEO_SAMN07136523_METAG_IKJKMCAK
+    threads: 4
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=4
+
+anvi-gen-contigs-database -f 01_FASTA/BGEO_SAMN07136523_METAG_IKJKMCAK/BGEO_SAMN07136523_METAG_IKJKMCAK-contigs.fa -o 02_CONTIGS/BGEO_SAMN07136523_METAG_IKJKMCAK-contigs.db   --project-name BGEO_SAMN07136523_METAG_IKJKMCAK         -T 4 >> 00_LOGS/BGEO_SAMN07136523_METAG_IKJKMCAK-anvi_gen_contigs_database.log 2>&1
+[Mon Dec 19 15:55:16 2022]
+Finished job 96.
+34 of 68 steps (50%) done
+Removing temporary output 01_FASTA/BGEO_SAMN07136523_METAG_IKJKMCAK/BGEO_SAMN07136523_METAG_IKJKMCAK-contigs.fa.
+Select jobs to execute...
+
+[Mon Dec 19 15:55:16 2022]
+rule anvi_gen_contigs_database:
+    input: 01_FASTA/SRR11343830_31/SRR11343830_31-contigs.fa
+    output: 02_CONTIGS/SRR11343830_31-contigs.db
+    log: 00_LOGS/SRR11343830_31-anvi_gen_contigs_database.log
+    jobid: 110
+    reason: Missing output files: 02_CONTIGS/SRR11343830_31-contigs.db; Input files updated by another job: 01_FASTA/SRR11343830_31/SRR11343830_31-contigs.fa
+    wildcards: group=SRR11343830_31
+    threads: 4
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=4
+
+anvi-gen-contigs-database -f 01_FASTA/SRR11343830_31/SRR11343830_31-contigs.fa -o 02_CONTIGS/SRR11343830_31-contigs.db   --project-name SRR11343830_31         -T 4 >> 00_LOGS/SRR11343830_31-anvi_gen_contigs_database.log 2>&1
+[Mon Dec 19 15:55:21 2022]
+Finished job 110.
+35 of 68 steps (51%) done
+Removing temporary output 01_FASTA/SRR11343830_31/SRR11343830_31-contigs.fa.
+Select jobs to execute...
+
+[Mon Dec 19 15:55:21 2022]
+rule anvi_gen_contigs_database:
+    input: 01_FASTA/GCA_000350125_1_ASM35012v1_genomic/GCA_000350125_1_ASM35012v1_genomic-contigs.fa
+    output: 02_CONTIGS/GCA_000350125_1_ASM35012v1_genomic-contigs.db
+    log: 00_LOGS/GCA_000350125_1_ASM35012v1_genomic-anvi_gen_contigs_database.log
+    jobid: 47
+    reason: Input files updated by another job: 01_FASTA/GCA_000350125_1_ASM35012v1_genomic/GCA_000350125_1_ASM35012v1_genomic-contigs.fa; Params have changed since last execution
+    wildcards: group=GCA_000350125_1_ASM35012v1_genomic
+    threads: 4
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=4
+
+anvi-gen-contigs-database -f 01_FASTA/GCA_000350125_1_ASM35012v1_genomic/GCA_000350125_1_ASM35012v1_genomic-contigs.fa -o 02_CONTIGS/GCA_000350125_1_ASM35012v1_genomic-contigs.db   --project-name GCA_000350125_1_ASM35012v1_genomic         -T 4 >> 00_LOGS/GCA_000350125_1_ASM35012v1_genomic-anvi_gen_contigs_database.log 2>&1
+[Mon Dec 19 15:55:26 2022]
+Finished job 47.
+36 of 68 steps (53%) done
+Removing temporary output 01_FASTA/GCA_000350125_1_ASM35012v1_genomic/GCA_000350125_1_ASM35012v1_genomic-contigs.fa.
+Select jobs to execute...
+
+[Mon Dec 19 15:55:26 2022]
+rule anvi_gen_contigs_database:
+    input: 01_FASTA/MARD_SAMEA2272302_REFG_MMP2272302/MARD_SAMEA2272302_REFG_MMP2272302-contigs.fa
+    output: 02_CONTIGS/MARD_SAMEA2272302_REFG_MMP2272302-contigs.db
+    log: 00_LOGS/MARD_SAMEA2272302_REFG_MMP2272302-anvi_gen_contigs_database.log
+    jobid: 75
+    reason: Input files updated by another job: 01_FASTA/MARD_SAMEA2272302_REFG_MMP2272302/MARD_SAMEA2272302_REFG_MMP2272302-contigs.fa; Params have changed since last execution
+    wildcards: group=MARD_SAMEA2272302_REFG_MMP2272302
+    threads: 4
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=4
+
+anvi-gen-contigs-database -f 01_FASTA/MARD_SAMEA2272302_REFG_MMP2272302/MARD_SAMEA2272302_REFG_MMP2272302-contigs.fa -o 02_CONTIGS/MARD_SAMEA2272302_REFG_MMP2272302-contigs.db   --project-name MARD_SAMEA2272302_REFG_MMP2272302         -T 4 >> 00_LOGS/MARD_SAMEA2272302_REFG_MMP2272302-anvi_gen_contigs_database.log 2>&1
+[Mon Dec 19 15:55:31 2022]
+Finished job 75.
+37 of 68 steps (54%) done
+Removing temporary output 01_FASTA/MARD_SAMEA2272302_REFG_MMP2272302/MARD_SAMEA2272302_REFG_MMP2272302-contigs.fa.
+Select jobs to execute...
+
+[Mon Dec 19 15:55:31 2022]
+rule anvi_run_ncbi_cogs:
+    input: 02_CONTIGS/SRR11343830_6-contigs.db
+    output: 02_CONTIGS/anvi_run_ncbi_cogs-SRR11343830_6.done
+    log: 00_LOGS/SRR11343830_6-anvi_run_ncbi_cogs.log
+    jobid: 107
+    reason: Missing output files: 02_CONTIGS/anvi_run_ncbi_cogs-SRR11343830_6.done; Input files updated by another job: 02_CONTIGS/SRR11343830_6-contigs.db
+    wildcards: group=SRR11343830_6
+    threads: 4
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=4
+
+anvi-run-ncbi-cogs -c 02_CONTIGS/SRR11343830_6-contigs.db -T 4    >> 00_LOGS/SRR11343830_6-anvi_run_ncbi_cogs.log 2>&1
+Touching output file 02_CONTIGS/anvi_run_ncbi_cogs-SRR11343830_6.done.
+[Mon Dec 19 15:56:17 2022]
+Finished job 107.
+38 of 68 steps (56%) done
+Select jobs to execute...
+
+[Mon Dec 19 15:56:17 2022]
+rule anvi_run_kegg_kofams:
+    input: 02_CONTIGS/SRR11343830_6-contigs.db
+    output: 02_CONTIGS/anvi_run_kegg_kofams-SRR11343830_6.done
+    log: 00_LOGS/SRR11343830_6-anvi_run_kegg_kofams.log
+    jobid: 108
+    reason: Missing output files: 02_CONTIGS/anvi_run_kegg_kofams-SRR11343830_6.done; Input files updated by another job: 02_CONTIGS/SRR11343830_6-contigs.db
+    wildcards: group=SRR11343830_6
+    threads: 4
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=4
+
+anvi-run-kegg-kofams -c 02_CONTIGS/SRR11343830_6-contigs.db     -T 4  >> 00_LOGS/SRR11343830_6-anvi_run_kegg_kofams.log 2>&1
+Touching output file 02_CONTIGS/anvi_run_kegg_kofams-SRR11343830_6.done.
+[Mon Dec 19 16:11:37 2022]
+Finished job 108.
+39 of 68 steps (57%) done
+Select jobs to execute...
+
+[Mon Dec 19 16:11:37 2022]
+rule anvi_run_hmms:
+    input: 02_CONTIGS/SRR11343830_6-contigs.db
+    output: 02_CONTIGS/anvi_run_hmms-SRR11343830_6.done
+    log: 00_LOGS/SRR11343830_6-anvi_run_hmms.log
+    jobid: 106
+    reason: Missing output files: 02_CONTIGS/anvi_run_hmms-SRR11343830_6.done; Input files updated by another job: 02_CONTIGS/SRR11343830_6-contigs.db
+    wildcards: group=SRR11343830_6
+    threads: 4
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=4
+
+anvi-run-hmms -c 02_CONTIGS/SRR11343830_6-contigs.db -T 4   			  >> 00_LOGS/SRR11343830_6-anvi_run_hmms.log 2>&1
+Touching output file 02_CONTIGS/anvi_run_hmms-SRR11343830_6.done.
+[Mon Dec 19 16:11:55 2022]
+Finished job 106.
+40 of 68 steps (59%) done
+Select jobs to execute...
+
+[Mon Dec 19 16:11:55 2022]
+localrule annotate_contigs_database:
+    input: 02_CONTIGS/GCA_000613065_1_RintRC_1_genomic-contigs.db, 02_CONTIGS/anvi_run_hmms-GCA_000613065_1_RintRC_1_genomic.done, 02_CONTIGS/anvi_run_ncbi_cogs-GCA_000613065_1_RintRC_1_genomic.done, 02_CONTIGS/anvi_run_kegg_kofams-GCA_000613065_1_RintRC_1_genomic.done
+    output: 02_CONTIGS/GCA_000613065_1_RintRC_1_genomic-annotate_contigs_database.done
+    log: 00_LOGS/GCA_000613065_1_RintRC_1_genomic-annotate_contigs_database.log
+    jobid: 4
+    reason: Input files updated by another job: 02_CONTIGS/GCA_000613065_1_RintRC_1_genomic-contigs.db
+    wildcards: group=GCA_000613065_1_RintRC_1_genomic
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T
+
+[Mon Dec 19 16:11:55 2022]
+localrule annotate_contigs_database:
+    input: 02_CONTIGS/SRR11343830_6-contigs.db, 02_CONTIGS/anvi_run_hmms-SRR11343830_6.done, 02_CONTIGS/anvi_run_ncbi_cogs-SRR11343830_6.done, 02_CONTIGS/anvi_run_kegg_kofams-SRR11343830_6.done
+    output: 02_CONTIGS/SRR11343830_6-annotate_contigs_database.done
+    log: 00_LOGS/SRR11343830_6-annotate_contigs_database.log
+    jobid: 102
+    reason: Missing output files: 02_CONTIGS/SRR11343830_6-annotate_contigs_database.done; Input files updated by another job: 02_CONTIGS/anvi_run_ncbi_cogs-SRR11343830_6.done, 02_CONTIGS/SRR11343830_6-contigs.db, 02_CONTIGS/anvi_run_kegg_kofams-SRR11343830_6.done, 02_CONTIGS/anvi_run_hmms-SRR11343830_6.done
+    wildcards: group=SRR11343830_6
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T
+
+[Mon Dec 19 16:11:55 2022]
+localrule annotate_contigs_database:
+    input: 02_CONTIGS/GCF_900185595_1_CalSC01_2013_genomic-contigs.db, 02_CONTIGS/anvi_run_hmms-GCF_900185595_1_CalSC01_2013_genomic.done, 02_CONTIGS/anvi_run_ncbi_cogs-GCF_900185595_1_CalSC01_2013_genomic.done, 02_CONTIGS/anvi_run_kegg_kofams-GCF_900185595_1_CalSC01_2013_genomic.done
+    output: 02_CONTIGS/GCF_900185595_1_CalSC01_2013_genomic-annotate_contigs_database.done
+    log: 00_LOGS/GCF_900185595_1_CalSC01_2013_genomic-annotate_contigs_database.log
+    jobid: 53
+    reason: Input files updated by another job: 02_CONTIGS/GCF_900185595_1_CalSC01_2013_genomic-contigs.db
+    wildcards: group=GCF_900185595_1_CalSC01_2013_genomic
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T
+
+[Mon Dec 19 16:11:55 2022]
+localrule annotate_contigs_database:
+    input: 02_CONTIGS/MARD_SAMEA3138990_REFG_MMP3138990-contigs.db, 02_CONTIGS/anvi_run_hmms-MARD_SAMEA3138990_REFG_MMP3138990.done, 02_CONTIGS/anvi_run_ncbi_cogs-MARD_SAMEA3138990_REFG_MMP3138990.done, 02_CONTIGS/anvi_run_kegg_kofams-MARD_SAMEA3138990_REFG_MMP3138990.done
+    output: 02_CONTIGS/MARD_SAMEA3138990_REFG_MMP3138990-annotate_contigs_database.done
+    log: 00_LOGS/MARD_SAMEA3138990_REFG_MMP3138990-annotate_contigs_database.log
+    jobid: 88
+    reason: Input files updated by another job: 02_CONTIGS/MARD_SAMEA3138990_REFG_MMP3138990-contigs.db
+    wildcards: group=MARD_SAMEA3138990_REFG_MMP3138990
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T
+
+Touching output file 02_CONTIGS/GCA_000613065_1_RintRC_1_genomic-annotate_contigs_database.done.
+[Mon Dec 19 16:11:55 2022]
+Finished job 4.
+41 of 68 steps (60%) done
+Touching output file 02_CONTIGS/SRR11343830_6-annotate_contigs_database.done.
+[Mon Dec 19 16:11:55 2022]
+Finished job 102.
+42 of 68 steps (62%) done
+Touching output file 02_CONTIGS/GCF_900185595_1_CalSC01_2013_genomic-annotate_contigs_database.done.
+[Mon Dec 19 16:11:55 2022]
+Finished job 53.
+43 of 68 steps (63%) done
+Select jobs to execute...
+
+[Mon Dec 19 16:11:55 2022]
+localrule annotate_contigs_database:
+    input: 02_CONTIGS/BGEO_SAMN07136523_METAG_IKJKMCAK-contigs.db, 02_CONTIGS/anvi_run_hmms-BGEO_SAMN07136523_METAG_IKJKMCAK.done, 02_CONTIGS/anvi_run_ncbi_cogs-BGEO_SAMN07136523_METAG_IKJKMCAK.done, 02_CONTIGS/anvi_run_kegg_kofams-BGEO_SAMN07136523_METAG_IKJKMCAK.done
+    output: 02_CONTIGS/BGEO_SAMN07136523_METAG_IKJKMCAK-annotate_contigs_database.done
+    log: 00_LOGS/BGEO_SAMN07136523_METAG_IKJKMCAK-annotate_contigs_database.log
+    jobid: 95
+    reason: Input files updated by another job: 02_CONTIGS/BGEO_SAMN07136523_METAG_IKJKMCAK-contigs.db
+    wildcards: group=BGEO_SAMN07136523_METAG_IKJKMCAK
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T
+
+[Mon Dec 19 16:11:55 2022]
+localrule annotate_contigs_database:
+    input: 02_CONTIGS/GCA_013214565_1_ASM1321456v1_genomic-contigs.db, 02_CONTIGS/anvi_run_hmms-GCA_013214565_1_ASM1321456v1_genomic.done, 02_CONTIGS/anvi_run_ncbi_cogs-GCA_013214565_1_ASM1321456v1_genomic.done, 02_CONTIGS/anvi_run_kegg_kofams-GCA_013214565_1_ASM1321456v1_genomic.done
+    output: 02_CONTIGS/GCA_013214565_1_ASM1321456v1_genomic-annotate_contigs_database.done
+    log: 00_LOGS/GCA_013214565_1_ASM1321456v1_genomic-annotate_contigs_database.log
+    jobid: 25
+    reason: Input files updated by another job: 02_CONTIGS/GCA_013214565_1_ASM1321456v1_genomic-contigs.db
+    wildcards: group=GCA_013214565_1_ASM1321456v1_genomic
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T
+
+[Mon Dec 19 16:11:55 2022]
+localrule annotate_contigs_database:
+    input: 02_CONTIGS/GCA_900299445_1_Richelia_intracellularis_AM_2804_genomic-contigs.db, 02_CONTIGS/anvi_run_hmms-GCA_900299445_1_Richelia_intracellularis_AM_2804_genomic.done, 02_CONTIGS/anvi_run_ncbi_cogs-GCA_900299445_1_Richelia_intracellularis_AM_2804_genomic.done, 02_CONTIGS/anvi_run_kegg_kofams-GCA_900299445_1_Richelia_intracellularis_AM_2804_genomic.done
+    output: 02_CONTIGS/GCA_900299445_1_Richelia_intracellularis_AM_2804_genomic-annotate_contigs_database.done
+    log: 00_LOGS/GCA_900299445_1_Richelia_intracellularis_AM_2804_genomic-annotate_contigs_database.log
+    jobid: 32
+    reason: Input files updated by another job: 02_CONTIGS/GCA_900299445_1_Richelia_intracellularis_AM_2804_genomic-contigs.db
+    wildcards: group=GCA_900299445_1_Richelia_intracellularis_AM_2804_genomic
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T
+
+Touching output file 02_CONTIGS/MARD_SAMEA3138990_REFG_MMP3138990-annotate_contigs_database.done.
+[Mon Dec 19 16:11:55 2022]
+Finished job 88.
+44 of 68 steps (65%) done
+Touching output file 02_CONTIGS/BGEO_SAMN07136523_METAG_IKJKMCAK-annotate_contigs_database.done.
+[Mon Dec 19 16:11:55 2022]
+Finished job 95.
+45 of 68 steps (66%) done
+Touching output file 02_CONTIGS/GCA_013214565_1_ASM1321456v1_genomic-annotate_contigs_database.done.
+[Mon Dec 19 16:11:55 2022]
+Finished job 25.
+46 of 68 steps (68%) done
+Select jobs to execute...
+
+[Mon Dec 19 16:11:55 2022]
+localrule annotate_contigs_database:
+    input: 02_CONTIGS/TARA_PON_109_MAG_00086-contigs.db, 02_CONTIGS/anvi_run_hmms-TARA_PON_109_MAG_00086.done, 02_CONTIGS/anvi_run_ncbi_cogs-TARA_PON_109_MAG_00086.done, 02_CONTIGS/anvi_run_kegg_kofams-TARA_PON_109_MAG_00086.done
+    output: 02_CONTIGS/TARA_PON_109_MAG_00086-annotate_contigs_database.done
+    log: 00_LOGS/TARA_PON_109_MAG_00086-annotate_contigs_database.log
+    jobid: 67
+    reason: Input files updated by another job: 02_CONTIGS/TARA_PON_109_MAG_00086-contigs.db
+    wildcards: group=TARA_PON_109_MAG_00086
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T
+
+[Mon Dec 19 16:11:55 2022]
+localrule annotate_contigs_database:
+    input: 02_CONTIGS/TARA_MED_95_MAG_00146-contigs.db, 02_CONTIGS/anvi_run_hmms-TARA_MED_95_MAG_00146.done, 02_CONTIGS/anvi_run_ncbi_cogs-TARA_MED_95_MAG_00146.done, 02_CONTIGS/anvi_run_kegg_kofams-TARA_MED_95_MAG_00146.done
+    output: 02_CONTIGS/TARA_MED_95_MAG_00146-annotate_contigs_database.done
+    log: 00_LOGS/TARA_MED_95_MAG_00146-annotate_contigs_database.log
+    jobid: 60
+    reason: Input files updated by another job: 02_CONTIGS/TARA_MED_95_MAG_00146-contigs.db
+    wildcards: group=TARA_MED_95_MAG_00146
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T
+
+[Mon Dec 19 16:11:55 2022]
+localrule annotate_contigs_database:
+    input: 02_CONTIGS/GCA_002470035_1_ASM247003v1_genomic-contigs.db, 02_CONTIGS/anvi_run_hmms-GCA_002470035_1_ASM247003v1_genomic.done, 02_CONTIGS/anvi_run_ncbi_cogs-GCA_002470035_1_ASM247003v1_genomic.done, 02_CONTIGS/anvi_run_kegg_kofams-GCA_002470035_1_ASM247003v1_genomic.done
+    output: 02_CONTIGS/GCA_002470035_1_ASM247003v1_genomic-annotate_contigs_database.done
+    log: 00_LOGS/GCA_002470035_1_ASM247003v1_genomic-annotate_contigs_database.log
+    jobid: 18
+    reason: Input files updated by another job: 02_CONTIGS/GCA_002470035_1_ASM247003v1_genomic-contigs.db
+    wildcards: group=GCA_002470035_1_ASM247003v1_genomic
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T
+
+Touching output file 02_CONTIGS/GCA_900299445_1_Richelia_intracellularis_AM_2804_genomic-annotate_contigs_database.done.
+[Mon Dec 19 16:11:55 2022]
+Finished job 32.
+47 of 68 steps (69%) done
+Touching output file 02_CONTIGS/TARA_PON_109_MAG_00086-annotate_contigs_database.done.
+[Mon Dec 19 16:11:55 2022]
+Finished job 67.
+48 of 68 steps (71%) done
+Touching output file 02_CONTIGS/TARA_MED_95_MAG_00146-annotate_contigs_database.done.
+[Mon Dec 19 16:11:55 2022]
+Finished job 60.
+49 of 68 steps (72%) done
+Select jobs to execute...
+
+[Mon Dec 19 16:11:55 2022]
+localrule annotate_contigs_database:
+    input: 02_CONTIGS/GCA_000350105_1_ASM35010v1_genomic-contigs.db, 02_CONTIGS/anvi_run_hmms-GCA_000350105_1_ASM35010v1_genomic.done, 02_CONTIGS/anvi_run_ncbi_cogs-GCA_000350105_1_ASM35010v1_genomic.done, 02_CONTIGS/anvi_run_kegg_kofams-GCA_000350105_1_ASM35010v1_genomic.done
+    output: 02_CONTIGS/GCA_000350105_1_ASM35010v1_genomic-annotate_contigs_database.done
+    log: 00_LOGS/GCA_000350105_1_ASM35010v1_genomic-annotate_contigs_database.log
+    jobid: 39
+    reason: Input files updated by another job: 02_CONTIGS/GCA_000350105_1_ASM35010v1_genomic-contigs.db
+    wildcards: group=GCA_000350105_1_ASM35010v1_genomic
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T
+
+[Mon Dec 19 16:11:55 2022]
+localrule annotate_contigs_database:
+    input: 02_CONTIGS/GCA_002377925_1_ASM237792v1_genomic-contigs.db, 02_CONTIGS/anvi_run_hmms-GCA_002377925_1_ASM237792v1_genomic.done, 02_CONTIGS/anvi_run_ncbi_cogs-GCA_002377925_1_ASM237792v1_genomic.done, 02_CONTIGS/anvi_run_kegg_kofams-GCA_002377925_1_ASM237792v1_genomic.done
+    output: 02_CONTIGS/GCA_002377925_1_ASM237792v1_genomic-annotate_contigs_database.done
+    log: 00_LOGS/GCA_002377925_1_ASM237792v1_genomic-annotate_contigs_database.log
+    jobid: 11
+    reason: Input files updated by another job: 02_CONTIGS/GCA_002377925_1_ASM237792v1_genomic-contigs.db
+    wildcards: group=GCA_002377925_1_ASM237792v1_genomic
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T
+
+[Mon Dec 19 16:11:55 2022]
+localrule annotate_contigs_database:
+    input: 02_CONTIGS/MARD_SAMEA2272692_REFG_MMP2272692-contigs.db, 02_CONTIGS/anvi_run_hmms-MARD_SAMEA2272692_REFG_MMP2272692.done, 02_CONTIGS/anvi_run_ncbi_cogs-MARD_SAMEA2272692_REFG_MMP2272692.done, 02_CONTIGS/anvi_run_kegg_kofams-MARD_SAMEA2272692_REFG_MMP2272692.done
+    output: 02_CONTIGS/MARD_SAMEA2272692_REFG_MMP2272692-annotate_contigs_database.done
+    log: 00_LOGS/MARD_SAMEA2272692_REFG_MMP2272692-annotate_contigs_database.log
+    jobid: 81
+    reason: Input files updated by another job: 02_CONTIGS/MARD_SAMEA2272692_REFG_MMP2272692-contigs.db
+    wildcards: group=MARD_SAMEA2272692_REFG_MMP2272692
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T
+
+Touching output file 02_CONTIGS/GCA_002470035_1_ASM247003v1_genomic-annotate_contigs_database.done.
+[Mon Dec 19 16:11:55 2022]
+Finished job 18.
+50 of 68 steps (74%) done
+Touching output file 02_CONTIGS/GCA_000350105_1_ASM35010v1_genomic-annotate_contigs_database.done.
+[Mon Dec 19 16:11:55 2022]
+Finished job 39.
+51 of 68 steps (75%) done
+Touching output file 02_CONTIGS/GCA_002377925_1_ASM237792v1_genomic-annotate_contigs_database.done.
+[Mon Dec 19 16:11:55 2022]
+Finished job 11.
+52 of 68 steps (76%) done
+Select jobs to execute...
+
+[Mon Dec 19 16:11:55 2022]
+localrule annotate_contigs_database:
+    input: 02_CONTIGS/MARD_SAMEA2272302_REFG_MMP2272302-contigs.db, 02_CONTIGS/anvi_run_hmms-MARD_SAMEA2272302_REFG_MMP2272302.done, 02_CONTIGS/anvi_run_ncbi_cogs-MARD_SAMEA2272302_REFG_MMP2272302.done, 02_CONTIGS/anvi_run_kegg_kofams-MARD_SAMEA2272302_REFG_MMP2272302.done
+    output: 02_CONTIGS/MARD_SAMEA2272302_REFG_MMP2272302-annotate_contigs_database.done
+    log: 00_LOGS/MARD_SAMEA2272302_REFG_MMP2272302-annotate_contigs_database.log
+    jobid: 74
+    reason: Input files updated by another job: 02_CONTIGS/MARD_SAMEA2272302_REFG_MMP2272302-contigs.db
+    wildcards: group=MARD_SAMEA2272302_REFG_MMP2272302
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T
+
+[Mon Dec 19 16:11:55 2022]
+localrule annotate_contigs_database:
+    input: 02_CONTIGS/GCA_000350125_1_ASM35012v1_genomic-contigs.db, 02_CONTIGS/anvi_run_hmms-GCA_000350125_1_ASM35012v1_genomic.done, 02_CONTIGS/anvi_run_ncbi_cogs-GCA_000350125_1_ASM35012v1_genomic.done, 02_CONTIGS/anvi_run_kegg_kofams-GCA_000350125_1_ASM35012v1_genomic.done
+    output: 02_CONTIGS/GCA_000350125_1_ASM35012v1_genomic-annotate_contigs_database.done
+    log: 00_LOGS/GCA_000350125_1_ASM35012v1_genomic-annotate_contigs_database.log
+    jobid: 46
+    reason: Input files updated by another job: 02_CONTIGS/GCA_000350125_1_ASM35012v1_genomic-contigs.db
+    wildcards: group=GCA_000350125_1_ASM35012v1_genomic
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T
+
+Touching output file 02_CONTIGS/MARD_SAMEA2272692_REFG_MMP2272692-annotate_contigs_database.done.
+[Mon Dec 19 16:11:55 2022]
+Finished job 81.
+53 of 68 steps (78%) done
+Touching output file 02_CONTIGS/MARD_SAMEA2272302_REFG_MMP2272302-annotate_contigs_database.done.
+[Mon Dec 19 16:11:55 2022]
+Finished job 74.
+54 of 68 steps (79%) done
+Select jobs to execute...
+Touching output file 02_CONTIGS/GCA_000350125_1_ASM35012v1_genomic-annotate_contigs_database.done.
+[Mon Dec 19 16:11:55 2022]
+Finished job 46.
+55 of 68 steps (81%) done
+
+[Mon Dec 19 16:11:55 2022]
+rule anvi_run_ncbi_cogs:
+    input: 02_CONTIGS/SRR11343838_34-contigs.db
+    output: 02_CONTIGS/anvi_run_ncbi_cogs-SRR11343838_34.done
+    log: 00_LOGS/SRR11343838_34-anvi_run_ncbi_cogs.log
+    jobid: 121
+    reason: Missing output files: 02_CONTIGS/anvi_run_ncbi_cogs-SRR11343838_34.done; Input files updated by another job: 02_CONTIGS/SRR11343838_34-contigs.db
+    wildcards: group=SRR11343838_34
+    threads: 4
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=4
+
+anvi-run-ncbi-cogs -c 02_CONTIGS/SRR11343838_34-contigs.db -T 4    >> 00_LOGS/SRR11343838_34-anvi_run_ncbi_cogs.log 2>&1
+Select jobs to execute...
+Touching output file 02_CONTIGS/anvi_run_ncbi_cogs-SRR11343838_34.done.
+[Mon Dec 19 16:12:33 2022]
+Finished job 121.
+56 of 68 steps (82%) done
+
+[Mon Dec 19 16:12:33 2022]
+rule anvi_run_hmms:
+    input: 02_CONTIGS/SRR11343838_34-contigs.db
+    output: 02_CONTIGS/anvi_run_hmms-SRR11343838_34.done
+    log: 00_LOGS/SRR11343838_34-anvi_run_hmms.log
+    jobid: 120
+    reason: Missing output files: 02_CONTIGS/anvi_run_hmms-SRR11343838_34.done; Input files updated by another job: 02_CONTIGS/SRR11343838_34-contigs.db
+    wildcards: group=SRR11343838_34
+    threads: 4
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=4
+
+anvi-run-hmms -c 02_CONTIGS/SRR11343838_34-contigs.db -T 4   			  >> 00_LOGS/SRR11343838_34-anvi_run_hmms.log 2>&1
+Touching output file 02_CONTIGS/anvi_run_hmms-SRR11343838_34.done.
+[Mon Dec 19 16:12:45 2022]
+Finished job 120.
+57 of 68 steps (84%) done
+Select jobs to execute...
+
+[Mon Dec 19 16:12:45 2022]
+rule anvi_run_kegg_kofams:
+    input: 02_CONTIGS/SRR11343838_34-contigs.db
+    output: 02_CONTIGS/anvi_run_kegg_kofams-SRR11343838_34.done
+    log: 00_LOGS/SRR11343838_34-anvi_run_kegg_kofams.log
+    jobid: 122
+    reason: Missing output files: 02_CONTIGS/anvi_run_kegg_kofams-SRR11343838_34.done; Input files updated by another job: 02_CONTIGS/SRR11343838_34-contigs.db
+    wildcards: group=SRR11343838_34
+    threads: 4
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=4
+
+anvi-run-kegg-kofams -c 02_CONTIGS/SRR11343838_34-contigs.db     -T 4  >> 00_LOGS/SRR11343838_34-anvi_run_kegg_kofams.log 2>&1
+Touching output file 02_CONTIGS/anvi_run_kegg_kofams-SRR11343838_34.done.
+[Mon Dec 19 16:21:41 2022]
+Finished job 122.
+58 of 68 steps (85%) done
+Select jobs to execute...
+
+[Mon Dec 19 16:21:41 2022]
+localrule annotate_contigs_database:
+    input: 02_CONTIGS/SRR11343838_34-contigs.db, 02_CONTIGS/anvi_run_hmms-SRR11343838_34.done, 02_CONTIGS/anvi_run_ncbi_cogs-SRR11343838_34.done, 02_CONTIGS/anvi_run_kegg_kofams-SRR11343838_34.done
+    output: 02_CONTIGS/SRR11343838_34-annotate_contigs_database.done
+    log: 00_LOGS/SRR11343838_34-annotate_contigs_database.log
+    jobid: 116
+    reason: Missing output files: 02_CONTIGS/SRR11343838_34-annotate_contigs_database.done; Input files updated by another job: 02_CONTIGS/SRR11343838_34-contigs.db, 02_CONTIGS/anvi_run_kegg_kofams-SRR11343838_34.done, 02_CONTIGS/anvi_run_hmms-SRR11343838_34.done, 02_CONTIGS/anvi_run_ncbi_cogs-SRR11343838_34.done
+    wildcards: group=SRR11343838_34
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T
+
+Touching output file 02_CONTIGS/SRR11343838_34-annotate_contigs_database.done.
+[Mon Dec 19 16:21:41 2022]
+Finished job 116.
+59 of 68 steps (87%) done
+Select jobs to execute...
+
+[Mon Dec 19 16:21:41 2022]
+rule anvi_run_hmms:
+    input: 02_CONTIGS/SRR11343830_31-contigs.db
+    output: 02_CONTIGS/anvi_run_hmms-SRR11343830_31.done
+    log: 00_LOGS/SRR11343830_31-anvi_run_hmms.log
+    jobid: 113
+    reason: Missing output files: 02_CONTIGS/anvi_run_hmms-SRR11343830_31.done; Input files updated by another job: 02_CONTIGS/SRR11343830_31-contigs.db
+    wildcards: group=SRR11343830_31
+    threads: 4
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=4
+
+anvi-run-hmms -c 02_CONTIGS/SRR11343830_31-contigs.db -T 4   			  >> 00_LOGS/SRR11343830_31-anvi_run_hmms.log 2>&1
+Touching output file 02_CONTIGS/anvi_run_hmms-SRR11343830_31.done.
+[Mon Dec 19 16:21:49 2022]
+Finished job 113.
+60 of 68 steps (88%) done
+Select jobs to execute...
+
+[Mon Dec 19 16:21:49 2022]
+rule anvi_run_ncbi_cogs:
+    input: 02_CONTIGS/SRR11343830_31-contigs.db
+    output: 02_CONTIGS/anvi_run_ncbi_cogs-SRR11343830_31.done
+    log: 00_LOGS/SRR11343830_31-anvi_run_ncbi_cogs.log
+    jobid: 114
+    reason: Missing output files: 02_CONTIGS/anvi_run_ncbi_cogs-SRR11343830_31.done; Input files updated by another job: 02_CONTIGS/SRR11343830_31-contigs.db
+    wildcards: group=SRR11343830_31
+    threads: 4
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=4
+
+anvi-run-ncbi-cogs -c 02_CONTIGS/SRR11343830_31-contigs.db -T 4    >> 00_LOGS/SRR11343830_31-anvi_run_ncbi_cogs.log 2>&1
+Touching output file 02_CONTIGS/anvi_run_ncbi_cogs-SRR11343830_31.done.
+[Mon Dec 19 16:22:17 2022]
+Finished job 114.
+61 of 68 steps (90%) done
+Select jobs to execute...
+
+[Mon Dec 19 16:22:17 2022]
+rule anvi_run_kegg_kofams:
+    input: 02_CONTIGS/SRR11343830_31-contigs.db
+    output: 02_CONTIGS/anvi_run_kegg_kofams-SRR11343830_31.done
+    log: 00_LOGS/SRR11343830_31-anvi_run_kegg_kofams.log
+    jobid: 115
+    reason: Missing output files: 02_CONTIGS/anvi_run_kegg_kofams-SRR11343830_31.done; Input files updated by another job: 02_CONTIGS/SRR11343830_31-contigs.db
+    wildcards: group=SRR11343830_31
+    threads: 4
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=4
+
+anvi-run-kegg-kofams -c 02_CONTIGS/SRR11343830_31-contigs.db     -T 4  >> 00_LOGS/SRR11343830_31-anvi_run_kegg_kofams.log 2>&1
+Touching output file 02_CONTIGS/anvi_run_kegg_kofams-SRR11343830_31.done.
+[Mon Dec 19 16:27:32 2022]
+Finished job 115.
+62 of 68 steps (91%) done
+Select jobs to execute...
+
+[Mon Dec 19 16:27:32 2022]
+localrule annotate_contigs_database:
+    input: 02_CONTIGS/SRR11343830_31-contigs.db, 02_CONTIGS/anvi_run_hmms-SRR11343830_31.done, 02_CONTIGS/anvi_run_ncbi_cogs-SRR11343830_31.done, 02_CONTIGS/anvi_run_kegg_kofams-SRR11343830_31.done
+    output: 02_CONTIGS/SRR11343830_31-annotate_contigs_database.done
+    log: 00_LOGS/SRR11343830_31-annotate_contigs_database.log
+    jobid: 109
+    reason: Missing output files: 02_CONTIGS/SRR11343830_31-annotate_contigs_database.done; Input files updated by another job: 02_CONTIGS/anvi_run_hmms-SRR11343830_31.done, 02_CONTIGS/anvi_run_kegg_kofams-SRR11343830_31.done, 02_CONTIGS/anvi_run_ncbi_cogs-SRR11343830_31.done, 02_CONTIGS/SRR11343830_31-contigs.db
+    wildcards: group=SRR11343830_31
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T
+
+Touching output file 02_CONTIGS/SRR11343830_31-annotate_contigs_database.done.
+[Mon Dec 19 16:27:32 2022]
+Finished job 109.
+63 of 68 steps (93%) done
+Select jobs to execute...
+
+[Mon Dec 19 16:27:32 2022]
+rule gen_external_genome_file:
+    input: 02_CONTIGS/GCA_000613065_1_RintRC_1_genomic-annotate_contigs_database.done, 02_CONTIGS/GCA_002377925_1_ASM237792v1_genomic-annotate_contigs_database.done, 02_CONTIGS/GCA_002470035_1_ASM247003v1_genomic-annotate_contigs_database.done, 02_CONTIGS/GCA_013214565_1_ASM1321456v1_genomic-annotate_contigs_database.done, 02_CONTIGS/GCA_900299445_1_Richelia_intracellularis_AM_2804_genomic-annotate_contigs_database.done, 02_CONTIGS/GCA_000350105_1_ASM35010v1_genomic-annotate_contigs_database.done, 02_CONTIGS/GCA_000350125_1_ASM35012v1_genomic-annotate_contigs_database.done, 02_CONTIGS/GCF_900185595_1_CalSC01_2013_genomic-annotate_contigs_database.done, 02_CONTIGS/TARA_MED_95_MAG_00146-annotate_contigs_database.done, 02_CONTIGS/TARA_PON_109_MAG_00086-annotate_contigs_database.done, 02_CONTIGS/MARD_SAMEA2272302_REFG_MMP2272302-annotate_contigs_database.done, 02_CONTIGS/MARD_SAMEA2272692_REFG_MMP2272692-annotate_contigs_database.done, 02_CONTIGS/MARD_SAMEA3138990_REFG_MMP3138990-annotate_contigs_database.done, 02_CONTIGS/BGEO_SAMN07136523_METAG_IKJKMCAK-annotate_contigs_database.done, 02_CONTIGS/SRR11343830_6-annotate_contigs_database.done, 02_CONTIGS/SRR11343830_31-annotate_contigs_database.done, 02_CONTIGS/SRR11343838_34-annotate_contigs_database.done, 02_CONTIGS/GCA_000613065_1_RintRC_1_genomic-contigs.db, 02_CONTIGS/GCA_002377925_1_ASM237792v1_genomic-contigs.db, 02_CONTIGS/GCA_002470035_1_ASM247003v1_genomic-contigs.db, 02_CONTIGS/GCA_013214565_1_ASM1321456v1_genomic-contigs.db, 02_CONTIGS/GCA_900299445_1_Richelia_intracellularis_AM_2804_genomic-contigs.db, 02_CONTIGS/GCA_000350105_1_ASM35010v1_genomic-contigs.db, 02_CONTIGS/GCA_000350125_1_ASM35012v1_genomic-contigs.db, 02_CONTIGS/GCF_900185595_1_CalSC01_2013_genomic-contigs.db, 02_CONTIGS/TARA_MED_95_MAG_00146-contigs.db, 02_CONTIGS/TARA_PON_109_MAG_00086-contigs.db, 02_CONTIGS/MARD_SAMEA2272302_REFG_MMP2272302-contigs.db, 02_CONTIGS/MARD_SAMEA2272692_REFG_MMP2272692-contigs.db, 02_CONTIGS/MARD_SAMEA3138990_REFG_MMP3138990-contigs.db, 02_CONTIGS/BGEO_SAMN07136523_METAG_IKJKMCAK-contigs.db, 02_CONTIGS/SRR11343830_6-contigs.db, 02_CONTIGS/SRR11343830_31-contigs.db, 02_CONTIGS/SRR11343838_34-contigs.db
+    output: external-genomes.txt
+    log: 00_LOGS/gen_external_genome_file.log
+    jobid: 3
+    reason: Missing output files: external-genomes.txt; Input files updated by another job: 02_CONTIGS/GCA_002377925_1_ASM237792v1_genomic-contigs.db, 02_CONTIGS/GCA_000350125_1_ASM35012v1_genomic-contigs.db, 02_CONTIGS/SRR11343830_6-contigs.db, 02_CONTIGS/SRR11343830_31-annotate_contigs_database.done, 02_CONTIGS/BGEO_SAMN07136523_METAG_IKJKMCAK-contigs.db, 02_CONTIGS/GCA_002470035_1_ASM247003v1_genomic-contigs.db, 02_CONTIGS/BGEO_SAMN07136523_METAG_IKJKMCAK-annotate_contigs_database.done, 02_CONTIGS/MARD_SAMEA2272302_REFG_MMP2272302-contigs.db, 02_CONTIGS/MARD_SAMEA3138990_REFG_MMP3138990-contigs.db, 02_CONTIGS/SRR11343830_31-contigs.db, 02_CONTIGS/TARA_PON_109_MAG_00086-annotate_contigs_database.done, 02_CONTIGS/GCA_002377925_1_ASM237792v1_genomic-annotate_contigs_database.done, 02_CONTIGS/MARD_SAMEA2272302_REFG_MMP2272302-annotate_contigs_database.done, 02_CONTIGS/GCA_002470035_1_ASM247003v1_genomic-annotate_contigs_database.done, 02_CONTIGS/SRR11343838_34-contigs.db, 02_CONTIGS/MARD_SAMEA2272692_REFG_MMP2272692-contigs.db, 02_CONTIGS/GCA_000350105_1_ASM35010v1_genomic-annotate_contigs_database.done, 02_CONTIGS/TARA_MED_95_MAG_00146-contigs.db, 02_CONTIGS/MARD_SAMEA2272692_REFG_MMP2272692-annotate_contigs_database.done, 02_CONTIGS/GCF_900185595_1_CalSC01_2013_genomic-contigs.db, 02_CONTIGS/SRR11343838_34-annotate_contigs_database.done, 02_CONTIGS/TARA_MED_95_MAG_00146-annotate_contigs_database.done, 02_CONTIGS/GCA_000350125_1_ASM35012v1_genomic-annotate_contigs_database.done, 02_CONTIGS/MARD_SAMEA3138990_REFG_MMP3138990-annotate_contigs_database.done, 02_CONTIGS/GCA_013214565_1_ASM1321456v1_genomic-annotate_contigs_database.done, 02_CONTIGS/GCF_900185595_1_CalSC01_2013_genomic-annotate_contigs_database.done, 02_CONTIGS/GCA_900299445_1_Richelia_intracellularis_AM_2804_genomic-annotate_contigs_database.done, 02_CONTIGS/SRR11343830_6-annotate_contigs_database.done, 02_CONTIGS/GCA_000350105_1_ASM35010v1_genomic-contigs.db, 02_CONTIGS/GCA_000613065_1_RintRC_1_genomic-annotate_contigs_database.done, 02_CONTIGS/GCA_013214565_1_ASM1321456v1_genomic-contigs.db, 02_CONTIGS/GCA_000613065_1_RintRC_1_genomic-contigs.db, 02_CONTIGS/GCA_900299445_1_Richelia_intracellularis_AM_2804_genomic-contigs.db, 02_CONTIGS/TARA_PON_109_MAG_00086-contigs.db
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=1
+
+[Mon Dec 19 16:27:34 2022]
+Finished job 3.
+64 of 68 steps (94%) done
+Select jobs to execute...
+
+[Mon Dec 19 16:27:34 2022]
+rule anvi_gen_genomes_storage:
+    input: external-genomes.txt, external-genomes.txt
+    output: 03_PAN/Richelia-GENOMES.db
+    log: 00_LOGS/Richelia-anvi_gen_genomes_storage.log
+    jobid: 2
+    reason: Input files updated by another job: external-genomes.txt
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=1
+
+
+            anvi-gen-genomes-storage -o 03_PAN/Richelia-GENOMES.db                                                                          --external-genomes external-genomes.txt                                      >> 00_LOGS/Richelia-anvi_gen_genomes_storage.log 2>&1
+        
+[Mon Dec 19 16:27:41 2022]
+Finished job 2.
+65 of 68 steps (96%) done
+Select jobs to execute...
+
+[Mon Dec 19 16:27:41 2022]
+rule anvi_pan_genome:
+    input: 03_PAN/Richelia-GENOMES.db
+    output: 03_PAN/Richelia-PAN.db
+    log: 00_LOGS/Richelia-anvi_pan_genome.log
+    jobid: 1
+    reason: Input files updated by another job: 03_PAN/Richelia-GENOMES.db
+    threads: 4
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=4
+
+
+            anvi-pan-genome -g 03_PAN/Richelia-GENOMES.db --num-threads 4 -o 03_PAN --project-name Richelia                                                                                   >> 00_LOGS/Richelia-anvi_pan_genome.log 2>&1
+        
+[Mon Dec 19 16:28:03 2022]
+Error in rule anvi_pan_genome:
+    jobid: 1
+    output: 03_PAN/Richelia-PAN.db
+    log: 00_LOGS/Richelia-anvi_pan_genome.log (check log file(s) for error message)
+    shell:
+        
+            anvi-pan-genome -g 03_PAN/Richelia-GENOMES.db --num-threads 4 -o 03_PAN --project-name Richelia                                                                                   >> 00_LOGS/Richelia-anvi_pan_genome.log 2>&1
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job anvi_pan_genome since they might be corrupted:
+03_PAN/Richelia-PAN.db
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2022-12-19T155305.656364.snakemake.log

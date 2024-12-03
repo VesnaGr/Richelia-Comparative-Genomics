@@ -1,0 +1,42 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job stats:
+job                               count    min threads    max threads
+------------------------------  -------  -------------  -------------
+annotate_contigs_database            14              1              1
+anvi_compute_genome_similarity        1              4              4
+anvi_gen_genomes_storage              1              1              1
+anvi_pan_genome                       1              4              4
+anvi_run_scg_taxonomy                14              4              4
+gen_external_genome_file              1              1              1
+pangenomics_target_rule               1              1              1
+total                                33              1              4
+
+Select jobs to execute...
+
+[Tue Nov  8 21:08:40 2022]
+rule anvi_run_scg_taxonomy:
+    input: 02_CONTIGS/anvi_run_hmms-GCF_900185595_1_CalSC01_2013_genomic.done, 02_CONTIGS/GCF_900185595_1_CalSC01_2013_genomic-contigs.db
+    output: 02_CONTIGS/anvi_run_scg_taxonomy-GCF_900185595_1_CalSC01_2013_genomic.done
+    log: 00_LOGS/GCF_900185595_1_CalSC01_2013_genomic-anvi_run_scg_taxonomy.log
+    jobid: 67
+    reason: Missing output files: 02_CONTIGS/anvi_run_scg_taxonomy-GCF_900185595_1_CalSC01_2013_genomic.done
+    wildcards: group=GCF_900185595_1_CalSC01_2013_genomic
+    threads: 4
+    resources: tmpdir=/var/folders/rl/61bz6knj1sq7j72mdlqd5p240000gn/T, nodes=4
+
+anvi-run-scg-taxonomy -c 02_CONTIGS/GCF_900185595_1_CalSC01_2013_genomic-contigs.db -T 4  >> 00_LOGS/GCF_900185595_1_CalSC01_2013_genomic-anvi_run_scg_taxonomy.log 2>&1
+[Tue Nov  8 21:08:42 2022]
+Error in rule anvi_run_scg_taxonomy:
+    jobid: 67
+    output: 02_CONTIGS/anvi_run_scg_taxonomy-GCF_900185595_1_CalSC01_2013_genomic.done
+    log: 00_LOGS/GCF_900185595_1_CalSC01_2013_genomic-anvi_run_scg_taxonomy.log (check log file(s) for error message)
+    shell:
+        anvi-run-scg-taxonomy -c 02_CONTIGS/GCF_900185595_1_CalSC01_2013_genomic-contigs.db -T 4  >> 00_LOGS/GCF_900185595_1_CalSC01_2013_genomic-anvi_run_scg_taxonomy.log 2>&1
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2022-11-08T210839.968868.snakemake.log
