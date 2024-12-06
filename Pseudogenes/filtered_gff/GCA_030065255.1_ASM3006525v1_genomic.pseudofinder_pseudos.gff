@@ -1,0 +1,862 @@
+##gff-version 3
+#!annotation-date	2024-06-25 14:09:39
+##sequence-region FEJIJDIP_1 1 7135
+##sequence-region FEJIJDIP_2 1 28623
+##sequence-region FEJIJDIP_3 1 7203
+##sequence-region FEJIJDIP_4 1 7203
+##sequence-region FEJIJDIP_5 1 7196
+##sequence-region FEJIJDIP_6 1 7188
+##sequence-region FEJIJDIP_7 1 5692
+##sequence-region FEJIJDIP_8 1 5686
+##sequence-region FEJIJDIP_9 1 7226
+##sequence-region FEJIJDIP_10 1 7218
+##sequence-region FEJIJDIP_11 1 7242
+##sequence-region FEJIJDIP_12 1 7284
+##sequence-region FEJIJDIP_13 1 7284
+##sequence-region FEJIJDIP_14 1 29207
+##sequence-region FEJIJDIP_15 1 7363
+##sequence-region FEJIJDIP_16 1 7360
+##sequence-region FEJIJDIP_17 1 7380
+##sequence-region FEJIJDIP_18 1 7376
+##sequence-region FEJIJDIP_19 1 29314
+##sequence-region FEJIJDIP_20 1 7417
+##sequence-region FEJIJDIP_21 1 7408
+##sequence-region FEJIJDIP_22 1 5518
+##sequence-region FEJIJDIP_23 1 5551
+##sequence-region FEJIJDIP_24 1 29849
+##sequence-region FEJIJDIP_25 1 5577
+##sequence-region FEJIJDIP_26 1 5602
+##sequence-region FEJIJDIP_27 1 5627
+##sequence-region FEJIJDIP_28 1 5625
+##sequence-region FEJIJDIP_29 1 29959
+##sequence-region FEJIJDIP_30 1 30505
+##sequence-region FEJIJDIP_31 1 5383
+##sequence-region FEJIJDIP_32 1 5381
+##sequence-region FEJIJDIP_33 1 30122
+##sequence-region FEJIJDIP_34 1 5651
+##sequence-region FEJIJDIP_35 1 30704
+##sequence-region FEJIJDIP_36 1 5337
+##sequence-region FEJIJDIP_37 1 30683
+##sequence-region FEJIJDIP_38 1 5329
+##sequence-region FEJIJDIP_39 1 5661
+##sequence-region FEJIJDIP_40 1 30741
+##sequence-region FEJIJDIP_41 1 5741
+##sequence-region FEJIJDIP_42 1 5733
+##sequence-region FEJIJDIP_43 1 5746
+##sequence-region FEJIJDIP_44 1 5742
+##sequence-region FEJIJDIP_45 1 31452
+##sequence-region FEJIJDIP_46 1 5850
+##sequence-region FEJIJDIP_47 1 5128
+##sequence-region FEJIJDIP_48 1 5115
+##sequence-region FEJIJDIP_49 1 33053
+##sequence-region FEJIJDIP_50 1 5881
+##sequence-region FEJIJDIP_51 1 5878
+##sequence-region FEJIJDIP_52 1 32928
+##sequence-region FEJIJDIP_53 1 5889
+##sequence-region FEJIJDIP_54 1 33237
+##sequence-region FEJIJDIP_55 1 5956
+##sequence-region FEJIJDIP_56 1 5942
+##sequence-region FEJIJDIP_57 1 6022
+##sequence-region FEJIJDIP_58 1 6018
+##sequence-region FEJIJDIP_59 1 6076
+##sequence-region FEJIJDIP_60 1 6110
+##sequence-region FEJIJDIP_61 1 6140
+##sequence-region FEJIJDIP_62 1 6159
+##sequence-region FEJIJDIP_63 1 6155
+##sequence-region FEJIJDIP_64 1 6198
+##sequence-region FEJIJDIP_65 1 6274
+##sequence-region FEJIJDIP_66 1 6333
+##sequence-region FEJIJDIP_67 1 21281
+##sequence-region FEJIJDIP_68 1 21269
+##sequence-region FEJIJDIP_69 1 21641
+##sequence-region FEJIJDIP_70 1 21573
+##sequence-region FEJIJDIP_71 1 21566
+##sequence-region FEJIJDIP_72 1 21791
+##sequence-region FEJIJDIP_73 1 21884
+##sequence-region FEJIJDIP_74 1 21861
+##sequence-region FEJIJDIP_75 1 22186
+##sequence-region FEJIJDIP_76 1 22083
+##sequence-region FEJIJDIP_77 1 5016
+##sequence-region FEJIJDIP_78 1 5014
+##sequence-region FEJIJDIP_79 1 5006
+##sequence-region FEJIJDIP_80 1 22274
+##sequence-region FEJIJDIP_81 1 5102
+##sequence-region FEJIJDIP_82 1 22331
+##sequence-region FEJIJDIP_83 1 22576
+##sequence-region FEJIJDIP_84 1 5147
+##sequence-region FEJIJDIP_85 1 22557
+##sequence-region FEJIJDIP_86 1 22557
+##sequence-region FEJIJDIP_87 1 5209
+##sequence-region FEJIJDIP_88 1 5206
+##sequence-region FEJIJDIP_89 1 5278
+##sequence-region FEJIJDIP_90 1 5302
+##sequence-region FEJIJDIP_91 1 5309
+##sequence-region FEJIJDIP_92 1 5352
+##sequence-region FEJIJDIP_93 1 5419
+##sequence-region FEJIJDIP_94 1 5410
+##sequence-region FEJIJDIP_95 1 5470
+##sequence-region FEJIJDIP_96 1 23509
+##sequence-region FEJIJDIP_97 1 5495
+##sequence-region FEJIJDIP_98 1 23382
+##sequence-region FEJIJDIP_99 1 23314
+##sequence-region FEJIJDIP_100 1 23914
+##sequence-region FEJIJDIP_101 1 23908
+##sequence-region FEJIJDIP_102 1 25243
+##sequence-region FEJIJDIP_103 1 25198
+##sequence-region FEJIJDIP_104 1 25315
+##sequence-region FEJIJDIP_105 1 25387
+##sequence-region FEJIJDIP_106 1 25596
+##sequence-region FEJIJDIP_107 1 25761
+##sequence-region FEJIJDIP_108 1 26007
+##sequence-region FEJIJDIP_109 1 25951
+##sequence-region FEJIJDIP_110 1 26165
+##sequence-region FEJIJDIP_111 1 26120
+##sequence-region FEJIJDIP_112 1 26609
+##sequence-region FEJIJDIP_113 1 16500
+##sequence-region FEJIJDIP_114 1 16447
+##sequence-region FEJIJDIP_115 1 16651
+##sequence-region FEJIJDIP_116 1 16983
+##sequence-region FEJIJDIP_117 1 16939
+##sequence-region FEJIJDIP_118 1 17014
+##sequence-region FEJIJDIP_119 1 17140
+##sequence-region FEJIJDIP_120 1 17359
+##sequence-region FEJIJDIP_121 1 17353
+##sequence-region FEJIJDIP_122 1 17296
+##sequence-region FEJIJDIP_123 1 17693
+##sequence-region FEJIJDIP_124 1 17692
+##sequence-region FEJIJDIP_125 1 17880
+##sequence-region FEJIJDIP_126 1 18209
+##sequence-region FEJIJDIP_127 1 18196
+##sequence-region FEJIJDIP_128 1 18153
+##sequence-region FEJIJDIP_129 1 18228
+##sequence-region FEJIJDIP_130 1 18334
+##sequence-region FEJIJDIP_131 1 18329
+##sequence-region FEJIJDIP_132 1 18324
+##sequence-region FEJIJDIP_133 1 18469
+##sequence-region FEJIJDIP_134 1 18628
+##sequence-region FEJIJDIP_135 1 18839
+##sequence-region FEJIJDIP_136 1 18705
+##sequence-region FEJIJDIP_137 1 18952
+##sequence-region FEJIJDIP_138 1 19030
+##sequence-region FEJIJDIP_139 1 19010
+##sequence-region FEJIJDIP_140 1 18999
+##sequence-region FEJIJDIP_141 1 53463
+##sequence-region FEJIJDIP_142 1 19161
+##sequence-region FEJIJDIP_143 1 19124
+##sequence-region FEJIJDIP_144 1 19294
+##sequence-region FEJIJDIP_145 1 19293
+##sequence-region FEJIJDIP_146 1 19398
+##sequence-region FEJIJDIP_147 1 19322
+##sequence-region FEJIJDIP_148 1 19573
+##sequence-region FEJIJDIP_149 1 19688
+##sequence-region FEJIJDIP_150 1 19628
+##sequence-region FEJIJDIP_151 1 19973
+##sequence-region FEJIJDIP_152 1 19931
+##sequence-region FEJIJDIP_153 1 19923
+##sequence-region FEJIJDIP_154 1 19906
+##sequence-region FEJIJDIP_155 1 20053
+##sequence-region FEJIJDIP_156 1 20245
+##sequence-region FEJIJDIP_157 1 20202
+##sequence-region FEJIJDIP_158 1 20198
+##sequence-region FEJIJDIP_159 1 20167
+##sequence-region FEJIJDIP_160 1 20286
+##sequence-region FEJIJDIP_161 1 20614
+##sequence-region FEJIJDIP_162 1 20608
+##sequence-region FEJIJDIP_163 1 13071
+##sequence-region FEJIJDIP_164 1 13067
+##sequence-region FEJIJDIP_165 1 13060
+##sequence-region FEJIJDIP_166 1 13177
+##sequence-region FEJIJDIP_167 1 13134
+##sequence-region FEJIJDIP_168 1 13333
+##sequence-region FEJIJDIP_169 1 13297
+##sequence-region FEJIJDIP_170 1 13293
+##sequence-region FEJIJDIP_171 1 13333
+##sequence-region FEJIJDIP_172 1 13563
+##sequence-region FEJIJDIP_173 1 13538
+##sequence-region FEJIJDIP_174 1 13527
+##sequence-region FEJIJDIP_175 1 13659
+##sequence-region FEJIJDIP_176 1 13627
+##sequence-region FEJIJDIP_177 1 13626
+##sequence-region FEJIJDIP_178 1 13764
+##sequence-region FEJIJDIP_179 1 13873
+##sequence-region FEJIJDIP_180 1 13973
+##sequence-region FEJIJDIP_181 1 13892
+##sequence-region FEJIJDIP_182 1 13886
+##sequence-region FEJIJDIP_183 1 14059
+##sequence-region FEJIJDIP_184 1 14152
+##sequence-region FEJIJDIP_185 1 14135
+##sequence-region FEJIJDIP_186 1 14133
+##sequence-region FEJIJDIP_187 1 14124
+##sequence-region FEJIJDIP_188 1 14117
+##sequence-region FEJIJDIP_189 1 14405
+##sequence-region FEJIJDIP_190 1 14356
+##sequence-region FEJIJDIP_191 1 14327
+##sequence-region FEJIJDIP_192 1 14427
+##sequence-region FEJIJDIP_193 1 14550
+##sequence-region FEJIJDIP_194 1 14515
+##sequence-region FEJIJDIP_195 1 14702
+##sequence-region FEJIJDIP_196 1 14759
+##sequence-region FEJIJDIP_197 1 14900
+##sequence-region FEJIJDIP_198 1 14892
+##sequence-region FEJIJDIP_199 1 14880
+##sequence-region FEJIJDIP_200 1 14841
+##sequence-region FEJIJDIP_201 1 14950
+##sequence-region FEJIJDIP_202 1 14926
+##sequence-region FEJIJDIP_203 1 15040
+##sequence-region FEJIJDIP_204 1 15025
+##sequence-region FEJIJDIP_205 1 15216
+##sequence-region FEJIJDIP_206 1 15525
+##sequence-region FEJIJDIP_207 1 15519
+##sequence-region FEJIJDIP_208 1 15602
+##sequence-region FEJIJDIP_209 1 15552
+##sequence-region FEJIJDIP_210 1 15539
+##sequence-region FEJIJDIP_211 1 15775
+##sequence-region FEJIJDIP_212 1 15882
+##sequence-region FEJIJDIP_213 1 10866
+##sequence-region FEJIJDIP_214 1 16185
+##sequence-region FEJIJDIP_215 1 10641
+##sequence-region FEJIJDIP_216 1 10628
+##sequence-region FEJIJDIP_217 1 10619
+##sequence-region FEJIJDIP_218 1 10682
+##sequence-region FEJIJDIP_219 1 10663
+##sequence-region FEJIJDIP_220 1 10654
+##sequence-region FEJIJDIP_221 1 10733
+##sequence-region FEJIJDIP_222 1 10729
+##sequence-region FEJIJDIP_223 1 10790
+##sequence-region FEJIJDIP_224 1 10964
+##sequence-region FEJIJDIP_225 1 11065
+##sequence-region FEJIJDIP_226 1 11149
+##sequence-region FEJIJDIP_227 1 11133
+##sequence-region FEJIJDIP_228 1 11229
+##sequence-region FEJIJDIP_229 1 11359
+##sequence-region FEJIJDIP_230 1 11319
+##sequence-region FEJIJDIP_231 1 11419
+##sequence-region FEJIJDIP_232 1 9865
+##sequence-region FEJIJDIP_233 1 11545
+##sequence-region FEJIJDIP_234 1 11510
+##sequence-region FEJIJDIP_235 1 11601
+##sequence-region FEJIJDIP_236 1 11594
+##sequence-region FEJIJDIP_237 1 11667
+##sequence-region FEJIJDIP_238 1 11625
+##sequence-region FEJIJDIP_239 1 11726
+##sequence-region FEJIJDIP_240 1 11720
+##sequence-region FEJIJDIP_241 1 11706
+##sequence-region FEJIJDIP_242 1 9553
+##sequence-region FEJIJDIP_243 1 36127
+##sequence-region FEJIJDIP_244 1 11789
+##sequence-region FEJIJDIP_245 1 11766
+##sequence-region FEJIJDIP_246 1 36057
+##sequence-region FEJIJDIP_247 1 9441
+##sequence-region FEJIJDIP_248 1 11827
+##sequence-region FEJIJDIP_249 1 11903
+##sequence-region FEJIJDIP_250 1 11939
+##sequence-region FEJIJDIP_251 1 12070
+##sequence-region FEJIJDIP_252 1 12025
+##sequence-region FEJIJDIP_253 1 11986
+##sequence-region FEJIJDIP_254 1 12163
+##sequence-region FEJIJDIP_255 1 12129
+##sequence-region FEJIJDIP_256 1 12129
+##sequence-region FEJIJDIP_257 1 12121
+##sequence-region FEJIJDIP_258 1 12294
+##sequence-region FEJIJDIP_259 1 12327
+##sequence-region FEJIJDIP_260 1 12310
+##sequence-region FEJIJDIP_261 1 12390
+##sequence-region FEJIJDIP_262 1 36649
+##sequence-region FEJIJDIP_263 1 12482
+##sequence-region FEJIJDIP_264 1 12537
+##sequence-region FEJIJDIP_265 1 12654
+##sequence-region FEJIJDIP_266 1 12840
+##sequence-region FEJIJDIP_267 1 12834
+##sequence-region FEJIJDIP_268 1 12802
+##sequence-region FEJIJDIP_269 1 12907
+##sequence-region FEJIJDIP_270 1 12995
+##sequence-region FEJIJDIP_271 1 8742
+##sequence-region FEJIJDIP_272 1 8802
+##sequence-region FEJIJDIP_273 1 8786
+##sequence-region FEJIJDIP_274 1 8781
+##sequence-region FEJIJDIP_275 1 8768
+##sequence-region FEJIJDIP_276 1 8844
+##sequence-region FEJIJDIP_277 1 37742
+##sequence-region FEJIJDIP_278 1 8898
+##sequence-region FEJIJDIP_279 1 8897
+##sequence-region FEJIJDIP_280 1 8894
+##sequence-region FEJIJDIP_281 1 8892
+##sequence-region FEJIJDIP_282 1 8888
+##sequence-region FEJIJDIP_283 1 8943
+##sequence-region FEJIJDIP_284 1 8941
+##sequence-region FEJIJDIP_285 1 8960
+##sequence-region FEJIJDIP_286 1 9002
+##sequence-region FEJIJDIP_287 1 8989
+##sequence-region FEJIJDIP_288 1 9021
+##sequence-region FEJIJDIP_289 1 9096
+##sequence-region FEJIJDIP_290 1 9088
+##sequence-region FEJIJDIP_291 1 9123
+##sequence-region FEJIJDIP_292 1 9168
+##sequence-region FEJIJDIP_293 1 9250
+##sequence-region FEJIJDIP_294 1 9248
+##sequence-region FEJIJDIP_295 1 38822
+##sequence-region FEJIJDIP_296 1 33188
+##sequence-region FEJIJDIP_297 1 32864
+##sequence-region FEJIJDIP_298 1 9767
+##sequence-region FEJIJDIP_299 1 9831
+##sequence-region FEJIJDIP_300 1 9828
+##sequence-region FEJIJDIP_301 1 9821
+##sequence-region FEJIJDIP_302 1 9903
+##sequence-region FEJIJDIP_303 1 10020
+##sequence-region FEJIJDIP_304 1 10086
+##sequence-region FEJIJDIP_305 1 10066
+##sequence-region FEJIJDIP_306 1 10142
+##sequence-region FEJIJDIP_307 1 10196
+##sequence-region FEJIJDIP_308 1 39898
+##sequence-region FEJIJDIP_309 1 39628
+##sequence-region FEJIJDIP_310 1 10220
+##sequence-region FEJIJDIP_311 1 10342
+##sequence-region FEJIJDIP_312 1 10327
+##sequence-region FEJIJDIP_313 1 10399
+##sequence-region FEJIJDIP_314 1 10460
+##sequence-region FEJIJDIP_315 1 10519
+##sequence-region FEJIJDIP_316 1 40551
+##sequence-region FEJIJDIP_317 1 10544
+##sequence-region FEJIJDIP_318 1 7459
+##sequence-region FEJIJDIP_319 1 41442
+##sequence-region FEJIJDIP_320 1 7595
+##sequence-region FEJIJDIP_321 1 7582
+##sequence-region FEJIJDIP_322 1 7581
+##sequence-region FEJIJDIP_323 1 7577
+##sequence-region FEJIJDIP_324 1 41989
+##sequence-region FEJIJDIP_325 1 7639
+##sequence-region FEJIJDIP_326 1 7742
+##sequence-region FEJIJDIP_327 1 7733
+##sequence-region FEJIJDIP_328 1 7815
+##sequence-region FEJIJDIP_329 1 7858
+##sequence-region FEJIJDIP_330 1 7837
+##sequence-region FEJIJDIP_331 1 7829
+##sequence-region FEJIJDIP_332 1 7876
+##sequence-region FEJIJDIP_333 1 44539
+##sequence-region FEJIJDIP_334 1 8050
+##sequence-region FEJIJDIP_335 1 8078
+##sequence-region FEJIJDIP_336 1 6881
+##sequence-region FEJIJDIP_337 1 6877
+##sequence-region FEJIJDIP_338 1 8102
+##sequence-region FEJIJDIP_339 1 8100
+##sequence-region FEJIJDIP_340 1 8200
+##sequence-region FEJIJDIP_341 1 8224
+##sequence-region FEJIJDIP_342 1 8254
+##sequence-region FEJIJDIP_343 1 8292
+##sequence-region FEJIJDIP_344 1 46741
+##sequence-region FEJIJDIP_345 1 8310
+##sequence-region FEJIJDIP_346 1 8375
+##sequence-region FEJIJDIP_347 1 8371
+##sequence-region FEJIJDIP_348 1 8367
+##sequence-region FEJIJDIP_349 1 8417
+##sequence-region FEJIJDIP_350 1 8411
+##sequence-region FEJIJDIP_351 1 8397
+##sequence-region FEJIJDIP_352 1 8460
+##sequence-region FEJIJDIP_353 1 8456
+##sequence-region FEJIJDIP_354 1 8444
+##sequence-region FEJIJDIP_355 1 47778
+##sequence-region FEJIJDIP_356 1 8617
+##sequence-region FEJIJDIP_357 1 8605
+##sequence-region FEJIJDIP_358 1 8649
+##sequence-region FEJIJDIP_359 1 8679
+##sequence-region FEJIJDIP_360 1 49161
+##sequence-region FEJIJDIP_361 1 68023
+##sequence-region FEJIJDIP_362 1 6444
+##sequence-region FEJIJDIP_363 1 26862
+##sequence-region FEJIJDIP_364 1 6453
+##sequence-region FEJIJDIP_365 1 26720
+##sequence-region FEJIJDIP_366 1 6501
+##sequence-region FEJIJDIP_367 1 6522
+##sequence-region FEJIJDIP_368 1 6556
+##sequence-region FEJIJDIP_369 1 6575
+##sequence-region FEJIJDIP_370 1 6600
+##sequence-region FEJIJDIP_371 1 6668
+##sequence-region FEJIJDIP_372 1 6767
+##sequence-region FEJIJDIP_373 1 6913
+##sequence-region FEJIJDIP_374 1 6938
+##sequence-region FEJIJDIP_375 1 6962
+##sequence-region FEJIJDIP_376 1 28185
+##sequence-region FEJIJDIP_377 1 6980
+##sequence-region FEJIJDIP_378 1 7020
+##sequence-region FEJIJDIP_379 1 7007
+##sequence-region FEJIJDIP_380 1 5832
+##sequence-region FEJIJDIP_381 1 28223
+##sequence-region FEJIJDIP_382 1 28213
+##sequence-region FEJIJDIP_383 1 7094
+##sequence-region FEJIJDIP_384 1 7125
+FEJIJDIP_292	pseudofinder	gene	1	618	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 50.9%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_292_pseudo_00001;old_locus_tag=FEJIJDIP_03520
+FEJIJDIP_182	pseudofinder	gene	1	492	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 35.5%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_182_pseudo_00002;old_locus_tag=FEJIJDIP_02362
+FEJIJDIP_231	pseudofinder	gene	1	381	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 27.9%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_231_pseudo_00003;old_locus_tag=FEJIJDIP_02901
+FEJIJDIP_366	pseudofinder	gene	4	213	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 16.5%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_366_pseudo_00004;old_locus_tag=FEJIJDIP_04426
+FEJIJDIP_71	pseudofinder	gene	8	187	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 10.1%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_71_pseudo_00006;old_locus_tag=FEJIJDIP_00701
+FEJIJDIP_338	pseudofinder	gene	9	149	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 5.7%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_338_pseudo_00007;old_locus_tag=FEJIJDIP_04076
+FEJIJDIP_362	pseudofinder	gene	10	501	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 22.1%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_362_pseudo_00008;old_locus_tag=FEJIJDIP_04363
+FEJIJDIP_350	pseudofinder	gene	11	244	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 31.8%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_350_pseudo_00009;old_locus_tag=FEJIJDIP_04176
+FEJIJDIP_14	pseudofinder	gene	16	696	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 24.1%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_14_pseudo_00010;old_locus_tag=FEJIJDIP_00088
+FEJIJDIP_85	pseudofinder	gene	19	384	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 62.0%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_85_pseudo_00011;old_locus_tag=FEJIJDIP_00874
+FEJIJDIP_25	pseudofinder	gene	20	340	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 46.1%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_25_pseudo_00012;old_locus_tag=FEJIJDIP_00213
+FEJIJDIP_214	pseudofinder	gene	30	746	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 61.1%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_214_pseudo_00013;old_locus_tag=FEJIJDIP_02745
+FEJIJDIP_139	pseudofinder	gene	32	415	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 30.4%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_139_pseudo_00014;old_locus_tag=FEJIJDIP_01713
+FEJIJDIP_192	pseudofinder	gene	35	169	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 38.8%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_192_pseudo_00015;old_locus_tag=FEJIJDIP_02479
+FEJIJDIP_220	pseudofinder	gene	36	590	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 35.7%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_220_pseudo_00016;old_locus_tag=FEJIJDIP_02806
+FEJIJDIP_354	pseudofinder	gene	43	1092	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 39.6%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_354_pseudo_00017;old_locus_tag=FEJIJDIP_04199
+FEJIJDIP_287	pseudofinder	gene	54	317	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 38.3%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_287_pseudo_00018;old_locus_tag=FEJIJDIP_03487
+FEJIJDIP_239	pseudofinder	gene	60	2162	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 24.7%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_239_pseudo_00019;old_locus_tag=FEJIJDIP_02977
+FEJIJDIP_257	pseudofinder	gene	67	456	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 33.3%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_257_pseudo_00020;old_locus_tag=FEJIJDIP_03188
+FEJIJDIP_26	pseudofinder	gene	67	570	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 43.4%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_26_pseudo_00021;old_locus_tag=FEJIJDIP_00217
+FEJIJDIP_301	pseudofinder	gene	70	345	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 24.1%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_301_pseudo_00022;old_locus_tag=FEJIJDIP_03662
+FEJIJDIP_218	pseudofinder	gene	72	341	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 26.2%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_218_pseudo_00023;old_locus_tag=FEJIJDIP_02782
+FEJIJDIP_209	pseudofinder	gene	74	1306	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 137.6%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_209_pseudo_00024;old_locus_tag=FEJIJDIP_02683
+FEJIJDIP_135	pseudofinder	gene	76	2835	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 57.9%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_135_pseudo_00025;old_locus_tag=FEJIJDIP_01655
+FEJIJDIP_346	pseudofinder	gene	80	253	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 22.1%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_346_pseudo_00026;old_locus_tag=FEJIJDIP_04151
+FEJIJDIP_328	pseudofinder	gene	80	1051	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 62.8%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_328_pseudo_00027;old_locus_tag=FEJIJDIP_03991
+FEJIJDIP_355	pseudofinder	gene	80	3373	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 59.3%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_355_pseudo_00028;old_locus_tag=FEJIJDIP_04207
+FEJIJDIP_8	pseudofinder	gene	82	1854	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 45.3%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_8_pseudo_00029;old_locus_tag=FEJIJDIP_00052
+FEJIJDIP_347	pseudofinder	gene	87	215	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 17.1%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_347_pseudo_00030;old_locus_tag=FEJIJDIP_04158
+FEJIJDIP_91	pseudofinder	gene	89	700	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 63.2%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_91_pseudo_00031;old_locus_tag=FEJIJDIP_00940
+FEJIJDIP_19	pseudofinder	gene	97	1086	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 29.4%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_19_pseudo_00032;old_locus_tag=FEJIJDIP_00135
+FEJIJDIP_145	pseudofinder	gene	98	298	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 53.6%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_145_pseudo_00033;old_locus_tag=FEJIJDIP_01843
+FEJIJDIP_151	pseudofinder	gene	99	341	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 40.6%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_151_pseudo_00034;old_locus_tag=FEJIJDIP_01931
+FEJIJDIP_159	pseudofinder	gene	101	232	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 17.5%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_159_pseudo_00035;old_locus_tag=FEJIJDIP_02076
+FEJIJDIP_211	pseudofinder	gene	105	1241	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 43.5%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_211_pseudo_00036;old_locus_tag=FEJIJDIP_02712
+FEJIJDIP_268	pseudofinder	gene	106	420	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 150.0%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_268_pseudo_00037;old_locus_tag=FEJIJDIP_03322
+FEJIJDIP_283	pseudofinder	gene	108	245	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 21.0%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_283_pseudo_00038;old_locus_tag=FEJIJDIP_03457
+FEJIJDIP_141	pseudofinder	gene	114	398	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 36.3%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_141_pseudo_00039;old_locus_tag=FEJIJDIP_01753
+FEJIJDIP_351	pseudofinder	gene	124	474	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 50.0%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_351_pseudo_00040;old_locus_tag=FEJIJDIP_04184
+FEJIJDIP_107	pseudofinder	gene	131	337	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 35.9%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_107_pseudo_00041;old_locus_tag=FEJIJDIP_01160
+FEJIJDIP_324	pseudofinder	gene	141	413	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 44.9%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_324_pseudo_00042;old_locus_tag=FEJIJDIP_03925
+FEJIJDIP_341	pseudofinder	gene	145	393	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 35.5%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_341_pseudo_00043;old_locus_tag=FEJIJDIP_04095
+FEJIJDIP_272	pseudofinder	gene	160	855	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 63.9%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_272_pseudo_00044;old_locus_tag=FEJIJDIP_03363
+FEJIJDIP_56	pseudofinder	gene	161	754	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 41.3%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_56_pseudo_00045;old_locus_tag=FEJIJDIP_00571
+FEJIJDIP_263	pseudofinder	gene	165	1811	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 27.7%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_263_pseudo_00046;old_locus_tag=FEJIJDIP_03273
+FEJIJDIP_44	pseudofinder	gene	177	434	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 15.0%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_44_pseudo_00047;old_locus_tag=FEJIJDIP_00403
+FEJIJDIP_325	pseudofinder	gene	179	1210	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 38.4%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_325_pseudo_00048;old_locus_tag=FEJIJDIP_03966
+FEJIJDIP_195	pseudofinder	gene	191	1279	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 299.1%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_195_pseudo_00049;old_locus_tag=FEJIJDIP_02513
+FEJIJDIP_361	pseudofinder	gene	196	1557	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 135.4%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_361_pseudo_00050;old_locus_tag=FEJIJDIP_04307
+FEJIJDIP_197	pseudofinder	gene	223	305	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_197_pseudo_00051;old_locus_tag=FEJIJDIP_197_ign_00001
+FEJIJDIP_226	pseudofinder	gene	223	1353	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 25.1%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_226_pseudo_00052;old_locus_tag=FEJIJDIP_02858
+FEJIJDIP_312	pseudofinder	gene	225	1357	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_312_pseudo_00053;old_locus_tag=FEJIJDIP_312_ign_00001
+FEJIJDIP_322	pseudofinder	gene	231	2096	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 64.7%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_322_pseudo_00054;old_locus_tag=FEJIJDIP_03917
+FEJIJDIP_82	pseudofinder	gene	246	1334	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 38.3%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_82_pseudo_00055;old_locus_tag=FEJIJDIP_00837
+FEJIJDIP_357	pseudofinder	gene	251	805	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FEJIJDIP_357_pseudo_00056;old_locus_tag=FEJIJDIP_357_ign_00001,FEJIJDIP_04238
+FEJIJDIP_207	pseudofinder	gene	259	708	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 17.3%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_207_pseudo_00057;old_locus_tag=FEJIJDIP_02653
+FEJIJDIP_75	pseudofinder	gene	270	1168	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_75_pseudo_00058;old_locus_tag=FEJIJDIP_75_ign_00001
+FEJIJDIP_143	pseudofinder	gene	298	1341	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 136.7%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_143_pseudo_00059;old_locus_tag=FEJIJDIP_01813
+FEJIJDIP_106	pseudofinder	gene	348	455	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 8.2%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_106_pseudo_00061;old_locus_tag=FEJIJDIP_01133
+FEJIJDIP_100	pseudofinder	gene	363	680	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 163.1%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_100_pseudo_00062;old_locus_tag=FEJIJDIP_01022
+FEJIJDIP_320	pseudofinder	gene	369	911	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 147.9%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_320_pseudo_00063;old_locus_tag=FEJIJDIP_03905
+FEJIJDIP_248	pseudofinder	gene	374	3265	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 145.3%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_248_pseudo_00064;old_locus_tag=FEJIJDIP_03110
+FEJIJDIP_24	pseudofinder	gene	390	567	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_24_pseudo_00066;old_locus_tag=FEJIJDIP_24_ign_00001
+FEJIJDIP_52	pseudofinder	gene	464	715	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 48.5%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_52_pseudo_00067;old_locus_tag=FEJIJDIP_00510
+FEJIJDIP_27	pseudofinder	gene	468	1315	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_27_pseudo_00068;old_locus_tag=FEJIJDIP_27_ign_00001
+FEJIJDIP_106	pseudofinder	gene	481	938	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_106_pseudo_00069;old_locus_tag=FEJIJDIP_106_ign_00001
+FEJIJDIP_275	pseudofinder	gene	502	1115	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_275_pseudo_00071;old_locus_tag=FEJIJDIP_275_ign_00001
+FEJIJDIP_26	pseudofinder	gene	567	740	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 50.5%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_26_pseudo_00072;old_locus_tag=FEJIJDIP_00218
+FEJIJDIP_208	pseudofinder	gene	574	753	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 28.2%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_208_pseudo_00073;old_locus_tag=FEJIJDIP_02667
+FEJIJDIP_288	pseudofinder	gene	582	1638	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FEJIJDIP_288_pseudo_00074;old_locus_tag=FEJIJDIP_03493,FEJIJDIP_03494,FEJIJDIP_288_ign_00001
+FEJIJDIP_33	pseudofinder	gene	608	789	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_33_pseudo_00075;old_locus_tag=FEJIJDIP_33_ign_00001
+FEJIJDIP_168	pseudofinder	gene	623	753	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_168_pseudo_00076;old_locus_tag=FEJIJDIP_168_ign_00001
+FEJIJDIP_93	pseudofinder	gene	694	1421	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_93_pseudo_00077;old_locus_tag=FEJIJDIP_93_ign_00002
+FEJIJDIP_26	pseudofinder	gene	742	959	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_26_pseudo_00079;old_locus_tag=FEJIJDIP_26_ign_00001
+FEJIJDIP_290	pseudofinder	gene	787	1524	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 30.8%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_290_pseudo_00081;old_locus_tag=FEJIJDIP_03508
+FEJIJDIP_138	pseudofinder	gene	810	992	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 9.3%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_138_pseudo_00082;old_locus_tag=FEJIJDIP_01700
+FEJIJDIP_315	pseudofinder	gene	860	2523	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_315_pseudo_00083;old_locus_tag=FEJIJDIP_315_ign_00001
+FEJIJDIP_358	pseudofinder	gene	894	961	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_358_pseudo_00085;old_locus_tag=FEJIJDIP_358_ign_00001
+FEJIJDIP_188	pseudofinder	gene	963	1085	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 37.1%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_188_pseudo_00086;old_locus_tag=FEJIJDIP_02437
+FEJIJDIP_247	pseudofinder	gene	966	2257	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_247_pseudo_00087;old_locus_tag=FEJIJDIP_247_ign_00001
+FEJIJDIP_294	pseudofinder	gene	996	1631	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 48.5%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_294_pseudo_00089;old_locus_tag=FEJIJDIP_03537
+FEJIJDIP_284	pseudofinder	gene	1034	2385	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_284_pseudo_00091;old_locus_tag=FEJIJDIP_284_ign_00001
+FEJIJDIP_4	pseudofinder	gene	1044	1159	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_4_pseudo_00092;old_locus_tag=FEJIJDIP_4_ign_00001
+FEJIJDIP_285	pseudofinder	gene	1070	1383	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_285_pseudo_00093;old_locus_tag=FEJIJDIP_285_ign_00002
+FEJIJDIP_32	pseudofinder	gene	1092	2713	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_32_pseudo_00094;old_locus_tag=FEJIJDIP_32_ign_00001
+FEJIJDIP_182	pseudofinder	gene	1096	1292	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_182_pseudo_00095;old_locus_tag=FEJIJDIP_182_ign_00001
+FEJIJDIP_231	pseudofinder	gene	1142	1287	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=FEJIJDIP_231_pseudo_00096;old_locus_tag=FEJIJDIP_231_ign_00002
+FEJIJDIP_4	pseudofinder	gene	1161	1370	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 17.7%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_4_pseudo_00098;old_locus_tag=FEJIJDIP_00028
+FEJIJDIP_190	pseudofinder	gene	1166	1379	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_190_pseudo_00099;old_locus_tag=FEJIJDIP_190_ign_00001
+FEJIJDIP_221	pseudofinder	gene	1187	1704	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_221_pseudo_00100;old_locus_tag=FEJIJDIP_221_ign_00001
+FEJIJDIP_236	pseudofinder	gene	1228	1406	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_236_pseudo_00101;old_locus_tag=FEJIJDIP_236_ign_00001
+FEJIJDIP_278	pseudofinder	gene	1242	1697	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 185.4%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_278_pseudo_00102;old_locus_tag=FEJIJDIP_03428
+FEJIJDIP_25	pseudofinder	gene	1263	4565	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 152.8%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_25_pseudo_00103;old_locus_tag=FEJIJDIP_00215
+FEJIJDIP_314	pseudofinder	gene	1273	1529	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_314_pseudo_00104;old_locus_tag=FEJIJDIP_314_ign_00001
+FEJIJDIP_74	pseudofinder	gene	1292	1498	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_74_pseudo_00105;old_locus_tag=FEJIJDIP_74_ign_00001
+FEJIJDIP_48	pseudofinder	gene	1344	1751	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 29.2%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_48_pseudo_00108;old_locus_tag=FEJIJDIP_00464
+FEJIJDIP_324	pseudofinder	gene	1377	1580	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 13.5%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_324_pseudo_00111;old_locus_tag=FEJIJDIP_03926
+FEJIJDIP_381	pseudofinder	gene	1381	1848	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 140.7%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_381_pseudo_00112;old_locus_tag=FEJIJDIP_04525
+FEJIJDIP_285	pseudofinder	gene	1388	1834	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 48.9%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_285_pseudo_00113;old_locus_tag=FEJIJDIP_03477
+FEJIJDIP_241	pseudofinder	gene	1449	1543	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_241_pseudo_00114;old_locus_tag=FEJIJDIP_241_ign_00002
+FEJIJDIP_227	pseudofinder	gene	1460	1924	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 142.6%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_227_pseudo_00115;old_locus_tag=FEJIJDIP_02867
+FEJIJDIP_220	pseudofinder	gene	1505	2188	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 49.9%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_220_pseudo_00116;old_locus_tag=FEJIJDIP_02807
+FEJIJDIP_290	pseudofinder	gene	1542	3545	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 54.6%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_290_pseudo_00118;old_locus_tag=FEJIJDIP_03509
+FEJIJDIP_24	pseudofinder	gene	1583	1888	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 135.6%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_24_pseudo_00119;old_locus_tag=FEJIJDIP_00187
+FEJIJDIP_175	pseudofinder	gene	1614	1723	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 10 blast hits.;locus_tag=FEJIJDIP_175_pseudo_00120;old_locus_tag=FEJIJDIP_175_ign_00001
+FEJIJDIP_294	pseudofinder	gene	1635	2318	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 52.8%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_294_pseudo_00121;old_locus_tag=FEJIJDIP_03538
+FEJIJDIP_158	pseudofinder	gene	1686	1771	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_158_pseudo_00123;old_locus_tag=FEJIJDIP_158_ign_00002
+FEJIJDIP_93	pseudofinder	gene	1696	1940	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_93_pseudo_00124;old_locus_tag=FEJIJDIP_93_ign_00003
+FEJIJDIP_182	pseudofinder	gene	1750	5328	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 135.7%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_182_pseudo_00125;old_locus_tag=FEJIJDIP_02363
+FEJIJDIP_277	pseudofinder	gene	1817	1936	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 40.1%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_277_pseudo_00128;old_locus_tag=FEJIJDIP_03399
+FEJIJDIP_173	pseudofinder	gene	1857	1987	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_173_pseudo_00129;old_locus_tag=FEJIJDIP_173_ign_00002
+FEJIJDIP_382	pseudofinder	gene	1858	2027	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_382_pseudo_00130;old_locus_tag=FEJIJDIP_382_ign_00002
+FEJIJDIP_216	pseudofinder	gene	1885	2838	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 57.6%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_216_pseudo_00131;old_locus_tag=FEJIJDIP_02766
+FEJIJDIP_19	pseudofinder	gene	1896	2062	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_19_pseudo_00132;old_locus_tag=FEJIJDIP_19_ign_00002
+FEJIJDIP_273	pseudofinder	gene	1964	2194	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 39.7%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_273_pseudo_00134;old_locus_tag=FEJIJDIP_03369
+FEJIJDIP_347	pseudofinder	gene	2072	2241	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_347_pseudo_00135;old_locus_tag=FEJIJDIP_347_ign_00002
+FEJIJDIP_295	pseudofinder	gene	2088	2170	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=FEJIJDIP_295_pseudo_00136;old_locus_tag=FEJIJDIP_295_ign_00002
+FEJIJDIP_170	pseudofinder	gene	2135	2254	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 12.8%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_170_pseudo_00137;old_locus_tag=FEJIJDIP_02222
+FEJIJDIP_89	pseudofinder	gene	2226	4009	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 13 blast hits.;locus_tag=FEJIJDIP_89_pseudo_00140;old_locus_tag=FEJIJDIP_89_ign_00003
+FEJIJDIP_322	pseudofinder	gene	2246	2367	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=FEJIJDIP_322_pseudo_00141;old_locus_tag=FEJIJDIP_322_ign_00001
+FEJIJDIP_274	pseudofinder	gene	2263	2628	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=FEJIJDIP_274_pseudo_00142;old_locus_tag=FEJIJDIP_274_ign_00002
+FEJIJDIP_218	pseudofinder	gene	2345	2520	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_218_pseudo_00143;old_locus_tag=FEJIJDIP_218_ign_00002
+FEJIJDIP_96	pseudofinder	gene	2359	2679	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 58.0%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_96_pseudo_00144;old_locus_tag=FEJIJDIP_00970
+FEJIJDIP_343	pseudofinder	gene	2385	3986	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 177.7%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_343_pseudo_00145;old_locus_tag=FEJIJDIP_04105
+FEJIJDIP_294	pseudofinder	gene	2386	2536	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_294_pseudo_00146;old_locus_tag=FEJIJDIP_294_ign_00002
+FEJIJDIP_324	pseudofinder	gene	2410	4176	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 177.6%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_324_pseudo_00147;old_locus_tag=FEJIJDIP_03928
+FEJIJDIP_143	pseudofinder	gene	2427	2515	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=FEJIJDIP_143_pseudo_00148;old_locus_tag=FEJIJDIP_143_ign_00002
+FEJIJDIP_352	pseudofinder	gene	2432	2523	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=FEJIJDIP_352_pseudo_00149;old_locus_tag=FEJIJDIP_352_ign_00002
+FEJIJDIP_61	pseudofinder	gene	2434	2698	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_61_pseudo_00150;old_locus_tag=FEJIJDIP_61_ign_00002
+FEJIJDIP_16	pseudofinder	gene	2471	2699	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_16_pseudo_00152;old_locus_tag=FEJIJDIP_16_ign_00002
+FEJIJDIP_40	pseudofinder	gene	2473	2627	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 10 blast hits.;locus_tag=FEJIJDIP_40_pseudo_00153;old_locus_tag=FEJIJDIP_40_ign_00001
+FEJIJDIP_235	pseudofinder	gene	2475	2689	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=FEJIJDIP_235_pseudo_00154;old_locus_tag=FEJIJDIP_235_ign_00002
+FEJIJDIP_192	pseudofinder	gene	2521	3105	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 142.3%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_192_pseudo_00155;old_locus_tag=FEJIJDIP_02482
+FEJIJDIP_302	pseudofinder	gene	2526	2710	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 8 blast hits.;locus_tag=FEJIJDIP_302_pseudo_00156;old_locus_tag=FEJIJDIP_302_ign_00003
+FEJIJDIP_209	pseudofinder	gene	2544	2935	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FEJIJDIP_209_pseudo_00158;old_locus_tag=FEJIJDIP_02685,FEJIJDIP_209_ign_00003
+FEJIJDIP_138	pseudofinder	gene	2574	5072	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 148.1%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_138_pseudo_00160;old_locus_tag=FEJIJDIP_01702
+FEJIJDIP_262	pseudofinder	gene	2609	3060	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=FEJIJDIP_262_pseudo_00161;old_locus_tag=FEJIJDIP_262_ign_00003
+FEJIJDIP_170	pseudofinder	gene	2629	4062	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 47.7%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_170_pseudo_00162;old_locus_tag=FEJIJDIP_02223
+FEJIJDIP_282	pseudofinder	gene	2660	2769	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=FEJIJDIP_282_pseudo_00163;old_locus_tag=FEJIJDIP_282_ign_00001
+FEJIJDIP_85	pseudofinder	gene	2667	3071	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 38.4%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_85_pseudo_00164;old_locus_tag=FEJIJDIP_00878
+FEJIJDIP_28	pseudofinder	gene	2718	2930	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 40.3%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_28_pseudo_00165;old_locus_tag=FEJIJDIP_00230
+FEJIJDIP_84	pseudofinder	gene	2723	3538	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 31.3%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_84_pseudo_00166;old_locus_tag=FEJIJDIP_00871
+FEJIJDIP_118	pseudofinder	gene	2838	3107	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 11 blast hits.;locus_tag=FEJIJDIP_118_pseudo_00167;old_locus_tag=FEJIJDIP_118_ign_00002
+FEJIJDIP_333	pseudofinder	gene	2907	5099	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 178.3%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_333_pseudo_00168;old_locus_tag=FEJIJDIP_04028
+FEJIJDIP_315	pseudofinder	gene	2912	3111	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_315_pseudo_00169;old_locus_tag=FEJIJDIP_315_ign_00002
+FEJIJDIP_286	pseudofinder	gene	2914	3137	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_286_pseudo_00170;old_locus_tag=FEJIJDIP_286_ign_00001
+FEJIJDIP_135	pseudofinder	gene	2940	3362	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 49.1%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_135_pseudo_00171;old_locus_tag=FEJIJDIP_01656
+FEJIJDIP_59	pseudofinder	gene	2980	4017	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 56.3%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_59_pseudo_00172;old_locus_tag=FEJIJDIP_00587
+FEJIJDIP_86	pseudofinder	gene	2999	3268	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 50.8%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_86_pseudo_00173;old_locus_tag=FEJIJDIP_00897
+FEJIJDIP_228	pseudofinder	gene	3032	3283	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 210.0%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_228_pseudo_00174;old_locus_tag=FEJIJDIP_02879
+FEJIJDIP_283	pseudofinder	gene	3047	3337	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 48.5%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_283_pseudo_00175;old_locus_tag=FEJIJDIP_03459
+FEJIJDIP_291	pseudofinder	gene	3064	3894	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 61.0%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_291_pseudo_00176;old_locus_tag=FEJIJDIP_03516
+FEJIJDIP_237	pseudofinder	gene	3143	3862	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 154.8%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_237_pseudo_00177;old_locus_tag=FEJIJDIP_02963
+FEJIJDIP_55	pseudofinder	gene	3156	3322	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_55_pseudo_00178;old_locus_tag=FEJIJDIP_55_ign_00002
+FEJIJDIP_172	pseudofinder	gene	3167	3440	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_172_pseudo_00180;old_locus_tag=FEJIJDIP_172_ign_00003
+FEJIJDIP_45	pseudofinder	gene	3172	3852	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 49.4%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_45_pseudo_00181;old_locus_tag=FEJIJDIP_00410
+FEJIJDIP_188	pseudofinder	gene	3173	4339	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 64.7%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_188_pseudo_00182;old_locus_tag=FEJIJDIP_02440
+FEJIJDIP_326	pseudofinder	gene	3200	3429	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_326_pseudo_00183;old_locus_tag=FEJIJDIP_326_ign_00003
+FEJIJDIP_315	pseudofinder	gene	3226	3426	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 61.7%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_315_pseudo_00184;old_locus_tag=FEJIJDIP_03822
+FEJIJDIP_86	pseudofinder	gene	3237	3689	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 41.7%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_86_pseudo_00185;old_locus_tag=FEJIJDIP_00898
+FEJIJDIP_127	pseudofinder	gene	3242	3399	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_127_pseudo_00186;old_locus_tag=FEJIJDIP_127_ign_00002
+FEJIJDIP_74	pseudofinder	gene	3308	3456	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=FEJIJDIP_74_pseudo_00187;old_locus_tag=FEJIJDIP_74_ign_00003
+FEJIJDIP_156	pseudofinder	gene	3310	3497	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_156_pseudo_00188;old_locus_tag=FEJIJDIP_156_ign_00003
+FEJIJDIP_16	pseudofinder	gene	3355	3768	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 49.9%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_16_pseudo_00189;old_locus_tag=FEJIJDIP_00120
+FEJIJDIP_125	pseudofinder	gene	3357	3740	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 56.3%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_125_pseudo_00190;old_locus_tag=FEJIJDIP_01497
+FEJIJDIP_56	pseudofinder	gene	3376	4913	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_56_pseudo_00191;old_locus_tag=FEJIJDIP_56_ign_00003
+FEJIJDIP_150	pseudofinder	gene	3417	3572	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_150_pseudo_00192;old_locus_tag=FEJIJDIP_150_ign_00004
+FEJIJDIP_46	pseudofinder	gene	3444	3847	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FEJIJDIP_46_pseudo_00193;old_locus_tag=FEJIJDIP_00458,FEJIJDIP_46_ign_00004
+FEJIJDIP_77	pseudofinder	gene	3451	4272	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 24.9%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_77_pseudo_00194;old_locus_tag=FEJIJDIP_00804
+FEJIJDIP_55	pseudofinder	gene	3561	3682	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_55_pseudo_00195;old_locus_tag=FEJIJDIP_55_ign_00003
+FEJIJDIP_185	pseudofinder	gene	3601	3966	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 16.7%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_185_pseudo_00196;old_locus_tag=FEJIJDIP_02405
+FEJIJDIP_207	pseudofinder	gene	3613	3777	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 64.1%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_207_pseudo_00197;old_locus_tag=FEJIJDIP_02657
+FEJIJDIP_106	pseudofinder	gene	3625	3924	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 42.3%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_106_pseudo_00198;old_locus_tag=FEJIJDIP_01138
+FEJIJDIP_137	pseudofinder	gene	3657	3761	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_137_pseudo_00199;old_locus_tag=FEJIJDIP_137_ign_00004
+FEJIJDIP_76	pseudofinder	gene	3662	3958	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 58.4%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_76_pseudo_00200;old_locus_tag=FEJIJDIP_00787
+FEJIJDIP_273	pseudofinder	gene	3796	3987	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 15.3%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_273_pseudo_00202;old_locus_tag=FEJIJDIP_03373
+FEJIJDIP_222	pseudofinder	gene	3829	3948	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=FEJIJDIP_222_pseudo_00203;old_locus_tag=FEJIJDIP_222_ign_00001
+FEJIJDIP_121	pseudofinder	gene	3914	4274	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 9 blast hits.;locus_tag=FEJIJDIP_121_pseudo_00205;old_locus_tag=FEJIJDIP_121_ign_00003
+FEJIJDIP_185	pseudofinder	gene	3981	4165	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_185_pseudo_00206;old_locus_tag=FEJIJDIP_185_ign_00003
+FEJIJDIP_203	pseudofinder	gene	3983	4296	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 9 blast hits.;locus_tag=FEJIJDIP_203_pseudo_00207;old_locus_tag=FEJIJDIP_203_ign_00003
+FEJIJDIP_129	pseudofinder	gene	3987	4177	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_129_pseudo_00208;old_locus_tag=FEJIJDIP_129_ign_00005
+FEJIJDIP_360	pseudofinder	gene	4024	4257	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 9.7%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_360_pseudo_00209;old_locus_tag=FEJIJDIP_04266
+FEJIJDIP_209	pseudofinder	gene	4071	4348	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FEJIJDIP_209_pseudo_00211;old_locus_tag=FEJIJDIP_209_ign_00005,FEJIJDIP_02687
+FEJIJDIP_279	pseudofinder	gene	4081	4228	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 12 blast hits.;locus_tag=FEJIJDIP_279_pseudo_00212;old_locus_tag=FEJIJDIP_279_ign_00004
+FEJIJDIP_76	pseudofinder	gene	4109	4245	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=FEJIJDIP_76_pseudo_00213;old_locus_tag=FEJIJDIP_76_ign_00002
+FEJIJDIP_35	pseudofinder	gene	4191	5195	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 22.2%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_35_pseudo_00214;old_locus_tag=FEJIJDIP_00318
+FEJIJDIP_257	pseudofinder	gene	4229	4750	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 43.1%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_257_pseudo_00216;old_locus_tag=FEJIJDIP_03193
+FEJIJDIP_185	pseudofinder	gene	4256	4579	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 40.5%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_185_pseudo_00217;old_locus_tag=FEJIJDIP_02406
+FEJIJDIP_54	pseudofinder	gene	4317	4435	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 8 blast hits.;locus_tag=FEJIJDIP_54_pseudo_00219;old_locus_tag=FEJIJDIP_54_ign_00005
+FEJIJDIP_34	pseudofinder	gene	4381	5159	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_34_pseudo_00220;old_locus_tag=FEJIJDIP_34_ign_00003
+FEJIJDIP_252	pseudofinder	gene	4484	4590	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 9 blast hits.;locus_tag=FEJIJDIP_252_pseudo_00221;old_locus_tag=FEJIJDIP_252_ign_00002
+FEJIJDIP_208	pseudofinder	gene	4596	5090	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 144.3%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_208_pseudo_00222;old_locus_tag=FEJIJDIP_02671
+FEJIJDIP_271	pseudofinder	gene	4629	4805	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 25.2%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_271_pseudo_00223;old_locus_tag=FEJIJDIP_03359
+FEJIJDIP_44	pseudofinder	gene	4651	5739	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 57.5%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_44_pseudo_00224;old_locus_tag=FEJIJDIP_00407
+FEJIJDIP_244	pseudofinder	gene	4695	5015	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 59.2%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_244_pseudo_00225;old_locus_tag=FEJIJDIP_03053
+FEJIJDIP_269	pseudofinder	gene	4707	4997	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 55.8%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_269_pseudo_00226;old_locus_tag=FEJIJDIP_03337
+FEJIJDIP_192	pseudofinder	gene	4740	5152	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_192_pseudo_00227;old_locus_tag=FEJIJDIP_192_ign_00005
+FEJIJDIP_218	pseudofinder	gene	4745	4893	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_218_pseudo_00228;old_locus_tag=FEJIJDIP_218_ign_00005
+FEJIJDIP_257	pseudofinder	gene	4751	4824	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_257_pseudo_00229;old_locus_tag=FEJIJDIP_257_ign_00005
+FEJIJDIP_16	pseudofinder	gene	4757	4989	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_16_pseudo_00230;old_locus_tag=FEJIJDIP_16_ign_00006
+FEJIJDIP_346	pseudofinder	gene	4784	5299	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 50.5%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_346_pseudo_00231;old_locus_tag=FEJIJDIP_04155
+FEJIJDIP_88	pseudofinder	gene	4794	5063	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 47.4%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_88_pseudo_00232;old_locus_tag=FEJIJDIP_00929
+FEJIJDIP_66	pseudofinder	gene	4807	6222	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 58.3%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_66_pseudo_00233;old_locus_tag=FEJIJDIP_00625
+FEJIJDIP_272	pseudofinder	gene	4844	4920	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_272_pseudo_00234;old_locus_tag=FEJIJDIP_272_ign_00003
+FEJIJDIP_242	pseudofinder	gene	4850	6232	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 576.2%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_242_pseudo_00235;old_locus_tag=FEJIJDIP_03011
+FEJIJDIP_94	pseudofinder	gene	4876	5214	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 63.8%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_94_pseudo_00236;old_locus_tag=FEJIJDIP_00963
+FEJIJDIP_2	pseudofinder	gene	4905	5089	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_2_pseudo_00237;old_locus_tag=FEJIJDIP_2_ign_00001
+FEJIJDIP_73	pseudofinder	gene	5006	5136	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_73_pseudo_00238;old_locus_tag=FEJIJDIP_73_ign_00002
+FEJIJDIP_51	pseudofinder	gene	5009	5851	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 62.8%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_51_pseudo_00239;old_locus_tag=FEJIJDIP_00509
+FEJIJDIP_123	pseudofinder	gene	5028	5270	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 57.9%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_123_pseudo_00240;old_locus_tag=FEJIJDIP_01470
+FEJIJDIP_52	pseudofinder	gene	5037	6074	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 157.1%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_52_pseudo_00241;old_locus_tag=FEJIJDIP_00515
+FEJIJDIP_247	pseudofinder	gene	5040	5201	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 64.8%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_247_pseudo_00242;old_locus_tag=FEJIJDIP_03106
+FEJIJDIP_11	pseudofinder	gene	5046	5137	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_11_pseudo_00244;old_locus_tag=FEJIJDIP_11_ign_00005
+FEJIJDIP_209	pseudofinder	gene	5061	5330	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=FEJIJDIP_209_pseudo_00245;old_locus_tag=FEJIJDIP_209_ign_00006
+FEJIJDIP_360	pseudofinder	gene	5094	5257	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=FEJIJDIP_360_pseudo_00246;old_locus_tag=FEJIJDIP_360_ign_00007
+FEJIJDIP_106	pseudofinder	gene	5143	5424	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 26.1%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_106_pseudo_00247;old_locus_tag=FEJIJDIP_01140
+FEJIJDIP_34	pseudofinder	gene	5161	5367	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 21.5%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_34_pseudo_00248;old_locus_tag=FEJIJDIP_00314
+FEJIJDIP_86	pseudofinder	gene	5249	5550	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FEJIJDIP_86_pseudo_00249;old_locus_tag=FEJIJDIP_86_ign_00004,FEJIJDIP_00900
+FEJIJDIP_232	pseudofinder	gene	5288	5485	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 27.9%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_232_pseudo_00251;old_locus_tag=FEJIJDIP_02919
+FEJIJDIP_170	pseudofinder	gene	5300	5578	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 27.8%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_170_pseudo_00252;old_locus_tag=FEJIJDIP_02225
+FEJIJDIP_45	pseudofinder	gene	5324	5508	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_45_pseudo_00253;old_locus_tag=FEJIJDIP_45_ign_00002
+FEJIJDIP_35	pseudofinder	gene	5360	6106	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 137.8%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_35_pseudo_00254;old_locus_tag=FEJIJDIP_00319
+FEJIJDIP_106	pseudofinder	gene	5428	5798	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_106_pseudo_00256;old_locus_tag=FEJIJDIP_106_ign_00007
+FEJIJDIP_154	pseudofinder	gene	5444	6720	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FEJIJDIP_154_pseudo_00257;old_locus_tag=FEJIJDIP_01992,FEJIJDIP_154_ign_00005
+FEJIJDIP_160	pseudofinder	gene	5447	5568	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=FEJIJDIP_160_pseudo_00258;old_locus_tag=FEJIJDIP_160_ign_00003
+FEJIJDIP_45	pseudofinder	gene	5511	5744	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 15.5%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_45_pseudo_00259;old_locus_tag=FEJIJDIP_00412
+FEJIJDIP_86	pseudofinder	gene	5566	5843	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_86_pseudo_00260;old_locus_tag=FEJIJDIP_86_ign_00005
+FEJIJDIP_165	pseudofinder	gene	5614	5838	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 20.5%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_165_pseudo_00261;old_locus_tag=FEJIJDIP_02171
+FEJIJDIP_53	pseudofinder	gene	5620	5859	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 60.6%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_53_pseudo_00262;old_locus_tag=FEJIJDIP_00546
+FEJIJDIP_141	pseudofinder	gene	5657	5886	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_141_pseudo_00263;old_locus_tag=FEJIJDIP_141_ign_00004
+FEJIJDIP_251	pseudofinder	gene	5672	5788	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 28.1%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_251_pseudo_00264;old_locus_tag=FEJIJDIP_03137
+FEJIJDIP_65	pseudofinder	gene	5762	6097	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 48.6%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_65_pseudo_00265;old_locus_tag=FEJIJDIP_00620
+FEJIJDIP_61	pseudofinder	gene	5787	6113	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 35.5%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_61_pseudo_00266;old_locus_tag=FEJIJDIP_00600
+FEJIJDIP_384	pseudofinder	gene	5845	6294	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 45.3%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_384_pseudo_00267;old_locus_tag=FEJIJDIP_04574
+FEJIJDIP_45	pseudofinder	gene	5871	6016	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=FEJIJDIP_45_pseudo_00268;old_locus_tag=FEJIJDIP_45_ign_00003
+FEJIJDIP_377	pseudofinder	gene	6061	6224	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 10 blast hits.;locus_tag=FEJIJDIP_377_pseudo_00269;old_locus_tag=FEJIJDIP_377_ign_00004
+FEJIJDIP_110	pseudofinder	gene	6074	6421	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 54.5%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_110_pseudo_00270;old_locus_tag=FEJIJDIP_01235
+FEJIJDIP_29	pseudofinder	gene	6092	6222	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=FEJIJDIP_29_pseudo_00271;old_locus_tag=FEJIJDIP_29_ign_00003
+FEJIJDIP_133	pseudofinder	gene	6179	6312	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_133_pseudo_00272;old_locus_tag=FEJIJDIP_133_ign_00006
+FEJIJDIP_75	pseudofinder	gene	6246	6424	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_75_pseudo_00273;old_locus_tag=FEJIJDIP_75_ign_00004
+FEJIJDIP_264	pseudofinder	gene	6269	6408	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_264_pseudo_00274;old_locus_tag=FEJIJDIP_264_ign_00006
+FEJIJDIP_80	pseudofinder	gene	6355	6473	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_80_pseudo_00275;old_locus_tag=FEJIJDIP_80_ign_00005
+FEJIJDIP_140	pseudofinder	gene	6393	6673	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_140_pseudo_00276;old_locus_tag=FEJIJDIP_140_ign_00006
+FEJIJDIP_264	pseudofinder	gene	6488	7942	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 139.2%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_264_pseudo_00277;old_locus_tag=FEJIJDIP_03288
+FEJIJDIP_110	pseudofinder	gene	6488	6598	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 27.4%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_110_pseudo_00278;old_locus_tag=FEJIJDIP_01236
+FEJIJDIP_334	pseudofinder	gene	6550	6695	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 12 blast hits.;locus_tag=FEJIJDIP_334_pseudo_00279;old_locus_tag=FEJIJDIP_334_ign_00007
+FEJIJDIP_347	pseudofinder	gene	6574	6711	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_347_pseudo_00281;old_locus_tag=FEJIJDIP_347_ign_00007
+FEJIJDIP_37	pseudofinder	gene	6591	6809	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 34.4%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_37_pseudo_00282;old_locus_tag=FEJIJDIP_00341
+FEJIJDIP_334	pseudofinder	gene	6730	7806	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 59.1%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_334_pseudo_00284;old_locus_tag=FEJIJDIP_04063
+FEJIJDIP_133	pseudofinder	gene	6742	7035	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 63.8%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_133_pseudo_00285;old_locus_tag=FEJIJDIP_01629
+FEJIJDIP_354	pseudofinder	gene	6753	6893	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 7.3%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_354_pseudo_00286;old_locus_tag=FEJIJDIP_04205
+FEJIJDIP_298	pseudofinder	gene	6802	9408	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 61.2%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_298_pseudo_00287;old_locus_tag=FEJIJDIP_03644
+FEJIJDIP_10	pseudofinder	gene	6821	7195	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 50.1%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_10_pseudo_00288;old_locus_tag=FEJIJDIP_00066
+FEJIJDIP_329	pseudofinder	gene	6840	7796	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 63.0%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_329_pseudo_00289;old_locus_tag=FEJIJDIP_04007
+FEJIJDIP_146	pseudofinder	gene	6889	7383	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 30.3%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_146_pseudo_00290;old_locus_tag=FEJIJDIP_01863
+FEJIJDIP_339	pseudofinder	gene	6904	7773	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 54.8%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_339_pseudo_00291;old_locus_tag=FEJIJDIP_04088
+FEJIJDIP_86	pseudofinder	gene	6920	7174	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 29.2%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_86_pseudo_00292;old_locus_tag=FEJIJDIP_00903
+FEJIJDIP_155	pseudofinder	gene	6923	7035	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_155_pseudo_00293;old_locus_tag=FEJIJDIP_155_ign_00006
+FEJIJDIP_85	pseudofinder	gene	6933	7133	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 16.5%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_85_pseudo_00294;old_locus_tag=FEJIJDIP_00881
+FEJIJDIP_75	pseudofinder	gene	6982	9564	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 188.7%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_75_pseudo_00295;old_locus_tag=FEJIJDIP_00774
+FEJIJDIP_116	pseudofinder	gene	7048	7169	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=FEJIJDIP_116_pseudo_00296;old_locus_tag=FEJIJDIP_116_ign_00007
+FEJIJDIP_133	pseudofinder	gene	7058	7225	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 35.7%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_133_pseudo_00297;old_locus_tag=FEJIJDIP_01630
+FEJIJDIP_205	pseudofinder	gene	7086	8981	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 186.3%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_205_pseudo_00298;old_locus_tag=FEJIJDIP_02635
+FEJIJDIP_178	pseudofinder	gene	7151	7308	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_178_pseudo_00299;old_locus_tag=FEJIJDIP_178_ign_00005
+FEJIJDIP_262	pseudofinder	gene	7161	7325	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 39.3%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_262_pseudo_00300;old_locus_tag=FEJIJDIP_03240
+FEJIJDIP_297	pseudofinder	gene	7168	7383	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=FEJIJDIP_297_pseudo_00301;old_locus_tag=FEJIJDIP_297_ign_00008
+FEJIJDIP_245	pseudofinder	gene	7216	9183	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 170.8%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_245_pseudo_00302;old_locus_tag=FEJIJDIP_03072
+FEJIJDIP_290	pseudofinder	gene	7224	8987	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 55.1%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_290_pseudo_00303;old_locus_tag=FEJIJDIP_03513
+FEJIJDIP_108	pseudofinder	gene	7419	7532	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 20.5%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_108_pseudo_00304;old_locus_tag=FEJIJDIP_01190
+FEJIJDIP_14	pseudofinder	gene	7422	7895	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 58.4%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_14_pseudo_00305;old_locus_tag=FEJIJDIP_00094
+FEJIJDIP_267	pseudofinder	gene	7511	7696	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_267_pseudo_00306;old_locus_tag=FEJIJDIP_267_ign_00006
+FEJIJDIP_244	pseudofinder	gene	7595	8377	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 141.6%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_244_pseudo_00307;old_locus_tag=FEJIJDIP_03059
+FEJIJDIP_215	pseudofinder	gene	7611	7894	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=FEJIJDIP_215_pseudo_00308;old_locus_tag=FEJIJDIP_215_ign_00003
+FEJIJDIP_106	pseudofinder	gene	7640	8029	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 37.3%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_106_pseudo_00309;old_locus_tag=FEJIJDIP_01144
+FEJIJDIP_260	pseudofinder	gene	7680	10265	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 139.9%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_260_pseudo_00310;old_locus_tag=FEJIJDIP_03227
+FEJIJDIP_278	pseudofinder	gene	7798	7976	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 12 blast hits.;locus_tag=FEJIJDIP_278_pseudo_00311;old_locus_tag=FEJIJDIP_278_ign_00006
+FEJIJDIP_74	pseudofinder	gene	7910	8161	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 9.6%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_74_pseudo_00312;old_locus_tag=FEJIJDIP_00759
+FEJIJDIP_170	pseudofinder	gene	7936	8114	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_170_pseudo_00313;old_locus_tag=FEJIJDIP_170_ign_00007
+FEJIJDIP_52	pseudofinder	gene	7992	8432	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 36.9%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_52_pseudo_00315;old_locus_tag=FEJIJDIP_00518
+FEJIJDIP_108	pseudofinder	gene	8021	8190	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_108_pseudo_00316;old_locus_tag=FEJIJDIP_108_ign_00008
+FEJIJDIP_125	pseudofinder	gene	8023	8423	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_125_pseudo_00317;old_locus_tag=FEJIJDIP_125_ign_00008
+FEJIJDIP_264	pseudofinder	gene	8035	8349	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 60.7%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_264_pseudo_00318;old_locus_tag=FEJIJDIP_03289
+FEJIJDIP_218	pseudofinder	gene	8060	8587	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 45.8%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_218_pseudo_00319;old_locus_tag=FEJIJDIP_02790
+FEJIJDIP_243	pseudofinder	gene	8103	8260	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_243_pseudo_00320;old_locus_tag=FEJIJDIP_243_ign_00008
+FEJIJDIP_74	pseudofinder	gene	8198	8764	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FEJIJDIP_74_pseudo_00321;old_locus_tag=FEJIJDIP_00761,FEJIJDIP_00760
+FEJIJDIP_313	pseudofinder	gene	8222	8379	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=FEJIJDIP_313_pseudo_00322;old_locus_tag=FEJIJDIP_313_ign_00007
+FEJIJDIP_275	pseudofinder	gene	8256	8633	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 34.6%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_275_pseudo_00323;old_locus_tag=FEJIJDIP_03389
+FEJIJDIP_230	pseudofinder	gene	8346	8998	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FEJIJDIP_230_pseudo_00325;old_locus_tag=FEJIJDIP_02898,FEJIJDIP_230_ign_00007
+FEJIJDIP_161	pseudofinder	gene	8500	8661	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 32.1%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_161_pseudo_00328;old_locus_tag=FEJIJDIP_02119
+FEJIJDIP_123	pseudofinder	gene	8539	8634	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 38.2%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_123_pseudo_00329;old_locus_tag=FEJIJDIP_01474
+FEJIJDIP_129	pseudofinder	gene	8638	9123	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=FEJIJDIP_129_pseudo_00330;old_locus_tag=FEJIJDIP_129_ign_00008
+FEJIJDIP_138	pseudofinder	gene	8701	8891	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 9 blast hits.;locus_tag=FEJIJDIP_138_pseudo_00331;old_locus_tag=FEJIJDIP_138_ign_00005
+FEJIJDIP_161	pseudofinder	gene	8787	8893	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_161_pseudo_00333;old_locus_tag=FEJIJDIP_161_ign_00009
+FEJIJDIP_256	pseudofinder	gene	8792	8940	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_256_pseudo_00334;old_locus_tag=FEJIJDIP_256_ign_00004
+FEJIJDIP_195	pseudofinder	gene	8796	9127	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_195_pseudo_00335;old_locus_tag=FEJIJDIP_195_ign_00005
+FEJIJDIP_80	pseudofinder	gene	9000	9203	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 27.6%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_80_pseudo_00337;old_locus_tag=FEJIJDIP_00820
+FEJIJDIP_258	pseudofinder	gene	9159	11111	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 50.2%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_258_pseudo_00339;old_locus_tag=FEJIJDIP_03206
+FEJIJDIP_214	pseudofinder	gene	9215	9640	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 33.3%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_214_pseudo_00340;old_locus_tag=FEJIJDIP_02751
+FEJIJDIP_131	pseudofinder	gene	9258	9650	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 37.7%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_131_pseudo_00341;old_locus_tag=FEJIJDIP_01599
+FEJIJDIP_164	pseudofinder	gene	9269	9912	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_164_pseudo_00342;old_locus_tag=FEJIJDIP_164_ign_00004
+FEJIJDIP_125	pseudofinder	gene	9287	9678	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_125_pseudo_00343;old_locus_tag=FEJIJDIP_125_ign_00009
+FEJIJDIP_80	pseudofinder	gene	9326	9672	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_80_pseudo_00344;old_locus_tag=FEJIJDIP_80_ign_00009
+FEJIJDIP_250	pseudofinder	gene	9422	10464	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FEJIJDIP_250_pseudo_00346;old_locus_tag=FEJIJDIP_03132,FEJIJDIP_250_ign_00010
+FEJIJDIP_233	pseudofinder	gene	9423	10229	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 45.1%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_233_pseudo_00347;old_locus_tag=FEJIJDIP_02930
+FEJIJDIP_86	pseudofinder	gene	9449	9618	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_86_pseudo_00348;old_locus_tag=FEJIJDIP_86_ign_00011
+FEJIJDIP_140	pseudofinder	gene	9543	9658	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_140_pseudo_00349;old_locus_tag=FEJIJDIP_140_ign_00009
+FEJIJDIP_214	pseudofinder	gene	9658	12708	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 279.5%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_214_pseudo_00350;old_locus_tag=FEJIJDIP_02752
+FEJIJDIP_209	pseudofinder	gene	9709	9849	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 18.1%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_209_pseudo_00351;old_locus_tag=FEJIJDIP_02692
+FEJIJDIP_209	pseudofinder	gene	9850	9917	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 8 blast hits.;locus_tag=FEJIJDIP_209_pseudo_00352;old_locus_tag=FEJIJDIP_209_ign_00010
+FEJIJDIP_188	pseudofinder	gene	9856	9953	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 12 blast hits.;locus_tag=FEJIJDIP_188_pseudo_00353;old_locus_tag=FEJIJDIP_188_ign_00007
+FEJIJDIP_107	pseudofinder	gene	9860	10033	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 56.9%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_107_pseudo_00354;old_locus_tag=FEJIJDIP_01168
+FEJIJDIP_86	pseudofinder	gene	10106	10318	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 21.2%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_86_pseudo_00355;old_locus_tag=FEJIJDIP_00908
+FEJIJDIP_164	pseudofinder	gene	10211	10779	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_164_pseudo_00357;old_locus_tag=FEJIJDIP_164_ign_00005
+FEJIJDIP_254	pseudofinder	gene	10304	10485	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_254_pseudo_00358;old_locus_tag=FEJIJDIP_254_ign_00006
+FEJIJDIP_150	pseudofinder	gene	10381	10803	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 61.2%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_150_pseudo_00359;old_locus_tag=FEJIJDIP_01926
+FEJIJDIP_68	pseudofinder	gene	10437	10732	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 9 blast hits.;locus_tag=FEJIJDIP_68_pseudo_00360;old_locus_tag=FEJIJDIP_68_ign_00005
+FEJIJDIP_240	pseudofinder	gene	10503	11654	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 51.9%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_240_pseudo_00361;old_locus_tag=FEJIJDIP_02995
+FEJIJDIP_222	pseudofinder	gene	10582	10722	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 28.3%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_222_pseudo_00363;old_locus_tag=FEJIJDIP_02827
+FEJIJDIP_256	pseudofinder	gene	10614	11839	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_256_pseudo_00364;old_locus_tag=FEJIJDIP_256_ign_00005
+FEJIJDIP_165	pseudofinder	gene	10617	11039	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 63.9%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_165_pseudo_00365;old_locus_tag=FEJIJDIP_02176
+FEJIJDIP_67	pseudofinder	gene	10787	11065	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 35.2%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_67_pseudo_00368;old_locus_tag=FEJIJDIP_00636
+FEJIJDIP_158	pseudofinder	gene	10928	11067	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_158_pseudo_00369;old_locus_tag=FEJIJDIP_158_ign_00010
+FEJIJDIP_158	pseudofinder	gene	11145	11753	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 60.6%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_158_pseudo_00370;old_locus_tag=FEJIJDIP_02071
+FEJIJDIP_233	pseudofinder	gene	11247	11537	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 48.5%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_233_pseudo_00371;old_locus_tag=FEJIJDIP_02933
+FEJIJDIP_170	pseudofinder	gene	11371	11588	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_170_pseudo_00372;old_locus_tag=FEJIJDIP_170_ign_00009
+FEJIJDIP_199	pseudofinder	gene	11388	11831	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 48.6%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_199_pseudo_00373;old_locus_tag=FEJIJDIP_02569
+FEJIJDIP_252	pseudofinder	gene	11429	11974	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 39.3%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_252_pseudo_00374;old_locus_tag=FEJIJDIP_03151
+FEJIJDIP_196	pseudofinder	gene	11457	11584	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 9 blast hits.;locus_tag=FEJIJDIP_196_pseudo_00375;old_locus_tag=FEJIJDIP_196_ign_00008
+FEJIJDIP_258	pseudofinder	gene	11457	12263	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 59.0%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_258_pseudo_00376;old_locus_tag=FEJIJDIP_03207
+FEJIJDIP_108	pseudofinder	gene	11541	12110	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 62.3%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_108_pseudo_00377;old_locus_tag=FEJIJDIP_01195
+FEJIJDIP_177	pseudofinder	gene	11659	13305	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 45.1%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_177_pseudo_00379;old_locus_tag=FEJIJDIP_02318
+FEJIJDIP_172	pseudofinder	gene	11742	12115	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=FEJIJDIP_172_pseudo_00380;old_locus_tag=FEJIJDIP_172_ign_00011
+FEJIJDIP_210	pseudofinder	gene	11833	12014	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_210_pseudo_00381;old_locus_tag=FEJIJDIP_210_ign_00006
+FEJIJDIP_211	pseudofinder	gene	11873	12018	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_211_pseudo_00382;old_locus_tag=FEJIJDIP_211_ign_00010
+FEJIJDIP_211	pseudofinder	gene	12022	12405	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 39.2%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_211_pseudo_00383;old_locus_tag=FEJIJDIP_02724
+FEJIJDIP_125	pseudofinder	gene	12078	12520	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_125_pseudo_00384;old_locus_tag=FEJIJDIP_125_ign_00011
+FEJIJDIP_159	pseudofinder	gene	12080	12203	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_159_pseudo_00385;old_locus_tag=FEJIJDIP_159_ign_00008
+FEJIJDIP_137	pseudofinder	gene	12102	12256	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_137_pseudo_00387;old_locus_tag=FEJIJDIP_137_ign_00006
+FEJIJDIP_120	pseudofinder	gene	12193	12825	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 52.6%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_120_pseudo_00389;old_locus_tag=FEJIJDIP_01433
+FEJIJDIP_203	pseudofinder	gene	12217	12338	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_203_pseudo_00390;old_locus_tag=FEJIJDIP_203_ign_00008
+FEJIJDIP_166	pseudofinder	gene	12271	13155	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 62.1%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_166_pseudo_00391;old_locus_tag=FEJIJDIP_02184
+FEJIJDIP_143	pseudofinder	gene	12273	12460	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_143_pseudo_00392;old_locus_tag=FEJIJDIP_143_ign_00009
+FEJIJDIP_67	pseudofinder	gene	12282	12565	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 10 blast hits.;locus_tag=FEJIJDIP_67_pseudo_00393;old_locus_tag=FEJIJDIP_67_ign_00006
+FEJIJDIP_119	pseudofinder	gene	12459	14792	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 139.2%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_119_pseudo_00394;old_locus_tag=FEJIJDIP_01416
+FEJIJDIP_124	pseudofinder	gene	12499	12849	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 62.5%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_124_pseudo_00396;old_locus_tag=FEJIJDIP_01493
+FEJIJDIP_122	pseudofinder	gene	12515	12675	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_122_pseudo_00397;old_locus_tag=FEJIJDIP_122_ign_00007
+FEJIJDIP_363	pseudofinder	gene	12608	15556	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 140.7%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_363_pseudo_00399;old_locus_tag=FEJIJDIP_04389
+FEJIJDIP_143	pseudofinder	gene	12809	13147	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 5.9%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_143_pseudo_00400;old_locus_tag=FEJIJDIP_01822
+FEJIJDIP_70	pseudofinder	gene	12841	13031	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 8 blast hits.;locus_tag=FEJIJDIP_70_pseudo_00401;old_locus_tag=FEJIJDIP_70_ign_00012
+FEJIJDIP_124	pseudofinder	gene	12850	13043	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_124_pseudo_00403;old_locus_tag=FEJIJDIP_124_ign_00009
+FEJIJDIP_167	pseudofinder	gene	12907	13116	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 42.5%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_167_pseudo_00404;old_locus_tag=FEJIJDIP_02196
+FEJIJDIP_134	pseudofinder	gene	12913	13728	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 45.1%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_134_pseudo_00405;old_locus_tag=FEJIJDIP_01650
+FEJIJDIP_170	pseudofinder	gene	12950	13084	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 18.8%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_170_pseudo_00406;old_locus_tag=FEJIJDIP_02233
+FEJIJDIP_172	pseudofinder	gene	12978	13448	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 36.0%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_172_pseudo_00407;old_locus_tag=FEJIJDIP_02261
+FEJIJDIP_173	pseudofinder	gene	13268	13513	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 38.7%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_173_pseudo_00409;old_locus_tag=FEJIJDIP_02284
+FEJIJDIP_125	pseudofinder	gene	13749	14131	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_125_pseudo_00411;old_locus_tag=FEJIJDIP_125_ign_00012
+FEJIJDIP_158	pseudofinder	gene	13967	14174	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 10 blast hits.;locus_tag=FEJIJDIP_158_pseudo_00412;old_locus_tag=FEJIJDIP_158_ign_00011
+FEJIJDIP_147	pseudofinder	gene	14000	16383	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FEJIJDIP_147_pseudo_00413;old_locus_tag=FEJIJDIP_01884,FEJIJDIP_147_ign_00013
+FEJIJDIP_202	pseudofinder	gene	14172	14501	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 52.6%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_202_pseudo_00415;old_locus_tag=FEJIJDIP_02604
+FEJIJDIP_159	pseudofinder	gene	14215	14405	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=FEJIJDIP_159_pseudo_00416;old_locus_tag=FEJIJDIP_159_ign_00011
+FEJIJDIP_192	pseudofinder	gene	14243	14395	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 47.1%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_192_pseudo_00417;old_locus_tag=FEJIJDIP_02491
+FEJIJDIP_210	pseudofinder	gene	14282	15040	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 59.4%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_210_pseudo_00418;old_locus_tag=FEJIJDIP_02711
+FEJIJDIP_297	pseudofinder	gene	14482	19518	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 156.9%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_297_pseudo_00420;old_locus_tag=FEJIJDIP_03623
+FEJIJDIP_202	pseudofinder	gene	14504	14598	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=FEJIJDIP_202_pseudo_00421;old_locus_tag=FEJIJDIP_202_ign_00009
+FEJIJDIP_19	pseudofinder	gene	14520	15191	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FEJIJDIP_19_pseudo_00422;old_locus_tag=FEJIJDIP_00154,FEJIJDIP_00155,FEJIJDIP_19_ign_00016
+FEJIJDIP_202	pseudofinder	gene	14600	14887	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 43.5%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_202_pseudo_00423;old_locus_tag=FEJIJDIP_02605
+FEJIJDIP_133	pseudofinder	gene	14772	14944	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_133_pseudo_00424;old_locus_tag=FEJIJDIP_133_ign_00012
+FEJIJDIP_125	pseudofinder	gene	14802	15220	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_125_pseudo_00425;old_locus_tag=FEJIJDIP_125_ign_00013
+FEJIJDIP_126	pseudofinder	gene	14843	15030	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_126_pseudo_00426;old_locus_tag=FEJIJDIP_126_ign_00012
+FEJIJDIP_206	pseudofinder	gene	14936	15388	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 18.4%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_206_pseudo_00427;old_locus_tag=FEJIJDIP_02652
+FEJIJDIP_108	pseudofinder	gene	15063	15154	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_108_pseudo_00429;old_locus_tag=FEJIJDIP_108_ign_00015
+FEJIJDIP_119	pseudofinder	gene	15082	15549	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 57.6%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_119_pseudo_00430;old_locus_tag=FEJIJDIP_01418
+FEJIJDIP_123	pseudofinder	gene	15103	15266	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 11 blast hits.;locus_tag=FEJIJDIP_123_pseudo_00431;old_locus_tag=FEJIJDIP_123_ign_00012
+FEJIJDIP_72	pseudofinder	gene	15119	15340	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 39.8%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_72_pseudo_00432;old_locus_tag=FEJIJDIP_00728
+FEJIJDIP_214	pseudofinder	gene	15140	15904	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 57.7%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_214_pseudo_00433;old_locus_tag=FEJIJDIP_02756
+FEJIJDIP_37	pseudofinder	gene	15151	15429	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 11 blast hits.;locus_tag=FEJIJDIP_37_pseudo_00435;old_locus_tag=FEJIJDIP_37_ign_00011
+FEJIJDIP_295	pseudofinder	gene	15363	15518	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 43.7%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_295_pseudo_00436;old_locus_tag=FEJIJDIP_03556
+FEJIJDIP_102	pseudofinder	gene	15521	15718	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 55.3%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_102_pseudo_00438;old_locus_tag=FEJIJDIP_01069
+FEJIJDIP_151	pseudofinder	gene	15574	16458	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 33.1%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_151_pseudo_00439;old_locus_tag=FEJIJDIP_01947
+FEJIJDIP_33	pseudofinder	gene	15728	15837	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_33_pseudo_00441;old_locus_tag=FEJIJDIP_33_ign_00015
+FEJIJDIP_111	pseudofinder	gene	15970	16098	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=FEJIJDIP_111_pseudo_00442;old_locus_tag=FEJIJDIP_111_ign_00015
+FEJIJDIP_68	pseudofinder	gene	15995	16077	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 8 blast hits.;locus_tag=FEJIJDIP_68_pseudo_00443;old_locus_tag=FEJIJDIP_68_ign_00009
+FEJIJDIP_69	pseudofinder	gene	16019	16164	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=FEJIJDIP_69_pseudo_00444;old_locus_tag=FEJIJDIP_69_ign_00011
+FEJIJDIP_319	pseudofinder	gene	16081	16217	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_319_pseudo_00445;old_locus_tag=FEJIJDIP_319_ign_00006
+FEJIJDIP_126	pseudofinder	gene	16104	16334	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 39.6%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_126_pseudo_00446;old_locus_tag=FEJIJDIP_01532
+FEJIJDIP_319	pseudofinder	gene	16276	16494	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 20.6%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_319_pseudo_00447;old_locus_tag=FEJIJDIP_03883
+FEJIJDIP_363	pseudofinder	gene	16443	17087	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 55.8%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_363_pseudo_00448;old_locus_tag=FEJIJDIP_04391
+FEJIJDIP_159	pseudofinder	gene	16524	16699	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=FEJIJDIP_159_pseudo_00449;old_locus_tag=FEJIJDIP_159_ign_00013
+FEJIJDIP_319	pseudofinder	gene	16540	17637	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 63.8%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_319_pseudo_00450;old_locus_tag=FEJIJDIP_03884
+FEJIJDIP_126	pseudofinder	gene	16720	16850	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_126_pseudo_00451;old_locus_tag=FEJIJDIP_126_ign_00014
+FEJIJDIP_360	pseudofinder	gene	16731	17800	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FEJIJDIP_360_pseudo_00452;old_locus_tag=FEJIJDIP_04279,FEJIJDIP_360_ign_00017
+FEJIJDIP_49	pseudofinder	gene	16750	16998	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_49_pseudo_00453;old_locus_tag=FEJIJDIP_49_ign_00014
+FEJIJDIP_126	pseudofinder	gene	16932	17174	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 42.0%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_126_pseudo_00454;old_locus_tag=FEJIJDIP_01533
+FEJIJDIP_112	pseudofinder	gene	16957	17259	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 38.0%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_112_pseudo_00455;old_locus_tag=FEJIJDIP_01294
+FEJIJDIP_40	pseudofinder	gene	16997	17121	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=FEJIJDIP_40_pseudo_00456;old_locus_tag=FEJIJDIP_40_ign_00012
+FEJIJDIP_52	pseudofinder	gene	17192	17653	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 13 blast hits.;locus_tag=FEJIJDIP_52_pseudo_00457;old_locus_tag=FEJIJDIP_52_ign_00015
+FEJIJDIP_316	pseudofinder	gene	17231	17358	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_316_pseudo_00458;old_locus_tag=FEJIJDIP_316_ign_00010
+FEJIJDIP_126	pseudofinder	gene	17292	17482	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=FEJIJDIP_126_pseudo_00459;old_locus_tag=FEJIJDIP_126_ign_00015
+FEJIJDIP_35	pseudofinder	gene	17612	17926	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 12.7%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_35_pseudo_00460;old_locus_tag=FEJIJDIP_00321
+FEJIJDIP_136	pseudofinder	gene	17795	18595	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 64.7%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_136_pseudo_00462;old_locus_tag=FEJIJDIP_01685
+FEJIJDIP_360	pseudofinder	gene	17804	18061	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 20.6%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_360_pseudo_00463;old_locus_tag=FEJIJDIP_04280
+FEJIJDIP_154	pseudofinder	gene	17897	18006	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_154_pseudo_00464;old_locus_tag=FEJIJDIP_154_ign_00015
+FEJIJDIP_134	pseudofinder	gene	18218	18415	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 9.8%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_134_pseudo_00466;old_locus_tag=FEJIJDIP_01654
+FEJIJDIP_24	pseudofinder	gene	18320	18694	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 51.4%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_24_pseudo_00467;old_locus_tag=FEJIJDIP_00203
+FEJIJDIP_151	pseudofinder	gene	18366	19886	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 60.2%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_151_pseudo_00468;old_locus_tag=FEJIJDIP_01950
+FEJIJDIP_144	pseudofinder	gene	18489	19166	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 59.4%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_144_pseudo_00469;old_locus_tag=FEJIJDIP_01842
+FEJIJDIP_156	pseudofinder	gene	18507	19972	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_156_pseudo_00470;old_locus_tag=FEJIJDIP_156_ign_00016
+FEJIJDIP_86	pseudofinder	gene	18574	19034	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_86_pseudo_00472;old_locus_tag=FEJIJDIP_86_ign_00019
+FEJIJDIP_76	pseudofinder	gene	18631	18897	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 14 blast hits.;locus_tag=FEJIJDIP_76_pseudo_00473;old_locus_tag=FEJIJDIP_76_ign_00013
+FEJIJDIP_141	pseudofinder	gene	18754	18941	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 14 blast hits.;locus_tag=FEJIJDIP_141_pseudo_00474;old_locus_tag=FEJIJDIP_141_ign_00015
+FEJIJDIP_148	pseudofinder	gene	18863	19053	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 14 blast hits.;locus_tag=FEJIJDIP_148_pseudo_00475;old_locus_tag=FEJIJDIP_148_ign_00010
+FEJIJDIP_162	pseudofinder	gene	18956	19098	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_162_pseudo_00477;old_locus_tag=FEJIJDIP_162_ign_00016
+FEJIJDIP_86	pseudofinder	gene	19036	19263	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 30.5%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_86_pseudo_00478;old_locus_tag=FEJIJDIP_00916
+FEJIJDIP_112	pseudofinder	gene	19580	19776	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 8 blast hits.;locus_tag=FEJIJDIP_112_pseudo_00479;old_locus_tag=FEJIJDIP_112_ign_00016
+FEJIJDIP_297	pseudofinder	gene	19612	20001	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 56.7%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_297_pseudo_00480;old_locus_tag=FEJIJDIP_03624
+FEJIJDIP_68	pseudofinder	gene	19804	19961	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 8 blast hits.;locus_tag=FEJIJDIP_68_pseudo_00482;old_locus_tag=FEJIJDIP_68_ign_00012
+FEJIJDIP_69	pseudofinder	gene	19813	20417	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_69_pseudo_00483;old_locus_tag=FEJIJDIP_69_ign_00012
+FEJIJDIP_363	pseudofinder	gene	19919	23587	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 137.3%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_363_pseudo_00484;old_locus_tag=FEJIJDIP_04397
+FEJIJDIP_111	pseudofinder	gene	19978	20105	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 12 blast hits.;locus_tag=FEJIJDIP_111_pseudo_00486;old_locus_tag=FEJIJDIP_111_ign_00017
+FEJIJDIP_108	pseudofinder	gene	20228	20358	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 13 blast hits.;locus_tag=FEJIJDIP_108_pseudo_00487;old_locus_tag=FEJIJDIP_108_ign_00020
+FEJIJDIP_86	pseudofinder	gene	20652	20933	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 33.6%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_86_pseudo_00488;old_locus_tag=FEJIJDIP_00920
+FEJIJDIP_105	pseudofinder	gene	20704	21945	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 64.8%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_105_pseudo_00489;old_locus_tag=FEJIJDIP_01129
+FEJIJDIP_103	pseudofinder	gene	20720	22051	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 47.4%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_103_pseudo_00490;old_locus_tag=FEJIJDIP_01100
+FEJIJDIP_68	pseudofinder	gene	20783	21238	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 37.7%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_68_pseudo_00491;old_locus_tag=FEJIJDIP_00663
+FEJIJDIP_71	pseudofinder	gene	20793	21263	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 27.9%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_71_pseudo_00492;old_locus_tag=FEJIJDIP_00717
+FEJIJDIP_308	pseudofinder	gene	21196	21978	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 63.7%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_308_pseudo_00493;old_locus_tag=FEJIJDIP_03742
+FEJIJDIP_45	pseudofinder	gene	21627	21754	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_45_pseudo_00494;old_locus_tag=FEJIJDIP_45_ign_00024
+FEJIJDIP_246	pseudofinder	gene	22023	23108	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 142.1%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_246_pseudo_00495;old_locus_tag=FEJIJDIP_03095
+FEJIJDIP_52	pseudofinder	gene	22231	22340	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=FEJIJDIP_52_pseudo_00496;old_locus_tag=FEJIJDIP_52_ign_00020
+FEJIJDIP_243	pseudofinder	gene	22307	22461	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=FEJIJDIP_243_pseudo_00497;old_locus_tag=FEJIJDIP_243_ign_00018
+FEJIJDIP_316	pseudofinder	gene	22336	24150	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FEJIJDIP_316_pseudo_00498;old_locus_tag=FEJIJDIP_316_ign_00014,FEJIJDIP_03845
+FEJIJDIP_102	pseudofinder	gene	22346	22585	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 36.3%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_102_pseudo_00499;old_locus_tag=FEJIJDIP_01076
+FEJIJDIP_105	pseudofinder	gene	22737	22939	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_105_pseudo_00501;old_locus_tag=FEJIJDIP_105_ign_00011
+FEJIJDIP_324	pseudofinder	gene	22765	23039	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_324_pseudo_00502;old_locus_tag=FEJIJDIP_324_ign_00017
+FEJIJDIP_19	pseudofinder	gene	22937	23506	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 23.7%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_19_pseudo_00503;old_locus_tag=FEJIJDIP_00163
+FEJIJDIP_246	pseudofinder	gene	23415	24521	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 153.9%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_246_pseudo_00504;old_locus_tag=FEJIJDIP_03096
+FEJIJDIP_382	pseudofinder	gene	24135	24265	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_382_pseudo_00505;old_locus_tag=FEJIJDIP_382_ign_00018
+FEJIJDIP_382	pseudofinder	gene	24267	24575	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 53.5%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_382_pseudo_00506;old_locus_tag=FEJIJDIP_04563
+FEJIJDIP_49	pseudofinder	gene	24708	25541	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 60.4%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_49_pseudo_00507;old_locus_tag=FEJIJDIP_00496
+FEJIJDIP_316	pseudofinder	gene	24718	25000	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 8 blast hits.;locus_tag=FEJIJDIP_316_pseudo_00508;old_locus_tag=FEJIJDIP_316_ign_00016
+FEJIJDIP_33	pseudofinder	gene	25563	25699	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=FEJIJDIP_33_pseudo_00509;old_locus_tag=FEJIJDIP_33_ign_00020
+FEJIJDIP_297	pseudofinder	gene	26793	27062	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 141.7%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_297_pseudo_00511;old_locus_tag=FEJIJDIP_03636
+FEJIJDIP_141	pseudofinder	gene	26945	27214	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 57.0%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_141_pseudo_00512;old_locus_tag=FEJIJDIP_01776
+FEJIJDIP_361	pseudofinder	gene	26953	27318	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 9 blast hits.;locus_tag=FEJIJDIP_361_pseudo_00513;old_locus_tag=FEJIJDIP_361_ign_00025
+FEJIJDIP_33	pseudofinder	gene	27015	30106	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FEJIJDIP_33_pseudo_00514;old_locus_tag=FEJIJDIP_33_ign_00022,FEJIJDIP_00309,FEJIJDIP_00310
+FEJIJDIP_29	pseudofinder	gene	27503	27594	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=FEJIJDIP_29_pseudo_00516;old_locus_tag=FEJIJDIP_29_ign_00017
+FEJIJDIP_360	pseudofinder	gene	27641	27769	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 21.7%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_360_pseudo_00517;old_locus_tag=FEJIJDIP_04286
+FEJIJDIP_35	pseudofinder	gene	28317	30497	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 39.1%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_35_pseudo_00519;old_locus_tag=FEJIJDIP_00330
+FEJIJDIP_14	pseudofinder	gene	28550	29167	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 22.4%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_14_pseudo_00520;old_locus_tag=FEJIJDIP_00110
+FEJIJDIP_19	pseudofinder	gene	29117	29299	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 27.5%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_19_pseudo_00521;old_locus_tag=FEJIJDIP_00167
+FEJIJDIP_40	pseudofinder	gene	29218	30152	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_40_pseudo_00522;old_locus_tag=FEJIJDIP_40_ign_00020
+FEJIJDIP_295	pseudofinder	gene	29678	30139	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 54.7%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_295_pseudo_00523;old_locus_tag=FEJIJDIP_03571
+FEJIJDIP_361	pseudofinder	gene	29810	30001	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 54.4%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_361_pseudo_00524;old_locus_tag=FEJIJDIP_04334
+FEJIJDIP_243	pseudofinder	gene	30018	30178	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_243_pseudo_00525;old_locus_tag=FEJIJDIP_243_ign_00022
+FEJIJDIP_361	pseudofinder	gene	30056	30181	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 34.9%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_361_pseudo_00526;old_locus_tag=FEJIJDIP_04335
+FEJIJDIP_40	pseudofinder	gene	30156	30479	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 178.5%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_40_pseudo_00527;old_locus_tag=FEJIJDIP_00390
+FEJIJDIP_333	pseudofinder	gene	30288	30614	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 50.6%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_333_pseudo_00528;old_locus_tag=FEJIJDIP_04044
+FEJIJDIP_324	pseudofinder	gene	30299	30420	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=FEJIJDIP_324_pseudo_00529;old_locus_tag=FEJIJDIP_324_ign_00023
+FEJIJDIP_262	pseudofinder	gene	30712	30906	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 5.5%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_262_pseudo_00530;old_locus_tag=FEJIJDIP_03261
+FEJIJDIP_262	pseudofinder	gene	30903	32528	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 44.0%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_262_pseudo_00531;old_locus_tag=FEJIJDIP_03262
+FEJIJDIP_262	pseudofinder	gene	32553	32656	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=FEJIJDIP_262_pseudo_00532;old_locus_tag=FEJIJDIP_262_ign_00025
+FEJIJDIP_243	pseudofinder	gene	34187	35182	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 57.7%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_243_pseudo_00534;old_locus_tag=FEJIJDIP_03045
+FEJIJDIP_262	pseudofinder	gene	35146	35364	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 57.0%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_262_pseudo_00535;old_locus_tag=FEJIJDIP_03270
+FEJIJDIP_141	pseudofinder	gene	35477	35589	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_141_pseudo_00536;old_locus_tag=FEJIJDIP_141_ign_00025
+FEJIJDIP_360	pseudofinder	gene	36246	36346	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=FEJIJDIP_360_pseudo_00537;old_locus_tag=FEJIJDIP_360_ign_00029
+FEJIJDIP_344	pseudofinder	gene	37086	37366	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_344_pseudo_00539;old_locus_tag=FEJIJDIP_344_ign_00026
+FEJIJDIP_295	pseudofinder	gene	38373	38729	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 24.3%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_295_pseudo_00541;old_locus_tag=FEJIJDIP_03579
+FEJIJDIP_319	pseudofinder	gene	39383	39637	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 9 blast hits.;locus_tag=FEJIJDIP_319_pseudo_00542;old_locus_tag=FEJIJDIP_319_ign_00022
+FEJIJDIP_316	pseudofinder	gene	39970	40248	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 21.1%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_316_pseudo_00544;old_locus_tag=FEJIJDIP_03858
+FEJIJDIP_333	pseudofinder	gene	41981	42265	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 316.7%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_333_pseudo_00545;old_locus_tag=FEJIJDIP_04055
+FEJIJDIP_361	pseudofinder	gene	42522	48308	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 147.8%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_361_pseudo_00546;old_locus_tag=FEJIJDIP_04346
+FEJIJDIP_344	pseudofinder	gene	43894	46610	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_344_pseudo_00547;old_locus_tag=FEJIJDIP_344_ign_00031
+FEJIJDIP_360	pseudofinder	gene	44213	44346	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=FEJIJDIP_360_pseudo_00548;old_locus_tag=FEJIJDIP_360_ign_00035
+FEJIJDIP_355	pseudofinder	gene	47418	47777	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 23.3%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_355_pseudo_00549;old_locus_tag=FEJIJDIP_04229
+FEJIJDIP_361	pseudofinder	gene	51660	51777	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FEJIJDIP_361_pseudo_00550;old_locus_tag=FEJIJDIP_361_ign_00039
+FEJIJDIP_361	pseudofinder	gene	67386	67943	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 41.0%25 of the average length of hits to this gene.;locus_tag=FEJIJDIP_361_pseudo_00551;old_locus_tag=FEJIJDIP_04362

@@ -1,0 +1,1060 @@
+##gff-version 3
+#!annotation-date	2024-06-25 14:05:52
+##sequence-region NGPIBMMN_1 1 60745
+##sequence-region NGPIBMMN_2 1 18963
+##sequence-region NGPIBMMN_3 1 34964
+##sequence-region NGPIBMMN_4 1 34937
+##sequence-region NGPIBMMN_5 1 19441
+##sequence-region NGPIBMMN_6 1 19428
+##sequence-region NGPIBMMN_7 1 19314
+##sequence-region NGPIBMMN_8 1 19313
+##sequence-region NGPIBMMN_9 1 34899
+##sequence-region NGPIBMMN_10 1 59613
+##sequence-region NGPIBMMN_11 1 19446
+##sequence-region NGPIBMMN_12 1 19941
+##sequence-region NGPIBMMN_13 1 19899
+##sequence-region NGPIBMMN_14 1 20270
+##sequence-region NGPIBMMN_15 1 20169
+##sequence-region NGPIBMMN_16 1 20531
+##sequence-region NGPIBMMN_17 1 20527
+##sequence-region NGPIBMMN_18 1 38625
+##sequence-region NGPIBMMN_19 1 20493
+##sequence-region NGPIBMMN_20 1 20463
+##sequence-region NGPIBMMN_21 1 20927
+##sequence-region NGPIBMMN_22 1 20864
+##sequence-region NGPIBMMN_23 1 20838
+##sequence-region NGPIBMMN_24 1 38541
+##sequence-region NGPIBMMN_25 1 20824
+##sequence-region NGPIBMMN_26 1 20789
+##sequence-region NGPIBMMN_27 1 20729
+##sequence-region NGPIBMMN_28 1 21198
+##sequence-region NGPIBMMN_29 1 38348
+##sequence-region NGPIBMMN_30 1 21114
+##sequence-region NGPIBMMN_31 1 21091
+##sequence-region NGPIBMMN_32 1 20998
+##sequence-region NGPIBMMN_33 1 38312
+##sequence-region NGPIBMMN_34 1 21348
+##sequence-region NGPIBMMN_35 1 21272
+##sequence-region NGPIBMMN_36 1 21213
+##sequence-region NGPIBMMN_37 1 21446
+##sequence-region NGPIBMMN_38 1 21435
+##sequence-region NGPIBMMN_39 1 21810
+##sequence-region NGPIBMMN_40 1 21809
+##sequence-region NGPIBMMN_41 1 21704
+##sequence-region NGPIBMMN_42 1 10879
+##sequence-region NGPIBMMN_43 1 46212
+##sequence-region NGPIBMMN_44 1 10875
+##sequence-region NGPIBMMN_45 1 46212
+##sequence-region NGPIBMMN_46 1 22146
+##sequence-region NGPIBMMN_47 1 22040
+##sequence-region NGPIBMMN_48 1 21990
+##sequence-region NGPIBMMN_49 1 21950
+##sequence-region NGPIBMMN_50 1 21923
+##sequence-region NGPIBMMN_51 1 22487
+##sequence-region NGPIBMMN_52 1 45484
+##sequence-region NGPIBMMN_53 1 22250
+##sequence-region NGPIBMMN_54 1 22717
+##sequence-region NGPIBMMN_55 1 22580
+##sequence-region NGPIBMMN_56 1 22571
+##sequence-region NGPIBMMN_57 1 22550
+##sequence-region NGPIBMMN_58 1 23035
+##sequence-region NGPIBMMN_59 1 22865
+##sequence-region NGPIBMMN_60 1 22771
+##sequence-region NGPIBMMN_61 1 23589
+##sequence-region NGPIBMMN_62 1 24115
+##sequence-region NGPIBMMN_63 1 24069
+##sequence-region NGPIBMMN_64 1 24034
+##sequence-region NGPIBMMN_65 1 23985
+##sequence-region NGPIBMMN_66 1 10344
+##sequence-region NGPIBMMN_67 1 32972
+##sequence-region NGPIBMMN_68 1 10330
+##sequence-region NGPIBMMN_69 1 32854
+##sequence-region NGPIBMMN_70 1 10320
+##sequence-region NGPIBMMN_71 1 10311
+##sequence-region NGPIBMMN_72 1 10415
+##sequence-region NGPIBMMN_73 1 10387
+##sequence-region NGPIBMMN_74 1 24700
+##sequence-region NGPIBMMN_75 1 24662
+##sequence-region NGPIBMMN_76 1 10505
+##sequence-region NGPIBMMN_77 1 10557
+##sequence-region NGPIBMMN_78 1 10706
+##sequence-region NGPIBMMN_79 1 10684
+##sequence-region NGPIBMMN_80 1 39490
+##sequence-region NGPIBMMN_81 1 10756
+##sequence-region NGPIBMMN_82 1 39474
+##sequence-region NGPIBMMN_83 1 10740
+##sequence-region NGPIBMMN_84 1 39145
+##sequence-region NGPIBMMN_85 1 11110
+##sequence-region NGPIBMMN_86 1 11210
+##sequence-region NGPIBMMN_87 1 11190
+##sequence-region NGPIBMMN_88 1 11163
+##sequence-region NGPIBMMN_89 1 28886
+##sequence-region NGPIBMMN_90 1 11581
+##sequence-region NGPIBMMN_91 1 11762
+##sequence-region NGPIBMMN_92 1 36791
+##sequence-region NGPIBMMN_93 1 36651
+##sequence-region NGPIBMMN_94 1 9098
+##sequence-region NGPIBMMN_95 1 36280
+##sequence-region NGPIBMMN_96 1 36040
+##sequence-region NGPIBMMN_97 1 11899
+##sequence-region NGPIBMMN_98 1 11808
+##sequence-region NGPIBMMN_99 1 133121
+##sequence-region NGPIBMMN_100 1 42408
+##sequence-region NGPIBMMN_101 1 42356
+##sequence-region NGPIBMMN_102 1 42013
+##sequence-region NGPIBMMN_103 1 12135
+##sequence-region NGPIBMMN_104 1 41511
+##sequence-region NGPIBMMN_105 1 12098
+##sequence-region NGPIBMMN_106 1 41307
+##sequence-region NGPIBMMN_107 1 12082
+##sequence-region NGPIBMMN_108 1 12212
+##sequence-region NGPIBMMN_109 1 37129
+##sequence-region NGPIBMMN_110 1 12333
+##sequence-region NGPIBMMN_111 1 36995
+##sequence-region NGPIBMMN_112 1 36934
+##sequence-region NGPIBMMN_113 1 12425
+##sequence-region NGPIBMMN_114 1 12653
+##sequence-region NGPIBMMN_115 1 12726
+##sequence-region NGPIBMMN_116 1 33697
+##sequence-region NGPIBMMN_117 1 33588
+##sequence-region NGPIBMMN_118 1 12929
+##sequence-region NGPIBMMN_119 1 13171
+##sequence-region NGPIBMMN_120 1 13166
+##sequence-region NGPIBMMN_121 1 13152
+##sequence-region NGPIBMMN_122 1 13227
+##sequence-region NGPIBMMN_123 1 13343
+##sequence-region NGPIBMMN_124 1 13534
+##sequence-region NGPIBMMN_125 1 13499
+##sequence-region NGPIBMMN_126 1 13711
+##sequence-region NGPIBMMN_127 1 40005
+##sequence-region NGPIBMMN_128 1 39887
+##sequence-region NGPIBMMN_129 1 13979
+##sequence-region NGPIBMMN_130 1 13975
+##sequence-region NGPIBMMN_131 1 14132
+##sequence-region NGPIBMMN_132 1 39570
+##sequence-region NGPIBMMN_133 1 14284
+##sequence-region NGPIBMMN_134 1 14226
+##sequence-region NGPIBMMN_135 1 14216
+##sequence-region NGPIBMMN_136 1 14438
+##sequence-region NGPIBMMN_137 1 14414
+##sequence-region NGPIBMMN_138 1 76708
+##sequence-region NGPIBMMN_139 1 41179
+##sequence-region NGPIBMMN_140 1 14907
+##sequence-region NGPIBMMN_141 1 14781
+##sequence-region NGPIBMMN_142 1 40621
+##sequence-region NGPIBMMN_143 1 40410
+##sequence-region NGPIBMMN_144 1 40389
+##sequence-region NGPIBMMN_145 1 7694
+##sequence-region NGPIBMMN_146 1 7685
+##sequence-region NGPIBMMN_147 1 7684
+##sequence-region NGPIBMMN_148 1 7647
+##sequence-region NGPIBMMN_149 1 7724
+##sequence-region NGPIBMMN_150 1 46290
+##sequence-region NGPIBMMN_151 1 55591
+##sequence-region NGPIBMMN_152 1 55360
+##sequence-region NGPIBMMN_153 1 55336
+##sequence-region NGPIBMMN_154 1 52915
+##sequence-region NGPIBMMN_155 1 52908
+##sequence-region NGPIBMMN_156 1 52431
+##sequence-region NGPIBMMN_157 1 7918
+##sequence-region NGPIBMMN_158 1 52063
+##sequence-region NGPIBMMN_159 1 51985
+##sequence-region NGPIBMMN_160 1 7982
+##sequence-region NGPIBMMN_161 1 7976
+##sequence-region NGPIBMMN_162 1 49227
+##sequence-region NGPIBMMN_163 1 132902
+##sequence-region NGPIBMMN_164 1 8047
+##sequence-region NGPIBMMN_165 1 48637
+##sequence-region NGPIBMMN_166 1 48182
+##sequence-region NGPIBMMN_167 1 32645
+##sequence-region NGPIBMMN_168 1 32367
+##sequence-region NGPIBMMN_169 1 8072
+##sequence-region NGPIBMMN_170 1 32326
+##sequence-region NGPIBMMN_171 1 61470
+##sequence-region NGPIBMMN_172 1 8290
+##sequence-region NGPIBMMN_173 1 76321
+##sequence-region NGPIBMMN_174 1 8357
+##sequence-region NGPIBMMN_175 1 72483
+##sequence-region NGPIBMMN_176 1 72010
+##sequence-region NGPIBMMN_177 1 90590
+##sequence-region NGPIBMMN_178 1 8472
+##sequence-region NGPIBMMN_179 1 25240
+##sequence-region NGPIBMMN_180 1 8561
+##sequence-region NGPIBMMN_181 1 8551
+##sequence-region NGPIBMMN_182 1 8539
+##sequence-region NGPIBMMN_183 1 8503
+##sequence-region NGPIBMMN_184 1 8634
+##sequence-region NGPIBMMN_185 1 51510
+##sequence-region NGPIBMMN_186 1 8670
+##sequence-region NGPIBMMN_187 1 8781
+##sequence-region NGPIBMMN_188 1 95301
+##sequence-region NGPIBMMN_189 1 93856
+##sequence-region NGPIBMMN_190 1 8848
+##sequence-region NGPIBMMN_191 1 51202
+##sequence-region NGPIBMMN_192 1 26187
+##sequence-region NGPIBMMN_193 1 9027
+##sequence-region NGPIBMMN_194 1 26013
+##sequence-region NGPIBMMN_195 1 9175
+##sequence-region NGPIBMMN_196 1 9275
+##sequence-region NGPIBMMN_197 1 9249
+##sequence-region NGPIBMMN_198 1 9358
+##sequence-region NGPIBMMN_199 1 9328
+##sequence-region NGPIBMMN_200 1 9302
+##sequence-region NGPIBMMN_201 1 25644
+##sequence-region NGPIBMMN_202 1 25609
+##sequence-region NGPIBMMN_203 1 9571
+##sequence-region NGPIBMMN_204 1 25494
+##sequence-region NGPIBMMN_205 1 9683
+##sequence-region NGPIBMMN_206 1 9673
+##sequence-region NGPIBMMN_207 1 25474
+##sequence-region NGPIBMMN_208 1 9779
+##sequence-region NGPIBMMN_209 1 27898
+##sequence-region NGPIBMMN_210 1 27699
+##sequence-region NGPIBMMN_211 1 44943
+##sequence-region NGPIBMMN_212 1 26375
+##sequence-region NGPIBMMN_213 1 27560
+##sequence-region NGPIBMMN_214 1 27514
+##sequence-region NGPIBMMN_215 1 27064
+##sequence-region NGPIBMMN_216 1 6157
+##sequence-region NGPIBMMN_217 1 27029
+##sequence-region NGPIBMMN_218 1 44479
+##sequence-region NGPIBMMN_219 1 6234
+##sequence-region NGPIBMMN_220 1 26728
+##sequence-region NGPIBMMN_221 1 28701
+##sequence-region NGPIBMMN_222 1 28610
+##sequence-region NGPIBMMN_223 1 6252
+##sequence-region NGPIBMMN_224 1 28560
+##sequence-region NGPIBMMN_225 1 28453
+##sequence-region NGPIBMMN_226 1 28374
+##sequence-region NGPIBMMN_227 1 6372
+##sequence-region NGPIBMMN_228 1 44331
+##sequence-region NGPIBMMN_229 1 34356
+##sequence-region NGPIBMMN_230 1 6382
+##sequence-region NGPIBMMN_231 1 34275
+##sequence-region NGPIBMMN_232 1 6456
+##sequence-region NGPIBMMN_233 1 6451
+##sequence-region NGPIBMMN_234 1 6483
+##sequence-region NGPIBMMN_235 1 29494
+##sequence-region NGPIBMMN_236 1 6522
+##sequence-region NGPIBMMN_237 1 6509
+##sequence-region NGPIBMMN_238 1 32167
+##sequence-region NGPIBMMN_239 1 64297
+##sequence-region NGPIBMMN_240 1 64283
+##sequence-region NGPIBMMN_241 1 6617
+##sequence-region NGPIBMMN_242 1 30082
+##sequence-region NGPIBMMN_243 1 6587
+##sequence-region NGPIBMMN_244 1 5563
+##sequence-region NGPIBMMN_245 1 5553
+##sequence-region NGPIBMMN_246 1 5549
+##sequence-region NGPIBMMN_247 1 29731
+##sequence-region NGPIBMMN_248 1 30935
+##sequence-region NGPIBMMN_249 1 30492
+##sequence-region NGPIBMMN_250 1 6676
+##sequence-region NGPIBMMN_251 1 30224
+##sequence-region NGPIBMMN_252 1 30216
+##sequence-region NGPIBMMN_253 1 15033
+##sequence-region NGPIBMMN_254 1 15033
+##sequence-region NGPIBMMN_255 1 6754
+##sequence-region NGPIBMMN_256 1 6748
+##sequence-region NGPIBMMN_257 1 31860
+##sequence-region NGPIBMMN_258 1 14987
+##sequence-region NGPIBMMN_259 1 31845
+##sequence-region NGPIBMMN_260 1 6995
+##sequence-region NGPIBMMN_261 1 7082
+##sequence-region NGPIBMMN_262 1 7054
+##sequence-region NGPIBMMN_263 1 7171
+##sequence-region NGPIBMMN_264 1 15334
+##sequence-region NGPIBMMN_265 1 31562
+##sequence-region NGPIBMMN_266 1 7278
+##sequence-region NGPIBMMN_267 1 15503
+##sequence-region NGPIBMMN_268 1 15383
+##sequence-region NGPIBMMN_269 1 15376
+##sequence-region NGPIBMMN_270 1 15729
+##sequence-region NGPIBMMN_271 1 53919
+##sequence-region NGPIBMMN_272 1 7336
+##sequence-region NGPIBMMN_273 1 15671
+##sequence-region NGPIBMMN_274 1 53600
+##sequence-region NGPIBMMN_275 1 15928
+##sequence-region NGPIBMMN_276 1 7412
+##sequence-region NGPIBMMN_277 1 7507
+##sequence-region NGPIBMMN_278 1 7480
+##sequence-region NGPIBMMN_279 1 15867
+##sequence-region NGPIBMMN_280 1 7520
+##sequence-region NGPIBMMN_281 1 61233
+##sequence-region NGPIBMMN_282 1 16119
+##sequence-region NGPIBMMN_283 1 35793
+##sequence-region NGPIBMMN_284 1 16170
+##sequence-region NGPIBMMN_285 1 16162
+##sequence-region NGPIBMMN_286 1 35621
+##sequence-region NGPIBMMN_287 1 35458
+##sequence-region NGPIBMMN_288 1 16533
+##sequence-region NGPIBMMN_289 1 5142
+##sequence-region NGPIBMMN_290 1 5136
+##sequence-region NGPIBMMN_291 1 16833
+##sequence-region NGPIBMMN_292 1 16794
+##sequence-region NGPIBMMN_293 1 5234
+##sequence-region NGPIBMMN_294 1 16962
+##sequence-region NGPIBMMN_295 1 16898
+##sequence-region NGPIBMMN_296 1 5354
+##sequence-region NGPIBMMN_297 1 17282
+##sequence-region NGPIBMMN_298 1 17259
+##sequence-region NGPIBMMN_299 1 17253
+##sequence-region NGPIBMMN_300 1 5429
+##sequence-region NGPIBMMN_301 1 17170
+##sequence-region NGPIBMMN_302 1 5415
+##sequence-region NGPIBMMN_303 1 17097
+##sequence-region NGPIBMMN_304 1 5543
+##sequence-region NGPIBMMN_305 1 17428
+##sequence-region NGPIBMMN_306 1 5518
+##sequence-region NGPIBMMN_307 1 5516
+##sequence-region NGPIBMMN_308 1 17694
+##sequence-region NGPIBMMN_309 1 17658
+##sequence-region NGPIBMMN_310 1 5665
+##sequence-region NGPIBMMN_311 1 37594
+##sequence-region NGPIBMMN_312 1 5708
+##sequence-region NGPIBMMN_313 1 12896
+##sequence-region NGPIBMMN_314 1 5705
+##sequence-region NGPIBMMN_315 1 60792
+##sequence-region NGPIBMMN_316 1 5745
+##sequence-region NGPIBMMN_317 1 5782
+##sequence-region NGPIBMMN_318 1 5798
+##sequence-region NGPIBMMN_319 1 5784
+##sequence-region NGPIBMMN_320 1 5836
+##sequence-region NGPIBMMN_321 1 5867
+##sequence-region NGPIBMMN_322 1 5920
+##sequence-region NGPIBMMN_323 1 35331
+##sequence-region NGPIBMMN_324 1 5988
+##sequence-region NGPIBMMN_325 1 18143
+##sequence-region NGPIBMMN_326 1 18122
+##sequence-region NGPIBMMN_327 1 6012
+##sequence-region NGPIBMMN_328 1 5995
+##sequence-region NGPIBMMN_329 1 18402
+##sequence-region NGPIBMMN_330 1 18179
+NGPIBMMN_296	pseudofinder	gene	4	168	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 23.4%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_296_pseudo_00001;old_locus_tag=NGPIBMMN_06081
+NGPIBMMN_3	pseudofinder	gene	4	684	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 24.9%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_3_pseudo_00002;old_locus_tag=NGPIBMMN_00071
+NGPIBMMN_20	pseudofinder	gene	40	366	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 39.5%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_20_pseudo_00004;old_locus_tag=NGPIBMMN_00413
+NGPIBMMN_190	pseudofinder	gene	66	480	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=NGPIBMMN_190_pseudo_00005;old_locus_tag=NGPIBMMN_04331,NGPIBMMN_190_ign_00001,NGPIBMMN_04332
+NGPIBMMN_84	pseudofinder	gene	86	286	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 57.6%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_84_pseudo_00006;old_locus_tag=NGPIBMMN_01633
+NGPIBMMN_130	pseudofinder	gene	88	1638	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 64.4%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_130_pseudo_00007;old_locus_tag=NGPIBMMN_02606
+NGPIBMMN_209	pseudofinder	gene	95	589	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 53.8%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_209_pseudo_00008;old_locus_tag=NGPIBMMN_04593
+NGPIBMMN_181	pseudofinder	gene	103	1050	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 33.6%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_181_pseudo_00009;old_locus_tag=NGPIBMMN_04097
+NGPIBMMN_268	pseudofinder	gene	114	479	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 51.6%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_268_pseudo_00010;old_locus_tag=NGPIBMMN_05618
+NGPIBMMN_54	pseudofinder	gene	127	600	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 18.2%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_54_pseudo_00011;old_locus_tag=NGPIBMMN_01140
+NGPIBMMN_313	pseudofinder	gene	147	332	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 22.0%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_313_pseudo_00012;old_locus_tag=NGPIBMMN_06267
+NGPIBMMN_72	pseudofinder	gene	147	392	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 7.1%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_72_pseudo_00013;old_locus_tag=NGPIBMMN_01444
+NGPIBMMN_71	pseudofinder	gene	170	823	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 142.4%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_71_pseudo_00015;old_locus_tag=NGPIBMMN_01435
+NGPIBMMN_204	pseudofinder	gene	178	504	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 45.7%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_204_pseudo_00016;old_locus_tag=NGPIBMMN_04527
+NGPIBMMN_263	pseudofinder	gene	181	384	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 35.0%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_263_pseudo_00017;old_locus_tag=NGPIBMMN_05561
+NGPIBMMN_67	pseudofinder	gene	192	503	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 28.0%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_67_pseudo_00018;old_locus_tag=NGPIBMMN_01349
+NGPIBMMN_76	pseudofinder	gene	201	293	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 18.8%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_76_pseudo_00019;old_locus_tag=NGPIBMMN_01518
+NGPIBMMN_4	pseudofinder	gene	215	505	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 33.1%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_4_pseudo_00020;old_locus_tag=NGPIBMMN_00101
+NGPIBMMN_162	pseudofinder	gene	219	569	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 60.6%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_162_pseudo_00021;old_locus_tag=NGPIBMMN_03414
+NGPIBMMN_285	pseudofinder	gene	226	3300	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 47.5%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_285_pseudo_00022;old_locus_tag=NGPIBMMN_05928
+NGPIBMMN_236	pseudofinder	gene	227	448	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 44.8%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_236_pseudo_00023;old_locus_tag=NGPIBMMN_05102
+NGPIBMMN_296	pseudofinder	gene	254	445	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 46.4%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_296_pseudo_00024;old_locus_tag=NGPIBMMN_06082
+NGPIBMMN_233	pseudofinder	gene	256	708	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 17.5%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_233_pseudo_00025;old_locus_tag=NGPIBMMN_05063
+NGPIBMMN_75	pseudofinder	gene	281	700	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 57.6%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_75_pseudo_00026;old_locus_tag=NGPIBMMN_01492
+NGPIBMMN_41	pseudofinder	gene	287	445	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 12.7%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_41_pseudo_00028;old_locus_tag=NGPIBMMN_00836
+NGPIBMMN_97	pseudofinder	gene	304	881	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_97_pseudo_00029;old_locus_tag=NGPIBMMN_97_ign_00001
+NGPIBMMN_52	pseudofinder	gene	332	1693	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 45.0%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_52_pseudo_00030;old_locus_tag=NGPIBMMN_01084
+NGPIBMMN_70	pseudofinder	gene	431	1333	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 58.6%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_70_pseudo_00031;old_locus_tag=NGPIBMMN_01423
+NGPIBMMN_236	pseudofinder	gene	449	651	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_236_pseudo_00033;old_locus_tag=NGPIBMMN_236_ign_00001
+NGPIBMMN_20	pseudofinder	gene	455	3358	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 212.0%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_20_pseudo_00034;old_locus_tag=NGPIBMMN_00414
+NGPIBMMN_246	pseudofinder	gene	505	822	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 49.2%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_246_pseudo_00035;old_locus_tag=NGPIBMMN_05292
+NGPIBMMN_209	pseudofinder	gene	590	708	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_209_pseudo_00036;old_locus_tag=NGPIBMMN_209_ign_00001
+NGPIBMMN_164	pseudofinder	gene	619	1616	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=NGPIBMMN_164_pseudo_00037;old_locus_tag=NGPIBMMN_164_ign_00001,NGPIBMMN_03574,NGPIBMMN_03575
+NGPIBMMN_116	pseudofinder	gene	624	2675	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 159.6%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_116_pseudo_00038;old_locus_tag=NGPIBMMN_02376
+NGPIBMMN_298	pseudofinder	gene	663	907	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_298_pseudo_00041;old_locus_tag=NGPIBMMN_298_ign_00001
+NGPIBMMN_101	pseudofinder	gene	727	882	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 38.5%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_101_pseudo_00044;old_locus_tag=NGPIBMMN_02089
+NGPIBMMN_224	pseudofinder	gene	728	1087	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 29.2%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_224_pseudo_00045;old_locus_tag=NGPIBMMN_04886
+NGPIBMMN_123	pseudofinder	gene	785	952	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 45.0%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_123_pseudo_00046;old_locus_tag=NGPIBMMN_02477
+NGPIBMMN_318	pseudofinder	gene	803	2128	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 52.4%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_318_pseudo_00048;old_locus_tag=NGPIBMMN_06339
+NGPIBMMN_11	pseudofinder	gene	856	3186	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 20.3%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_11_pseudo_00049;old_locus_tag=NGPIBMMN_00269
+NGPIBMMN_209	pseudofinder	gene	860	961	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 22.4%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_209_pseudo_00050;old_locus_tag=NGPIBMMN_04594
+NGPIBMMN_312	pseudofinder	gene	899	1014	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_312_pseudo_00051;old_locus_tag=NGPIBMMN_312_ign_00002
+NGPIBMMN_125	pseudofinder	gene	918	1465	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=NGPIBMMN_125_pseudo_00052;old_locus_tag=NGPIBMMN_125_ign_00001
+NGPIBMMN_232	pseudofinder	gene	933	1111	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_232_pseudo_00054;old_locus_tag=NGPIBMMN_232_ign_00001
+NGPIBMMN_145	pseudofinder	gene	1010	1807	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 156.1%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_145_pseudo_00056;old_locus_tag=NGPIBMMN_02928
+NGPIBMMN_48	pseudofinder	gene	1012	1233	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 19.2%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_48_pseudo_00057;old_locus_tag=NGPIBMMN_01000
+NGPIBMMN_177	pseudofinder	gene	1037	1189	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 39.5%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_177_pseudo_00058;old_locus_tag=NGPIBMMN_03972
+NGPIBMMN_181	pseudofinder	gene	1060	1404	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 33.1%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_181_pseudo_00059;old_locus_tag=NGPIBMMN_04098
+NGPIBMMN_109	pseudofinder	gene	1072	1172	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_109_pseudo_00060;old_locus_tag=NGPIBMMN_109_ign_00001
+NGPIBMMN_97	pseudofinder	gene	1079	1453	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 50.0%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_97_pseudo_00061;old_locus_tag=NGPIBMMN_01885
+NGPIBMMN_314	pseudofinder	gene	1093	1374	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 147.5%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_314_pseudo_00062;old_locus_tag=NGPIBMMN_06284
+NGPIBMMN_233	pseudofinder	gene	1101	1171	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_233_pseudo_00063;old_locus_tag=NGPIBMMN_233_ign_00002
+NGPIBMMN_298	pseudofinder	gene	1104	1270	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_298_pseudo_00064;old_locus_tag=NGPIBMMN_298_ign_00002
+NGPIBMMN_75	pseudofinder	gene	1143	1553	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 52.1%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_75_pseudo_00065;old_locus_tag=NGPIBMMN_01493
+NGPIBMMN_110	pseudofinder	gene	1165	1287	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_110_pseudo_00066;old_locus_tag=NGPIBMMN_110_ign_00001
+NGPIBMMN_178	pseudofinder	gene	1184	1570	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 12.6%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_178_pseudo_00067;old_locus_tag=NGPIBMMN_04056
+NGPIBMMN_177	pseudofinder	gene	1191	1381	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_177_pseudo_00068;old_locus_tag=NGPIBMMN_177_ign_00002
+NGPIBMMN_202	pseudofinder	gene	1224	1483	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=NGPIBMMN_202_pseudo_00070;old_locus_tag=NGPIBMMN_202_ign_00001
+NGPIBMMN_123	pseudofinder	gene	1237	1569	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 52.3%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_123_pseudo_00071;old_locus_tag=NGPIBMMN_02479
+NGPIBMMN_109	pseudofinder	gene	1269	2012	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 45.3%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_109_pseudo_00072;old_locus_tag=NGPIBMMN_02251
+NGPIBMMN_25	pseudofinder	gene	1310	2983	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 50.5%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_25_pseudo_00073;old_locus_tag=NGPIBMMN_00515
+NGPIBMMN_110	pseudofinder	gene	1347	3197	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 170.3%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_110_pseudo_00075;old_locus_tag=NGPIBMMN_02278
+NGPIBMMN_56	pseudofinder	gene	1381	5313	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 42.8%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_56_pseudo_00076;old_locus_tag=NGPIBMMN_01178
+NGPIBMMN_149	pseudofinder	gene	1427	1768	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 161.3%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_149_pseudo_00078;old_locus_tag=NGPIBMMN_02952
+NGPIBMMN_97	pseudofinder	gene	1456	1907	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_97_pseudo_00079;old_locus_tag=NGPIBMMN_97_ign_00002
+NGPIBMMN_232	pseudofinder	gene	1463	1578	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_232_pseudo_00080;old_locus_tag=NGPIBMMN_232_ign_00002
+NGPIBMMN_40	pseudofinder	gene	1490	1765	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 135.5%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_40_pseudo_00081;old_locus_tag=NGPIBMMN_00819
+NGPIBMMN_181	pseudofinder	gene	1553	5302	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 257.2%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_181_pseudo_00083;old_locus_tag=NGPIBMMN_04099
+NGPIBMMN_300	pseudofinder	gene	1580	2284	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 25.5%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_300_pseudo_00084;old_locus_tag=NGPIBMMN_06130
+NGPIBMMN_123	pseudofinder	gene	1582	1670	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_123_pseudo_00085;old_locus_tag=NGPIBMMN_123_ign_00002
+NGPIBMMN_16	pseudofinder	gene	1605	1699	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_16_pseudo_00086;old_locus_tag=NGPIBMMN_16_ign_00001
+NGPIBMMN_177	pseudofinder	gene	1673	1918	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 61.2%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_177_pseudo_00087;old_locus_tag=NGPIBMMN_03974
+NGPIBMMN_123	pseudofinder	gene	1702	2016	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 52.2%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_123_pseudo_00088;old_locus_tag=NGPIBMMN_02480
+NGPIBMMN_48	pseudofinder	gene	1739	1809	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_48_pseudo_00089;old_locus_tag=NGPIBMMN_48_ign_00004
+NGPIBMMN_72	pseudofinder	gene	1751	1969	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 31.2%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_72_pseudo_00090;old_locus_tag=NGPIBMMN_01448
+NGPIBMMN_314	pseudofinder	gene	1756	1928	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_314_pseudo_00091;old_locus_tag=NGPIBMMN_314_ign_00002
+NGPIBMMN_75	pseudofinder	gene	1768	2178	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 59.3%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_75_pseudo_00092;old_locus_tag=NGPIBMMN_01494
+NGPIBMMN_290	pseudofinder	gene	1775	2182	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 154.5%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_290_pseudo_00093;old_locus_tag=NGPIBMMN_06011
+NGPIBMMN_29	pseudofinder	gene	1785	1939	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_29_pseudo_00094;old_locus_tag=NGPIBMMN_29_ign_00001
+NGPIBMMN_161	pseudofinder	gene	1814	2082	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_161_pseudo_00095;old_locus_tag=NGPIBMMN_161_ign_00001
+NGPIBMMN_144	pseudofinder	gene	1952	2074	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 34.9%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_144_pseudo_00096;old_locus_tag=NGPIBMMN_02900
+NGPIBMMN_46	pseudofinder	gene	1981	2346	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 38.5%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_46_pseudo_00097;old_locus_tag=NGPIBMMN_00958
+NGPIBMMN_115	pseudofinder	gene	1998	3950	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 50.2%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_115_pseudo_00098;old_locus_tag=NGPIBMMN_02370
+NGPIBMMN_97	pseudofinder	gene	2071	2903	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_97_pseudo_00100;old_locus_tag=NGPIBMMN_97_ign_00003
+NGPIBMMN_125	pseudofinder	gene	2148	2363	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 8.5%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_125_pseudo_00102;old_locus_tag=NGPIBMMN_02498
+NGPIBMMN_177	pseudofinder	gene	2153	2260	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 39.3%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_177_pseudo_00103;old_locus_tag=NGPIBMMN_03976
+NGPIBMMN_161	pseudofinder	gene	2222	2440	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 22.4%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_161_pseudo_00104;old_locus_tag=NGPIBMMN_03409
+NGPIBMMN_149	pseudofinder	gene	2264	2349	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_149_pseudo_00106;old_locus_tag=NGPIBMMN_149_ign_00001
+NGPIBMMN_288	pseudofinder	gene	2265	2407	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 8 blast hits.;locus_tag=NGPIBMMN_288_pseudo_00107;old_locus_tag=NGPIBMMN_288_ign_00002
+NGPIBMMN_16	pseudofinder	gene	2271	2498	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 63.7%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_16_pseudo_00108;old_locus_tag=NGPIBMMN_00338
+NGPIBMMN_221	pseudofinder	gene	2332	2447	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 8 blast hits.;locus_tag=NGPIBMMN_221_pseudo_00109;old_locus_tag=NGPIBMMN_221_ign_00002
+NGPIBMMN_149	pseudofinder	gene	2351	2494	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 61.8%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_149_pseudo_00110;old_locus_tag=NGPIBMMN_02954
+NGPIBMMN_46	pseudofinder	gene	2353	2727	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 36.0%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_46_pseudo_00111;old_locus_tag=NGPIBMMN_00959
+NGPIBMMN_189	pseudofinder	gene	2390	2484	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 13 blast hits.;locus_tag=NGPIBMMN_189_pseudo_00112;old_locus_tag=NGPIBMMN_189_ign_00002
+NGPIBMMN_302	pseudofinder	gene	2606	2851	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 47.5%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_302_pseudo_00115;old_locus_tag=NGPIBMMN_06150
+NGPIBMMN_91	pseudofinder	gene	2612	2788	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 45.7%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_91_pseudo_00116;old_locus_tag=NGPIBMMN_01737
+NGPIBMMN_63	pseudofinder	gene	2642	2745	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 10 blast hits.;locus_tag=NGPIBMMN_63_pseudo_00117;old_locus_tag=NGPIBMMN_63_ign_00003
+NGPIBMMN_120	pseudofinder	gene	2653	2892	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 24.5%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_120_pseudo_00118;old_locus_tag=NGPIBMMN_02444
+NGPIBMMN_164	pseudofinder	gene	2667	2829	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 11 blast hits.;locus_tag=NGPIBMMN_164_pseudo_00119;old_locus_tag=NGPIBMMN_164_ign_00003
+NGPIBMMN_18	pseudofinder	gene	2686	4327	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=NGPIBMMN_18_pseudo_00120;old_locus_tag=NGPIBMMN_00374,NGPIBMMN_00373,NGPIBMMN_18_ign_00003
+NGPIBMMN_313	pseudofinder	gene	2686	2805	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_313_pseudo_00121;old_locus_tag=NGPIBMMN_313_ign_00003
+NGPIBMMN_298	pseudofinder	gene	2721	3826	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_298_pseudo_00122;old_locus_tag=NGPIBMMN_298_ign_00004
+NGPIBMMN_190	pseudofinder	gene	2738	3105	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_190_pseudo_00123;old_locus_tag=NGPIBMMN_190_ign_00003
+NGPIBMMN_194	pseudofinder	gene	2945	4534	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 57.3%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_194_pseudo_00124;old_locus_tag=NGPIBMMN_04419
+NGPIBMMN_271	pseudofinder	gene	2955	3121	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_271_pseudo_00125;old_locus_tag=NGPIBMMN_271_ign_00002
+NGPIBMMN_232	pseudofinder	gene	2984	3265	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 39.1%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_232_pseudo_00126;old_locus_tag=NGPIBMMN_05060
+NGPIBMMN_75	pseudofinder	gene	3002	3330	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_75_pseudo_00127;old_locus_tag=NGPIBMMN_75_ign_00004
+NGPIBMMN_146	pseudofinder	gene	3041	3475	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 53.6%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_146_pseudo_00128;old_locus_tag=NGPIBMMN_02937
+NGPIBMMN_15	pseudofinder	gene	3179	3670	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 57.8%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_15_pseudo_00129;old_locus_tag=NGPIBMMN_00321
+NGPIBMMN_174	pseudofinder	gene	3223	3968	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=NGPIBMMN_174_pseudo_00130;old_locus_tag=NGPIBMMN_03849,NGPIBMMN_174_ign_00002,NGPIBMMN_174_ign_00003
+NGPIBMMN_232	pseudofinder	gene	3237	3737	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 58.4%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_232_pseudo_00131;old_locus_tag=NGPIBMMN_05061
+NGPIBMMN_67	pseudofinder	gene	3274	3489	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 64.7%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_67_pseudo_00132;old_locus_tag=NGPIBMMN_01359
+NGPIBMMN_247	pseudofinder	gene	3282	3785	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 61.6%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_247_pseudo_00133;old_locus_tag=NGPIBMMN_05300
+NGPIBMMN_14	pseudofinder	gene	3322	3469	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_14_pseudo_00134;old_locus_tag=NGPIBMMN_14_ign_00002
+NGPIBMMN_96	pseudofinder	gene	3359	3538	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 33.1%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_96_pseudo_00136;old_locus_tag=NGPIBMMN_01854
+NGPIBMMN_152	pseudofinder	gene	3375	3542	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 61.3%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_152_pseudo_00137;old_locus_tag=NGPIBMMN_03061
+NGPIBMMN_78	pseudofinder	gene	3383	3528	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 9 blast hits.;locus_tag=NGPIBMMN_78_pseudo_00138;old_locus_tag=NGPIBMMN_78_ign_00003
+NGPIBMMN_254	pseudofinder	gene	3405	3547	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_254_pseudo_00139;old_locus_tag=NGPIBMMN_254_ign_00003
+NGPIBMMN_132	pseudofinder	gene	3406	3506	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_132_pseudo_00140;old_locus_tag=NGPIBMMN_132_ign_00003
+NGPIBMMN_325	pseudofinder	gene	3416	3612	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 11 blast hits.;locus_tag=NGPIBMMN_325_pseudo_00141;old_locus_tag=NGPIBMMN_325_ign_00001
+NGPIBMMN_177	pseudofinder	gene	3440	3592	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 41.3%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_177_pseudo_00142;old_locus_tag=NGPIBMMN_03980
+NGPIBMMN_251	pseudofinder	gene	3493	4239	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 57.1%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_251_pseudo_00143;old_locus_tag=NGPIBMMN_05385
+NGPIBMMN_291	pseudofinder	gene	3514	3707	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_291_pseudo_00144;old_locus_tag=NGPIBMMN_291_ign_00004
+NGPIBMMN_238	pseudofinder	gene	3526	3755	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=NGPIBMMN_238_pseudo_00145;old_locus_tag=NGPIBMMN_238_ign_00003
+NGPIBMMN_179	pseudofinder	gene	3538	3828	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 36.3%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_179_pseudo_00146;old_locus_tag=NGPIBMMN_04066
+NGPIBMMN_152	pseudofinder	gene	3553	3716	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 10 blast hits.;locus_tag=NGPIBMMN_152_pseudo_00147;old_locus_tag=NGPIBMMN_152_ign_00003
+NGPIBMMN_125	pseudofinder	gene	3619	3806	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_125_pseudo_00148;old_locus_tag=NGPIBMMN_125_ign_00005
+NGPIBMMN_188	pseudofinder	gene	3685	3801	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=NGPIBMMN_188_pseudo_00149;old_locus_tag=NGPIBMMN_188_ign_00003
+NGPIBMMN_304	pseudofinder	gene	3685	4106	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_304_pseudo_00150;old_locus_tag=NGPIBMMN_304_ign_00002
+NGPIBMMN_293	pseudofinder	gene	3706	3853	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 12 blast hits.;locus_tag=NGPIBMMN_293_pseudo_00151;old_locus_tag=NGPIBMMN_293_ign_00003
+NGPIBMMN_314	pseudofinder	gene	3747	3892	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_314_pseudo_00153;old_locus_tag=NGPIBMMN_314_ign_00003
+NGPIBMMN_123	pseudofinder	gene	3860	4038	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_123_pseudo_00155;old_locus_tag=NGPIBMMN_123_ign_00003
+NGPIBMMN_154	pseudofinder	gene	3907	5340	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 374.2%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_154_pseudo_00156;old_locus_tag=NGPIBMMN_03155
+NGPIBMMN_177	pseudofinder	gene	3909	4003	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_177_pseudo_00157;old_locus_tag=NGPIBMMN_177_ign_00006
+NGPIBMMN_323	pseudofinder	gene	3917	4119	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 12 blast hits.;locus_tag=NGPIBMMN_323_pseudo_00158;old_locus_tag=NGPIBMMN_323_ign_00001
+NGPIBMMN_265	pseudofinder	gene	3932	4147	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 8.5%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_265_pseudo_00159;old_locus_tag=NGPIBMMN_05581
+NGPIBMMN_186	pseudofinder	gene	3997	4127	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=NGPIBMMN_186_pseudo_00161;old_locus_tag=NGPIBMMN_186_ign_00004
+NGPIBMMN_183	pseudofinder	gene	4010	4516	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 140.1%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_183_pseudo_00162;old_locus_tag=NGPIBMMN_04114
+NGPIBMMN_96	pseudofinder	gene	4055	4269	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_96_pseudo_00163;old_locus_tag=NGPIBMMN_96_ign_00003
+NGPIBMMN_314	pseudofinder	gene	4168	4536	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 26.1%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_314_pseudo_00164;old_locus_tag=NGPIBMMN_06287
+NGPIBMMN_159	pseudofinder	gene	4248	4403	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=NGPIBMMN_159_pseudo_00165;old_locus_tag=NGPIBMMN_159_ign_00003
+NGPIBMMN_237	pseudofinder	gene	4317	4574	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 42.9%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_237_pseudo_00166;old_locus_tag=NGPIBMMN_05111
+NGPIBMMN_149	pseudofinder	gene	4442	4573	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 43.8%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_149_pseudo_00167;old_locus_tag=NGPIBMMN_02959
+NGPIBMMN_129	pseudofinder	gene	4512	4676	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 35.8%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_129_pseudo_00168;old_locus_tag=NGPIBMMN_02594
+NGPIBMMN_63	pseudofinder	gene	4512	14087	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 183.4%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_63_pseudo_00169;old_locus_tag=NGPIBMMN_01290
+NGPIBMMN_194	pseudofinder	gene	4536	4780	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_194_pseudo_00170;old_locus_tag=NGPIBMMN_194_ign_00002
+NGPIBMMN_15	pseudofinder	gene	4541	7507	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 500.8%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_15_pseudo_00171;old_locus_tag=NGPIBMMN_00323
+NGPIBMMN_11	pseudofinder	gene	4568	5035	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 50.5%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_11_pseudo_00172;old_locus_tag=NGPIBMMN_00272
+NGPIBMMN_233	pseudofinder	gene	4603	4691	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_233_pseudo_00174;old_locus_tag=NGPIBMMN_233_ign_00006
+NGPIBMMN_159	pseudofinder	gene	4699	4784	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_159_pseudo_00176;old_locus_tag=NGPIBMMN_159_ign_00004
+NGPIBMMN_177	pseudofinder	gene	4715	4941	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=NGPIBMMN_177_pseudo_00177;old_locus_tag=NGPIBMMN_177_ign_00008,NGPIBMMN_03984
+NGPIBMMN_129	pseudofinder	gene	4725	5006	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 54.7%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_129_pseudo_00178;old_locus_tag=NGPIBMMN_02595
+NGPIBMMN_270	pseudofinder	gene	4736	5334	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_270_pseudo_00179;old_locus_tag=NGPIBMMN_270_ign_00003
+NGPIBMMN_272	pseudofinder	gene	4760	5112	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_272_pseudo_00180;old_locus_tag=NGPIBMMN_272_ign_00001
+NGPIBMMN_50	pseudofinder	gene	4772	4977	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 8 blast hits.;locus_tag=NGPIBMMN_50_pseudo_00181;old_locus_tag=NGPIBMMN_50_ign_00004
+NGPIBMMN_194	pseudofinder	gene	4805	5134	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 14.0%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_194_pseudo_00182;old_locus_tag=NGPIBMMN_04420
+NGPIBMMN_78	pseudofinder	gene	4817	4972	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 8 blast hits.;locus_tag=NGPIBMMN_78_pseudo_00183;old_locus_tag=NGPIBMMN_78_ign_00004
+NGPIBMMN_110	pseudofinder	gene	4838	5935	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 137.8%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_110_pseudo_00184;old_locus_tag=NGPIBMMN_02281
+NGPIBMMN_325	pseudofinder	gene	4838	5047	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 50.4%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_325_pseudo_00185;old_locus_tag=NGPIBMMN_06403
+NGPIBMMN_109	pseudofinder	gene	4843	5550	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 42.9%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_109_pseudo_00186;old_locus_tag=NGPIBMMN_02254
+NGPIBMMN_277	pseudofinder	gene	4878	5454	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 12 blast hits.;locus_tag=NGPIBMMN_277_pseudo_00187;old_locus_tag=NGPIBMMN_277_ign_00002
+NGPIBMMN_133	pseudofinder	gene	4898	5116	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 37.7%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_133_pseudo_00188;old_locus_tag=NGPIBMMN_02672
+NGPIBMMN_283	pseudofinder	gene	4899	4978	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_283_pseudo_00189;old_locus_tag=NGPIBMMN_283_ign_00003
+NGPIBMMN_77	pseudofinder	gene	4917	5270	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 36.8%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_77_pseudo_00190;old_locus_tag=NGPIBMMN_01532
+NGPIBMMN_291	pseudofinder	gene	4918	6531	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 171.6%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_291_pseudo_00191;old_locus_tag=NGPIBMMN_06025
+NGPIBMMN_35	pseudofinder	gene	4931	5040	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 9 blast hits.;locus_tag=NGPIBMMN_35_pseudo_00192;old_locus_tag=NGPIBMMN_35_ign_00005
+NGPIBMMN_325	pseudofinder	gene	5008	5226	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 59.7%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_325_pseudo_00193;old_locus_tag=NGPIBMMN_06404
+NGPIBMMN_229	pseudofinder	gene	5086	5511	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 53.3%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_229_pseudo_00194;old_locus_tag=NGPIBMMN_05001
+NGPIBMMN_99	pseudofinder	gene	5094	5173	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=NGPIBMMN_99_pseudo_00195;old_locus_tag=NGPIBMMN_99_ign_00005
+NGPIBMMN_194	pseudofinder	gene	5136	5230	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_194_pseudo_00196;old_locus_tag=NGPIBMMN_194_ign_00003
+NGPIBMMN_88	pseudofinder	gene	5178	6521	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 256.0%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_88_pseudo_00197;old_locus_tag=NGPIBMMN_01700
+NGPIBMMN_196	pseudofinder	gene	5188	5324	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_196_pseudo_00198;old_locus_tag=NGPIBMMN_196_ign_00002
+NGPIBMMN_125	pseudofinder	gene	5192	5872	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 161.0%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_125_pseudo_00199;old_locus_tag=NGPIBMMN_02502
+NGPIBMMN_271	pseudofinder	gene	5206	5282	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 11 blast hits.;locus_tag=NGPIBMMN_271_pseudo_00200;old_locus_tag=NGPIBMMN_271_ign_00005
+NGPIBMMN_325	pseudofinder	gene	5227	5420	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_325_pseudo_00202;old_locus_tag=NGPIBMMN_325_ign_00003
+NGPIBMMN_3	pseudofinder	gene	5240	5539	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 36.0%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_3_pseudo_00203;old_locus_tag=NGPIBMMN_00074
+NGPIBMMN_11	pseudofinder	gene	5242	5607	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 61.9%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_11_pseudo_00204;old_locus_tag=NGPIBMMN_00273
+NGPIBMMN_205	pseudofinder	gene	5258	5431	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 46.0%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_205_pseudo_00205;old_locus_tag=NGPIBMMN_04551
+NGPIBMMN_87	pseudofinder	gene	5297	5391	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=NGPIBMMN_87_pseudo_00207;old_locus_tag=NGPIBMMN_87_ign_00002
+NGPIBMMN_70	pseudofinder	gene	5299	5426	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_70_pseudo_00208;old_locus_tag=NGPIBMMN_70_ign_00007
+NGPIBMMN_265	pseudofinder	gene	5324	5560	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 38.9%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_265_pseudo_00209;old_locus_tag=NGPIBMMN_05583
+NGPIBMMN_314	pseudofinder	gene	5333	5433	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_314_pseudo_00210;old_locus_tag=NGPIBMMN_314_ign_00004
+NGPIBMMN_74	pseudofinder	gene	5343	5486	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 14 blast hits.;locus_tag=NGPIBMMN_74_pseudo_00211;old_locus_tag=NGPIBMMN_74_ign_00006
+NGPIBMMN_145	pseudofinder	gene	5356	5648	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_145_pseudo_00212;old_locus_tag=NGPIBMMN_145_ign_00004
+NGPIBMMN_129	pseudofinder	gene	5387	5502	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=NGPIBMMN_129_pseudo_00213;old_locus_tag=NGPIBMMN_129_ign_00006
+NGPIBMMN_270	pseudofinder	gene	5420	6172	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 60.9%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_270_pseudo_00214;old_locus_tag=NGPIBMMN_05648
+NGPIBMMN_314	pseudofinder	gene	5435	5659	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 163.0%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_314_pseudo_00215;old_locus_tag=NGPIBMMN_06290
+NGPIBMMN_240	pseudofinder	gene	5457	5557	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=NGPIBMMN_240_pseudo_00216;old_locus_tag=NGPIBMMN_240_ign_00002
+NGPIBMMN_324	pseudofinder	gene	5476	5844	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 41.7%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_324_pseudo_00217;old_locus_tag=NGPIBMMN_06400
+NGPIBMMN_114	pseudofinder	gene	5538	5864	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 30.3%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_114_pseudo_00218;old_locus_tag=NGPIBMMN_02360
+NGPIBMMN_65	pseudofinder	gene	5593	6525	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 478.5%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_65_pseudo_00219;old_locus_tag=NGPIBMMN_01325
+NGPIBMMN_21	pseudofinder	gene	5650	5798	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_21_pseudo_00220;old_locus_tag=NGPIBMMN_21_ign_00007
+NGPIBMMN_7	pseudofinder	gene	5716	5855	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_7_pseudo_00221;old_locus_tag=NGPIBMMN_7_ign_00006
+NGPIBMMN_83	pseudofinder	gene	5879	6316	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 137.1%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_83_pseudo_00222;old_locus_tag=NGPIBMMN_01628
+NGPIBMMN_61	pseudofinder	gene	5897	6030	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_61_pseudo_00223;old_locus_tag=NGPIBMMN_61_ign_00003
+NGPIBMMN_98	pseudofinder	gene	6016	7007	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=NGPIBMMN_98_pseudo_00225;old_locus_tag=NGPIBMMN_01899,NGPIBMMN_01898,NGPIBMMN_98_ign_00006
+NGPIBMMN_21	pseudofinder	gene	6097	6185	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_21_pseudo_00226;old_locus_tag=NGPIBMMN_21_ign_00008
+NGPIBMMN_234	pseudofinder	gene	6119	6445	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 37.0%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_234_pseudo_00227;old_locus_tag=NGPIBMMN_05074
+NGPIBMMN_259	pseudofinder	gene	6135	6418	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_259_pseudo_00228;old_locus_tag=NGPIBMMN_259_ign_00013
+NGPIBMMN_182	pseudofinder	gene	6183	6613	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_182_pseudo_00229;old_locus_tag=NGPIBMMN_182_ign_00005
+NGPIBMMN_247	pseudofinder	gene	6237	8539	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_247_pseudo_00231;old_locus_tag=NGPIBMMN_247_ign_00004
+NGPIBMMN_243	pseudofinder	gene	6247	6504	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 40.1%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_243_pseudo_00232;old_locus_tag=NGPIBMMN_05284
+NGPIBMMN_21	pseudofinder	gene	6270	6578	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 143.7%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_21_pseudo_00233;old_locus_tag=NGPIBMMN_00435
+NGPIBMMN_134	pseudofinder	gene	6285	6398	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 25.9%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_134_pseudo_00234;old_locus_tag=NGPIBMMN_02687
+NGPIBMMN_149	pseudofinder	gene	6314	6456	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 10 blast hits.;locus_tag=NGPIBMMN_149_pseudo_00235;old_locus_tag=NGPIBMMN_149_ign_00008
+NGPIBMMN_194	pseudofinder	gene	6337	6498	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 13.7%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_194_pseudo_00236;old_locus_tag=NGPIBMMN_04423
+NGPIBMMN_118	pseudofinder	gene	6408	6571	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_118_pseudo_00237;old_locus_tag=NGPIBMMN_118_ign_00003
+NGPIBMMN_228	pseudofinder	gene	6437	6519	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=NGPIBMMN_228_pseudo_00238;old_locus_tag=NGPIBMMN_228_ign_00006
+NGPIBMMN_259	pseudofinder	gene	6506	6805	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 29.9%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_259_pseudo_00239;old_locus_tag=NGPIBMMN_05516
+NGPIBMMN_94	pseudofinder	gene	6537	6896	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 54.9%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_94_pseudo_00240;old_locus_tag=NGPIBMMN_01814
+NGPIBMMN_272	pseudofinder	gene	6537	6733	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=NGPIBMMN_272_pseudo_00241;old_locus_tag=NGPIBMMN_272_ign_00002
+NGPIBMMN_54	pseudofinder	gene	6545	6723	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=NGPIBMMN_54_pseudo_00242;old_locus_tag=NGPIBMMN_54_ign_00005
+NGPIBMMN_17	pseudofinder	gene	6567	6665	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 10.0%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_17_pseudo_00243;old_locus_tag=NGPIBMMN_00357
+NGPIBMMN_242	pseudofinder	gene	6567	6646	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_242_pseudo_00244;old_locus_tag=NGPIBMMN_242_ign_00006
+NGPIBMMN_134	pseudofinder	gene	6594	6763	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_134_pseudo_00245;old_locus_tag=NGPIBMMN_134_ign_00005
+NGPIBMMN_85	pseudofinder	gene	6633	6997	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_85_pseudo_00246;old_locus_tag=NGPIBMMN_85_ign_00004
+NGPIBMMN_254	pseudofinder	gene	6643	6761	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_254_pseudo_00247;old_locus_tag=NGPIBMMN_254_ign_00005
+NGPIBMMN_194	pseudofinder	gene	6655	7134	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 40.2%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_194_pseudo_00249;old_locus_tag=NGPIBMMN_04424
+NGPIBMMN_144	pseudofinder	gene	6659	6863	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=NGPIBMMN_144_pseudo_00250;old_locus_tag=NGPIBMMN_144_ign_00005
+NGPIBMMN_46	pseudofinder	gene	6679	7022	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_46_pseudo_00251;old_locus_tag=NGPIBMMN_46_ign_00007
+NGPIBMMN_129	pseudofinder	gene	6691	6773	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=NGPIBMMN_129_pseudo_00252;old_locus_tag=NGPIBMMN_129_ign_00008
+NGPIBMMN_65	pseudofinder	gene	6720	6911	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 45.4%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_65_pseudo_00253;old_locus_tag=NGPIBMMN_01326
+NGPIBMMN_272	pseudofinder	gene	6735	7298	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 39.8%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_272_pseudo_00254;old_locus_tag=NGPIBMMN_05716
+NGPIBMMN_58	pseudofinder	gene	6750	7105	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_58_pseudo_00255;old_locus_tag=NGPIBMMN_58_ign_00004
+NGPIBMMN_291	pseudofinder	gene	6813	7195	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_291_pseudo_00256;old_locus_tag=NGPIBMMN_291_ign_00007
+NGPIBMMN_100	pseudofinder	gene	6836	6934	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 30.5%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_100_pseudo_00257;old_locus_tag=NGPIBMMN_02058
+NGPIBMMN_71	pseudofinder	gene	6907	7072	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=NGPIBMMN_71_pseudo_00258;old_locus_tag=NGPIBMMN_71_ign_00006
+NGPIBMMN_182	pseudofinder	gene	6987	7342	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_182_pseudo_00259;old_locus_tag=NGPIBMMN_182_ign_00006
+NGPIBMMN_193	pseudofinder	gene	7060	7407	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 53.4%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_193_pseudo_00260;old_locus_tag=NGPIBMMN_04415
+NGPIBMMN_194	pseudofinder	gene	7115	7312	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 19.7%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_194_pseudo_00261;old_locus_tag=NGPIBMMN_04425
+NGPIBMMN_98	pseudofinder	gene	7118	7212	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=NGPIBMMN_98_pseudo_00262;old_locus_tag=NGPIBMMN_98_ign_00007
+NGPIBMMN_278	pseudofinder	gene	7143	7376	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 56.4%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_278_pseudo_00263;old_locus_tag=NGPIBMMN_05808
+NGPIBMMN_107	pseudofinder	gene	7154	7329	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_107_pseudo_00264;old_locus_tag=NGPIBMMN_107_ign_00006
+NGPIBMMN_156	pseudofinder	gene	7256	7464	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_156_pseudo_00265;old_locus_tag=NGPIBMMN_156_ign_00007
+NGPIBMMN_57	pseudofinder	gene	7259	7410	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 8 blast hits.;locus_tag=NGPIBMMN_57_pseudo_00266;old_locus_tag=NGPIBMMN_57_ign_00005
+NGPIBMMN_259	pseudofinder	gene	7314	7760	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 34.0%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_259_pseudo_00267;old_locus_tag=NGPIBMMN_05518
+NGPIBMMN_107	pseudofinder	gene	7427	7746	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_107_pseudo_00268;old_locus_tag=NGPIBMMN_107_ign_00007
+NGPIBMMN_308	pseudofinder	gene	7464	8768	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 61.6%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_308_pseudo_00269;old_locus_tag=NGPIBMMN_06200
+NGPIBMMN_226	pseudofinder	gene	7479	7703	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_226_pseudo_00270;old_locus_tag=NGPIBMMN_226_ign_00004
+NGPIBMMN_159	pseudofinder	gene	7511	7707	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_159_pseudo_00272;old_locus_tag=NGPIBMMN_159_ign_00007
+NGPIBMMN_239	pseudofinder	gene	7512	7630	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=NGPIBMMN_239_pseudo_00273;old_locus_tag=NGPIBMMN_239_ign_00005
+NGPIBMMN_97	pseudofinder	gene	7677	7819	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_97_pseudo_00275;old_locus_tag=NGPIBMMN_97_ign_00005
+NGPIBMMN_72	pseudofinder	gene	7721	7911	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_72_pseudo_00276;old_locus_tag=NGPIBMMN_72_ign_00010
+NGPIBMMN_259	pseudofinder	gene	7748	7867	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 20.4%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_259_pseudo_00277;old_locus_tag=NGPIBMMN_05519
+NGPIBMMN_238	pseudofinder	gene	7754	8518	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 52.8%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_238_pseudo_00278;old_locus_tag=NGPIBMMN_05121
+NGPIBMMN_2	pseudofinder	gene	7756	8454	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 144.5%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_2_pseudo_00279;old_locus_tag=NGPIBMMN_00059
+NGPIBMMN_173	pseudofinder	gene	7767	7870	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=NGPIBMMN_173_pseudo_00280;old_locus_tag=NGPIBMMN_173_ign_00006
+NGPIBMMN_87	pseudofinder	gene	7772	7857	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_87_pseudo_00281;old_locus_tag=NGPIBMMN_87_ign_00005
+NGPIBMMN_299	pseudofinder	gene	7819	8073	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 11.0%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_299_pseudo_00282;old_locus_tag=NGPIBMMN_06120
+NGPIBMMN_309	pseudofinder	gene	7869	8321	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 62.1%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_309_pseudo_00283;old_locus_tag=NGPIBMMN_06215
+NGPIBMMN_179	pseudofinder	gene	7874	8134	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 54.1%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_179_pseudo_00284;old_locus_tag=NGPIBMMN_04072
+NGPIBMMN_124	pseudofinder	gene	7962	8192	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 35.9%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_124_pseudo_00285;old_locus_tag=NGPIBMMN_02491
+NGPIBMMN_87	pseudofinder	gene	7970	8785	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 63.8%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_87_pseudo_00286;old_locus_tag=NGPIBMMN_01692
+NGPIBMMN_34	pseudofinder	gene	7993	8291	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_34_pseudo_00288;old_locus_tag=NGPIBMMN_34_ign_00007
+NGPIBMMN_67	pseudofinder	gene	7995	8189	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 14.2%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_67_pseudo_00289;old_locus_tag=NGPIBMMN_01366
+NGPIBMMN_28	pseudofinder	gene	8117	9289	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 213.7%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_28_pseudo_00290;old_locus_tag=NGPIBMMN_00571
+NGPIBMMN_248	pseudofinder	gene	8197	8348	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=NGPIBMMN_248_pseudo_00292;old_locus_tag=NGPIBMMN_248_ign_00008
+NGPIBMMN_152	pseudofinder	gene	8229	9365	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 63.2%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_152_pseudo_00293;old_locus_tag=NGPIBMMN_03066
+NGPIBMMN_120	pseudofinder	gene	8295	8404	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=NGPIBMMN_120_pseudo_00294;old_locus_tag=NGPIBMMN_120_ign_00005
+NGPIBMMN_309	pseudofinder	gene	8323	8426	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_309_pseudo_00295;old_locus_tag=NGPIBMMN_309_ign_00009
+NGPIBMMN_309	pseudofinder	gene	8428	8619	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 33.9%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_309_pseudo_00296;old_locus_tag=NGPIBMMN_06216
+NGPIBMMN_35	pseudofinder	gene	8481	8677	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_35_pseudo_00297;old_locus_tag=NGPIBMMN_35_ign_00009
+NGPIBMMN_38	pseudofinder	gene	8511	8723	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 21.8%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_38_pseudo_00298;old_locus_tag=NGPIBMMN_00782
+NGPIBMMN_31	pseudofinder	gene	8533	8615	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_31_pseudo_00299;old_locus_tag=NGPIBMMN_31_ign_00007
+NGPIBMMN_153	pseudofinder	gene	8536	9314	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_153_pseudo_00300;old_locus_tag=NGPIBMMN_153_ign_00006
+NGPIBMMN_267	pseudofinder	gene	8560	8672	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_267_pseudo_00301;old_locus_tag=NGPIBMMN_267_ign_00006
+NGPIBMMN_168	pseudofinder	gene	8570	8833	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 46.1%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_168_pseudo_00303;old_locus_tag=NGPIBMMN_03694
+NGPIBMMN_38	pseudofinder	gene	8754	8929	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=NGPIBMMN_38_pseudo_00306;old_locus_tag=NGPIBMMN_38_ign_00009
+NGPIBMMN_50	pseudofinder	gene	8765	9518	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 8 blast hits.;locus_tag=NGPIBMMN_50_pseudo_00307;old_locus_tag=NGPIBMMN_50_ign_00006
+NGPIBMMN_87	pseudofinder	gene	8775	9236	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 54.8%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_87_pseudo_00308;old_locus_tag=NGPIBMMN_01693
+NGPIBMMN_110	pseudofinder	gene	8800	8954	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=NGPIBMMN_110_pseudo_00309;old_locus_tag=NGPIBMMN_110_ign_00004
+NGPIBMMN_252	pseudofinder	gene	8909	9733	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 59.4%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_252_pseudo_00311;old_locus_tag=NGPIBMMN_05417
+NGPIBMMN_114	pseudofinder	gene	8958	9806	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 31.8%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_114_pseudo_00313;old_locus_tag=NGPIBMMN_02363
+NGPIBMMN_285	pseudofinder	gene	9000	9743	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 189.6%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_285_pseudo_00314;old_locus_tag=NGPIBMMN_05931
+NGPIBMMN_257	pseudofinder	gene	9165	9298	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=NGPIBMMN_257_pseudo_00317;old_locus_tag=NGPIBMMN_257_ign_00003
+NGPIBMMN_128	pseudofinder	gene	9167	9276	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=NGPIBMMN_128_pseudo_00318;old_locus_tag=NGPIBMMN_128_ign_00005
+NGPIBMMN_303	pseudofinder	gene	9191	9411	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_303_pseudo_00319;old_locus_tag=NGPIBMMN_303_ign_00008
+NGPIBMMN_150	pseudofinder	gene	9242	9421	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 15.9%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_150_pseudo_00320;old_locus_tag=NGPIBMMN_02970
+NGPIBMMN_291	pseudofinder	gene	9272	9523	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 45.0%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_291_pseudo_00321;old_locus_tag=NGPIBMMN_06029
+NGPIBMMN_89	pseudofinder	gene	9307	9885	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=NGPIBMMN_89_pseudo_00322;old_locus_tag=NGPIBMMN_01710,NGPIBMMN_01711,NGPIBMMN_89_ign_00007
+NGPIBMMN_103	pseudofinder	gene	9342	9676	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 11 blast hits.;locus_tag=NGPIBMMN_103_pseudo_00323;old_locus_tag=NGPIBMMN_103_ign_00007
+NGPIBMMN_204	pseudofinder	gene	9364	9615	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 15.4%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_204_pseudo_00324;old_locus_tag=NGPIBMMN_04535
+NGPIBMMN_152	pseudofinder	gene	9378	9472	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_152_pseudo_00325;old_locus_tag=NGPIBMMN_152_ign_00006
+NGPIBMMN_143	pseudofinder	gene	9382	9963	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=NGPIBMMN_143_pseudo_00326;old_locus_tag=NGPIBMMN_02878,NGPIBMMN_143_ign_00008
+NGPIBMMN_303	pseudofinder	gene	9416	10135	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 55.1%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_303_pseudo_00327;old_locus_tag=NGPIBMMN_06162
+NGPIBMMN_282	pseudofinder	gene	9434	10192	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 51.2%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_282_pseudo_00328;old_locus_tag=NGPIBMMN_05882
+NGPIBMMN_35	pseudofinder	gene	9477	9716	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 49.1%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_35_pseudo_00329;old_locus_tag=NGPIBMMN_00734
+NGPIBMMN_28	pseudofinder	gene	9514	9663	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 28.2%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_28_pseudo_00330;old_locus_tag=NGPIBMMN_00572
+NGPIBMMN_224	pseudofinder	gene	9718	9797	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_224_pseudo_00331;old_locus_tag=NGPIBMMN_224_ign_00007
+NGPIBMMN_24	pseudofinder	gene	9730	10234	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_24_pseudo_00332;old_locus_tag=NGPIBMMN_24_ign_00006
+NGPIBMMN_35	pseudofinder	gene	9787	10256	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 13 blast hits.;locus_tag=NGPIBMMN_35_pseudo_00333;old_locus_tag=NGPIBMMN_35_ign_00011
+NGPIBMMN_188	pseudofinder	gene	9790	9957	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=NGPIBMMN_188_pseudo_00334;old_locus_tag=NGPIBMMN_188_ign_00008
+NGPIBMMN_150	pseudofinder	gene	9817	10007	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_150_pseudo_00336;old_locus_tag=NGPIBMMN_150_ign_00009
+NGPIBMMN_162	pseudofinder	gene	9873	10156	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_162_pseudo_00337;old_locus_tag=NGPIBMMN_162_ign_00007
+NGPIBMMN_152	pseudofinder	gene	9882	10022	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 59.9%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_152_pseudo_00338;old_locus_tag=NGPIBMMN_03068
+NGPIBMMN_212	pseudofinder	gene	9886	9994	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 8 blast hits.;locus_tag=NGPIBMMN_212_pseudo_00339;old_locus_tag=NGPIBMMN_212_ign_00006
+NGPIBMMN_89	pseudofinder	gene	9886	10022	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_89_pseudo_00340;old_locus_tag=NGPIBMMN_89_ign_00008
+NGPIBMMN_249	pseudofinder	gene	9922	11238	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=NGPIBMMN_249_pseudo_00341;old_locus_tag=NGPIBMMN_05356,NGPIBMMN_05355,NGPIBMMN_249_ign_00010
+NGPIBMMN_2	pseudofinder	gene	9941	10050	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_2_pseudo_00342;old_locus_tag=NGPIBMMN_2_ign_00009
+NGPIBMMN_31	pseudofinder	gene	9985	10064	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_31_pseudo_00343;old_locus_tag=NGPIBMMN_31_ign_00009
+NGPIBMMN_150	pseudofinder	gene	10009	10275	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 59.2%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_150_pseudo_00344;old_locus_tag=NGPIBMMN_02972
+NGPIBMMN_89	pseudofinder	gene	10024	10362	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 27.3%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_89_pseudo_00345;old_locus_tag=NGPIBMMN_01712
+NGPIBMMN_252	pseudofinder	gene	10122	18028	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=NGPIBMMN_252_pseudo_00347;old_locus_tag=NGPIBMMN_252_ign_00006,NGPIBMMN_05420,NGPIBMMN_05419
+NGPIBMMN_309	pseudofinder	gene	10136	10600	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 45.7%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_309_pseudo_00348;old_locus_tag=NGPIBMMN_06219
+NGPIBMMN_326	pseudofinder	gene	10194	10331	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 44.8%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_326_pseudo_00349;old_locus_tag=NGPIBMMN_06427
+NGPIBMMN_194	pseudofinder	gene	10274	10741	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 40.9%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_194_pseudo_00350;old_locus_tag=NGPIBMMN_04428
+NGPIBMMN_35	pseudofinder	gene	10293	10427	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 43.1%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_35_pseudo_00351;old_locus_tag=NGPIBMMN_00735
+NGPIBMMN_329	pseudofinder	gene	10326	10601	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 33.6%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_329_pseudo_00352;old_locus_tag=NGPIBMMN_06454
+NGPIBMMN_251	pseudofinder	gene	10346	10875	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=NGPIBMMN_251_pseudo_00353;old_locus_tag=NGPIBMMN_251_ign_00008
+NGPIBMMN_89	pseudofinder	gene	10368	10526	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 10.3%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_89_pseudo_00355;old_locus_tag=NGPIBMMN_01713
+NGPIBMMN_323	pseudofinder	gene	10378	10634	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_323_pseudo_00356;old_locus_tag=NGPIBMMN_323_ign_00007
+NGPIBMMN_294	pseudofinder	gene	10467	10543	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_294_pseudo_00357;old_locus_tag=NGPIBMMN_294_ign_00007
+NGPIBMMN_2	pseudofinder	gene	10487	10617	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 10 blast hits.;locus_tag=NGPIBMMN_2_pseudo_00358;old_locus_tag=NGPIBMMN_2_ign_00010
+NGPIBMMN_309	pseudofinder	gene	10607	11260	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 57.6%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_309_pseudo_00359;old_locus_tag=NGPIBMMN_06220
+NGPIBMMN_31	pseudofinder	gene	10615	11531	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=NGPIBMMN_31_pseudo_00360;old_locus_tag=NGPIBMMN_00639,NGPIBMMN_31_ign_00011
+NGPIBMMN_35	pseudofinder	gene	10630	10835	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_35_pseudo_00361;old_locus_tag=NGPIBMMN_35_ign_00012
+NGPIBMMN_142	pseudofinder	gene	10659	10795	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_142_pseudo_00362;old_locus_tag=NGPIBMMN_142_ign_00009
+NGPIBMMN_218	pseudofinder	gene	10702	11094	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 10 blast hits.;locus_tag=NGPIBMMN_218_pseudo_00363;old_locus_tag=NGPIBMMN_218_ign_00007
+NGPIBMMN_115	pseudofinder	gene	10735	12471	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 229.3%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_115_pseudo_00364;old_locus_tag=NGPIBMMN_02375
+NGPIBMMN_177	pseudofinder	gene	10771	10967	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 14 blast hits.;locus_tag=NGPIBMMN_177_pseudo_00365;old_locus_tag=NGPIBMMN_177_ign_00010
+NGPIBMMN_86	pseudofinder	gene	10834	11061	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 57.7%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_86_pseudo_00366;old_locus_tag=NGPIBMMN_01683
+NGPIBMMN_118	pseudofinder	gene	10894	11243	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_118_pseudo_00367;old_locus_tag=NGPIBMMN_118_ign_00006
+NGPIBMMN_131	pseudofinder	gene	10949	11233	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 48.9%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_131_pseudo_00369;old_locus_tag=NGPIBMMN_02625
+NGPIBMMN_19	pseudofinder	gene	11027	11250	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_19_pseudo_00370;old_locus_tag=NGPIBMMN_19_ign_00003
+NGPIBMMN_179	pseudofinder	gene	11148	11269	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 11 blast hits.;locus_tag=NGPIBMMN_179_pseudo_00371;old_locus_tag=NGPIBMMN_179_ign_00011
+NGPIBMMN_65	pseudofinder	gene	11154	11350	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_65_pseudo_00372;old_locus_tag=NGPIBMMN_65_ign_00009
+NGPIBMMN_89	pseudofinder	gene	11198	11494	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 28.7%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_89_pseudo_00374;old_locus_tag=NGPIBMMN_01715
+NGPIBMMN_325	pseudofinder	gene	11257	11396	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=NGPIBMMN_325_pseudo_00375;old_locus_tag=NGPIBMMN_325_ign_00011
+NGPIBMMN_175	pseudofinder	gene	11327	11520	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_175_pseudo_00376;old_locus_tag=NGPIBMMN_175_ign_00009
+NGPIBMMN_211	pseudofinder	gene	11346	11683	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=NGPIBMMN_211_pseudo_00377;old_locus_tag=NGPIBMMN_04650,NGPIBMMN_04649,NGPIBMMN_211_ign_00015
+NGPIBMMN_1	pseudofinder	gene	11397	11663	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 14.6%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_1_pseudo_00378;old_locus_tag=NGPIBMMN_00010
+NGPIBMMN_228	pseudofinder	gene	11452	11636	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_228_pseudo_00379;old_locus_tag=NGPIBMMN_228_ign_00009
+NGPIBMMN_313	pseudofinder	gene	11470	11621	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_313_pseudo_00380;old_locus_tag=NGPIBMMN_313_ign_00013
+NGPIBMMN_143	pseudofinder	gene	11519	11649	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_143_pseudo_00381;old_locus_tag=NGPIBMMN_143_ign_00009
+NGPIBMMN_61	pseudofinder	gene	11611	11905	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_61_pseudo_00382;old_locus_tag=NGPIBMMN_61_ign_00007
+NGPIBMMN_120	pseudofinder	gene	11650	13023	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 26.5%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_120_pseudo_00384;old_locus_tag=NGPIBMMN_02449
+NGPIBMMN_114	pseudofinder	gene	11693	11877	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_114_pseudo_00385;old_locus_tag=NGPIBMMN_114_ign_00009
+NGPIBMMN_309	pseudofinder	gene	11875	12072	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 36.1%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_309_pseudo_00386;old_locus_tag=NGPIBMMN_06222
+NGPIBMMN_114	pseudofinder	gene	11880	12029	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 60.8%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_114_pseudo_00387;old_locus_tag=NGPIBMMN_02367
+NGPIBMMN_61	pseudofinder	gene	11915	12775	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 62.1%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_61_pseudo_00389;old_locus_tag=NGPIBMMN_01259
+NGPIBMMN_329	pseudofinder	gene	11986	12093	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 43.9%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_329_pseudo_00391;old_locus_tag=NGPIBMMN_06456
+NGPIBMMN_47	pseudofinder	gene	12031	12143	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_47_pseudo_00393;old_locus_tag=NGPIBMMN_47_ign_00005
+NGPIBMMN_40	pseudofinder	gene	12058	12254	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 12 blast hits.;locus_tag=NGPIBMMN_40_pseudo_00394;old_locus_tag=NGPIBMMN_40_ign_00011
+NGPIBMMN_291	pseudofinder	gene	12099	12242	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 17.1%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_291_pseudo_00395;old_locus_tag=NGPIBMMN_06033
+NGPIBMMN_31	pseudofinder	gene	12127	12324	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 53.0%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_31_pseudo_00396;old_locus_tag=NGPIBMMN_00642
+NGPIBMMN_50	pseudofinder	gene	12460	12638	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 13 blast hits.;locus_tag=NGPIBMMN_50_pseudo_00398;old_locus_tag=NGPIBMMN_50_ign_00007
+NGPIBMMN_9	pseudofinder	gene	12489	12899	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 51.8%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_9_pseudo_00399;old_locus_tag=NGPIBMMN_00208
+NGPIBMMN_22	pseudofinder	gene	12495	12691	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_22_pseudo_00400;old_locus_tag=NGPIBMMN_22_ign_00007
+NGPIBMMN_218	pseudofinder	gene	12561	12678	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 8 blast hits.;locus_tag=NGPIBMMN_218_pseudo_00402;old_locus_tag=NGPIBMMN_218_ign_00008
+NGPIBMMN_218	pseudofinder	gene	12708	13313	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 63.7%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_218_pseudo_00403;old_locus_tag=NGPIBMMN_04788
+NGPIBMMN_125	pseudofinder	gene	12742	13347	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 45.0%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_125_pseudo_00404;old_locus_tag=NGPIBMMN_02510
+NGPIBMMN_231	pseudofinder	gene	12824	14033	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=NGPIBMMN_231_pseudo_00405;old_locus_tag=NGPIBMMN_231_ign_00009,NGPIBMMN_05040
+NGPIBMMN_299	pseudofinder	gene	12866	13078	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 37.4%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_299_pseudo_00406;old_locus_tag=NGPIBMMN_06125
+NGPIBMMN_132	pseudofinder	gene	12937	13784	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_132_pseudo_00407;old_locus_tag=NGPIBMMN_132_ign_00010
+NGPIBMMN_294	pseudofinder	gene	13041	13307	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 41.1%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_294_pseudo_00408;old_locus_tag=NGPIBMMN_06064
+NGPIBMMN_26	pseudofinder	gene	13121	14765	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=NGPIBMMN_26_pseudo_00409;old_locus_tag=NGPIBMMN_00540,NGPIBMMN_00541
+NGPIBMMN_96	pseudofinder	gene	13130	13212	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=NGPIBMMN_96_pseudo_00410;old_locus_tag=NGPIBMMN_96_ign_00008
+NGPIBMMN_235	pseudofinder	gene	13157	13537	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 32.7%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_235_pseudo_00411;old_locus_tag=NGPIBMMN_05087
+NGPIBMMN_158	pseudofinder	gene	13181	13275	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=NGPIBMMN_158_pseudo_00412;old_locus_tag=NGPIBMMN_158_ign_00010
+NGPIBMMN_326	pseudofinder	gene	13207	13316	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=NGPIBMMN_326_pseudo_00413;old_locus_tag=NGPIBMMN_326_ign_00007
+NGPIBMMN_41	pseudofinder	gene	13262	13801	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 49.6%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_41_pseudo_00414;old_locus_tag=NGPIBMMN_00851
+NGPIBMMN_281	pseudofinder	gene	13580	13701	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_281_pseudo_00415;old_locus_tag=NGPIBMMN_281_ign_00010
+NGPIBMMN_92	pseudofinder	gene	13594	13731	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 22.2%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_92_pseudo_00416;old_locus_tag=NGPIBMMN_01759
+NGPIBMMN_279	pseudofinder	gene	13597	13872	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 135.5%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_279_pseudo_00417;old_locus_tag=NGPIBMMN_05817
+NGPIBMMN_34	pseudofinder	gene	13632	13868	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 44.1%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_34_pseudo_00418;old_locus_tag=NGPIBMMN_00717
+NGPIBMMN_8	pseudofinder	gene	13658	13768	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=NGPIBMMN_8_pseudo_00419;old_locus_tag=NGPIBMMN_8_ign_00010
+NGPIBMMN_84	pseudofinder	gene	13665	13856	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 20.9%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_84_pseudo_00420;old_locus_tag=NGPIBMMN_01645
+NGPIBMMN_268	pseudofinder	gene	13696	13826	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_268_pseudo_00421;old_locus_tag=NGPIBMMN_268_ign_00012
+NGPIBMMN_191	pseudofinder	gene	13728	14429	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 41.4%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_191_pseudo_00422;old_locus_tag=NGPIBMMN_04363
+NGPIBMMN_7	pseudofinder	gene	13781	14695	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 34.7%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_7_pseudo_00423;old_locus_tag=NGPIBMMN_00176
+NGPIBMMN_62	pseudofinder	gene	13790	13924	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 48.6%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_62_pseudo_00424;old_locus_tag=NGPIBMMN_01276
+NGPIBMMN_284	pseudofinder	gene	13792	13901	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=NGPIBMMN_284_pseudo_00425;old_locus_tag=NGPIBMMN_284_ign_00009
+NGPIBMMN_47	pseudofinder	gene	13816	13953	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 58.8%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_47_pseudo_00426;old_locus_tag=NGPIBMMN_00990
+NGPIBMMN_292	pseudofinder	gene	13847	14673	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_292_pseudo_00427;old_locus_tag=NGPIBMMN_292_ign_00010
+NGPIBMMN_39	pseudofinder	gene	13887	14117	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 20.2%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_39_pseudo_00429;old_locus_tag=NGPIBMMN_00810
+NGPIBMMN_138	pseudofinder	gene	13934	14083	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=NGPIBMMN_138_pseudo_00432;old_locus_tag=NGPIBMMN_138_ign_00009
+NGPIBMMN_47	pseudofinder	gene	13950	14147	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 57.4%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_47_pseudo_00433;old_locus_tag=NGPIBMMN_00991
+NGPIBMMN_309	pseudofinder	gene	13978	14166	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 12.7%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_309_pseudo_00434;old_locus_tag=NGPIBMMN_06224
+NGPIBMMN_165	pseudofinder	gene	14025	14456	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 53.0%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_165_pseudo_00435;old_locus_tag=NGPIBMMN_03589
+NGPIBMMN_330	pseudofinder	gene	14071	14898	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 57.6%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_330_pseudo_00437;old_locus_tag=NGPIBMMN_06482
+NGPIBMMN_218	pseudofinder	gene	14102	14356	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 39.9%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_218_pseudo_00438;old_locus_tag=NGPIBMMN_04789
+NGPIBMMN_47	pseudofinder	gene	14150	14298	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_47_pseudo_00439;old_locus_tag=NGPIBMMN_47_ign_00008
+NGPIBMMN_117	pseudofinder	gene	14170	16350	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 61.4%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_117_pseudo_00440;old_locus_tag=NGPIBMMN_02411
+NGPIBMMN_46	pseudofinder	gene	14342	14509	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 35.1%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_46_pseudo_00443;old_locus_tag=NGPIBMMN_00973
+NGPIBMMN_39	pseudofinder	gene	14378	14523	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_39_pseudo_00444;old_locus_tag=NGPIBMMN_39_ign_00013
+NGPIBMMN_154	pseudofinder	gene	14409	14650	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_154_pseudo_00445;old_locus_tag=NGPIBMMN_154_ign_00013
+NGPIBMMN_191	pseudofinder	gene	14420	15640	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 37.5%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_191_pseudo_00446;old_locus_tag=NGPIBMMN_04364
+NGPIBMMN_285	pseudofinder	gene	14469	14590	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=NGPIBMMN_285_pseudo_00448;old_locus_tag=NGPIBMMN_285_ign_00008
+NGPIBMMN_291	pseudofinder	gene	14565	15083	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 56.4%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_291_pseudo_00449;old_locus_tag=NGPIBMMN_06036
+NGPIBMMN_167	pseudofinder	gene	14686	14904	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 31.3%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_167_pseudo_00451;old_locus_tag=NGPIBMMN_03672
+NGPIBMMN_65	pseudofinder	gene	14760	14857	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_65_pseudo_00453;old_locus_tag=NGPIBMMN_65_ign_00011
+NGPIBMMN_39	pseudofinder	gene	14780	15010	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 31.3%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_39_pseudo_00454;old_locus_tag=NGPIBMMN_00811
+NGPIBMMN_159	pseudofinder	gene	14814	15001	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=NGPIBMMN_159_pseudo_00455;old_locus_tag=NGPIBMMN_159_ign_00013
+NGPIBMMN_1	pseudofinder	gene	14822	14955	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_1_pseudo_00456;old_locus_tag=NGPIBMMN_1_ign_00012
+NGPIBMMN_34	pseudofinder	gene	14830	15075	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 30.1%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_34_pseudo_00457;old_locus_tag=NGPIBMMN_00719
+NGPIBMMN_4	pseudofinder	gene	14963	15532	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_4_pseudo_00458;old_locus_tag=NGPIBMMN_4_ign_00011
+NGPIBMMN_39	pseudofinder	gene	15029	15364	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 45.7%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_39_pseudo_00459;old_locus_tag=NGPIBMMN_00812
+NGPIBMMN_26	pseudofinder	gene	15054	15241	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_26_pseudo_00461;old_locus_tag=NGPIBMMN_26_ign_00010
+NGPIBMMN_279	pseudofinder	gene	15056	15523	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 54.9%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_279_pseudo_00462;old_locus_tag=NGPIBMMN_05819
+NGPIBMMN_16	pseudofinder	gene	15213	15749	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_16_pseudo_00463;old_locus_tag=NGPIBMMN_16_ign_00010
+NGPIBMMN_12	pseudofinder	gene	15311	15753	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 12 blast hits.;locus_tag=NGPIBMMN_12_pseudo_00465;old_locus_tag=NGPIBMMN_12_ign_00006
+NGPIBMMN_142	pseudofinder	gene	15344	15570	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_142_pseudo_00467;old_locus_tag=NGPIBMMN_142_ign_00012
+NGPIBMMN_154	pseudofinder	gene	15366	16130	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 64.4%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_154_pseudo_00468;old_locus_tag=NGPIBMMN_03171
+NGPIBMMN_46	pseudofinder	gene	15366	15499	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 8 blast hits.;locus_tag=NGPIBMMN_46_pseudo_00469;old_locus_tag=NGPIBMMN_46_ign_00017
+NGPIBMMN_38	pseudofinder	gene	15452	15703	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 25.1%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_38_pseudo_00472;old_locus_tag=NGPIBMMN_00788
+NGPIBMMN_171	pseudofinder	gene	15496	15723	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 31.4%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_171_pseudo_00473;old_locus_tag=NGPIBMMN_03750
+NGPIBMMN_249	pseudofinder	gene	15541	15871	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 8 blast hits.;locus_tag=NGPIBMMN_249_pseudo_00475;old_locus_tag=NGPIBMMN_249_ign_00014
+NGPIBMMN_35	pseudofinder	gene	15578	15691	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_35_pseudo_00476;old_locus_tag=NGPIBMMN_35_ign_00015
+NGPIBMMN_4	pseudofinder	gene	15581	15772	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 43.1%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_4_pseudo_00477;old_locus_tag=NGPIBMMN_00117
+NGPIBMMN_191	pseudofinder	gene	15649	16965	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 37.1%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_191_pseudo_00478;old_locus_tag=NGPIBMMN_04365
+NGPIBMMN_99	pseudofinder	gene	15659	15757	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 17.1%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_99_pseudo_00479;old_locus_tag=NGPIBMMN_01922
+NGPIBMMN_57	pseudofinder	gene	15734	15877	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_57_pseudo_00480;old_locus_tag=NGPIBMMN_57_ign_00012
+NGPIBMMN_99	pseudofinder	gene	15758	16014	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_99_pseudo_00481;old_locus_tag=NGPIBMMN_99_ign_00018
+NGPIBMMN_176	pseudofinder	gene	15806	15951	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=NGPIBMMN_176_pseudo_00482;old_locus_tag=NGPIBMMN_176_ign_00008
+NGPIBMMN_4	pseudofinder	gene	15871	16130	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_4_pseudo_00483;old_locus_tag=NGPIBMMN_4_ign_00012
+NGPIBMMN_303	pseudofinder	gene	15955	16136	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=NGPIBMMN_303_pseudo_00484;old_locus_tag=NGPIBMMN_303_ign_00013
+NGPIBMMN_99	pseudofinder	gene	16016	16339	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 53.6%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_99_pseudo_00485;old_locus_tag=NGPIBMMN_01923
+NGPIBMMN_238	pseudofinder	gene	16086	16664	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 59.2%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_238_pseudo_00486;old_locus_tag=NGPIBMMN_05133
+NGPIBMMN_154	pseudofinder	gene	16134	16216	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_154_pseudo_00487;old_locus_tag=NGPIBMMN_154_ign_00015
+NGPIBMMN_60	pseudofinder	gene	16197	16604	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 186.8%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_60_pseudo_00488;old_locus_tag=NGPIBMMN_01248
+NGPIBMMN_111	pseudofinder	gene	16215	16318	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_111_pseudo_00489;old_locus_tag=NGPIBMMN_111_ign_00012
+NGPIBMMN_112	pseudofinder	gene	16264	16331	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_112_pseudo_00491;old_locus_tag=NGPIBMMN_112_ign_00010
+NGPIBMMN_111	pseudofinder	gene	16322	16552	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 18.4%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_111_pseudo_00492;old_locus_tag=NGPIBMMN_02298
+NGPIBMMN_99	pseudofinder	gene	16343	16446	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_99_pseudo_00493;old_locus_tag=NGPIBMMN_99_ign_00019
+NGPIBMMN_240	pseudofinder	gene	16363	17346	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 59.8%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_240_pseudo_00494;old_locus_tag=NGPIBMMN_05212
+NGPIBMMN_156	pseudofinder	gene	16524	16790	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 8.8%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_156_pseudo_00496;old_locus_tag=NGPIBMMN_03281
+NGPIBMMN_139	pseudofinder	gene	16555	17061	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 61.0%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_139_pseudo_00497;old_locus_tag=NGPIBMMN_02801
+NGPIBMMN_326	pseudofinder	gene	16624	16716	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 41.4%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_326_pseudo_00498;old_locus_tag=NGPIBMMN_06435
+NGPIBMMN_99	pseudofinder	gene	16626	16721	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 23.4%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_99_pseudo_00499;old_locus_tag=NGPIBMMN_01924
+NGPIBMMN_151	pseudofinder	gene	16679	16794	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 10 blast hits.;locus_tag=NGPIBMMN_151_pseudo_00500;old_locus_tag=NGPIBMMN_151_ign_00011
+NGPIBMMN_238	pseudofinder	gene	16700	17401	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 64.1%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_238_pseudo_00501;old_locus_tag=NGPIBMMN_05134
+NGPIBMMN_326	pseudofinder	gene	16717	16851	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 54.5%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_326_pseudo_00502;old_locus_tag=NGPIBMMN_06436
+NGPIBMMN_153	pseudofinder	gene	16781	16974	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=NGPIBMMN_153_pseudo_00503;old_locus_tag=NGPIBMMN_153_ign_00012
+NGPIBMMN_39	pseudofinder	gene	16803	16897	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_39_pseudo_00504;old_locus_tag=NGPIBMMN_39_ign_00015
+NGPIBMMN_142	pseudofinder	gene	16925	17038	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_142_pseudo_00505;old_locus_tag=NGPIBMMN_142_ign_00013
+NGPIBMMN_153	pseudofinder	gene	17016	17972	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 168.4%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_153_pseudo_00506;old_locus_tag=NGPIBMMN_03119
+NGPIBMMN_16	pseudofinder	gene	17044	17226	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 14.3%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_16_pseudo_00507;old_locus_tag=NGPIBMMN_00348
+NGPIBMMN_33	pseudofinder	gene	17125	18020	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=NGPIBMMN_33_pseudo_00508;old_locus_tag=NGPIBMMN_33_ign_00015,NGPIBMMN_00688
+NGPIBMMN_95	pseudofinder	gene	17303	17421	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=NGPIBMMN_95_pseudo_00509;old_locus_tag=NGPIBMMN_95_ign_00010
+NGPIBMMN_37	pseudofinder	gene	17317	17417	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_37_pseudo_00510;old_locus_tag=NGPIBMMN_37_ign_00004
+NGPIBMMN_10	pseudofinder	gene	17359	17664	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 21.3%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_10_pseudo_00511;old_locus_tag=NGPIBMMN_00239
+NGPIBMMN_138	pseudofinder	gene	17757	17915	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 15.7%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_138_pseudo_00513;old_locus_tag=NGPIBMMN_02744
+NGPIBMMN_222	pseudofinder	gene	17772	17896	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 9 blast hits.;locus_tag=NGPIBMMN_222_pseudo_00514;old_locus_tag=NGPIBMMN_222_ign_00017
+NGPIBMMN_2	pseudofinder	gene	17859	18019	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_2_pseudo_00515;old_locus_tag=NGPIBMMN_2_ign_00015
+NGPIBMMN_194	pseudofinder	gene	17883	18308	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 29.4%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_194_pseudo_00516;old_locus_tag=NGPIBMMN_04433
+NGPIBMMN_214	pseudofinder	gene	17966	18233	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=NGPIBMMN_214_pseudo_00518;old_locus_tag=NGPIBMMN_214_ign_00007
+NGPIBMMN_112	pseudofinder	gene	17971	18062	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_112_pseudo_00519;old_locus_tag=NGPIBMMN_112_ign_00011
+NGPIBMMN_30	pseudofinder	gene	18029	18685	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 146.0%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_30_pseudo_00520;old_locus_tag=NGPIBMMN_00624
+NGPIBMMN_28	pseudofinder	gene	18040	19206	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 58.2%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_28_pseudo_00521;old_locus_tag=NGPIBMMN_00585
+NGPIBMMN_101	pseudofinder	gene	18053	18252	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_101_pseudo_00522;old_locus_tag=NGPIBMMN_101_ign_00011
+NGPIBMMN_100	pseudofinder	gene	18142	18317	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_100_pseudo_00523;old_locus_tag=NGPIBMMN_100_ign_00012
+NGPIBMMN_58	pseudofinder	gene	18184	18293	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_58_pseudo_00524;old_locus_tag=NGPIBMMN_58_ign_00009
+NGPIBMMN_2	pseudofinder	gene	18215	18550	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 157.7%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_2_pseudo_00525;old_locus_tag=NGPIBMMN_00070
+NGPIBMMN_101	pseudofinder	gene	18254	18955	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 59.9%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_101_pseudo_00526;old_locus_tag=NGPIBMMN_02101
+NGPIBMMN_69	pseudofinder	gene	18256	18388	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 10 blast hits.;locus_tag=NGPIBMMN_69_pseudo_00527;old_locus_tag=NGPIBMMN_69_ign_00011
+NGPIBMMN_11	pseudofinder	gene	18313	18428	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=NGPIBMMN_11_pseudo_00528;old_locus_tag=NGPIBMMN_11_ign_00013
+NGPIBMMN_17	pseudofinder	gene	18388	18666	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 8.5%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_17_pseudo_00529;old_locus_tag=NGPIBMMN_00368
+NGPIBMMN_41	pseudofinder	gene	18403	18545	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=NGPIBMMN_41_pseudo_00530;old_locus_tag=NGPIBMMN_41_ign_00016
+NGPIBMMN_194	pseudofinder	gene	18491	18624	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_194_pseudo_00532;old_locus_tag=NGPIBMMN_194_ign_00013
+NGPIBMMN_194	pseudofinder	gene	18629	20695	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 58.8%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_194_pseudo_00533;old_locus_tag=NGPIBMMN_04434
+NGPIBMMN_80	pseudofinder	gene	18629	18930	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_80_pseudo_00534;old_locus_tag=NGPIBMMN_80_ign_00014
+NGPIBMMN_30	pseudofinder	gene	18682	21090	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 63.7%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_30_pseudo_00535;old_locus_tag=NGPIBMMN_00625
+NGPIBMMN_99	pseudofinder	gene	18714	18848	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_99_pseudo_00536;old_locus_tag=NGPIBMMN_99_ign_00021
+NGPIBMMN_39	pseudofinder	gene	18714	18826	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 9 blast hits.;locus_tag=NGPIBMMN_39_pseudo_00537;old_locus_tag=NGPIBMMN_39_ign_00017
+NGPIBMMN_89	pseudofinder	gene	18731	18937	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 37.2%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_89_pseudo_00538;old_locus_tag=NGPIBMMN_01719
+NGPIBMMN_128	pseudofinder	gene	18750	18907	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_128_pseudo_00539;old_locus_tag=NGPIBMMN_128_ign_00012
+NGPIBMMN_3	pseudofinder	gene	18760	21468	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 195.7%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_3_pseudo_00540;old_locus_tag=NGPIBMMN_00088
+NGPIBMMN_84	pseudofinder	gene	18787	27159	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 193.9%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_84_pseudo_00541;old_locus_tag=NGPIBMMN_01651
+NGPIBMMN_128	pseudofinder	gene	18909	19106	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 13.4%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_128_pseudo_00542;old_locus_tag=NGPIBMMN_02571
+NGPIBMMN_89	pseudofinder	gene	18939	19193	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_89_pseudo_00543;old_locus_tag=NGPIBMMN_89_ign_00013
+NGPIBMMN_17	pseudofinder	gene	18940	19136	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_17_pseudo_00544;old_locus_tag=NGPIBMMN_17_ign_00014
+NGPIBMMN_101	pseudofinder	gene	18991	19212	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 42.5%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_101_pseudo_00545;old_locus_tag=NGPIBMMN_02102
+NGPIBMMN_27	pseudofinder	gene	18995	19993	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=NGPIBMMN_27_pseudo_00546;old_locus_tag=NGPIBMMN_27_ign_00012,NGPIBMMN_00560
+NGPIBMMN_75	pseudofinder	gene	19032	19354	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=NGPIBMMN_75_pseudo_00547;old_locus_tag=NGPIBMMN_01513,NGPIBMMN_01514
+NGPIBMMN_80	pseudofinder	gene	19295	19422	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=NGPIBMMN_80_pseudo_00549;old_locus_tag=NGPIBMMN_80_ign_00015
+NGPIBMMN_28	pseudofinder	gene	19297	19418	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_28_pseudo_00550;old_locus_tag=NGPIBMMN_28_ign_00019
+NGPIBMMN_38	pseudofinder	gene	19300	19373	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 13 blast hits.;locus_tag=NGPIBMMN_38_pseudo_00551;old_locus_tag=NGPIBMMN_38_ign_00015
+NGPIBMMN_102	pseudofinder	gene	19302	19477	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_102_pseudo_00552;old_locus_tag=NGPIBMMN_102_ign_00012
+NGPIBMMN_159	pseudofinder	gene	19446	20045	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 41.9%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_159_pseudo_00554;old_locus_tag=NGPIBMMN_03377
+NGPIBMMN_82	pseudofinder	gene	19559	19774	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 32.7%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_82_pseudo_00557;old_locus_tag=NGPIBMMN_01612
+NGPIBMMN_235	pseudofinder	gene	19581	19979	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 25.1%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_235_pseudo_00558;old_locus_tag=NGPIBMMN_05093
+NGPIBMMN_63	pseudofinder	gene	19600	19697	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_63_pseudo_00559;old_locus_tag=NGPIBMMN_63_ign_00009
+NGPIBMMN_31	pseudofinder	gene	19940	20365	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_31_pseudo_00563;old_locus_tag=NGPIBMMN_31_ign_00018
+NGPIBMMN_64	pseudofinder	gene	20221	20318	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_64_pseudo_00564;old_locus_tag=NGPIBMMN_64_ign_00014
+NGPIBMMN_173	pseudofinder	gene	20391	20960	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 10 blast hits.;locus_tag=NGPIBMMN_173_pseudo_00565;old_locus_tag=NGPIBMMN_173_ign_00012
+NGPIBMMN_154	pseudofinder	gene	20533	20831	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_154_pseudo_00566;old_locus_tag=NGPIBMMN_154_ign_00018
+NGPIBMMN_201	pseudofinder	gene	20575	20825	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_201_pseudo_00567;old_locus_tag=NGPIBMMN_201_ign_00012
+NGPIBMMN_95	pseudofinder	gene	20590	20742	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=NGPIBMMN_95_pseudo_00568;old_locus_tag=NGPIBMMN_95_ign_00014
+NGPIBMMN_127	pseudofinder	gene	20663	21205	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=NGPIBMMN_127_pseudo_00569;old_locus_tag=NGPIBMMN_127_ign_00015
+NGPIBMMN_139	pseudofinder	gene	20698	21510	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 142.6%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_139_pseudo_00570;old_locus_tag=NGPIBMMN_02805
+NGPIBMMN_194	pseudofinder	gene	20751	20887	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_194_pseudo_00571;old_locus_tag=NGPIBMMN_194_ign_00014
+NGPIBMMN_75	pseudofinder	gene	20893	21021	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 54.6%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_75_pseudo_00572;old_locus_tag=NGPIBMMN_01517
+NGPIBMMN_194	pseudofinder	gene	20930	21542	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=NGPIBMMN_194_pseudo_00573;old_locus_tag=NGPIBMMN_04435,NGPIBMMN_04436
+NGPIBMMN_281	pseudofinder	gene	20960	21216	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_281_pseudo_00574;old_locus_tag=NGPIBMMN_281_ign_00013
+NGPIBMMN_167	pseudofinder	gene	21254	21634	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 144.3%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_167_pseudo_00576;old_locus_tag=NGPIBMMN_03676
+NGPIBMMN_165	pseudofinder	gene	21409	21636	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 9.8%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_165_pseudo_00577;old_locus_tag=NGPIBMMN_03595
+NGPIBMMN_112	pseudofinder	gene	21452	21531	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_112_pseudo_00579;old_locus_tag=NGPIBMMN_112_ign_00015
+NGPIBMMN_265	pseudofinder	gene	21492	21646	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=NGPIBMMN_265_pseudo_00580;old_locus_tag=NGPIBMMN_265_ign_00012
+NGPIBMMN_102	pseudofinder	gene	21578	21654	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_102_pseudo_00581;old_locus_tag=NGPIBMMN_102_ign_00015
+NGPIBMMN_221	pseudofinder	gene	21768	22028	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 28.1%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_221_pseudo_00583;old_locus_tag=NGPIBMMN_04844
+NGPIBMMN_4	pseudofinder	gene	21769	21876	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 11 blast hits.;locus_tag=NGPIBMMN_4_pseudo_00584;old_locus_tag=NGPIBMMN_4_ign_00015
+NGPIBMMN_53	pseudofinder	gene	21802	22062	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 28.2%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_53_pseudo_00585;old_locus_tag=NGPIBMMN_01139
+NGPIBMMN_51	pseudofinder	gene	21812	22036	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 62.8%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_51_pseudo_00586;old_locus_tag=NGPIBMMN_01082
+NGPIBMMN_139	pseudofinder	gene	21828	22859	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=NGPIBMMN_139_pseudo_00587;old_locus_tag=NGPIBMMN_02806,NGPIBMMN_02807
+NGPIBMMN_132	pseudofinder	gene	21855	22052	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 58.9%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_132_pseudo_00588;old_locus_tag=NGPIBMMN_02652
+NGPIBMMN_286	pseudofinder	gene	21872	22116	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=NGPIBMMN_286_pseudo_00589;old_locus_tag=NGPIBMMN_286_ign_00013
+NGPIBMMN_3	pseudofinder	gene	21951	22057	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_3_pseudo_00590;old_locus_tag=NGPIBMMN_3_ign_00017
+NGPIBMMN_132	pseudofinder	gene	22053	22183	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_132_pseudo_00591;old_locus_tag=NGPIBMMN_132_ign_00018
+NGPIBMMN_3	pseudofinder	gene	22059	22301	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 42.3%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_3_pseudo_00592;old_locus_tag=NGPIBMMN_00089
+NGPIBMMN_165	pseudofinder	gene	22070	22223	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_165_pseudo_00593;old_locus_tag=NGPIBMMN_165_ign_00013
+NGPIBMMN_116	pseudofinder	gene	22130	22296	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=NGPIBMMN_116_pseudo_00595;old_locus_tag=NGPIBMMN_116_ign_00009
+NGPIBMMN_158	pseudofinder	gene	22156	22268	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=NGPIBMMN_158_pseudo_00596;old_locus_tag=NGPIBMMN_158_ign_00018
+NGPIBMMN_55	pseudofinder	gene	22167	22493	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 138.0%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_55_pseudo_00597;old_locus_tag=NGPIBMMN_01176
+NGPIBMMN_3	pseudofinder	gene	22335	22639	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_3_pseudo_00599;old_locus_tag=NGPIBMMN_3_ign_00018
+NGPIBMMN_116	pseudofinder	gene	22564	24181	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=NGPIBMMN_116_pseudo_00601;old_locus_tag=NGPIBMMN_02389,NGPIBMMN_02388
+NGPIBMMN_252	pseudofinder	gene	22876	24696	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 61.0%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_252_pseudo_00603;old_locus_tag=NGPIBMMN_05423
+NGPIBMMN_43	pseudofinder	gene	23247	23331	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 10 blast hits.;locus_tag=NGPIBMMN_43_pseudo_00605;old_locus_tag=NGPIBMMN_43_ign_00019
+NGPIBMMN_257	pseudofinder	gene	23250	23494	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 13 blast hits.;locus_tag=NGPIBMMN_257_pseudo_00606;old_locus_tag=NGPIBMMN_257_ign_00011
+NGPIBMMN_281	pseudofinder	gene	23345	23538	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_281_pseudo_00607;old_locus_tag=NGPIBMMN_281_ign_00015
+NGPIBMMN_249	pseudofinder	gene	23412	23701	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_249_pseudo_00608;old_locus_tag=NGPIBMMN_249_ign_00019
+NGPIBMMN_154	pseudofinder	gene	23445	23773	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_154_pseudo_00609;old_locus_tag=NGPIBMMN_154_ign_00021
+NGPIBMMN_24	pseudofinder	gene	23493	24446	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 57.3%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_24_pseudo_00610;old_locus_tag=NGPIBMMN_00498
+NGPIBMMN_281	pseudofinder	gene	23543	23968	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 48.1%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_281_pseudo_00611;old_locus_tag=NGPIBMMN_05841
+NGPIBMMN_209	pseudofinder	gene	23638	23805	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 24.3%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_209_pseudo_00612;old_locus_tag=NGPIBMMN_04613
+NGPIBMMN_207	pseudofinder	gene	23708	25213	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 138.5%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_207_pseudo_00613;old_locus_tag=NGPIBMMN_04583
+NGPIBMMN_213	pseudofinder	gene	23768	24090	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_213_pseudo_00614;old_locus_tag=NGPIBMMN_213_ign_00014
+NGPIBMMN_209	pseudofinder	gene	23783	23902	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 17.3%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_209_pseudo_00615;old_locus_tag=NGPIBMMN_04614
+NGPIBMMN_154	pseudofinder	gene	23798	25141	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 148.1%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_154_pseudo_00616;old_locus_tag=NGPIBMMN_03179
+NGPIBMMN_1	pseudofinder	gene	23857	24005	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 10 blast hits.;locus_tag=NGPIBMMN_1_pseudo_00617;old_locus_tag=NGPIBMMN_1_ign_00019
+NGPIBMMN_204	pseudofinder	gene	23881	25281	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 54.0%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_204_pseudo_00618;old_locus_tag=NGPIBMMN_04546
+NGPIBMMN_100	pseudofinder	gene	23927	24393	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_100_pseudo_00619;old_locus_tag=NGPIBMMN_100_ign_00017
+NGPIBMMN_221	pseudofinder	gene	24094	24897	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 29.9%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_221_pseudo_00620;old_locus_tag=NGPIBMMN_04847
+NGPIBMMN_165	pseudofinder	gene	24164	24286	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 21.8%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_165_pseudo_00621;old_locus_tag=NGPIBMMN_03598
+NGPIBMMN_189	pseudofinder	gene	24214	24419	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_189_pseudo_00622;old_locus_tag=NGPIBMMN_189_ign_00015
+NGPIBMMN_248	pseudofinder	gene	24254	24826	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 49.3%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_248_pseudo_00623;old_locus_tag=NGPIBMMN_05340
+NGPIBMMN_165	pseudofinder	gene	24289	24392	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_165_pseudo_00624;old_locus_tag=NGPIBMMN_165_ign_00016
+NGPIBMMN_112	pseudofinder	gene	24293	24886	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 49.8%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_112_pseudo_00625;old_locus_tag=NGPIBMMN_02335
+NGPIBMMN_158	pseudofinder	gene	24862	25235	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=NGPIBMMN_158_pseudo_00627;old_locus_tag=NGPIBMMN_158_ign_00021
+NGPIBMMN_251	pseudofinder	gene	24929	25206	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_251_pseudo_00628;old_locus_tag=NGPIBMMN_251_ign_00020
+NGPIBMMN_252	pseudofinder	gene	24943	25157	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_252_pseudo_00629;old_locus_tag=NGPIBMMN_252_ign_00010
+NGPIBMMN_100	pseudofinder	gene	25002	25465	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_100_pseudo_00630;old_locus_tag=NGPIBMMN_100_ign_00018
+NGPIBMMN_221	pseudofinder	gene	25082	25416	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_221_pseudo_00632;old_locus_tag=NGPIBMMN_221_ign_00012
+NGPIBMMN_69	pseudofinder	gene	25146	25403	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 9.9%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_69_pseudo_00633;old_locus_tag=NGPIBMMN_01415
+NGPIBMMN_287	pseudofinder	gene	25171	27018	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 143.9%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_287_pseudo_00634;old_locus_tag=NGPIBMMN_05982
+NGPIBMMN_33	pseudofinder	gene	25199	25389	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_33_pseudo_00635;old_locus_tag=NGPIBMMN_33_ign_00019
+NGPIBMMN_212	pseudofinder	gene	25237	25749	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 140.9%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_212_pseudo_00636;old_locus_tag=NGPIBMMN_04690
+NGPIBMMN_189	pseudofinder	gene	25311	25570	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=NGPIBMMN_189_pseudo_00637;old_locus_tag=NGPIBMMN_189_ign_00016
+NGPIBMMN_24	pseudofinder	gene	25375	25901	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_24_pseudo_00638;old_locus_tag=NGPIBMMN_24_ign_00016
+NGPIBMMN_252	pseudofinder	gene	25764	28727	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 43.7%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_252_pseudo_00641;old_locus_tag=NGPIBMMN_05425
+NGPIBMMN_222	pseudofinder	gene	25897	25988	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=NGPIBMMN_222_pseudo_00642;old_locus_tag=NGPIBMMN_222_ign_00023
+NGPIBMMN_176	pseudofinder	gene	26048	27307	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 139.1%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_176_pseudo_00644;old_locus_tag=NGPIBMMN_03937
+NGPIBMMN_100	pseudofinder	gene	26093	27027	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_100_pseudo_00645;old_locus_tag=NGPIBMMN_100_ign_00019
+NGPIBMMN_67	pseudofinder	gene	26147	28618	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 258.8%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_67_pseudo_00646;old_locus_tag=NGPIBMMN_01380
+NGPIBMMN_127	pseudofinder	gene	26151	26247	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 11 blast hits.;locus_tag=NGPIBMMN_127_pseudo_00647;old_locus_tag=NGPIBMMN_127_ign_00019
+NGPIBMMN_151	pseudofinder	gene	26431	26558	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_151_pseudo_00648;old_locus_tag=NGPIBMMN_151_ign_00014
+NGPIBMMN_102	pseudofinder	gene	26576	26712	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 8 blast hits.;locus_tag=NGPIBMMN_102_pseudo_00649;old_locus_tag=NGPIBMMN_102_ign_00018
+NGPIBMMN_238	pseudofinder	gene	26588	26773	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 138.6%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_238_pseudo_00650;old_locus_tag=NGPIBMMN_05143
+NGPIBMMN_151	pseudofinder	gene	26595	26897	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 22.4%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_151_pseudo_00651;old_locus_tag=NGPIBMMN_03027
+NGPIBMMN_215	pseudofinder	gene	26638	26943	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 37.6%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_215_pseudo_00652;old_locus_tag=NGPIBMMN_04747
+NGPIBMMN_95	pseudofinder	gene	26725	26895	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 5.6%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_95_pseudo_00653;old_locus_tag=NGPIBMMN_01841
+NGPIBMMN_238	pseudofinder	gene	26778	27050	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 203.4%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_238_pseudo_00654;old_locus_tag=NGPIBMMN_05144
+NGPIBMMN_96	pseudofinder	gene	26852	27256	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 45.7%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_96_pseudo_00655;old_locus_tag=NGPIBMMN_01875
+NGPIBMMN_151	pseudofinder	gene	26898	27478	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=NGPIBMMN_151_pseudo_00656;old_locus_tag=NGPIBMMN_151_ign_00016,NGPIBMMN_03028,NGPIBMMN_151_ign_00015
+NGPIBMMN_127	pseudofinder	gene	27011	27112	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 8.4%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_127_pseudo_00657;old_locus_tag=NGPIBMMN_02544
+NGPIBMMN_142	pseudofinder	gene	27019	27614	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 9 blast hits.;locus_tag=NGPIBMMN_142_pseudo_00658;old_locus_tag=NGPIBMMN_142_ign_00018
+NGPIBMMN_287	pseudofinder	gene	27098	29173	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 62.7%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_287_pseudo_00659;old_locus_tag=NGPIBMMN_05983
+NGPIBMMN_96	pseudofinder	gene	27245	27406	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 64.3%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_96_pseudo_00660;old_locus_tag=NGPIBMMN_01876
+NGPIBMMN_315	pseudofinder	gene	27311	29860	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 185.2%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_315_pseudo_00661;old_locus_tag=NGPIBMMN_06308
+NGPIBMMN_188	pseudofinder	gene	27313	27428	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_188_pseudo_00662;old_locus_tag=NGPIBMMN_188_ign_00016
+NGPIBMMN_93	pseudofinder	gene	27542	27948	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_93_pseudo_00663;old_locus_tag=NGPIBMMN_93_ign_00016
+NGPIBMMN_188	pseudofinder	gene	27670	27900	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 34.3%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_188_pseudo_00664;old_locus_tag=NGPIBMMN_04201
+NGPIBMMN_4	pseudofinder	gene	27719	27861	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_4_pseudo_00665;old_locus_tag=NGPIBMMN_4_ign_00019
+NGPIBMMN_93	pseudofinder	gene	27950	28648	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 49.5%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_93_pseudo_00666;old_locus_tag=NGPIBMMN_01800
+NGPIBMMN_24	pseudofinder	gene	28083	28577	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 31.0%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_24_pseudo_00667;old_locus_tag=NGPIBMMN_00503
+NGPIBMMN_102	pseudofinder	gene	28117	28295	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_102_pseudo_00668;old_locus_tag=NGPIBMMN_102_ign_00021
+NGPIBMMN_100	pseudofinder	gene	28382	28839	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_100_pseudo_00671;old_locus_tag=NGPIBMMN_100_ign_00020
+NGPIBMMN_323	pseudofinder	gene	28486	28641	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_323_pseudo_00672;old_locus_tag=NGPIBMMN_323_ign_00017
+NGPIBMMN_132	pseudofinder	gene	28519	28703	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 11 blast hits.;locus_tag=NGPIBMMN_132_pseudo_00673;old_locus_tag=NGPIBMMN_132_ign_00023
+NGPIBMMN_176	pseudofinder	gene	28612	29301	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 26.8%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_176_pseudo_00674;old_locus_tag=NGPIBMMN_03939
+NGPIBMMN_96	pseudofinder	gene	28751	29221	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 61.9%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_96_pseudo_00675;old_locus_tag=NGPIBMMN_01878
+NGPIBMMN_67	pseudofinder	gene	28877	29095	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 39.1%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_67_pseudo_00676;old_locus_tag=NGPIBMMN_01381
+NGPIBMMN_52	pseudofinder	gene	28941	29119	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_52_pseudo_00677;old_locus_tag=NGPIBMMN_52_ign_00019
+NGPIBMMN_218	pseudofinder	gene	29380	29603	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_218_pseudo_00678;old_locus_tag=NGPIBMMN_218_ign_00017
+NGPIBMMN_9	pseudofinder	gene	29411	29550	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 10 blast hits.;locus_tag=NGPIBMMN_9_pseudo_00679;old_locus_tag=NGPIBMMN_9_ign_00019
+NGPIBMMN_4	pseudofinder	gene	29507	29685	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 14 blast hits.;locus_tag=NGPIBMMN_4_pseudo_00680;old_locus_tag=NGPIBMMN_4_ign_00021
+NGPIBMMN_100	pseudofinder	gene	29662	30038	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_100_pseudo_00681;old_locus_tag=NGPIBMMN_100_ign_00021
+NGPIBMMN_170	pseudofinder	gene	29932	30065	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=NGPIBMMN_170_pseudo_00682;old_locus_tag=NGPIBMMN_170_ign_00017
+NGPIBMMN_281	pseudofinder	gene	29937	30013	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_281_pseudo_00683;old_locus_tag=NGPIBMMN_281_ign_00021
+NGPIBMMN_142	pseudofinder	gene	29944	30158	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=NGPIBMMN_142_pseudo_00684;old_locus_tag=NGPIBMMN_142_ign_00021
+NGPIBMMN_117	pseudofinder	gene	29988	30911	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 155.5%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_117_pseudo_00685;old_locus_tag=NGPIBMMN_02424
+NGPIBMMN_95	pseudofinder	gene	30138	30262	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_95_pseudo_00686;old_locus_tag=NGPIBMMN_95_ign_00022
+NGPIBMMN_24	pseudofinder	gene	30199	30424	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 10 blast hits.;locus_tag=NGPIBMMN_24_pseudo_00687;old_locus_tag=NGPIBMMN_24_ign_00021
+NGPIBMMN_95	pseudofinder	gene	30264	30467	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 60.9%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_95_pseudo_00688;old_locus_tag=NGPIBMMN_01846
+NGPIBMMN_286	pseudofinder	gene	30438	30523	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 9 blast hits.;locus_tag=NGPIBMMN_286_pseudo_00689;old_locus_tag=NGPIBMMN_286_ign_00019
+NGPIBMMN_95	pseudofinder	gene	30519	30971	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 184.9%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_95_pseudo_00690;old_locus_tag=NGPIBMMN_01847
+NGPIBMMN_116	pseudofinder	gene	30973	32544	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 323.5%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_116_pseudo_00691;old_locus_tag=NGPIBMMN_02395
+NGPIBMMN_9	pseudofinder	gene	31024	31655	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 8 blast hits.;locus_tag=NGPIBMMN_9_pseudo_00692;old_locus_tag=NGPIBMMN_9_ign_00020
+NGPIBMMN_168	pseudofinder	gene	31051	31293	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 37.8%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_168_pseudo_00693;old_locus_tag=NGPIBMMN_03714
+NGPIBMMN_92	pseudofinder	gene	31072	31608	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 22.3%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_92_pseudo_00694;old_locus_tag=NGPIBMMN_01777
+NGPIBMMN_218	pseudofinder	gene	31117	31863	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 60.9%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_218_pseudo_00695;old_locus_tag=NGPIBMMN_04799
+NGPIBMMN_33	pseudofinder	gene	31201	31517	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_33_pseudo_00696;old_locus_tag=NGPIBMMN_33_ign_00022
+NGPIBMMN_1	pseudofinder	gene	31222	31392	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 52.9%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_1_pseudo_00697;old_locus_tag=NGPIBMMN_00028
+NGPIBMMN_84	pseudofinder	gene	31519	31836	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 186.0%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_84_pseudo_00698;old_locus_tag=NGPIBMMN_01654
+NGPIBMMN_167	pseudofinder	gene	31544	31698	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_167_pseudo_00699;old_locus_tag=NGPIBMMN_167_ign_00020
+NGPIBMMN_229	pseudofinder	gene	31658	31812	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_229_pseudo_00700;old_locus_tag=NGPIBMMN_229_ign_00023
+NGPIBMMN_175	pseudofinder	gene	31748	32029	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 7.6%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_175_pseudo_00701;old_locus_tag=NGPIBMMN_03882
+NGPIBMMN_82	pseudofinder	gene	31789	34273	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_82_pseudo_00702;old_locus_tag=NGPIBMMN_82_ign_00020
+NGPIBMMN_281	pseudofinder	gene	32213	32319	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=NGPIBMMN_281_pseudo_00703;old_locus_tag=NGPIBMMN_281_ign_00024
+NGPIBMMN_175	pseudofinder	gene	32224	33144	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 155.1%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_175_pseudo_00704;old_locus_tag=NGPIBMMN_03883
+NGPIBMMN_271	pseudofinder	gene	32231	32386	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 15.0%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_271_pseudo_00705;old_locus_tag=NGPIBMMN_05689
+NGPIBMMN_4	pseudofinder	gene	32273	32974	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 64.4%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_4_pseudo_00706;old_locus_tag=NGPIBMMN_00131
+NGPIBMMN_218	pseudofinder	gene	32466	32960	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 42.9%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_218_pseudo_00707;old_locus_tag=NGPIBMMN_04800
+NGPIBMMN_151	pseudofinder	gene	32535	32777	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 20.0%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_151_pseudo_00708;old_locus_tag=NGPIBMMN_03034
+NGPIBMMN_163	pseudofinder	gene	32565	33332	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 47.9%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_163_pseudo_00709;old_locus_tag=NGPIBMMN_03479
+NGPIBMMN_109	pseudofinder	gene	32884	33008	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_109_pseudo_00710;old_locus_tag=NGPIBMMN_109_ign_00020
+NGPIBMMN_239	pseudofinder	gene	32958	33094	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=NGPIBMMN_239_pseudo_00711;old_locus_tag=NGPIBMMN_239_ign_00020
+NGPIBMMN_218	pseudofinder	gene	32964	33055	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_218_pseudo_00712;old_locus_tag=NGPIBMMN_218_ign_00020
+NGPIBMMN_271	pseudofinder	gene	33074	33519	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=NGPIBMMN_271_pseudo_00713;old_locus_tag=NGPIBMMN_271_ign_00026
+NGPIBMMN_143	pseudofinder	gene	33106	33494	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=NGPIBMMN_143_pseudo_00714;old_locus_tag=NGPIBMMN_143_ign_00020
+NGPIBMMN_163	pseudofinder	gene	33335	33441	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_163_pseudo_00716;old_locus_tag=NGPIBMMN_163_ign_00021
+NGPIBMMN_231	pseudofinder	gene	33730	34206	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 35.8%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_231_pseudo_00717;old_locus_tag=NGPIBMMN_05054
+NGPIBMMN_112	pseudofinder	gene	33927	34145	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 16.1%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_112_pseudo_00718;old_locus_tag=NGPIBMMN_02340
+NGPIBMMN_111	pseudofinder	gene	34064	34464	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=NGPIBMMN_111_pseudo_00719;old_locus_tag=NGPIBMMN_02312,NGPIBMMN_02313
+NGPIBMMN_93	pseudofinder	gene	34166	34362	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_93_pseudo_00720;old_locus_tag=NGPIBMMN_93_ign_00020
+NGPIBMMN_286	pseudofinder	gene	34338	34666	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_286_pseudo_00721;old_locus_tag=NGPIBMMN_286_ign_00022
+NGPIBMMN_274	pseudofinder	gene	34533	35252	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 45.6%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_274_pseudo_00722;old_locus_tag=NGPIBMMN_05760
+NGPIBMMN_102	pseudofinder	gene	34601	35031	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_102_pseudo_00723;old_locus_tag=NGPIBMMN_102_ign_00025
+NGPIBMMN_144	pseudofinder	gene	34678	35877	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 148.9%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_144_pseudo_00724;old_locus_tag=NGPIBMMN_02925
+NGPIBMMN_286	pseudofinder	gene	34734	35162	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 242.4%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_286_pseudo_00725;old_locus_tag=NGPIBMMN_05961
+NGPIBMMN_283	pseudofinder	gene	34739	35140	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 31.3%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_283_pseudo_00726;old_locus_tag=NGPIBMMN_05916
+NGPIBMMN_111	pseudofinder	gene	34797	34876	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=NGPIBMMN_111_pseudo_00727;old_locus_tag=NGPIBMMN_111_ign_00027
+NGPIBMMN_239	pseudofinder	gene	34830	34939	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_239_pseudo_00728;old_locus_tag=NGPIBMMN_239_ign_00022
+NGPIBMMN_111	pseudofinder	gene	34878	36878	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 63.5%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_111_pseudo_00729;old_locus_tag=NGPIBMMN_02315
+NGPIBMMN_218	pseudofinder	gene	35006	35278	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 8.6%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_218_pseudo_00730;old_locus_tag=NGPIBMMN_04802
+NGPIBMMN_323	pseudofinder	gene	35170	35328	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 9.3%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_323_pseudo_00731;old_locus_tag=NGPIBMMN_06395
+NGPIBMMN_271	pseudofinder	gene	35661	35768	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 33.1%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_271_pseudo_00732;old_locus_tag=NGPIBMMN_05694
+NGPIBMMN_274	pseudofinder	gene	35823	36434	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 62.9%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_274_pseudo_00733;old_locus_tag=NGPIBMMN_05761
+NGPIBMMN_239	pseudofinder	gene	36159	36233	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=NGPIBMMN_239_pseudo_00734;old_locus_tag=NGPIBMMN_239_ign_00023
+NGPIBMMN_154	pseudofinder	gene	36391	36639	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 39.7%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_154_pseudo_00735;old_locus_tag=NGPIBMMN_03196
+NGPIBMMN_43	pseudofinder	gene	36833	37425	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_43_pseudo_00736;old_locus_tag=NGPIBMMN_43_ign_00028
+NGPIBMMN_80	pseudofinder	gene	37007	37405	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 180.3%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_80_pseudo_00737;old_locus_tag=NGPIBMMN_01582
+NGPIBMMN_151	pseudofinder	gene	37097	37245	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=NGPIBMMN_151_pseudo_00738;old_locus_tag=NGPIBMMN_151_ign_00024
+NGPIBMMN_171	pseudofinder	gene	37104	37198	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_171_pseudo_00739;old_locus_tag=NGPIBMMN_171_ign_00020
+NGPIBMMN_173	pseudofinder	gene	37147	37292	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=NGPIBMMN_173_pseudo_00740;old_locus_tag=NGPIBMMN_173_ign_00017
+NGPIBMMN_153	pseudofinder	gene	37255	38202	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=NGPIBMMN_153_pseudo_00741;old_locus_tag=NGPIBMMN_03135,NGPIBMMN_153_ign_00027,NGPIBMMN_03136
+NGPIBMMN_163	pseudofinder	gene	37312	37495	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 8 blast hits.;locus_tag=NGPIBMMN_163_pseudo_00742;old_locus_tag=NGPIBMMN_163_ign_00026
+NGPIBMMN_80	pseudofinder	gene	37429	37520	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_80_pseudo_00743;old_locus_tag=NGPIBMMN_80_ign_00025
+NGPIBMMN_240	pseudofinder	gene	37607	38716	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 40.3%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_240_pseudo_00744;old_locus_tag=NGPIBMMN_05228
+NGPIBMMN_143	pseudofinder	gene	37686	38123	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 54.2%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_143_pseudo_00745;old_locus_tag=NGPIBMMN_02895
+NGPIBMMN_127	pseudofinder	gene	39728	39898	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 38.1%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_127_pseudo_00746;old_locus_tag=NGPIBMMN_02556
+NGPIBMMN_1	pseudofinder	gene	39962	40038	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=NGPIBMMN_1_pseudo_00747;old_locus_tag=NGPIBMMN_1_ign_00031
+NGPIBMMN_189	pseudofinder	gene	40144	40740	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 234.1%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_189_pseudo_00748;old_locus_tag=NGPIBMMN_04285
+NGPIBMMN_154	pseudofinder	gene	40791	41038	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_154_pseudo_00749;old_locus_tag=NGPIBMMN_154_ign_00040
+NGPIBMMN_45	pseudofinder	gene	41154	41627	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 57.8%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_45_pseudo_00750;old_locus_tag=NGPIBMMN_00947
+NGPIBMMN_154	pseudofinder	gene	41387	41475	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_154_pseudo_00751;old_locus_tag=NGPIBMMN_154_ign_00041
+NGPIBMMN_185	pseudofinder	gene	41535	41861	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_185_pseudo_00752;old_locus_tag=NGPIBMMN_185_ign_00024
+NGPIBMMN_45	pseudofinder	gene	41802	42602	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 55.4%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_45_pseudo_00753;old_locus_tag=NGPIBMMN_00948
+NGPIBMMN_189	pseudofinder	gene	42235	42517	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_189_pseudo_00755;old_locus_tag=NGPIBMMN_189_ign_00027
+NGPIBMMN_156	pseudofinder	gene	42756	43193	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 35.9%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_156_pseudo_00757;old_locus_tag=NGPIBMMN_03302
+NGPIBMMN_239	pseudofinder	gene	43220	45620	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=NGPIBMMN_239_pseudo_00758;old_locus_tag=NGPIBMMN_239_ign_00032,NGPIBMMN_05190,NGPIBMMN_05189
+NGPIBMMN_156	pseudofinder	gene	43461	43612	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=NGPIBMMN_156_pseudo_00759;old_locus_tag=NGPIBMMN_156_ign_00033
+NGPIBMMN_45	pseudofinder	gene	43729	43874	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_45_pseudo_00760;old_locus_tag=NGPIBMMN_45_ign_00032
+NGPIBMMN_45	pseudofinder	gene	44130	44291	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 150.0%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_45_pseudo_00761;old_locus_tag=NGPIBMMN_00952
+NGPIBMMN_45	pseudofinder	gene	44865	45467	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 45.1%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_45_pseudo_00762;old_locus_tag=NGPIBMMN_00954
+NGPIBMMN_155	pseudofinder	gene	45024	45142	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_155_pseudo_00764;old_locus_tag=NGPIBMMN_155_ign_00034
+NGPIBMMN_45	pseudofinder	gene	45561	45995	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 12.4%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_45_pseudo_00765;old_locus_tag=NGPIBMMN_00955
+NGPIBMMN_281	pseudofinder	gene	45798	45937	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=NGPIBMMN_281_pseudo_00766;old_locus_tag=NGPIBMMN_281_ign_00031
+NGPIBMMN_150	pseudofinder	gene	45876	46166	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 42.2%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_150_pseudo_00767;old_locus_tag=NGPIBMMN_03000
+NGPIBMMN_274	pseudofinder	gene	45994	46371	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 165.8%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_274_pseudo_00768;old_locus_tag=NGPIBMMN_05769
+NGPIBMMN_191	pseudofinder	gene	46697	46842	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 10 blast hits.;locus_tag=NGPIBMMN_191_pseudo_00769;old_locus_tag=NGPIBMMN_191_ign_00032
+NGPIBMMN_171	pseudofinder	gene	46971	47140	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_171_pseudo_00770;old_locus_tag=NGPIBMMN_171_ign_00026
+NGPIBMMN_152	pseudofinder	gene	47156	47300	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 9 blast hits.;locus_tag=NGPIBMMN_152_pseudo_00771;old_locus_tag=NGPIBMMN_152_ign_00036
+NGPIBMMN_154	pseudofinder	gene	47238	47470	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=NGPIBMMN_154_pseudo_00772;old_locus_tag=NGPIBMMN_154_ign_00043
+NGPIBMMN_175	pseudofinder	gene	47511	47795	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 140.0%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_175_pseudo_00773;old_locus_tag=NGPIBMMN_03896
+NGPIBMMN_163	pseudofinder	gene	47765	48040	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 31.3%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_163_pseudo_00774;old_locus_tag=NGPIBMMN_03493
+NGPIBMMN_185	pseudofinder	gene	48725	49147	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 59.2%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_185_pseudo_00775;old_locus_tag=NGPIBMMN_04163
+NGPIBMMN_158	pseudofinder	gene	48967	49166	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_158_pseudo_00776;old_locus_tag=NGPIBMMN_158_ign_00035
+NGPIBMMN_188	pseudofinder	gene	49106	51265	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 135.7%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_188_pseudo_00777;old_locus_tag=NGPIBMMN_04216
+NGPIBMMN_151	pseudofinder	gene	49594	49728	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 32.1%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_151_pseudo_00778;old_locus_tag=NGPIBMMN_03051
+NGPIBMMN_10	pseudofinder	gene	49745	50794	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=NGPIBMMN_10_pseudo_00779;old_locus_tag=NGPIBMMN_10_ign_00036,NGPIBMMN_00262
+NGPIBMMN_191	pseudofinder	gene	50291	50406	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=NGPIBMMN_191_pseudo_00781;old_locus_tag=NGPIBMMN_191_ign_00034
+NGPIBMMN_240	pseudofinder	gene	52619	52885	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 55.7%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_240_pseudo_00782;old_locus_tag=NGPIBMMN_05238
+NGPIBMMN_154	pseudofinder	gene	52636	52818	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 24.9%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_154_pseudo_00783;old_locus_tag=NGPIBMMN_03212
+NGPIBMMN_151	pseudofinder	gene	53243	53569	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 167.7%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_151_pseudo_00784;old_locus_tag=NGPIBMMN_03055
+NGPIBMMN_315	pseudofinder	gene	53274	54398	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 267.9%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_315_pseudo_00785;old_locus_tag=NGPIBMMN_06321
+NGPIBMMN_99	pseudofinder	gene	53359	53558	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_99_pseudo_00786;old_locus_tag=NGPIBMMN_99_ign_00044
+NGPIBMMN_177	pseudofinder	gene	53834	53964	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 14 blast hits.;locus_tag=NGPIBMMN_177_pseudo_00787;old_locus_tag=NGPIBMMN_177_ign_00031
+NGPIBMMN_177	pseudofinder	gene	54019	54396	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 47.3%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_177_pseudo_00788;old_locus_tag=NGPIBMMN_04018
+NGPIBMMN_138	pseudofinder	gene	54356	55402	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 158.6%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_138_pseudo_00789;old_locus_tag=NGPIBMMN_02771
+NGPIBMMN_177	pseudofinder	gene	54396	54560	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 5.5%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_177_pseudo_00790;old_locus_tag=NGPIBMMN_04019
+NGPIBMMN_163	pseudofinder	gene	55214	55522	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 28.8%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_163_pseudo_00791;old_locus_tag=NGPIBMMN_03501
+NGPIBMMN_171	pseudofinder	gene	55986	56104	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 14 blast hits.;locus_tag=NGPIBMMN_171_pseudo_00792;old_locus_tag=NGPIBMMN_171_ign_00031
+NGPIBMMN_99	pseudofinder	gene	56477	56791	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 25.9%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_99_pseudo_00793;old_locus_tag=NGPIBMMN_01975
+NGPIBMMN_10	pseudofinder	gene	56578	56747	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_10_pseudo_00794;old_locus_tag=NGPIBMMN_10_ign_00041
+NGPIBMMN_239	pseudofinder	gene	57247	57373	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=NGPIBMMN_239_pseudo_00795;old_locus_tag=NGPIBMMN_239_ign_00039
+NGPIBMMN_99	pseudofinder	gene	57319	58473	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 21.6%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_99_pseudo_00796;old_locus_tag=NGPIBMMN_01977
+NGPIBMMN_1	pseudofinder	gene	57950	58756	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 30.4%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_1_pseudo_00797;old_locus_tag=NGPIBMMN_00050
+NGPIBMMN_315	pseudofinder	gene	58551	58745	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 59.2%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_315_pseudo_00798;old_locus_tag=NGPIBMMN_06326
+NGPIBMMN_99	pseudofinder	gene	58891	59054	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=NGPIBMMN_99_pseudo_00799;old_locus_tag=NGPIBMMN_99_ign_00049
+NGPIBMMN_188	pseudofinder	gene	60782	60984	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_188_pseudo_00800;old_locus_tag=NGPIBMMN_188_ign_00039
+NGPIBMMN_173	pseudofinder	gene	60939	61142	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 28.1%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_173_pseudo_00801;old_locus_tag=NGPIBMMN_03833
+NGPIBMMN_99	pseudofinder	gene	61148	61366	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_99_pseudo_00802;old_locus_tag=NGPIBMMN_99_ign_00051
+NGPIBMMN_239	pseudofinder	gene	62108	62229	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_239_pseudo_00803;old_locus_tag=NGPIBMMN_239_ign_00041
+NGPIBMMN_188	pseudofinder	gene	62947	63032	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_188_pseudo_00804;old_locus_tag=NGPIBMMN_188_ign_00040
+NGPIBMMN_173	pseudofinder	gene	65034	65210	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 13.7%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_173_pseudo_00805;old_locus_tag=NGPIBMMN_03836
+NGPIBMMN_173	pseudofinder	gene	65577	65880	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=NGPIBMMN_173_pseudo_00806;old_locus_tag=NGPIBMMN_173_ign_00035
+NGPIBMMN_163	pseudofinder	gene	66982	67551	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 52.8%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_163_pseudo_00807;old_locus_tag=NGPIBMMN_03511
+NGPIBMMN_175	pseudofinder	gene	68917	70872	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 145.5%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_175_pseudo_00809;old_locus_tag=NGPIBMMN_03916
+NGPIBMMN_188	pseudofinder	gene	69745	70020	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=NGPIBMMN_188_pseudo_00810;old_locus_tag=NGPIBMMN_188_ign_00044
+NGPIBMMN_163	pseudofinder	gene	71149	71355	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 30.6%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_163_pseudo_00811;old_locus_tag=NGPIBMMN_03515
+NGPIBMMN_163	pseudofinder	gene	73149	73420	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_163_pseudo_00812;old_locus_tag=NGPIBMMN_163_ign_00053
+NGPIBMMN_177	pseudofinder	gene	77160	77589	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=NGPIBMMN_177_pseudo_00813;old_locus_tag=NGPIBMMN_04040,NGPIBMMN_04041
+NGPIBMMN_177	pseudofinder	gene	78042	78305	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 62.4%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_177_pseudo_00814;old_locus_tag=NGPIBMMN_04043
+NGPIBMMN_177	pseudofinder	gene	78611	78781	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 43.1%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_177_pseudo_00815;old_locus_tag=NGPIBMMN_04044
+NGPIBMMN_163	pseudofinder	gene	79703	79945	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 30.0%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_163_pseudo_00816;old_locus_tag=NGPIBMMN_03523
+NGPIBMMN_163	pseudofinder	gene	81602	82726	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 57.0%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_163_pseudo_00818;old_locus_tag=NGPIBMMN_03525
+NGPIBMMN_163	pseudofinder	gene	82784	83010	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_163_pseudo_00819;old_locus_tag=NGPIBMMN_163_ign_00061
+NGPIBMMN_163	pseudofinder	gene	83013	83279	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 19.0%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_163_pseudo_00820;old_locus_tag=NGPIBMMN_03526
+NGPIBMMN_189	pseudofinder	gene	87444	87751	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_189_pseudo_00821;old_locus_tag=NGPIBMMN_189_ign_00056
+NGPIBMMN_163	pseudofinder	gene	90071	90243	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_163_pseudo_00825;old_locus_tag=NGPIBMMN_163_ign_00064
+NGPIBMMN_99	pseudofinder	gene	94937	95626	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 143.3%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_99_pseudo_00826;old_locus_tag=NGPIBMMN_02013
+NGPIBMMN_99	pseudofinder	gene	98611	98705	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 13 blast hits.;locus_tag=NGPIBMMN_99_pseudo_00827;old_locus_tag=NGPIBMMN_99_ign_00084
+NGPIBMMN_99	pseudofinder	gene	98750	98935	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 43.2%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_99_pseudo_00828;old_locus_tag=NGPIBMMN_02017
+NGPIBMMN_99	pseudofinder	gene	99012	99224	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 38.3%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_99_pseudo_00829;old_locus_tag=NGPIBMMN_02018
+NGPIBMMN_99	pseudofinder	gene	99187	99357	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 61.5%25 of the average length of hits to this gene.;locus_tag=NGPIBMMN_99_pseudo_00830;old_locus_tag=NGPIBMMN_02019
+NGPIBMMN_99	pseudofinder	gene	104875	104996	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_99_pseudo_00831;old_locus_tag=NGPIBMMN_99_ign_00089
+NGPIBMMN_99	pseudofinder	gene	115425	115576	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=NGPIBMMN_99_pseudo_00832;old_locus_tag=NGPIBMMN_99_ign_00098
+NGPIBMMN_163	pseudofinder	gene	122841	123196	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NGPIBMMN_163_pseudo_00834;old_locus_tag=NGPIBMMN_163_ign_00085

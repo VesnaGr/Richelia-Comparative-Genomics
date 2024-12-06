@@ -1,0 +1,1027 @@
+##gff-version 3
+#!annotation-date	2022-12-22 10:55:39
+##sequence-region EBJKBJDD_1 1 20603
+##sequence-region EBJKBJDD_2 1 18456
+##sequence-region EBJKBJDD_3 1 14755
+##sequence-region EBJKBJDD_4 1 14142
+##sequence-region EBJKBJDD_5 1 13208
+##sequence-region EBJKBJDD_6 1 11208
+##sequence-region EBJKBJDD_7 1 10864
+##sequence-region EBJKBJDD_8 1 10691
+##sequence-region EBJKBJDD_9 1 10110
+##sequence-region EBJKBJDD_10 1 9962
+##sequence-region EBJKBJDD_11 1 9907
+##sequence-region EBJKBJDD_12 1 9749
+##sequence-region EBJKBJDD_13 1 9654
+##sequence-region EBJKBJDD_14 1 9604
+##sequence-region EBJKBJDD_15 1 9592
+##sequence-region EBJKBJDD_16 1 9475
+##sequence-region EBJKBJDD_17 1 9281
+##sequence-region EBJKBJDD_18 1 9022
+##sequence-region EBJKBJDD_19 1 8988
+##sequence-region EBJKBJDD_20 1 8233
+##sequence-region EBJKBJDD_21 1 8180
+##sequence-region EBJKBJDD_22 1 8089
+##sequence-region EBJKBJDD_23 1 8088
+##sequence-region EBJKBJDD_24 1 8037
+##sequence-region EBJKBJDD_25 1 8016
+##sequence-region EBJKBJDD_26 1 7902
+##sequence-region EBJKBJDD_27 1 7737
+##sequence-region EBJKBJDD_28 1 7654
+##sequence-region EBJKBJDD_29 1 7649
+##sequence-region EBJKBJDD_30 1 7622
+##sequence-region EBJKBJDD_31 1 7582
+##sequence-region EBJKBJDD_32 1 7571
+##sequence-region EBJKBJDD_33 1 7566
+##sequence-region EBJKBJDD_34 1 7528
+##sequence-region EBJKBJDD_35 1 7514
+##sequence-region EBJKBJDD_36 1 7501
+##sequence-region EBJKBJDD_37 1 7463
+##sequence-region EBJKBJDD_38 1 7444
+##sequence-region EBJKBJDD_39 1 7344
+##sequence-region EBJKBJDD_40 1 7302
+##sequence-region EBJKBJDD_41 1 7137
+##sequence-region EBJKBJDD_42 1 7065
+##sequence-region EBJKBJDD_43 1 7063
+##sequence-region EBJKBJDD_44 1 7060
+##sequence-region EBJKBJDD_45 1 7018
+##sequence-region EBJKBJDD_46 1 6993
+##sequence-region EBJKBJDD_47 1 6975
+##sequence-region EBJKBJDD_48 1 6954
+##sequence-region EBJKBJDD_49 1 6897
+##sequence-region EBJKBJDD_50 1 6844
+##sequence-region EBJKBJDD_51 1 6688
+##sequence-region EBJKBJDD_52 1 6682
+##sequence-region EBJKBJDD_53 1 6628
+##sequence-region EBJKBJDD_54 1 6623
+##sequence-region EBJKBJDD_55 1 6556
+##sequence-region EBJKBJDD_56 1 6451
+##sequence-region EBJKBJDD_57 1 6378
+##sequence-region EBJKBJDD_58 1 6377
+##sequence-region EBJKBJDD_59 1 6365
+##sequence-region EBJKBJDD_60 1 6363
+##sequence-region EBJKBJDD_61 1 6336
+##sequence-region EBJKBJDD_62 1 6292
+##sequence-region EBJKBJDD_63 1 6289
+##sequence-region EBJKBJDD_64 1 6244
+##sequence-region EBJKBJDD_65 1 6226
+##sequence-region EBJKBJDD_66 1 6166
+##sequence-region EBJKBJDD_67 1 6148
+##sequence-region EBJKBJDD_68 1 6143
+##sequence-region EBJKBJDD_69 1 6101
+##sequence-region EBJKBJDD_70 1 5992
+##sequence-region EBJKBJDD_71 1 5990
+##sequence-region EBJKBJDD_72 1 5962
+##sequence-region EBJKBJDD_73 1 5941
+##sequence-region EBJKBJDD_74 1 5916
+##sequence-region EBJKBJDD_75 1 5912
+##sequence-region EBJKBJDD_76 1 5888
+##sequence-region EBJKBJDD_77 1 5887
+##sequence-region EBJKBJDD_78 1 5867
+##sequence-region EBJKBJDD_79 1 5838
+##sequence-region EBJKBJDD_80 1 5834
+##sequence-region EBJKBJDD_81 1 5820
+##sequence-region EBJKBJDD_82 1 5785
+##sequence-region EBJKBJDD_83 1 5755
+##sequence-region EBJKBJDD_84 1 5750
+##sequence-region EBJKBJDD_85 1 5739
+##sequence-region EBJKBJDD_86 1 5717
+##sequence-region EBJKBJDD_87 1 5662
+##sequence-region EBJKBJDD_88 1 5656
+##sequence-region EBJKBJDD_89 1 5649
+##sequence-region EBJKBJDD_90 1 5646
+##sequence-region EBJKBJDD_91 1 5637
+##sequence-region EBJKBJDD_92 1 5632
+##sequence-region EBJKBJDD_93 1 5607
+##sequence-region EBJKBJDD_94 1 5531
+##sequence-region EBJKBJDD_95 1 5529
+##sequence-region EBJKBJDD_96 1 5521
+##sequence-region EBJKBJDD_97 1 5516
+##sequence-region EBJKBJDD_98 1 5462
+##sequence-region EBJKBJDD_99 1 5458
+##sequence-region EBJKBJDD_100 1 5427
+##sequence-region EBJKBJDD_101 1 5427
+##sequence-region EBJKBJDD_102 1 5404
+##sequence-region EBJKBJDD_103 1 5390
+##sequence-region EBJKBJDD_104 1 5384
+##sequence-region EBJKBJDD_105 1 5346
+##sequence-region EBJKBJDD_106 1 5323
+##sequence-region EBJKBJDD_107 1 5313
+##sequence-region EBJKBJDD_108 1 5306
+##sequence-region EBJKBJDD_109 1 5283
+##sequence-region EBJKBJDD_110 1 5275
+##sequence-region EBJKBJDD_111 1 5203
+##sequence-region EBJKBJDD_112 1 5198
+##sequence-region EBJKBJDD_113 1 5181
+##sequence-region EBJKBJDD_114 1 5177
+##sequence-region EBJKBJDD_115 1 5177
+##sequence-region EBJKBJDD_116 1 5161
+##sequence-region EBJKBJDD_117 1 5146
+##sequence-region EBJKBJDD_118 1 5133
+##sequence-region EBJKBJDD_119 1 5108
+##sequence-region EBJKBJDD_120 1 5083
+##sequence-region EBJKBJDD_121 1 5054
+##sequence-region EBJKBJDD_122 1 5032
+##sequence-region EBJKBJDD_123 1 4996
+##sequence-region EBJKBJDD_124 1 4994
+##sequence-region EBJKBJDD_125 1 4992
+##sequence-region EBJKBJDD_126 1 4969
+##sequence-region EBJKBJDD_127 1 4944
+##sequence-region EBJKBJDD_128 1 4944
+##sequence-region EBJKBJDD_129 1 4938
+##sequence-region EBJKBJDD_130 1 4933
+##sequence-region EBJKBJDD_131 1 4930
+##sequence-region EBJKBJDD_132 1 4907
+##sequence-region EBJKBJDD_133 1 4897
+##sequence-region EBJKBJDD_134 1 4872
+##sequence-region EBJKBJDD_135 1 4850
+##sequence-region EBJKBJDD_136 1 4837
+##sequence-region EBJKBJDD_137 1 4828
+##sequence-region EBJKBJDD_138 1 4825
+##sequence-region EBJKBJDD_139 1 4813
+##sequence-region EBJKBJDD_140 1 4768
+##sequence-region EBJKBJDD_141 1 4761
+##sequence-region EBJKBJDD_142 1 4752
+##sequence-region EBJKBJDD_143 1 4729
+##sequence-region EBJKBJDD_144 1 4717
+##sequence-region EBJKBJDD_145 1 4709
+##sequence-region EBJKBJDD_146 1 4695
+##sequence-region EBJKBJDD_147 1 4694
+##sequence-region EBJKBJDD_148 1 4673
+##sequence-region EBJKBJDD_149 1 4654
+##sequence-region EBJKBJDD_150 1 4614
+##sequence-region EBJKBJDD_151 1 4567
+##sequence-region EBJKBJDD_152 1 4555
+##sequence-region EBJKBJDD_153 1 4539
+##sequence-region EBJKBJDD_154 1 4530
+##sequence-region EBJKBJDD_155 1 4502
+##sequence-region EBJKBJDD_156 1 4493
+##sequence-region EBJKBJDD_157 1 4470
+##sequence-region EBJKBJDD_158 1 4459
+##sequence-region EBJKBJDD_159 1 4457
+##sequence-region EBJKBJDD_160 1 4451
+##sequence-region EBJKBJDD_161 1 4449
+##sequence-region EBJKBJDD_162 1 4444
+##sequence-region EBJKBJDD_163 1 4443
+##sequence-region EBJKBJDD_164 1 4415
+##sequence-region EBJKBJDD_165 1 4390
+##sequence-region EBJKBJDD_166 1 4368
+##sequence-region EBJKBJDD_167 1 4352
+##sequence-region EBJKBJDD_168 1 4331
+##sequence-region EBJKBJDD_169 1 4299
+##sequence-region EBJKBJDD_170 1 4287
+##sequence-region EBJKBJDD_171 1 4284
+##sequence-region EBJKBJDD_172 1 4276
+##sequence-region EBJKBJDD_173 1 4255
+##sequence-region EBJKBJDD_174 1 4211
+##sequence-region EBJKBJDD_175 1 4188
+##sequence-region EBJKBJDD_176 1 4186
+##sequence-region EBJKBJDD_177 1 4184
+##sequence-region EBJKBJDD_178 1 4183
+##sequence-region EBJKBJDD_179 1 4171
+##sequence-region EBJKBJDD_180 1 4169
+##sequence-region EBJKBJDD_181 1 4165
+##sequence-region EBJKBJDD_182 1 4146
+##sequence-region EBJKBJDD_183 1 4141
+##sequence-region EBJKBJDD_184 1 4134
+##sequence-region EBJKBJDD_185 1 4131
+##sequence-region EBJKBJDD_186 1 4124
+##sequence-region EBJKBJDD_187 1 4123
+##sequence-region EBJKBJDD_188 1 4119
+##sequence-region EBJKBJDD_189 1 4112
+##sequence-region EBJKBJDD_190 1 4109
+##sequence-region EBJKBJDD_191 1 4109
+##sequence-region EBJKBJDD_192 1 4101
+##sequence-region EBJKBJDD_193 1 4097
+##sequence-region EBJKBJDD_194 1 4096
+##sequence-region EBJKBJDD_195 1 4090
+##sequence-region EBJKBJDD_196 1 4088
+##sequence-region EBJKBJDD_197 1 4085
+##sequence-region EBJKBJDD_198 1 4076
+##sequence-region EBJKBJDD_199 1 4038
+##sequence-region EBJKBJDD_200 1 4034
+##sequence-region EBJKBJDD_201 1 4022
+##sequence-region EBJKBJDD_202 1 4012
+##sequence-region EBJKBJDD_203 1 4005
+##sequence-region EBJKBJDD_204 1 4003
+##sequence-region EBJKBJDD_205 1 3995
+##sequence-region EBJKBJDD_206 1 3993
+##sequence-region EBJKBJDD_207 1 3992
+##sequence-region EBJKBJDD_208 1 3964
+##sequence-region EBJKBJDD_209 1 3948
+##sequence-region EBJKBJDD_210 1 3934
+##sequence-region EBJKBJDD_211 1 3929
+##sequence-region EBJKBJDD_212 1 3927
+##sequence-region EBJKBJDD_213 1 3927
+##sequence-region EBJKBJDD_214 1 3911
+##sequence-region EBJKBJDD_215 1 3911
+##sequence-region EBJKBJDD_216 1 3906
+##sequence-region EBJKBJDD_217 1 3895
+##sequence-region EBJKBJDD_218 1 3878
+##sequence-region EBJKBJDD_219 1 3872
+##sequence-region EBJKBJDD_220 1 3872
+##sequence-region EBJKBJDD_221 1 3870
+##sequence-region EBJKBJDD_222 1 3828
+##sequence-region EBJKBJDD_223 1 3828
+##sequence-region EBJKBJDD_224 1 3805
+##sequence-region EBJKBJDD_225 1 3801
+##sequence-region EBJKBJDD_226 1 3797
+##sequence-region EBJKBJDD_227 1 3790
+##sequence-region EBJKBJDD_228 1 3790
+##sequence-region EBJKBJDD_229 1 3779
+##sequence-region EBJKBJDD_230 1 3776
+##sequence-region EBJKBJDD_231 1 3770
+##sequence-region EBJKBJDD_232 1 3753
+##sequence-region EBJKBJDD_233 1 3728
+##sequence-region EBJKBJDD_234 1 3728
+##sequence-region EBJKBJDD_235 1 3726
+##sequence-region EBJKBJDD_236 1 3713
+##sequence-region EBJKBJDD_237 1 3708
+##sequence-region EBJKBJDD_238 1 3704
+##sequence-region EBJKBJDD_239 1 3698
+##sequence-region EBJKBJDD_240 1 3692
+##sequence-region EBJKBJDD_241 1 3691
+##sequence-region EBJKBJDD_242 1 3689
+##sequence-region EBJKBJDD_243 1 3681
+##sequence-region EBJKBJDD_244 1 3673
+##sequence-region EBJKBJDD_245 1 3663
+##sequence-region EBJKBJDD_246 1 3658
+##sequence-region EBJKBJDD_247 1 3622
+##sequence-region EBJKBJDD_248 1 3619
+##sequence-region EBJKBJDD_249 1 3616
+##sequence-region EBJKBJDD_250 1 3606
+##sequence-region EBJKBJDD_251 1 3589
+##sequence-region EBJKBJDD_252 1 3588
+##sequence-region EBJKBJDD_253 1 3572
+##sequence-region EBJKBJDD_254 1 3566
+##sequence-region EBJKBJDD_255 1 3554
+##sequence-region EBJKBJDD_256 1 3552
+##sequence-region EBJKBJDD_257 1 3552
+##sequence-region EBJKBJDD_258 1 3545
+##sequence-region EBJKBJDD_259 1 3539
+##sequence-region EBJKBJDD_260 1 3538
+##sequence-region EBJKBJDD_261 1 3536
+##sequence-region EBJKBJDD_262 1 3521
+##sequence-region EBJKBJDD_263 1 3510
+##sequence-region EBJKBJDD_264 1 3510
+##sequence-region EBJKBJDD_265 1 3502
+##sequence-region EBJKBJDD_266 1 3500
+##sequence-region EBJKBJDD_267 1 3492
+##sequence-region EBJKBJDD_268 1 3485
+##sequence-region EBJKBJDD_269 1 3475
+##sequence-region EBJKBJDD_270 1 3472
+##sequence-region EBJKBJDD_271 1 3450
+##sequence-region EBJKBJDD_272 1 3425
+##sequence-region EBJKBJDD_273 1 3424
+##sequence-region EBJKBJDD_274 1 3415
+##sequence-region EBJKBJDD_275 1 3401
+##sequence-region EBJKBJDD_276 1 3393
+##sequence-region EBJKBJDD_277 1 3376
+##sequence-region EBJKBJDD_278 1 3374
+##sequence-region EBJKBJDD_279 1 3374
+##sequence-region EBJKBJDD_280 1 3368
+##sequence-region EBJKBJDD_281 1 3349
+##sequence-region EBJKBJDD_282 1 3345
+##sequence-region EBJKBJDD_283 1 3342
+##sequence-region EBJKBJDD_284 1 3334
+##sequence-region EBJKBJDD_285 1 3326
+##sequence-region EBJKBJDD_286 1 3320
+##sequence-region EBJKBJDD_287 1 3314
+##sequence-region EBJKBJDD_288 1 3306
+##sequence-region EBJKBJDD_289 1 3305
+##sequence-region EBJKBJDD_290 1 3303
+##sequence-region EBJKBJDD_291 1 3300
+##sequence-region EBJKBJDD_292 1 3298
+##sequence-region EBJKBJDD_293 1 3297
+##sequence-region EBJKBJDD_294 1 3292
+##sequence-region EBJKBJDD_295 1 3289
+##sequence-region EBJKBJDD_296 1 3273
+##sequence-region EBJKBJDD_297 1 3266
+##sequence-region EBJKBJDD_298 1 3263
+##sequence-region EBJKBJDD_299 1 3261
+##sequence-region EBJKBJDD_300 1 3253
+##sequence-region EBJKBJDD_301 1 3242
+##sequence-region EBJKBJDD_302 1 3230
+##sequence-region EBJKBJDD_303 1 3229
+##sequence-region EBJKBJDD_304 1 3228
+##sequence-region EBJKBJDD_305 1 3228
+##sequence-region EBJKBJDD_306 1 3222
+##sequence-region EBJKBJDD_307 1 3202
+##sequence-region EBJKBJDD_308 1 3200
+##sequence-region EBJKBJDD_309 1 3197
+##sequence-region EBJKBJDD_310 1 3196
+##sequence-region EBJKBJDD_311 1 3190
+##sequence-region EBJKBJDD_312 1 3182
+##sequence-region EBJKBJDD_313 1 3176
+##sequence-region EBJKBJDD_314 1 3171
+##sequence-region EBJKBJDD_315 1 3169
+##sequence-region EBJKBJDD_316 1 3166
+##sequence-region EBJKBJDD_317 1 3146
+##sequence-region EBJKBJDD_318 1 3133
+##sequence-region EBJKBJDD_319 1 3126
+##sequence-region EBJKBJDD_320 1 3119
+##sequence-region EBJKBJDD_321 1 3106
+##sequence-region EBJKBJDD_322 1 3098
+##sequence-region EBJKBJDD_323 1 3090
+##sequence-region EBJKBJDD_324 1 3081
+##sequence-region EBJKBJDD_325 1 3079
+##sequence-region EBJKBJDD_326 1 3070
+##sequence-region EBJKBJDD_327 1 3069
+##sequence-region EBJKBJDD_328 1 3065
+##sequence-region EBJKBJDD_329 1 3058
+##sequence-region EBJKBJDD_330 1 3046
+##sequence-region EBJKBJDD_331 1 3040
+##sequence-region EBJKBJDD_332 1 3038
+##sequence-region EBJKBJDD_333 1 3036
+##sequence-region EBJKBJDD_334 1 3036
+##sequence-region EBJKBJDD_335 1 3028
+##sequence-region EBJKBJDD_336 1 3025
+##sequence-region EBJKBJDD_337 1 3015
+##sequence-region EBJKBJDD_338 1 3011
+##sequence-region EBJKBJDD_339 1 3008
+##sequence-region EBJKBJDD_340 1 2994
+##sequence-region EBJKBJDD_341 1 2990
+##sequence-region EBJKBJDD_342 1 2981
+##sequence-region EBJKBJDD_343 1 2977
+##sequence-region EBJKBJDD_344 1 2970
+##sequence-region EBJKBJDD_345 1 2967
+##sequence-region EBJKBJDD_346 1 2964
+##sequence-region EBJKBJDD_347 1 2962
+##sequence-region EBJKBJDD_348 1 2955
+##sequence-region EBJKBJDD_349 1 2950
+##sequence-region EBJKBJDD_350 1 2949
+##sequence-region EBJKBJDD_351 1 2943
+##sequence-region EBJKBJDD_352 1 2942
+##sequence-region EBJKBJDD_353 1 2935
+##sequence-region EBJKBJDD_354 1 2935
+##sequence-region EBJKBJDD_355 1 2932
+##sequence-region EBJKBJDD_356 1 2927
+##sequence-region EBJKBJDD_357 1 2926
+##sequence-region EBJKBJDD_358 1 2925
+##sequence-region EBJKBJDD_359 1 2908
+##sequence-region EBJKBJDD_360 1 2907
+##sequence-region EBJKBJDD_361 1 2903
+##sequence-region EBJKBJDD_362 1 2902
+##sequence-region EBJKBJDD_363 1 2899
+##sequence-region EBJKBJDD_364 1 2898
+##sequence-region EBJKBJDD_365 1 2896
+##sequence-region EBJKBJDD_366 1 2887
+##sequence-region EBJKBJDD_367 1 2883
+##sequence-region EBJKBJDD_368 1 2883
+##sequence-region EBJKBJDD_369 1 2883
+##sequence-region EBJKBJDD_370 1 2871
+##sequence-region EBJKBJDD_371 1 2870
+##sequence-region EBJKBJDD_372 1 2868
+##sequence-region EBJKBJDD_373 1 2865
+##sequence-region EBJKBJDD_374 1 2853
+##sequence-region EBJKBJDD_375 1 2839
+##sequence-region EBJKBJDD_376 1 2836
+##sequence-region EBJKBJDD_377 1 2832
+##sequence-region EBJKBJDD_378 1 2830
+##sequence-region EBJKBJDD_379 1 2825
+##sequence-region EBJKBJDD_380 1 2823
+##sequence-region EBJKBJDD_381 1 2822
+##sequence-region EBJKBJDD_382 1 2817
+##sequence-region EBJKBJDD_383 1 2814
+##sequence-region EBJKBJDD_384 1 2808
+##sequence-region EBJKBJDD_385 1 2807
+##sequence-region EBJKBJDD_386 1 2807
+##sequence-region EBJKBJDD_387 1 2807
+##sequence-region EBJKBJDD_388 1 2806
+##sequence-region EBJKBJDD_389 1 2798
+##sequence-region EBJKBJDD_390 1 2776
+##sequence-region EBJKBJDD_391 1 2769
+##sequence-region EBJKBJDD_392 1 2767
+##sequence-region EBJKBJDD_393 1 2766
+##sequence-region EBJKBJDD_394 1 2761
+##sequence-region EBJKBJDD_395 1 2757
+##sequence-region EBJKBJDD_396 1 2752
+##sequence-region EBJKBJDD_397 1 2751
+##sequence-region EBJKBJDD_398 1 2750
+##sequence-region EBJKBJDD_399 1 2747
+##sequence-region EBJKBJDD_400 1 2741
+##sequence-region EBJKBJDD_401 1 2739
+##sequence-region EBJKBJDD_402 1 2738
+##sequence-region EBJKBJDD_403 1 2732
+##sequence-region EBJKBJDD_404 1 2724
+##sequence-region EBJKBJDD_405 1 2712
+##sequence-region EBJKBJDD_406 1 2707
+##sequence-region EBJKBJDD_407 1 2705
+##sequence-region EBJKBJDD_408 1 2695
+##sequence-region EBJKBJDD_409 1 2695
+##sequence-region EBJKBJDD_410 1 2694
+##sequence-region EBJKBJDD_411 1 2689
+##sequence-region EBJKBJDD_412 1 2683
+##sequence-region EBJKBJDD_413 1 2682
+##sequence-region EBJKBJDD_414 1 2673
+##sequence-region EBJKBJDD_415 1 2663
+##sequence-region EBJKBJDD_416 1 2659
+##sequence-region EBJKBJDD_417 1 2659
+##sequence-region EBJKBJDD_418 1 2652
+##sequence-region EBJKBJDD_419 1 2652
+##sequence-region EBJKBJDD_420 1 2649
+##sequence-region EBJKBJDD_421 1 2648
+##sequence-region EBJKBJDD_422 1 2647
+##sequence-region EBJKBJDD_423 1 2647
+##sequence-region EBJKBJDD_424 1 2646
+##sequence-region EBJKBJDD_425 1 2643
+##sequence-region EBJKBJDD_426 1 2639
+##sequence-region EBJKBJDD_427 1 2618
+##sequence-region EBJKBJDD_428 1 2614
+##sequence-region EBJKBJDD_429 1 2606
+##sequence-region EBJKBJDD_430 1 2603
+##sequence-region EBJKBJDD_431 1 2601
+##sequence-region EBJKBJDD_432 1 2599
+##sequence-region EBJKBJDD_433 1 2590
+##sequence-region EBJKBJDD_434 1 2590
+##sequence-region EBJKBJDD_435 1 2584
+##sequence-region EBJKBJDD_436 1 2581
+##sequence-region EBJKBJDD_437 1 2578
+##sequence-region EBJKBJDD_438 1 2577
+##sequence-region EBJKBJDD_439 1 2576
+##sequence-region EBJKBJDD_440 1 2573
+##sequence-region EBJKBJDD_441 1 2571
+##sequence-region EBJKBJDD_442 1 2570
+##sequence-region EBJKBJDD_443 1 2568
+##sequence-region EBJKBJDD_444 1 2568
+##sequence-region EBJKBJDD_445 1 2562
+##sequence-region EBJKBJDD_446 1 2542
+##sequence-region EBJKBJDD_447 1 2541
+##sequence-region EBJKBJDD_448 1 2541
+##sequence-region EBJKBJDD_449 1 2541
+##sequence-region EBJKBJDD_450 1 2537
+##sequence-region EBJKBJDD_451 1 2524
+##sequence-region EBJKBJDD_452 1 2524
+##sequence-region EBJKBJDD_453 1 2513
+##sequence-region EBJKBJDD_454 1 2511
+##sequence-region EBJKBJDD_455 1 2504
+##sequence-region EBJKBJDD_456 1 2504
+##sequence-region EBJKBJDD_457 1 2501
+##sequence-region EBJKBJDD_458 1 2499
+##sequence-region EBJKBJDD_459 1 2495
+##sequence-region EBJKBJDD_460 1 2494
+##sequence-region EBJKBJDD_461 1 2489
+##sequence-region EBJKBJDD_462 1 2482
+##sequence-region EBJKBJDD_463 1 2482
+##sequence-region EBJKBJDD_464 1 2481
+##sequence-region EBJKBJDD_465 1 2478
+##sequence-region EBJKBJDD_466 1 2477
+##sequence-region EBJKBJDD_467 1 2475
+##sequence-region EBJKBJDD_468 1 2471
+##sequence-region EBJKBJDD_469 1 2469
+##sequence-region EBJKBJDD_470 1 2459
+##sequence-region EBJKBJDD_471 1 2458
+##sequence-region EBJKBJDD_472 1 2452
+##sequence-region EBJKBJDD_473 1 2451
+##sequence-region EBJKBJDD_474 1 2423
+##sequence-region EBJKBJDD_475 1 2422
+##sequence-region EBJKBJDD_476 1 2421
+##sequence-region EBJKBJDD_477 1 2420
+##sequence-region EBJKBJDD_478 1 2420
+##sequence-region EBJKBJDD_479 1 2419
+##sequence-region EBJKBJDD_480 1 2418
+##sequence-region EBJKBJDD_481 1 2415
+##sequence-region EBJKBJDD_482 1 2405
+##sequence-region EBJKBJDD_483 1 2403
+##sequence-region EBJKBJDD_484 1 2391
+##sequence-region EBJKBJDD_485 1 2384
+##sequence-region EBJKBJDD_486 1 2374
+##sequence-region EBJKBJDD_487 1 2371
+##sequence-region EBJKBJDD_488 1 2356
+##sequence-region EBJKBJDD_489 1 2354
+##sequence-region EBJKBJDD_490 1 2353
+##sequence-region EBJKBJDD_491 1 2352
+##sequence-region EBJKBJDD_492 1 2350
+##sequence-region EBJKBJDD_493 1 2350
+##sequence-region EBJKBJDD_494 1 2347
+##sequence-region EBJKBJDD_495 1 2346
+##sequence-region EBJKBJDD_496 1 2345
+##sequence-region EBJKBJDD_497 1 2345
+##sequence-region EBJKBJDD_498 1 2345
+##sequence-region EBJKBJDD_499 1 2344
+##sequence-region EBJKBJDD_500 1 2340
+##sequence-region EBJKBJDD_501 1 2338
+##sequence-region EBJKBJDD_502 1 2330
+##sequence-region EBJKBJDD_503 1 2320
+##sequence-region EBJKBJDD_504 1 2314
+##sequence-region EBJKBJDD_505 1 2306
+##sequence-region EBJKBJDD_506 1 2303
+##sequence-region EBJKBJDD_507 1 2301
+##sequence-region EBJKBJDD_508 1 2300
+##sequence-region EBJKBJDD_509 1 2299
+##sequence-region EBJKBJDD_510 1 2295
+##sequence-region EBJKBJDD_511 1 2283
+##sequence-region EBJKBJDD_512 1 2282
+##sequence-region EBJKBJDD_513 1 2258
+##sequence-region EBJKBJDD_514 1 2256
+##sequence-region EBJKBJDD_515 1 2254
+##sequence-region EBJKBJDD_516 1 2251
+##sequence-region EBJKBJDD_517 1 2248
+##sequence-region EBJKBJDD_518 1 2248
+##sequence-region EBJKBJDD_519 1 2242
+##sequence-region EBJKBJDD_520 1 2241
+##sequence-region EBJKBJDD_521 1 2237
+##sequence-region EBJKBJDD_522 1 2235
+##sequence-region EBJKBJDD_523 1 2234
+##sequence-region EBJKBJDD_524 1 2234
+##sequence-region EBJKBJDD_525 1 2230
+##sequence-region EBJKBJDD_526 1 2230
+##sequence-region EBJKBJDD_527 1 2228
+##sequence-region EBJKBJDD_528 1 2227
+##sequence-region EBJKBJDD_529 1 2223
+##sequence-region EBJKBJDD_530 1 2223
+##sequence-region EBJKBJDD_531 1 2220
+##sequence-region EBJKBJDD_532 1 2216
+##sequence-region EBJKBJDD_533 1 2215
+##sequence-region EBJKBJDD_534 1 2214
+##sequence-region EBJKBJDD_535 1 2213
+##sequence-region EBJKBJDD_536 1 2201
+##sequence-region EBJKBJDD_537 1 2199
+##sequence-region EBJKBJDD_538 1 2191
+##sequence-region EBJKBJDD_539 1 2185
+##sequence-region EBJKBJDD_540 1 2184
+##sequence-region EBJKBJDD_541 1 2181
+##sequence-region EBJKBJDD_542 1 2180
+##sequence-region EBJKBJDD_543 1 2178
+##sequence-region EBJKBJDD_544 1 2177
+##sequence-region EBJKBJDD_545 1 2177
+##sequence-region EBJKBJDD_546 1 2171
+##sequence-region EBJKBJDD_547 1 2166
+##sequence-region EBJKBJDD_548 1 2165
+##sequence-region EBJKBJDD_549 1 2164
+##sequence-region EBJKBJDD_550 1 2156
+##sequence-region EBJKBJDD_551 1 2155
+##sequence-region EBJKBJDD_552 1 2154
+##sequence-region EBJKBJDD_553 1 2147
+##sequence-region EBJKBJDD_554 1 2144
+##sequence-region EBJKBJDD_555 1 2142
+##sequence-region EBJKBJDD_556 1 2137
+##sequence-region EBJKBJDD_557 1 2129
+##sequence-region EBJKBJDD_558 1 2129
+##sequence-region EBJKBJDD_559 1 2127
+##sequence-region EBJKBJDD_560 1 2126
+##sequence-region EBJKBJDD_561 1 2126
+##sequence-region EBJKBJDD_562 1 2125
+##sequence-region EBJKBJDD_563 1 2122
+##sequence-region EBJKBJDD_564 1 2114
+##sequence-region EBJKBJDD_565 1 2108
+##sequence-region EBJKBJDD_566 1 2104
+##sequence-region EBJKBJDD_567 1 2098
+##sequence-region EBJKBJDD_568 1 2095
+##sequence-region EBJKBJDD_569 1 2094
+##sequence-region EBJKBJDD_570 1 2086
+##sequence-region EBJKBJDD_571 1 2082
+##sequence-region EBJKBJDD_572 1 2081
+##sequence-region EBJKBJDD_573 1 2075
+##sequence-region EBJKBJDD_574 1 2066
+##sequence-region EBJKBJDD_575 1 2066
+##sequence-region EBJKBJDD_576 1 2064
+##sequence-region EBJKBJDD_577 1 2062
+##sequence-region EBJKBJDD_578 1 2055
+##sequence-region EBJKBJDD_579 1 2054
+##sequence-region EBJKBJDD_580 1 2043
+##sequence-region EBJKBJDD_581 1 2035
+##sequence-region EBJKBJDD_582 1 2032
+##sequence-region EBJKBJDD_583 1 2026
+##sequence-region EBJKBJDD_584 1 2018
+##sequence-region EBJKBJDD_585 1 2018
+##sequence-region EBJKBJDD_586 1 2017
+##sequence-region EBJKBJDD_587 1 2016
+##sequence-region EBJKBJDD_588 1 2016
+##sequence-region EBJKBJDD_589 1 2008
+##sequence-region EBJKBJDD_590 1 2007
+##sequence-region EBJKBJDD_591 1 2007
+##sequence-region EBJKBJDD_592 1 2005
+##sequence-region EBJKBJDD_593 1 2004
+##sequence-region EBJKBJDD_594 1 2117
+##sequence-region EBJKBJDD_595 1 3689
+##sequence-region EBJKBJDD_596 1 5744
+##sequence-region EBJKBJDD_597 1 5232
+##sequence-region EBJKBJDD_598 1 4544
+##sequence-region EBJKBJDD_599 1 4640
+##sequence-region EBJKBJDD_600 1 4992
+##sequence-region EBJKBJDD_601 1 4784
+##sequence-region EBJKBJDD_602 1 4431
+##sequence-region EBJKBJDD_603 1 2325
+##sequence-region EBJKBJDD_604 1 10819
+##sequence-region EBJKBJDD_605 1 10657
+##sequence-region EBJKBJDD_606 1 4253
+##sequence-region EBJKBJDD_607 1 6671
+##sequence-region EBJKBJDD_608 1 4364
+##sequence-region EBJKBJDD_609 1 4055
+##sequence-region EBJKBJDD_610 1 2776
+##sequence-region EBJKBJDD_611 1 2231
+##sequence-region EBJKBJDD_612 1 2077
+##sequence-region EBJKBJDD_613 1 2015
+##sequence-region EBJKBJDD_614 1 2071
+##sequence-region EBJKBJDD_615 1 2127
+##sequence-region EBJKBJDD_616 1 2664
+##sequence-region EBJKBJDD_617 1 5370
+##sequence-region EBJKBJDD_618 1 6522
+##sequence-region EBJKBJDD_619 1 3830
+##sequence-region EBJKBJDD_620 1 2451
+##sequence-region EBJKBJDD_621 1 2131
+##sequence-region EBJKBJDD_622 1 3192
+##sequence-region EBJKBJDD_623 1 2835
+##sequence-region EBJKBJDD_624 1 3937
+##sequence-region EBJKBJDD_625 1 2023
+##sequence-region EBJKBJDD_626 1 3121
+##sequence-region EBJKBJDD_627 1 2585
+##sequence-region EBJKBJDD_628 1 6829
+##sequence-region EBJKBJDD_629 1 1975
+##sequence-region EBJKBJDD_630 1 1969
+##sequence-region EBJKBJDD_631 1 1951
+##sequence-region EBJKBJDD_632 1 1950
+##sequence-region EBJKBJDD_633 1 1950
+##sequence-region EBJKBJDD_634 1 1950
+##sequence-region EBJKBJDD_635 1 1949
+##sequence-region EBJKBJDD_636 1 1943
+##sequence-region EBJKBJDD_637 1 1932
+##sequence-region EBJKBJDD_638 1 1931
+##sequence-region EBJKBJDD_639 1 1922
+##sequence-region EBJKBJDD_640 1 1911
+##sequence-region EBJKBJDD_641 1 1901
+##sequence-region EBJKBJDD_642 1 1900
+##sequence-region EBJKBJDD_643 1 1897
+##sequence-region EBJKBJDD_644 1 1886
+##sequence-region EBJKBJDD_645 1 1885
+##sequence-region EBJKBJDD_646 1 1879
+##sequence-region EBJKBJDD_647 1 1874
+##sequence-region EBJKBJDD_648 1 1873
+##sequence-region EBJKBJDD_649 1 1858
+##sequence-region EBJKBJDD_650 1 1857
+##sequence-region EBJKBJDD_651 1 1854
+##sequence-region EBJKBJDD_652 1 1849
+##sequence-region EBJKBJDD_653 1 1848
+##sequence-region EBJKBJDD_654 1 1831
+##sequence-region EBJKBJDD_655 1 1828
+##sequence-region EBJKBJDD_656 1 1819
+##sequence-region EBJKBJDD_657 1 1815
+##sequence-region EBJKBJDD_658 1 1814
+##sequence-region EBJKBJDD_659 1 1814
+##sequence-region EBJKBJDD_660 1 1812
+##sequence-region EBJKBJDD_661 1 1807
+##sequence-region EBJKBJDD_662 1 1804
+##sequence-region EBJKBJDD_663 1 1802
+##sequence-region EBJKBJDD_664 1 1801
+##sequence-region EBJKBJDD_665 1 1788
+##sequence-region EBJKBJDD_666 1 1776
+##sequence-region EBJKBJDD_667 1 1769
+##sequence-region EBJKBJDD_668 1 1769
+##sequence-region EBJKBJDD_669 1 1759
+##sequence-region EBJKBJDD_670 1 1743
+##sequence-region EBJKBJDD_671 1 1742
+##sequence-region EBJKBJDD_672 1 1735
+##sequence-region EBJKBJDD_673 1 1734
+##sequence-region EBJKBJDD_674 1 1724
+##sequence-region EBJKBJDD_675 1 1698
+##sequence-region EBJKBJDD_676 1 1694
+##sequence-region EBJKBJDD_677 1 1678
+##sequence-region EBJKBJDD_678 1 1677
+##sequence-region EBJKBJDD_679 1 1662
+##sequence-region EBJKBJDD_680 1 1658
+##sequence-region EBJKBJDD_681 1 1647
+##sequence-region EBJKBJDD_682 1 1646
+##sequence-region EBJKBJDD_683 1 1634
+##sequence-region EBJKBJDD_684 1 1628
+##sequence-region EBJKBJDD_685 1 1623
+##sequence-region EBJKBJDD_686 1 1599
+##sequence-region EBJKBJDD_687 1 1592
+##sequence-region EBJKBJDD_688 1 1583
+##sequence-region EBJKBJDD_689 1 1574
+##sequence-region EBJKBJDD_690 1 1550
+##sequence-region EBJKBJDD_691 1 1543
+##sequence-region EBJKBJDD_692 1 1535
+##sequence-region EBJKBJDD_693 1 1530
+##sequence-region EBJKBJDD_694 1 1528
+##sequence-region EBJKBJDD_695 1 1504
+##sequence-region EBJKBJDD_696 1 1502
+##sequence-region EBJKBJDD_697 1 1495
+##sequence-region EBJKBJDD_698 1 1487
+##sequence-region EBJKBJDD_699 1 1487
+##sequence-region EBJKBJDD_700 1 1482
+##sequence-region EBJKBJDD_701 1 1477
+##sequence-region EBJKBJDD_702 1 1471
+##sequence-region EBJKBJDD_703 1 1470
+##sequence-region EBJKBJDD_704 1 1469
+##sequence-region EBJKBJDD_705 1 1462
+##sequence-region EBJKBJDD_706 1 1453
+##sequence-region EBJKBJDD_707 1 1452
+##sequence-region EBJKBJDD_708 1 1439
+##sequence-region EBJKBJDD_709 1 1437
+##sequence-region EBJKBJDD_710 1 1437
+##sequence-region EBJKBJDD_711 1 1435
+##sequence-region EBJKBJDD_712 1 1425
+##sequence-region EBJKBJDD_713 1 1425
+##sequence-region EBJKBJDD_714 1 1417
+##sequence-region EBJKBJDD_715 1 1407
+##sequence-region EBJKBJDD_716 1 1407
+##sequence-region EBJKBJDD_717 1 1394
+##sequence-region EBJKBJDD_718 1 1391
+##sequence-region EBJKBJDD_719 1 1390
+##sequence-region EBJKBJDD_720 1 1379
+##sequence-region EBJKBJDD_721 1 1378
+##sequence-region EBJKBJDD_722 1 1376
+##sequence-region EBJKBJDD_723 1 1366
+##sequence-region EBJKBJDD_724 1 1363
+##sequence-region EBJKBJDD_725 1 1356
+##sequence-region EBJKBJDD_726 1 1351
+##sequence-region EBJKBJDD_727 1 1350
+##sequence-region EBJKBJDD_728 1 1350
+##sequence-region EBJKBJDD_729 1 1335
+##sequence-region EBJKBJDD_730 1 1324
+##sequence-region EBJKBJDD_731 1 1296
+##sequence-region EBJKBJDD_732 1 1281
+##sequence-region EBJKBJDD_733 1 1270
+##sequence-region EBJKBJDD_734 1 1264
+##sequence-region EBJKBJDD_735 1 1253
+##sequence-region EBJKBJDD_736 1 1250
+##sequence-region EBJKBJDD_737 1 1235
+##sequence-region EBJKBJDD_738 1 1234
+##sequence-region EBJKBJDD_739 1 1219
+##sequence-region EBJKBJDD_740 1 1194
+##sequence-region EBJKBJDD_741 1 1183
+##sequence-region EBJKBJDD_742 1 1171
+##sequence-region EBJKBJDD_743 1 1164
+##sequence-region EBJKBJDD_744 1 1162
+##sequence-region EBJKBJDD_745 1 1158
+##sequence-region EBJKBJDD_746 1 1156
+##sequence-region EBJKBJDD_747 1 1151
+##sequence-region EBJKBJDD_748 1 1143
+##sequence-region EBJKBJDD_749 1 1139
+##sequence-region EBJKBJDD_750 1 1106
+##sequence-region EBJKBJDD_751 1 1096
+##sequence-region EBJKBJDD_752 1 1093
+##sequence-region EBJKBJDD_753 1 1082
+##sequence-region EBJKBJDD_754 1 1075
+##sequence-region EBJKBJDD_755 1 1070
+##sequence-region EBJKBJDD_756 1 1060
+##sequence-region EBJKBJDD_757 1 1035
+##sequence-region EBJKBJDD_758 1 1033
+##sequence-region EBJKBJDD_759 1 1030
+##sequence-region EBJKBJDD_760 1 1018
+##sequence-region EBJKBJDD_761 1 1014
+##sequence-region EBJKBJDD_762 1 1012
+##sequence-region EBJKBJDD_763 1 1008
+##sequence-region EBJKBJDD_764 1 1003
+EBJKBJDD_402	pseudofinder	gene	4	978	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 40.5%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_402_pseudo_00001;old_locus_tag=EBJKBJDD_01403
+EBJKBJDD_232	pseudofinder	gene	12	497	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 27.8%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_232_pseudo_00002;old_locus_tag=EBJKBJDD_00997
+EBJKBJDD_174	pseudofinder	gene	19	633	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 55.8%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_174_pseudo_00003;old_locus_tag=EBJKBJDD_00819
+EBJKBJDD_92	pseudofinder	gene	21	461	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 60.2%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_92_pseudo_00004;old_locus_tag=EBJKBJDD_00523
+EBJKBJDD_489	pseudofinder	gene	22	276	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 33.1%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_489_pseudo_00005;old_locus_tag=EBJKBJDD_01572
+EBJKBJDD_50	pseudofinder	gene	25	234	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 13.0%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_50_pseudo_00006;old_locus_tag=EBJKBJDD_00318
+EBJKBJDD_625	pseudofinder	gene	26	2020	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 51.8%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_625_pseudo_00007;old_locus_tag=EBJKBJDD_01847
+EBJKBJDD_751	pseudofinder	gene	30	995	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 39.1%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_751_pseudo_00008;old_locus_tag=EBJKBJDD_01987
+EBJKBJDD_727	pseudofinder	gene	33	1283	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 58.1%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_727_pseudo_00009;old_locus_tag=EBJKBJDD_01964
+EBJKBJDD_345	pseudofinder	gene	39	257	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 40.2%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_345_pseudo_00010;old_locus_tag=EBJKBJDD_01289
+EBJKBJDD_494	pseudofinder	gene	47	505	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 33.2%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_494_pseudo_00011;old_locus_tag=EBJKBJDD_01586
+EBJKBJDD_663	pseudofinder	gene	47	1570	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 63.8%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_663_pseudo_00012;old_locus_tag=EBJKBJDD_01895
+EBJKBJDD_451	pseudofinder	gene	48	281	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 32.0%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_451_pseudo_00013;old_locus_tag=EBJKBJDD_01500
+EBJKBJDD_441	pseudofinder	gene	50	310	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 22.7%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_441_pseudo_00014;old_locus_tag=EBJKBJDD_01480
+EBJKBJDD_590	pseudofinder	gene	54	524	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 41.3%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_590_pseudo_00015;old_locus_tag=EBJKBJDD_01770
+EBJKBJDD_325	pseudofinder	gene	57	476	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 32.7%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_325_pseudo_00016;old_locus_tag=EBJKBJDD_01242
+EBJKBJDD_338	pseudofinder	gene	60	998	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=EBJKBJDD_338_pseudo_00017;old_locus_tag=EBJKBJDD_01273,EBJKBJDD_338_ign_00001
+EBJKBJDD_376	pseudofinder	gene	61	1380	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 46.4%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_376_pseudo_00018;old_locus_tag=EBJKBJDD_01349
+EBJKBJDD_314	pseudofinder	gene	67	219	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 20.3%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_314_pseudo_00019;old_locus_tag=EBJKBJDD_01222
+EBJKBJDD_227	pseudofinder	gene	68	919	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 64.0%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_227_pseudo_00020;old_locus_tag=EBJKBJDD_00979
+EBJKBJDD_193	pseudofinder	gene	70	546	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 25.2%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_193_pseudo_00021;old_locus_tag=EBJKBJDD_00887
+EBJKBJDD_518	pseudofinder	gene	72	383	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 11.9%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_518_pseudo_00022;old_locus_tag=EBJKBJDD_01629
+EBJKBJDD_627	pseudofinder	gene	76	2454	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 48.5%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_627_pseudo_00023;old_locus_tag=EBJKBJDD_01849
+EBJKBJDD_528	pseudofinder	gene	79	2097	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 63.0%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_528_pseudo_00024;old_locus_tag=EBJKBJDD_01654
+EBJKBJDD_438	pseudofinder	gene	80	577	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 62.8%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_438_pseudo_00025;old_locus_tag=EBJKBJDD_01473
+EBJKBJDD_534	pseudofinder	gene	86	856	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 55.8%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_534_pseudo_00026;old_locus_tag=EBJKBJDD_01663
+EBJKBJDD_282	pseudofinder	gene	90	455	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 49.0%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_282_pseudo_00027;old_locus_tag=EBJKBJDD_01139
+EBJKBJDD_242	pseudofinder	gene	92	343	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 39.8%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_242_pseudo_00028;old_locus_tag=EBJKBJDD_01030
+EBJKBJDD_637	pseudofinder	gene	98	565	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 37.2%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_637_pseudo_00029;old_locus_tag=EBJKBJDD_01865
+EBJKBJDD_192	pseudofinder	gene	105	275	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 38.5%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_192_pseudo_00030;old_locus_tag=EBJKBJDD_00879
+EBJKBJDD_601	pseudofinder	gene	105	4304	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 154.3%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_601_pseudo_00031;old_locus_tag=EBJKBJDD_01784
+EBJKBJDD_456	pseudofinder	gene	111	344	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 32.5%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_456_pseudo_00032;old_locus_tag=EBJKBJDD_01512
+EBJKBJDD_742	pseudofinder	gene	114	854	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 52.4%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_742_pseudo_00033;old_locus_tag=EBJKBJDD_01977
+EBJKBJDD_88	pseudofinder	gene	115	852	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 49.4%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_88_pseudo_00034;old_locus_tag=EBJKBJDD_00502
+EBJKBJDD_685	pseudofinder	gene	117	854	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 45.4%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_685_pseudo_00035;old_locus_tag=EBJKBJDD_01919
+EBJKBJDD_110	pseudofinder	gene	122	310	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 21.6%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_110_pseudo_00036;old_locus_tag=EBJKBJDD_00594
+EBJKBJDD_121	pseudofinder	gene	125	708	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=EBJKBJDD_121_pseudo_00037;old_locus_tag=EBJKBJDD_00633,EBJKBJDD_00634
+EBJKBJDD_674	pseudofinder	gene	132	1442	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 63.9%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_674_pseudo_00038;old_locus_tag=EBJKBJDD_01905
+EBJKBJDD_265	pseudofinder	gene	134	358	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 15.0%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_265_pseudo_00039;old_locus_tag=EBJKBJDD_01093
+EBJKBJDD_261	pseudofinder	gene	134	1147	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 167.9%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_261_pseudo_00040;old_locus_tag=EBJKBJDD_01082
+EBJKBJDD_144	pseudofinder	gene	136	345	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 43.5%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_144_pseudo_00041;old_locus_tag=EBJKBJDD_00716
+EBJKBJDD_452	pseudofinder	gene	147	740	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 48.3%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_452_pseudo_00042;old_locus_tag=EBJKBJDD_01502
+EBJKBJDD_652	pseudofinder	gene	149	1696	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 34.3%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_652_pseudo_00043;old_locus_tag=EBJKBJDD_01884
+EBJKBJDD_748	pseudofinder	gene	168	464	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 61.8%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_748_pseudo_00044;old_locus_tag=EBJKBJDD_01984
+EBJKBJDD_604	pseudofinder	gene	170	481	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 39.0%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_604_pseudo_00045;old_locus_tag=EBJKBJDD_01790
+EBJKBJDD_145	pseudofinder	gene	174	404	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 17.3%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_145_pseudo_00046;old_locus_tag=EBJKBJDD_00719
+EBJKBJDD_194	pseudofinder	gene	176	1855	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 302.7%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_194_pseudo_00047;old_locus_tag=EBJKBJDD_00892
+EBJKBJDD_250	pseudofinder	gene	183	473	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 15.0%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_250_pseudo_00048;old_locus_tag=EBJKBJDD_01054
+EBJKBJDD_137	pseudofinder	gene	187	597	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 41.5%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_137_pseudo_00049;old_locus_tag=EBJKBJDD_00694
+EBJKBJDD_25	pseudofinder	gene	188	6973	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 195.1%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_25_pseudo_00050;old_locus_tag=EBJKBJDD_00188
+EBJKBJDD_367	pseudofinder	gene	190	2006	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_367_pseudo_00051;old_locus_tag=EBJKBJDD_367_ign_00001
+EBJKBJDD_148	pseudofinder	gene	192	371	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 18.6%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_148_pseudo_00052;old_locus_tag=EBJKBJDD_00731
+EBJKBJDD_726	pseudofinder	gene	197	469	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 32.7%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_726_pseudo_00053;old_locus_tag=EBJKBJDD_01962
+EBJKBJDD_237	pseudofinder	gene	198	860	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 59.0%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_237_pseudo_00054;old_locus_tag=EBJKBJDD_01017
+EBJKBJDD_319	pseudofinder	gene	203	433	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 35.8%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_319_pseudo_00055;old_locus_tag=EBJKBJDD_01231
+EBJKBJDD_539	pseudofinder	gene	216	419	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 27.8%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_539_pseudo_00056;old_locus_tag=EBJKBJDD_01672
+EBJKBJDD_666	pseudofinder	gene	221	1750	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 61.3%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_666_pseudo_00057;old_locus_tag=EBJKBJDD_01898
+EBJKBJDD_314	pseudofinder	gene	221	837	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_314_pseudo_00058;old_locus_tag=EBJKBJDD_314_ign_00001
+EBJKBJDD_110	pseudofinder	gene	253	540	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 27.7%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_110_pseudo_00059;old_locus_tag=EBJKBJDD_00595
+EBJKBJDD_577	pseudofinder	gene	267	533	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 30.5%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_577_pseudo_00060;old_locus_tag=EBJKBJDD_01749
+EBJKBJDD_613	pseudofinder	gene	270	1748	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 54.3%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_613_pseudo_00061;old_locus_tag=EBJKBJDD_01827
+EBJKBJDD_355	pseudofinder	gene	274	1161	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 62.2%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_355_pseudo_00062;old_locus_tag=EBJKBJDD_01314
+EBJKBJDD_86	pseudofinder	gene	284	811	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 8.2%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_86_pseudo_00063;old_locus_tag=EBJKBJDD_00494
+EBJKBJDD_506	pseudofinder	gene	287	913	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 53.0%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_506_pseudo_00064;old_locus_tag=EBJKBJDD_01608
+EBJKBJDD_756	pseudofinder	gene	330	883	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_756_pseudo_00065;old_locus_tag=EBJKBJDD_756_ign_00001
+EBJKBJDD_597	pseudofinder	gene	340	5199	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 438.5%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_597_pseudo_00066;old_locus_tag=EBJKBJDD_01778
+EBJKBJDD_713	pseudofinder	gene	366	1322	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 63.3%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_713_pseudo_00067;old_locus_tag=EBJKBJDD_01948
+EBJKBJDD_192	pseudofinder	gene	368	1684	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=EBJKBJDD_192_pseudo_00068;old_locus_tag=EBJKBJDD_192_ign_00002,EBJKBJDD_00881,EBJKBJDD_00880
+EBJKBJDD_622	pseudofinder	gene	370	3129	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 63.1%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_622_pseudo_00069;old_locus_tag=EBJKBJDD_01844
+EBJKBJDD_359	pseudofinder	gene	371	501	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_359_pseudo_00070;old_locus_tag=EBJKBJDD_359_ign_00001
+EBJKBJDD_136	pseudofinder	gene	382	1440	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 62.8%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_136_pseudo_00071;old_locus_tag=EBJKBJDD_00690
+EBJKBJDD_456	pseudofinder	gene	391	762	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 53.0%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_456_pseudo_00072;old_locus_tag=EBJKBJDD_01513
+EBJKBJDD_673	pseudofinder	gene	420	1297	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_673_pseudo_00073;old_locus_tag=EBJKBJDD_673_ign_00001
+EBJKBJDD_395	pseudofinder	gene	422	1291	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 51.1%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_395_pseudo_00074;old_locus_tag=EBJKBJDD_01388
+EBJKBJDD_514	pseudofinder	gene	426	638	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 41.8%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_514_pseudo_00075;old_locus_tag=EBJKBJDD_01622
+EBJKBJDD_319	pseudofinder	gene	434	603	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_319_pseudo_00076;old_locus_tag=EBJKBJDD_319_ign_00001
+EBJKBJDD_612	pseudofinder	gene	439	2049	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 31.0%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_612_pseudo_00077;old_locus_tag=EBJKBJDD_01826
+EBJKBJDD_208	pseudofinder	gene	457	674	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_208_pseudo_00078;old_locus_tag=EBJKBJDD_208_ign_00001
+EBJKBJDD_726	pseudofinder	gene	471	556	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_726_pseudo_00079;old_locus_tag=EBJKBJDD_726_ign_00001
+EBJKBJDD_598	pseudofinder	gene	497	4423	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 205.6%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_598_pseudo_00080;old_locus_tag=EBJKBJDD_01780
+EBJKBJDD_516	pseudofinder	gene	497	1033	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 34.0%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_516_pseudo_00081;old_locus_tag=EBJKBJDD_01625
+EBJKBJDD_282	pseudofinder	gene	511	888	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 48.0%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_282_pseudo_00082;old_locus_tag=EBJKBJDD_01140
+EBJKBJDD_562	pseudofinder	gene	526	984	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=EBJKBJDD_562_pseudo_00083;old_locus_tag=EBJKBJDD_01718,EBJKBJDD_01719,EBJKBJDD_562_ign_00001
+EBJKBJDD_747	pseudofinder	gene	552	688	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_747_pseudo_00084;old_locus_tag=EBJKBJDD_747_ign_00001
+EBJKBJDD_148	pseudofinder	gene	555	880	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_148_pseudo_00085;old_locus_tag=EBJKBJDD_148_ign_00001
+EBJKBJDD_726	pseudofinder	gene	558	935	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 29.9%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_726_pseudo_00086;old_locus_tag=EBJKBJDD_01963
+EBJKBJDD_110	pseudofinder	gene	576	775	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_110_pseudo_00087;old_locus_tag=EBJKBJDD_110_ign_00001
+EBJKBJDD_336	pseudofinder	gene	580	1112	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_336_pseudo_00088;old_locus_tag=EBJKBJDD_336_ign_00001
+EBJKBJDD_547	pseudofinder	gene	588	752	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 23.8%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_547_pseudo_00089;old_locus_tag=EBJKBJDD_01685
+EBJKBJDD_640	pseudofinder	gene	604	1896	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 28.7%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_640_pseudo_00090;old_locus_tag=EBJKBJDD_01869
+EBJKBJDD_228	pseudofinder	gene	611	1470	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_228_pseudo_00091;old_locus_tag=EBJKBJDD_228_ign_00001
+EBJKBJDD_46	pseudofinder	gene	655	1870	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_46_pseudo_00092;old_locus_tag=EBJKBJDD_46_ign_00001
+EBJKBJDD_604	pseudofinder	gene	677	1471	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 141.0%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_604_pseudo_00093;old_locus_tag=EBJKBJDD_01792
+EBJKBJDD_747	pseudofinder	gene	690	887	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 34.6%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_747_pseudo_00094;old_locus_tag=EBJKBJDD_01983
+EBJKBJDD_9	pseudofinder	gene	701	1030	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 21.0%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_9_pseudo_00095;old_locus_tag=EBJKBJDD_00086
+EBJKBJDD_85	pseudofinder	gene	712	1137	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 48.4%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_85_pseudo_00096;old_locus_tag=EBJKBJDD_00490
+EBJKBJDD_121	pseudofinder	gene	714	2204	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=EBJKBJDD_121_pseudo_00097;old_locus_tag=EBJKBJDD_121_ign_00001,EBJKBJDD_00635
+EBJKBJDD_702	pseudofinder	gene	716	1315	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 43.2%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_702_pseudo_00098;old_locus_tag=EBJKBJDD_01937
+EBJKBJDD_184	pseudofinder	gene	722	1982	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=EBJKBJDD_184_pseudo_00099;old_locus_tag=EBJKBJDD_184_ign_00002,EBJKBJDD_00853
+EBJKBJDD_283	pseudofinder	gene	743	2408	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=EBJKBJDD_283_pseudo_00100;old_locus_tag=EBJKBJDD_01145,EBJKBJDD_01144
+EBJKBJDD_547	pseudofinder	gene	754	842	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_547_pseudo_00101;old_locus_tag=EBJKBJDD_547_ign_00001
+EBJKBJDD_269	pseudofinder	gene	769	887	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_269_pseudo_00102;old_locus_tag=EBJKBJDD_269_ign_00001
+EBJKBJDD_539	pseudofinder	gene	771	995	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 19.4%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_539_pseudo_00103;old_locus_tag=EBJKBJDD_01673
+EBJKBJDD_110	pseudofinder	gene	778	1128	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 37.9%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_110_pseudo_00104;old_locus_tag=EBJKBJDD_00596
+EBJKBJDD_181	pseudofinder	gene	783	1339	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_181_pseudo_00105;old_locus_tag=EBJKBJDD_181_ign_00001
+EBJKBJDD_88	pseudofinder	gene	809	1627	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 55.5%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_88_pseudo_00106;old_locus_tag=EBJKBJDD_00503
+EBJKBJDD_208	pseudofinder	gene	825	1109	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 18.3%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_208_pseudo_00107;old_locus_tag=EBJKBJDD_00927
+EBJKBJDD_754	pseudofinder	gene	840	1058	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 20.9%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_754_pseudo_00108;old_locus_tag=EBJKBJDD_01990
+EBJKBJDD_334	pseudofinder	gene	852	2606	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 60.0%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_334_pseudo_00109;old_locus_tag=EBJKBJDD_01264
+EBJKBJDD_711	pseudofinder	gene	854	1050	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_711_pseudo_00110;old_locus_tag=EBJKBJDD_711_ign_00001
+EBJKBJDD_343	pseudofinder	gene	860	1054	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 19.4%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_343_pseudo_00111;old_locus_tag=EBJKBJDD_01284
+EBJKBJDD_282	pseudofinder	gene	919	1029	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 15.5%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_282_pseudo_00112;old_locus_tag=EBJKBJDD_01141
+EBJKBJDD_717	pseudofinder	gene	921	1154	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 15.6%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_717_pseudo_00113;old_locus_tag=EBJKBJDD_01954
+EBJKBJDD_229	pseudofinder	gene	950	1414	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=EBJKBJDD_229_pseudo_00114;old_locus_tag=EBJKBJDD_229_ign_00001,EBJKBJDD_00989,EBJKBJDD_00988
+EBJKBJDD_710	pseudofinder	gene	961	1281	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 29.1%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_710_pseudo_00115;old_locus_tag=EBJKBJDD_01944
+EBJKBJDD_591	pseudofinder	gene	977	1882	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 48.0%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_591_pseudo_00116;old_locus_tag=EBJKBJDD_01772
+EBJKBJDD_12	pseudofinder	gene	983	1491	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_12_pseudo_00117;old_locus_tag=EBJKBJDD_12_ign_00001
+EBJKBJDD_650	pseudofinder	gene	1032	1193	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 17.8%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_650_pseudo_00118;old_locus_tag=EBJKBJDD_01881
+EBJKBJDD_105	pseudofinder	gene	1106	1341	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_105_pseudo_00119;old_locus_tag=EBJKBJDD_105_ign_00001
+EBJKBJDD_208	pseudofinder	gene	1115	1419	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_208_pseudo_00120;old_locus_tag=EBJKBJDD_208_ign_00002
+EBJKBJDD_587	pseudofinder	gene	1122	1532	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 42.1%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_587_pseudo_00121;old_locus_tag=EBJKBJDD_01767
+EBJKBJDD_273	pseudofinder	gene	1138	1650	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 54.9%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_273_pseudo_00122;old_locus_tag=EBJKBJDD_01122
+EBJKBJDD_30	pseudofinder	gene	1162	1754	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=EBJKBJDD_30_pseudo_00123;old_locus_tag=EBJKBJDD_00219,EBJKBJDD_30_ign_00002
+EBJKBJDD_430	pseudofinder	gene	1179	1531	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_430_pseudo_00124;old_locus_tag=EBJKBJDD_430_ign_00001
+EBJKBJDD_650	pseudofinder	gene	1194	1684	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_650_pseudo_00125;old_locus_tag=EBJKBJDD_650_ign_00002
+EBJKBJDD_198	pseudofinder	gene	1196	2799	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_198_pseudo_00126;old_locus_tag=EBJKBJDD_198_ign_00001
+EBJKBJDD_562	pseudofinder	gene	1233	2123	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 61.2%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_562_pseudo_00127;old_locus_tag=EBJKBJDD_01720
+EBJKBJDD_66	pseudofinder	gene	1265	1531	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 35.1%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_66_pseudo_00128;old_locus_tag=EBJKBJDD_00386
+EBJKBJDD_498	pseudofinder	gene	1271	1452	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_498_pseudo_00129;old_locus_tag=EBJKBJDD_498_ign_00001
+EBJKBJDD_552	pseudofinder	gene	1278	1474	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_552_pseudo_00130;old_locus_tag=EBJKBJDD_552_ign_00001
+EBJKBJDD_150	pseudofinder	gene	1280	1474	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 12.9%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_150_pseudo_00131;old_locus_tag=EBJKBJDD_00740
+EBJKBJDD_347	pseudofinder	gene	1297	1482	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 20.9%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_347_pseudo_00132;old_locus_tag=EBJKBJDD_01300
+EBJKBJDD_406	pseudofinder	gene	1385	1846	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 26.1%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_406_pseudo_00133;old_locus_tag=EBJKBJDD_01412
+EBJKBJDD_229	pseudofinder	gene	1417	2075	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_229_pseudo_00134;old_locus_tag=EBJKBJDD_229_ign_00002
+EBJKBJDD_542	pseudofinder	gene	1419	2057	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 47.9%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_542_pseudo_00135;old_locus_tag=EBJKBJDD_01677
+EBJKBJDD_208	pseudofinder	gene	1424	1543	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 7.9%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_208_pseudo_00136;old_locus_tag=EBJKBJDD_00928
+EBJKBJDD_498	pseudofinder	gene	1455	1757	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 31.9%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_498_pseudo_00137;old_locus_tag=EBJKBJDD_01594
+EBJKBJDD_573	pseudofinder	gene	1470	1730	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 20.7%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_573_pseudo_00138;old_locus_tag=EBJKBJDD_01743
+EBJKBJDD_563	pseudofinder	gene	1501	1875	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 42.7%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_563_pseudo_00139;old_locus_tag=EBJKBJDD_01722
+EBJKBJDD_552	pseudofinder	gene	1507	1641	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 40.3%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_552_pseudo_00140;old_locus_tag=EBJKBJDD_01697
+EBJKBJDD_475	pseudofinder	gene	1529	2215	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 30.9%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_475_pseudo_00141;old_locus_tag=EBJKBJDD_01548
+EBJKBJDD_430	pseudofinder	gene	1534	1830	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 21.5%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_430_pseudo_00142;old_locus_tag=EBJKBJDD_01458
+EBJKBJDD_208	pseudofinder	gene	1544	1731	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_208_pseudo_00143;old_locus_tag=EBJKBJDD_208_ign_00003
+EBJKBJDD_604	pseudofinder	gene	1557	2507	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 55.7%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_604_pseudo_00144;old_locus_tag=EBJKBJDD_01793
+EBJKBJDD_32	pseudofinder	gene	1563	5840	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 206.2%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_32_pseudo_00145;old_locus_tag=EBJKBJDD_00231
+EBJKBJDD_162	pseudofinder	gene	1573	1710	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 21.2%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_162_pseudo_00146;old_locus_tag=EBJKBJDD_00779
+EBJKBJDD_265	pseudofinder	gene	1602	2222	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 205.0%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_265_pseudo_00147;old_locus_tag=EBJKBJDD_01098
+EBJKBJDD_288	pseudofinder	gene	1613	3169	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 55.3%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_288_pseudo_00148;old_locus_tag=EBJKBJDD_01156
+EBJKBJDD_126	pseudofinder	gene	1618	3929	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_126_pseudo_00149;old_locus_tag=EBJKBJDD_126_ign_00001
+EBJKBJDD_174	pseudofinder	gene	1639	1740	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 5.4%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_174_pseudo_00150;old_locus_tag=EBJKBJDD_00820
+EBJKBJDD_45	pseudofinder	gene	1651	1845	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 26.0%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_45_pseudo_00151;old_locus_tag=EBJKBJDD_00294
+EBJKBJDD_178	pseudofinder	gene	1664	2974	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 62.3%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_178_pseudo_00152;old_locus_tag=EBJKBJDD_00831
+EBJKBJDD_650	pseudofinder	gene	1686	1829	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 15.8%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_650_pseudo_00153;old_locus_tag=EBJKBJDD_01882
+EBJKBJDD_14	pseudofinder	gene	1690	1955	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_14_pseudo_00154;old_locus_tag=EBJKBJDD_14_ign_00001
+EBJKBJDD_162	pseudofinder	gene	1711	1922	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_162_pseudo_00155;old_locus_tag=EBJKBJDD_162_ign_00003
+EBJKBJDD_618	pseudofinder	gene	1712	6199	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 164.8%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_618_pseudo_00156;old_locus_tag=EBJKBJDD_01839
+EBJKBJDD_369	pseudofinder	gene	1715	2833	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 56.1%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_369_pseudo_00157;old_locus_tag=EBJKBJDD_01342
+EBJKBJDD_132	pseudofinder	gene	1715	2113	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=EBJKBJDD_132_pseudo_00158;old_locus_tag=EBJKBJDD_132_ign_00001,EBJKBJDD_00676
+EBJKBJDD_573	pseudofinder	gene	1724	2050	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 28.2%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_573_pseudo_00159;old_locus_tag=EBJKBJDD_01744
+EBJKBJDD_465	pseudofinder	gene	1726	2027	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_465_pseudo_00160;old_locus_tag=EBJKBJDD_465_ign_00001
+EBJKBJDD_282	pseudofinder	gene	1729	1893	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 17.6%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_282_pseudo_00161;old_locus_tag=EBJKBJDD_01142
+EBJKBJDD_537	pseudofinder	gene	1730	2068	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 40.6%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_537_pseudo_00162;old_locus_tag=EBJKBJDD_01669
+EBJKBJDD_208	pseudofinder	gene	1733	2002	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 17.6%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_208_pseudo_00163;old_locus_tag=EBJKBJDD_00929
+EBJKBJDD_445	pseudofinder	gene	1742	2497	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 32.2%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_445_pseudo_00164;old_locus_tag=EBJKBJDD_01489
+EBJKBJDD_341	pseudofinder	gene	1749	1906	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_341_pseudo_00165;old_locus_tag=EBJKBJDD_341_ign_00001
+EBJKBJDD_498	pseudofinder	gene	1760	2007	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_498_pseudo_00166;old_locus_tag=EBJKBJDD_498_ign_00002
+EBJKBJDD_137	pseudofinder	gene	1765	2769	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 61.1%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_137_pseudo_00167;old_locus_tag=EBJKBJDD_00696
+EBJKBJDD_54	pseudofinder	gene	1767	2056	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=EBJKBJDD_54_pseudo_00168;old_locus_tag=EBJKBJDD_54_ign_00002,EBJKBJDD_00333
+EBJKBJDD_293	pseudofinder	gene	1768	1907	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_293_pseudo_00169;old_locus_tag=EBJKBJDD_293_ign_00001
+EBJKBJDD_347	pseudofinder	gene	1770	2230	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_347_pseudo_00170;old_locus_tag=EBJKBJDD_347_ign_00003
+EBJKBJDD_456	pseudofinder	gene	1777	1967	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_456_pseudo_00171;old_locus_tag=EBJKBJDD_456_ign_00003
+EBJKBJDD_339	pseudofinder	gene	1803	2861	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 46.0%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_339_pseudo_00172;old_locus_tag=EBJKBJDD_01277
+EBJKBJDD_430	pseudofinder	gene	1831	1898	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_430_pseudo_00173;old_locus_tag=EBJKBJDD_430_ign_00002
+EBJKBJDD_45	pseudofinder	gene	1846	2198	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_45_pseudo_00174;old_locus_tag=EBJKBJDD_45_ign_00002
+EBJKBJDD_452	pseudofinder	gene	1857	2447	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 33.6%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_452_pseudo_00175;old_locus_tag=EBJKBJDD_01504
+EBJKBJDD_282	pseudofinder	gene	1894	2033	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_282_pseudo_00176;old_locus_tag=EBJKBJDD_282_ign_00004
+EBJKBJDD_430	pseudofinder	gene	1904	2128	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 18.7%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_430_pseudo_00177;old_locus_tag=EBJKBJDD_01459
+EBJKBJDD_444	pseudofinder	gene	1914	2149	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_444_pseudo_00178;old_locus_tag=EBJKBJDD_444_ign_00001
+EBJKBJDD_417	pseudofinder	gene	1920	2303	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 152.1%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_417_pseudo_00179;old_locus_tag=EBJKBJDD_01434
+EBJKBJDD_162	pseudofinder	gene	1924	2394	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 63.8%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_162_pseudo_00180;old_locus_tag=EBJKBJDD_00780
+EBJKBJDD_407	pseudofinder	gene	1929	2348	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 31.7%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_407_pseudo_00181;old_locus_tag=EBJKBJDD_01415
+EBJKBJDD_329	pseudofinder	gene	1941	2543	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 33.1%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_329_pseudo_00182;old_locus_tag=EBJKBJDD_01251
+EBJKBJDD_413	pseudofinder	gene	1976	2392	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 44.4%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_413_pseudo_00183;old_locus_tag=EBJKBJDD_01426
+EBJKBJDD_245	pseudofinder	gene	2002	2304	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 40.8%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_245_pseudo_00184;old_locus_tag=EBJKBJDD_01042
+EBJKBJDD_465	pseudofinder	gene	2030	2239	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 43.2%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_465_pseudo_00185;old_locus_tag=EBJKBJDD_01531
+EBJKBJDD_54	pseudofinder	gene	2058	2540	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 34.5%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_54_pseudo_00186;old_locus_tag=EBJKBJDD_00334
+EBJKBJDD_132	pseudofinder	gene	2114	2232	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 12 blast hits.;locus_tag=EBJKBJDD_132_pseudo_00187;old_locus_tag=EBJKBJDD_132_ign_00002
+EBJKBJDD_45	pseudofinder	gene	2200	2427	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 30.0%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_45_pseudo_00188;old_locus_tag=EBJKBJDD_00295
+EBJKBJDD_132	pseudofinder	gene	2248	2526	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 27.0%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_132_pseudo_00189;old_locus_tag=EBJKBJDD_00677
+EBJKBJDD_343	pseudofinder	gene	2285	2944	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 51.3%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_343_pseudo_00190;old_locus_tag=EBJKBJDD_01286
+EBJKBJDD_335	pseudofinder	gene	2346	2966	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 42.5%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_335_pseudo_00191;old_locus_tag=EBJKBJDD_01268
+EBJKBJDD_390	pseudofinder	gene	2367	2483	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 24.2%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_390_pseudo_00192;old_locus_tag=EBJKBJDD_01376
+EBJKBJDD_396	pseudofinder	gene	2449	2637	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 23.9%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_396_pseudo_00193;old_locus_tag=EBJKBJDD_01394
+EBJKBJDD_85	pseudofinder	gene	2525	3261	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_85_pseudo_00194;old_locus_tag=EBJKBJDD_85_ign_00002
+EBJKBJDD_604	pseudofinder	gene	2533	2978	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=EBJKBJDD_604_pseudo_00195;old_locus_tag=EBJKBJDD_604_ign_00003,EBJKBJDD_01794
+EBJKBJDD_54	pseudofinder	gene	2541	2635	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_54_pseudo_00196;old_locus_tag=EBJKBJDD_54_ign_00003
+EBJKBJDD_316	pseudofinder	gene	2555	2962	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 33.1%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_316_pseudo_00197;old_locus_tag=EBJKBJDD_01228
+EBJKBJDD_213	pseudofinder	gene	2623	3008	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_213_pseudo_00198;old_locus_tag=EBJKBJDD_213_ign_00001
+EBJKBJDD_54	pseudofinder	gene	2637	3164	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 31.3%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_54_pseudo_00199;old_locus_tag=EBJKBJDD_00335
+EBJKBJDD_132	pseudofinder	gene	2726	3079	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_132_pseudo_00200;old_locus_tag=EBJKBJDD_132_ign_00003
+EBJKBJDD_308	pseudofinder	gene	2795	3003	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 8 blast hits.;locus_tag=EBJKBJDD_308_pseudo_00201;old_locus_tag=EBJKBJDD_308_ign_00002
+EBJKBJDD_91	pseudofinder	gene	2832	2930	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 60.3%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_91_pseudo_00202;old_locus_tag=EBJKBJDD_00520
+EBJKBJDD_278	pseudofinder	gene	2837	3304	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 41.2%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_278_pseudo_00203;old_locus_tag=EBJKBJDD_01133
+EBJKBJDD_182	pseudofinder	gene	2851	3462	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 58.0%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_182_pseudo_00204;old_locus_tag=EBJKBJDD_00845
+EBJKBJDD_178	pseudofinder	gene	2940	3818	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 40.9%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_178_pseudo_00205;old_locus_tag=EBJKBJDD_00832
+EBJKBJDD_289	pseudofinder	gene	2956	3204	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 25.2%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_289_pseudo_00206;old_locus_tag=EBJKBJDD_01159
+EBJKBJDD_121	pseudofinder	gene	2958	3161	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 44.3%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_121_pseudo_00207;old_locus_tag=EBJKBJDD_00637
+EBJKBJDD_149	pseudofinder	gene	2997	4345	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_149_pseudo_00208;old_locus_tag=EBJKBJDD_149_ign_00003
+EBJKBJDD_268	pseudofinder	gene	3095	3370	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 53.5%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_268_pseudo_00209;old_locus_tag=EBJKBJDD_01107
+EBJKBJDD_162	pseudofinder	gene	3136	4401	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 54.3%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_162_pseudo_00210;old_locus_tag=EBJKBJDD_00781
+EBJKBJDD_89	pseudofinder	gene	3145	3677	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_89_pseudo_00211;old_locus_tag=EBJKBJDD_89_ign_00001
+EBJKBJDD_86	pseudofinder	gene	3159	4016	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 53.8%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_86_pseudo_00212;old_locus_tag=EBJKBJDD_00496
+EBJKBJDD_54	pseudofinder	gene	3166	3584	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_54_pseudo_00213;old_locus_tag=EBJKBJDD_54_ign_00004
+EBJKBJDD_15	pseudofinder	gene	3333	6698	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 190.7%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_15_pseudo_00214;old_locus_tag=EBJKBJDD_00129
+EBJKBJDD_233	pseudofinder	gene	3390	3677	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 34.5%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_233_pseudo_00215;old_locus_tag=EBJKBJDD_01006
+EBJKBJDD_182	pseudofinder	gene	3449	4039	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 56.3%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_182_pseudo_00216;old_locus_tag=EBJKBJDD_00846
+EBJKBJDD_236	pseudofinder	gene	3478	3693	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 28.5%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_236_pseudo_00217;old_locus_tag=EBJKBJDD_01016
+EBJKBJDD_109	pseudofinder	gene	3537	3814	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_109_pseudo_00218;old_locus_tag=EBJKBJDD_109_ign_00001
+EBJKBJDD_223	pseudofinder	gene	3590	3766	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 23.7%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_223_pseudo_00219;old_locus_tag=EBJKBJDD_00971
+EBJKBJDD_208	pseudofinder	gene	3751	3912	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 15.9%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_208_pseudo_00220;old_locus_tag=EBJKBJDD_00931
+EBJKBJDD_88	pseudofinder	gene	3795	3895	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=EBJKBJDD_88_pseudo_00221;old_locus_tag=EBJKBJDD_88_ign_00003
+EBJKBJDD_20	pseudofinder	gene	3858	4081	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_20_pseudo_00222;old_locus_tag=EBJKBJDD_20_ign_00003
+EBJKBJDD_54	pseudofinder	gene	3858	4040	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 11.0%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_54_pseudo_00223;old_locus_tag=EBJKBJDD_00337
+EBJKBJDD_126	pseudofinder	gene	3933	4094	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 30.8%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_126_pseudo_00224;old_locus_tag=EBJKBJDD_00658
+EBJKBJDD_89	pseudofinder	gene	4059	4283	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 25.7%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_89_pseudo_00225;old_locus_tag=EBJKBJDD_00510
+EBJKBJDD_20	pseudofinder	gene	4083	4451	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 50.5%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_20_pseudo_00226;old_locus_tag=EBJKBJDD_00166
+EBJKBJDD_127	pseudofinder	gene	4087	4815	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 54.8%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_127_pseudo_00227;old_locus_tag=EBJKBJDD_00664
+EBJKBJDD_101	pseudofinder	gene	4201	4470	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 27.7%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_101_pseudo_00228;old_locus_tag=EBJKBJDD_00561
+EBJKBJDD_80	pseudofinder	gene	4259	4659	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_80_pseudo_00229;old_locus_tag=EBJKBJDD_80_ign_00005
+EBJKBJDD_150	pseudofinder	gene	4287	4553	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 27.0%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_150_pseudo_00230;old_locus_tag=EBJKBJDD_00742
+EBJKBJDD_71	pseudofinder	gene	4302	4526	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 24.4%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_71_pseudo_00231;old_locus_tag=EBJKBJDD_00420
+EBJKBJDD_136	pseudofinder	gene	4478	4567	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 35.3%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_136_pseudo_00232;old_locus_tag=EBJKBJDD_00693
+EBJKBJDD_89	pseudofinder	gene	4533	4747	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 10 blast hits.;locus_tag=EBJKBJDD_89_pseudo_00233;old_locus_tag=EBJKBJDD_89_ign_00002
+EBJKBJDD_605	pseudofinder	gene	4679	8728	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 148.8%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_605_pseudo_00234;old_locus_tag=EBJKBJDD_01808
+EBJKBJDD_18	pseudofinder	gene	4842	5293	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_18_pseudo_00235;old_locus_tag=EBJKBJDD_18_ign_00003
+EBJKBJDD_86	pseudofinder	gene	4972	5186	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_86_pseudo_00236;old_locus_tag=EBJKBJDD_86_ign_00001
+EBJKBJDD_28	pseudofinder	gene	5213	5374	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 46.3%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_28_pseudo_00237;old_locus_tag=EBJKBJDD_00206
+EBJKBJDD_33	pseudofinder	gene	5241	7541	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 53.1%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_33_pseudo_00238;old_locus_tag=EBJKBJDD_00241
+EBJKBJDD_604	pseudofinder	gene	5391	6269	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 54.7%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_604_pseudo_00239;old_locus_tag=EBJKBJDD_01797
+EBJKBJDD_67	pseudofinder	gene	5610	6083	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 49.3%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_67_pseudo_00240;old_locus_tag=EBJKBJDD_00394
+EBJKBJDD_48	pseudofinder	gene	6356	6489	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_48_pseudo_00241;old_locus_tag=EBJKBJDD_48_ign_00003
+EBJKBJDD_16	pseudofinder	gene	6400	6608	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=EBJKBJDD_16_pseudo_00242;old_locus_tag=EBJKBJDD_16_ign_00007
+EBJKBJDD_14	pseudofinder	gene	6551	6838	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 135.1%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_14_pseudo_00243;old_locus_tag=EBJKBJDD_00120
+EBJKBJDD_14	pseudofinder	gene	6716	6834	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=EBJKBJDD_14_pseudo_00244;old_locus_tag=EBJKBJDD_14_ign_00004
+EBJKBJDD_17	pseudofinder	gene	7038	7783	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_17_pseudo_00245;old_locus_tag=EBJKBJDD_17_ign_00004
+EBJKBJDD_36	pseudofinder	gene	7145	7369	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 13.8%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_36_pseudo_00246;old_locus_tag=EBJKBJDD_00255
+EBJKBJDD_19	pseudofinder	gene	7322	7590	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_19_pseudo_00247;old_locus_tag=EBJKBJDD_19_ign_00005
+EBJKBJDD_19	pseudofinder	gene	7596	7754	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 26.0%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_19_pseudo_00248;old_locus_tag=EBJKBJDD_00161
+EBJKBJDD_5	pseudofinder	gene	7661	7851	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_5_pseudo_00249;old_locus_tag=EBJKBJDD_5_ign_00004
+EBJKBJDD_19	pseudofinder	gene	7756	8082	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 56.3%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_19_pseudo_00250;old_locus_tag=EBJKBJDD_00162
+EBJKBJDD_5	pseudofinder	gene	7853	8389	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 41.2%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_5_pseudo_00251;old_locus_tag=EBJKBJDD_00055
+EBJKBJDD_18	pseudofinder	gene	8177	9007	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 59.2%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_18_pseudo_00252;old_locus_tag=EBJKBJDD_00155
+EBJKBJDD_604	pseudofinder	gene	8280	9451	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_604_pseudo_00253;old_locus_tag=EBJKBJDD_604_ign_00006
+EBJKBJDD_10	pseudofinder	gene	8578	8777	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_10_pseudo_00254;old_locus_tag=EBJKBJDD_10_ign_00006
+EBJKBJDD_10	pseudofinder	gene	8881	9213	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 62.0%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_10_pseudo_00255;old_locus_tag=EBJKBJDD_00096
+EBJKBJDD_5	pseudofinder	gene	10904	12754	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 40.0%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_5_pseudo_00256;old_locus_tag=EBJKBJDD_00058
+EBJKBJDD_5	pseudofinder	gene	12757	12815	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=EBJKBJDD_5_pseudo_00257;old_locus_tag=EBJKBJDD_5_ign_00008
+EBJKBJDD_1	pseudofinder	gene	14667	14876	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 45.4%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_1_pseudo_00258;old_locus_tag=EBJKBJDD_00011
+EBJKBJDD_1	pseudofinder	gene	14949	15223	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_1_pseudo_00259;old_locus_tag=EBJKBJDD_1_ign_00011
+EBJKBJDD_1	pseudofinder	gene	16615	16896	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 142.9%25 of the average length of hits to this gene.;locus_tag=EBJKBJDD_1_pseudo_00260;old_locus_tag=EBJKBJDD_00014
+EBJKBJDD_1	pseudofinder	gene	19391	20124	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=EBJKBJDD_1_pseudo_00261;old_locus_tag=EBJKBJDD_1_ign_00016

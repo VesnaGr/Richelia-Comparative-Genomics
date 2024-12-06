@@ -1,0 +1,1143 @@
+##gff-version 3
+#!annotation-date	2022-12-22 10:53:30
+##sequence-region IACDABIC_1 1 5416
+##sequence-region IACDABIC_2 1 831
+##sequence-region IACDABIC_3 1 1535
+##sequence-region IACDABIC_4 1 1336
+##sequence-region IACDABIC_5 1 1159
+##sequence-region IACDABIC_6 1 2784
+##sequence-region IACDABIC_7 1 7589
+##sequence-region IACDABIC_8 1 1259
+##sequence-region IACDABIC_9 1 6806
+##sequence-region IACDABIC_10 1 3163
+##sequence-region IACDABIC_11 1 2496
+##sequence-region IACDABIC_12 1 1159
+##sequence-region IACDABIC_13 1 5128
+##sequence-region IACDABIC_14 1 1851
+##sequence-region IACDABIC_15 1 4525
+##sequence-region IACDABIC_16 1 2332
+##sequence-region IACDABIC_17 1 2012
+##sequence-region IACDABIC_18 1 4684
+##sequence-region IACDABIC_19 1 4179
+##sequence-region IACDABIC_20 1 2408
+##sequence-region IACDABIC_21 1 1527
+##sequence-region IACDABIC_22 1 3542
+##sequence-region IACDABIC_23 1 1095
+##sequence-region IACDABIC_24 1 1038
+##sequence-region IACDABIC_25 1 936
+##sequence-region IACDABIC_26 1 4278
+##sequence-region IACDABIC_27 1 5838
+##sequence-region IACDABIC_28 1 1361
+##sequence-region IACDABIC_29 1 4098
+##sequence-region IACDABIC_30 1 1994
+##sequence-region IACDABIC_31 1 632
+##sequence-region IACDABIC_32 1 947
+##sequence-region IACDABIC_33 1 3138
+##sequence-region IACDABIC_34 1 7560
+##sequence-region IACDABIC_35 1 1218
+##sequence-region IACDABIC_36 1 2020
+##sequence-region IACDABIC_37 1 4118
+##sequence-region IACDABIC_38 1 3620
+##sequence-region IACDABIC_39 1 1104
+##sequence-region IACDABIC_40 1 1831
+##sequence-region IACDABIC_41 1 1491
+##sequence-region IACDABIC_42 1 2312
+##sequence-region IACDABIC_43 1 14436
+##sequence-region IACDABIC_44 1 3432
+##sequence-region IACDABIC_45 1 3745
+##sequence-region IACDABIC_46 1 8147
+##sequence-region IACDABIC_47 1 13535
+##sequence-region IACDABIC_48 1 20995
+##sequence-region IACDABIC_49 1 11082
+##sequence-region IACDABIC_50 1 22699
+##sequence-region IACDABIC_51 1 24115
+##sequence-region IACDABIC_52 1 37252
+##sequence-region IACDABIC_53 1 32621
+##sequence-region IACDABIC_54 1 23833
+##sequence-region IACDABIC_55 1 3677
+##sequence-region IACDABIC_56 1 15859
+##sequence-region IACDABIC_57 1 12294
+##sequence-region IACDABIC_58 1 8110
+##sequence-region IACDABIC_59 1 1775
+##sequence-region IACDABIC_60 1 11956
+##sequence-region IACDABIC_61 1 17415
+##sequence-region IACDABIC_62 1 22949
+##sequence-region IACDABIC_63 1 45362
+##sequence-region IACDABIC_64 1 15562
+##sequence-region IACDABIC_65 1 13201
+##sequence-region IACDABIC_66 1 40639
+##sequence-region IACDABIC_67 1 14591
+##sequence-region IACDABIC_68 1 5898
+##sequence-region IACDABIC_69 1 3361
+##sequence-region IACDABIC_70 1 5413
+##sequence-region IACDABIC_71 1 10496
+##sequence-region IACDABIC_72 1 24174
+##sequence-region IACDABIC_73 1 17256
+##sequence-region IACDABIC_74 1 11607
+##sequence-region IACDABIC_75 1 6240
+##sequence-region IACDABIC_76 1 13476
+##sequence-region IACDABIC_77 1 9436
+##sequence-region IACDABIC_78 1 2490
+##sequence-region IACDABIC_79 1 556
+##sequence-region IACDABIC_80 1 11555
+##sequence-region IACDABIC_81 1 16917
+##sequence-region IACDABIC_82 1 26798
+##sequence-region IACDABIC_83 1 19520
+##sequence-region IACDABIC_84 1 1711
+##sequence-region IACDABIC_85 1 25256
+##sequence-region IACDABIC_86 1 23945
+##sequence-region IACDABIC_87 1 19903
+##sequence-region IACDABIC_88 1 10612
+##sequence-region IACDABIC_89 1 7324
+##sequence-region IACDABIC_90 1 3088
+##sequence-region IACDABIC_91 1 38092
+##sequence-region IACDABIC_92 1 3582
+##sequence-region IACDABIC_93 1 6916
+##sequence-region IACDABIC_94 1 6831
+##sequence-region IACDABIC_95 1 8646
+##sequence-region IACDABIC_96 1 9153
+##sequence-region IACDABIC_97 1 1396
+##sequence-region IACDABIC_98 1 6958
+##sequence-region IACDABIC_99 1 17861
+##sequence-region IACDABIC_100 1 6301
+##sequence-region IACDABIC_101 1 52096
+##sequence-region IACDABIC_102 1 13192
+##sequence-region IACDABIC_103 1 8780
+##sequence-region IACDABIC_104 1 13045
+##sequence-region IACDABIC_105 1 13140
+##sequence-region IACDABIC_106 1 11807
+##sequence-region IACDABIC_107 1 8155
+##sequence-region IACDABIC_108 1 21439
+##sequence-region IACDABIC_109 1 15398
+##sequence-region IACDABIC_110 1 39724
+##sequence-region IACDABIC_111 1 1637
+##sequence-region IACDABIC_112 1 21495
+##sequence-region IACDABIC_113 1 10664
+##sequence-region IACDABIC_114 1 9385
+##sequence-region IACDABIC_115 1 11855
+##sequence-region IACDABIC_116 1 17762
+##sequence-region IACDABIC_117 1 3194
+##sequence-region IACDABIC_118 1 10848
+##sequence-region IACDABIC_119 1 23576
+##sequence-region IACDABIC_120 1 3501
+##sequence-region IACDABIC_121 1 6803
+##sequence-region IACDABIC_122 1 74372
+##sequence-region IACDABIC_123 1 7338
+##sequence-region IACDABIC_124 1 16184
+##sequence-region IACDABIC_125 1 6420
+##sequence-region IACDABIC_126 1 7139
+##sequence-region IACDABIC_127 1 5098
+##sequence-region IACDABIC_128 1 23910
+##sequence-region IACDABIC_129 1 7272
+##sequence-region IACDABIC_130 1 10024
+##sequence-region IACDABIC_131 1 9099
+##sequence-region IACDABIC_132 1 12713
+##sequence-region IACDABIC_133 1 2367
+##sequence-region IACDABIC_134 1 3004
+##sequence-region IACDABIC_135 1 35929
+##sequence-region IACDABIC_136 1 17888
+##sequence-region IACDABIC_137 1 2333
+##sequence-region IACDABIC_138 1 6973
+##sequence-region IACDABIC_139 1 11416
+##sequence-region IACDABIC_140 1 942
+##sequence-region IACDABIC_141 1 6699
+##sequence-region IACDABIC_142 1 17674
+##sequence-region IACDABIC_143 1 4921
+##sequence-region IACDABIC_144 1 12014
+##sequence-region IACDABIC_145 1 6478
+##sequence-region IACDABIC_146 1 15782
+##sequence-region IACDABIC_147 1 10340
+##sequence-region IACDABIC_148 1 11861
+##sequence-region IACDABIC_149 1 20179
+##sequence-region IACDABIC_150 1 5524
+##sequence-region IACDABIC_151 1 8313
+##sequence-region IACDABIC_152 1 10184
+##sequence-region IACDABIC_153 1 5965
+##sequence-region IACDABIC_154 1 3207
+##sequence-region IACDABIC_155 1 8887
+##sequence-region IACDABIC_156 1 16848
+##sequence-region IACDABIC_157 1 19804
+##sequence-region IACDABIC_158 1 4098
+##sequence-region IACDABIC_159 1 25826
+##sequence-region IACDABIC_160 1 38483
+##sequence-region IACDABIC_161 1 8229
+##sequence-region IACDABIC_162 1 21176
+##sequence-region IACDABIC_163 1 2069
+##sequence-region IACDABIC_164 1 3888
+##sequence-region IACDABIC_165 1 2362
+##sequence-region IACDABIC_166 1 50686
+##sequence-region IACDABIC_167 1 9902
+##sequence-region IACDABIC_168 1 7312
+##sequence-region IACDABIC_169 1 51111
+##sequence-region IACDABIC_170 1 28563
+##sequence-region IACDABIC_171 1 5363
+##sequence-region IACDABIC_172 1 6017
+##sequence-region IACDABIC_173 1 21075
+##sequence-region IACDABIC_174 1 8688
+##sequence-region IACDABIC_175 1 3476
+##sequence-region IACDABIC_176 1 11447
+##sequence-region IACDABIC_177 1 6620
+##sequence-region IACDABIC_178 1 20733
+##sequence-region IACDABIC_179 1 12778
+##sequence-region IACDABIC_180 1 2041
+##sequence-region IACDABIC_181 1 3508
+##sequence-region IACDABIC_182 1 41044
+##sequence-region IACDABIC_183 1 8169
+##sequence-region IACDABIC_184 1 24844
+##sequence-region IACDABIC_185 1 16608
+##sequence-region IACDABIC_186 1 24769
+##sequence-region IACDABIC_187 1 8028
+##sequence-region IACDABIC_188 1 7309
+##sequence-region IACDABIC_189 1 2376
+##sequence-region IACDABIC_190 1 8937
+##sequence-region IACDABIC_191 1 5777
+##sequence-region IACDABIC_192 1 10485
+##sequence-region IACDABIC_193 1 4474
+##sequence-region IACDABIC_194 1 9604
+##sequence-region IACDABIC_195 1 27626
+##sequence-region IACDABIC_196 1 4679
+##sequence-region IACDABIC_197 1 6554
+##sequence-region IACDABIC_198 1 13999
+##sequence-region IACDABIC_199 1 26004
+##sequence-region IACDABIC_200 1 12525
+##sequence-region IACDABIC_201 1 15408
+##sequence-region IACDABIC_202 1 20742
+##sequence-region IACDABIC_203 1 9612
+##sequence-region IACDABIC_204 1 29882
+##sequence-region IACDABIC_205 1 11830
+##sequence-region IACDABIC_206 1 10365
+##sequence-region IACDABIC_207 1 26223
+##sequence-region IACDABIC_208 1 6919
+##sequence-region IACDABIC_209 1 22810
+##sequence-region IACDABIC_210 1 3627
+##sequence-region IACDABIC_211 1 5635
+##sequence-region IACDABIC_212 1 1635
+##sequence-region IACDABIC_213 1 13160
+##sequence-region IACDABIC_214 1 7414
+##sequence-region IACDABIC_215 1 23337
+##sequence-region IACDABIC_216 1 8159
+##sequence-region IACDABIC_217 1 6696
+##sequence-region IACDABIC_218 1 15844
+##sequence-region IACDABIC_219 1 14257
+##sequence-region IACDABIC_220 1 15771
+##sequence-region IACDABIC_221 1 2526
+##sequence-region IACDABIC_222 1 14510
+##sequence-region IACDABIC_223 1 6416
+##sequence-region IACDABIC_224 1 8024
+##sequence-region IACDABIC_225 1 35356
+##sequence-region IACDABIC_226 1 3338
+##sequence-region IACDABIC_227 1 2397
+##sequence-region IACDABIC_228 1 2225
+##sequence-region IACDABIC_229 1 26187
+##sequence-region IACDABIC_230 1 1264
+##sequence-region IACDABIC_231 1 9698
+##sequence-region IACDABIC_232 1 1221
+##sequence-region IACDABIC_233 1 8913
+##sequence-region IACDABIC_234 1 29122
+##sequence-region IACDABIC_235 1 6484
+##sequence-region IACDABIC_236 1 39499
+##sequence-region IACDABIC_237 1 9941
+##sequence-region IACDABIC_238 1 9278
+##sequence-region IACDABIC_239 1 11490
+##sequence-region IACDABIC_240 1 9734
+##sequence-region IACDABIC_241 1 6577
+##sequence-region IACDABIC_242 1 3143
+##sequence-region IACDABIC_243 1 11441
+##sequence-region IACDABIC_244 1 54634
+##sequence-region IACDABIC_245 1 2017
+##sequence-region IACDABIC_246 1 13859
+##sequence-region IACDABIC_247 1 4606
+##sequence-region IACDABIC_248 1 3722
+##sequence-region IACDABIC_249 1 6853
+##sequence-region IACDABIC_250 1 30921
+##sequence-region IACDABIC_251 1 12253
+##sequence-region IACDABIC_252 1 2759
+##sequence-region IACDABIC_253 1 3200
+##sequence-region IACDABIC_254 1 2120
+##sequence-region IACDABIC_255 1 3414
+##sequence-region IACDABIC_256 1 6082
+##sequence-region IACDABIC_257 1 9833
+##sequence-region IACDABIC_258 1 28268
+##sequence-region IACDABIC_259 1 6906
+##sequence-region IACDABIC_260 1 5959
+##sequence-region IACDABIC_261 1 33737
+##sequence-region IACDABIC_262 1 30282
+##sequence-region IACDABIC_263 1 8501
+##sequence-region IACDABIC_264 1 34459
+##sequence-region IACDABIC_265 1 6081
+##sequence-region IACDABIC_266 1 9255
+##sequence-region IACDABIC_267 1 21064
+##sequence-region IACDABIC_268 1 8808
+##sequence-region IACDABIC_269 1 5641
+##sequence-region IACDABIC_270 1 29762
+##sequence-region IACDABIC_271 1 2393
+##sequence-region IACDABIC_272 1 12267
+##sequence-region IACDABIC_273 1 7480
+##sequence-region IACDABIC_274 1 13094
+##sequence-region IACDABIC_275 1 5141
+##sequence-region IACDABIC_276 1 17025
+##sequence-region IACDABIC_277 1 3520
+##sequence-region IACDABIC_278 1 5682
+##sequence-region IACDABIC_279 1 21216
+##sequence-region IACDABIC_280 1 16586
+##sequence-region IACDABIC_281 1 12929
+##sequence-region IACDABIC_282 1 16107
+##sequence-region IACDABIC_283 1 2432
+##sequence-region IACDABIC_284 1 22788
+##sequence-region IACDABIC_285 1 5180
+##sequence-region IACDABIC_286 1 10750
+##sequence-region IACDABIC_287 1 3991
+##sequence-region IACDABIC_288 1 10058
+##sequence-region IACDABIC_289 1 23321
+##sequence-region IACDABIC_290 1 13128
+##sequence-region IACDABIC_291 1 15786
+##sequence-region IACDABIC_292 1 55025
+##sequence-region IACDABIC_293 1 13861
+##sequence-region IACDABIC_294 1 5373
+##sequence-region IACDABIC_295 1 5473
+##sequence-region IACDABIC_296 1 17755
+##sequence-region IACDABIC_297 1 7680
+##sequence-region IACDABIC_298 1 12095
+##sequence-region IACDABIC_299 1 2504
+##sequence-region IACDABIC_300 1 5286
+##sequence-region IACDABIC_301 1 25436
+##sequence-region IACDABIC_302 1 26349
+##sequence-region IACDABIC_303 1 4890
+##sequence-region IACDABIC_304 1 5282
+##sequence-region IACDABIC_305 1 9325
+##sequence-region IACDABIC_306 1 34147
+##sequence-region IACDABIC_307 1 4041
+##sequence-region IACDABIC_308 1 8474
+##sequence-region IACDABIC_309 1 13564
+##sequence-region IACDABIC_310 1 9847
+##sequence-region IACDABIC_311 1 7662
+##sequence-region IACDABIC_312 1 15224
+##sequence-region IACDABIC_313 1 14827
+##sequence-region IACDABIC_314 1 17876
+##sequence-region IACDABIC_315 1 24984
+##sequence-region IACDABIC_316 1 26262
+##sequence-region IACDABIC_317 1 8963
+##sequence-region IACDABIC_318 1 9609
+##sequence-region IACDABIC_319 1 1615
+##sequence-region IACDABIC_320 1 19960
+##sequence-region IACDABIC_321 1 18999
+##sequence-region IACDABIC_322 1 3845
+##sequence-region IACDABIC_323 1 22987
+##sequence-region IACDABIC_324 1 5868
+##sequence-region IACDABIC_325 1 10642
+##sequence-region IACDABIC_326 1 4306
+##sequence-region IACDABIC_327 1 23676
+##sequence-region IACDABIC_328 1 4694
+##sequence-region IACDABIC_329 1 4499
+##sequence-region IACDABIC_330 1 17867
+##sequence-region IACDABIC_331 1 4221
+##sequence-region IACDABIC_332 1 6555
+##sequence-region IACDABIC_333 1 15077
+##sequence-region IACDABIC_334 1 4456
+##sequence-region IACDABIC_335 1 7172
+##sequence-region IACDABIC_336 1 30378
+##sequence-region IACDABIC_337 1 14219
+##sequence-region IACDABIC_338 1 22159
+##sequence-region IACDABIC_339 1 8534
+##sequence-region IACDABIC_340 1 30420
+##sequence-region IACDABIC_341 1 8016
+##sequence-region IACDABIC_342 1 1722
+##sequence-region IACDABIC_343 1 16301
+##sequence-region IACDABIC_344 1 3213
+##sequence-region IACDABIC_345 1 10789
+##sequence-region IACDABIC_346 1 21099
+##sequence-region IACDABIC_347 1 8251
+##sequence-region IACDABIC_348 1 4453
+##sequence-region IACDABIC_349 1 11195
+##sequence-region IACDABIC_350 1 6401
+##sequence-region IACDABIC_351 1 9161
+##sequence-region IACDABIC_352 1 8636
+##sequence-region IACDABIC_353 1 5153
+##sequence-region IACDABIC_354 1 31142
+##sequence-region IACDABIC_355 1 6093
+##sequence-region IACDABIC_356 1 16730
+##sequence-region IACDABIC_357 1 6547
+##sequence-region IACDABIC_358 1 28804
+##sequence-region IACDABIC_359 1 22573
+##sequence-region IACDABIC_360 1 12046
+##sequence-region IACDABIC_361 1 6257
+##sequence-region IACDABIC_362 1 7643
+##sequence-region IACDABIC_363 1 16335
+##sequence-region IACDABIC_364 1 8793
+##sequence-region IACDABIC_365 1 25571
+##sequence-region IACDABIC_366 1 24480
+##sequence-region IACDABIC_367 1 10507
+##sequence-region IACDABIC_368 1 16132
+##sequence-region IACDABIC_369 1 20846
+##sequence-region IACDABIC_370 1 6745
+##sequence-region IACDABIC_371 1 4905
+##sequence-region IACDABIC_372 1 21293
+##sequence-region IACDABIC_373 1 11926
+##sequence-region IACDABIC_374 1 6421
+##sequence-region IACDABIC_375 1 19378
+##sequence-region IACDABIC_376 1 8796
+##sequence-region IACDABIC_377 1 5582
+##sequence-region IACDABIC_378 1 1963
+##sequence-region IACDABIC_379 1 21713
+##sequence-region IACDABIC_380 1 24655
+##sequence-region IACDABIC_381 1 16952
+##sequence-region IACDABIC_382 1 17937
+##sequence-region IACDABIC_383 1 24291
+##sequence-region IACDABIC_384 1 9669
+##sequence-region IACDABIC_385 1 8787
+##sequence-region IACDABIC_386 1 2355
+##sequence-region IACDABIC_387 1 6540
+##sequence-region IACDABIC_388 1 19748
+##sequence-region IACDABIC_389 1 30875
+##sequence-region IACDABIC_390 1 43373
+##sequence-region IACDABIC_391 1 4250
+##sequence-region IACDABIC_392 1 2891
+##sequence-region IACDABIC_393 1 29265
+##sequence-region IACDABIC_394 1 1455
+##sequence-region IACDABIC_395 1 5647
+##sequence-region IACDABIC_396 1 11438
+##sequence-region IACDABIC_397 1 5111
+##sequence-region IACDABIC_398 1 11855
+##sequence-region IACDABIC_399 1 14026
+##sequence-region IACDABIC_400 1 21984
+##sequence-region IACDABIC_401 1 4084
+##sequence-region IACDABIC_402 1 1946
+##sequence-region IACDABIC_403 1 30231
+##sequence-region IACDABIC_404 1 27652
+##sequence-region IACDABIC_405 1 13143
+##sequence-region IACDABIC_406 1 25934
+##sequence-region IACDABIC_407 1 23419
+##sequence-region IACDABIC_408 1 24342
+##sequence-region IACDABIC_409 1 60973
+##sequence-region IACDABIC_410 1 12442
+##sequence-region IACDABIC_411 1 5662
+##sequence-region IACDABIC_412 1 7227
+##sequence-region IACDABIC_413 1 10518
+##sequence-region IACDABIC_414 1 9978
+##sequence-region IACDABIC_415 1 10991
+##sequence-region IACDABIC_416 1 11915
+##sequence-region IACDABIC_417 1 59976
+##sequence-region IACDABIC_418 1 4798
+##sequence-region IACDABIC_419 1 2640
+##sequence-region IACDABIC_420 1 30464
+##sequence-region IACDABIC_421 1 15459
+##sequence-region IACDABIC_422 1 17098
+##sequence-region IACDABIC_423 1 7306
+##sequence-region IACDABIC_424 1 20559
+##sequence-region IACDABIC_425 1 43478
+##sequence-region IACDABIC_426 1 2315
+##sequence-region IACDABIC_427 1 9428
+##sequence-region IACDABIC_428 1 3901
+##sequence-region IACDABIC_429 1 26648
+##sequence-region IACDABIC_430 1 13752
+##sequence-region IACDABIC_431 1 4149
+##sequence-region IACDABIC_432 1 3109
+##sequence-region IACDABIC_433 1 10552
+##sequence-region IACDABIC_434 1 2499
+##sequence-region IACDABIC_435 1 32584
+##sequence-region IACDABIC_436 1 17189
+##sequence-region IACDABIC_437 1 23618
+##sequence-region IACDABIC_438 1 10037
+##sequence-region IACDABIC_439 1 8797
+##sequence-region IACDABIC_440 1 20503
+##sequence-region IACDABIC_441 1 26012
+##sequence-region IACDABIC_442 1 1501
+##sequence-region IACDABIC_443 1 13130
+##sequence-region IACDABIC_444 1 21600
+##sequence-region IACDABIC_445 1 9868
+##sequence-region IACDABIC_446 1 5396
+##sequence-region IACDABIC_447 1 7863
+##sequence-region IACDABIC_448 1 14007
+##sequence-region IACDABIC_449 1 7070
+##sequence-region IACDABIC_450 1 1142
+##sequence-region IACDABIC_451 1 4606
+##sequence-region IACDABIC_452 1 26713
+##sequence-region IACDABIC_453 1 10274
+##sequence-region IACDABIC_454 1 11369
+##sequence-region IACDABIC_455 1 12839
+##sequence-region IACDABIC_456 1 4606
+##sequence-region IACDABIC_457 1 15250
+##sequence-region IACDABIC_458 1 16452
+##sequence-region IACDABIC_459 1 23997
+##sequence-region IACDABIC_460 1 28576
+##sequence-region IACDABIC_461 1 26841
+##sequence-region IACDABIC_462 1 5248
+##sequence-region IACDABIC_463 1 4554
+##sequence-region IACDABIC_464 1 21714
+##sequence-region IACDABIC_465 1 2284
+##sequence-region IACDABIC_466 1 945
+##sequence-region IACDABIC_467 1 1349
+##sequence-region IACDABIC_468 1 2082
+##sequence-region IACDABIC_469 1 3126
+##sequence-region IACDABIC_470 1 12503
+##sequence-region IACDABIC_471 1 6804
+##sequence-region IACDABIC_472 1 5049
+IACDABIC_414	pseudofinder	gene	2	550	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 21.2%25 of the average length of hits to this gene.;locus_tag=IACDABIC_414_pseudo_00001;old_locus_tag=IACDABIC_04362
+IACDABIC_183	pseudofinder	gene	3	125	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 33.2%25 of the average length of hits to this gene.;locus_tag=IACDABIC_183_pseudo_00002;old_locus_tag=IACDABIC_01824
+IACDABIC_90	pseudofinder	gene	4	219	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 21.7%25 of the average length of hits to this gene.;locus_tag=IACDABIC_90_pseudo_00003;old_locus_tag=IACDABIC_00727
+IACDABIC_403	pseudofinder	gene	4	336	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 47.1%25 of the average length of hits to this gene.;locus_tag=IACDABIC_403_pseudo_00004;old_locus_tag=IACDABIC_04161
+IACDABIC_16	pseudofinder	gene	4	498	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 24.9%25 of the average length of hits to this gene.;locus_tag=IACDABIC_16_pseudo_00005;old_locus_tag=IACDABIC_00051
+IACDABIC_467	pseudofinder	gene	7	606	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 21.7%25 of the average length of hits to this gene.;locus_tag=IACDABIC_467_pseudo_00006;old_locus_tag=IACDABIC_05009
+IACDABIC_306	pseudofinder	gene	8	256	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 35.0%25 of the average length of hits to this gene.;locus_tag=IACDABIC_306_pseudo_00007;old_locus_tag=IACDABIC_03059
+IACDABIC_164	pseudofinder	gene	12	257	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 60.3%25 of the average length of hits to this gene.;locus_tag=IACDABIC_164_pseudo_00008;old_locus_tag=IACDABIC_01554
+IACDABIC_130	pseudofinder	gene	12	1283	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 44.9%25 of the average length of hits to this gene.;locus_tag=IACDABIC_130_pseudo_00009;old_locus_tag=IACDABIC_01224
+IACDABIC_67	pseudofinder	gene	14	4237	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 58.4%25 of the average length of hits to this gene.;locus_tag=IACDABIC_67_pseudo_00010;old_locus_tag=IACDABIC_00486
+IACDABIC_17	pseudofinder	gene	14	439	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 22.8%25 of the average length of hits to this gene.;locus_tag=IACDABIC_17_pseudo_00011;old_locus_tag=IACDABIC_00054
+IACDABIC_465	pseudofinder	gene	14	2218	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 139.3%25 of the average length of hits to this gene.;locus_tag=IACDABIC_465_pseudo_00012;old_locus_tag=IACDABIC_05007
+IACDABIC_143	pseudofinder	gene	15	593	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 21.5%25 of the average length of hits to this gene.;locus_tag=IACDABIC_143_pseudo_00013;old_locus_tag=IACDABIC_01323
+IACDABIC_433	pseudofinder	gene	15	614	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 35.2%25 of the average length of hits to this gene.;locus_tag=IACDABIC_433_pseudo_00014;old_locus_tag=IACDABIC_04609
+IACDABIC_21	pseudofinder	gene	16	507	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 18.5%25 of the average length of hits to this gene.;locus_tag=IACDABIC_21_pseudo_00015;old_locus_tag=IACDABIC_00069
+IACDABIC_182	pseudofinder	gene	18	959	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 54.1%25 of the average length of hits to this gene.;locus_tag=IACDABIC_182_pseudo_00016;old_locus_tag=IACDABIC_01788
+IACDABIC_100	pseudofinder	gene	18	221	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 14.1%25 of the average length of hits to this gene.;locus_tag=IACDABIC_100_pseudo_00017;old_locus_tag=IACDABIC_00803
+IACDABIC_376	pseudofinder	gene	19	150	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 12.3%25 of the average length of hits to this gene.;locus_tag=IACDABIC_376_pseudo_00018;old_locus_tag=IACDABIC_03858
+IACDABIC_173	pseudofinder	gene	20	640	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 137.1%25 of the average length of hits to this gene.;locus_tag=IACDABIC_173_pseudo_00019;old_locus_tag=IACDABIC_01705
+IACDABIC_233	pseudofinder	gene	22	468	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 37.4%25 of the average length of hits to this gene.;locus_tag=IACDABIC_233_pseudo_00021;old_locus_tag=IACDABIC_02333
+IACDABIC_180	pseudofinder	gene	23	709	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 29.8%25 of the average length of hits to this gene.;locus_tag=IACDABIC_180_pseudo_00022;old_locus_tag=IACDABIC_01783
+IACDABIC_286	pseudofinder	gene	26	157	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 36.6%25 of the average length of hits to this gene.;locus_tag=IACDABIC_286_pseudo_00023;old_locus_tag=IACDABIC_02854
+IACDABIC_94	pseudofinder	gene	27	1568	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 56.3%25 of the average length of hits to this gene.;locus_tag=IACDABIC_94_pseudo_00024;old_locus_tag=IACDABIC_00766
+IACDABIC_257	pseudofinder	gene	29	277	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 20.2%25 of the average length of hits to this gene.;locus_tag=IACDABIC_257_pseudo_00025;old_locus_tag=IACDABIC_02536
+IACDABIC_446	pseudofinder	gene	33	572	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 33.1%25 of the average length of hits to this gene.;locus_tag=IACDABIC_446_pseudo_00026;old_locus_tag=IACDABIC_04790
+IACDABIC_81	pseudofinder	gene	33	1241	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 57.7%25 of the average length of hits to this gene.;locus_tag=IACDABIC_81_pseudo_00027;old_locus_tag=IACDABIC_00583
+IACDABIC_172	pseudofinder	gene	34	285	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 16.4%25 of the average length of hits to this gene.;locus_tag=IACDABIC_172_pseudo_00028;old_locus_tag=IACDABIC_01700
+IACDABIC_397	pseudofinder	gene	36	911	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 44.7%25 of the average length of hits to this gene.;locus_tag=IACDABIC_397_pseudo_00029;old_locus_tag=IACDABIC_04097
+IACDABIC_413	pseudofinder	gene	39	533	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 24.0%25 of the average length of hits to this gene.;locus_tag=IACDABIC_413_pseudo_00030;old_locus_tag=IACDABIC_04352
+IACDABIC_226	pseudofinder	gene	40	477	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 57.7%25 of the average length of hits to this gene.;locus_tag=IACDABIC_226_pseudo_00031;old_locus_tag=IACDABIC_02288
+IACDABIC_419	pseudofinder	gene	41	163	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 15.4%25 of the average length of hits to this gene.;locus_tag=IACDABIC_419_pseudo_00032;old_locus_tag=IACDABIC_04450
+IACDABIC_7	pseudofinder	gene	42	155	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 36.1%25 of the average length of hits to this gene.;locus_tag=IACDABIC_7_pseudo_00033;old_locus_tag=IACDABIC_00014
+IACDABIC_418	pseudofinder	gene	46	641	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=IACDABIC_418_pseudo_00034;old_locus_tag=IACDABIC_04444,IACDABIC_04445,IACDABIC_418_ign_00001
+IACDABIC_69	pseudofinder	gene	49	798	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 43.7%25 of the average length of hits to this gene.;locus_tag=IACDABIC_69_pseudo_00035;old_locus_tag=IACDABIC_00491
+IACDABIC_411	pseudofinder	gene	49	798	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 50.1%25 of the average length of hits to this gene.;locus_tag=IACDABIC_411_pseudo_00036;old_locus_tag=IACDABIC_04341
+IACDABIC_199	pseudofinder	gene	50	838	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 63.7%25 of the average length of hits to this gene.;locus_tag=IACDABIC_199_pseudo_00037;old_locus_tag=IACDABIC_01958
+IACDABIC_267	pseudofinder	gene	51	284	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 29.7%25 of the average length of hits to this gene.;locus_tag=IACDABIC_267_pseudo_00038;old_locus_tag=IACDABIC_02674
+IACDABIC_99	pseudofinder	gene	51	590	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 31.3%25 of the average length of hits to this gene.;locus_tag=IACDABIC_99_pseudo_00039;old_locus_tag=IACDABIC_00789
+IACDABIC_381	pseudofinder	gene	62	1732	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 56.3%25 of the average length of hits to this gene.;locus_tag=IACDABIC_381_pseudo_00040;old_locus_tag=IACDABIC_03909
+IACDABIC_12	pseudofinder	gene	64	618	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 17.7%25 of the average length of hits to this gene.;locus_tag=IACDABIC_12_pseudo_00041;old_locus_tag=IACDABIC_00035
+IACDABIC_53	pseudofinder	gene	66	2810	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 138.4%25 of the average length of hits to this gene.;locus_tag=IACDABIC_53_pseudo_00042;old_locus_tag=IACDABIC_00255
+IACDABIC_297	pseudofinder	gene	66	1764	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=IACDABIC_297_pseudo_00043;old_locus_tag=IACDABIC_02990,IACDABIC_02989
+IACDABIC_386	pseudofinder	gene	67	2274	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 61.3%25 of the average length of hits to this gene.;locus_tag=IACDABIC_386_pseudo_00044;old_locus_tag=IACDABIC_03975
+IACDABIC_37	pseudofinder	gene	68	235	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 38.1%25 of the average length of hits to this gene.;locus_tag=IACDABIC_37_pseudo_00045;old_locus_tag=IACDABIC_00101
+IACDABIC_245	pseudofinder	gene	70	327	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 21.2%25 of the average length of hits to this gene.;locus_tag=IACDABIC_245_pseudo_00046;old_locus_tag=IACDABIC_02463
+IACDABIC_108	pseudofinder	gene	72	326	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 21.5%25 of the average length of hits to this gene.;locus_tag=IACDABIC_108_pseudo_00047;old_locus_tag=IACDABIC_00918
+IACDABIC_113	pseudofinder	gene	72	425	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 52.7%25 of the average length of hits to this gene.;locus_tag=IACDABIC_113_pseudo_00048;old_locus_tag=IACDABIC_01014
+IACDABIC_379	pseudofinder	gene	77	550	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 57.1%25 of the average length of hits to this gene.;locus_tag=IACDABIC_379_pseudo_00049;old_locus_tag=IACDABIC_03872
+IACDABIC_112	pseudofinder	gene	86	889	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 59.6%25 of the average length of hits to this gene.;locus_tag=IACDABIC_112_pseudo_00051;old_locus_tag=IACDABIC_00992
+IACDABIC_441	pseudofinder	gene	101	463	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 51.8%25 of the average length of hits to this gene.;locus_tag=IACDABIC_441_pseudo_00052;old_locus_tag=IACDABIC_04718
+IACDABIC_299	pseudofinder	gene	108	794	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 62.1%25 of the average length of hits to this gene.;locus_tag=IACDABIC_299_pseudo_00053;old_locus_tag=IACDABIC_03001
+IACDABIC_333	pseudofinder	gene	118	225	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 24.5%25 of the average length of hits to this gene.;locus_tag=IACDABIC_333_pseudo_00054;old_locus_tag=IACDABIC_03357
+IACDABIC_174	pseudofinder	gene	118	486	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 12.5%25 of the average length of hits to this gene.;locus_tag=IACDABIC_174_pseudo_00055;old_locus_tag=IACDABIC_01732
+IACDABIC_229	pseudofinder	gene	119	598	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 45.1%25 of the average length of hits to this gene.;locus_tag=IACDABIC_229_pseudo_00056;old_locus_tag=IACDABIC_02295
+IACDABIC_30	pseudofinder	gene	124	357	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 13.3%25 of the average length of hits to this gene.;locus_tag=IACDABIC_30_pseudo_00057;old_locus_tag=IACDABIC_00085
+IACDABIC_189	pseudofinder	gene	132	395	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 24.2%25 of the average length of hits to this gene.;locus_tag=IACDABIC_189_pseudo_00059;old_locus_tag=IACDABIC_01897
+IACDABIC_291	pseudofinder	gene	133	336	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 46.8%25 of the average length of hits to this gene.;locus_tag=IACDABIC_291_pseudo_00060;old_locus_tag=IACDABIC_02910
+IACDABIC_55	pseudofinder	gene	134	358	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 4.7%25 of the average length of hits to this gene.;locus_tag=IACDABIC_55_pseudo_00061;old_locus_tag=IACDABIC_00301
+IACDABIC_246	pseudofinder	gene	143	382	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 14.5%25 of the average length of hits to this gene.;locus_tag=IACDABIC_246_pseudo_00062;old_locus_tag=IACDABIC_02466
+IACDABIC_158	pseudofinder	gene	157	1068	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 62.3%25 of the average length of hits to this gene.;locus_tag=IACDABIC_158_pseudo_00063;old_locus_tag=IACDABIC_01463
+IACDABIC_25	pseudofinder	gene	165	686	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 43.5%25 of the average length of hits to this gene.;locus_tag=IACDABIC_25_pseudo_00064;old_locus_tag=IACDABIC_00074
+IACDABIC_20	pseudofinder	gene	176	601	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 33.9%25 of the average length of hits to this gene.;locus_tag=IACDABIC_20_pseudo_00065;old_locus_tag=IACDABIC_00065
+IACDABIC_375	pseudofinder	gene	180	983	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 55.9%25 of the average length of hits to this gene.;locus_tag=IACDABIC_375_pseudo_00066;old_locus_tag=IACDABIC_03837
+IACDABIC_409	pseudofinder	gene	184	566	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_409_pseudo_00067;old_locus_tag=IACDABIC_409_ign_00001
+IACDABIC_428	pseudofinder	gene	194	1543	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 32.5%25 of the average length of hits to this gene.;locus_tag=IACDABIC_428_pseudo_00068;old_locus_tag=IACDABIC_04570
+IACDABIC_317	pseudofinder	gene	197	772	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 31.3%25 of the average length of hits to this gene.;locus_tag=IACDABIC_317_pseudo_00069;old_locus_tag=IACDABIC_03219
+IACDABIC_256	pseudofinder	gene	209	1108	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 25.3%25 of the average length of hits to this gene.;locus_tag=IACDABIC_256_pseudo_00070;old_locus_tag=IACDABIC_02529
+IACDABIC_27	pseudofinder	gene	213	2512	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=IACDABIC_27_pseudo_00071;old_locus_tag=IACDABIC_00077,IACDABIC_27_ign_00001,IACDABIC_00078
+IACDABIC_332	pseudofinder	gene	231	887	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 60.3%25 of the average length of hits to this gene.;locus_tag=IACDABIC_332_pseudo_00072;old_locus_tag=IACDABIC_03352
+IACDABIC_37	pseudofinder	gene	243	541	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_37_pseudo_00073;old_locus_tag=IACDABIC_37_ign_00001
+IACDABIC_160	pseudofinder	gene	263	2749	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 52.2%25 of the average length of hits to this gene.;locus_tag=IACDABIC_160_pseudo_00075;old_locus_tag=IACDABIC_01491
+IACDABIC_43	pseudofinder	gene	268	1041	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 62.8%25 of the average length of hits to this gene.;locus_tag=IACDABIC_43_pseudo_00076;old_locus_tag=IACDABIC_00115
+IACDABIC_401	pseudofinder	gene	294	878	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 53.7%25 of the average length of hits to this gene.;locus_tag=IACDABIC_401_pseudo_00078;old_locus_tag=IACDABIC_04156
+IACDABIC_172	pseudofinder	gene	294	1319	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 64.1%25 of the average length of hits to this gene.;locus_tag=IACDABIC_172_pseudo_00079;old_locus_tag=IACDABIC_01701
+IACDABIC_132	pseudofinder	gene	294	545	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 38.4%25 of the average length of hits to this gene.;locus_tag=IACDABIC_132_pseudo_00080;old_locus_tag=IACDABIC_01234
+IACDABIC_295	pseudofinder	gene	328	2514	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 63.5%25 of the average length of hits to this gene.;locus_tag=IACDABIC_295_pseudo_00081;old_locus_tag=IACDABIC_02971
+IACDABIC_209	pseudofinder	gene	361	666	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 16.5%25 of the average length of hits to this gene.;locus_tag=IACDABIC_209_pseudo_00083;old_locus_tag=IACDABIC_02105
+IACDABIC_291	pseudofinder	gene	395	1099	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 138.6%25 of the average length of hits to this gene.;locus_tag=IACDABIC_291_pseudo_00084;old_locus_tag=IACDABIC_02911
+IACDABIC_78	pseudofinder	gene	407	1513	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 56.2%25 of the average length of hits to this gene.;locus_tag=IACDABIC_78_pseudo_00085;old_locus_tag=IACDABIC_00571
+IACDABIC_230	pseudofinder	gene	409	879	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 64.9%25 of the average length of hits to this gene.;locus_tag=IACDABIC_230_pseudo_00086;old_locus_tag=IACDABIC_02321
+IACDABIC_3	pseudofinder	gene	413	1456	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 61.6%25 of the average length of hits to this gene.;locus_tag=IACDABIC_3_pseudo_00087;old_locus_tag=IACDABIC_00006
+IACDABIC_243	pseudofinder	gene	427	1224	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 60.3%25 of the average length of hits to this gene.;locus_tag=IACDABIC_243_pseudo_00088;old_locus_tag=IACDABIC_02443
+IACDABIC_403	pseudofinder	gene	427	665	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_403_pseudo_00089;old_locus_tag=IACDABIC_403_ign_00001
+IACDABIC_450	pseudofinder	gene	428	580	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 55.3%25 of the average length of hits to this gene.;locus_tag=IACDABIC_450_pseudo_00090;old_locus_tag=IACDABIC_04819
+IACDABIC_41	pseudofinder	gene	432	1484	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 36.9%25 of the average length of hits to this gene.;locus_tag=IACDABIC_41_pseudo_00091;old_locus_tag=IACDABIC_00112
+IACDABIC_4	pseudofinder	gene	442	1317	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 43.0%25 of the average length of hits to this gene.;locus_tag=IACDABIC_4_pseudo_00092;old_locus_tag=IACDABIC_00007
+IACDABIC_42	pseudofinder	gene	462	1226	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 138.4%25 of the average length of hits to this gene.;locus_tag=IACDABIC_42_pseudo_00093;old_locus_tag=IACDABIC_00113
+IACDABIC_159	pseudofinder	gene	532	774	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 58.1%25 of the average length of hits to this gene.;locus_tag=IACDABIC_159_pseudo_00094;old_locus_tag=IACDABIC_01468
+IACDABIC_142	pseudofinder	gene	546	1388	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 55.5%25 of the average length of hits to this gene.;locus_tag=IACDABIC_142_pseudo_00095;old_locus_tag=IACDABIC_01308
+IACDABIC_269	pseudofinder	gene	549	1529	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 14.7%25 of the average length of hits to this gene.;locus_tag=IACDABIC_269_pseudo_00096;old_locus_tag=IACDABIC_02703
+IACDABIC_261	pseudofinder	gene	569	667	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 51.8%25 of the average length of hits to this gene.;locus_tag=IACDABIC_261_pseudo_00098;old_locus_tag=IACDABIC_02575
+IACDABIC_408	pseudofinder	gene	581	3285	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_408_pseudo_00099;old_locus_tag=IACDABIC_408_ign_00001
+IACDABIC_467	pseudofinder	gene	597	1340	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 28.5%25 of the average length of hits to this gene.;locus_tag=IACDABIC_467_pseudo_00100;old_locus_tag=IACDABIC_05010
+IACDABIC_446	pseudofinder	gene	609	2423	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 159.4%25 of the average length of hits to this gene.;locus_tag=IACDABIC_446_pseudo_00101;old_locus_tag=IACDABIC_04791
+IACDABIC_290	pseudofinder	gene	619	769	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=IACDABIC_290_pseudo_00102;old_locus_tag=IACDABIC_290_ign_00001
+IACDABIC_33	pseudofinder	gene	668	958	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 62.1%25 of the average length of hits to this gene.;locus_tag=IACDABIC_33_pseudo_00103;old_locus_tag=IACDABIC_00089
+IACDABIC_268	pseudofinder	gene	669	1889	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 35.5%25 of the average length of hits to this gene.;locus_tag=IACDABIC_268_pseudo_00104;old_locus_tag=IACDABIC_02695
+IACDABIC_6	pseudofinder	gene	695	855	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 8 blast hits.;locus_tag=IACDABIC_6_pseudo_00108;old_locus_tag=IACDABIC_6_ign_00001
+IACDABIC_312	pseudofinder	gene	701	1474	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 41.9%25 of the average length of hits to this gene.;locus_tag=IACDABIC_312_pseudo_00109;old_locus_tag=IACDABIC_03127
+IACDABIC_317	pseudofinder	gene	773	942	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_317_pseudo_00110;old_locus_tag=IACDABIC_317_ign_00001
+IACDABIC_159	pseudofinder	gene	777	1171	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_159_pseudo_00111;old_locus_tag=IACDABIC_159_ign_00001
+IACDABIC_146	pseudofinder	gene	786	2336	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 60.7%25 of the average length of hits to this gene.;locus_tag=IACDABIC_146_pseudo_00112;old_locus_tag=IACDABIC_01348
+IACDABIC_367	pseudofinder	gene	787	1464	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 47.8%25 of the average length of hits to this gene.;locus_tag=IACDABIC_367_pseudo_00113;old_locus_tag=IACDABIC_03738
+IACDABIC_47	pseudofinder	gene	794	1888	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 146.0%25 of the average length of hits to this gene.;locus_tag=IACDABIC_47_pseudo_00114;old_locus_tag=IACDABIC_00148
+IACDABIC_423	pseudofinder	gene	829	2301	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 52.0%25 of the average length of hits to this gene.;locus_tag=IACDABIC_423_pseudo_00115;old_locus_tag=IACDABIC_04514
+IACDABIC_370	pseudofinder	gene	875	1653	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_370_pseudo_00116;old_locus_tag=IACDABIC_370_ign_00001
+IACDABIC_103	pseudofinder	gene	943	1289	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 8 blast hits.;locus_tag=IACDABIC_103_pseudo_00117;old_locus_tag=IACDABIC_103_ign_00002
+IACDABIC_229	pseudofinder	gene	982	2099	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=IACDABIC_229_pseudo_00119;old_locus_tag=IACDABIC_02296,IACDABIC_229_ign_00002,IACDABIC_02297
+IACDABIC_33	pseudofinder	gene	1009	1164	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 44.8%25 of the average length of hits to this gene.;locus_tag=IACDABIC_33_pseudo_00121;old_locus_tag=IACDABIC_00090
+IACDABIC_406	pseudofinder	gene	1019	1240	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 34.1%25 of the average length of hits to this gene.;locus_tag=IACDABIC_406_pseudo_00122;old_locus_tag=IACDABIC_04219
+IACDABIC_182	pseudofinder	gene	1026	1766	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 33.4%25 of the average length of hits to this gene.;locus_tag=IACDABIC_182_pseudo_00123;old_locus_tag=IACDABIC_01789
+IACDABIC_36	pseudofinder	gene	1031	2008	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 34.7%25 of the average length of hits to this gene.;locus_tag=IACDABIC_36_pseudo_00125;old_locus_tag=IACDABIC_00100
+IACDABIC_173	pseudofinder	gene	1057	1317	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 49.6%25 of the average length of hits to this gene.;locus_tag=IACDABIC_173_pseudo_00126;old_locus_tag=IACDABIC_01707
+IACDABIC_369	pseudofinder	gene	1103	1215	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=IACDABIC_369_pseudo_00127;old_locus_tag=IACDABIC_369_ign_00001
+IACDABIC_6	pseudofinder	gene	1127	1401	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=IACDABIC_6_pseudo_00128;old_locus_tag=IACDABIC_00010,IACDABIC_6_ign_00003
+IACDABIC_14	pseudofinder	gene	1148	1732	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 30.3%25 of the average length of hits to this gene.;locus_tag=IACDABIC_14_pseudo_00129;old_locus_tag=IACDABIC_00043
+IACDABIC_124	pseudofinder	gene	1158	1297	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 11 blast hits.;locus_tag=IACDABIC_124_pseudo_00130;old_locus_tag=IACDABIC_124_ign_00001
+IACDABIC_362	pseudofinder	gene	1180	1394	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_362_pseudo_00131;old_locus_tag=IACDABIC_362_ign_00001
+IACDABIC_59	pseudofinder	gene	1196	1348	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 52.3%25 of the average length of hits to this gene.;locus_tag=IACDABIC_59_pseudo_00132;old_locus_tag=IACDABIC_00333
+IACDABIC_185	pseudofinder	gene	1210	1350	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=IACDABIC_185_pseudo_00133;old_locus_tag=IACDABIC_185_ign_00001
+IACDABIC_342	pseudofinder	gene	1279	1650	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 28.2%25 of the average length of hits to this gene.;locus_tag=IACDABIC_342_pseudo_00134;old_locus_tag=IACDABIC_03464
+IACDABIC_69	pseudofinder	gene	1298	2194	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 23.0%25 of the average length of hits to this gene.;locus_tag=IACDABIC_69_pseudo_00135;old_locus_tag=IACDABIC_00492
+IACDABIC_375	pseudofinder	gene	1318	1538	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_375_pseudo_00136;old_locus_tag=IACDABIC_375_ign_00001
+IACDABIC_437	pseudofinder	gene	1341	1432	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 12 blast hits.;locus_tag=IACDABIC_437_pseudo_00137;old_locus_tag=IACDABIC_437_ign_00001
+IACDABIC_197	pseudofinder	gene	1395	6220	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_197_pseudo_00138;old_locus_tag=IACDABIC_197_ign_00001
+IACDABIC_6	pseudofinder	gene	1403	1606	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 43.1%25 of the average length of hits to this gene.;locus_tag=IACDABIC_6_pseudo_00139;old_locus_tag=IACDABIC_00011
+IACDABIC_413	pseudofinder	gene	1408	2163	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 58.6%25 of the average length of hits to this gene.;locus_tag=IACDABIC_413_pseudo_00140;old_locus_tag=IACDABIC_04354
+IACDABIC_402	pseudofinder	gene	1466	1933	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 21.2%25 of the average length of hits to this gene.;locus_tag=IACDABIC_402_pseudo_00141;old_locus_tag=IACDABIC_04160
+IACDABIC_92	pseudofinder	gene	1530	2564	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 156.9%25 of the average length of hits to this gene.;locus_tag=IACDABIC_92_pseudo_00142;old_locus_tag=IACDABIC_00759
+IACDABIC_16	pseudofinder	gene	1540	2277	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 48.2%25 of the average length of hits to this gene.;locus_tag=IACDABIC_16_pseudo_00143;old_locus_tag=IACDABIC_00053
+IACDABIC_106	pseudofinder	gene	1566	1763	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 37.4%25 of the average length of hits to this gene.;locus_tag=IACDABIC_106_pseudo_00144;old_locus_tag=IACDABIC_00901
+IACDABIC_10	pseudofinder	gene	1580	1744	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 13.1%25 of the average length of hits to this gene.;locus_tag=IACDABIC_10_pseudo_00145;old_locus_tag=IACDABIC_00032
+IACDABIC_389	pseudofinder	gene	1601	1827	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_389_pseudo_00146;old_locus_tag=IACDABIC_389_ign_00001
+IACDABIC_231	pseudofinder	gene	1638	1783	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=IACDABIC_231_pseudo_00147;old_locus_tag=IACDABIC_231_ign_00003
+IACDABIC_428	pseudofinder	gene	1651	2259	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 23.3%25 of the average length of hits to this gene.;locus_tag=IACDABIC_428_pseudo_00148;old_locus_tag=IACDABIC_04571
+IACDABIC_216	pseudofinder	gene	1690	1824	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 64.4%25 of the average length of hits to this gene.;locus_tag=IACDABIC_216_pseudo_00149;old_locus_tag=IACDABIC_02180
+IACDABIC_117	pseudofinder	gene	1692	2027	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 27.2%25 of the average length of hits to this gene.;locus_tag=IACDABIC_117_pseudo_00150;old_locus_tag=IACDABIC_01060
+IACDABIC_119	pseudofinder	gene	1698	2101	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_119_pseudo_00151;old_locus_tag=IACDABIC_119_ign_00002
+IACDABIC_107	pseudofinder	gene	1705	1822	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=IACDABIC_107_pseudo_00152;old_locus_tag=IACDABIC_107_ign_00001
+IACDABIC_367	pseudofinder	gene	1721	2617	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 46.4%25 of the average length of hits to this gene.;locus_tag=IACDABIC_367_pseudo_00153;old_locus_tag=IACDABIC_03740
+IACDABIC_357	pseudofinder	gene	1738	1920	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 28.2%25 of the average length of hits to this gene.;locus_tag=IACDABIC_357_pseudo_00154;old_locus_tag=IACDABIC_03594
+IACDABIC_56	pseudofinder	gene	1801	2021	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=IACDABIC_56_pseudo_00156;old_locus_tag=IACDABIC_56_ign_00001
+IACDABIC_216	pseudofinder	gene	1825	1946	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_216_pseudo_00158;old_locus_tag=IACDABIC_216_ign_00004
+IACDABIC_141	pseudofinder	gene	1827	2447	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 56.4%25 of the average length of hits to this gene.;locus_tag=IACDABIC_141_pseudo_00160;old_locus_tag=IACDABIC_01305
+IACDABIC_272	pseudofinder	gene	1858	2148	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 34.1%25 of the average length of hits to this gene.;locus_tag=IACDABIC_272_pseudo_00161;old_locus_tag=IACDABIC_02728
+IACDABIC_434	pseudofinder	gene	1878	2453	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 56.4%25 of the average length of hits to this gene.;locus_tag=IACDABIC_434_pseudo_00162;old_locus_tag=IACDABIC_04619
+IACDABIC_237	pseudofinder	gene	1910	2082	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_237_pseudo_00164;old_locus_tag=IACDABIC_237_ign_00001
+IACDABIC_291	pseudofinder	gene	1928	2061	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_291_pseudo_00166;old_locus_tag=IACDABIC_291_ign_00003
+IACDABIC_343	pseudofinder	gene	1963	2327	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_343_pseudo_00169;old_locus_tag=IACDABIC_343_ign_00002
+IACDABIC_256	pseudofinder	gene	1988	2146	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 12 blast hits.;locus_tag=IACDABIC_256_pseudo_00170;old_locus_tag=IACDABIC_256_ign_00002
+IACDABIC_177	pseudofinder	gene	2023	5358	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 40.0%25 of the average length of hits to this gene.;locus_tag=IACDABIC_177_pseudo_00171;old_locus_tag=IACDABIC_01753
+IACDABIC_117	pseudofinder	gene	2030	2127	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_117_pseudo_00172;old_locus_tag=IACDABIC_117_ign_00002
+IACDABIC_306	pseudofinder	gene	2033	5308	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=IACDABIC_306_pseudo_00173;old_locus_tag=IACDABIC_03062,IACDABIC_306_ign_00003,IACDABIC_03061
+IACDABIC_262	pseudofinder	gene	2044	2298	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 28.1%25 of the average length of hits to this gene.;locus_tag=IACDABIC_262_pseudo_00175;old_locus_tag=IACDABIC_02601
+IACDABIC_222	pseudofinder	gene	2081	2223	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=IACDABIC_222_pseudo_00176;old_locus_tag=IACDABIC_222_ign_00001
+IACDABIC_112	pseudofinder	gene	2105	2293	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 29.8%25 of the average length of hits to this gene.;locus_tag=IACDABIC_112_pseudo_00177;old_locus_tag=IACDABIC_00994
+IACDABIC_256	pseudofinder	gene	2151	2534	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 63.5%25 of the average length of hits to this gene.;locus_tag=IACDABIC_256_pseudo_00179;old_locus_tag=IACDABIC_02531
+IACDABIC_357	pseudofinder	gene	2157	2308	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 9 blast hits.;locus_tag=IACDABIC_357_pseudo_00180;old_locus_tag=IACDABIC_357_ign_00002
+IACDABIC_429	pseudofinder	gene	2181	2366	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=IACDABIC_429_pseudo_00181;old_locus_tag=IACDABIC_429_ign_00003
+IACDABIC_193	pseudofinder	gene	2192	2327	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 9 blast hits.;locus_tag=IACDABIC_193_pseudo_00182;old_locus_tag=IACDABIC_193_ign_00001
+IACDABIC_20	pseudofinder	gene	2219	2401	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 13.4%25 of the average length of hits to this gene.;locus_tag=IACDABIC_20_pseudo_00183;old_locus_tag=IACDABIC_00068
+IACDABIC_6	pseudofinder	gene	2264	2713	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 29.2%25 of the average length of hits to this gene.;locus_tag=IACDABIC_6_pseudo_00184;old_locus_tag=IACDABIC_00013
+IACDABIC_112	pseudofinder	gene	2296	2381	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_112_pseudo_00185;old_locus_tag=IACDABIC_112_ign_00003
+IACDABIC_257	pseudofinder	gene	2321	4873	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 167.7%25 of the average length of hits to this gene.;locus_tag=IACDABIC_257_pseudo_00186;old_locus_tag=IACDABIC_02539
+IACDABIC_262	pseudofinder	gene	2378	2481	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_262_pseudo_00187;old_locus_tag=IACDABIC_262_ign_00002
+IACDABIC_425	pseudofinder	gene	2410	2519	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=IACDABIC_425_pseudo_00188;old_locus_tag=IACDABIC_425_ign_00001
+IACDABIC_112	pseudofinder	gene	2416	2649	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 32.9%25 of the average length of hits to this gene.;locus_tag=IACDABIC_112_pseudo_00189;old_locus_tag=IACDABIC_00995
+IACDABIC_335	pseudofinder	gene	2467	5003	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=IACDABIC_335_pseudo_00191;old_locus_tag=IACDABIC_03377,IACDABIC_03376
+IACDABIC_57	pseudofinder	gene	2470	3026	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_57_pseudo_00192;old_locus_tag=IACDABIC_57_ign_00001
+IACDABIC_262	pseudofinder	gene	2483	2572	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 29.6%25 of the average length of hits to this gene.;locus_tag=IACDABIC_262_pseudo_00193;old_locus_tag=IACDABIC_02602
+IACDABIC_446	pseudofinder	gene	2519	3521	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=IACDABIC_446_pseudo_00194;old_locus_tag=IACDABIC_446_ign_00003,IACDABIC_04792,IACDABIC_04793
+IACDABIC_295	pseudofinder	gene	2523	2873	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 7.7%25 of the average length of hits to this gene.;locus_tag=IACDABIC_295_pseudo_00195;old_locus_tag=IACDABIC_02972
+IACDABIC_173	pseudofinder	gene	2598	2842	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_173_pseudo_00196;old_locus_tag=IACDABIC_173_ign_00003
+IACDABIC_226	pseudofinder	gene	2600	2704	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 17.2%25 of the average length of hits to this gene.;locus_tag=IACDABIC_226_pseudo_00197;old_locus_tag=IACDABIC_02291
+IACDABIC_181	pseudofinder	gene	2625	3482	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 51.6%25 of the average length of hits to this gene.;locus_tag=IACDABIC_181_pseudo_00198;old_locus_tag=IACDABIC_01787
+IACDABIC_112	pseudofinder	gene	2668	3185	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=IACDABIC_112_pseudo_00199;old_locus_tag=IACDABIC_112_ign_00004
+IACDABIC_361	pseudofinder	gene	2697	2840	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 12.3%25 of the average length of hits to this gene.;locus_tag=IACDABIC_361_pseudo_00202;old_locus_tag=IACDABIC_03659
+IACDABIC_441	pseudofinder	gene	2707	3762	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 48.7%25 of the average length of hits to this gene.;locus_tag=IACDABIC_441_pseudo_00203;old_locus_tag=IACDABIC_04721
+IACDABIC_316	pseudofinder	gene	2735	3208	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 58.1%25 of the average length of hits to this gene.;locus_tag=IACDABIC_316_pseudo_00204;old_locus_tag=IACDABIC_03191
+IACDABIC_226	pseudofinder	gene	2776	2979	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 58.4%25 of the average length of hits to this gene.;locus_tag=IACDABIC_226_pseudo_00206;old_locus_tag=IACDABIC_02292
+IACDABIC_73	pseudofinder	gene	2782	2913	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 32.3%25 of the average length of hits to this gene.;locus_tag=IACDABIC_73_pseudo_00207;old_locus_tag=IACDABIC_00520
+IACDABIC_469	pseudofinder	gene	2802	3032	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 30.0%25 of the average length of hits to this gene.;locus_tag=IACDABIC_469_pseudo_00208;old_locus_tag=IACDABIC_05017
+IACDABIC_412	pseudofinder	gene	2812	3537	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 44.8%25 of the average length of hits to this gene.;locus_tag=IACDABIC_412_pseudo_00209;old_locus_tag=IACDABIC_04349
+IACDABIC_210	pseudofinder	gene	2841	3482	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 59.2%25 of the average length of hits to this gene.;locus_tag=IACDABIC_210_pseudo_00210;old_locus_tag=IACDABIC_02126
+IACDABIC_361	pseudofinder	gene	2852	2937	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=IACDABIC_361_pseudo_00211;old_locus_tag=IACDABIC_361_ign_00002
+IACDABIC_233	pseudofinder	gene	2893	2999	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=IACDABIC_233_pseudo_00213;old_locus_tag=IACDABIC_233_ign_00003
+IACDABIC_421	pseudofinder	gene	2926	3047	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_421_pseudo_00215;old_locus_tag=IACDABIC_421_ign_00002
+IACDABIC_119	pseudofinder	gene	2942	3333	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_119_pseudo_00216;old_locus_tag=IACDABIC_119_ign_00003
+IACDABIC_367	pseudofinder	gene	2947	3213	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 38.1%25 of the average length of hits to this gene.;locus_tag=IACDABIC_367_pseudo_00217;old_locus_tag=IACDABIC_03741
+IACDABIC_435	pseudofinder	gene	3003	3187	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=IACDABIC_435_pseudo_00218;old_locus_tag=IACDABIC_435_ign_00003
+IACDABIC_421	pseudofinder	gene	3096	3386	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 160.8%25 of the average length of hits to this gene.;locus_tag=IACDABIC_421_pseudo_00220;old_locus_tag=IACDABIC_04485
+IACDABIC_350	pseudofinder	gene	3131	5242	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 160.7%25 of the average length of hits to this gene.;locus_tag=IACDABIC_350_pseudo_00221;old_locus_tag=IACDABIC_03527
+IACDABIC_377	pseudofinder	gene	3143	3319	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 36.9%25 of the average length of hits to this gene.;locus_tag=IACDABIC_377_pseudo_00222;old_locus_tag=IACDABIC_03868
+IACDABIC_142	pseudofinder	gene	3212	3334	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 12 blast hits.;locus_tag=IACDABIC_142_pseudo_00223;old_locus_tag=IACDABIC_142_ign_00003
+IACDABIC_82	pseudofinder	gene	3221	3453	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_82_pseudo_00224;old_locus_tag=IACDABIC_82_ign_00003
+IACDABIC_322	pseudofinder	gene	3278	3844	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 40.6%25 of the average length of hits to this gene.;locus_tag=IACDABIC_322_pseudo_00226;old_locus_tag=IACDABIC_03270
+IACDABIC_37	pseudofinder	gene	3306	4085	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 36.2%25 of the average length of hits to this gene.;locus_tag=IACDABIC_37_pseudo_00227;old_locus_tag=IACDABIC_00106
+IACDABIC_471	pseudofinder	gene	3311	3561	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_471_pseudo_00228;old_locus_tag=IACDABIC_471_ign_00003
+IACDABIC_377	pseudofinder	gene	3320	3507	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_377_pseudo_00229;old_locus_tag=IACDABIC_377_ign_00003
+IACDABIC_123	pseudofinder	gene	3360	3517	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_123_pseudo_00230;old_locus_tag=IACDABIC_123_ign_00003
+IACDABIC_288	pseudofinder	gene	3389	3544	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=IACDABIC_288_pseudo_00231;old_locus_tag=IACDABIC_288_ign_00002
+IACDABIC_115	pseudofinder	gene	3406	4650	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 154.9%25 of the average length of hits to this gene.;locus_tag=IACDABIC_115_pseudo_00232;old_locus_tag=IACDABIC_01033
+IACDABIC_57	pseudofinder	gene	3422	3718	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 174.7%25 of the average length of hits to this gene.;locus_tag=IACDABIC_57_pseudo_00233;old_locus_tag=IACDABIC_00319
+IACDABIC_418	pseudofinder	gene	3427	3918	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 31.2%25 of the average length of hits to this gene.;locus_tag=IACDABIC_418_pseudo_00234;old_locus_tag=IACDABIC_04448
+IACDABIC_65	pseudofinder	gene	3452	3651	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=IACDABIC_65_pseudo_00235;old_locus_tag=IACDABIC_65_ign_00002
+IACDABIC_412	pseudofinder	gene	3534	4412	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 57.6%25 of the average length of hits to this gene.;locus_tag=IACDABIC_412_pseudo_00236;old_locus_tag=IACDABIC_04350
+IACDABIC_265	pseudofinder	gene	3544	3666	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 37.2%25 of the average length of hits to this gene.;locus_tag=IACDABIC_265_pseudo_00237;old_locus_tag=IACDABIC_02666
+IACDABIC_331	pseudofinder	gene	3545	3997	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 54.0%25 of the average length of hits to this gene.;locus_tag=IACDABIC_331_pseudo_00238;old_locus_tag=IACDABIC_03351
+IACDABIC_353	pseudofinder	gene	3546	3818	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 15.1%25 of the average length of hits to this gene.;locus_tag=IACDABIC_353_pseudo_00239;old_locus_tag=IACDABIC_03542
+IACDABIC_471	pseudofinder	gene	3563	3754	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 17.6%25 of the average length of hits to this gene.;locus_tag=IACDABIC_471_pseudo_00240;old_locus_tag=IACDABIC_05030
+IACDABIC_409	pseudofinder	gene	3667	3809	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_409_pseudo_00241;old_locus_tag=IACDABIC_409_ign_00005
+IACDABIC_265	pseudofinder	gene	3694	3924	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 63.1%25 of the average length of hits to this gene.;locus_tag=IACDABIC_265_pseudo_00242;old_locus_tag=IACDABIC_02667
+IACDABIC_27	pseudofinder	gene	3706	4035	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 13.7%25 of the average length of hits to this gene.;locus_tag=IACDABIC_27_pseudo_00243;old_locus_tag=IACDABIC_00080
+IACDABIC_287	pseudofinder	gene	3707	3961	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 22.1%25 of the average length of hits to this gene.;locus_tag=IACDABIC_287_pseudo_00244;old_locus_tag=IACDABIC_02863
+IACDABIC_193	pseudofinder	gene	3707	4405	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 20.4%25 of the average length of hits to this gene.;locus_tag=IACDABIC_193_pseudo_00245;old_locus_tag=IACDABIC_01917
+IACDABIC_198	pseudofinder	gene	3723	3836	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 45.0%25 of the average length of hits to this gene.;locus_tag=IACDABIC_198_pseudo_00246;old_locus_tag=IACDABIC_01952
+IACDABIC_411	pseudofinder	gene	3779	4018	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 47.5%25 of the average length of hits to this gene.;locus_tag=IACDABIC_411_pseudo_00247;old_locus_tag=IACDABIC_04344
+IACDABIC_158	pseudofinder	gene	3811	3969	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 13.5%25 of the average length of hits to this gene.;locus_tag=IACDABIC_158_pseudo_00248;old_locus_tag=IACDABIC_01467
+IACDABIC_409	pseudofinder	gene	3813	3986	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 12.6%25 of the average length of hits to this gene.;locus_tag=IACDABIC_409_pseudo_00249;old_locus_tag=IACDABIC_04281
+IACDABIC_441	pseudofinder	gene	3822	4991	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 53.6%25 of the average length of hits to this gene.;locus_tag=IACDABIC_441_pseudo_00250;old_locus_tag=IACDABIC_04722
+IACDABIC_260	pseudofinder	gene	3824	3987	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_260_pseudo_00251;old_locus_tag=IACDABIC_260_ign_00003
+IACDABIC_72	pseudofinder	gene	3866	4489	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 48.4%25 of the average length of hits to this gene.;locus_tag=IACDABIC_72_pseudo_00252;old_locus_tag=IACDABIC_00504
+IACDABIC_291	pseudofinder	gene	3916	3989	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 9 blast hits.;locus_tag=IACDABIC_291_pseudo_00254;old_locus_tag=IACDABIC_291_ign_00004
+IACDABIC_94	pseudofinder	gene	3934	5886	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 50.2%25 of the average length of hits to this gene.;locus_tag=IACDABIC_94_pseudo_00255;old_locus_tag=IACDABIC_00769
+IACDABIC_152	pseudofinder	gene	3950	4078	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=IACDABIC_152_pseudo_00256;old_locus_tag=IACDABIC_152_ign_00003
+IACDABIC_126	pseudofinder	gene	3969	4111	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 10 blast hits.;locus_tag=IACDABIC_126_pseudo_00257;old_locus_tag=IACDABIC_126_ign_00004
+IACDABIC_393	pseudofinder	gene	4155	8423	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 141.8%25 of the average length of hits to this gene.;locus_tag=IACDABIC_393_pseudo_00259;old_locus_tag=IACDABIC_04064
+IACDABIC_58	pseudofinder	gene	4169	4278	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_58_pseudo_00260;old_locus_tag=IACDABIC_58_ign_00001
+IACDABIC_407	pseudofinder	gene	4206	4375	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_407_pseudo_00262;old_locus_tag=IACDABIC_407_ign_00002
+IACDABIC_34	pseudofinder	gene	4238	4350	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=IACDABIC_34_pseudo_00263;old_locus_tag=IACDABIC_34_ign_00003
+IACDABIC_107	pseudofinder	gene	4254	4402	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_107_pseudo_00264;old_locus_tag=IACDABIC_107_ign_00003
+IACDABIC_282	pseudofinder	gene	4427	4750	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 28.0%25 of the average length of hits to this gene.;locus_tag=IACDABIC_282_pseudo_00267;old_locus_tag=IACDABIC_02819
+IACDABIC_217	pseudofinder	gene	4440	4869	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_217_pseudo_00268;old_locus_tag=IACDABIC_217_ign_00003
+IACDABIC_461	pseudofinder	gene	4454	4735	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 9 blast hits.;locus_tag=IACDABIC_461_pseudo_00269;old_locus_tag=IACDABIC_461_ign_00004
+IACDABIC_359	pseudofinder	gene	4478	4708	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 21.9%25 of the average length of hits to this gene.;locus_tag=IACDABIC_359_pseudo_00270;old_locus_tag=IACDABIC_03631
+IACDABIC_61	pseudofinder	gene	4489	4622	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=IACDABIC_61_pseudo_00271;old_locus_tag=IACDABIC_61_ign_00001
+IACDABIC_320	pseudofinder	gene	4502	5668	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 50.6%25 of the average length of hits to this gene.;locus_tag=IACDABIC_320_pseudo_00273;old_locus_tag=IACDABIC_03242
+IACDABIC_290	pseudofinder	gene	4521	5144	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 139.7%25 of the average length of hits to this gene.;locus_tag=IACDABIC_290_pseudo_00274;old_locus_tag=IACDABIC_02899
+IACDABIC_361	pseudofinder	gene	4540	4698	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 12.4%25 of the average length of hits to this gene.;locus_tag=IACDABIC_361_pseudo_00275;old_locus_tag=IACDABIC_03662
+IACDABIC_303	pseudofinder	gene	4541	4819	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 24.3%25 of the average length of hits to this gene.;locus_tag=IACDABIC_303_pseudo_00276;old_locus_tag=IACDABIC_03048
+IACDABIC_424	pseudofinder	gene	4558	4704	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 12.1%25 of the average length of hits to this gene.;locus_tag=IACDABIC_424_pseudo_00277;old_locus_tag=IACDABIC_04523
+IACDABIC_446	pseudofinder	gene	4602	4729	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 8 blast hits.;locus_tag=IACDABIC_446_pseudo_00278;old_locus_tag=IACDABIC_446_ign_00004
+IACDABIC_246	pseudofinder	gene	4609	4983	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 36.7%25 of the average length of hits to this gene.;locus_tag=IACDABIC_246_pseudo_00279;old_locus_tag=IACDABIC_02471
+IACDABIC_284	pseudofinder	gene	4613	6734	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=IACDABIC_284_pseudo_00280;old_locus_tag=IACDABIC_02835,IACDABIC_02834
+IACDABIC_128	pseudofinder	gene	4711	4874	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=IACDABIC_128_pseudo_00282;old_locus_tag=IACDABIC_128_ign_00003
+IACDABIC_48	pseudofinder	gene	4718	4852	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 8 blast hits.;locus_tag=IACDABIC_48_pseudo_00283;old_locus_tag=IACDABIC_48_ign_00003
+IACDABIC_446	pseudofinder	gene	4731	5174	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 35.4%25 of the average length of hits to this gene.;locus_tag=IACDABIC_446_pseudo_00284;old_locus_tag=IACDABIC_04795
+IACDABIC_141	pseudofinder	gene	4780	6537	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 64.9%25 of the average length of hits to this gene.;locus_tag=IACDABIC_141_pseudo_00285;old_locus_tag=IACDABIC_01307
+IACDABIC_206	pseudofinder	gene	4815	7492	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=IACDABIC_206_pseudo_00286;old_locus_tag=IACDABIC_206_ign_00006,IACDABIC_02071
+IACDABIC_369	pseudofinder	gene	4841	5088	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_369_pseudo_00287;old_locus_tag=IACDABIC_369_ign_00004
+IACDABIC_377	pseudofinder	gene	4914	5567	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 31.2%25 of the average length of hits to this gene.;locus_tag=IACDABIC_377_pseudo_00290;old_locus_tag=IACDABIC_03870
+IACDABIC_72	pseudofinder	gene	4932	5207	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 11.3%25 of the average length of hits to this gene.;locus_tag=IACDABIC_72_pseudo_00291;old_locus_tag=IACDABIC_00505
+IACDABIC_217	pseudofinder	gene	4946	5134	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 20.0%25 of the average length of hits to this gene.;locus_tag=IACDABIC_217_pseudo_00292;old_locus_tag=IACDABIC_02188
+IACDABIC_246	pseudofinder	gene	5000	5109	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=IACDABIC_246_pseudo_00294;old_locus_tag=IACDABIC_246_ign_00006
+IACDABIC_424	pseudofinder	gene	5000	5101	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 20.2%25 of the average length of hits to this gene.;locus_tag=IACDABIC_424_pseudo_00295;old_locus_tag=IACDABIC_04525
+IACDABIC_352	pseudofinder	gene	5065	5482	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=IACDABIC_352_pseudo_00296;old_locus_tag=IACDABIC_352_ign_00006
+IACDABIC_439	pseudofinder	gene	5106	5224	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=IACDABIC_439_pseudo_00297;old_locus_tag=IACDABIC_439_ign_00002
+IACDABIC_267	pseudofinder	gene	5107	5304	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 54.5%25 of the average length of hits to this gene.;locus_tag=IACDABIC_267_pseudo_00298;old_locus_tag=IACDABIC_02679
+IACDABIC_217	pseudofinder	gene	5135	5214	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_217_pseudo_00299;old_locus_tag=IACDABIC_217_ign_00004
+IACDABIC_363	pseudofinder	gene	5172	5305	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 10 blast hits.;locus_tag=IACDABIC_363_pseudo_00300;old_locus_tag=IACDABIC_363_ign_00003
+IACDABIC_64	pseudofinder	gene	5206	5610	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_64_pseudo_00301;old_locus_tag=IACDABIC_64_ign_00006
+IACDABIC_471	pseudofinder	gene	5224	5835	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 57.7%25 of the average length of hits to this gene.;locus_tag=IACDABIC_471_pseudo_00302;old_locus_tag=IACDABIC_05032
+IACDABIC_199	pseudofinder	gene	5261	5884	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 8 blast hits.;locus_tag=IACDABIC_199_pseudo_00303;old_locus_tag=IACDABIC_199_ign_00004
+IACDABIC_161	pseudofinder	gene	5304	6044	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 62.2%25 of the average length of hits to this gene.;locus_tag=IACDABIC_161_pseudo_00304;old_locus_tag=IACDABIC_01533
+IACDABIC_267	pseudofinder	gene	5311	5529	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 59.7%25 of the average length of hits to this gene.;locus_tag=IACDABIC_267_pseudo_00305;old_locus_tag=IACDABIC_02680
+IACDABIC_116	pseudofinder	gene	5411	5693	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_116_pseudo_00306;old_locus_tag=IACDABIC_116_ign_00004
+IACDABIC_302	pseudofinder	gene	5413	5537	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=IACDABIC_302_pseudo_00307;old_locus_tag=IACDABIC_302_ign_00004
+IACDABIC_173	pseudofinder	gene	5437	5586	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 25.3%25 of the average length of hits to this gene.;locus_tag=IACDABIC_173_pseudo_00308;old_locus_tag=IACDABIC_01713
+IACDABIC_306	pseudofinder	gene	5457	5573	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 7.6%25 of the average length of hits to this gene.;locus_tag=IACDABIC_306_pseudo_00309;old_locus_tag=IACDABIC_03063
+IACDABIC_231	pseudofinder	gene	5486	5746	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 34.5%25 of the average length of hits to this gene.;locus_tag=IACDABIC_231_pseudo_00310;old_locus_tag=IACDABIC_02328
+IACDABIC_93	pseudofinder	gene	5505	6878	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=IACDABIC_93_pseudo_00311;old_locus_tag=IACDABIC_00765,IACDABIC_93_ign_00004,IACDABIC_00764
+IACDABIC_145	pseudofinder	gene	5508	5678	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 51.1%25 of the average length of hits to this gene.;locus_tag=IACDABIC_145_pseudo_00312;old_locus_tag=IACDABIC_01347
+IACDABIC_99	pseudofinder	gene	5545	5783	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=IACDABIC_99_pseudo_00313;old_locus_tag=IACDABIC_99_ign_00004
+IACDABIC_173	pseudofinder	gene	5587	6321	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_173_pseudo_00314;old_locus_tag=IACDABIC_173_ign_00008
+IACDABIC_7	pseudofinder	gene	5612	5796	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_7_pseudo_00315;old_locus_tag=IACDABIC_7_ign_00005
+IACDABIC_256	pseudofinder	gene	5665	5967	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 51.5%25 of the average length of hits to this gene.;locus_tag=IACDABIC_256_pseudo_00316;old_locus_tag=IACDABIC_02535
+IACDABIC_320	pseudofinder	gene	5669	5769	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_320_pseudo_00317;old_locus_tag=IACDABIC_320_ign_00004
+IACDABIC_424	pseudofinder	gene	5678	5778	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_424_pseudo_00319;old_locus_tag=IACDABIC_424_ign_00007
+IACDABIC_49	pseudofinder	gene	5762	6214	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 33.2%25 of the average length of hits to this gene.;locus_tag=IACDABIC_49_pseudo_00320;old_locus_tag=IACDABIC_00180
+IACDABIC_320	pseudofinder	gene	5773	7077	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 52.8%25 of the average length of hits to this gene.;locus_tag=IACDABIC_320_pseudo_00321;old_locus_tag=IACDABIC_03243
+IACDABIC_65	pseudofinder	gene	5781	6190	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_65_pseudo_00322;old_locus_tag=IACDABIC_65_ign_00004
+IACDABIC_119	pseudofinder	gene	5788	6224	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_119_pseudo_00323;old_locus_tag=IACDABIC_119_ign_00005
+IACDABIC_187	pseudofinder	gene	5794	6078	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 140.0%25 of the average length of hits to this gene.;locus_tag=IACDABIC_187_pseudo_00324;old_locus_tag=IACDABIC_01891
+IACDABIC_355	pseudofinder	gene	5844	6077	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 60.7%25 of the average length of hits to this gene.;locus_tag=IACDABIC_355_pseudo_00325;old_locus_tag=IACDABIC_03577
+IACDABIC_268	pseudofinder	gene	5856	5942	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=IACDABIC_268_pseudo_00326;old_locus_tag=IACDABIC_268_ign_00003
+IACDABIC_43	pseudofinder	gene	5872	6146	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_43_pseudo_00327;old_locus_tag=IACDABIC_43_ign_00003
+IACDABIC_246	pseudofinder	gene	5889	6341	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 51.7%25 of the average length of hits to this gene.;locus_tag=IACDABIC_246_pseudo_00328;old_locus_tag=IACDABIC_02473
+IACDABIC_357	pseudofinder	gene	5940	6425	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 46.8%25 of the average length of hits to this gene.;locus_tag=IACDABIC_357_pseudo_00329;old_locus_tag=IACDABIC_03599
+IACDABIC_101	pseudofinder	gene	5967	6716	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 50.6%25 of the average length of hits to this gene.;locus_tag=IACDABIC_101_pseudo_00330;old_locus_tag=IACDABIC_00814
+IACDABIC_449	pseudofinder	gene	5987	6400	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 47.1%25 of the average length of hits to this gene.;locus_tag=IACDABIC_449_pseudo_00331;old_locus_tag=IACDABIC_04817
+IACDABIC_83	pseudofinder	gene	6002	6205	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 53.5%25 of the average length of hits to this gene.;locus_tag=IACDABIC_83_pseudo_00332;old_locus_tag=IACDABIC_00628
+IACDABIC_102	pseudofinder	gene	6004	6203	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 8 blast hits.;locus_tag=IACDABIC_102_pseudo_00333;old_locus_tag=IACDABIC_102_ign_00007
+IACDABIC_388	pseudofinder	gene	6035	6198	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=IACDABIC_388_pseudo_00334;old_locus_tag=IACDABIC_388_ign_00004
+IACDABIC_367	pseudofinder	gene	6036	6206	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 21.7%25 of the average length of hits to this gene.;locus_tag=IACDABIC_367_pseudo_00335;old_locus_tag=IACDABIC_03745
+IACDABIC_194	pseudofinder	gene	6198	6557	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 49.9%25 of the average length of hits to this gene.;locus_tag=IACDABIC_194_pseudo_00336;old_locus_tag=IACDABIC_01924
+IACDABIC_438	pseudofinder	gene	6202	6353	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 8 blast hits.;locus_tag=IACDABIC_438_pseudo_00337;old_locus_tag=IACDABIC_438_ign_00001
+IACDABIC_49	pseudofinder	gene	6215	6546	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_49_pseudo_00338;old_locus_tag=IACDABIC_49_ign_00005
+IACDABIC_184	pseudofinder	gene	6215	6676	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 52.6%25 of the average length of hits to this gene.;locus_tag=IACDABIC_184_pseudo_00339;old_locus_tag=IACDABIC_01835
+IACDABIC_301	pseudofinder	gene	6225	6334	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_301_pseudo_00340;old_locus_tag=IACDABIC_301_ign_00003
+IACDABIC_182	pseudofinder	gene	6228	6497	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 16.6%25 of the average length of hits to this gene.;locus_tag=IACDABIC_182_pseudo_00341;old_locus_tag=IACDABIC_01794
+IACDABIC_356	pseudofinder	gene	6243	6581	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 56.3%25 of the average length of hits to this gene.;locus_tag=IACDABIC_356_pseudo_00342;old_locus_tag=IACDABIC_03583
+IACDABIC_367	pseudofinder	gene	6244	6428	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_367_pseudo_00343;old_locus_tag=IACDABIC_367_ign_00006
+IACDABIC_102	pseudofinder	gene	6326	6658	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 135.9%25 of the average length of hits to this gene.;locus_tag=IACDABIC_102_pseudo_00344;old_locus_tag=IACDABIC_00863
+IACDABIC_341	pseudofinder	gene	6335	7951	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 43.5%25 of the average length of hits to this gene.;locus_tag=IACDABIC_341_pseudo_00345;old_locus_tag=IACDABIC_03463
+IACDABIC_130	pseudofinder	gene	6361	9906	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 57.1%25 of the average length of hits to this gene.;locus_tag=IACDABIC_130_pseudo_00346;old_locus_tag=IACDABIC_01226
+IACDABIC_438	pseudofinder	gene	6362	8020	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=IACDABIC_438_pseudo_00347;old_locus_tag=IACDABIC_04688,IACDABIC_04689,IACDABIC_438_ign_00002
+IACDABIC_87	pseudofinder	gene	6363	6965	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=IACDABIC_87_pseudo_00348;old_locus_tag=IACDABIC_87_ign_00006
+IACDABIC_407	pseudofinder	gene	6465	6614	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 64.9%25 of the average length of hits to this gene.;locus_tag=IACDABIC_407_pseudo_00349;old_locus_tag=IACDABIC_04240
+IACDABIC_323	pseudofinder	gene	6470	7396	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 21.7%25 of the average length of hits to this gene.;locus_tag=IACDABIC_323_pseudo_00350;old_locus_tag=IACDABIC_03276
+IACDABIC_173	pseudofinder	gene	6500	6667	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 35.8%25 of the average length of hits to this gene.;locus_tag=IACDABIC_173_pseudo_00351;old_locus_tag=IACDABIC_01714
+IACDABIC_182	pseudofinder	gene	6509	7323	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=IACDABIC_182_pseudo_00352;old_locus_tag=IACDABIC_01795,IACDABIC_182_ign_00008,IACDABIC_182_ign_00007
+IACDABIC_290	pseudofinder	gene	6516	6860	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=IACDABIC_290_pseudo_00353;old_locus_tag=IACDABIC_290_ign_00006
+IACDABIC_416	pseudofinder	gene	6518	6799	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 49.0%25 of the average length of hits to this gene.;locus_tag=IACDABIC_416_pseudo_00354;old_locus_tag=IACDABIC_04387
+IACDABIC_52	pseudofinder	gene	6524	6762	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=IACDABIC_52_pseudo_00355;old_locus_tag=IACDABIC_52_ign_00003
+IACDABIC_316	pseudofinder	gene	6532	7626	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 167.8%25 of the average length of hits to this gene.;locus_tag=IACDABIC_316_pseudo_00356;old_locus_tag=IACDABIC_03195
+IACDABIC_194	pseudofinder	gene	6559	6659	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_194_pseudo_00358;old_locus_tag=IACDABIC_194_ign_00007
+IACDABIC_370	pseudofinder	gene	6574	6738	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 28.3%25 of the average length of hits to this gene.;locus_tag=IACDABIC_370_pseudo_00359;old_locus_tag=IACDABIC_03797
+IACDABIC_325	pseudofinder	gene	6577	6756	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 34.9%25 of the average length of hits to this gene.;locus_tag=IACDABIC_325_pseudo_00360;old_locus_tag=IACDABIC_03303
+IACDABIC_356	pseudofinder	gene	6583	6668	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=IACDABIC_356_pseudo_00361;old_locus_tag=IACDABIC_356_ign_00006
+IACDABIC_114	pseudofinder	gene	6654	6975	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_114_pseudo_00363;old_locus_tag=IACDABIC_114_ign_00004
+IACDABIC_194	pseudofinder	gene	6661	6924	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 38.2%25 of the average length of hits to this gene.;locus_tag=IACDABIC_194_pseudo_00365;old_locus_tag=IACDABIC_01925
+IACDABIC_184	pseudofinder	gene	6664	7035	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 45.6%25 of the average length of hits to this gene.;locus_tag=IACDABIC_184_pseudo_00366;old_locus_tag=IACDABIC_01836
+IACDABIC_356	pseudofinder	gene	6681	6953	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 47.0%25 of the average length of hits to this gene.;locus_tag=IACDABIC_356_pseudo_00367;old_locus_tag=IACDABIC_03584
+IACDABIC_176	pseudofinder	gene	6711	6811	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_176_pseudo_00368;old_locus_tag=IACDABIC_176_ign_00004
+IACDABIC_286	pseudofinder	gene	6716	7657	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 45.1%25 of the average length of hits to this gene.;locus_tag=IACDABIC_286_pseudo_00369;old_locus_tag=IACDABIC_02858
+IACDABIC_57	pseudofinder	gene	6748	7405	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=IACDABIC_57_pseudo_00370;old_locus_tag=IACDABIC_00324,IACDABIC_00323
+IACDABIC_103	pseudofinder	gene	6797	7035	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 9 blast hits.;locus_tag=IACDABIC_103_pseudo_00371;old_locus_tag=IACDABIC_103_ign_00006
+IACDABIC_416	pseudofinder	gene	6802	6860	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_416_pseudo_00372;old_locus_tag=IACDABIC_416_ign_00004
+IACDABIC_225	pseudofinder	gene	6852	7036	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=IACDABIC_225_pseudo_00373;old_locus_tag=IACDABIC_225_ign_00005
+IACDABIC_62	pseudofinder	gene	6860	7510	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 37.1%25 of the average length of hits to this gene.;locus_tag=IACDABIC_62_pseudo_00374;old_locus_tag=IACDABIC_00363
+IACDABIC_416	pseudofinder	gene	6862	7116	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 44.4%25 of the average length of hits to this gene.;locus_tag=IACDABIC_416_pseudo_00375;old_locus_tag=IACDABIC_04388
+IACDABIC_296	pseudofinder	gene	6866	7050	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_296_pseudo_00376;old_locus_tag=IACDABIC_296_ign_00004
+IACDABIC_367	pseudofinder	gene	6870	7059	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=IACDABIC_367_pseudo_00377;old_locus_tag=IACDABIC_367_ign_00007
+IACDABIC_301	pseudofinder	gene	6883	11118	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 214.4%25 of the average length of hits to this gene.;locus_tag=IACDABIC_301_pseudo_00378;old_locus_tag=IACDABIC_03010
+IACDABIC_291	pseudofinder	gene	6885	7951	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=IACDABIC_291_pseudo_00379;old_locus_tag=IACDABIC_02919,IACDABIC_02918
+IACDABIC_85	pseudofinder	gene	6947	7047	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_85_pseudo_00380;old_locus_tag=IACDABIC_85_ign_00006
+IACDABIC_7	pseudofinder	gene	6965	7564	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 63.9%25 of the average length of hits to this gene.;locus_tag=IACDABIC_7_pseudo_00381;old_locus_tag=IACDABIC_00022
+IACDABIC_114	pseudofinder	gene	6977	7153	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 35.9%25 of the average length of hits to this gene.;locus_tag=IACDABIC_114_pseudo_00382;old_locus_tag=IACDABIC_01028
+IACDABIC_119	pseudofinder	gene	6992	7485	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_119_pseudo_00384;old_locus_tag=IACDABIC_119_ign_00006
+IACDABIC_273	pseudofinder	gene	7008	7445	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 46.8%25 of the average length of hits to this gene.;locus_tag=IACDABIC_273_pseudo_00385;old_locus_tag=IACDABIC_02740
+IACDABIC_239	pseudofinder	gene	7049	7212	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_239_pseudo_00386;old_locus_tag=IACDABIC_239_ign_00004
+IACDABIC_410	pseudofinder	gene	7062	7231	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_410_pseudo_00387;old_locus_tag=IACDABIC_410_ign_00006
+IACDABIC_262	pseudofinder	gene	7096	7181	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=IACDABIC_262_pseudo_00388;old_locus_tag=IACDABIC_262_ign_00007
+IACDABIC_367	pseudofinder	gene	7105	7859	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=IACDABIC_367_pseudo_00389;old_locus_tag=IACDABIC_367_ign_00008,IACDABIC_03747,IACDABIC_03748
+IACDABIC_288	pseudofinder	gene	7163	7233	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_288_pseudo_00391;old_locus_tag=IACDABIC_288_ign_00005
+IACDABIC_85	pseudofinder	gene	7166	7366	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 55.8%25 of the average length of hits to this gene.;locus_tag=IACDABIC_85_pseudo_00392;old_locus_tag=IACDABIC_00653
+IACDABIC_76	pseudofinder	gene	7167	7294	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 8 blast hits.;locus_tag=IACDABIC_76_pseudo_00393;old_locus_tag=IACDABIC_76_ign_00004
+IACDABIC_114	pseudofinder	gene	7178	7551	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_114_pseudo_00394;old_locus_tag=IACDABIC_114_ign_00005
+IACDABIC_288	pseudofinder	gene	7235	7874	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=IACDABIC_288_pseudo_00395;old_locus_tag=IACDABIC_02869,IACDABIC_02870,IACDABIC_288_ign_00006
+IACDABIC_76	pseudofinder	gene	7296	8093	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 26.7%25 of the average length of hits to this gene.;locus_tag=IACDABIC_76_pseudo_00396;old_locus_tag=IACDABIC_00556
+IACDABIC_83	pseudofinder	gene	7318	7433	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_83_pseudo_00397;old_locus_tag=IACDABIC_83_ign_00007
+IACDABIC_182	pseudofinder	gene	7326	8207	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 60.5%25 of the average length of hits to this gene.;locus_tag=IACDABIC_182_pseudo_00398;old_locus_tag=IACDABIC_01796
+IACDABIC_311	pseudofinder	gene	7356	7499	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 19.5%25 of the average length of hits to this gene.;locus_tag=IACDABIC_311_pseudo_00399;old_locus_tag=IACDABIC_03126
+IACDABIC_323	pseudofinder	gene	7399	7529	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_323_pseudo_00401;old_locus_tag=IACDABIC_323_ign_00005
+IACDABIC_151	pseudofinder	gene	7433	7657	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 58.4%25 of the average length of hits to this gene.;locus_tag=IACDABIC_151_pseudo_00402;old_locus_tag=IACDABIC_01411
+IACDABIC_435	pseudofinder	gene	7493	7914	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 11 blast hits.;locus_tag=IACDABIC_435_pseudo_00403;old_locus_tag=IACDABIC_435_ign_00008
+IACDABIC_206	pseudofinder	gene	7496	7741	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 9.8%25 of the average length of hits to this gene.;locus_tag=IACDABIC_206_pseudo_00404;old_locus_tag=IACDABIC_02072
+IACDABIC_173	pseudofinder	gene	7516	7625	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_173_pseudo_00406;old_locus_tag=IACDABIC_173_ign_00012
+IACDABIC_274	pseudofinder	gene	7647	7982	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 9 blast hits.;locus_tag=IACDABIC_274_pseudo_00407;old_locus_tag=IACDABIC_274_ign_00004
+IACDABIC_52	pseudofinder	gene	7655	7773	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_52_pseudo_00408;old_locus_tag=IACDABIC_52_ign_00004
+IACDABIC_430	pseudofinder	gene	7711	7985	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 11 blast hits.;locus_tag=IACDABIC_430_pseudo_00409;old_locus_tag=IACDABIC_430_ign_00006
+IACDABIC_286	pseudofinder	gene	7721	8842	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 50.5%25 of the average length of hits to this gene.;locus_tag=IACDABIC_286_pseudo_00410;old_locus_tag=IACDABIC_02859
+IACDABIC_421	pseudofinder	gene	7737	7951	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=IACDABIC_421_pseudo_00411;old_locus_tag=IACDABIC_421_ign_00005
+IACDABIC_80	pseudofinder	gene	7765	7907	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=IACDABIC_80_pseudo_00413;old_locus_tag=IACDABIC_80_ign_00006
+IACDABIC_47	pseudofinder	gene	7856	8737	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 36.0%25 of the average length of hits to this gene.;locus_tag=IACDABIC_47_pseudo_00414;old_locus_tag=IACDABIC_00153
+IACDABIC_398	pseudofinder	gene	7877	8046	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_398_pseudo_00415;old_locus_tag=IACDABIC_398_ign_00006
+IACDABIC_173	pseudofinder	gene	7884	8498	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 51.3%25 of the average length of hits to this gene.;locus_tag=IACDABIC_173_pseudo_00416;old_locus_tag=IACDABIC_01718
+IACDABIC_258	pseudofinder	gene	7902	9869	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 170.8%25 of the average length of hits to this gene.;locus_tag=IACDABIC_258_pseudo_00417;old_locus_tag=IACDABIC_02549
+IACDABIC_170	pseudofinder	gene	7914	8317	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_170_pseudo_00418;old_locus_tag=IACDABIC_170_ign_00003
+IACDABIC_267	pseudofinder	gene	7944	9086	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 52.6%25 of the average length of hits to this gene.;locus_tag=IACDABIC_267_pseudo_00419;old_locus_tag=IACDABIC_02687
+IACDABIC_410	pseudofinder	gene	7947	8206	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_410_pseudo_00420;old_locus_tag=IACDABIC_410_ign_00007
+IACDABIC_308	pseudofinder	gene	7951	8409	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 33.6%25 of the average length of hits to this gene.;locus_tag=IACDABIC_308_pseudo_00421;old_locus_tag=IACDABIC_03103
+IACDABIC_415	pseudofinder	gene	7963	8615	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_415_pseudo_00422;old_locus_tag=IACDABIC_415_ign_00007
+IACDABIC_457	pseudofinder	gene	8026	9173	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_457_pseudo_00423;old_locus_tag=IACDABIC_457_ign_00006
+IACDABIC_398	pseudofinder	gene	8048	8164	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 14.2%25 of the average length of hits to this gene.;locus_tag=IACDABIC_398_pseudo_00424;old_locus_tag=IACDABIC_04107
+IACDABIC_270	pseudofinder	gene	8091	8320	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 11 blast hits.;locus_tag=IACDABIC_270_pseudo_00425;old_locus_tag=IACDABIC_270_ign_00004
+IACDABIC_453	pseudofinder	gene	8108	9631	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 56.4%25 of the average length of hits to this gene.;locus_tag=IACDABIC_453_pseudo_00426;old_locus_tag=IACDABIC_04848
+IACDABIC_119	pseudofinder	gene	8157	8575	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_119_pseudo_00427;old_locus_tag=IACDABIC_119_ign_00007
+IACDABIC_203	pseudofinder	gene	8180	8355	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=IACDABIC_203_pseudo_00429;old_locus_tag=IACDABIC_203_ign_00004
+IACDABIC_263	pseudofinder	gene	8220	8450	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 12.8%25 of the average length of hits to this gene.;locus_tag=IACDABIC_263_pseudo_00430;old_locus_tag=IACDABIC_02639
+IACDABIC_288	pseudofinder	gene	8234	8496	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_288_pseudo_00432;old_locus_tag=IACDABIC_288_ign_00008
+IACDABIC_56	pseudofinder	gene	8266	8354	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=IACDABIC_56_pseudo_00433;old_locus_tag=IACDABIC_56_ign_00007
+IACDABIC_338	pseudofinder	gene	8311	8880	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 55.4%25 of the average length of hits to this gene.;locus_tag=IACDABIC_338_pseudo_00434;old_locus_tag=IACDABIC_03423
+IACDABIC_48	pseudofinder	gene	8313	8999	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 45.2%25 of the average length of hits to this gene.;locus_tag=IACDABIC_48_pseudo_00435;old_locus_tag=IACDABIC_00164
+IACDABIC_173	pseudofinder	gene	8515	8769	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 22.7%25 of the average length of hits to this gene.;locus_tag=IACDABIC_173_pseudo_00436;old_locus_tag=IACDABIC_01719
+IACDABIC_105	pseudofinder	gene	8521	8862	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 53.1%25 of the average length of hits to this gene.;locus_tag=IACDABIC_105_pseudo_00437;old_locus_tag=IACDABIC_00895
+IACDABIC_354	pseudofinder	gene	8534	8637	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=IACDABIC_354_pseudo_00438;old_locus_tag=IACDABIC_354_ign_00006
+IACDABIC_373	pseudofinder	gene	8571	8725	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=IACDABIC_373_pseudo_00439;old_locus_tag=IACDABIC_373_ign_00008
+IACDABIC_268	pseudofinder	gene	8589	8756	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 30.5%25 of the average length of hits to this gene.;locus_tag=IACDABIC_268_pseudo_00440;old_locus_tag=IACDABIC_02702
+IACDABIC_178	pseudofinder	gene	8635	8946	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 43.3%25 of the average length of hits to this gene.;locus_tag=IACDABIC_178_pseudo_00441;old_locus_tag=IACDABIC_01763
+IACDABIC_204	pseudofinder	gene	8638	8765	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_204_pseudo_00442;old_locus_tag=IACDABIC_204_ign_00004
+IACDABIC_430	pseudofinder	gene	8657	8835	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_430_pseudo_00443;old_locus_tag=IACDABIC_430_ign_00007
+IACDABIC_416	pseudofinder	gene	8766	9191	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 58.3%25 of the average length of hits to this gene.;locus_tag=IACDABIC_416_pseudo_00445;old_locus_tag=IACDABIC_04390
+IACDABIC_231	pseudofinder	gene	8942	9124	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 30.3%25 of the average length of hits to this gene.;locus_tag=IACDABIC_231_pseudo_00446;old_locus_tag=IACDABIC_02331
+IACDABIC_389	pseudofinder	gene	8954	9162	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_389_pseudo_00447;old_locus_tag=IACDABIC_389_ign_00006
+IACDABIC_67	pseudofinder	gene	9002	13633	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 45.1%25 of the average length of hits to this gene.;locus_tag=IACDABIC_67_pseudo_00448;old_locus_tag=IACDABIC_00488
+IACDABIC_48	pseudofinder	gene	9037	9160	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 8 blast hits.;locus_tag=IACDABIC_48_pseudo_00449;old_locus_tag=IACDABIC_48_ign_00007
+IACDABIC_267	pseudofinder	gene	9092	9442	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 28.5%25 of the average length of hits to this gene.;locus_tag=IACDABIC_267_pseudo_00450;old_locus_tag=IACDABIC_02688
+IACDABIC_438	pseudofinder	gene	9093	9719	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 25.9%25 of the average length of hits to this gene.;locus_tag=IACDABIC_438_pseudo_00451;old_locus_tag=IACDABIC_04691
+IACDABIC_48	pseudofinder	gene	9162	10067	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 57.6%25 of the average length of hits to this gene.;locus_tag=IACDABIC_48_pseudo_00452;old_locus_tag=IACDABIC_00165
+IACDABIC_367	pseudofinder	gene	9166	9585	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 38.6%25 of the average length of hits to this gene.;locus_tag=IACDABIC_367_pseudo_00453;old_locus_tag=IACDABIC_03751
+IACDABIC_62	pseudofinder	gene	9236	9511	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 45.0%25 of the average length of hits to this gene.;locus_tag=IACDABIC_62_pseudo_00455;old_locus_tag=IACDABIC_00366
+IACDABIC_457	pseudofinder	gene	9268	9944	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_457_pseudo_00456;old_locus_tag=IACDABIC_457_ign_00007
+IACDABIC_369	pseudofinder	gene	9387	9586	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_369_pseudo_00458;old_locus_tag=IACDABIC_369_ign_00008
+IACDABIC_192	pseudofinder	gene	9427	9867	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 41.7%25 of the average length of hits to this gene.;locus_tag=IACDABIC_192_pseudo_00459;old_locus_tag=IACDABIC_01913
+IACDABIC_367	pseudofinder	gene	9586	9803	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_367_pseudo_00460;old_locus_tag=IACDABIC_367_ign_00011
+IACDABIC_461	pseudofinder	gene	9626	9837	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_461_pseudo_00461;old_locus_tag=IACDABIC_461_ign_00006
+IACDABIC_66	pseudofinder	gene	9781	9887	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=IACDABIC_66_pseudo_00463;old_locus_tag=IACDABIC_66_ign_00006
+IACDABIC_367	pseudofinder	gene	9807	10358	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 47.8%25 of the average length of hits to this gene.;locus_tag=IACDABIC_367_pseudo_00464;old_locus_tag=IACDABIC_03752
+IACDABIC_83	pseudofinder	gene	9849	9991	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_83_pseudo_00465;old_locus_tag=IACDABIC_83_ign_00008
+IACDABIC_192	pseudofinder	gene	9868	9977	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_192_pseudo_00466;old_locus_tag=IACDABIC_192_ign_00005
+IACDABIC_118	pseudofinder	gene	9894	10247	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 54.4%25 of the average length of hits to this gene.;locus_tag=IACDABIC_118_pseudo_00467;old_locus_tag=IACDABIC_01069
+IACDABIC_302	pseudofinder	gene	9927	10208	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=IACDABIC_302_pseudo_00468;old_locus_tag=IACDABIC_302_ign_00008
+IACDABIC_261	pseudofinder	gene	9938	10149	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 8 blast hits.;locus_tag=IACDABIC_261_pseudo_00469;old_locus_tag=IACDABIC_261_ign_00008
+IACDABIC_192	pseudofinder	gene	9980	10315	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 28.7%25 of the average length of hits to this gene.;locus_tag=IACDABIC_192_pseudo_00470;old_locus_tag=IACDABIC_01914
+IACDABIC_109	pseudofinder	gene	10050	10177	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 13 blast hits.;locus_tag=IACDABIC_109_pseudo_00471;old_locus_tag=IACDABIC_109_ign_00009
+IACDABIC_403	pseudofinder	gene	10102	10797	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 45.4%25 of the average length of hits to this gene.;locus_tag=IACDABIC_403_pseudo_00472;old_locus_tag=IACDABIC_04170
+IACDABIC_365	pseudofinder	gene	10115	10507	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 135.1%25 of the average length of hits to this gene.;locus_tag=IACDABIC_365_pseudo_00473;old_locus_tag=IACDABIC_03700
+IACDABIC_290	pseudofinder	gene	10144	10386	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 21.2%25 of the average length of hits to this gene.;locus_tag=IACDABIC_290_pseudo_00474;old_locus_tag=IACDABIC_02904
+IACDABIC_398	pseudofinder	gene	10189	10381	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_398_pseudo_00475;old_locus_tag=IACDABIC_398_ign_00009
+IACDABIC_225	pseudofinder	gene	10237	11704	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=IACDABIC_225_pseudo_00476;old_locus_tag=IACDABIC_225_ign_00009
+IACDABIC_239	pseudofinder	gene	10260	11099	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 57.8%25 of the average length of hits to this gene.;locus_tag=IACDABIC_239_pseudo_00477;old_locus_tag=IACDABIC_02426
+IACDABIC_261	pseudofinder	gene	10306	10452	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 27.0%25 of the average length of hits to this gene.;locus_tag=IACDABIC_261_pseudo_00478;old_locus_tag=IACDABIC_02585
+IACDABIC_88	pseudofinder	gene	10381	10596	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 20.5%25 of the average length of hits to this gene.;locus_tag=IACDABIC_88_pseudo_00479;old_locus_tag=IACDABIC_00718
+IACDABIC_320	pseudofinder	gene	10393	10637	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=IACDABIC_320_pseudo_00480;old_locus_tag=IACDABIC_320_ign_00006
+IACDABIC_222	pseudofinder	gene	10442	10537	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 24.3%25 of the average length of hits to this gene.;locus_tag=IACDABIC_222_pseudo_00481;old_locus_tag=IACDABIC_02235
+IACDABIC_222	pseudofinder	gene	10538	10689	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_222_pseudo_00483;old_locus_tag=IACDABIC_222_ign_00010
+IACDABIC_415	pseudofinder	gene	10566	10703	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 7.4%25 of the average length of hits to this gene.;locus_tag=IACDABIC_415_pseudo_00484;old_locus_tag=IACDABIC_04382
+IACDABIC_73	pseudofinder	gene	10573	10938	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 15.3%25 of the average length of hits to this gene.;locus_tag=IACDABIC_73_pseudo_00485;old_locus_tag=IACDABIC_00529
+IACDABIC_393	pseudofinder	gene	10614	11027	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 168.4%25 of the average length of hits to this gene.;locus_tag=IACDABIC_393_pseudo_00487;old_locus_tag=IACDABIC_04067
+IACDABIC_160	pseudofinder	gene	10615	10824	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 33.7%25 of the average length of hits to this gene.;locus_tag=IACDABIC_160_pseudo_00488;old_locus_tag=IACDABIC_01498
+IACDABIC_409	pseudofinder	gene	10732	10892	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_409_pseudo_00491;old_locus_tag=IACDABIC_409_ign_00011
+IACDABIC_403	pseudofinder	gene	10799	10884	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=IACDABIC_403_pseudo_00492;old_locus_tag=IACDABIC_403_ign_00010
+IACDABIC_360	pseudofinder	gene	10810	11994	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 60.9%25 of the average length of hits to this gene.;locus_tag=IACDABIC_360_pseudo_00493;old_locus_tag=IACDABIC_03656
+IACDABIC_81	pseudofinder	gene	10814	11056	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 54.6%25 of the average length of hits to this gene.;locus_tag=IACDABIC_81_pseudo_00494;old_locus_tag=IACDABIC_00592
+IACDABIC_128	pseudofinder	gene	10824	10954	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_128_pseudo_00495;old_locus_tag=IACDABIC_128_ign_00005
+IACDABIC_290	pseudofinder	gene	10870	11027	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=IACDABIC_290_pseudo_00496;old_locus_tag=IACDABIC_290_ign_00009
+IACDABIC_409	pseudofinder	gene	10894	11368	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=IACDABIC_409_pseudo_00497;old_locus_tag=IACDABIC_409_ign_00012,IACDABIC_04288
+IACDABIC_403	pseudofinder	gene	10897	11031	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 28.5%25 of the average length of hits to this gene.;locus_tag=IACDABIC_403_pseudo_00498;old_locus_tag=IACDABIC_04171
+IACDABIC_128	pseudofinder	gene	10956	11543	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 29.1%25 of the average length of hits to this gene.;locus_tag=IACDABIC_128_pseudo_00500;old_locus_tag=IACDABIC_01211
+IACDABIC_83	pseudofinder	gene	10957	11853	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 42.3%25 of the average length of hits to this gene.;locus_tag=IACDABIC_83_pseudo_00501;old_locus_tag=IACDABIC_00634
+IACDABIC_403	pseudofinder	gene	11060	11251	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 30.3%25 of the average length of hits to this gene.;locus_tag=IACDABIC_403_pseudo_00503;old_locus_tag=IACDABIC_04172
+IACDABIC_292	pseudofinder	gene	11091	12473	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 41.5%25 of the average length of hits to this gene.;locus_tag=IACDABIC_292_pseudo_00504;old_locus_tag=IACDABIC_02927
+IACDABIC_281	pseudofinder	gene	11130	11438	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 52.0%25 of the average length of hits to this gene.;locus_tag=IACDABIC_281_pseudo_00505;old_locus_tag=IACDABIC_02812
+IACDABIC_62	pseudofinder	gene	11134	11294	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_62_pseudo_00506;old_locus_tag=IACDABIC_62_ign_00008
+IACDABIC_306	pseudofinder	gene	11198	11403	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_306_pseudo_00507;old_locus_tag=IACDABIC_306_ign_00011
+IACDABIC_330	pseudofinder	gene	11201	11310	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_330_pseudo_00508;old_locus_tag=IACDABIC_330_ign_00007
+IACDABIC_222	pseudofinder	gene	11234	11532	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_222_pseudo_00509;old_locus_tag=IACDABIC_222_ign_00011
+IACDABIC_262	pseudofinder	gene	11236	11399	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=IACDABIC_262_pseudo_00510;old_locus_tag=IACDABIC_262_ign_00009
+IACDABIC_373	pseudofinder	gene	11239	11667	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 61.5%25 of the average length of hits to this gene.;locus_tag=IACDABIC_373_pseudo_00511;old_locus_tag=IACDABIC_03832
+IACDABIC_72	pseudofinder	gene	11274	11588	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 51.1%25 of the average length of hits to this gene.;locus_tag=IACDABIC_72_pseudo_00512;old_locus_tag=IACDABIC_00509
+IACDABIC_146	pseudofinder	gene	11275	11454	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_146_pseudo_00513;old_locus_tag=IACDABIC_146_ign_00006
+IACDABIC_459	pseudofinder	gene	11346	11915	.	.	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=IACDABIC_459_pseudo_00514;old_locus_tag=IACDABIC_04918,IACDABIC_04919,IACDABIC_04920
+IACDABIC_76	pseudofinder	gene	11367	11479	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=IACDABIC_76_pseudo_00515;old_locus_tag=IACDABIC_76_ign_00008
+IACDABIC_112	pseudofinder	gene	11406	11785	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=IACDABIC_112_pseudo_00516;old_locus_tag=IACDABIC_112_ign_00014
+IACDABIC_43	pseudofinder	gene	11427	11506	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=IACDABIC_43_pseudo_00517;old_locus_tag=IACDABIC_43_ign_00008
+IACDABIC_48	pseudofinder	gene	11429	11532	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=IACDABIC_48_pseudo_00518;old_locus_tag=IACDABIC_48_ign_00009
+IACDABIC_146	pseudofinder	gene	11456	11734	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 17.0%25 of the average length of hits to this gene.;locus_tag=IACDABIC_146_pseudo_00520;old_locus_tag=IACDABIC_01356
+IACDABIC_416	pseudofinder	gene	11491	11835	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 27.1%25 of the average length of hits to this gene.;locus_tag=IACDABIC_416_pseudo_00522;old_locus_tag=IACDABIC_04394
+IACDABIC_369	pseudofinder	gene	11555	12110	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=IACDABIC_369_pseudo_00524;old_locus_tag=IACDABIC_03781,IACDABIC_369_ign_00009
+IACDABIC_222	pseudofinder	gene	11636	11982	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_222_pseudo_00525;old_locus_tag=IACDABIC_222_ign_00012
+IACDABIC_199	pseudofinder	gene	11777	11989	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 27.8%25 of the average length of hits to this gene.;locus_tag=IACDABIC_199_pseudo_00526;old_locus_tag=IACDABIC_01965
+IACDABIC_215	pseudofinder	gene	11870	12343	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 63.8%25 of the average length of hits to this gene.;locus_tag=IACDABIC_215_pseudo_00527;old_locus_tag=IACDABIC_02164
+IACDABIC_290	pseudofinder	gene	12018	12239	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 30.6%25 of the average length of hits to this gene.;locus_tag=IACDABIC_290_pseudo_00528;old_locus_tag=IACDABIC_02908
+IACDABIC_459	pseudofinder	gene	12026	12201	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_459_pseudo_00529;old_locus_tag=IACDABIC_459_ign_00009
+IACDABIC_160	pseudofinder	gene	12063	12368	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 54.0%25 of the average length of hits to this gene.;locus_tag=IACDABIC_160_pseudo_00530;old_locus_tag=IACDABIC_01500
+IACDABIC_182	pseudofinder	gene	12151	12998	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_182_pseudo_00531;old_locus_tag=IACDABIC_182_ign_00014
+IACDABIC_455	pseudofinder	gene	12397	12566	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_455_pseudo_00532;old_locus_tag=IACDABIC_455_ign_00012
+IACDABIC_459	pseudofinder	gene	12425	12629	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_459_pseudo_00533;old_locus_tag=IACDABIC_459_ign_00010
+IACDABIC_382	pseudofinder	gene	12434	13197	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=IACDABIC_382_pseudo_00534;old_locus_tag=IACDABIC_03933,IACDABIC_382_ign_00010,IACDABIC_03932
+IACDABIC_179	pseudofinder	gene	12569	12754	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 43.0%25 of the average length of hits to this gene.;locus_tag=IACDABIC_179_pseudo_00535;old_locus_tag=IACDABIC_01782
+IACDABIC_404	pseudofinder	gene	12573	12800	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 14.3%25 of the average length of hits to this gene.;locus_tag=IACDABIC_404_pseudo_00536;old_locus_tag=IACDABIC_04200
+IACDABIC_135	pseudofinder	gene	12608	12711	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=IACDABIC_135_pseudo_00537;old_locus_tag=IACDABIC_135_ign_00008
+IACDABIC_354	pseudofinder	gene	12657	13199	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 52.3%25 of the average length of hits to this gene.;locus_tag=IACDABIC_354_pseudo_00538;old_locus_tag=IACDABIC_03558
+IACDABIC_43	pseudofinder	gene	12675	12814	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 10 blast hits.;locus_tag=IACDABIC_43_pseudo_00539;old_locus_tag=IACDABIC_43_ign_00011
+IACDABIC_292	pseudofinder	gene	12692	12895	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 16.4%25 of the average length of hits to this gene.;locus_tag=IACDABIC_292_pseudo_00540;old_locus_tag=IACDABIC_02928
+IACDABIC_321	pseudofinder	gene	12748	13382	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_321_pseudo_00541;old_locus_tag=IACDABIC_321_ign_00010
+IACDABIC_443	pseudofinder	gene	12768	12980	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 12.6%25 of the average length of hits to this gene.;locus_tag=IACDABIC_443_pseudo_00542;old_locus_tag=IACDABIC_04756
+IACDABIC_160	pseudofinder	gene	12829	13001	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_160_pseudo_00544;old_locus_tag=IACDABIC_160_ign_00010
+IACDABIC_160	pseudofinder	gene	13003	13314	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 57.3%25 of the average length of hits to this gene.;locus_tag=IACDABIC_160_pseudo_00545;old_locus_tag=IACDABIC_01502
+IACDABIC_452	pseudofinder	gene	13011	13837	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_452_pseudo_00546;old_locus_tag=IACDABIC_452_ign_00008
+IACDABIC_464	pseudofinder	gene	13052	13390	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 36.5%25 of the average length of hits to this gene.;locus_tag=IACDABIC_464_pseudo_00547;old_locus_tag=IACDABIC_04996
+IACDABIC_62	pseudofinder	gene	13246	13376	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=IACDABIC_62_pseudo_00548;old_locus_tag=IACDABIC_62_ign_00010
+IACDABIC_250	pseudofinder	gene	13268	13919	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=IACDABIC_250_pseudo_00549;old_locus_tag=IACDABIC_02495,IACDABIC_250_ign_00007,IACDABIC_02496
+IACDABIC_369	pseudofinder	gene	13362	13718	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 19.1%25 of the average length of hits to this gene.;locus_tag=IACDABIC_369_pseudo_00551;old_locus_tag=IACDABIC_03783
+IACDABIC_119	pseudofinder	gene	13458	13619	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 33.2%25 of the average length of hits to this gene.;locus_tag=IACDABIC_119_pseudo_00552;old_locus_tag=IACDABIC_01087
+IACDABIC_321	pseudofinder	gene	13465	14306	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_321_pseudo_00553;old_locus_tag=IACDABIC_321_ign_00011
+IACDABIC_393	pseudofinder	gene	13523	13629	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=IACDABIC_393_pseudo_00554;old_locus_tag=IACDABIC_393_ign_00009
+IACDABIC_382	pseudofinder	gene	13575	14814	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=IACDABIC_382_pseudo_00555;old_locus_tag=IACDABIC_382_ign_00011,IACDABIC_03935,IACDABIC_03936
+IACDABIC_119	pseudofinder	gene	13620	13738	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_119_pseudo_00556;old_locus_tag=IACDABIC_119_ign_00012
+IACDABIC_122	pseudofinder	gene	13828	13919	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 11 blast hits.;locus_tag=IACDABIC_122_pseudo_00558;old_locus_tag=IACDABIC_122_ign_00008
+IACDABIC_369	pseudofinder	gene	13851	13990	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_369_pseudo_00559;old_locus_tag=IACDABIC_369_ign_00011
+IACDABIC_43	pseudofinder	gene	13878	13993	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_43_pseudo_00560;old_locus_tag=IACDABIC_43_ign_00012
+IACDABIC_86	pseudofinder	gene	14017	14439	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 146.6%25 of the average length of hits to this gene.;locus_tag=IACDABIC_86_pseudo_00562;old_locus_tag=IACDABIC_00679
+IACDABIC_368	pseudofinder	gene	14101	14280	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 55.5%25 of the average length of hits to this gene.;locus_tag=IACDABIC_368_pseudo_00563;old_locus_tag=IACDABIC_03767
+IACDABIC_333	pseudofinder	gene	14186	14649	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_333_pseudo_00564;old_locus_tag=IACDABIC_333_ign_00014
+IACDABIC_435	pseudofinder	gene	14187	14251	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_435_pseudo_00565;old_locus_tag=IACDABIC_435_ign_00012
+IACDABIC_368	pseudofinder	gene	14290	14444	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_368_pseudo_00566;old_locus_tag=IACDABIC_368_ign_00012
+IACDABIC_185	pseudofinder	gene	14295	14471	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 35.6%25 of the average length of hits to this gene.;locus_tag=IACDABIC_185_pseudo_00567;old_locus_tag=IACDABIC_01863
+IACDABIC_156	pseudofinder	gene	14351	15166	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 49.7%25 of the average length of hits to this gene.;locus_tag=IACDABIC_156_pseudo_00568;old_locus_tag=IACDABIC_01446
+IACDABIC_460	pseudofinder	gene	14429	14590	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 12.1%25 of the average length of hits to this gene.;locus_tag=IACDABIC_460_pseudo_00570;old_locus_tag=IACDABIC_04943
+IACDABIC_236	pseudofinder	gene	14453	14761	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 50.3%25 of the average length of hits to this gene.;locus_tag=IACDABIC_236_pseudo_00571;old_locus_tag=IACDABIC_02380
+IACDABIC_375	pseudofinder	gene	14455	14939	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 13 blast hits.;locus_tag=IACDABIC_375_pseudo_00572;old_locus_tag=IACDABIC_375_ign_00014
+IACDABIC_86	pseudofinder	gene	14459	14640	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 14 blast hits.;locus_tag=IACDABIC_86_pseudo_00573;old_locus_tag=IACDABIC_86_ign_00009
+IACDABIC_48	pseudofinder	gene	14466	14590	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_48_pseudo_00574;old_locus_tag=IACDABIC_48_ign_00011
+IACDABIC_185	pseudofinder	gene	14472	14578	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_185_pseudo_00575;old_locus_tag=IACDABIC_185_ign_00011
+IACDABIC_289	pseudofinder	gene	14583	14774	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 20.6%25 of the average length of hits to this gene.;locus_tag=IACDABIC_289_pseudo_00576;old_locus_tag=IACDABIC_02883
+IACDABIC_460	pseudofinder	gene	14614	14720	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_460_pseudo_00577;old_locus_tag=IACDABIC_460_ign_00011
+IACDABIC_301	pseudofinder	gene	14628	14969	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 28.9%25 of the average length of hits to this gene.;locus_tag=IACDABIC_301_pseudo_00578;old_locus_tag=IACDABIC_03013
+IACDABIC_276	pseudofinder	gene	14655	15052	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_276_pseudo_00579;old_locus_tag=IACDABIC_276_ign_00011
+IACDABIC_218	pseudofinder	gene	14906	15775	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 43.1%25 of the average length of hits to this gene.;locus_tag=IACDABIC_218_pseudo_00581;old_locus_tag=IACDABIC_02203
+IACDABIC_393	pseudofinder	gene	14920	15329	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_393_pseudo_00582;old_locus_tag=IACDABIC_393_ign_00010
+IACDABIC_390	pseudofinder	gene	14966	15787	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 59.2%25 of the average length of hits to this gene.;locus_tag=IACDABIC_390_pseudo_00583;old_locus_tag=IACDABIC_04033
+IACDABIC_372	pseudofinder	gene	14968	15143	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_372_pseudo_00584;old_locus_tag=IACDABIC_372_ign_00010
+IACDABIC_73	pseudofinder	gene	14995	15099	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 4.2%25 of the average length of hits to this gene.;locus_tag=IACDABIC_73_pseudo_00585;old_locus_tag=IACDABIC_00533
+IACDABIC_340	pseudofinder	gene	15176	15526	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 153.7%25 of the average length of hits to this gene.;locus_tag=IACDABIC_340_pseudo_00586;old_locus_tag=IACDABIC_03447
+IACDABIC_73	pseudofinder	gene	15263	15598	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 14.2%25 of the average length of hits to this gene.;locus_tag=IACDABIC_73_pseudo_00587;old_locus_tag=IACDABIC_00534
+IACDABIC_73	pseudofinder	gene	15599	15762	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_73_pseudo_00589;old_locus_tag=IACDABIC_73_ign_00014
+IACDABIC_124	pseudofinder	gene	15694	16095	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 49.5%25 of the average length of hits to this gene.;locus_tag=IACDABIC_124_pseudo_00590;old_locus_tag=IACDABIC_01191
+IACDABIC_424	pseudofinder	gene	15754	15857	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=IACDABIC_424_pseudo_00591;old_locus_tag=IACDABIC_424_ign_00012
+IACDABIC_61	pseudofinder	gene	15763	15929	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_61_pseudo_00592;old_locus_tag=IACDABIC_61_ign_00007
+IACDABIC_406	pseudofinder	gene	15842	15987	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 9 blast hits.;locus_tag=IACDABIC_406_pseudo_00593;old_locus_tag=IACDABIC_406_ign_00012
+IACDABIC_83	pseudofinder	gene	15873	16100	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 48.6%25 of the average length of hits to this gene.;locus_tag=IACDABIC_83_pseudo_00594;old_locus_tag=IACDABIC_00638
+IACDABIC_73	pseudofinder	gene	15873	16277	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 41.8%25 of the average length of hits to this gene.;locus_tag=IACDABIC_73_pseudo_00595;old_locus_tag=IACDABIC_00536
+IACDABIC_63	pseudofinder	gene	16337	17323	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 60.0%25 of the average length of hits to this gene.;locus_tag=IACDABIC_63_pseudo_00596;old_locus_tag=IACDABIC_00393
+IACDABIC_99	pseudofinder	gene	16426	17574	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 47.9%25 of the average length of hits to this gene.;locus_tag=IACDABIC_99_pseudo_00597;old_locus_tag=IACDABIC_00802
+IACDABIC_276	pseudofinder	gene	16471	16755	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 38.0%25 of the average length of hits to this gene.;locus_tag=IACDABIC_276_pseudo_00599;old_locus_tag=IACDABIC_02763
+IACDABIC_358	pseudofinder	gene	16673	16854	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_358_pseudo_00600;old_locus_tag=IACDABIC_358_ign_00015
+IACDABIC_284	pseudofinder	gene	16677	16780	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=IACDABIC_284_pseudo_00601;old_locus_tag=IACDABIC_284_ign_00013
+IACDABIC_379	pseudofinder	gene	16709	16990	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 28.2%25 of the average length of hits to this gene.;locus_tag=IACDABIC_379_pseudo_00602;old_locus_tag=IACDABIC_03884
+IACDABIC_422	pseudofinder	gene	16750	17064	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 61.4%25 of the average length of hits to this gene.;locus_tag=IACDABIC_422_pseudo_00603;old_locus_tag=IACDABIC_04513
+IACDABIC_116	pseudofinder	gene	16755	17276	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 42.1%25 of the average length of hits to this gene.;locus_tag=IACDABIC_116_pseudo_00604;old_locus_tag=IACDABIC_01057
+IACDABIC_440	pseudofinder	gene	16822	17057	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=IACDABIC_440_pseudo_00605;old_locus_tag=IACDABIC_440_ign_00014
+IACDABIC_404	pseudofinder	gene	17056	17487	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 58.2%25 of the average length of hits to this gene.;locus_tag=IACDABIC_404_pseudo_00606;old_locus_tag=IACDABIC_04205
+IACDABIC_54	pseudofinder	gene	17078	17431	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 51.1%25 of the average length of hits to this gene.;locus_tag=IACDABIC_54_pseudo_00607;old_locus_tag=IACDABIC_00297
+IACDABIC_409	pseudofinder	gene	17158	17364	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 43.7%25 of the average length of hits to this gene.;locus_tag=IACDABIC_409_pseudo_00608;old_locus_tag=IACDABIC_04295
+IACDABIC_182	pseudofinder	gene	17184	17547	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 8 blast hits.;locus_tag=IACDABIC_182_pseudo_00609;old_locus_tag=IACDABIC_182_ign_00018
+IACDABIC_340	pseudofinder	gene	17228	17397	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_340_pseudo_00610;old_locus_tag=IACDABIC_340_ign_00011
+IACDABIC_383	pseudofinder	gene	17235	17338	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=IACDABIC_383_pseudo_00611;old_locus_tag=IACDABIC_383_ign_00012
+IACDABIC_388	pseudofinder	gene	17248	17562	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 35.3%25 of the average length of hits to this gene.;locus_tag=IACDABIC_388_pseudo_00612;old_locus_tag=IACDABIC_03990
+IACDABIC_135	pseudofinder	gene	17306	17836	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 27.1%25 of the average length of hits to this gene.;locus_tag=IACDABIC_135_pseudo_00613;old_locus_tag=IACDABIC_01261
+IACDABIC_108	pseudofinder	gene	17401	17582	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=IACDABIC_108_pseudo_00614;old_locus_tag=IACDABIC_108_ign_00017
+IACDABIC_54	pseudofinder	gene	17436	17559	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 8 blast hits.;locus_tag=IACDABIC_54_pseudo_00615;old_locus_tag=IACDABIC_54_ign_00008
+IACDABIC_66	pseudofinder	gene	17464	17748	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 22.3%25 of the average length of hits to this gene.;locus_tag=IACDABIC_66_pseudo_00616;old_locus_tag=IACDABIC_00457
+IACDABIC_409	pseudofinder	gene	17480	18238	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 156.2%25 of the average length of hits to this gene.;locus_tag=IACDABIC_409_pseudo_00617;old_locus_tag=IACDABIC_04296
+IACDABIC_404	pseudofinder	gene	17488	17804	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_404_pseudo_00618;old_locus_tag=IACDABIC_404_ign_00015
+IACDABIC_207	pseudofinder	gene	17489	17685	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=IACDABIC_207_pseudo_00619;old_locus_tag=IACDABIC_207_ign_00017
+IACDABIC_122	pseudofinder	gene	17537	17811	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_122_pseudo_00620;old_locus_tag=IACDABIC_122_ign_00012
+IACDABIC_270	pseudofinder	gene	17549	17763	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_270_pseudo_00621;old_locus_tag=IACDABIC_270_ign_00011
+IACDABIC_365	pseudofinder	gene	17563	17863	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_365_pseudo_00622;old_locus_tag=IACDABIC_365_ign_00015
+IACDABIC_388	pseudofinder	gene	17565	17743	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_388_pseudo_00623;old_locus_tag=IACDABIC_388_ign_00010
+IACDABIC_182	pseudofinder	gene	17662	18957	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 45.3%25 of the average length of hits to this gene.;locus_tag=IACDABIC_182_pseudo_00624;old_locus_tag=IACDABIC_01806
+IACDABIC_108	pseudofinder	gene	17688	17870	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 13.8%25 of the average length of hits to this gene.;locus_tag=IACDABIC_108_pseudo_00625;old_locus_tag=IACDABIC_00937
+IACDABIC_460	pseudofinder	gene	17725	17946	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 30.7%25 of the average length of hits to this gene.;locus_tag=IACDABIC_460_pseudo_00626;old_locus_tag=IACDABIC_04945
+IACDABIC_66	pseudofinder	gene	17745	18020	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 40.2%25 of the average length of hits to this gene.;locus_tag=IACDABIC_66_pseudo_00627;old_locus_tag=IACDABIC_00458
+IACDABIC_135	pseudofinder	gene	17850	17963	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=IACDABIC_135_pseudo_00628;old_locus_tag=IACDABIC_135_ign_00014
+IACDABIC_408	pseudofinder	gene	17876	18051	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_408_pseudo_00630;old_locus_tag=IACDABIC_408_ign_00012
+IACDABIC_149	pseudofinder	gene	17901	18302	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 46.3%25 of the average length of hits to this gene.;locus_tag=IACDABIC_149_pseudo_00631;old_locus_tag=IACDABIC_01399
+IACDABIC_72	pseudofinder	gene	17969	24100	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 53.8%25 of the average length of hits to this gene.;locus_tag=IACDABIC_72_pseudo_00632;old_locus_tag=IACDABIC_00515
+IACDABIC_435	pseudofinder	gene	18065	18331	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 29.6%25 of the average length of hits to this gene.;locus_tag=IACDABIC_435_pseudo_00633;old_locus_tag=IACDABIC_04637
+IACDABIC_375	pseudofinder	gene	18090	18731	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 52.0%25 of the average length of hits to this gene.;locus_tag=IACDABIC_375_pseudo_00634;old_locus_tag=IACDABIC_03856
+IACDABIC_119	pseudofinder	gene	18168	18235	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_119_pseudo_00635;old_locus_tag=IACDABIC_119_ign_00014
+IACDABIC_119	pseudofinder	gene	18237	18377	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 21.9%25 of the average length of hits to this gene.;locus_tag=IACDABIC_119_pseudo_00636;old_locus_tag=IACDABIC_01092
+IACDABIC_359	pseudofinder	gene	18270	21617	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 163.6%25 of the average length of hits to this gene.;locus_tag=IACDABIC_359_pseudo_00637;old_locus_tag=IACDABIC_03646
+IACDABIC_149	pseudofinder	gene	18311	18799	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 55.6%25 of the average length of hits to this gene.;locus_tag=IACDABIC_149_pseudo_00638;old_locus_tag=IACDABIC_01400
+IACDABIC_435	pseudofinder	gene	18534	18622	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_435_pseudo_00639;old_locus_tag=IACDABIC_435_ign_00016
+IACDABIC_323	pseudofinder	gene	18558	18932	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 38.2%25 of the average length of hits to this gene.;locus_tag=IACDABIC_323_pseudo_00640;old_locus_tag=IACDABIC_03285
+IACDABIC_87	pseudofinder	gene	19040	19714	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 49.8%25 of the average length of hits to this gene.;locus_tag=IACDABIC_87_pseudo_00641;old_locus_tag=IACDABIC_00709
+IACDABIC_323	pseudofinder	gene	19068	19270	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_323_pseudo_00642;old_locus_tag=IACDABIC_323_ign_00012
+IACDABIC_119	pseudofinder	gene	19070	19252	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 24.9%25 of the average length of hits to this gene.;locus_tag=IACDABIC_119_pseudo_00643;old_locus_tag=IACDABIC_01094
+IACDABIC_199	pseudofinder	gene	19086	19603	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=IACDABIC_199_pseudo_00644;old_locus_tag=IACDABIC_199_ign_00013,IACDABIC_01973
+IACDABIC_460	pseudofinder	gene	19114	20323	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=IACDABIC_460_pseudo_00645;old_locus_tag=IACDABIC_04947,IACDABIC_460_ign_00015
+IACDABIC_157	pseudofinder	gene	19334	19684	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 178.4%25 of the average length of hits to this gene.;locus_tag=IACDABIC_157_pseudo_00646;old_locus_tag=IACDABIC_01462
+IACDABIC_372	pseudofinder	gene	19379	19992	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_372_pseudo_00647;old_locus_tag=IACDABIC_372_ign_00013
+IACDABIC_284	pseudofinder	gene	19414	19766	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 10 blast hits.;locus_tag=IACDABIC_284_pseudo_00648;old_locus_tag=IACDABIC_284_ign_00015
+IACDABIC_444	pseudofinder	gene	19514	21027	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_444_pseudo_00649;old_locus_tag=IACDABIC_444_ign_00017
+IACDABIC_424	pseudofinder	gene	19683	19918	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_424_pseudo_00650;old_locus_tag=IACDABIC_424_ign_00014
+IACDABIC_199	pseudofinder	gene	19693	19896	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 13.5%25 of the average length of hits to this gene.;locus_tag=IACDABIC_199_pseudo_00651;old_locus_tag=IACDABIC_01974
+IACDABIC_135	pseudofinder	gene	19759	21540	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 56.1%25 of the average length of hits to this gene.;locus_tag=IACDABIC_135_pseudo_00653;old_locus_tag=IACDABIC_01263
+IACDABIC_85	pseudofinder	gene	19855	20102	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_85_pseudo_00654;old_locus_tag=IACDABIC_85_ign_00015
+IACDABIC_199	pseudofinder	gene	19900	20072	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_199_pseudo_00655;old_locus_tag=IACDABIC_199_ign_00014
+IACDABIC_149	pseudofinder	gene	19986	20177	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 20.2%25 of the average length of hits to this gene.;locus_tag=IACDABIC_149_pseudo_00656;old_locus_tag=IACDABIC_01402
+IACDABIC_119	pseudofinder	gene	20119	20430	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 34.7%25 of the average length of hits to this gene.;locus_tag=IACDABIC_119_pseudo_00657;old_locus_tag=IACDABIC_01096
+IACDABIC_452	pseudofinder	gene	20147	21049	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 195.0%25 of the average length of hits to this gene.;locus_tag=IACDABIC_452_pseudo_00658;old_locus_tag=IACDABIC_04836
+IACDABIC_162	pseudofinder	gene	20244	20699	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 17.5%25 of the average length of hits to this gene.;locus_tag=IACDABIC_162_pseudo_00659;old_locus_tag=IACDABIC_01553
+IACDABIC_441	pseudofinder	gene	20308	20644	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_441_pseudo_00660;old_locus_tag=IACDABIC_441_ign_00016
+IACDABIC_86	pseudofinder	gene	20320	20414	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_86_pseudo_00661;old_locus_tag=IACDABIC_86_ign_00014
+IACDABIC_409	pseudofinder	gene	20388	20509	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_409_pseudo_00662;old_locus_tag=IACDABIC_409_ign_00021
+IACDABIC_186	pseudofinder	gene	20414	20493	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=IACDABIC_186_pseudo_00663;old_locus_tag=IACDABIC_186_ign_00013
+IACDABIC_267	pseudofinder	gene	20775	21008	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 42.6%25 of the average length of hits to this gene.;locus_tag=IACDABIC_267_pseudo_00664;old_locus_tag=IACDABIC_02694
+IACDABIC_464	pseudofinder	gene	20853	21665	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 50.4%25 of the average length of hits to this gene.;locus_tag=IACDABIC_464_pseudo_00665;old_locus_tag=IACDABIC_05006
+IACDABIC_160	pseudofinder	gene	20861	21034	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 32.5%25 of the average length of hits to this gene.;locus_tag=IACDABIC_160_pseudo_00666;old_locus_tag=IACDABIC_01508
+IACDABIC_393	pseudofinder	gene	20914	21655	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_393_pseudo_00667;old_locus_tag=IACDABIC_393_ign_00013
+IACDABIC_366	pseudofinder	gene	21421	22218	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=IACDABIC_366_pseudo_00668;old_locus_tag=IACDABIC_366_ign_00010,IACDABIC_03735
+IACDABIC_51	pseudofinder	gene	21488	21621	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=IACDABIC_51_pseudo_00669;old_locus_tag=IACDABIC_51_ign_00016
+IACDABIC_409	pseudofinder	gene	21515	21600	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=IACDABIC_409_pseudo_00670;old_locus_tag=IACDABIC_409_ign_00022
+IACDABIC_400	pseudofinder	gene	21575	21910	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 18.3%25 of the average length of hits to this gene.;locus_tag=IACDABIC_400_pseudo_00671;old_locus_tag=IACDABIC_04155
+IACDABIC_460	pseudofinder	gene	21895	22197	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 14.6%25 of the average length of hits to this gene.;locus_tag=IACDABIC_460_pseudo_00672;old_locus_tag=IACDABIC_04951
+IACDABIC_289	pseudofinder	gene	22271	22645	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 63.6%25 of the average length of hits to this gene.;locus_tag=IACDABIC_289_pseudo_00673;old_locus_tag=IACDABIC_02892
+IACDABIC_135	pseudofinder	gene	22285	23499	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 38.1%25 of the average length of hits to this gene.;locus_tag=IACDABIC_135_pseudo_00674;old_locus_tag=IACDABIC_01265
+IACDABIC_461	pseudofinder	gene	22401	22510	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=IACDABIC_461_pseudo_00675;old_locus_tag=IACDABIC_461_ign_00018
+IACDABIC_264	pseudofinder	gene	22727	25582	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 167.1%25 of the average length of hits to this gene.;locus_tag=IACDABIC_264_pseudo_00676;old_locus_tag=IACDABIC_02661
+IACDABIC_63	pseudofinder	gene	22989	24074	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 50.7%25 of the average length of hits to this gene.;locus_tag=IACDABIC_63_pseudo_00677;old_locus_tag=IACDABIC_00398
+IACDABIC_358	pseudofinder	gene	23221	24732	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=IACDABIC_358_pseudo_00679;old_locus_tag=IACDABIC_03623,IACDABIC_03622
+IACDABIC_170	pseudofinder	gene	23372	23475	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=IACDABIC_170_pseudo_00680;old_locus_tag=IACDABIC_170_ign_00016
+IACDABIC_166	pseudofinder	gene	23389	23504	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_166_pseudo_00682;old_locus_tag=IACDABIC_166_ign_00014
+IACDABIC_184	pseudofinder	gene	23414	23774	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=IACDABIC_184_pseudo_00683;old_locus_tag=IACDABIC_184_ign_00016
+IACDABIC_170	pseudofinder	gene	23478	23804	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 29.8%25 of the average length of hits to this gene.;locus_tag=IACDABIC_170_pseudo_00684;old_locus_tag=IACDABIC_01692
+IACDABIC_383	pseudofinder	gene	23512	23924	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_383_pseudo_00685;old_locus_tag=IACDABIC_383_ign_00017
+IACDABIC_441	pseudofinder	gene	23583	23783	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 34.8%25 of the average length of hits to this gene.;locus_tag=IACDABIC_441_pseudo_00686;old_locus_tag=IACDABIC_04740
+IACDABIC_51	pseudofinder	gene	23728	23859	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 12.6%25 of the average length of hits to this gene.;locus_tag=IACDABIC_51_pseudo_00687;old_locus_tag=IACDABIC_00222
+IACDABIC_63	pseudofinder	gene	24071	25216	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 53.4%25 of the average length of hits to this gene.;locus_tag=IACDABIC_63_pseudo_00688;old_locus_tag=IACDABIC_00399
+IACDABIC_229	pseudofinder	gene	24350	24525	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_229_pseudo_00689;old_locus_tag=IACDABIC_229_ign_00020
+IACDABIC_186	pseudofinder	gene	24459	24650	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 18.4%25 of the average length of hits to this gene.;locus_tag=IACDABIC_186_pseudo_00690;old_locus_tag=IACDABIC_01885
+IACDABIC_425	pseudofinder	gene	25162	25431	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 11 blast hits.;locus_tag=IACDABIC_425_pseudo_00691;old_locus_tag=IACDABIC_425_ign_00015
+IACDABIC_461	pseudofinder	gene	25189	25371	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_461_pseudo_00692;old_locus_tag=IACDABIC_461_ign_00019
+IACDABIC_302	pseudofinder	gene	25257	25724	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 23.9%25 of the average length of hits to this gene.;locus_tag=IACDABIC_302_pseudo_00693;old_locus_tag=IACDABIC_03042
+IACDABIC_236	pseudofinder	gene	25350	25493	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 9.3%25 of the average length of hits to this gene.;locus_tag=IACDABIC_236_pseudo_00694;old_locus_tag=IACDABIC_02389
+IACDABIC_390	pseudofinder	gene	25506	25859	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 29.9%25 of the average length of hits to this gene.;locus_tag=IACDABIC_390_pseudo_00695;old_locus_tag=IACDABIC_04039
+IACDABIC_229	pseudofinder	gene	25546	25622	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_229_pseudo_00696;old_locus_tag=IACDABIC_229_ign_00021
+IACDABIC_441	pseudofinder	gene	25856	25966	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 47.1%25 of the average length of hits to this gene.;locus_tag=IACDABIC_441_pseudo_00698;old_locus_tag=IACDABIC_04744
+IACDABIC_195	pseudofinder	gene	26650	26763	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 13 blast hits.;locus_tag=IACDABIC_195_pseudo_00699;old_locus_tag=IACDABIC_195_ign_00015
+IACDABIC_182	pseudofinder	gene	27168	27277	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=IACDABIC_182_pseudo_00701;old_locus_tag=IACDABIC_182_ign_00025
+IACDABIC_358	pseudofinder	gene	27281	27577	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 24.1%25 of the average length of hits to this gene.;locus_tag=IACDABIC_358_pseudo_00702;old_locus_tag=IACDABIC_03626
+IACDABIC_261	pseudofinder	gene	27615	28511	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 62.7%25 of the average length of hits to this gene.;locus_tag=IACDABIC_261_pseudo_00703;old_locus_tag=IACDABIC_02595
+IACDABIC_122	pseudofinder	gene	27802	28062	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=IACDABIC_122_pseudo_00704;old_locus_tag=IACDABIC_122_ign_00022
+IACDABIC_166	pseudofinder	gene	28318	28650	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=IACDABIC_166_pseudo_00705;old_locus_tag=IACDABIC_166_ign_00019,IACDABIC_01585,IACDABIC_01584
+IACDABIC_244	pseudofinder	gene	28611	28714	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=IACDABIC_244_pseudo_00707;old_locus_tag=IACDABIC_244_ign_00008
+IACDABIC_236	pseudofinder	gene	28840	28928	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_236_pseudo_00708;old_locus_tag=IACDABIC_236_ign_00019
+IACDABIC_160	pseudofinder	gene	28880	29097	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_160_pseudo_00709;old_locus_tag=IACDABIC_160_ign_00024
+IACDABIC_204	pseudofinder	gene	28882	29012	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_204_pseudo_00710;old_locus_tag=IACDABIC_204_ign_00016
+IACDABIC_204	pseudofinder	gene	29057	29869	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 46.9%25 of the average length of hits to this gene.;locus_tag=IACDABIC_204_pseudo_00711;old_locus_tag=IACDABIC_02057
+IACDABIC_425	pseudofinder	gene	29826	30128	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 14.1%25 of the average length of hits to this gene.;locus_tag=IACDABIC_425_pseudo_00712;old_locus_tag=IACDABIC_04554
+IACDABIC_425	pseudofinder	gene	30134	30232	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 8 blast hits.;locus_tag=IACDABIC_425_pseudo_00713;old_locus_tag=IACDABIC_425_ign_00017
+IACDABIC_63	pseudofinder	gene	30304	30413	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=IACDABIC_63_pseudo_00714;old_locus_tag=IACDABIC_63_ign_00022
+IACDABIC_409	pseudofinder	gene	30475	30571	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=IACDABIC_409_pseudo_00715;old_locus_tag=IACDABIC_409_ign_00030
+IACDABIC_225	pseudofinder	gene	30528	30857	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 12.3%25 of the average length of hits to this gene.;locus_tag=IACDABIC_225_pseudo_00716;old_locus_tag=IACDABIC_02280
+IACDABIC_225	pseudofinder	gene	30814	31152	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 12.8%25 of the average length of hits to this gene.;locus_tag=IACDABIC_225_pseudo_00717;old_locus_tag=IACDABIC_02281
+IACDABIC_52	pseudofinder	gene	30889	31035	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 15.6%25 of the average length of hits to this gene.;locus_tag=IACDABIC_52_pseudo_00718;old_locus_tag=IACDABIC_00248
+IACDABIC_91	pseudofinder	gene	31073	31820	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=IACDABIC_91_pseudo_00719;old_locus_tag=IACDABIC_91_ign_00019
+IACDABIC_225	pseudofinder	gene	31292	31801	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 64.3%25 of the average length of hits to this gene.;locus_tag=IACDABIC_225_pseudo_00720;old_locus_tag=IACDABIC_02282
+IACDABIC_225	pseudofinder	gene	31803	31888	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=IACDABIC_225_pseudo_00721;old_locus_tag=IACDABIC_225_ign_00023
+IACDABIC_306	pseudofinder	gene	32102	32605	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 21.4%25 of the average length of hits to this gene.;locus_tag=IACDABIC_306_pseudo_00722;old_locus_tag=IACDABIC_03090
+IACDABIC_306	pseudofinder	gene	32606	32697	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_306_pseudo_00724;old_locus_tag=IACDABIC_306_ign_00028
+IACDABIC_306	pseudofinder	gene	32699	34063	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 53.0%25 of the average length of hits to this gene.;locus_tag=IACDABIC_306_pseudo_00725;old_locus_tag=IACDABIC_03091
+IACDABIC_292	pseudofinder	gene	33030	33109	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=IACDABIC_292_pseudo_00726;old_locus_tag=IACDABIC_292_ign_00021
+IACDABIC_292	pseudofinder	gene	33113	33372	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=IACDABIC_292_pseudo_00727;old_locus_tag=IACDABIC_292_ign_00022,IACDABIC_02947
+IACDABIC_390	pseudofinder	gene	33672	33775	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_390_pseudo_00728;old_locus_tag=IACDABIC_390_ign_00021
+IACDABIC_166	pseudofinder	gene	34160	34266	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_166_pseudo_00729;old_locus_tag=IACDABIC_166_ign_00024
+IACDABIC_160	pseudofinder	gene	35622	36182	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 20.6%25 of the average length of hits to this gene.;locus_tag=IACDABIC_160_pseudo_00730;old_locus_tag=IACDABIC_01524
+IACDABIC_160	pseudofinder	gene	36182	36460	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 12.6%25 of the average length of hits to this gene.;locus_tag=IACDABIC_160_pseudo_00731;old_locus_tag=IACDABIC_01525
+IACDABIC_66	pseudofinder	gene	37233	37670	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=IACDABIC_66_pseudo_00732;old_locus_tag=IACDABIC_00482,IACDABIC_00481
+IACDABIC_110	pseudofinder	gene	37447	37941	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 35.2%25 of the average length of hits to this gene.;locus_tag=IACDABIC_110_pseudo_00733;old_locus_tag=IACDABIC_00988
+IACDABIC_66	pseudofinder	gene	37821	39580	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=IACDABIC_66_pseudo_00734;old_locus_tag=IACDABIC_00484,IACDABIC_00483,IACDABIC_66_ign_00036
+IACDABIC_425	pseudofinder	gene	40350	43394	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 41.5%25 of the average length of hits to this gene.;locus_tag=IACDABIC_425_pseudo_00736;old_locus_tag=IACDABIC_04564
+IACDABIC_101	pseudofinder	gene	41179	41363	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_101_pseudo_00737;old_locus_tag=IACDABIC_101_ign_00032
+IACDABIC_63	pseudofinder	gene	41231	42298	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 40.0%25 of the average length of hits to this gene.;locus_tag=IACDABIC_63_pseudo_00738;old_locus_tag=IACDABIC_00411
+IACDABIC_101	pseudofinder	gene	42934	43214	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_101_pseudo_00739;old_locus_tag=IACDABIC_101_ign_00033
+IACDABIC_292	pseudofinder	gene	46437	47784	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=IACDABIC_292_pseudo_00740;old_locus_tag=IACDABIC_02953,IACDABIC_02954,IACDABIC_292_ign_00028
+IACDABIC_122	pseudofinder	gene	47280	47383	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=IACDABIC_122_pseudo_00741;old_locus_tag=IACDABIC_122_ign_00035
+IACDABIC_292	pseudofinder	gene	47955	51067	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_292_pseudo_00742;old_locus_tag=IACDABIC_292_ign_00029
+IACDABIC_169	pseudofinder	gene	49667	50953	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 43.0%25 of the average length of hits to this gene.;locus_tag=IACDABIC_169_pseudo_00743;old_locus_tag=IACDABIC_01674
+IACDABIC_166	pseudofinder	gene	50378	50632	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 53.9%25 of the average length of hits to this gene.;locus_tag=IACDABIC_166_pseudo_00744;old_locus_tag=IACDABIC_01613
+IACDABIC_417	pseudofinder	gene	54677	54810	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=IACDABIC_417_pseudo_00745;old_locus_tag=IACDABIC_417_ign_00039
+IACDABIC_409	pseudofinder	gene	55832	56503	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 17.4%25 of the average length of hits to this gene.;locus_tag=IACDABIC_409_pseudo_00746;old_locus_tag=IACDABIC_04325
+IACDABIC_417	pseudofinder	gene	56407	57162	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=IACDABIC_417_pseudo_00747;old_locus_tag=IACDABIC_417_ign_00041,IACDABIC_04440,IACDABIC_04439
+IACDABIC_122	pseudofinder	gene	56954	57065	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=IACDABIC_122_pseudo_00748;old_locus_tag=IACDABIC_122_ign_00040
+IACDABIC_417	pseudofinder	gene	57167	57427	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 48.3%25 of the average length of hits to this gene.;locus_tag=IACDABIC_417_pseudo_00749;old_locus_tag=IACDABIC_04441
+IACDABIC_417	pseudofinder	gene	57430	57524	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IACDABIC_417_pseudo_00750;old_locus_tag=IACDABIC_417_ign_00042

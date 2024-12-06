@@ -1,0 +1,96 @@
+---
+title: "Untitled"
+author: "Vesna"
+date: "2024-08-17"
+output: html_document
+---
+
+
+```{r}
+library(ggplot2)
+library(dplyr)
+```
+
+
+```{r}
+
+Pseudos <- read.delim("category_statistics.tsv", sep = "\t", header = TRUE)
+
+# Create a named vector that maps long names to short names
+name_map <- c(
+  "GCA_030065255.1_ASM3006525v1_genomic.pseudofinder_pseudos.gff" = "MO_167.B42",
+  "GCA_000613065.1_RintRC_1_genomic.pseudofinder_pseudos.gff" = "RintRC01",
+  "TARA_PON_109_MAG_00086.pseudofinder_pseudos.gff" = "TARA_PON",
+  "GCF_000350125.1_ASM35012v1_genomic.pseudofinder_pseudos.gff" = "ReuHM01",
+  "TARA_MED_95_MAG_00146.pseudofinder_pseudos.gff" = "TARA_MED",
+  "GCA_002377925.1_ASM237792v1_genomic.pseudofinder_pseudos.gff" = "UBA3481",
+  "GCA_030065055.1_ASM3006505v1_genomic.pseudofinder_pseudos.gff" = "MO_192.B10",
+  "GCA_013214565.1_ASM1321456v1_genomic.pseudofinder_pseudos.gff" = "MAG_DT_104",
+  "GCF_000350105.1_ASM35010v1_genomic.pseudofinder_pseudos.gff" = "ReuHH01",
+  "GCA_900299445.1_Richelia_intracellularis_AM_2804_genomic.pseudofinder_pseudos.gff" = "AM_2804",
+  "GCA_030066045.1_ASM3006604v1_genomic.pseudofinder_pseudos.gff" = "MO_167.B12",
+  "GCF_900185595.1_CalSC01_2013_genomic.pseudofinder_pseudos.gff" = "RrhiSC01",
+  "BGEO_SAMN07136523_METAG_IKJKMCAK.pseudofinder_pseudos.gff" = "BGEO_MAG",
+  "GCA_002470035.1_ASM247003v1_genomic.pseudofinder_pseudos.gff" = "UBA7409"
+)
+
+# Replace long names with short names using the map
+Pseudos <- Pseudos %>%
+  mutate(GFF_File = name_map[GFF_File])
+
+# Define the desired order of genomes (reversed)
+desired_order <- c("MO_167.B12", "MO_192.B10", "MO_167.B42", "RrhiSC01", 
+                       "RintRC01", "MAG_DT_104", "TARA_PON", "ReuHM01", 
+                       "AM_2804", "ReuHH01", "UBA3481", "UBA7409", 
+                       "TARA_MED", "BGEO_MAG")
+
+# Reorder the GFF_File column based on the desired order
+Pseudos$GFF_File <- factor(Pseudos$GFF_File, levels = desired_order, ordered = TRUE)
+
+# To arrange the whole dataframe according to this order
+Pseudos <- Pseudos %>% arrange(GFF_File)
+
+
+```
+
+
+```{r}
+# Calculate the total count per genome to get percentages
+data_summary <- Pseudos %>%
+  group_by(GFF_File) %>%
+  mutate(Total_Count = sum(Count),
+         Percentage = Count / Total_Count * 100)
+
+# Plot 1: Count of Pseudogenes by Category
+plot1 <- ggplot(data_summary, aes(x = GFF_File, y = Count, fill = Category)) +
+  geom_bar(stat = "identity") +
+  labs(x = "", y = "Count of Pseudogenes", title = "a)") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  scale_fill_manual(values = c("Truncated" = "#9467bd", "Run-on" = "#d62728", 
+                               "Intergenic region" = "#2ca02c", "Predicted fragmentation" = "#ff7f0e"))
+
+# Plot 2: Percentage of Pseudogenes by Category
+plot2 <- ggplot(data_summary, aes(x = GFF_File, y = Percentage, fill = Category)) +
+  geom_bar(stat = "identity") +
+  labs(x = "", y = "Percentage of Pseudogenes", title = "b)") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  scale_fill_manual(values = c("Truncated" = "#9467bd", "Run-on" = "#d62728", 
+                               "Intergenic region" = "#2ca02c", "Predicted fragmentation" = "#ff7f0e"))
+
+
+# Combine the plots
+grid.arrange(plot1, plot2, ncol = 1)
+```
+
+#save the plot
+
+```{r}
+# Combine the plots
+combined_plot <- grid.arrange(plot1, plot2, ncol = 1)
+
+# Save the combined plot to a PDF file
+ggsave("Pseudogenes_Plots.pdf", combined_plot, width = 8, height = 10)
+```
+

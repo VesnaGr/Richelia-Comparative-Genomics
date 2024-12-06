@@ -1,0 +1,3575 @@
+---
+title: "KO_analysis"
+author: "Vesna"
+date: "2024-04-26"
+output: html_document
+---
+
+```{r}
+#install.packages("VennDiagram")
+library(tidyverse)
+library(VennDiagram)
+library(grid)
+library(gridExtra)
+library(patchwork)
+library(dplyr)
+library(tidyr)
+
+```
+
+
+```{r}
+rm(list = ls())
+ko_by_genome <- read_delim("KO_by_genome_koala.tsv", 
+                        "\t")
+                      
+  
+
+```
+
+
+```{r}
+# Extract sets for each genome
+RintRC01_k0 <- unique(na.omit(ko_by_genome$RintRC01_k0_number))
+RrhiSC01_k0 <- unique(na.omit(ko_by_genome$RrhiSC01_k0_number))
+ReuHH01_k0 <- unique(na.omit(ko_by_genome$ReuHH01_k0_number))
+UCYNA_ko <- unique(na.omit(ko_by_genome$UCYNA_k0_number))
+E_turgida_ko <- unique(na.omit(ko_by_genome$E_turgida_k0_number))
+
+```
+
+
+
+```{r}
+# Generate Venn Diagram (example for three genomes, adjust as needed)
+venn.plot <- draw.triple.venn(
+  area1 = length(RintRC01_k0),
+  area2 = length(RrhiSC01_k0),
+  area3 = length(ReuHH01_k0),
+  n12 = length(intersect(RintRC01_k0, RrhiSC01_k0)),
+  n23 = length(intersect(RrhiSC01_k0, ReuHH01_k0)),
+  n13 = length(intersect(RintRC01_k0, ReuHH01_k0)),
+  n123 = length(intersect(RintRC01_k0, intersect(RrhiSC01_k0, ReuHH01_k0))),
+  category = c("RintRC01", "RrhiSC01", "ReuHH01"),
+  fill = c("#e1be6a", "#aa4499", "#40b0a6")
+)
+
+# Display the Diagram
+grid.draw(venn.plot)
+
+```
+
+
+```{r}
+# Generate Venn Diagram (example for three genomes, adjust as needed)
+venn.plot_1 <- draw.triple.venn(
+  area1 = length(UCYNA_ko),
+  area2 = length(E_turgida_ko),
+  area3 = length(ReuHH01_k0),
+  n12 = length(intersect(UCYNA_ko, E_turgida_ko)),  # Corrected this line to use the proper sets
+  n23 = length(intersect(E_turgida_ko, ReuHH01_k0)),
+  n13 = length(intersect(UCYNA_ko, ReuHH01_k0)),    # Assuming the first genome here should be UCYN-A based on area1
+  n123 = length(intersect(UCYNA_ko, intersect(E_turgida_ko, ReuHH01_k0))),
+  category = c("UCYN-A", "spheroid body", "ReuHH01"),
+  fill = c("#77C278", "#EA8C86", "#40b0a6")
+)
+
+# Display the diagram
+grid.draw(venn.plot_1)
+
+```
+
+
+
+
+```{r}
+# Generate Venn Diagram (example for three genomes, adjust as needed)
+venn.plot_2 <- draw.triple.venn(
+  area1 = length(UCYNA_ko),
+  area2 = length(E_turgida_ko),
+  area3 = length(RintRC01_k0),
+  n12 = length(intersect(UCYNA_ko, E_turgida_ko)), # Correct intersection for area1 and area2
+  n23 = length(intersect(E_turgida_ko, RintRC01_k0)), # Correct intersection for area2 and area3
+  n13 = length(intersect(UCYNA_ko, RintRC01_k0)), # Correct intersection for area1 and area3
+  n123 = length(intersect(UCYNA_ko, intersect(E_turgida_ko, RintRC01_k0))), # Correct intersection for all three
+  category = c("UCYN-A", "spheroid body", "RintRC01"),
+  fill = c("#77C278", "#EA8C86", "#e1be6a")
+)
+
+# Display the diagram
+grid.draw(venn.plot_2)
+
+
+```
+
+
+
+
+```{r}
+# Generate Venn Diagram (example for three genomes, adjust as needed)
+venn.plot_3 <- draw.triple.venn(
+  area1 = length(UCYNA_ko),
+  area2 = length(E_turgida_ko),
+  area3 = length(RrhiSC01_k0),   # Using RrhiSC01_k0 as the third area
+  n12 = length(intersect(UCYNA_ko, E_turgida_ko)), # Correct intersection for area1 and area2
+  n23 = length(intersect(E_turgida_ko, RrhiSC01_k0)), # Now correctly using RrhiSC01_k0
+  n13 = length(intersect(UCYNA_ko, RrhiSC01_k0)), # Correct intersection for area1 and area3
+  n123 = length(intersect(UCYNA_ko, intersect(E_turgida_ko, RrhiSC01_k0))), # Correct intersection for all three
+  category = c("UCYN-A", "spheroid body", "RrhiSC01"), # Corrected the category label
+  fill = c("#77C278", "#EA8C86", "#aa4499")
+)
+
+# Display the diagram
+grid.draw(venn.plot_3)
+
+```
+
+
+
+```{r}
+# Using gridExtra to arrange the plots
+combined_venn <- grid.arrange(
+  grobTree(venn.plot),
+  grobTree(venn.plot_1),
+  grobTree(venn.plot_2),
+  grobTree(venn.plot_3),
+  ncol = 4  # Arrange in one column; change to 2 or 3 for side-by-side layout as needed
+)
+
+# Save to PDF in the current directory
+pdf("Venn_Diagrams.pdf", width = 9, height = 2)
+grid.draw(combined_venn)
+dev.off()
+```
+
+
+
+```{r}
+# Combine all unique K0 numbers
+all_k0 <- unique(c(RintRC01_k0, RrhiSC01_k0, ReuHH01_k0, UCYNA_ko, E_turgida_ko))
+
+# Create a combined presence-absence table
+combined_presence_absence_table <- data.frame(
+  K0_number = all_k0,
+  RintRC01 = all_k0 %in% RintRC01_k0,
+  RrhiSC01 = all_k0 %in% RrhiSC01_k0,
+  ReuHH01 = all_k0 %in% ReuHH01_k0,
+  UCYNA = all_k0 %in% UCYNA_ko,
+  E_turgida = all_k0 %in% E_turgida_ko
+)
+
+# Convert logicals to integers (0 and 1)
+combined_presence_absence_table <- combined_presence_absence_table %>%
+  mutate(across(-K0_number, as.integer))
+
+# Print the combined table
+print(combined_presence_absence_table)
+
+# Save the combined table as TSV
+write.table(combined_presence_absence_table, "K0_Presence_absence_all_genomes.tsv", sep = "\t", row.names = FALSE)
+
+# Create presence-absence tables for each group of genomes
+
+# 1. RintRC01_k0, RrhiSC01_k0, ReuHH01_k0
+group1_k0 <- unique(c(RintRC01_k0, RrhiSC01_k0, ReuHH01_k0))
+group1_presence_absence_table <- data.frame(
+  K0_number = group1_k0,
+  RintRC01 = group1_k0 %in% RintRC01_k0,
+  RrhiSC01 = group1_k0 %in% RrhiSC01_k0,
+  ReuHH01 = group1_k0 %in% ReuHH01_k0
+) %>%
+  mutate(across(-K0_number, as.integer))
+
+# Print the first group table
+print(group1_presence_absence_table)
+
+write.table(group1_presence_absence_table, "Venn1_presence_absence.tsv", sep = "\t", row.names = FALSE)
+
+
+
+# 2. ReuHH01_k0, UCYNA_ko, E_turgida_ko
+group2_k0 <- unique(c(ReuHH01_k0, UCYNA_ko, E_turgida_ko))
+group2_presence_absence_table <- data.frame(
+  K0_number = group2_k0,
+  ReuHH01 = group2_k0 %in% ReuHH01_k0,
+  UCYNA = group2_k0 %in% UCYNA_ko,
+  E_turgida = group2_k0 %in% E_turgida_ko
+) %>%
+  mutate(across(-K0_number, as.integer))
+
+# Print the second group table
+print(group2_presence_absence_table)
+
+write.table(group2_presence_absence_table, "Venn2_presence_absence.tsv", sep = "\t", row.names = FALSE)
+
+# 3. RintRC01_k0, UCYNA_ko, E_turgida_ko
+group3_k0 <- unique(c(RintRC01_k0, UCYNA_ko, E_turgida_ko))
+group3_presence_absence_table <- data.frame(
+  K0_number = group3_k0,
+  RintRC01 = group3_k0 %in% RintRC01_k0,
+  UCYNA = group3_k0 %in% UCYNA_ko,
+  E_turgida = group3_k0 %in% E_turgida_ko
+) %>%
+  mutate(across(-K0_number, as.integer))
+
+# Print the third group table
+print(group3_presence_absence_table)
+
+write.table(group3_presence_absence_table, "Venn3_presence_absence.tsv", sep = "\t", row.names = FALSE)
+
+# 4. RrhiSC01_k0, UCYNA_ko, E_turgida_ko
+group4_k0 <- unique(c(RrhiSC01_k0, UCYNA_ko, E_turgida_ko))
+group4_presence_absence_table <- data.frame(
+  K0_number = group4_k0,
+  RrhiSC01 = group4_k0 %in% RrhiSC01_k0,
+  UCYNA = group4_k0 %in% UCYNA_ko,
+  E_turgida = group4_k0 %in% E_turgida_ko
+) %>%
+  mutate(across(-K0_number, as.integer))
+
+# Print the fourth group table
+print(group4_presence_absence_table)
+
+write.table(group4_presence_absence_table, "Venn4_presence_absence.tsv", sep = "\t", row.names = FALSE)
+
+
+```
+
+
+
+```{r}
+
+# Extract sets for each genome
+MO_167.B12_k0 <- unique(na.omit(ko_by_genome$MO_167.B12_k0_number))
+MO_192.B10_k0 <- unique(na.omit(ko_by_genome$MO_192.B10_k0_number))
+MO_167.B42_k0 <- unique(na.omit(ko_by_genome$MO_167.B42_k0_number))
+RrhiSC01_k0 <- unique(na.omit(ko_by_genome$RrhiSC01_k0_number))
+RintRC01_k0 <- unique(na.omit(ko_by_genome$RintRC01_k0_number))
+MAG_DT_104_k0 <- unique(na.omit(ko_by_genome$MAG_DT_104_k0_number))
+TARA_PON_k0 <- unique(na.omit(ko_by_genome$TARA_PON_k0_number))
+ReuHM01_k0 <- unique(na.omit(ko_by_genome$ReuHM01_k0_number))
+AM_2804_k0 <- unique(na.omit(ko_by_genome$AM_2804_k0_number))
+ReuHH01_k0 <- unique(na.omit(ko_by_genome$ReuHH01_k0_number))
+UBA3481_k0 <- unique(na.omit(ko_by_genome$UBA3481_k0_number))
+UBA7409_k0 <- unique(na.omit(ko_by_genome$UBA7409_k0_number))
+TARA_MED_k0 <- unique(na.omit(ko_by_genome$TARA_MED_k0_number))
+BGEO_MAG_k0 <- unique(na.omit(ko_by_genome$BGEO_MAG_k0_number))
+UCYNA_k0 <- unique(na.omit(ko_by_genome$UCYNA_k0_number))
+E_turgida_k0 <- unique(na.omit(ko_by_genome$E_turgida_k0_number))
+N_azollae_k0 <- unique(na.omit(ko_by_genome$N_azollae_k0_number))
+
+```
+
+
+```{r}
+# Categorize specific KOs into broader categories
+photosystem_II <- c("K02703", "K02704", "K02705", "K02706", "K02707", "K02708", "K02709", "K02710", 
+                    "K02711", "K02712", "K02713", "K02714", "K02716", "K02717", "K08901", "K03541", 
+                    "K03542", "K02718", "K02719", "K02720", "K02721", "K02722", "K02723", "K02724", 
+                    "K08902", "K08903", "K08904")
+
+photosystem_I <- c("K02689", "K02690", "K02691", "K02692", "K02693", "K02694", "K08905", "K02695", 
+                   "K02696", "K02697", "K02698", "K02699", "K02700", "K02701", "K14332", "K02702")
+
+cytochrome_b6_f <- c("K02634", "K02635", "K02636", "K02637", "K02640", "K02642", "K02643", "K03689")
+
+Photosynthetic_electron_transport <- c("K02638", "K02639", "K02641", "K08906")
+
+F_type_ATPase <- c("K02114", "K02112", "K02115", "K02111", "K02113", "K02109", "K02110", "K02108")
+
+allophycocyanin <- c("K02092", "K02093", "K02094", "K02095", "K02096", "K02097")
+
+phycocyanin <- c("K02284", "K02285", "K02286", "K02287", "K02288", "K02289", "K20713", "K02290")
+
+phycoerythrocyanin <- c("K02628", "K02629", "K02630", "K02631", "K02632")
+
+phycoerythrin <- c("K05376", "K05377", "K05378", "K05379", "K05380", "K05381", "K05382", "K05383", "K05384", "K05385", "K05386")
+
+# Combine all specific KOs
+specific_kos <- c(photosystem_II, photosystem_I, cytochrome_b6_f, Photosynthetic_electron_transport, F_type_ATPase, allophycocyanin, phycocyanin, phycoerythrocyanin, phycoerythrin)
+
+# Create a presence-absence table for specific KOs
+presence_absence_table <- data.frame(
+  K0_number = specific_kos,
+  Category = factor(rep(c("Photosystem II", "Photosystem I", "Cytochrome b6-f", "Photosynthetic electron transport", 
+                          "F-type ATPase", "Allophycocyanin", "Phycocyanin", "Phycoerythrocyanin", 
+                          "Phycoerythrin"), 
+                        times = c(length(photosystem_II), length(photosystem_I), length(cytochrome_b6_f), 
+                                  length(Photosynthetic_electron_transport), length(F_type_ATPase), length(allophycocyanin),
+                                  length(phycocyanin), length(phycoerythrocyanin), length(phycoerythrin))),
+                    levels = c("Photosystem II", "Photosystem I", "Cytochrome b6-f", "Photosynthetic electron transport", 
+                               "F-type ATPase", "Allophycocyanin", "Phycocyanin", "Phycoerythrocyanin", 
+                               "Phycoerythrin")),
+  MO_167.B12 = specific_kos %in% MO_167.B12_k0,
+  MO_192.B10 = specific_kos %in% MO_192.B10_k0,
+  MO_167.B42 = specific_kos %in% MO_167.B42_k0,
+  RrhiSC01 = specific_kos %in% RrhiSC01_k0,
+  RintRC01 = specific_kos %in% RintRC01_k0,
+  MAG_DT_104 = specific_kos %in% MAG_DT_104_k0,
+  TARA_PON = specific_kos %in% TARA_PON_k0,
+  ReuHM01 = specific_kos %in% ReuHM01_k0,
+  AM_2804 = specific_kos %in% AM_2804_k0,
+  ReuHH01 = specific_kos %in% ReuHH01_k0,
+  UBA3481 = specific_kos %in% UBA3481_k0,
+  UBA7409 = specific_kos %in% UBA7409_k0,
+  TARA_MED = specific_kos %in% TARA_MED_k0,
+  BGEO_MAG = specific_kos %in% BGEO_MAG_k0,
+  E_turgida = specific_kos %in% E_turgida_k0,
+  UCYNA = specific_kos %in% UCYNA_k0,
+  N_azollae = specific_kos %in% N_azollae_k0
+  
+)
+
+# Convert logicals to integers (0 and 1)
+presence_absence_table <- presence_absence_table %>%
+  mutate(across(c(MO_167.B12, MO_192.B10, MO_167.B42, RrhiSC01, RintRC01, MAG_DT_104, TARA_PON, ReuHM01, AM_2804, ReuHH01, UBA3481, UBA7409, TARA_MED, BGEO_MAG, E_turgida, UCYNA, N_azollae), as.integer))
+
+# Print the presence-absence table
+print(presence_absence_table)
+
+# Convert the data to long format for ggplot2
+presence_absence_long <- presence_absence_table %>%
+  pivot_longer(cols = -c(K0_number, Category), names_to = "Genome", values_to = "Presence")
+
+# Set the order of the Genome factor based on the order in the table
+presence_absence_long$Genome <- factor(presence_absence_long$Genome, levels = unique(presence_absence_long$Genome))
+
+# Create the heatmap
+photo <- ggplot(presence_absence_long, aes(x = Genome, y = K0_number, fill = factor(Presence))) +
+  geom_tile(color = "grey") +
+  scale_fill_manual(values = c("0" = "white", "1" = "#499851"), name = "Presence") +
+  facet_wrap(~Category, scales = "free_y") +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1),
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank(),
+    plot.margin = margin(t = 10, r = 100, b = 50, l = 10)
+  ) +
+  labs(title = "Presence-Absence Heatmap of Specific KOs", x = "Genome", y = "KO Number")
+
+print(photo)
+
+# Save the ggplot figure as a PDF
+ggsave("Photosynthesys.pdf", plot = photo, device = "pdf", width = 10, height = 10)
+
+
+```
+
+
+
+```{r}
+# Define KO numbers and their categories
+glycerate_kinase <- c("K00865", "K11529", "K15918")
+aldehyde_dehydrogenase <- c("K00128", "K14085", "K00149")
+glycerol_metabolism <- c("K00005", "K22251", "K18097", "K00864")
+acyltransferases <- c("K03621", "K08591", "K00655", "K13509", "K13523", "K19007", "K13513", "K13517", "K13519", "K22831")
+diacylglycerol_kinase_acyltransferase <- c("K00901", "K07029", "K11155", "K11160", "K14456", "K00635", "K25824", "K14458")
+
+# Combine all KO numbers into one list
+specific_kos <- c(
+  glycerate_kinase, aldehyde_dehydrogenase, glycerol_metabolism, acyltransferases, diacylglycerol_kinase_acyltransferase
+)
+
+# Create a dataframe to map categories to KO numbers
+ko_categories <- tibble(
+  KO = specific_kos,
+  Category = rep(c(
+    "Glycerate Kinase", "Aldehyde Dehydrogenase", "Glycerol Metabolism", "Acyltransferases", "Diacylglycerol Kinase and Acyltransferase"
+  ), times = c(
+    length(glycerate_kinase), length(aldehyde_dehydrogenase), length(glycerol_metabolism),
+    length(acyltransferases), length(diacylglycerol_kinase_acyltransferase)
+  ))
+)
+
+# Create a presence-absence table for specific KOs
+presence_absence_table <- data.frame(
+  K0_number = specific_kos,
+  Category = rep(c(
+    "Glycerate Kinase", "Aldehyde Dehydrogenase", "Glycerol Metabolism", "Acyltransferases", "Diacylglycerol Kinase and Acyltransferase"
+  ), 
+  times = c(
+    length(glycerate_kinase), length(aldehyde_dehydrogenase), length(glycerol_metabolism),
+    length(acyltransferases), length(diacylglycerol_kinase_acyltransferase)
+  )),
+  MO_167.B12 = specific_kos %in% ko_by_genome$MO_167.B12_k0_number,
+  MO_192.B10 = specific_kos %in% ko_by_genome$MO_192.B10_k0_number,
+  MO_167.B42 = specific_kos %in% ko_by_genome$MO_167.B42_k0_number,
+  RrhiSC01 = specific_kos %in% ko_by_genome$RrhiSC01_k0_number,
+  RintRC01 = specific_kos %in% ko_by_genome$RintRC01_k0_number,
+  MAG_DT_104 = specific_kos %in% ko_by_genome$MAG_DT_104_k0_number,
+  TARA_PON = specific_kos %in% ko_by_genome$TARA_PON_k0_number,
+  ReuHM01 = specific_kos %in% ko_by_genome$ReuHM01_k0_number,
+  AM_2804 = specific_kos %in% ko_by_genome$AM_2804_k0_number,
+  ReuHH01 = specific_kos %in% ko_by_genome$ReuHH01_k0_number,
+  UBA3481 = specific_kos %in% ko_by_genome$UBA3481_k0_number,
+  UBA7409 = specific_kos %in% ko_by_genome$UBA7409_k0_number,
+  TARA_MED = specific_kos %in% ko_by_genome$TARA_MED_k0_number,
+  BGEO_MAG = specific_kos %in% ko_by_genome$BGEO_MAG_k0_number,
+  UCYNA = specific_kos %in% ko_by_genome$UCYNA_k0_number,
+  E_turgida = specific_kos %in% ko_by_genome$E_turgida_k0_number,
+  N_azollae = specific_kos %in% N_azollae_k0
+)
+
+# Convert logicals to integers (0 and 1)
+presence_absence_table <- presence_absence_table %>%
+  mutate(across(c(MO_167.B12, MO_192.B10, MO_167.B42, RrhiSC01, RintRC01, MAG_DT_104, TARA_PON, ReuHM01,AM_2804, ReuHH01, UBA3481, UBA7409, TARA_MED, BGEO_MAG, UCYNA, E_turgida, N_azollae), as.integer))
+
+# Print the presence-absence table
+print(presence_absence_table)
+
+# Convert the data to long format for ggplot2
+presence_absence_long <- presence_absence_table %>%
+  pivot_longer(cols = -c(K0_number, Category), names_to = "Genome", values_to = "Presence")
+
+# Set the order of the Genome factor based on the order in the table
+presence_absence_long$Genome <- factor(presence_absence_long$Genome, levels = unique(presence_absence_long$Genome))
+
+# Create the heatmap
+ggplot(presence_absence_long, aes(x = Genome, y = K0_number, fill = factor(Presence))) +
+  geom_tile(color = "grey") +
+  scale_fill_manual(values = c("0" = "white", "1" = "#499851"), name = "Presence") +
+  facet_wrap(~Category, scales = "free_y") +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1),
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank()
+  ) +
+  labs(title = "Presence-Absence Heatmap of Specific KOs", x = "Genome", y = "KO Number")
+```
+
+
+#Two component systems:
+
+
+```{r}
+# Define the order of genomes
+genomes <- c( "MO_167.B12", "MO_192.B10", "MO_167.B42","RrhiSC01", "RintRC01", "MAG_DT_104", "TARA_PON", 
+             "ReuHM01", "AM_2804", "ReuHH01", "UBA3481", 
+             "UBA7409", "TARA_MED", "BGEO_MAG", "E_turgida", "UCYNA", "N_azollae")
+
+for (genome in genomes) {
+  assign(paste0(genome, "_k0"), unique(na.omit(ko_by_genome[[paste0(genome, "_k0_number")]])))
+}
+
+# Categorize specific KOs into broader categories
+phosphate_limitation <- c("K07636", "K07657", "K07658", "K01077", "K01113", "K07768", "K07776", "K02040")
+k_limitation <- c("K07646", "K07667", "K01546", "K01547", "K01548", "K01545")
+mn_starvation <- c("K11520", "K11521", "K11601", "K11603", "K11602")
+high_light_nutrient_deprivation <- c("K07769", "K11332")
+circadian_timing_signal <- c("K08479", "K10697", "K11329")
+ntrC_family <- c("K00990", "K04751", "K07708", "K07712", "K01915", "K13598", "K13599", "K02584", "K07709", "K07713", 
+                 "K07803", "K07710", "K07714", "K01034", "K01035", "K02106", "K00626", "K08478", "K08475", "K08476", 
+                 "K11382", "K10125", "K10126", "K11103", "K02668", "K02667", "K03092", "K02650", "K11383", "K11384", 
+                 "K07711", "K07715", "K15841", "K23548", "K23549", "K19661", "K19641", "K06282", "K06281", "K03620")
+chemotaxis_family <- c("K00575", "K13924", "K03406", "K05874", "K05875", "K05876", "K05877", "K03776", "K03408", 
+                       "K03407", "K03413", "K03412", "K03415", "K02661", "K02660", "K02659", "K06596", "K02657", 
+                       "K02658", "K11525", "K11524", "K11526", "K11522", "K11523", "K06597", "K06598", "K13486", 
+                       "K13487", "K13488", "K13489", "K13490", "K13491", "K11444", "K11354", "K11355")
+other_families <- c("K02472","K25307", "K01991", "K01791", "K00425", "K00426", "K10914", "K01425", "K11356", "K01179", 
+                    "K11443","K00027", "K07785", "K02259", "K04771", "K02313")
+
+# Combine all specific KOs
+specific_kos <- c(phosphate_limitation, k_limitation, mn_starvation, high_light_nutrient_deprivation, 
+                  circadian_timing_signal, ntrC_family, chemotaxis_family, other_families)
+
+# Ensure there are no duplicates in the specific_kos
+specific_kos <- unique(specific_kos)
+
+# Create a presence-absence table for specific KOs
+presence_absence_table <- data.frame(
+  K0_number = specific_kos,
+  Category = rep(c("Phosphate limitation", "K+ limitation", "Mn2+ starvation", 
+                   "High light exposure-nutrient deprivation", "Circadian timing signal", 
+                   "NtrC family", "Chemotaxis family", "Other families"), 
+                 times = c(length(phosphate_limitation), length(k_limitation), length(mn_starvation), 
+                           length(high_light_nutrient_deprivation), length(circadian_timing_signal), 
+                           length(ntrC_family), length(chemotaxis_family), length(other_families)))
+)
+
+# Generate presence-absence data for each genome
+for (genome in genomes) {
+  presence_absence_table[[genome]] <- ifelse(presence_absence_table$K0_number %in% get(paste0(genome, "_k0")), 1, 0)
+}
+
+# Set the order of KO numbers as a factor with the specified levels
+presence_absence_table$K0_number <- factor(presence_absence_table$K0_number, levels = specific_kos)
+
+# Transform data for plotting
+plot_data <- presence_absence_table %>%
+  gather(key = "Genome", value = "Presence", -K0_number, -Category)
+
+# Set the order of genomes as a factor with the specified levels
+plot_data$Genome <- factor(plot_data$Genome, levels = genomes)
+
+# Separate the main categories and other families
+plot_data_other <- plot_data %>% filter(Category == "Other families")
+plot_data_main <- plot_data %>% filter(Category != "Other families")
+
+# Plot the heatmap for main categories
+ggplot(plot_data_main, aes(x = Genome, y = K0_number, fill = factor(Presence))) +
+  geom_tile(color = "white") +
+  scale_fill_manual(values = c("0" = "#FFFFFF", "1" = "#499851"), name = "Presence") +
+  facet_wrap(~Category, scales = "free_y") +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1),
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank()
+  ) +
+  labs(title = "Presence-Absence Heatmap of Specific KOs", x = "Genome", y = "KO Number")
+
+# Plot the heatmap for "Other families"
+ ggplot(plot_data_other, aes(x = Genome, y = K0_number, fill = factor(Presence))) +
+  geom_tile(color = "white") +
+  scale_fill_manual(values = c("0" = "#FFFFFF", "1" = "#499851"), name = "Presence") +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1),
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank()
+  ) +
+  labs(title = "Presence-Absence Heatmap of Other Families", x = "Genome", y = "KO Number")
+
+
+```
+
+
+
+```{r}
+# Define the order of genomes
+genomes <- c("MO_167.B12", "MO_192.B10", "MO_167.B42","RrhiSC01", "RintRC01", "MAG_DT_104", "TARA_PON", 
+             "ReuHM01", "AM_2804", "ReuHH01", "UBA3481", 
+             "UBA7409", "TARA_MED", "BGEO_MAG", "E_turgida", "UCYNA", "N_azollae")
+
+for (genome in genomes) {
+  assign(paste0(genome, "_k0"), unique(na.omit(ko_by_genome[[paste0(genome, "_k0_number")]])))
+}
+
+# Categorize specific KOs into broader categories
+phosphate_limitation <- c("K07636", "K07657", "K01077", "K01113", "K02040")
+k_limitation <- c("K07646", "K07667", "K01546", "K01547", "K01548", "K01545")
+mn_starvation <- c("K11520", "K11521", "K11601", "K11603", "K11602")
+high_light_nutrient_deprivation <- c("K07769", "K11332")
+circadian_timing_signal <- c("K08479", "K10697", "K11329")
+ntrC_family <- c("K04751", "K01915", "K02650", 
+                  "K23548", "K23549")
+chemotaxis_family <- c("K13924", "K03408", "K03407","K02660", "K02657", 
+                       "K02658", "K11525", "K11524", "K11526", "K11522", "K11523", "K13486", 
+                       "K13487", "K13488", "K13489", "K13490", "K13491","K11354", "K11355")
+other_families <- c("K02472","K25307", "K01991", "K01791", "K00425", "K00426", "K10914", "K01425", "K11356", "K01179", 
+                    "K11443","K00027", "K07785", "K02259", "K04771", "K02313")
+
+# Combine all specific KOs
+specific_kos <- c(phosphate_limitation, k_limitation, mn_starvation, high_light_nutrient_deprivation, 
+                  circadian_timing_signal, ntrC_family, chemotaxis_family, other_families)
+
+# Ensure there are no duplicates in the specific_kos
+specific_kos <- unique(specific_kos)
+
+# Create a presence-absence table for specific KOs
+presence_absence_table <- data.frame(
+  K0_number = specific_kos,
+  Category = rep(c("Phosphate limitation", "K+ limitation", "Mn2+ starvation", 
+                   "High light exposure-nutrient deprivation", "Circadian timing signal", 
+                   "NtrC family", "Chemotaxis family", "Other families"), 
+                 times = c(length(phosphate_limitation), length(k_limitation), length(mn_starvation), 
+                           length(high_light_nutrient_deprivation), length(circadian_timing_signal), 
+                           length(ntrC_family), length(chemotaxis_family), length(other_families)))
+)
+
+# Generate presence-absence data for each genome
+for (genome in genomes) {
+  presence_absence_table[[genome]] <- ifelse(presence_absence_table$K0_number %in% get(paste0(genome, "_k0")), 1, 0)
+}
+
+# Set the order of KO numbers as a factor with the specified levels
+presence_absence_table$K0_number <- factor(presence_absence_table$K0_number, levels = specific_kos)
+
+# Transform data for plotting
+plot_data <- presence_absence_table %>%
+  gather(key = "Genome", value = "Presence", -K0_number, -Category)
+
+# Set the order of genomes as a factor with the specified levels
+plot_data$Genome <- factor(plot_data$Genome, levels = genomes)
+
+# Plot the heatmaps
+p1 <- ggplot(plot_data %>% filter(Category == "Chemotaxis family"), aes(x = Genome, y = K0_number, fill = factor(Presence))) +
+  geom_tile(color = "white") +
+  scale_fill_manual(values = c("0" = "#FFFFFF", "1" = "#499851"), name = "Presence") +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1),
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank()
+  ) +
+  labs(title = "Chemotaxis Family")
+
+p2 <- ggplot(plot_data %>% filter(Category == "NtrC family"), aes(x = Genome, y = K0_number, fill = factor(Presence))) +
+  geom_tile(color = "white") +
+  scale_fill_manual(values = c("0" = "#FFFFFF", "1" = "#499851"), name = "Presence") +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1),
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank()
+  ) +
+  labs(title = "NtrC Family")
+
+p3 <- ggplot(plot_data %>% filter(Category == "Other families"), aes(x = Genome, y = K0_number, fill = factor(Presence))) +
+  geom_tile(color = "white") +
+  scale_fill_manual(values = c("0" = "#FFFFFF", "1" = "#499851"), name = "Presence") +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1),
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank()
+  ) +
+  labs(title = "Other Families")
+
+p4 <- ggplot(plot_data %>% filter(Category == "Phosphate limitation"), aes(x = Genome, y = K0_number, fill = factor(Presence))) +
+  geom_tile(color = "white") +
+  scale_fill_manual(values = c("0" = "#FFFFFF", "1" = "#499851"), name = "Presence") +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1),
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank()
+  ) +
+  labs(title = "Phosphate Limitation")
+
+p5 <- ggplot(plot_data %>% filter(Category == "Mn2+ starvation"), aes(x = Genome, y = K0_number, fill = factor(Presence))) +
+  geom_tile(color = "white") +
+  scale_fill_manual(values = c("0" = "#FFFFFF", "1" = "#499851"), name = "Presence") +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1),
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank()
+  ) +
+  labs(title = "Mn2+ Starvation")
+
+# Combine plots using patchwork
+combined_plot <- (p1 + p2) / (p3 + (p4 / p5))
+
+# Save the combined plot to a PDF file
+ggsave("combined_plot.pdf", combined_plot, width = 14, height = 10)
+
+# Plot other categories in a separate figure
+other_categories_plot <- ggplot(plot_data %>% filter(Category %in% c("K+ limitation", "High light exposure-nutrient deprivation", "Circadian timing signal")), aes(x = Genome, y = K0_number, fill = factor(Presence))) +
+  geom_tile(color = "white") +
+  scale_fill_manual(values = c("0" = "#FFFFFF", "1" = "#499851"), name = "Presence") +
+  facet_wrap(~Category, scales = "free_y") +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1),
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank()
+  ) +
+  labs(title = "Presence-Absence Heatmap of Other Categories", x = "Genome", y = "KO Number")
+
+# Save the other categories plot to a PDF file
+ggsave("other_categories_plot.pdf", other_categories_plot, width = 10, height = 10)
+
+
+```
+
+
+
+
+```{r}
+
+
+# Define the order of genomes
+genomes <- c("MO_167.B12", "MO_192.B10", "MO_167.B42","RrhiSC01", "RintRC01", "MAG_DT_104", "TARA_PON", 
+             "ReuHM01", "AM_2804", "ReuHH01", "UBA3481", 
+             "UBA7409", "TARA_MED", "BGEO_MAG", "E_turgida", "UCYNA", "N_azollae")
+
+for (genome in genomes) {
+  assign(paste0(genome, "_k0"), unique(na.omit(ko_by_genome[[paste0(genome, "_k0_number")]])))
+}
+
+# Categorize specific KOs into broader categories
+phosphate_limitation <- c("K07636", "K07657", "K01077", "K01113", "K02040")
+k_limitation <- c("K01546", "K01547", "K01548")
+mn_starvation <- c("K11520", "K11521", "K11601", "K11603", "K11602")
+high_light_nutrient_deprivation <- c("K07769", "K11332")
+circadian_timing_signal <- c("K08479", "K10697", "K11329")
+ntrC_family <- c("K04751", "K07712", "K01915", "K02650", 
+                  "K23548", "K23549")
+chemotaxis_family <- c("K13924", "K03408", "K02660", "K02657", 
+                       "K02658", "K11525", "K11524", "K11526", "K11522", "K11523", "K13486", 
+                       "K13487", "K13488", "K13489", "K13490", "K13491","K11354", "K11355")
+other_families <- c("K02472","K25307", "K01991", "K01791", "K00425", "K00426", "K10914", "K01425", "K11356", "K01179","K00027","K02259","K02313")
+
+# Combine all specific KOs
+specific_kos <- c(phosphate_limitation, k_limitation, mn_starvation, high_light_nutrient_deprivation, 
+                  circadian_timing_signal, ntrC_family, chemotaxis_family, other_families)
+
+# Ensure there are no duplicates in the specific_kos
+specific_kos <- unique(specific_kos)
+
+# Create a presence-absence table for specific KOs
+presence_absence_table <- data.frame(
+  K0_number = specific_kos,
+  Category = rep(c("Phosphate limitation", "K+ limitation", "Mn2+ starvation", 
+                   "High light exposure-nutrient deprivation", "Circadian timing signal", 
+                   "NtrC family", "Chemotaxis family", "Other families"), 
+                 times = c(length(phosphate_limitation), length(k_limitation), length(mn_starvation), 
+                           length(high_light_nutrient_deprivation), length(circadian_timing_signal), 
+                           length(ntrC_family), length(chemotaxis_family), length(other_families)))
+)
+
+# Generate presence-absence data for each genome
+for (genome in genomes) {
+  presence_absence_table[[genome]] <- ifelse(presence_absence_table$K0_number %in% get(paste0(genome, "_k0")), 1, 0)
+}
+
+# Set the order of KO numbers as a factor with the specified levels
+presence_absence_table$K0_number <- factor(presence_absence_table$K0_number, levels = specific_kos)
+
+# Transform data for plotting
+plot_data <- presence_absence_table %>%
+  gather(key = "Genome", value = "Presence", -K0_number, -Category)
+
+# Set the order of genomes as a factor with the specified levels
+plot_data$Genome <- factor(plot_data$Genome, levels = genomes)
+
+# Plot the combined heatmap
+combined_plot <- ggplot(plot_data, aes(x = Genome, y = K0_number, fill = factor(Presence))) +
+  geom_tile(color = "grey") +
+  scale_fill_manual(values = c("0" = "#FFFFFF", "1" = "#8cbd8c"), name = "Presence") +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1),
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank(),
+    plot.margin = margin(t = 10, r = 300, b = 10, l = 10)
+  ) +
+  labs(title = "Presence-Absence Heatmap of Specific KOs", x = "Genome", y = "KO Number")
+
+# Save the combined heatmap as a PDF
+ggsave("Two_component_combined.pdf", plot = combined_plot, device = "pdf", width = 10, height = 8)
+
+# Print the plot
+print(combined_plot)
+
+```
+
+
+
+
+```{r}
+
+# Define the order of genomes (reversed order)
+genomes <- rev(c("MO_167.B12", "MO_192.B10", "MO_167.B42","RrhiSC01", "RintRC01", "MAG_DT_104", "TARA_PON", 
+             "ReuHM01", "AM_2804", "ReuHH01", "UBA3481", 
+             "UBA7409", "TARA_MED", "BGEO_MAG", "E_turgida", "UCYNA", "N_azollae"))
+
+for (genome in genomes) {
+  assign(paste0(genome, "_k0"), unique(na.omit(ko_by_genome[[paste0(genome, "_k0_number")]])))
+}
+
+# Categorize specific KOs into broader categories with labels for grouping
+phosphate_limitation <- c("K07636", "K07657", "K01077", "K01113", "K02040")
+k_limitation <- c("K01546", "K01547", "K01548")
+mn_starvation <- c("K11520", "K11521", "K11601", "K11603", "K11602")
+chemotaxis_family <- c("K13924", "K03408", "K02650", "K02660", "K02657", 
+                       "K02658", "K11525", "K11524", "K11526", "K11522", "K11523", "K13486", 
+                       "K13487", "K13488", "K13489", "K13490", "K13491","K11354", "K11355")
+other_families <- c("K02472","K25307", "K01991", "K01791", "K00425", "K00426", "K10914", "K01425", "K11356", "K01179","K00027","K02259","K02313")
+
+# Combine all specific KOs and group them
+specific_kos <- c(phosphate_limitation, k_limitation, mn_starvation, chemotaxis_family, other_families)
+
+# Ensure there are no duplicates in the specific_kos
+specific_kos <- unique(specific_kos)
+
+# Create a presence-absence table for specific KOs
+presence_absence_table <- data.frame(
+  K0_number = specific_kos,
+  Category = rep(c("Phosphate limitation", "K+ limitation", "Mn2+ starvation", 
+                 "Chemotaxis family", "Other families"), 
+                 times = c(length(phosphate_limitation), length(k_limitation), length(mn_starvation), 
+                           length(chemotaxis_family), length(other_families)))
+)
+
+# Set the order of the categories as a factor with the specified levels
+presence_absence_table$Category <- factor(presence_absence_table$Category, levels = c(
+  "Phosphate limitation", "K+ limitation", "Mn2+ starvation", 
+  "Chemotaxis family", "Other families"
+))
+
+# Generate presence-absence data for each genome
+for (genome in genomes) {
+  presence_absence_table[[genome]] <- ifelse(presence_absence_table$K0_number %in% get(paste0(genome, "_k0")), 1, 0)
+}
+
+# Set the order of KO numbers as a factor with the specified levels
+presence_absence_table$K0_number <- factor(presence_absence_table$K0_number, levels = specific_kos)
+
+# Transform data for plotting
+plot_data <- presence_absence_table %>%
+  gather(key = "Genome", value = "Presence", -K0_number, -Category)
+
+# Set the order of genomes as a factor with the specified levels
+plot_data$Genome <- factor(plot_data$Genome, levels = genomes)
+
+# Plot the dot plot with category titles
+dot_plot <- ggplot(plot_data, aes(x = K0_number, y = Genome)) +
+  geom_point(aes(color = factor(Presence)), size = 3) +
+  scale_color_manual(values = c("0" = "white", "1" = "#3A6B99"), name = "Presence") +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5),
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank(),
+    legend.position = "bottom",
+    strip.text.x = element_text(size = 12, face = "bold")
+  ) +
+  labs(title = "Presence-Absence Dot Plot of Specific KOs", x = "KO Number", y = "Genome") +
+  facet_grid(. ~ Category, scales = "free_x", space = "free_x")
+
+# Print the plot
+print(dot_plot)
+
+
+# Save the combined heatmap as a PDF
+ggsave("Two_component.pdf", plot = dot_plot, device = "pdf", width = 12, height = 4)
+
+```
+
+
+
+```{r}
+
+# Load necessary libraries
+library(ggplot2)
+library(tidyr)
+library(dplyr)  # For the %>% pipe operator
+
+
+# Define the order of genomes (reversed order)
+genomes <- rev(c("MO_167.B12", "MO_192.B10", "MO_167.B42", "RrhiSC01", "RintRC01", "MAG_DT_104", 
+                 "TARA_PON", "ReuHM01", "AM_2804", "ReuHH01", "UBA3481", 
+                 "UBA7409", "TARA_MED", "BGEO_MAG", "E_turgida", "UCYNA", "N_azollae"))
+
+
+# Assign KO data for each genome
+for (genome in genomes) {
+  assign(paste0(genome, "_k0"), unique(na.omit(ko_by_genome[[paste0(genome, "_k0_number")]])))
+}
+
+# Define the KOs for each category
+categories <- list(
+  "Iron-siderophore transporter" = c("K25109", "K25110"),
+  "Iron complex transporter" = c("K02016", "K02015", "K02013"),
+  "Vitamin B12 transporter" = c("K25034", "K25027", "K25028"),
+  "Manganese transporter" = c("K11601", "K11602", "K11603"),
+  "Zinc transporter" = c("K09815", "K09816", "K09817"),
+  "Manganese/Iron transporter" = c("K09818", "K09819", "K09820"),
+  "Cobalt/Nickel transporter" = c("K02008", "K02007", "K02006"),
+  "Biotin transporter" = c("K03523"),
+  "Energy-coupling factor transporter" = c("K16785", "K16786", "K16787", "K01552"),
+  "Other ABC transporters" = c("K02471", "K15738", "K21397")
+)
+
+# Combine all specific KOs
+specific_kos <- unique(unlist(categories))
+
+# Reverse the order of specific KOs
+specific_kos <- rev(specific_kos)
+
+# Create an empty data frame for presence-absence table
+presence_absence_table <- data.frame(K0_number = character(),
+                                     Category = character(),
+                                     stringsAsFactors = FALSE)
+
+# Loop through each category and assign KO numbers
+for (category in names(categories)) {
+  ko_numbers <- categories[[category]]
+  temp_df <- data.frame(K0_number = ko_numbers, Category = category, stringsAsFactors = FALSE)
+  presence_absence_table <- rbind(presence_absence_table, temp_df)
+}
+
+# Generate presence-absence data for each genome
+for (genome in genomes) {
+  presence_absence_table[[genome]] <- ifelse(presence_absence_table$K0_number %in% get(paste0(genome, "_k0")), 1, 0)
+}
+
+# Transform the data for plotting
+plot_data <- presence_absence_table %>%
+  pivot_longer(cols = -c(K0_number, Category), names_to = "Genome", values_to = "Presence")
+
+# Set the order of genomes and KO numbers
+plot_data$Genome <- factor(plot_data$Genome, levels = genomes)
+plot_data$K0_number <- factor(plot_data$K0_number, levels = specific_kos)
+
+# Plot with the correct titles and categories
+dot_plot_2 <- ggplot(plot_data, aes(x = K0_number, y = Genome)) +
+  geom_point(aes(color = factor(Presence)), size = 3) +
+  scale_color_manual(values = c("0" = "white", "1" = "#3A6B99"), name = "Presence") +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5),
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank(),
+    legend.position = "bottom",
+    strip.text.x = element_text(size = 12, face = "bold")
+  ) +
+  labs(x = "KO Number", y = "Genome") +
+  facet_grid(. ~ Category, scales = "free_x", space = "free_x")
+
+# Print the plot
+print(dot_plot_2)
+# Save the combined heatmap as a PDF
+ggsave("Transporters.pdf", plot = dot_plot_2, device = "pdf", width = 10, height = 4)
+
+```
+
+
+
+```{r}
+# Define the order of genomes
+genomes <- c("MO_167.B12", "MO_192.B10", "MO_167.B42","RrhiSC01", "RintRC01", "MAG_DT_104", "TARA_PON", 
+             "ReuHM01", "AM_2804", "ReuHH01", "UBA3481", 
+             "UBA7409", "TARA_MED", "BGEO_MAG", "E_turgida", "UCYNA", "N_azollae")
+
+for (genome in genomes) {
+  assign(paste0(genome, "_k0"), unique(na.omit(ko_by_genome[[paste0(genome, "_k0_number")]])))
+}
+
+# Define categories and KOs
+categories <- list(
+  "Ferric citrate transporter" = c("K23181", "K23182", "K23183", "K23184"),
+  "Ferric hydroxamate transporter" = c("K23227", "K23228", "K10829"),
+  "Ferric hydroxamate/heme transporter" = c("K25308", "K25288", "K25289", "K25290"),
+  "Heme transporter 1" = c("K25132", "K25133", "K10834"),
+  "Heme transporter 2" = c("K25113", "K25114", "K25115", "K25116", "K14193", "K25117", "K25118", "K25119", "K25120"),
+  "Iron-siderophore transporter 1" = c("K23185", "K25287", "K25286", "K23186", "K23187", "K23188"),
+  "Iron-siderophore transporter 2" = c("K25109", "K25110", "K25111", "K25130"),
+  "Iron-siderophore transporter 3" = c("K25282", "K25283", "K25284", "K25285"),
+  "Iron complex transporter" = c("K02016", "K02015", "K02013"),
+  "Vitamin B12 transporter" = c("K06858", "K06073", "K06074"),
+  "Cobalamin transporter" = c("K25034", "K25027", "K25028"),
+  "Manganese transporter 1" = c("K11601", "K11602", "K11603"),
+  "Manganese transporter 2" = c("K19975", "K19976", "K19973"),
+  "Zinc transporter" = c("K09815", "K09816", "K09817"),
+  "Iron/zinc/manganese/copper transporter" = c("K11704", "K11705", "K11706"),
+  "Manganese/iron transporter" = c("K11604", "K11605", "K11606", "K11607"),
+  "Manganese/zinc transporter" = c("K19971", "K19972", "K10830"),
+  "Manganese/zinc/iron transporter" = c("K11707", "K11708", "K11709", "K11710"),
+  "Manganese/iron transporter 2" = c("K09818", "K09819", "K09820"),
+  "Cobalt/Nickel transporter" = c("K10094", "K16915", "K02009", "K02008", "K02007", "K02006"),
+  "Biotin transporter" = c("K03523", "K16783", "K16784"),
+  "Energy-coupling factor transporter" = c("K16923", "K16924", "K24620", "K16926", "K16927", "K16928", "K16929", "K16785", "K16786", "K16787", "K01552", "K24040", "K16925"),
+  "Putative zinc/manganese transporter" = c("K02077", "K02075", "K02074")
+)
+
+# Combine all specific KOs
+specific_kos <- unlist(categories)
+
+# Create a presence-absence table for specific KOs
+presence_absence_table <- data.frame(
+  K0_number = specific_kos,
+  Category = rep(names(categories), times = sapply(categories, length))
+)
+
+# Generate presence-absence data for each genome
+for (genome in genomes) {
+  presence_absence_table[[genome]] <- ifelse(presence_absence_table$K0_number %in% get(paste0(genome, "_k0")), 1, 0)
+}
+
+# Convert logicals to integers (0 and 1)
+presence_absence_table <- presence_absence_table %>%
+  mutate(across(all_of(genomes), as.integer))
+
+# Print the presence-absence table
+print(presence_absence_table)
+
+# Convert the data to long format for ggplot2
+presence_absence_long <- presence_absence_table %>%
+  pivot_longer(cols = -c(K0_number, Category), names_to = "Genome", values_to = "Presence")
+
+# Set the order of the Genome factor based on the order in the table
+presence_absence_long$Genome <- factor(presence_absence_long$Genome, levels = unique(presence_absence_long$Genome))
+
+# Create the heatmap
+combined_plot <- ggplot(presence_absence_long, aes(x = Genome, y = K0_number, fill = factor(Presence))) +
+  geom_tile(color = "grey") +
+  scale_fill_manual(values = c("0" = "white", "1" = "#499851"), name = "Presence") +
+  facet_wrap(~Category, scales = "free_y") +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1),
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank()
+  ) +
+  labs(title = "Presence-Absence Heatmap of Specific KOs", x = "Genome", y = "KO Number")
+
+# Print the plot
+print(combined_plot)
+
+
+```
+
+#Cobalamine byosynthesis:
+```{r}
+
+# Define the order of genomes
+genomes <- c("MO_167.B12", "MO_192.B10", "MO_167.B42","RrhiSC01", "RintRC01", "MAG_DT_104", "TARA_PON", 
+             "ReuHM01", "AM_2804", "ReuHH01", "UBA3481", 
+             "UBA7409", "TARA_MED", "BGEO_MAG", "E_turgida", "UCYNA", "N_azollae")
+
+for (genome in genomes) {
+  assign(paste0(genome, "_k0"), unique(na.omit(ko_by_genome[[paste0(genome, "_k0_number")]])))
+}
+
+# Define the pathways and corresponding K numbers
+pathways <- list(
+  "Cobalamin biosynthesis, cobyrinate a,c-diamide => cobalamin" = c("K00798", "K19221", "K02232", "K02225", "K02227", "K02231", "K00768", "K02226", "K22316", "K02233"),
+  "Cobalamin biosynthesis, anaerobic, uroporphyrinogen III => sirohydrochlorin => cobyrinate a,c-diamide" = c("K02302", "K02303", "K13542", "K02304", "K24866", "K02190", "K03795", "K22011", "K03394", "K05934", "K13541", "K21479", "K05936", "K02189", "K13541", "K02188", "K05895", "K02191", "K03399", "K00595", "K06042", "K02224"),
+  "Cobalamin biosynthesis, aerobic, uroporphyrinogen III => precorrin 2 => cobyrinate a,c-diamide" = c("K02303", "K13542", "K03394", "K13540", "K02229", "K05934", "K13540", "K13541", "K05936", "K02228", "K05895", "K00595", "K06042", "K02224", "K02230", "K09882", "K09883")
+)
+
+# Create a combined data frame with Pathway, K0_number, and Category
+presence_absence_table <- data.frame()
+for (pathway in names(pathways)) {
+  k_numbers <- pathways[[pathway]]
+  pathway_df <- data.frame(
+    K0_number = k_numbers,
+    Pathway = pathway,
+    Category = rep("Cobalamin Biosynthesis", length(k_numbers))
+  )
+  presence_absence_table <- rbind(presence_absence_table, pathway_df)
+}
+
+# Generate presence-absence data for each genome
+for (genome in genomes) {
+  presence_absence_table[[genome]] <- ifelse(presence_absence_table$K0_number %in% get(paste0(genome, "_k0")), 1, 0)
+}
+
+# Convert logicals to integers (0 and 1)
+presence_absence_table <- presence_absence_table %>%
+  mutate(across(all_of(genomes), as.integer))
+
+# Convert the data to long format for ggplot2
+presence_absence_long <- presence_absence_table %>%
+  pivot_longer(cols = -c(K0_number, Pathway, Category), names_to = "Genome", values_to = "Presence")
+
+# Set the order of the Genome factor based on the order in the table
+presence_absence_long$Genome <- factor(presence_absence_long$Genome, levels = unique(presence_absence_long$Genome))
+
+# Create the heatmap with grouped pathways
+cobalamin_plot <- ggplot(presence_absence_long, aes(x = Genome, y = K0_number, fill = factor(Presence))) +
+  geom_tile(color = "grey") +
+  scale_fill_manual(values = c("0" = "white", "1" = "#499851"), name = "Presence") +
+  facet_wrap(~Pathway, scales = "free_y", ncol = 1) +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1),
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank(),
+    plot.margin = margin(t = 10, r = 300, b = 10, l = 10) 
+  ) +
+  labs(title = "Presence-Absence Heatmap of Cobalamin (Vitamin B12) Biosynthesis", x = "Genome", y = "KO Number")
+
+# Print the plot
+print(cobalamin_plot)
+
+# Save the plot to a PDF file
+ggsave("Cobalamin_Biosynthesis.pdf", cobalamin_plot, width = 12, height = 10)
+
+
+```
+
+
+#Cobalamine biosyntheisi
+```{r}
+
+# Define the order of genomes
+genomes <- c("MO_167.B12", "MO_192.B10", "MO_167.B42","RrhiSC01", "RintRC01", "MAG_DT_104", "TARA_PON", 
+             "ReuHM01", "AM_2804", "ReuHH01", "UBA3481", 
+             "UBA7409", "TARA_MED", "BGEO_MAG", "E_turgida", "UCYNA", "N_azollae")
+
+for (genome in genomes) {
+  assign(paste0(genome, "_k0"), unique(na.omit(ko_by_genome[[paste0(genome, "_k0_number")]])))
+}
+
+# Define the pathways and corresponding K numbers
+cobalamine_biosynthesis_k_numbers <- c(
+  "K00798", "K19221", "K02232", "K02227", "K02231", "K02233", "K02303", "K13542", "K03795", "K03394", "K13541", "K02188", "K05895", "K02191", "K00595", "K06042", "K02224","K05936", "K02230"
+)
+
+# Create a presence-absence table for the specified K numbers
+presence_absence_table <- data.frame(
+  K0_number = cobalamine_biosynthesis_k_numbers,
+  Category = rep("Cobalamine Biosynthesis", length(cobalamine_biosynthesis_k_numbers))
+)
+
+# Generate presence-absence data for each genome
+for (genome in genomes) {
+  presence_absence_table[[genome]] <- ifelse(presence_absence_table$K0_number %in% get(paste0(genome, "_k0")), 1, 0)
+}
+
+# Set the order of KO numbers as a factor with the specified levels
+presence_absence_table$K0_number <- factor(presence_absence_table$K0_number, levels = cobalamine_biosynthesis_k_numbers)
+
+# Transform data for plotting
+plot_data <- presence_absence_table %>%
+  gather(key = "Genome", value = "Presence", -K0_number, -Category)
+
+# Set the order of genomes as a factor with the specified levels
+plot_data$Genome <- factor(plot_data$Genome, levels = genomes)
+
+# Plot the heatmap
+cobalamine_biosynthesis_plot <- ggplot(plot_data, aes(x = Genome, y = K0_number, fill = factor(Presence))) +
+  geom_tile(color = "grey") +
+  scale_fill_manual(values = c("0" = "#FFFFFF", "1" = "#8cbd8c"), name = "Presence") +
+  facet_wrap(~Category, scales = "free_y") +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1),
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank(),
+    plot.margin = margin(t = 10, r = 10, b = 10, l = 10)
+  ) +
+  labs(title = "Presence-Absence Heatmap of Cobalamine Biosynthesis", x = "Genome", y = "KO Number")
+
+# Print the plot
+cobalamine_biosynthesis_plot
+
+```
+
+
+
+#Riboflavine biosyntheis
+
+```{r}
+
+# Define the order of genomes
+genomes <- c("MO_167.B12", "MO_192.B10", "MO_167.B42","RrhiSC01", "RintRC01", "MAG_DT_104", "TARA_PON", 
+             "ReuHM01", "AM_2804", "ReuHH01", "UBA3481", 
+             "UBA7409", "TARA_MED", "BGEO_MAG", "E_turgida", "UCYNA", "N_azollae")
+
+for (genome in genomes) {
+  assign(paste0(genome, "_k0"), unique(na.omit(ko_by_genome[[paste0(genome, "_k0_number")]])))
+}
+
+# List of K numbers to check for
+k_numbers <- c("K01497", "K14652", "K01498", "K00082", "K11752", "K22912", 
+                     "K20860", "K20861", "K20862", "K21063", "K21064", "K02858", 
+                     "K00794", "K00793", "K20884", "K22949", "K11753")
+
+
+
+
+
+# Create a presence-absence table for the specified K numbers
+presence_absence_table <- data.frame(
+  K0_number = k_numbers,
+  Category = rep("Riboflavin Biosynthesis", length(k_numbers))
+)
+
+# Generate presence-absence data for each genome
+for (genome in genomes) {
+  presence_absence_table[[genome]] <- ifelse(presence_absence_table$K0_number %in% get(paste0(genome, "_k0")), 1, 0)
+}
+
+# Set the order of KO numbers as a factor with the specified levels
+presence_absence_table$K0_number <- factor(presence_absence_table$K0_number, levels = k_numbers)
+
+# Transform data for plotting
+plot_data <- presence_absence_table %>%
+  gather(key = "Genome", value = "Presence", -K0_number, -Category)
+
+# Set the order of genomes as a factor with the specified levels
+plot_data$Genome <- factor(plot_data$Genome, levels = genomes)
+
+# Plot the combined heatmap
+riboflavin_plot <- ggplot(plot_data, aes(x = Genome, y = K0_number, fill = factor(Presence))) +
+  geom_tile(color = "grey") +
+  scale_fill_manual(values = c("0" = "#FFFFFF", "1" = "#8cbd8c"), name = "Presence") +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1),
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank(),
+    plot.margin = margin(t = 10, r = 300, b = 10, l = 10)
+  ) +
+  labs(title = "Presence-Absence Heatmap of Riboflavin Biosynthesis", x = "Genome", y = "KO Number")
+
+# Print the plot
+print(riboflavin_plot)
+
+# Save the combined heatmap as a PDF
+#ggsave("Riboflavin_Biosynthesis.pdf", plot = riboflavin_plot, device = "pdf", width = 10, height = 8)
+
+```
+
+#Biotin byisinthesis
+
+```{r}
+
+# Define the order of genomes
+genomes <- c("MO_167.B12", "MO_192.B10", "MO_167.B42","RrhiSC01", "RintRC01", "MAG_DT_104", "TARA_PON", 
+             "ReuHM01", "AM_2804", "ReuHH01", "UBA3481", 
+             "UBA7409", "TARA_MED", "BGEO_MAG", "E_turgida", "UCYNA", "N_azollae")
+
+for (genome in genomes) {
+  assign(paste0(genome, "_k0"), unique(na.omit(ko_by_genome[[paste0(genome, "_k0_number")]])))
+}
+
+# List of K numbers to check for biotin biosynthesis
+biotin_k_numbers <- c("K00652", "K00833", "K19563", "K01935", "K19562", "K01012", 
+                     "K25570", "K16593", "K01906")
+
+
+
+# Create a presence-absence table for the specified K numbers
+presence_absence_table <- data.frame(
+  K0_number = biotin_k_numbers,
+  Category = rep("Biotin Biosynthesis", length(biotin_k_numbers))
+)
+
+# Generate presence-absence data for each genome
+for (genome in genomes) {
+  presence_absence_table[[genome]] <- ifelse(presence_absence_table$K0_number %in% get(paste0(genome, "_k0")), 1, 0)
+}
+
+# Set the order of KO numbers as a factor with the specified levels
+presence_absence_table$K0_number <- factor(presence_absence_table$K0_number, levels = biotin_k_numbers)
+
+# Transform data for plotting
+plot_data <- presence_absence_table %>%
+  gather(key = "Genome", value = "Presence", -K0_number, -Category)
+
+# Set the order of genomes as a factor with the specified levels
+plot_data$Genome <- factor(plot_data$Genome, levels = genomes)
+
+# Plot the combined heatmap
+biotin_plot <- ggplot(plot_data, aes(x = Genome, y = K0_number, fill = factor(Presence))) +
+  geom_tile(color = "grey") +
+  scale_fill_manual(values = c("0" = "#FFFFFF", "1" = "#8cbd8c"), name = "Presence") +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1),
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank(),
+    plot.margin = margin(t = 10, r = 300, b = 10, l = 10)
+  ) +
+  labs(title = "Presence-Absence Heatmap of Biotin Biosynthesis", x = "Genome", y = "KO Number")
+
+# Print the plot
+print(biotin_plot)
+
+# Save the combined heatmap as a PDF
+#ggsave("Biotin_Biosynthesis.pdf", plot = biotin_plot, device = "pdf", width = 10, height = 8)
+
+
+```
+
+
+#Thiamine
+
+```{r}
+
+# Define the order of genomes
+genomes <- c("MO_167.B12", "MO_192.B10", "MO_167.B42","RrhiSC01", "RintRC01", "MAG_DT_104", "TARA_PON", 
+             "ReuHM01", "AM_2804", "ReuHH01", "UBA3481", 
+             "UBA7409", "TARA_MED", "BGEO_MAG", "E_turgida", "UCYNA")
+
+for (genome in genomes) {
+  assign(paste0(genome, "_k0"), unique(na.omit(ko_by_genome[[paste0(genome, "_k0_number")]])))
+}
+
+# List of K numbers to check for thiamine biosynthesis
+thiamine_k_numbers <- c("K03148", "K03154", "K03151", "K03150", "K03149", "K03147", 
+                     "K00941", "K00788", "K14153", "K21219", "K00946", "K03153", 
+                     "K10810", "K03146", "K18278", "K00877", "K14154", "K00949")
+
+# Create a presence-absence table for the specified K numbers
+presence_absence_table <- data.frame(
+  K0_number = thiamine_k_numbers,
+  Category = rep("Thiamine Biosynthesis", length(thiamine_k_numbers))
+)
+
+# Generate presence-absence data for each genome
+for (genome in genomes) {
+  presence_absence_table[[genome]] <- ifelse(presence_absence_table$K0_number %in% get(paste0(genome, "_k0")), 1, 0)
+}
+
+# Set the order of KO numbers as a factor with the specified levels
+presence_absence_table$K0_number <- factor(presence_absence_table$K0_number, levels = thiamine_k_numbers)
+
+# Transform data for plotting
+plot_data <- presence_absence_table %>%
+  gather(key = "Genome", value = "Presence", -K0_number, -Category)
+
+# Set the order of genomes as a factor with the specified levels
+plot_data$Genome <- factor(plot_data$Genome, levels = genomes)
+
+# Plot the combined heatmap
+thiamine_plot <- ggplot(plot_data, aes(x = Genome, y = K0_number, fill = factor(Presence))) +
+  geom_tile(color = "grey") +
+  scale_fill_manual(values = c("0" = "#FFFFFF", "1" = "#8cbd8c"), name = "Presence") +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1),
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank(),
+    plot.margin = margin(t = 10, r = 300, b = 10, l = 10)
+  ) +
+  labs(title = "Presence-Absence Heatmap of Thiamine Biosynthesis", x = "Genome", y = "KO Number")
+
+# Print the plot
+print(thiamine_plot)
+
+# Save the combined heatmap as a PDF
+#ggsave("Thiamine_Biosynthesis.pdf", plot = thiamine_plot, device = "pdf", width = 10, height = 8)
+
+```
+
+#Folate Biosyntheis
+
+```{r}
+# Define the order of genomes
+genomes <- c("MO_167.B12", "MO_192.B10", "MO_167.B42","RrhiSC01", "RintRC01", "MAG_DT_104", "TARA_PON", 
+             "ReuHM01", "AM_2804", "ReuHH01", "UBA3481", 
+             "UBA7409", "TARA_MED", "BGEO_MAG", "E_turgida", "UCYNA")
+
+for (genome in genomes) {
+  assign(paste0(genome, "_k0"), unique(na.omit(ko_by_genome[[paste0(genome, "_k0_number")]])))
+}
+
+# List of K numbers to check for folate biosynthesis
+folate_k_numbers <- c("K01495", "K09007", "K01077", "K01113", "K01633", "K00950", "K00796", 
+                      "K11754", "K14652", "K01665", "K02619", "K01724", "K10026", "K06920", 
+                      "K09457", "K03639", "K03637", "K03635", "K03638", "K03750", "K07141", "K03752")
+
+
+# Create a presence-absence table for the specified K numbers
+presence_absence_table <- data.frame(
+  K0_number = folate_k_numbers,
+  Category = rep("Folate Biosynthesis", length(folate_k_numbers))
+)
+
+# Generate presence-absence data for each genome
+for (genome in genomes) {
+  presence_absence_table[[genome]] <- ifelse(presence_absence_table$K0_number %in% get(paste0(genome, "_k0")), 1, 0)
+}
+
+# Set the order of KO numbers as a factor with the specified levels
+presence_absence_table$K0_number <- factor(presence_absence_table$K0_number, levels = folate_k_numbers)
+
+# Transform data for plotting
+plot_data <- presence_absence_table %>%
+  gather(key = "Genome", value = "Presence", -K0_number, -Category)
+
+# Set the order of genomes as a factor with the specified levels
+plot_data$Genome <- factor(plot_data$Genome, levels = genomes)
+
+# Plot the combined heatmap
+folate_plot <- ggplot(plot_data, aes(x = Genome, y = K0_number, fill = factor(Presence))) +
+  geom_tile(color = "grey") +
+  scale_fill_manual(values = c("0" = "#FFFFFF", "1" = "#8cbd8c"), name = "Presence") +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1),
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank(),
+    plot.margin = margin(t = 10, r = 300, b = 10, l = 10)
+  ) +
+  labs(title = "Presence-Absence Heatmap of Folate Biosynthesis", x = "Genome", y = "KO Number")
+
+# Print the plot
+print(folate_plot)
+
+# Save the combined heatmap as a PDF
+ggsave("Folate_Biosynthesis.pdf", plot = folate_plot, device = "pdf", width = 10, height = 8)
+
+```
+
+
+#Terpenoide backbone
+
+```{r}
+
+# Define the order of genomes
+genomes <- c("MO_167.B12", "MO_192.B10", "MO_167.B42","RrhiSC01", "RintRC01", "MAG_DT_104", "TARA_PON", 
+             "ReuHM01", "AM_2804", "ReuHH01", "UBA3481", 
+             "UBA7409", "TARA_MED", "BGEO_MAG", "E_turgida", "UCYNA")
+
+for (genome in genomes) {
+  assign(paste0(genome, "_k0"), unique(na.omit(ko_by_genome[[paste0(genome, "_k0_number")]])))
+}
+
+# List of K numbers for terpenoid backbone biosynthesis
+terpenoid_k_numbers <- c("K01662", "K00099", "K00919", "K01770", "K03526", "K03527", 
+                          "K01823", "K13789", "K13787")
+
+# Create a presence-absence table for the specified K numbers
+presence_absence_table <- data.frame(
+  K0_number = terpenoid_k_numbers,
+  Category = rep("Terpenoid Backbone Biosynthesis", length(terpenoid_k_numbers))
+)
+
+# Generate presence-absence data for each genome
+for (genome in genomes) {
+  presence_absence_table[[genome]] <- ifelse(presence_absence_table$K0_number %in% get(paste0(genome, "_k0")), 1, 0)
+}
+
+# Set the order of KO numbers as a factor with the specified levels
+presence_absence_table$K0_number <- factor(presence_absence_table$K0_number, levels = terpenoid_k_numbers)
+
+# Transform data for plotting
+plot_data <- presence_absence_table %>%
+  gather(key = "Genome", value = "Presence", -K0_number, -Category)
+
+# Set the order of genomes as a factor with the specified levels
+plot_data$Genome <- factor(plot_data$Genome, levels = genomes)
+
+# Plot the combined heatmap
+terpenoid_plot <- ggplot(plot_data, aes(x = Genome, y = K0_number, fill = factor(Presence))) +
+  geom_tile(color = "grey") +
+  scale_fill_manual(values = c("0" = "#FFFFFF", "1" = "#8cbd8c"), name = "Presence") +
+  facet_wrap(~Category, scales = "free_y") +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1),
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank(),
+    plot.margin = margin(t = 10, r = 10, b = 10, l = 10)
+  ) +
+  labs(title = "Presence-Absence Heatmap of Terpenoid Backbone Biosynthesis", x = "Genome", y = "KO Number")
+
+# Print the plot
+print(terpenoid_plot)
+
+# Save the heatmap as a PDF
+#ggsave("Terpenoid_Backbone_Biosynthesis.pdf", plot = terpenoid_plot, device = "pdf", width = 10, height = 8)
+
+
+```
+
+#Pyridoxal-P biosynthesis pathway
+```{r}
+
+# Define the order of genomes
+genomes <- c("MO_167.B12", "MO_192.B10", "MO_167.B42","RrhiSC01", "RintRC01", "MAG_DT_104", "TARA_PON", 
+             "ReuHM01", "AM_2804", "ReuHH01", "UBA3481", 
+             "UBA7409", "TARA_MED", "BGEO_MAG", "E_turgida", "UCYNA")
+
+for (genome in genomes) {
+  assign(paste0(genome, "_k0"), unique(na.omit(ko_by_genome[[paste0(genome, "_k0_number")]])))
+}
+
+# List of K numbers for Pyridoxal-P biosynthesis
+pyridoxal_p_k_numbers <- c("K00831", "K03474", "K00275")
+
+# Create a presence-absence table for the specified K numbers
+presence_absence_table <- data.frame(
+  K0_number = pyridoxal_p_k_numbers,
+  Category = rep("Pyridoxal-P Biosynthesis", length(pyridoxal_p_k_numbers))
+)
+
+# Generate presence-absence data for each genome
+for (genome in genomes) {
+  presence_absence_table[[genome]] <- ifelse(presence_absence_table$K0_number %in% get(paste0(genome, "_k0")), 1, 0)
+}
+
+# Set the order of KO numbers as a factor with the specified levels
+presence_absence_table$K0_number <- factor(presence_absence_table$K0_number, levels = pyridoxal_p_k_numbers)
+
+# Transform data for plotting
+plot_data <- presence_absence_table %>%
+  gather(key = "Genome", value = "Presence", -K0_number, -Category)
+
+# Set the order of genomes as a factor with the specified levels
+plot_data$Genome <- factor(plot_data$Genome, levels = genomes)
+
+# Plot the combined heatmap
+pyridoxal_p_plot <- ggplot(plot_data, aes(x = Genome, y = K0_number, fill = factor(Presence))) +
+  geom_tile(color = "grey") +
+  scale_fill_manual(values = c("0" = "#FFFFFF", "1" = "#8cbd8c"), name = "Presence") +
+  facet_wrap(~Category, scales = "free_y") +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1),
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank(),
+    plot.margin = margin(t = 10, r = 10, b = 10, l = 10)
+  ) +
+  labs(title = "Presence-Absence Heatmap of Pyridoxal-P Biosynthesis", x = "Genome", y = "KO Number")
+
+# Print the plot
+print(pyridoxal_p_plot)
+
+# Save the heatmap as a PDF
+#ggsave("Pyridoxal_P_Biosynthesis.pdf", plot = pyridoxal_p_plot, device = "pdf", width = 10, height = 8)
+
+
+```
+
+#Lipoic acid 
+```{r}
+
+# Define the order of genomes
+genomes <- c("MO_167.B12", "MO_192.B10", "MO_167.B42","RrhiSC01", "RintRC01", "MAG_DT_104", "TARA_PON", 
+             "ReuHM01", "AM_2804", "ReuHH01", "UBA3481", 
+             "UBA7409", "TARA_MED", "BGEO_MAG", "E_turgida", "UCYNA")
+
+for (genome in genomes) {
+  assign(paste0(genome, "_k0"), unique(na.omit(ko_by_genome[[paste0(genome, "_k0_number")]])))
+}
+
+# List of K numbers for Lipoic acid biosynthesis
+lipoic_acid_k_numbers <- c(
+  "K03801", "K03644", "K03800", "K00382", "K00161", "K00162", "K00627", "K00281", "K00605"
+)
+
+# Create a presence-absence table for the specified K numbers
+presence_absence_table <- data.frame(
+  K0_number = lipoic_acid_k_numbers,
+  Category = rep("Lipoic Acid Biosynthesis", length(lipoic_acid_k_numbers))
+)
+
+# Generate presence-absence data for each genome
+for (genome in genomes) {
+  presence_absence_table[[genome]] <- ifelse(presence_absence_table$K0_number %in% get(paste0(genome, "_k0")), 1, 0)
+}
+
+# Set the order of KO numbers as a factor with the specified levels
+presence_absence_table$K0_number <- factor(presence_absence_table$K0_number, levels = lipoic_acid_k_numbers)
+
+# Transform data for plotting
+plot_data <- presence_absence_table %>%
+  gather(key = "Genome", value = "Presence", -K0_number, -Category)
+
+# Set the order of genomes as a factor with the specified levels
+plot_data$Genome <- factor(plot_data$Genome, levels = genomes)
+
+# Plot the heatmap
+lipoic_acid_plot <- ggplot(plot_data, aes(x = Genome, y = K0_number, fill = factor(Presence))) +
+  geom_tile(color = "grey") +
+  scale_fill_manual(values = c("0" = "#FFFFFF", "1" = "#8cbd8c"), name = "Presence") +
+  facet_wrap(~Category, scales = "free_y") +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1),
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank(),
+    plot.margin = margin(t = 10, r = 10, b = 10, l = 10)
+  ) +
+  labs(title = "Presence-Absence Heatmap of Lipoic Acid Biosynthesis", x = "Genome", y = "KO Number")
+
+# Print the plot
+print(lipoic_acid_plot)
+
+# Save the heatmap as a PDF
+#ggsave("Lipoic_Acid_Biosynthesis.pdf", plot = lipoic_acid_plot, device = "pdf", width = 10, height = 8)
+
+
+```
+
+
+#Pantothenate biosynthesis
+```{r}
+# Define the order of genomes
+genomes <- c("MO_167.B12", "MO_192.B10", "MO_167.B42","RrhiSC01", "RintRC01", "MAG_DT_104", "TARA_PON", 
+             "ReuHM01", "AM_2804", "ReuHH01", "UBA3481", 
+             "UBA7409", "TARA_MED", "BGEO_MAG", "E_turgida", "UCYNA")
+
+for (genome in genomes) {
+  assign(paste0(genome, "_k0"), unique(na.omit(ko_by_genome[[paste0(genome, "_k0_number")]])))
+}
+
+# List of K numbers for Pantothenate biosynthesis
+Pantothenate_biosynthesis_k_numbers <- c("K00826", "K00606", "K00077", "K01579", "K01918", "K13799", 
+                     "K13367", "K00128")
+
+# Create a presence-absence table for the specified K numbers
+presence_absence_table <- data.frame(
+  K0_number = Pantothenate_biosynthesis_k_numbers,
+  Category = rep("Pantothenate Biosynthesis", length(Pantothenate_biosynthesis_k_numbers))
+)
+
+# Generate presence-absence data for each genome
+for (genome in genomes) {
+  presence_absence_table[[genome]] <- ifelse(presence_absence_table$K0_number %in% get(paste0(genome, "_k0")), 1, 0)
+}
+
+# Set the order of KO numbers as a factor with the specified levels
+presence_absence_table$K0_number <- factor(presence_absence_table$K0_number, levels = Pantothenate_biosynthesis_k_numbers)
+
+# Transform data for plotting
+plot_data <- presence_absence_table %>%
+  gather(key = "Genome", value = "Presence", -K0_number, -Category)
+
+# Set the order of genomes as a factor with the specified levels
+plot_data$Genome <- factor(plot_data$Genome, levels = genomes)
+
+# Plot the heatmap
+Pantothenate_biosynthesis_plot <- ggplot(plot_data, aes(x = Genome, y = K0_number, fill = factor(Presence))) +
+  geom_tile(color = "grey") +
+  scale_fill_manual(values = c("0" = "#FFFFFF", "1" = "#8cbd8c"), name = "Presence") +
+  facet_wrap(~Category, scales = "free_y") +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1),
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank(),
+    plot.margin = margin(t = 10, r = 10, b = 10, l = 10)
+  ) +
+  labs(title = "Presence-Absence Heatmap of Pantothenate Biosynthesis", x = "Genome", y = "KO Number")
+
+# Print the plot
+Pantothenate_biosynthesis_plot
+
+
+# Save the heatmap as a PDF
+#ggsave("Glycine_Serine_Threonine_Biosynthesis.pdf", plot = glycine_serine_threonine_plot, device = "pdf", width = 10, height = 8)
+
+```
+
+
+#CoA biosyntheis
+
+```{r}
+# Define the order of genomes
+genomes <- c("MO_167.B12", "MO_192.B10", "MO_167.B42","RrhiSC01", "RintRC01", "MAG_DT_104", "TARA_PON", 
+             "ReuHM01", "AM_2804", "ReuHH01", "UBA3481", 
+             "UBA7409", "TARA_MED", "BGEO_MAG", "E_turgida", "UCYNA")
+
+for (genome in genomes) {
+  assign(paste0(genome, "_k0"), unique(na.omit(ko_by_genome[[paste0(genome, "_k0_number")]])))
+}
+
+# List of K numbers for Coenzyme A biosynthesis
+Coenzyme_A_biosynthesis_k_numbers <- c("K00867", "K03525", "K01947", "K09680", "K01922", "K21977", 
+                               "K01598", "K13038", "K02318", "K00954", "K02201", "K00859")
+# Create a presence-absence table for the specified K numbers
+presence_absence_table <- data.frame(
+  K0_number = Coenzyme_A_biosynthesis_k_numbers,
+  Category = rep("Coenzyme A Biosynthesis", length(Coenzyme_A_biosynthesis_k_numbers))
+)
+
+# Generate presence-absence data for each genome
+for (genome in genomes) {
+  presence_absence_table[[genome]] <- ifelse(presence_absence_table$K0_number %in% get(paste0(genome, "_k0")), 1, 0)
+}
+
+# Set the order of KO numbers as a factor with the specified levels
+presence_absence_table$K0_number <- factor(presence_absence_table$K0_number, levels = Coenzyme_A_biosynthesis_k_numbers)
+
+# Transform data for plotting
+plot_data <- presence_absence_table %>%
+  gather(key = "Genome", value = "Presence", -K0_number, -Category)
+
+# Set the order of genomes as a factor with the specified levels
+plot_data$Genome <- factor(plot_data$Genome, levels = genomes)
+
+# Plot the heatmap
+Coenzyme_A_biosynthesis_plot <- ggplot(plot_data, aes(x = Genome, y = K0_number, fill = factor(Presence))) +
+  geom_tile(color = "grey") +
+  scale_fill_manual(values = c("0" = "#FFFFFF", "1" = "#8cbd8c"), name = "Presence") +
+  facet_wrap(~Category, scales = "free_y") +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1),
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank(),
+    plot.margin = margin(t = 10, r = 10, b = 10, l = 10)
+  ) +
+  labs(title = "Presence-Absence Heatmap of Coenzyme A Biosynthesis", x = "Genome", y = "KO Number")
+
+# Print the plot
+Coenzyme_A_biosynthesis_plot
+
+```
+
+
+
+#Glutathione biosyntheis
+```{r}
+# Define the order of genomes
+genomes <- c("MO_167.B12", "MO_192.B10", "MO_167.B42","RrhiSC01", "RintRC01", "MAG_DT_104", "TARA_PON", 
+             "ReuHM01", "AM_2804", "ReuHH01", "UBA3481", 
+             "UBA7409", "TARA_MED", "BGEO_MAG", "E_turgida", "UCYNA")
+
+# Function to extract K numbers for each genome
+for (genome in genomes) {
+  assign(paste0(genome, "_k0"), unique(na.omit(ko_by_genome[[paste0(genome, "_k0_number")]])))
+}
+
+# List of K numbers for glutathione biosynthesis
+glutathione_biosynthesis <- c("K01919", "K01920")
+
+# Create a presence-absence table for glutathione biosynthesis
+presence_absence_table <- data.frame(
+  K0_number = glutathione_biosynthesis,
+  Category = rep("Glutathione Biosynthesis", length(glutathione_biosynthesis))
+)
+
+# Generate presence-absence data for each genome
+for (genome in genomes) {
+  presence_absence_table[[genome]] <- ifelse(presence_absence_table$K0_number %in% get(paste0(genome, "_k0")), 1, 0)
+}
+
+# Set the order of KO numbers as a factor with the specified levels
+presence_absence_table$K0_number <- factor(presence_absence_table$K0_number, levels = glutathione_biosynthesis)
+
+# Transform data for plotting
+plot_data <- presence_absence_table %>%
+  gather(key = "Genome", value = "Presence", -K0_number, -Category)
+
+# Set the order of genomes as a factor with the specified levels
+plot_data$Genome <- factor(plot_data$Genome, levels = genomes)
+
+# Plot the heatmap for glutathione biosynthesis
+glutathione_plot <- ggplot(plot_data, aes(x = Genome, y = K0_number, fill = factor(Presence))) +
+  geom_tile(color = "grey") +
+  scale_fill_manual(values = c("0" = "#FFFFFF", "1" = "#8cbd8c"), name = "Presence") +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1),
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank(),
+    plot.margin = margin(t = 10, r = 10, b = 10, l = 10)
+  ) +
+  labs(title = "Presence-Absence Heatmap of Glutathione Biosynthesis", x = "Genome", y = "KO Number")
+
+# Print the plot
+print(glutathione_plot)
+
+# Save the plot as a PDF
+#ggsave("Glutathione_Biosynthesis.pdf", plot = glutathione_plot, device = "pdf", width = 10, height = 8)
+
+```
+
+
+#Ubiquinone biosynthesis
+```{r}
+
+# Define the order of genomes
+genomes <- c("MO_167.B12", "MO_192.B10", "MO_167.B42","RrhiSC01", "RintRC01", "MAG_DT_104", "TARA_PON", 
+             "ReuHM01", "AM_2804", "ReuHH01", "UBA3481", 
+             "UBA7409", "TARA_MED", "BGEO_MAG", "E_turgida", "UCYNA")
+
+# Function to extract K numbers for each genome
+for (genome in genomes) {
+  assign(paste0(genome, "_k0"), unique(na.omit(ko_by_genome[[paste0(genome, "_k0_number")]])))
+}
+
+# List of K numbers for Ubiquinone biosynthesis
+Ubiquinone_biosynthesis <- c("K03181","K03179", "K03182","K03186",
+                             "K03185")
+
+# Create a presence-absence table for Ubiquinone biosynthesis
+presence_absence_table <- data.frame(
+  K0_number = Ubiquinone_biosynthesis,
+  Category = rep("Ubiquinone Biosynthesis", length(Ubiquinone_biosynthesis))
+)
+
+# Generate presence-absence data for each genome
+for (genome in genomes) {
+  presence_absence_table[[genome]] <- ifelse(presence_absence_table$K0_number %in% get(paste0(genome, "_k0")), 1, 0)
+}
+
+# Set the order of KO numbers as a factor with the specified levels
+presence_absence_table$K0_number <- factor(presence_absence_table$K0_number, levels = Ubiquinone_biosynthesis)
+
+# Transform data for plotting
+plot_data <- presence_absence_table %>%
+  gather(key = "Genome", value = "Presence", -K0_number, -Category)
+
+# Set the order of genomes as a factor with the specified levels
+plot_data$Genome <- factor(plot_data$Genome, levels = genomes)
+
+# Plot the heatmap for Ubiquinone biosynthesis
+quinone_plot <- ggplot(plot_data, aes(x = Genome, y = K0_number, fill = factor(Presence))) +
+  geom_tile(color = "grey") +
+  scale_fill_manual(values = c("0" = "#FFFFFF", "1" = "#8cbd8c"), name = "Presence") +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1),
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank(),
+    plot.margin = margin(t = 10, r = 10, b = 10, l = 10)
+  ) +
+  labs(title = "Presence-Absence Heatmap of Ubiquinone Biosynthesis", x = "Genome", y = "KO Number")
+
+# Print the plot
+quinone_plot
+
+# Save the plot as a PDF
+#ggsave("Ubiquinone_Biosynthesis.pdf", plot = quinone_plot, device = "pdf", width = 10, height = 8)
+
+```
+
+
+
+```{r}
+# Define the order of genomes
+genomes <- c("MO_167.B12", "MO_192.B10", "MO_167.B42","RrhiSC01", "RintRC01", "MAG_DT_104", "TARA_PON", 
+             "ReuHM01", "AM_2804", "ReuHH01", "UBA3481", 
+             "UBA7409", "TARA_MED", "BGEO_MAG", "E_turgida", "UCYNA")
+
+# Function to extract K numbers for each genome
+for (genome in genomes) {
+  assign(paste0(genome, "_k0"), unique(na.omit(ko_by_genome[[paste0(genome, "_k0_number")]])))
+}
+
+# List of K numbers for Plastoquinone biosynthesis
+Plastoquinone_biosynthesis <- c("K12501", "K12502")
+
+# Create a presence-absence table for Plastoquinone biosynthesis
+presence_absence_table <- data.frame(
+  K0_number = Plastoquinone_biosynthesis,
+  Category = rep("Plastoquinone Biosynthesis", length(Plastoquinone_biosynthesis))
+)
+
+# Generate presence-absence data for each genome
+for (genome in genomes) {
+  presence_absence_table[[genome]] <- ifelse(presence_absence_table$K0_number %in% get(paste0(genome, "_k0")), 1, 0)
+}
+
+# Set the order of KO numbers as a factor with the specified levels
+presence_absence_table$K0_number <- factor(presence_absence_table$K0_number, levels = Plastoquinone_biosynthesis)
+
+# Transform data for plotting
+plot_data <- presence_absence_table %>%
+  gather(key = "Genome", value = "Presence", -K0_number, -Category)
+
+# Set the order of genomes as a factor with the specified levels
+plot_data$Genome <- factor(plot_data$Genome, levels = genomes)
+
+# Plot the heatmap for Plastoquinone biosynthesis
+plastoquinone_plot <- ggplot(plot_data, aes(x = Genome, y = K0_number, fill = factor(Presence))) +
+  geom_tile(color = "grey") +
+  scale_fill_manual(values = c("0" = "#FFFFFF", "1" = "#8cbd8c"), name = "Presence") +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1),
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank(),
+    plot.margin = margin(t = 10, r = 10, b = 10, l = 10)
+  ) +
+  labs(title = "Presence-Absence Heatmap of Plastoquinone Biosynthesis", x = "Genome", y = "KO Number")
+
+# Print the plot
+plastoquinone_plot
+
+# Save the plot as a PDF
+#ggsave("Plastoquinone_Biosynthesis.pdf", plot = plastoquinone_plot, device = "pdf", width = 10, height = 8)
+
+
+```
+
+
+
+
+
+
+
+#Methionin
+```{r}
+
+
+# Define the order of genomes
+genomes <- c("MO_167.B12", "MO_192.B10", "MO_167.B42","RrhiSC01", "RintRC01", "MAG_DT_104", "TARA_PON", 
+             "ReuHM01", "AM_2804", "ReuHH01", "UBA3481", 
+             "UBA7409", "TARA_MED", "BGEO_MAG", "E_turgida", "UCYNA")
+
+for (genome in genomes) {
+  assign(paste0(genome, "_k0"), unique(na.omit(ko_by_genome[[paste0(genome, "_k0_number")]])))
+}
+
+# Define K numbers for Methionine biosynthesis
+methionine_k_numbers <- c("K00928", "K00133", "K00003","K00548","K00549")
+
+# Define categories
+categories <- list(
+  "Methionine biosynthesis" = methionine_k_numbers
+)
+
+# Flatten the categories for the presence-absence table
+k_flat <- unlist(categories)
+k_flat_categories <- rep(names(categories), times = sapply(categories, length))
+
+# Create presence-absence table
+presence_absence_table <- data.frame(
+  K0_number = k_flat,
+  Category = k_flat_categories
+)
+
+# Generate presence-absence data for each genome
+for (genome in genomes) {
+  presence_absence_table[[genome]] <- ifelse(presence_absence_table$K0_number %in% get(paste0(genome, "_k0")), 1, 0)
+}
+
+# Set the order of KO numbers as a factor with the specified levels
+presence_absence_table$K0_number <- factor(presence_absence_table$K0_number, levels = k_flat)
+
+# Transform data for plotting
+plot_data <- presence_absence_table %>%
+  gather(key = "Genome", value = "Presence", -K0_number, -Category)
+
+# Set the order of genomes as a factor with the specified levels
+plot_data$Genome <- factor(plot_data$Genome, levels = genomes)
+
+# Plot the combined heatmap for Methionine biosynthesis
+methionine_plot <- ggplot(plot_data, aes(x = Genome, y = K0_number, fill = factor(Presence))) +
+  geom_tile(color = "grey") +
+  scale_fill_manual(values = c("0" = "#FFFFFF", "1" = "#8cbd8c"), name = "Presence") +
+  facet_wrap(~ Category, scales = "free_y", ncol = 1) +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1),
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank(),
+    strip.text.y = element_text(angle = 0)
+  ) +
+  labs(title = "Presence-Absence Heatmap of Methionine Biosynthesis", x = "Genome", y = "KO Number")
+methionine_plot
+# Save the combined heatmap as a PDF
+#ggsave("Methionine_Biosynthesis.pdf", plot = combined_plot, device = "pdf", width = 10, height = 8)
+
+
+```
+
+
+
+#All biosynthetic pathwyas that participate in the production of vitamins and co-factors
+```{r}
+# Define the order of genomes
+genomes <- c("MO_167.B12", "MO_192.B10", "MO_167.B42","RrhiSC01", "RintRC01", "MAG_DT_104", "TARA_PON", 
+             "ReuHM01", "AM_2804", "ReuHH01", "UBA3481", 
+             "UBA7409", "TARA_MED", "BGEO_MAG", "E_turgida", "UCYNA")
+
+for (genome in genomes) {
+  assign(paste0(genome, "_k0"), unique(na.omit(ko_by_genome[[paste0(genome, "_k0_number")]])))
+}
+
+# Define the pathways and corresponding K numbers with categories
+pathways <- list(
+  "Cobalamine" = c("K00798", "K19221", "K02232", "K02227", "K02231", "K02233", "K02303", "K13542", "K03795", "K03394", "K13541", "K02188", "K05895", "K02191", "K00595", "K06042", "K02224", "K05936", "K02230"),
+  "Riboflavin" = c("K14652", "K00794", "K00793", "K11753", "K01515", "K03186"),
+  "Biotin" = c("K09458", "K00059", "K02372", "K00208", "K00652", "K01935", "K25570", "K01012", "K03524"),
+  "Thiamine" = c("K03147", "K00941", "K04487", "K01662", "K03149", "K00788", "K00946", "K06949", "K01077", "K00939"),
+  "Folate" = c("K01495", "K09007", "K01077", "K01113", "K01633", "K00950", "K00796", "K11754", "K14652", "K01665", "K02619", "K01724", "K10026", "K06920", "K09457", "K03639", "K03637", "K03635", "K03638", "K03750", "K07141", "K03752"),
+  "Terpenoid Backbone" = c("K01662", "K00099", "K00919", "K01770", "K03526", "K03527", "K03186", "K01823", "K13789", "K13787", "K05356", "K00806", "K10960"),
+  "Pyridoxal-P" = c("K00831", "K03474", "K00275"),
+  "Lipoic Acid" = c("K03801", "K03644", "K03800", "K00382", "K00161", "K00162", "K00627", "K00281", "K00605"),
+  "Pantothenate" = c("K00826", "K00606", "K00077", "K01579", "K13799"),
+  "Coenzyme A" = c("K03525", "K13038", "K00954", "K00859"),
+  "Glutathione" = c("K01919", "K01920"),
+  "Ubiquinone" = c("K03181","K03179", "K03182","K03186",
+                             "K03185"),
+  "Methionine" = c("K00928", "K00133", "K00003","K00548","K00549")
+)
+
+# Function to add suffix to duplicate K numbers
+add_suffix_to_duplicates <- function(k_numbers) {
+  duplicated_indices <- duplicated(k_numbers) | duplicated(k_numbers, fromLast = TRUE)
+  k_numbers[duplicated_indices] <- paste0(k_numbers[duplicated_indices], "_", ave(k_numbers[duplicated_indices], k_numbers[duplicated_indices], FUN = seq_along))
+  return(k_numbers)
+}
+
+# Apply the function to each pathway
+pathways <- lapply(pathways, add_suffix_to_duplicates)
+
+# Flatten the categories for the presence-absence table
+k_flat <- unlist(pathways)
+k_flat_categories <- rep(names(pathways), times = sapply(pathways, length))
+
+# Create presence-absence table
+presence_absence_table <- data.frame(
+  K0_number = k_flat,
+  Category = k_flat_categories
+)
+
+# Generate presence-absence data for each genome
+for (genome in genomes) {
+  presence_absence_table[[genome]] <- ifelse(gsub("_\\d+$", "", presence_absence_table$K0_number) %in% get(paste0(genome, "_k0")), 1, 0)
+}
+
+# Set the order of KO numbers as a factor with the specified levels
+presence_absence_table$K0_number <- factor(presence_absence_table$K0_number, levels = unique(k_flat))
+
+# Transform data for plotting
+plot_data <- presence_absence_table %>%
+  gather(key = "Genome", value = "Presence", -K0_number, -Category) %>%
+  mutate(Presence = as.factor(Presence))  # Ensure Presence is treated as a factor
+
+# Set the order of genomes as a factor with the specified levels
+plot_data$Genome <- factor(plot_data$Genome, levels = genomes)
+
+
+# Plot the heatmap
+vitamin_cofactor_plot <- ggplot(plot_data, aes(x = Genome, y = K0_number, fill = Presence)) +
+  geom_tile(color = "grey") +
+  scale_fill_manual(values = c("0" = "#FFFFFF", "1" = "#5F90BB"), name = "Presence") +
+  facet_wrap(~ Category, scales = "free_y", strip.position = "left") +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1, size = 6),
+    axis.text.y = element_text(size = 6),
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank(),
+    strip.text.y = element_text(angle = 0, size = 8),
+    plot.margin = margin(t = 10, r = 10, b = 10, l = 10)
+  ) +
+  labs(title = "Presence-Absence Heatmap of Vitamin and Cofactor Biosynthesis", x = "Genome", y = "KO Number") +
+  scale_y_discrete(labels = function(labels) gsub("_\\d+$", "", labels))  # Remove suffix from labels
+
+# Print the plot
+vitamin_cofactor_plot
+
+ggsave("vitamin_cofactor.jpg", plot = vitamin_cofactor_plot, device = "jpg", width = 16, height = 10, units = "in")
+
+
+```
+
+
+
+***Amino acids***
+
+
+
+
+#Tryptophan
+```{r}
+#Define the order of genomes
+genomes <- c("MO_167.B12", "MO_192.B10", "MO_167.B42","RrhiSC01", "RintRC01", "MAG_DT_104", "TARA_PON", 
+             "ReuHM01", "AM_2804", "ReuHH01", "UBA3481", 
+             "UBA7409", "TARA_MED", "BGEO_MAG", "E_turgida", "UCYNA")
+
+for (genome in genomes) {
+  assign(paste0(genome, "_k0"), unique(na.omit(ko_by_genome[[paste0(genome, "_k0_number")]])))
+}
+
+# Define K numbers for Tryptophan biosynthesis
+tryptophan_biosynthesis_k_numbers <- c("K01657", "K01658", "K13503", "K13501", "K01656", "K00766", 
+                         "K13497", "K01817", "K24017", "K01609", "K13498", "K01695", 
+                         "K01696", "K06001", "K01694")
+
+# Define categories
+categories <- list(
+  "Tryptophan biosynthesis" = tryptophan_biosynthesis_k_numbers
+)
+
+# Flatten the categories for the presence-absence table
+k_flat <- unlist(categories)
+k_flat_categories <- rep(names(categories), times = sapply(categories, length))
+
+# Create presence-absence table
+presence_absence_table <- data.frame(
+  K0_number = k_flat,
+  Category = k_flat_categories
+)
+
+# Generate presence-absence data for each genome
+for (genome in genomes) {
+  presence_absence_table[[genome]] <- ifelse(presence_absence_table$K0_number %in% get(paste0(genome, "_k0")), 1, 0)
+}
+
+# Set the order of KO numbers as a factor with the specified levels
+presence_absence_table$K0_number <- factor(presence_absence_table$K0_number, levels = k_flat)
+
+# Transform data for plotting
+plot_data <- presence_absence_table %>%
+  gather(key = "Genome", value = "Presence", -K0_number, -Category)
+
+# Set the order of genomes as a factor with the specified levels
+plot_data$Genome <- factor(plot_data$Genome, levels = genomes)
+
+# Plot the combined heatmap for Tryptophan biosynthesis
+tryp_plot <- ggplot(plot_data, aes(x = Genome, y = K0_number, fill = factor(Presence))) +
+  geom_tile(color = "grey") +
+  scale_fill_manual(values = c("0" = "#FFFFFF", "1" = "#5F90BB"), name = "Presence") +
+  facet_wrap(~ Category, scales = "free_y", ncol = 1) +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1),
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank(),
+    strip.text.y = element_text(angle = 0)
+  ) +
+  labs(title = "Presence-Absence Heatmap of Tryptophan Biosynthesis", x = "Genome", y = "KO Number")
+tryp_plot
+# Save the combined heatmap as a PDF
+#ggsave("Tryptophan_Biosynthesis.pdf", plot = combined_plot, device = "pdf", width = 10, height = 8)
+
+
+#ggsave("tryptophane.jpg", plot = tryp_plot, device = "jpg", width = 10, height = 8, units = "in")
+
+```
+
+
+
+
+#Chorismate
+
+```{r}
+# Define the order of genomes
+genomes <- c("MO_167.B12", "MO_192.B10", "MO_167.B42", "RrhiSC01", "RintRC01", "MAG_DT_104", "TARA_PON", 
+             "ReuHM01", "AM_2804", "ReuHH01", "UBA3481", 
+             "UBA7409", "TARA_MED", "BGEO_MAG", "E_turgida", "UCYNA")
+
+for (genome in genomes) {
+  assign(paste0(genome, "_k0"), unique(na.omit(ko_by_genome[[paste0(genome, "_k0_number")]])))
+}
+
+# Define K numbers for Chorismate biosynthesis (combined and deduplicated)
+chorismate_biosynthesis_k_numbers <- unique(c("K01626", "K03856", "K13853", "K01735", 
+                                              "K13829", "K03785", "K03786", "K00014", 
+                                              "K13832", "K13830", "K00891", "K00800", 
+                                              "K24018", "K01736"))
+
+# Define categories (in this case, just one for chorismate biosynthesis)
+categories <- list(
+  "Chorismate biosynthesis" = chorismate_biosynthesis_k_numbers
+)
+
+# Flatten the categories for the presence-absence table
+k_flat <- unlist(categories)
+k_flat_categories <- rep(names(categories), times = sapply(categories, length))
+
+# Create presence-absence table
+presence_absence_table <- data.frame(
+  K0_number = k_flat,
+  Category = k_flat_categories
+)
+
+# Generate presence-absence data for each genome
+for (genome in genomes) {
+  presence_absence_table[[genome]] <- ifelse(presence_absence_table$K0_number %in% get(paste0(genome, "_k0")), 1, 0)
+}
+
+# Set the order of KO numbers as a factor with the specified levels
+presence_absence_table$K0_number <- factor(presence_absence_table$K0_number, levels = k_flat)
+
+# Transform data for plotting
+plot_data <- presence_absence_table %>%
+  gather(key = "Genome", value = "Presence", -K0_number, -Category)
+
+# Set the order of genomes as a factor with the specified levels
+plot_data$Genome <- factor(plot_data$Genome, levels = genomes)
+
+# Plot the heatmap for Chorismate biosynthesis
+chorismate_plot <- ggplot(plot_data, aes(x = Genome, y = K0_number, fill = factor(Presence))) +
+  geom_tile(color = "grey") +
+  scale_fill_manual(values = c("0" = "#FFFFFF", "1" = "#5F90BB"), name = "Presence") +
+  facet_wrap(~ Category, scales = "free_y", ncol = 1) +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1),
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank(),
+    strip.text.y = element_text(angle = 0)
+  ) +
+  labs(title = "Presence-Absence Heatmap of Chorismate Biosynthesis", 
+       x = "Genome", y = "KO Number")
+
+chorismate_plot
+
+```
+
+
+
+#Phenylalanine
+
+```{r}
+# Define the order of genomes
+genomes <- c("MO_167.B12", "MO_192.B10", "MO_167.B42", "RrhiSC01", "RintRC01", "MAG_DT_104", "TARA_PON", 
+             "ReuHM01", "AM_2804", "ReuHH01", "UBA3481", 
+             "UBA7409", "TARA_MED", "BGEO_MAG", "E_turgida", "UCYNA")
+
+for (genome in genomes) {
+  assign(paste0(genome, "_k0"), unique(na.omit(ko_by_genome[[paste0(genome, "_k0_number")]])))
+}
+
+# Define K numbers for Phenylalanine biosynthesis
+phenylalanine_biosynthesis_k_numbers <- unique(c("K01850", "K04092", "K14187", "K04093", "K04516", "K06208", 
+                                                 "K06209", "K01713", "K04518", "K05359", "K14170", "K00832", 
+                                                 "K00838", "K15849"))
+
+
+# Define categories (in this case, just one for phenylalanine biosynthesis)
+categories <- list(
+  "Phenylalanine biosynthesis" = phenylalanine_biosynthesis_k_numbers
+)
+
+# Flatten the categories for the presence-absence table
+k_flat <- unlist(categories)
+k_flat_categories <- rep(names(categories), times = sapply(categories, length))
+
+# Create presence-absence table
+presence_absence_table <- data.frame(
+  K0_number = k_flat,
+  Category = k_flat_categories
+)
+
+# Generate presence-absence data for each genome
+for (genome in genomes) {
+  presence_absence_table[[genome]] <- ifelse(presence_absence_table$K0_number %in% get(paste0(genome, "_k0")), 1, 0)
+}
+
+# Set the order of KO numbers as a factor with the specified levels
+presence_absence_table$K0_number <- factor(presence_absence_table$K0_number, levels = k_flat)
+
+# Transform data for plotting
+plot_data <- presence_absence_table %>%
+  gather(key = "Genome", value = "Presence", -K0_number, -Category)
+
+# Set the order of genomes as a factor with the specified levels
+plot_data$Genome <- factor(plot_data$Genome, levels = genomes)
+
+# Plot the heatmap for Phenylalanine biosynthesis
+phenyl_plot <- ggplot(plot_data, aes(x = Genome, y = K0_number, fill = factor(Presence))) +
+  geom_tile(color = "grey") +
+  scale_fill_manual(values = c("0" = "#FFFFFF", "1" = "#5F90BB"), name = "Presence") +
+  facet_wrap(~ Category, scales = "free_y", ncol = 1) +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1),
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank(),
+    strip.text.y = element_text(angle = 0)
+  ) +
+  labs(title = "Presence-Absence Heatmap of Phenylalanine Biosynthesis", 
+       x = "Genome", y = "KO Number")
+
+phenyl_plot
+
+```
+
+
+#Tyrosine plot
+
+```{r}
+# Define the order of genomes
+genomes <- c("MO_167.B12", "MO_192.B10", "MO_167.B42", "RrhiSC01", "RintRC01", "MAG_DT_104", "TARA_PON", 
+             "ReuHM01", "AM_2804", "ReuHH01", "UBA3481", 
+             "UBA7409", "TARA_MED", "BGEO_MAG", "E_turgida", "UCYNA")
+
+for (genome in genomes) {
+  assign(paste0(genome, "_k0"), unique(na.omit(ko_by_genome[[paste0(genome, "_k0_number")]])))
+}
+
+# Define K numbers for Tyrosine biosynthesis (combined from both pathways)
+tyrosine_biosynthesis_k_numbers <- unique(c("K01850", "K04092", "K14170", "K00832", "K15849", 
+                                            "K00220", "K24018", "K15227", "K04093", "K04516", 
+                                            "K06208", "K06209", "K04517", "K00211", "K14187", 
+                                            "K00838"))
+
+# Define categories (in this case, just one for tyrosine biosynthesis)
+categories <- list(
+  "Tyrosine biosynthesis" = tyrosine_biosynthesis_k_numbers
+)
+
+# Flatten the categories for the presence-absence table
+k_flat <- unlist(categories)
+k_flat_categories <- rep(names(categories), times = sapply(categories, length))
+
+# Create presence-absence table
+presence_absence_table <- data.frame(
+  K0_number = k_flat,
+  Category = k_flat_categories
+)
+
+# Generate presence-absence data for each genome
+for (genome in genomes) {
+  presence_absence_table[[genome]] <- ifelse(presence_absence_table$K0_number %in% get(paste0(genome, "_k0")), 1, 0)
+}
+
+# Set the order of KO numbers as a factor with the specified levels
+presence_absence_table$K0_number <- factor(presence_absence_table$K0_number, levels = k_flat)
+
+# Transform data for plotting
+plot_data <- presence_absence_table %>%
+  gather(key = "Genome", value = "Presence", -K0_number, -Category)
+
+# Set the order of genomes as a factor with the specified levels
+plot_data$Genome <- factor(plot_data$Genome, levels = genomes)
+
+# Plot the heatmap for Tyrosine biosynthesis
+tyrosine_plot <- ggplot(plot_data, aes(x = Genome, y = K0_number, fill = factor(Presence))) +
+  geom_tile(color = "grey") +
+  scale_fill_manual(values = c("0" = "#FFFFFF", "1" = "#5F90BB"), name = "Presence") +
+  facet_wrap(~ Category, scales = "free_y", ncol = 1) +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1),
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank(),
+    strip.text.y = element_text(angle = 0)
+  ) +
+  labs(title = "Presence-Absence Heatmap of Tyrosine Biosynthesis", 
+       x = "Genome", y = "KO Number")
+
+tyrosine_plot
+
+```
+
+
+#Arginine
+
+```{r}
+
+# Define the order of genomes
+genomes <- c("MO_167.B12", "MO_192.B10", "MO_167.B42", "RrhiSC01", "RintRC01", "MAG_DT_104", "TARA_PON", 
+             "ReuHM01", "AM_2804", "ReuHH01", "UBA3481", 
+             "UBA7409", "TARA_MED", "BGEO_MAG", "E_turgida", "UCYNA")
+
+for (genome in genomes) {
+  assign(paste0(genome, "_k0"), unique(na.omit(ko_by_genome[[paste0(genome, "_k0_number")]])))
+}
+
+# Define K numbers for Arginine biosynthesis (combined from both pathways)
+arginine_biosynthesis_k_numbers <- unique(c("K00611", "K01940", "K01755", "K14681", 
+                                            "K22478", "K00145", "K00821", "K09065", 
+                                            "K01438"))
+
+# Define categories (in this case, just one for arginine biosynthesis)
+categories <- list(
+  "Arginine biosynthesis" = arginine_biosynthesis_k_numbers
+)
+
+# Flatten the categories for the presence-absence table
+k_flat <- unlist(categories)
+k_flat_categories <- rep(names(categories), times = sapply(categories, length))
+
+# Create presence-absence table
+presence_absence_table <- data.frame(
+  K0_number = k_flat,
+  Category = k_flat_categories
+)
+
+# Generate presence-absence data for each genome
+for (genome in genomes) {
+  presence_absence_table[[genome]] <- ifelse(presence_absence_table$K0_number %in% get(paste0(genome, "_k0")), 1, 0)
+}
+
+# Set the order of KO numbers as a factor with the specified levels
+presence_absence_table$K0_number <- factor(presence_absence_table$K0_number, levels = k_flat)
+
+# Transform data for plotting
+plot_data <- presence_absence_table %>%
+  gather(key = "Genome", value = "Presence", -K0_number, -Category)
+
+# Set the order of genomes as a factor with the specified levels
+plot_data$Genome <- factor(plot_data$Genome, levels = genomes)
+
+# Plot the heatmap for Arginine biosynthesis
+arginine_plot <- ggplot(plot_data, aes(x = Genome, y = K0_number, fill = factor(Presence))) +
+  geom_tile(color = "grey") +
+  scale_fill_manual(values = c("0" = "#FFFFFF", "1" = "#5F90BB"), name = "Presence") +
+  facet_wrap(~ Category, scales = "free_y", ncol = 1) +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1),
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank(),
+    strip.text.y = element_text(angle = 0)
+  ) +
+  labs(title = "Presence-Absence Heatmap of Arginine Biosynthesis", 
+       x = "Genome", y = "KO Number")
+
+arginine_plot
+
+
+```
+
+
+
+
+#Cystein
+
+```{r}
+# Define the order of genomes
+genomes <- c("MO_167.B12", "MO_192.B10", "MO_167.B42", "RrhiSC01", "RintRC01", "MAG_DT_104", "TARA_PON", 
+             "ReuHM01", "AM_2804", "ReuHH01", "UBA3481", 
+             "UBA7409", "TARA_MED", "BGEO_MAG", "E_turgida", "UCYNA")
+
+for (genome in genomes) {
+  assign(paste0(genome, "_k0"), unique(na.omit(ko_by_genome[[paste0(genome, "_k0_number")]])))
+}
+
+# Define K numbers for Cysteine biosynthesis (combined from all pathways)
+cysteine_biosynthesis_k_numbers <- unique(c("K00640", "K23304", "K01738", "K13034", "K17069", 
+                                            "K01697", "K10150", "K01758", "K00789", "K17462", 
+                                            "K01243", "K07173", "K17216", "K17217"))
+
+# Define categories (in this case, just one for cysteine biosynthesis)
+categories <- list(
+  "Cysteine biosynthesis" = cysteine_biosynthesis_k_numbers
+)
+
+# Flatten the categories for the presence-absence table
+k_flat <- unlist(categories)
+k_flat_categories <- rep(names(categories), times = sapply(categories, length))
+
+# Create presence-absence table
+presence_absence_table <- data.frame(
+  K0_number = k_flat,
+  Category = k_flat_categories
+)
+
+# Generate presence-absence data for each genome
+for (genome in genomes) {
+  presence_absence_table[[genome]] <- ifelse(presence_absence_table$K0_number %in% get(paste0(genome, "_k0")), 1, 0)
+}
+
+# Set the order of KO numbers as a factor with the specified levels
+presence_absence_table$K0_number <- factor(presence_absence_table$K0_number, levels = k_flat)
+
+# Transform data for plotting
+plot_data <- presence_absence_table %>%
+  gather(key = "Genome", value = "Presence", -K0_number, -Category)
+
+# Set the order of genomes as a factor with the specified levels
+plot_data$Genome <- factor(plot_data$Genome, levels = genomes)
+
+# Plot the heatmap for Cysteine biosynthesis
+cysteine_plot <- ggplot(plot_data, aes(x = Genome, y = K0_number, fill = factor(Presence))) +
+  geom_tile(color = "grey") +
+  scale_fill_manual(values = c("0" = "#FFFFFF", "1" = "#5F90BB"), name = "Presence") +
+  facet_wrap(~ Category, scales = "free_y", ncol = 1) +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1),
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank(),
+    strip.text.y = element_text(angle = 0)
+  ) +
+  labs(title = "Presence-Absence Heatmap of Cysteine Biosynthesis", 
+       x = "Genome", y = "KO Number")
+
+cysteine_plot
+
+```
+
+
+
+#methionin
+
+```{r}
+# Define the order of genomes
+genomes <- c("MO_167.B12", "MO_192.B10", "MO_167.B42", "RrhiSC01", "RintRC01", "MAG_DT_104", "TARA_PON", 
+             "ReuHM01", "AM_2804", "ReuHH01", "UBA3481", 
+             "UBA7409", "TARA_MED", "BGEO_MAG", "E_turgida", "UCYNA")
+
+for (genome in genomes) {
+  assign(paste0(genome, "_k0"), unique(na.omit(ko_by_genome[[paste0(genome, "_k0_number")]])))
+}
+
+# Define K numbers for Methionine biosynthesis (combined and deduplicated)
+methionine_biosynthesis_k_numbers <- unique(c("K00928", "K12524", "K12525", "K00133", 
+                                              "K00003", "K00651", "K00641", "K01739", 
+                                              "K01760", "K14155", "K00548", "K24042", "K00549"))
+
+# Define categories (in this case, just one for methionine biosynthesis)
+categories <- list(
+  "Methionine biosynthesis" = methionine_biosynthesis_k_numbers
+)
+
+# Flatten the categories for the presence-absence table
+k_flat <- unlist(categories)
+k_flat_categories <- rep(names(categories), times = sapply(categories, length))
+
+# Create presence-absence table
+presence_absence_table <- data.frame(
+  K0_number = k_flat,
+  Category = k_flat_categories
+)
+
+# Generate presence-absence data for each genome
+for (genome in genomes) {
+  presence_absence_table[[genome]] <- ifelse(presence_absence_table$K0_number %in% get(paste0(genome, "_k0")), 1, 0)
+}
+
+# Set the order of KO numbers as a factor with the specified levels
+presence_absence_table$K0_number <- factor(presence_absence_table$K0_number, levels = k_flat)
+
+# Transform data for plotting
+plot_data <- presence_absence_table %>%
+  gather(key = "Genome", value = "Presence", -K0_number, -Category)
+
+# Set the order of genomes as a factor with the specified levels
+plot_data$Genome <- factor(plot_data$Genome, levels = genomes)
+
+# Plot the heatmap for Methionine biosynthesis
+methionine_plot <- ggplot(plot_data, aes(x = Genome, y = K0_number, fill = factor(Presence))) +
+  geom_tile(color = "grey") +
+  scale_fill_manual(values = c("0" = "#FFFFFF", "1" = "#5F90BB"), name = "Presence") +
+  facet_wrap(~ Category, scales = "free_y", ncol = 1) +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1),
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank(),
+    strip.text.y = element_text(angle = 0)
+  ) +
+  labs(title = "Presence-Absence Heatmap of Methionine Biosynthesis", 
+       x = "Genome", y = "KO Number")
+
+methionine_plot
+
+```
+
+#Lysine
+
+```{r}
+# Define the order of genomes
+genomes <- c("MO_167.B12", "MO_192.B10", "MO_167.B42", "RrhiSC01", "RintRC01", "MAG_DT_104", "TARA_PON", 
+             "ReuHM01", "AM_2804", "ReuHH01", "UBA3481", 
+             "UBA7409", "TARA_MED", "BGEO_MAG", "E_turgida", "UCYNA")
+
+for (genome in genomes) {
+  assign(paste0(genome, "_k0"), unique(na.omit(ko_by_genome[[paste0(genome, "_k0_number")]])))
+}
+
+# Define K numbers for Lysine biosynthesis (combined and deduplicated)
+lysine_biosynthesis_k_numbers <- unique(c("K00003", "K00928", "K12524", "K12525", "K12526", "K00133", 
+                                          "K01714", "K00215", "K00674", "K00821", "K14267", "K01439", 
+                                          "K01778", "K10206", "K01586", "K05822", "K00841", "K05823", 
+                                          "K03340", "K01655", "K10977", "K17450", "K01705", "K16792", 
+                                          "K16793", "K05824", "K10978", "K17753", "K00825", "K00838", 
+                                          "K05825", "K00143", "K00293", "K24034", "K00290", "K05827", 
+                                          "K25032", "K05828", "K05829", "K05830", "K05831", "K01928", 
+                                          "K01929", "K15792", "K01798", "K16180", "K16181", "K16182"))
+
+# Define categories (in this case, just one for lysine biosynthesis)
+categories <- list(
+  "Lysine biosynthesis" = lysine_biosynthesis_k_numbers
+)
+
+# Flatten the categories for the presence-absence table
+k_flat <- unlist(categories)
+k_flat_categories <- rep(names(categories), times = sapply(categories, length))
+
+# Create presence-absence table
+presence_absence_table <- data.frame(
+  K0_number = k_flat,
+  Category = k_flat_categories
+)
+
+# Generate presence-absence data for each genome
+for (genome in genomes) {
+  presence_absence_table[[genome]] <- ifelse(presence_absence_table$K0_number %in% get(paste0(genome, "_k0")), 1, 0)
+}
+
+# Set the order of KO numbers as a factor with the specified levels
+presence_absence_table$K0_number <- factor(presence_absence_table$K0_number, levels = k_flat)
+
+# Transform data for plotting
+plot_data <- presence_absence_table %>%
+  gather(key = "Genome", value = "Presence", -K0_number, -Category)
+
+# Set the order of genomes as a factor with the specified levels
+plot_data$Genome <- factor(plot_data$Genome, levels = genomes)
+
+# Plot the heatmap for Lysine biosynthesis
+lysine_plot <- ggplot(plot_data, aes(x = Genome, y = K0_number, fill = factor(Presence))) +
+  geom_tile(color = "grey") +
+  scale_fill_manual(values = c("0" = "#FFFFFF", "1" = "#5F90BB"), name = "Presence") +
+  facet_wrap(~ Category, scales = "free_y", ncol = 1) +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1),
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank(),
+    strip.text.y = element_text(angle = 0)
+  ) +
+  labs(title = "Presence-Absence Heatmap of Lysine Biosynthesis", 
+       x = "Genome", y = "KO Number")
+
+lysine_plot
+
+```
+
+
+
+
+
+#Phosphatidylcholine (PC) Biosynthesis
+```{r}
+#Define the order of genomes
+genomes <- c("MO_167.B12", "MO_192.B10", "MO_167.B42","RrhiSC01", "RintRC01", "MAG_DT_104", "TARA_PON", 
+             "ReuHM01", "AM_2804", "ReuHH01", "UBA3481", 
+             "UBA7409", "TARA_MED", "BGEO_MAG", "E_turgida", "UCYNA")
+
+for (genome in genomes) {
+  assign(paste0(genome, "_k0"), unique(na.omit(ko_by_genome[[paste0(genome, "_k0_number")]])))
+}
+
+# Define the KEGG orthology (KO) numbers for glycerophospholipid metabolism
+glycerophospholipid_metabolism_ks <- c(
+"K00057", "K00111", "K08591", "K00655", "K00901", "K01114",  "K01126", "K00981", "K17103", "K01613", "K00995", "K06131",  "K13622",  "K17105"
+)
+
+# Create a presence-absence table for glycerophospholipid metabolism KOs
+presence_absence_table <- data.frame(
+  K0_number = glycerophospholipid_metabolism_ks,
+  Category = rep("Glycerophospholipid metabolism", length(glycerophospholipid_metabolism_ks))
+)
+
+# Generate presence-absence data for each genome
+for (genome in genomes) {
+  presence_absence_table[[genome]] <- ifelse(presence_absence_table$K0_number %in% get(paste0(genome, "_k0")), 1, 0)
+}
+
+# Set the order of KO numbers as a factor with the specified levels
+presence_absence_table$K0_number <- factor(presence_absence_table$K0_number, levels = glycerophospholipid_metabolism_ks)
+
+# Transform data for plotting
+plot_data <- presence_absence_table %>%
+  gather(key = "Genome", value = "Presence", -K0_number, -Category)
+
+# Set the order of genomes as a factor with the specified levels
+plot_data$Genome <- factor(plot_data$Genome, levels = genomes)
+
+# Add a category label column for annotation
+plot_data <- plot_data %>%
+  mutate(CategoryLabel = ifelse(Genome == genomes[length(genomes)], as.character(Category), NA))
+
+# Create a separate dataframe for category labels
+labels_data <- plot_data %>%
+  filter(!is.na(CategoryLabel)) %>%
+  distinct(K0_number, CategoryLabel)
+
+# Plot the combined heatmap
+lipid_plot <- ggplot(plot_data, aes(x = Genome, y = K0_number, fill = factor(Presence))) +
+  geom_tile(color = "grey") +
+  scale_fill_manual(values = c("0" = "#FFFFFF", "1" = "#5F90BB"), name = "Presence") +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1),
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank(),
+    plot.margin = margin(t = 10, r = 300, b = 10, l = 10) 
+  ) +
+  labs(title = "Presence-Absence Heatmap of Glycerophospholipid Metabolism", x = "Genome", y = "KO Number")
+
+lipid_plot
+
+ggsave("Lipid.jpg", plot = lipid_plot, device = "jpg", width = 10, height = 8)
+
+
+```
+
+
+```{r}
+#Define the order of genomes
+genomes <- c("MO_167.B12", "MO_192.B10", "MO_167.B42","RrhiSC01", "RintRC01", "MAG_DT_104", "TARA_PON", 
+             "ReuHM01", "AM_2804", "ReuHH01", "UBA3481", 
+             "UBA7409", "TARA_MED", "BGEO_MAG", "E_turgida", "UCYNA")
+
+for (genome in genomes) {
+  assign(paste0(genome, "_k0"), unique(na.omit(ko_by_genome[[paste0(genome, "_k0_number")]])))
+}
+
+# Define the pathways and corresponding K numbers
+pathways <- list(
+  "Phosphatidylethanolamine (PE) biosynthesis, PA => PS => PE" = c("K00981", "K17103", "K01613"),
+  "Glycerophospholipid Metabolism" = c("K00057", "K00111", "K08591", "K00655", "K00901", "K01126", "K00981",  "K00995"
+    )
+)
+
+# Create a combined data frame with Pathway, K0_number, and Category
+presence_absence_table <- data.frame()
+for (pathway in names(pathways)) {
+  k_numbers <- pathways[[pathway]]
+  pathway_df <- data.frame(
+    K0_number = k_numbers,
+    Pathway = pathway,
+    Category = rep("Glycerophospholipid Metabolism", length(k_numbers))
+  )
+  presence_absence_table <- rbind(presence_absence_table, pathway_df)
+}
+
+# Generate presence-absence data for each genome
+for (genome in genomes) {
+  presence_absence_table[[genome]] <- ifelse(presence_absence_table$K0_number %in% get(paste0(genome, "_k0")), 1, 0)
+}
+
+# Convert logicals to integers (0 and 1)
+presence_absence_table <- presence_absence_table %>%
+  mutate(across(all_of(genomes), as.integer))
+
+# Convert the data to long format for ggplot2
+presence_absence_long <- presence_absence_table %>%
+  pivot_longer(cols = -c(K0_number, Pathway, Category), names_to = "Genome", values_to = "Presence")
+
+# Set the order of the Genome factor based on the order in the table
+presence_absence_long$Genome <- factor(presence_absence_long$Genome, levels = unique(presence_absence_long$Genome))
+
+# Create the heatmap with grouped pathways
+glycerophospholipid_plot <- ggplot(presence_absence_long, aes(x = Genome, y = K0_number, fill = factor(Presence))) +
+  geom_tile(color = "grey") +
+  scale_fill_manual(values = c("0" = "white", "1" = "#499851"), name = "Presence") +
+  facet_wrap(~Pathway, scales = "free_y", ncol = 1) +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1),
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank(),
+    plot.margin = margin(t = 10, r = 300, b = 10, l = 10) 
+  ) +
+  labs(title = "Presence-Absence Heatmap of Glycerophospholipid Metabolism", x = "Genome", y = "KO Number")
+
+# Print the plot
+print(glycerophospholipid_plot)
+```
+
+
+***Lipopolysaccharide (LPS) Biosynthesis***
+
+
+#KDO2-lipid A Biosynthesis, Raetz Pathway, LpxL-LpxM Type:
+
+```{r}
+# Define the order of genomes
+genomes <- c("MO_167.B12", "MO_192.B10", "MO_167.B42", "RrhiSC01", "RintRC01", "MAG_DT_104", "TARA_PON", 
+             "ReuHM01", "AM_2804", "ReuHH01", "UBA3481", 
+             "UBA7409", "TARA_MED", "BGEO_MAG", "E_turgida", "UCYNA")
+
+for (genome in genomes) {
+  assign(paste0(genome, "_k0"), unique(na.omit(ko_by_genome[[paste0(genome, "_k0_number")]])))
+}
+
+# Define K numbers for KDO2-lipid A biosynthesis, Raetz pathway, LpxL-LpxM type
+kdo2_lipid_a_biosynthesis_k_numbers <- unique(c("K00677", "K02535", "K02536", "K03269", 
+                                                "K09949", "K00748", "K00912", "K02527", 
+                                                "K02517", "K02560"))
+
+# Define categories (in this case, just one for KDO2-lipid A biosynthesis)
+categories <- list(
+  "KDO2-lipid A biosynthesis (Raetz pathway, LpxL-LpxM type)" = kdo2_lipid_a_biosynthesis_k_numbers
+)
+
+# Flatten the categories for the presence-absence table
+k_flat <- unlist(categories)
+k_flat_categories <- rep(names(categories), times = sapply(categories, length))
+
+# Create presence-absence table
+presence_absence_table <- data.frame(
+  K0_number = k_flat,
+  Category = k_flat_categories
+)
+
+# Generate presence-absence data for each genome
+for (genome in genomes) {
+  presence_absence_table[[genome]] <- ifelse(presence_absence_table$K0_number %in% get(paste0(genome, "_k0")), 1, 0)
+}
+
+# Set the order of KO numbers as a factor with the specified levels
+presence_absence_table$K0_number <- factor(presence_absence_table$K0_number, levels = k_flat)
+
+# Transform data for plotting
+plot_data <- presence_absence_table %>%
+  gather(key = "Genome", value = "Presence", -K0_number, -Category)
+
+# Set the order of genomes as a factor with the specified levels
+plot_data$Genome <- factor(plot_data$Genome, levels = genomes)
+
+# Plot the heatmap for KDO2-lipid A biosynthesis (Raetz pathway, LpxL-LpxM type)
+kdo2_lipid_a_plot <- ggplot(plot_data, aes(x = Genome, y = K0_number, fill = factor(Presence))) +
+  geom_tile(color = "grey") +
+  scale_fill_manual(values = c("0" = "#FFFFFF", "1" = "#5F90BB"), name = "Presence") +
+  facet_wrap(~ Category, scales = "free_y", ncol = 1) +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1),
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank(),
+    strip.text.y = element_text(angle = 0)
+  ) +
+  labs(title = "Presence-Absence Heatmap of KDO2-lipid A Biosynthesis (Raetz Pathway, LpxL-LpxM type)", 
+       x = "Genome", y = "KO Number")
+
+kdo2_lipid_a_plot
+
+```
+
+
+
+#ADP-L-glycero-D-manno-heptose Biosynthesis:
+```{r}
+
+# Define the order of genomes
+genomes <- c("MO_167.B12", "MO_192.B10", "MO_167.B42", "RrhiSC01", "RintRC01", "MAG_DT_104", "TARA_PON", 
+             "ReuHM01", "AM_2804", "ReuHH01", "UBA3481", 
+             "UBA7409", "TARA_MED", "BGEO_MAG", "E_turgida", "UCYNA")
+
+for (genome in genomes) {
+  assign(paste0(genome, "_k0"), unique(na.omit(ko_by_genome[[paste0(genome, "_k0_number")]])))
+}
+
+# Define K numbers for ADP-L-glycero-D-manno-heptose biosynthesis
+adp_l_glycero_d_manno_heptose_k_numbers <- unique(c("K03271", "K03272", "K21344", "K03273", "K21345", "K03274"))
+
+# Define categories (in this case, just one for ADP-L-glycero-D-manno-heptose biosynthesis)
+categories <- list(
+  "ADP-L-glycero-D-manno-heptose biosynthesis" = adp_l_glycero_d_manno_heptose_k_numbers
+)
+
+# Flatten the categories for the presence-absence table
+k_flat <- unlist(categories)
+k_flat_categories <- rep(names(categories), times = sapply(categories, length))
+
+# Create presence-absence table
+presence_absence_table <- data.frame(
+  K0_number = k_flat,
+  Category = k_flat_categories
+)
+
+# Generate presence-absence data for each genome
+for (genome in genomes) {
+  presence_absence_table[[genome]] <- ifelse(presence_absence_table$K0_number %in% get(paste0(genome, "_k0")), 1, 0)
+}
+
+# Set the order of KO numbers as a factor with the specified levels
+presence_absence_table$K0_number <- factor(presence_absence_table$K0_number, levels = k_flat)
+
+# Transform data for plotting
+plot_data <- presence_absence_table %>%
+  gather(key = "Genome", value = "Presence", -K0_number, -Category)
+
+# Set the order of genomes as a factor with the specified levels
+plot_data$Genome <- factor(plot_data$Genome, levels = genomes)
+
+# Plot the heatmap for ADP-L-glycero-D-manno-heptose biosynthesis
+adp_l_glycero_d_manno_heptose_plot <- ggplot(plot_data, aes(x = Genome, y = K0_number, fill = factor(Presence))) +
+  geom_tile(color = "grey") +
+  scale_fill_manual(values = c("0" = "#FFFFFF", "1" = "#5F90BB"), name = "Presence") +
+  facet_wrap(~ Category, scales = "free_y", ncol = 1) +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1),
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank(),
+    strip.text.y = element_text(angle = 0)
+  ) +
+  labs(title = "Presence-Absence Heatmap of ADP-L-glycero-D-manno-heptose Biosynthesis", 
+       x = "Genome", y = "KO Number")
+
+adp_l_glycero_d_manno_heptose_plot
+
+
+
+```
+
+
+****Glycolipid Biosynthesis***
+
+#Triacylglycerol Biosynthesis:
+
+```{r}
+# Define the order of genomes
+genomes <- c("MO_167.B12", "MO_192.B10", "MO_167.B42", "RrhiSC01", "RintRC01", "MAG_DT_104", "TARA_PON", 
+             "ReuHM01", "AM_2804", "ReuHH01", "UBA3481", 
+             "UBA7409", "TARA_MED", "BGEO_MAG", "E_turgida", "UCYNA")
+
+for (genome in genomes) {
+  assign(paste0(genome, "_k0"), unique(na.omit(ko_by_genome[[paste0(genome, "_k0_number")]])))
+}
+
+# Define K numbers for Triacylglycerol biosynthesis
+triacylglycerol_biosynthesis_k_numbers <- unique(c("K00629", "K13506", "K13507", "K00630", "K13508",
+                                                   "K00655", "K13509", "K13523", "K19007", "K13513", 
+                                                   "K13517", "K13519", "K14674", "K22831", "K01080", 
+                                                   "K15728", "K18693", "K11155", "K11160", "K14456", 
+                                                   "K22848", "K22849", "K27538", "K27539"))
+
+# Define categories (in this case, just one for Triacylglycerol biosynthesis)
+categories <- list(
+  "Triacylglycerol biosynthesis" = triacylglycerol_biosynthesis_k_numbers
+)
+
+# Flatten the categories for the presence-absence table
+k_flat <- unlist(categories)
+k_flat_categories <- rep(names(categories), times = sapply(categories, length))
+
+# Create presence-absence table
+presence_absence_table <- data.frame(
+  K0_number = k_flat,
+  Category = k_flat_categories
+)
+
+# Generate presence-absence data for each genome
+for (genome in genomes) {
+  presence_absence_table[[genome]] <- ifelse(presence_absence_table$K0_number %in% get(paste0(genome, "_k0")), 1, 0)
+}
+
+# Set the order of KO numbers as a factor with the specified levels
+presence_absence_table$K0_number <- factor(presence_absence_table$K0_number, levels = k_flat)
+
+# Transform data for plotting
+plot_data <- presence_absence_table %>%
+  gather(key = "Genome", value = "Presence", -K0_number, -Category)
+
+# Set the order of genomes as a factor with the specified levels
+plot_data$Genome <- factor(plot_data$Genome, levels = genomes)
+
+# Plot the heatmap for Triacylglycerol biosynthesis
+triacylglycerol_plot <- ggplot(plot_data, aes(x = Genome, y = K0_number, fill = factor(Presence))) +
+  geom_tile(color = "grey") +
+  scale_fill_manual(values = c("0" = "#FFFFFF", "1" = "#5F90BB"), name = "Presence") +
+  facet_wrap(~ Category, scales = "free_y", ncol = 1) +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1),
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank(),
+    strip.text.y = element_text(angle = 0)
+  ) +
+  labs(title = "Presence-Absence Heatmap of Triacylglycerol Biosynthesis", 
+       x = "Genome", y = "KO Number")
+
+triacylglycerol_plot
+
+```
+
+
+
+#Acylglycerol degradation
+
+```{r}
+# Define the order of genomes
+genomes <- c("MO_167.B12", "MO_192.B10", "MO_167.B42", "RrhiSC01", "RintRC01", "MAG_DT_104", "TARA_PON", 
+             "ReuHM01", "AM_2804", "ReuHH01", "UBA3481", 
+             "UBA7409", "TARA_MED", "BGEO_MAG", "E_turgida", "UCYNA")
+
+for (genome in genomes) {
+  assign(paste0(genome, "_k0"), unique(na.omit(ko_by_genome[[paste0(genome, "_k0_number")]])))
+}
+
+# Define K numbers for Acylglycerol degradation
+acylglycerol_degradation_k_numbers <- unique(c("K01046", "K12298", "K16816", "K13534", "K14073", 
+                                               "K14074", "K14075", "K14076", "K22283", "K14452", 
+                                               "K22284", "K14674", "K14675", "K17900", "K01054", 
+                                               "K25824"))
+
+# Define categories (in this case, just one for Acylglycerol degradation)
+categories <- list(
+  "Acylglycerol degradation" = acylglycerol_degradation_k_numbers
+)
+
+# Flatten the categories for the presence-absence table
+k_flat <- unlist(categories)
+k_flat_categories <- rep(names(categories), times = sapply(categories, length))
+
+# Create presence-absence table
+presence_absence_table <- data.frame(
+  K0_number = k_flat,
+  Category = k_flat_categories
+)
+
+# Generate presence-absence data for each genome
+for (genome in genomes) {
+  presence_absence_table[[genome]] <- ifelse(presence_absence_table$K0_number %in% get(paste0(genome, "_k0")), 1, 0)
+}
+
+# Set the order of KO numbers as a factor with the specified levels
+presence_absence_table$K0_number <- factor(presence_absence_table$K0_number, levels = k_flat)
+
+# Transform data for plotting
+plot_data <- presence_absence_table %>%
+  gather(key = "Genome", value = "Presence", -K0_number, -Category)
+
+# Set the order of genomes as a factor with the specified levels
+plot_data$Genome <- factor(plot_data$Genome, levels = genomes)
+
+# Plot the heatmap for Acylglycerol degradation
+acylglycerol_degradation_plot <- ggplot(plot_data, aes(x = Genome, y = K0_number, fill = factor(Presence))) +
+  geom_tile(color = "grey") +
+  scale_fill_manual(values = c("0" = "#FFFFFF", "1" = "#5F90BB"), name = "Presence") +
+  facet_wrap(~ Category, scales = "free_y", ncol = 1) +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1),
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank(),
+    strip.text.y = element_text(angle = 0)
+  ) +
+  labs(title = "Presence-Absence Heatmap of Acylglycerol Degradation", 
+       x = "Genome", y = "KO Number")
+
+acylglycerol_degradation_plot
+
+```
+
+
+
+
+
+
+
+#DNA Replication
+
+```{r}
+#Define the order of genomes
+genomes <- c("MO_167.B12", "MO_192.B10", "MO_167.B42","RrhiSC01", "RintRC01", "MAG_DT_104", "TARA_PON", 
+             "ReuHM01", "AM_2804", "ReuHH01", "UBA3481", 
+             "UBA7409", "TARA_MED", "BGEO_MAG", "E_turgida", "UCYNA", "N_azollae")
+
+for (genome in genomes) {
+  assign(paste0(genome, "_k0"), unique(na.omit(ko_by_genome[[paste0(genome, "_k0_number")]])))
+}
+
+# Define the KEGG orthology (KO) numbers for DNA repair
+combined_k_numbers <- c("K02345", "K02342", "K14159", "K02337", "K03763", "K02343", "K02341", "K02340", 
+                        "K02344", "K02339", "K02338", "K02314", "K02316", "K03111", "K03469", "K22316", 
+                        "K03470", "K03471", "K02335", "K01972")
+
+
+# Create a presence-absence table for DNA repair KOs
+presence_absence_table <- data.frame(
+  K0_number = combined_k_numbers,
+  Category = rep("DNA Repair", length(combined_k_numbers))
+)
+
+# Generate presence-absence data for each genome
+for (genome in genomes) {
+  presence_absence_table[[genome]] <- ifelse(presence_absence_table$K0_number %in% get(paste0(genome, "_k0")), 1, 0)
+}
+
+# Set the order of KO numbers as a factor with the specified levels
+presence_absence_table$K0_number <- factor(presence_absence_table$K0_number, levels = combined_k_numbers)
+
+# Transform data for plotting
+library(tidyr)
+library(dplyr)
+library(ggplot2)
+
+plot_data <- presence_absence_table %>%
+  gather(key = "Genome", value = "Presence", -K0_number, -Category)
+
+# Set the order of genomes as a factor with the specified levels
+plot_data$Genome <- factor(plot_data$Genome, levels = genomes)
+
+# Add a category label column for annotation
+plot_data <- plot_data %>%
+  mutate(CategoryLabel = ifelse(Genome == genomes[length(genomes)], as.character(Category), NA))
+
+# Create a separate dataframe for category labels
+labels_data <- plot_data %>%
+  filter(!is.na(CategoryLabel)) %>%
+  distinct(K0_number, CategoryLabel)
+
+# Plot the combined heatmap
+combined_plot <- ggplot(plot_data, aes(x = Genome, y = K0_number, fill = factor(Presence))) +
+  geom_tile(color = "white") +
+  scale_fill_manual(values = c("0" = "#FFFFFF", "1" = "#499851"), name = "Presence") +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1),
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank(),
+    plot.margin = margin(t = 10, r = 10, b = 10, l = 10) 
+  ) +
+  labs(title = "Presence-Absence Heatmap of DNA Replication", x = "Genome", y = "KO Number")
+
+combined_plot
+
+```
+
+
+#DNA replication
+```{r}
+# Define the order of genomes
+genomes <- c("MO_167.B12", "MO_192.B10", "MO_167.B42","RrhiSC01", "RintRC01", "MAG_DT_104", "TARA_PON", 
+             "ReuHM01", "AM_2804", "ReuHH01", "UBA3481", 
+             "UBA7409", "TARA_MED", "BGEO_MAG", "E_turgida", "UCYNA", "N_azollae")
+
+# Generate KO lists for each genome
+for (genome in genomes) {
+  assign(paste0(genome, "_k0"), unique(na.omit(ko_by_genome[[paste0(genome, "_k0_number")]])))
+}
+
+# Define the DNA repair categories and corresponding K numbers
+dna_replication_ks <- c("K02337", "K02343", "K02341", "K02340", "K02338", "K02314", "K02316", "K03111", "K03469", "K03470", "K01972")
+base_excision_repair_ks <- c("K10773", "K10563", "K01247", "K01142", "K07462", "K01972")
+nucleotide_excision_repair_ks <- c("K03723", "K03701", "K03702", "K03703", "K03657", "K01972")
+mismatch_repair_ks <- c("K03555", "K07456", "K03572", "K03657", "K07462", "K03111", "K02337", "K02338", "K02343", "K02340", "K02341", "K01972", "K06223")
+
+# Define the Homologous Recombination pathway K numbers
+homologous_recombination_ks <- c(
+  "K07462", "K03111", "K03629", "K03584", "K06187", "K03553","K03550", "K03551", "K01159",
+  "K03655", "K03581",  "K04066"
+)
+
+# Combine all KO numbers and categories into a single list
+pathways <- list(
+  "DNA Replication" = dna_replication_ks,
+  "Base Excision Repair" = base_excision_repair_ks,
+  "Nucleotide Excision Repair" = nucleotide_excision_repair_ks,
+  "Mismatch Repair" = mismatch_repair_ks,
+  "Homologous Recombination" = homologous_recombination_ks
+)
+
+# Flatten the categories for the presence-absence table
+k_flat <- unlist(pathways)
+k_flat_categories <- rep(names(pathways), times = sapply(pathways, length))
+
+# Create presence-absence table
+presence_absence_table <- data.frame(
+  K0_number = k_flat,
+  Category = k_flat_categories
+)
+
+# Generate presence-absence data for each genome
+for (genome in genomes) {
+  presence_absence_table[[genome]] <- ifelse(presence_absence_table$K0_number %in% get(paste0(genome, "_k0")), 1, 0)
+}
+
+# Set the order of KO numbers as a factor with the specified levels
+presence_absence_table$K0_number <- factor(presence_absence_table$K0_number, levels = unique(k_flat))
+
+# Transform data for plotting
+plot_data <- presence_absence_table %>%
+  gather(key = "Genome", value = "Presence", -K0_number, -Category) %>%
+  mutate(Presence = as.factor(Presence))  # Ensure Presence is treated as a factor
+
+# Set the order of genomes as a factor with the specified levels
+plot_data$Genome <- factor(plot_data$Genome, levels = genomes)
+
+# Plot the heatmap with facet titles on top
+dna_repair_plot <- ggplot(plot_data, aes(x = Genome, y = K0_number, fill = Presence)) +
+  geom_tile(color = "grey") +
+  scale_fill_manual(values = c("0" = "#FFFFFF", "1" = "#5F90BB"), name = "Presence") +
+  facet_wrap(~ Category, scales = "free_y", strip.position = "top") +  # Move facet titles to top
+  theme_minimal() +
+  theme(
+    plot.title = element_text(size = 16, face = "bold", hjust = 0.5),  # Center and bold the title
+    axis.text.x = element_text(angle = 90, hjust = 1, size = 10),  # Increase x-axis label size
+    axis.text.y = element_text(size = 10),  # Increase y-axis label size
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank(),
+    strip.text.x = element_text(size = 10, face = "bold"),  # Bold and increase the size of the facet titles
+    plot.margin = margin(t = 10, r = 10, b = 10, l = 10)
+  ) +
+  labs(title = "Presence-Absence Heatmap of DNA Replication and Repair", x = "Genome", y = "KO Number") +
+  scale_y_discrete(labels = function(labels) gsub("_\\d+$", "", labels))  # Remove suffix from labels
+
+# Print the plot
+dna_repair_plot
+
+# Optionally save the plot
+ggsave("dna_repair_categories.jpg", plot = dna_repair_plot, device = "jpg", width = 16, height = 10, units = "in")
+
+```
+
+
+
+#Ribonucleotide reductase
+
+```{r}
+# Define the order of genomes
+genomes <- c("MO_167.B12", "MO_192.B10", "MO_167.B42", "RrhiSC01", "RintRC01", "MAG_DT_104", "TARA_PON", 
+             "ReuHM01", "AM_2804", "ReuHH01", "UBA3481", 
+             "UBA7409", "TARA_MED", "BGEO_MAG", "E_turgida", "UCYNA", "N_azollae")
+
+for (genome in genomes) {
+  assign(paste0(genome, "_k0"), unique(na.omit(ko_by_genome[[paste0(genome, "_k0_number")]])))
+}
+
+# Define the combined K numbers
+combined_k_numbers <- unique(c("K00525", "K00526", "K00527", "K06191", "K03647", "K00524", "K21636", "K04068"))
+
+# Define categories (in this case, just one category for all combined K numbers)
+categories <- list(
+  "Combined K Numbers" = combined_k_numbers
+)
+
+# Flatten the categories for the presence-absence table
+k_flat <- unlist(categories)
+k_flat_categories <- rep(names(categories), times = sapply(categories, length))
+
+# Create presence-absence table
+presence_absence_table <- data.frame(
+  K0_number = k_flat,
+  Category = k_flat_categories
+)
+
+# Generate presence-absence data for each genome
+for (genome in genomes) {
+  presence_absence_table[[genome]] <- ifelse(presence_absence_table$K0_number %in% get(paste0(genome, "_k0")), 1, 0)
+}
+
+# Set the order of KO numbers as a factor with the specified levels
+presence_absence_table$K0_number <- factor(presence_absence_table$K0_number, levels = k_flat)
+
+# Transform data for plotting
+plot_data <- presence_absence_table %>%
+  gather(key = "Genome", value = "Presence", -K0_number, -Category)
+
+# Set the order of genomes as a factor with the specified levels
+plot_data$Genome <- factor(plot_data$Genome, levels = genomes)
+
+# Plot the heatmap for the combined K numbers
+combined_k_plot <- ggplot(plot_data, aes(x = Genome, y = K0_number, fill = factor(Presence))) +
+  geom_tile(color = "grey") +
+  scale_fill_manual(values = c("0" = "#FFFFFF", "1" = "#5F90BB"), name = "Presence") +
+  facet_wrap(~ Category, scales = "free_y", ncol = 1) +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1),
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank(),
+    strip.text.y = element_text(angle = 0)
+  ) +
+  labs(title = "Presence-Absence Heatmap of Combined K Numbers", 
+       x = "Genome", y = "KO Number")
+
+combined_k_plot
+
+```
+
+
+
+#Phylloquinone biosynthesis, chorismate (+ phytyl-PP) => phylloquinol(vitaminK)
+```{r}
+# Define the order of genomes
+genomes <- c("MO_167.B12", "MO_192.B10", "MO_167.B42", "RrhiSC01", "RintRC01", "MAG_DT_104", "TARA_PON", 
+             "ReuHM01", "AM_2804", "ReuHH01", "UBA3481", 
+             "UBA7409", "TARA_MED", "BGEO_MAG", "E_turgida", "UCYNA", "N_azollae")
+
+for (genome in genomes) {
+  assign(paste0(genome, "_k0"), unique(na.omit(ko_by_genome[[paste0(genome, "_k0_number")]])))
+}
+
+# Define the combined K numbers
+combined_k_numbers <- c(
+  "K02552", "K02551", "K08680", "K02549", "K14759", 
+  "K01911", "K14760", "K01661", 
+  "K19222", "K12073", 
+  "K23094", "K17872", "K23095")
+
+# Define categories (in this case, just one category for all combined K numbers)
+categories <- list(
+  "Combined K Numbers" = combined_k_numbers
+)
+
+# Flatten the categories for the presence-absence table
+k_flat <- unlist(categories)
+k_flat_categories <- rep(names(categories), times = sapply(categories, length))
+
+# Create presence-absence table
+presence_absence_table <- data.frame(
+  K0_number = k_flat,
+  Category = k_flat_categories
+)
+
+# Generate presence-absence data for each genome
+for (genome in genomes) {
+  presence_absence_table[[genome]] <- ifelse(presence_absence_table$K0_number %in% get(paste0(genome, "_k0")), 1, 0)
+}
+
+# Set the order of KO numbers as a factor with the specified levels
+presence_absence_table$K0_number <- factor(presence_absence_table$K0_number, levels = k_flat)
+
+# Transform data for plotting
+plot_data <- presence_absence_table %>%
+  gather(key = "Genome", value = "Presence", -K0_number, -Category)
+
+# Set the order of genomes as a factor with the specified levels
+plot_data$Genome <- factor(plot_data$Genome, levels = genomes)
+
+# Plot the heatmap for the combined K numbers
+combined_k_plot <- ggplot(plot_data, aes(x = Genome, y = K0_number, fill = factor(Presence))) +
+  geom_tile(color = "grey") +
+  scale_fill_manual(values = c("0" = "#FFFFFF", "1" = "#5F90BB"), name = "Presence") +
+  facet_wrap(~ Category, scales = "free_y", ncol = 1) +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1),
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank(),
+    strip.text.y = element_text(angle = 0)
+  ) +
+  labs(title = "Presence-Absence Heatmap of Combined K Numbers", 
+       x = "Genome", y = "KO Number")
+
+combined_k_plot
+```
+
+
+
+
+#Tocopherol/tocotorienol biosynthesis, homogentisate + phytyl/geranylgeranyl-PP => tocopherol/tocotorieno
+```{r}
+
+
+# Define the order of genomes
+genomes <- c("MO_167.B12", "MO_192.B10", "MO_167.B42", "RrhiSC01", "RintRC01", "MAG_DT_104", "TARA_PON", 
+             "ReuHM01", "AM_2804", "ReuHH01", "UBA3481", 
+             "UBA7409", "TARA_MED", "BGEO_MAG", "E_turgida", "UCYNA", "N_azollae")
+
+for (genome in genomes) {
+  assign(paste0(genome, "_k0"), unique(na.omit(ko_by_genome[[paste0(genome, "_k0_number")]])))
+}
+
+# Define the combined K numbers
+combined_k_numbers <- c(
+  "K09833", "K12502", "K18534", "K09834", "K05928")
+
+# Define categories (in this case, just one category for all combined K numbers)
+categories <- list(
+  "Combined K Numbers" = combined_k_numbers
+)
+
+# Flatten the categories for the presence-absence table
+k_flat <- unlist(categories)
+k_flat_categories <- rep(names(categories), times = sapply(categories, length))
+
+# Create presence-absence table
+presence_absence_table <- data.frame(
+  K0_number = k_flat,
+  Category = k_flat_categories
+)
+
+# Generate presence-absence data for each genome
+for (genome in genomes) {
+  presence_absence_table[[genome]] <- ifelse(presence_absence_table$K0_number %in% get(paste0(genome, "_k0")), 1, 0)
+}
+
+# Set the order of KO numbers as a factor with the specified levels
+presence_absence_table$K0_number <- factor(presence_absence_table$K0_number, levels = k_flat)
+
+# Transform data for plotting
+plot_data <- presence_absence_table %>%
+  gather(key = "Genome", value = "Presence", -K0_number, -Category)
+
+# Set the order of genomes as a factor with the specified levels
+plot_data$Genome <- factor(plot_data$Genome, levels = genomes)
+
+# Plot the heatmap for the combined K numbers
+combined_k_plot <- ggplot(plot_data, aes(x = Genome, y = K0_number, fill = factor(Presence))) +
+  geom_tile(color = "grey") +
+  scale_fill_manual(values = c("0" = "#FFFFFF", "1" = "#5F90BB"), name = "Presence") +
+  facet_wrap(~ Category, scales = "free_y", ncol = 1) +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1),
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank(),
+    strip.text.y = element_text(angle = 0)
+  ) +
+  labs(title = "Presence-Absence Heatmap of Combined K Numbers", 
+       x = "Genome", y = "KO Number")
+
+combined_k_plot
+```
+
+
+#	Cytochrome bd ubiquinol oxidase
+
+```{r}
+
+# Define the order of genomes
+genomes <- c("MO_167.B12", "MO_192.B10", "MO_167.B42", "RrhiSC01", "RintRC01", "MAG_DT_104", "TARA_PON", 
+             "ReuHM01", "AM_2804", "ReuHH01", "UBA3481", 
+             "UBA7409", "TARA_MED", "BGEO_MAG", "E_turgida", "UCYNA", "N_azollae")
+
+for (genome in genomes) {
+  assign(paste0(genome, "_k0"), unique(na.omit(ko_by_genome[[paste0(genome, "_k0_number")]])))
+}
+
+# Define the combined K numbers
+combined_k_numbers <- c("K00425", "K00426", "K00424", "K22501")
+
+# Define categories (in this case, just one category for all combined K numbers)
+categories <- list(
+  "Combined K Numbers" = combined_k_numbers
+)
+
+# Flatten the categories for the presence-absence table
+k_flat <- unlist(categories)
+k_flat_categories <- rep(names(categories), times = sapply(categories, length))
+
+# Create presence-absence table
+presence_absence_table <- data.frame(
+  K0_number = k_flat,
+  Category = k_flat_categories
+)
+
+# Generate presence-absence data for each genome
+for (genome in genomes) {
+  presence_absence_table[[genome]] <- ifelse(presence_absence_table$K0_number %in% get(paste0(genome, "_k0")), 1, 0)
+}
+
+# Set the order of KO numbers as a factor with the specified levels
+presence_absence_table$K0_number <- factor(presence_absence_table$K0_number, levels = k_flat)
+
+# Transform data for plotting
+plot_data <- presence_absence_table %>%
+  gather(key = "Genome", value = "Presence", -K0_number, -Category)
+
+# Set the order of genomes as a factor with the specified levels
+plot_data$Genome <- factor(plot_data$Genome, levels = genomes)
+
+# Plot the heatmap for the combined K numbers
+combined_k_plot <- ggplot(plot_data, aes(x = Genome, y = K0_number, fill = factor(Presence))) +
+  geom_tile(color = "grey") +
+  scale_fill_manual(values = c("0" = "#FFFFFF", "1" = "#5F90BB"), name = "Presence") +
+  facet_wrap(~ Category, scales = "free_y", ncol = 1) +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1),
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank(),
+    strip.text.y = element_text(angle = 0)
+  ) +
+  labs(title = "Presence-Absence Heatmap of Combined K Numbers", 
+       x = "Genome", y = "KO Number")
+
+combined_k_plot
+
+
+```
+
+
+#N fixation
+```{r}
+
+
+
+# Define the order of genomes
+genomes <- c("MO_167.B12", "MO_192.B10", "MO_167.B42", "RrhiSC01", "RintRC01", "MAG_DT_104", "TARA_PON", 
+             "ReuHM01", "AM_2804", "ReuHH01", "UBA3481", 
+             "UBA7409", "TARA_MED", "BGEO_MAG", "E_turgida", "UCYNA", "N_azollae")
+
+for (genome in genomes) {
+  assign(paste0(genome, "_k0"), unique(na.omit(ko_by_genome[[paste0(genome, "_k0_number")]])))
+}
+
+# Define the combined K numbers
+combined_k_numbers <- c(
+  "K02588", "K02586", "K02591", "K02587", "K02592", "K02596","K02585","K04487", "K02593",
+  "K02594", "K02595", "K02597", "K03737", "K00640"
+)
+# Define categories (in this case, just one category for all combined K numbers)
+categories <- list(
+  "Combined K Numbers" = combined_k_numbers
+)
+
+# Flatten the categories for the presence-absence table
+k_flat <- unlist(categories)
+k_flat_categories <- rep(names(categories), times = sapply(categories, length))
+
+# Create presence-absence table
+presence_absence_table <- data.frame(
+  K0_number = k_flat,
+  Category = k_flat_categories
+)
+
+# Generate presence-absence data for each genome
+for (genome in genomes) {
+  presence_absence_table[[genome]] <- ifelse(presence_absence_table$K0_number %in% get(paste0(genome, "_k0")), 1, 0)
+}
+
+# Set the order of KO numbers as a factor with the specified levels
+presence_absence_table$K0_number <- factor(presence_absence_table$K0_number, levels = k_flat)
+
+# Transform data for plotting
+plot_data <- presence_absence_table %>%
+  gather(key = "Genome", value = "Presence", -K0_number, -Category)
+
+# Set the order of genomes as a factor with the specified levels
+plot_data$Genome <- factor(plot_data$Genome, levels = genomes)
+
+# Plot the heatmap for the combined K numbers
+combined_k_plot <- ggplot(plot_data, aes(x = Genome, y = K0_number, fill = factor(Presence))) +
+  geom_tile(color = "grey") +
+  scale_fill_manual(values = c("0" = "#FFFFFF", "1" = "#5F90BB"), name = "Presence") +
+  facet_wrap(~ Category, scales = "free_y", ncol = 1) +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1),
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank(),
+    strip.text.y = element_text(angle = 0)
+  ) +
+  labs(title = "Presence-Absence Heatmap of Combined K Numbers", 
+       x = "Genome", y = "KO Number")
+
+combined_k_plot
+
+
+```
+
+
+#Assimilatory nitrate reduction
+
+
+```{r}
+
+# Define the order of genomes
+genomes <- c("MO_167.B12", "MO_192.B10", "MO_167.B42", "RrhiSC01", "RintRC01", "MAG_DT_104", "TARA_PON", 
+             "ReuHM01", "AM_2804", "ReuHH01", "UBA3481", 
+             "UBA7409", "TARA_MED", "BGEO_MAG", "E_turgida", "UCYNA", "N_azollae")
+
+for (genome in genomes) {
+  assign(paste0(genome, "_k0"), unique(na.omit(ko_by_genome[[paste0(genome, "_k0_number")]])))
+}
+
+# Define the combined K numbers
+combined_k_numbers <- c(
+  "K00367", "K10534", "K00372", "K00360",
+  "K00366", "K17877", "K26139", "K26138", "K00361", "K03523", "K16785", "K16786", "K16787"
+)
+
+# Define categories (in this case, just one category for all combined K numbers)
+categories <- list(
+  "Combined K Numbers" = combined_k_numbers
+)
+
+# Flatten the categories for the presence-absence table
+k_flat <- unlist(categories)
+k_flat_categories <- rep(names(categories), times = sapply(categories, length))
+
+# Create presence-absence table
+presence_absence_table <- data.frame(
+  K0_number = k_flat,
+  Category = k_flat_categories
+)
+
+# Generate presence-absence data for each genome
+for (genome in genomes) {
+  presence_absence_table[[genome]] <- ifelse(presence_absence_table$K0_number %in% get(paste0(genome, "_k0")), 1, 0)
+}
+
+# Set the order of KO numbers as a factor with the specified levels
+presence_absence_table$K0_number <- factor(presence_absence_table$K0_number, levels = k_flat)
+
+# Transform data for plotting
+plot_data <- presence_absence_table %>%
+  gather(key = "Genome", value = "Presence", -K0_number, -Category)
+
+# Set the order of genomes as a factor with the specified levels
+plot_data$Genome <- factor(plot_data$Genome, levels = genomes)
+
+# Plot the heatmap for the combined K numbers
+combined_k_plot <- ggplot(plot_data, aes(x = Genome, y = K0_number, fill = factor(Presence))) +
+  geom_tile(color = "grey") +
+  scale_fill_manual(values = c("0" = "#FFFFFF", "1" = "#5F90BB"), name = "Presence") +
+  facet_wrap(~ Category, scales = "free_y", ncol = 1) +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1),
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank(),
+    strip.text.y = element_text(angle = 0)
+  ) +
+  labs(title = "Presence-Absence Heatmap of Combined K Numbers", 
+       x = "Genome", y = "KO Number")
+
+combined_k_plot
+
+```
+

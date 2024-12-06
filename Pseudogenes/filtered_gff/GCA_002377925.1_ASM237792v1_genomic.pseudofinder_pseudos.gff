@@ -1,0 +1,329 @@
+##gff-version 3
+#!annotation-date	2023-02-07 08:27:20
+##sequence-region MGIFBNEP_1 1 22356
+##sequence-region MGIFBNEP_2 1 17038
+##sequence-region MGIFBNEP_3 1 16302
+##sequence-region MGIFBNEP_4 1 9444
+##sequence-region MGIFBNEP_5 1 17239
+##sequence-region MGIFBNEP_6 1 35337
+##sequence-region MGIFBNEP_7 1 64619
+##sequence-region MGIFBNEP_8 1 45111
+##sequence-region MGIFBNEP_9 1 4533
+##sequence-region MGIFBNEP_10 1 154413
+##sequence-region MGIFBNEP_11 1 5441
+##sequence-region MGIFBNEP_12 1 11767
+##sequence-region MGIFBNEP_13 1 17439
+##sequence-region MGIFBNEP_14 1 13387
+##sequence-region MGIFBNEP_15 1 5599
+##sequence-region MGIFBNEP_16 1 11463
+##sequence-region MGIFBNEP_17 1 31289
+##sequence-region MGIFBNEP_18 1 16912
+##sequence-region MGIFBNEP_19 1 9173
+##sequence-region MGIFBNEP_20 1 100801
+##sequence-region MGIFBNEP_21 1 42432
+##sequence-region MGIFBNEP_22 1 138898
+##sequence-region MGIFBNEP_23 1 6295
+##sequence-region MGIFBNEP_24 1 16127
+##sequence-region MGIFBNEP_25 1 7200
+##sequence-region MGIFBNEP_26 1 64290
+##sequence-region MGIFBNEP_27 1 23196
+##sequence-region MGIFBNEP_28 1 104893
+##sequence-region MGIFBNEP_29 1 3720
+##sequence-region MGIFBNEP_30 1 57021
+##sequence-region MGIFBNEP_31 1 7751
+##sequence-region MGIFBNEP_32 1 18294
+##sequence-region MGIFBNEP_33 1 6504
+##sequence-region MGIFBNEP_34 1 35918
+##sequence-region MGIFBNEP_35 1 28596
+##sequence-region MGIFBNEP_36 1 6810
+##sequence-region MGIFBNEP_37 1 23382
+##sequence-region MGIFBNEP_38 1 6217
+##sequence-region MGIFBNEP_39 1 4110
+##sequence-region MGIFBNEP_40 1 20747
+##sequence-region MGIFBNEP_41 1 10194
+##sequence-region MGIFBNEP_42 1 2963
+##sequence-region MGIFBNEP_43 1 73489
+##sequence-region MGIFBNEP_44 1 83143
+##sequence-region MGIFBNEP_45 1 19259
+##sequence-region MGIFBNEP_46 1 10113
+##sequence-region MGIFBNEP_47 1 59524
+##sequence-region MGIFBNEP_48 1 8073
+##sequence-region MGIFBNEP_49 1 17470
+##sequence-region MGIFBNEP_50 1 26257
+##sequence-region MGIFBNEP_51 1 31959
+##sequence-region MGIFBNEP_52 1 9988
+##sequence-region MGIFBNEP_53 1 38674
+##sequence-region MGIFBNEP_54 1 97568
+##sequence-region MGIFBNEP_55 1 2596
+##sequence-region MGIFBNEP_56 1 19540
+##sequence-region MGIFBNEP_57 1 34205
+##sequence-region MGIFBNEP_58 1 46730
+##sequence-region MGIFBNEP_59 1 21973
+##sequence-region MGIFBNEP_60 1 3192
+##sequence-region MGIFBNEP_61 1 6733
+##sequence-region MGIFBNEP_62 1 11472
+##sequence-region MGIFBNEP_63 1 18011
+##sequence-region MGIFBNEP_64 1 36722
+##sequence-region MGIFBNEP_65 1 25007
+##sequence-region MGIFBNEP_66 1 21416
+##sequence-region MGIFBNEP_67 1 3247
+##sequence-region MGIFBNEP_68 1 128668
+##sequence-region MGIFBNEP_69 1 89312
+##sequence-region MGIFBNEP_70 1 27855
+##sequence-region MGIFBNEP_71 1 60817
+##sequence-region MGIFBNEP_72 1 18784
+##sequence-region MGIFBNEP_73 1 50305
+##sequence-region MGIFBNEP_74 1 28255
+##sequence-region MGIFBNEP_75 1 6337
+##sequence-region MGIFBNEP_76 1 30175
+##sequence-region MGIFBNEP_77 1 23208
+##sequence-region MGIFBNEP_78 1 15991
+##sequence-region MGIFBNEP_79 1 47860
+##sequence-region MGIFBNEP_80 1 26121
+##sequence-region MGIFBNEP_81 1 18059
+##sequence-region MGIFBNEP_82 1 4685
+##sequence-region MGIFBNEP_83 1 2880
+##sequence-region MGIFBNEP_84 1 64430
+##sequence-region MGIFBNEP_85 1 12223
+##sequence-region MGIFBNEP_86 1 17670
+##sequence-region MGIFBNEP_87 1 53403
+##sequence-region MGIFBNEP_88 1 28335
+##sequence-region MGIFBNEP_89 1 61525
+##sequence-region MGIFBNEP_90 1 5922
+##sequence-region MGIFBNEP_91 1 85652
+##sequence-region MGIFBNEP_92 1 5729
+##sequence-region MGIFBNEP_93 1 6957
+##sequence-region MGIFBNEP_94 1 37566
+##sequence-region MGIFBNEP_95 1 52396
+##sequence-region MGIFBNEP_96 1 123301
+##sequence-region MGIFBNEP_97 1 16339
+##sequence-region MGIFBNEP_98 1 55778
+##sequence-region MGIFBNEP_99 1 18709
+##sequence-region MGIFBNEP_100 1 14420
+MGIFBNEP_80	pseudofinder	gene	10	366	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 55.0%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_80_pseudo_00001;old_locus_tag=MGIFBNEP_01675
+MGIFBNEP_30	pseudofinder	gene	23	322	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 30.5%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_30_pseudo_00002;old_locus_tag=MGIFBNEP_00677
+MGIFBNEP_52	pseudofinder	gene	238	8694	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 243.2%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_52_pseudo_00003;old_locus_tag=MGIFBNEP_01065
+MGIFBNEP_91	pseudofinder	gene	304	413	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_91_pseudo_00004;old_locus_tag=MGIFBNEP_91_ign_00001
+MGIFBNEP_13	pseudofinder	gene	462	641	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 18.6%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_13_pseudo_00005;old_locus_tag=MGIFBNEP_00272
+MGIFBNEP_65	pseudofinder	gene	627	1405	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_65_pseudo_00006;old_locus_tag=MGIFBNEP_65_ign_00001
+MGIFBNEP_13	pseudofinder	gene	825	1150	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_13_pseudo_00007;old_locus_tag=MGIFBNEP_13_ign_00001
+MGIFBNEP_51	pseudofinder	gene	895	1052	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_51_pseudo_00008;old_locus_tag=MGIFBNEP_51_ign_00002
+MGIFBNEP_15	pseudofinder	gene	929	2189	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=MGIFBNEP_15_pseudo_00009;old_locus_tag=MGIFBNEP_00288,MGIFBNEP_15_ign_00002
+MGIFBNEP_97	pseudofinder	gene	1031	1227	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_97_pseudo_00010;old_locus_tag=MGIFBNEP_97_ign_00001
+MGIFBNEP_20	pseudofinder	gene	1552	1670	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_20_pseudo_00011;old_locus_tag=MGIFBNEP_20_ign_00002
+MGIFBNEP_34	pseudofinder	gene	1999	2372	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_34_pseudo_00012;old_locus_tag=MGIFBNEP_34_ign_00001
+MGIFBNEP_63	pseudofinder	gene	2555	4078	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 63.8%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_63_pseudo_00013;old_locus_tag=MGIFBNEP_01254
+MGIFBNEP_44	pseudofinder	gene	3722	3862	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 13.3%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_44_pseudo_00014;old_locus_tag=MGIFBNEP_00885
+MGIFBNEP_6	pseudofinder	gene	3950	4509	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=MGIFBNEP_6_pseudo_00015;old_locus_tag=MGIFBNEP_6_ign_00003,MGIFBNEP_00061
+MGIFBNEP_63	pseudofinder	gene	4079	4845	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_63_pseudo_00016;old_locus_tag=MGIFBNEP_63_ign_00003
+MGIFBNEP_43	pseudofinder	gene	4162	4334	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_43_pseudo_00017;old_locus_tag=MGIFBNEP_43_ign_00005
+MGIFBNEP_44	pseudofinder	gene	4294	4463	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=MGIFBNEP_44_pseudo_00018;old_locus_tag=MGIFBNEP_44_ign_00003
+MGIFBNEP_70	pseudofinder	gene	4713	5252	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 59.5%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_70_pseudo_00019;old_locus_tag=MGIFBNEP_01464
+MGIFBNEP_80	pseudofinder	gene	4772	5103	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 9 blast hits.;locus_tag=MGIFBNEP_80_pseudo_00020;old_locus_tag=MGIFBNEP_80_ign_00004
+MGIFBNEP_46	pseudofinder	gene	5248	5966	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_46_pseudo_00021;old_locus_tag=MGIFBNEP_46_ign_00004
+MGIFBNEP_4	pseudofinder	gene	6246	6586	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_4_pseudo_00022;old_locus_tag=MGIFBNEP_4_ign_00007
+MGIFBNEP_51	pseudofinder	gene	6309	6733	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_51_pseudo_00023;old_locus_tag=MGIFBNEP_51_ign_00005
+MGIFBNEP_62	pseudofinder	gene	6443	6742	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 35.7%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_62_pseudo_00024;old_locus_tag=MGIFBNEP_01245
+MGIFBNEP_62	pseudofinder	gene	6714	6998	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 31.6%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_62_pseudo_00025;old_locus_tag=MGIFBNEP_01246
+MGIFBNEP_17	pseudofinder	gene	6719	6987	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_17_pseudo_00026;old_locus_tag=MGIFBNEP_17_ign_00005
+MGIFBNEP_2	pseudofinder	gene	6820	7448	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_2_pseudo_00027;old_locus_tag=MGIFBNEP_2_ign_00004
+MGIFBNEP_40	pseudofinder	gene	6966	7357	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_40_pseudo_00028;old_locus_tag=MGIFBNEP_40_ign_00005
+MGIFBNEP_17	pseudofinder	gene	6993	7151	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 26.0%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_17_pseudo_00029;old_locus_tag=MGIFBNEP_00302
+MGIFBNEP_62	pseudofinder	gene	7034	7450	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 44.4%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_62_pseudo_00030;old_locus_tag=MGIFBNEP_01247
+MGIFBNEP_17	pseudofinder	gene	7153	7479	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 56.3%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_17_pseudo_00031;old_locus_tag=MGIFBNEP_00303
+MGIFBNEP_88	pseudofinder	gene	7899	9104	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 11 blast hits.;locus_tag=MGIFBNEP_88_pseudo_00032;old_locus_tag=MGIFBNEP_88_ign_00003
+MGIFBNEP_58	pseudofinder	gene	7958	8127	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_58_pseudo_00033;old_locus_tag=MGIFBNEP_58_ign_00006
+MGIFBNEP_100	pseudofinder	gene	8895	9109	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_100_pseudo_00034;old_locus_tag=MGIFBNEP_100_ign_00007
+MGIFBNEP_88	pseudofinder	gene	9140	9253	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 7.3%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_88_pseudo_00035;old_locus_tag=MGIFBNEP_01830
+MGIFBNEP_88	pseudofinder	gene	9388	9842	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_88_pseudo_00036;old_locus_tag=MGIFBNEP_88_ign_00004
+MGIFBNEP_49	pseudofinder	gene	9982	10323	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 41.9%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_49_pseudo_00037;old_locus_tag=MGIFBNEP_01025
+MGIFBNEP_74	pseudofinder	gene	10101	11116	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_74_pseudo_00038;old_locus_tag=MGIFBNEP_74_ign_00008
+MGIFBNEP_49	pseudofinder	gene	10347	10472	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 17.4%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_49_pseudo_00039;old_locus_tag=MGIFBNEP_01026
+MGIFBNEP_53	pseudofinder	gene	10410	11074	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_53_pseudo_00040;old_locus_tag=MGIFBNEP_53_ign_00004
+MGIFBNEP_89	pseudofinder	gene	10854	11072	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 20.9%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_89_pseudo_00041;old_locus_tag=MGIFBNEP_01853
+MGIFBNEP_50	pseudofinder	gene	10951	11141	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_50_pseudo_00042;old_locus_tag=MGIFBNEP_50_ign_00005
+MGIFBNEP_89	pseudofinder	gene	11077	11702	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_89_pseudo_00043;old_locus_tag=MGIFBNEP_89_ign_00011
+MGIFBNEP_50	pseudofinder	gene	11143	11679	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 41.2%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_50_pseudo_00044;old_locus_tag=MGIFBNEP_01034
+MGIFBNEP_63	pseudofinder	gene	11230	12720	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=MGIFBNEP_63_pseudo_00045;old_locus_tag=MGIFBNEP_01262,MGIFBNEP_63_ign_00010
+MGIFBNEP_64	pseudofinder	gene	11359	11598	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 50.8%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_64_pseudo_00046;old_locus_tag=MGIFBNEP_01276
+MGIFBNEP_64	pseudofinder	gene	11540	12100	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 64.2%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_64_pseudo_00047;old_locus_tag=MGIFBNEP_01277
+MGIFBNEP_84	pseudofinder	gene	11921	12186	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=MGIFBNEP_84_pseudo_00048;old_locus_tag=MGIFBNEP_84_ign_00007
+MGIFBNEP_97	pseudofinder	gene	11925	12107	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 11.0%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_97_pseudo_00049;old_locus_tag=MGIFBNEP_02101
+MGIFBNEP_64	pseudofinder	gene	12287	13255	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=MGIFBNEP_64_pseudo_00050;old_locus_tag=MGIFBNEP_64_ign_00008,MGIFBNEP_01278
+MGIFBNEP_97	pseudofinder	gene	12380	12798	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_97_pseudo_00051;old_locus_tag=MGIFBNEP_97_ign_00009
+MGIFBNEP_97	pseudofinder	gene	12801	13328	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 31.3%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_97_pseudo_00052;old_locus_tag=MGIFBNEP_02103
+MGIFBNEP_81	pseudofinder	gene	13156	13945	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=MGIFBNEP_81_pseudo_00053;old_locus_tag=MGIFBNEP_81_ign_00007,MGIFBNEP_81_ign_00008,MGIFBNEP_01712
+MGIFBNEP_24	pseudofinder	gene	13195	13401	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 52.6%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_24_pseudo_00054;old_locus_tag=MGIFBNEP_00530
+MGIFBNEP_97	pseudofinder	gene	13329	13423	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_97_pseudo_00055;old_locus_tag=MGIFBNEP_97_ign_00010
+MGIFBNEP_97	pseudofinder	gene	13425	13907	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 34.5%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_97_pseudo_00056;old_locus_tag=MGIFBNEP_02104
+MGIFBNEP_63	pseudofinder	gene	13474	13677	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 44.3%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_63_pseudo_00057;old_locus_tag=MGIFBNEP_01264
+MGIFBNEP_5	pseudofinder	gene	13738	14418	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 58.2%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_5_pseudo_00058;old_locus_tag=MGIFBNEP_00055
+MGIFBNEP_97	pseudofinder	gene	13908	14194	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_97_pseudo_00059;old_locus_tag=MGIFBNEP_97_ign_00011
+MGIFBNEP_68	pseudofinder	gene	14119	14408	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_68_pseudo_00060;old_locus_tag=MGIFBNEP_68_ign_00009
+MGIFBNEP_88	pseudofinder	gene	14151	14242	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 14 blast hits.;locus_tag=MGIFBNEP_88_pseudo_00061;old_locus_tag=MGIFBNEP_88_ign_00006
+MGIFBNEP_5	pseudofinder	gene	14428	14946	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 48.2%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_5_pseudo_00062;old_locus_tag=MGIFBNEP_00056
+MGIFBNEP_8	pseudofinder	gene	14436	14737	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_8_pseudo_00063;old_locus_tag=MGIFBNEP_8_ign_00006
+MGIFBNEP_68	pseudofinder	gene	14447	14632	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 24.2%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_68_pseudo_00064;old_locus_tag=MGIFBNEP_01333
+MGIFBNEP_68	pseudofinder	gene	15226	15749	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_68_pseudo_00065;old_locus_tag=MGIFBNEP_68_ign_00010
+MGIFBNEP_57	pseudofinder	gene	15776	15918	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_57_pseudo_00066;old_locus_tag=MGIFBNEP_57_ign_00005
+MGIFBNEP_57	pseudofinder	gene	15920	16063	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 61.0%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_57_pseudo_00067;old_locus_tag=MGIFBNEP_01172
+MGIFBNEP_76	pseudofinder	gene	15960	16048	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 10 blast hits.;locus_tag=MGIFBNEP_76_pseudo_00068;old_locus_tag=MGIFBNEP_76_ign_00011
+MGIFBNEP_99	pseudofinder	gene	16402	16958	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_99_pseudo_00069;old_locus_tag=MGIFBNEP_99_ign_00008
+MGIFBNEP_30	pseudofinder	gene	16638	17056	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_30_pseudo_00070;old_locus_tag=MGIFBNEP_30_ign_00009
+MGIFBNEP_30	pseudofinder	gene	17058	17201	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 15.8%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_30_pseudo_00071;old_locus_tag=MGIFBNEP_00686
+MGIFBNEP_10	pseudofinder	gene	17075	17289	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 10 blast hits.;locus_tag=MGIFBNEP_10_pseudo_00072;old_locus_tag=MGIFBNEP_10_ign_00010
+MGIFBNEP_30	pseudofinder	gene	17202	17692	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_30_pseudo_00073;old_locus_tag=MGIFBNEP_30_ign_00010
+MGIFBNEP_10	pseudofinder	gene	17540	17764	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 25.7%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_10_pseudo_00074;old_locus_tag=MGIFBNEP_00164
+MGIFBNEP_87	pseudofinder	gene	17572	18201	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_87_pseudo_00075;old_locus_tag=MGIFBNEP_87_ign_00013
+MGIFBNEP_30	pseudofinder	gene	17694	17855	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 17.8%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_30_pseudo_00076;old_locus_tag=MGIFBNEP_00687
+MGIFBNEP_95	pseudofinder	gene	17907	18095	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 57.1%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_95_pseudo_00077;old_locus_tag=MGIFBNEP_01981
+MGIFBNEP_10	pseudofinder	gene	18148	18677	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_10_pseudo_00078;old_locus_tag=MGIFBNEP_10_ign_00012
+MGIFBNEP_37	pseudofinder	gene	19044	19789	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_37_pseudo_00079;old_locus_tag=MGIFBNEP_37_ign_00009
+MGIFBNEP_65	pseudofinder	gene	19147	19379	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_65_pseudo_00080;old_locus_tag=MGIFBNEP_65_ign_00009
+MGIFBNEP_91	pseudofinder	gene	19408	20000	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=MGIFBNEP_91_pseudo_00081;old_locus_tag=MGIFBNEP_91_ign_00010,MGIFBNEP_01898
+MGIFBNEP_64	pseudofinder	gene	19669	19817	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_64_pseudo_00082;old_locus_tag=MGIFBNEP_64_ign_00013
+MGIFBNEP_76	pseudofinder	gene	20092	20415	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=MGIFBNEP_76_pseudo_00083;old_locus_tag=MGIFBNEP_01602,MGIFBNEP_76_ign_00015
+MGIFBNEP_8	pseudofinder	gene	20133	20698	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=MGIFBNEP_8_pseudo_00084;old_locus_tag=MGIFBNEP_8_ign_00011,MGIFBNEP_00131
+MGIFBNEP_98	pseudofinder	gene	20446	20843	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_98_pseudo_00085;old_locus_tag=MGIFBNEP_98_ign_00011
+MGIFBNEP_20	pseudofinder	gene	21310	21545	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_20_pseudo_00086;old_locus_tag=MGIFBNEP_20_ign_00015
+MGIFBNEP_95	pseudofinder	gene	21937	22211	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_95_pseudo_00087;old_locus_tag=MGIFBNEP_95_ign_00013
+MGIFBNEP_95	pseudofinder	gene	22213	22371	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 41.1%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_95_pseudo_00088;old_locus_tag=MGIFBNEP_01985
+MGIFBNEP_6	pseudofinder	gene	22903	23091	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 24.9%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_6_pseudo_00089;old_locus_tag=MGIFBNEP_00072
+MGIFBNEP_6	pseudofinder	gene	23202	23411	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 22.8%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_6_pseudo_00090;old_locus_tag=MGIFBNEP_00073
+MGIFBNEP_6	pseudofinder	gene	23543	23737	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 20.3%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_6_pseudo_00091;old_locus_tag=MGIFBNEP_00074
+MGIFBNEP_8	pseudofinder	gene	23663	25371	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_8_pseudo_00092;old_locus_tag=MGIFBNEP_8_ign_00012
+MGIFBNEP_65	pseudofinder	gene	23722	23856	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 40.3%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_65_pseudo_00093;old_locus_tag=MGIFBNEP_01304
+MGIFBNEP_6	pseudofinder	gene	23739	23923	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_6_pseudo_00094;old_locus_tag=MGIFBNEP_6_ign_00016
+MGIFBNEP_87	pseudofinder	gene	24047	24243	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_87_pseudo_00095;old_locus_tag=MGIFBNEP_87_ign_00018
+MGIFBNEP_87	pseudofinder	gene	24267	24443	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 14.4%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_87_pseudo_00096;old_locus_tag=MGIFBNEP_01802
+MGIFBNEP_71	pseudofinder	gene	24867	25235	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 50.5%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_71_pseudo_00097;old_locus_tag=MGIFBNEP_01498
+MGIFBNEP_71	pseudofinder	gene	25236	25459	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_71_pseudo_00098;old_locus_tag=MGIFBNEP_71_ign_00015
+MGIFBNEP_87	pseudofinder	gene	25375	25638	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 63.1%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_87_pseudo_00099;old_locus_tag=MGIFBNEP_01803
+MGIFBNEP_96	pseudofinder	gene	25845	26245	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_96_pseudo_00100;old_locus_tag=MGIFBNEP_96_ign_00014
+MGIFBNEP_80	pseudofinder	gene	25947	26093	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 45.3%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_80_pseudo_00101;old_locus_tag=MGIFBNEP_01704
+MGIFBNEP_10	pseudofinder	gene	27377	27835	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 57.2%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_10_pseudo_00102;old_locus_tag=MGIFBNEP_00171
+MGIFBNEP_22	pseudofinder	gene	27445	27906	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 26.1%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_22_pseudo_00103;old_locus_tag=MGIFBNEP_00445
+MGIFBNEP_34	pseudofinder	gene	29199	29398	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_34_pseudo_00104;old_locus_tag=MGIFBNEP_34_ign_00019
+MGIFBNEP_34	pseudofinder	gene	29502	29834	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 62.0%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_34_pseudo_00105;old_locus_tag=MGIFBNEP_00755
+MGIFBNEP_95	pseudofinder	gene	30665	30960	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=MGIFBNEP_95_pseudo_00106;old_locus_tag=MGIFBNEP_95_ign_00018
+MGIFBNEP_53	pseudofinder	gene	31090	31571	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_53_pseudo_00107;old_locus_tag=MGIFBNEP_53_ign_00016
+MGIFBNEP_28	pseudofinder	gene	32011	32354	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_28_pseudo_00108;old_locus_tag=MGIFBNEP_28_ign_00019
+MGIFBNEP_68	pseudofinder	gene	32045	32373	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 8 blast hits.;locus_tag=MGIFBNEP_68_pseudo_00109;old_locus_tag=MGIFBNEP_68_ign_00017
+MGIFBNEP_68	pseudofinder	gene	33503	33733	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 35.8%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_68_pseudo_00110;old_locus_tag=MGIFBNEP_01344
+MGIFBNEP_68	pseudofinder	gene	33734	33903	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_68_pseudo_00111;old_locus_tag=MGIFBNEP_68_ign_00018
+MGIFBNEP_71	pseudofinder	gene	35309	35524	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 22.3%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_71_pseudo_00112;old_locus_tag=MGIFBNEP_01506
+MGIFBNEP_71	pseudofinder	gene	35645	35961	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_71_pseudo_00113;old_locus_tag=MGIFBNEP_71_ign_00023
+MGIFBNEP_68	pseudofinder	gene	35895	36244	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_68_pseudo_00114;old_locus_tag=MGIFBNEP_68_ign_00019
+MGIFBNEP_26	pseudofinder	gene	36464	36765	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_26_pseudo_00115;old_locus_tag=MGIFBNEP_26_ign_00018
+MGIFBNEP_26	pseudofinder	gene	36768	36977	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 43.2%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_26_pseudo_00116;old_locus_tag=MGIFBNEP_00561
+MGIFBNEP_44	pseudofinder	gene	36778	37065	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 135.1%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_44_pseudo_00117;old_locus_tag=MGIFBNEP_00911
+MGIFBNEP_44	pseudofinder	gene	36967	37064	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=MGIFBNEP_44_pseudo_00118;old_locus_tag=MGIFBNEP_44_ign_00025
+MGIFBNEP_98	pseudofinder	gene	37722	38137	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_98_pseudo_00119;old_locus_tag=MGIFBNEP_98_ign_00017
+MGIFBNEP_98	pseudofinder	gene	38139	38372	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 27.6%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_98_pseudo_00120;old_locus_tag=MGIFBNEP_02125
+MGIFBNEP_98	pseudofinder	gene	38564	38695	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 16.0%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_98_pseudo_00121;old_locus_tag=MGIFBNEP_02126
+MGIFBNEP_98	pseudofinder	gene	38735	38956	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 44.9%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_98_pseudo_00122;old_locus_tag=MGIFBNEP_02127
+MGIFBNEP_68	pseudofinder	gene	39697	40457	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_68_pseudo_00123;old_locus_tag=MGIFBNEP_68_ign_00021
+MGIFBNEP_98	pseudofinder	gene	41221	41504	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_98_pseudo_00124;old_locus_tag=MGIFBNEP_98_ign_00020
+MGIFBNEP_44	pseudofinder	gene	41660	41895	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_44_pseudo_00125;old_locus_tag=MGIFBNEP_44_ign_00027
+MGIFBNEP_8	pseudofinder	gene	41676	42074	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=MGIFBNEP_8_pseudo_00126;old_locus_tag=MGIFBNEP_8_ign_00024,MGIFBNEP_00146
+MGIFBNEP_8	pseudofinder	gene	42075	42193	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 12 blast hits.;locus_tag=MGIFBNEP_8_pseudo_00127;old_locus_tag=MGIFBNEP_8_ign_00025
+MGIFBNEP_8	pseudofinder	gene	42209	42487	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 27.0%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_8_pseudo_00128;old_locus_tag=MGIFBNEP_00147
+MGIFBNEP_58	pseudofinder	gene	42506	43704	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_58_pseudo_00129;old_locus_tag=MGIFBNEP_58_ign_00027
+MGIFBNEP_8	pseudofinder	gene	42732	42875	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 13.2%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_8_pseudo_00130;old_locus_tag=MGIFBNEP_00148
+MGIFBNEP_26	pseudofinder	gene	42758	43039	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 142.9%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_26_pseudo_00131;old_locus_tag=MGIFBNEP_00565
+MGIFBNEP_71	pseudofinder	gene	43825	44261	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_71_pseudo_00132;old_locus_tag=MGIFBNEP_71_ign_00026
+MGIFBNEP_87	pseudofinder	gene	44220	44572	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_87_pseudo_00133;old_locus_tag=MGIFBNEP_87_ign_00035
+MGIFBNEP_87	pseudofinder	gene	44575	44871	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 21.5%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_87_pseudo_00134;old_locus_tag=MGIFBNEP_01821
+MGIFBNEP_89	pseudofinder	gene	44691	45161	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 63.8%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_89_pseudo_00135;old_locus_tag=MGIFBNEP_01870
+MGIFBNEP_26	pseudofinder	gene	44778	44987	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 45.4%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_26_pseudo_00136;old_locus_tag=MGIFBNEP_00569
+MGIFBNEP_87	pseudofinder	gene	44872	44939	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_87_pseudo_00137;old_locus_tag=MGIFBNEP_87_ign_00036
+MGIFBNEP_87	pseudofinder	gene	44945	45169	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 18.7%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_87_pseudo_00138;old_locus_tag=MGIFBNEP_01822
+MGIFBNEP_89	pseudofinder	gene	45162	45373	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_89_pseudo_00139;old_locus_tag=MGIFBNEP_89_ign_00027
+MGIFBNEP_89	pseudofinder	gene	45375	45512	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 21.2%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_89_pseudo_00140;old_locus_tag=MGIFBNEP_01871
+MGIFBNEP_87	pseudofinder	gene	46074	47568	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_87_pseudo_00141;old_locus_tag=MGIFBNEP_87_ign_00037
+MGIFBNEP_47	pseudofinder	gene	47656	48129	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 49.3%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_47_pseudo_00142;old_locus_tag=MGIFBNEP_01006
+MGIFBNEP_20	pseudofinder	gene	48216	48590	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 42.7%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_20_pseudo_00143;old_locus_tag=MGIFBNEP_00369
+MGIFBNEP_20	pseudofinder	gene	49217	50064	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_20_pseudo_00144;old_locus_tag=MGIFBNEP_20_ign_00031
+MGIFBNEP_7	pseudofinder	gene	49393	49518	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 19.7%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_7_pseudo_00145;old_locus_tag=MGIFBNEP_00112
+MGIFBNEP_7	pseudofinder	gene	49564	50094	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_7_pseudo_00146;old_locus_tag=MGIFBNEP_7_ign_00032
+MGIFBNEP_28	pseudofinder	gene	50282	52123	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=MGIFBNEP_28_pseudo_00147;old_locus_tag=MGIFBNEP_28_ign_00030
+MGIFBNEP_22	pseudofinder	gene	51593	51796	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 49.4%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_22_pseudo_00148;old_locus_tag=MGIFBNEP_00459
+MGIFBNEP_96	pseudofinder	gene	51770	51972	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_96_pseudo_00149;old_locus_tag=MGIFBNEP_96_ign_00030
+MGIFBNEP_98	pseudofinder	gene	53828	54105	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_98_pseudo_00150;old_locus_tag=MGIFBNEP_98_ign_00025
+MGIFBNEP_28	pseudofinder	gene	54044	54300	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_28_pseudo_00151;old_locus_tag=MGIFBNEP_28_ign_00031
+MGIFBNEP_28	pseudofinder	gene	54308	54496	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 18.8%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_28_pseudo_00152;old_locus_tag=MGIFBNEP_00632
+MGIFBNEP_28	pseudofinder	gene	54507	54659	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 20.0%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_28_pseudo_00153;old_locus_tag=MGIFBNEP_00633
+MGIFBNEP_28	pseudofinder	gene	54656	54868	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 20.9%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_28_pseudo_00154;old_locus_tag=MGIFBNEP_00634
+MGIFBNEP_22	pseudofinder	gene	55107	56111	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 61.1%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_22_pseudo_00155;old_locus_tag=MGIFBNEP_00461
+MGIFBNEP_96	pseudofinder	gene	55513	55707	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 26.0%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_96_pseudo_00156;old_locus_tag=MGIFBNEP_02041
+MGIFBNEP_54	pseudofinder	gene	55526	55980	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_54_pseudo_00157;old_locus_tag=MGIFBNEP_54_ign_00033
+MGIFBNEP_7	pseudofinder	gene	55579	55925	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_7_pseudo_00158;old_locus_tag=MGIFBNEP_7_ign_00036
+MGIFBNEP_96	pseudofinder	gene	55708	56060	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_96_pseudo_00159;old_locus_tag=MGIFBNEP_96_ign_00033
+MGIFBNEP_96	pseudofinder	gene	56062	56289	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 30.0%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_96_pseudo_00160;old_locus_tag=MGIFBNEP_02042
+MGIFBNEP_20	pseudofinder	gene	56873	57390	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_20_pseudo_00161;old_locus_tag=MGIFBNEP_20_ign_00036
+MGIFBNEP_89	pseudofinder	gene	57174	57425	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 35.3%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_89_pseudo_00162;old_locus_tag=MGIFBNEP_01878
+MGIFBNEP_26	pseudofinder	gene	60637	61002	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 49.0%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_26_pseudo_00163;old_locus_tag=MGIFBNEP_00581
+MGIFBNEP_26	pseudofinder	gene	61058	61435	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 48.0%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_26_pseudo_00164;old_locus_tag=MGIFBNEP_00582
+MGIFBNEP_54	pseudofinder	gene	61079	61351	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 32.7%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_54_pseudo_00165;old_locus_tag=MGIFBNEP_01128
+MGIFBNEP_54	pseudofinder	gene	61353	61438	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_54_pseudo_00166;old_locus_tag=MGIFBNEP_54_ign_00037
+MGIFBNEP_54	pseudofinder	gene	61440	61817	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 29.9%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_54_pseudo_00167;old_locus_tag=MGIFBNEP_01129
+MGIFBNEP_26	pseudofinder	gene	61466	61576	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 15.5%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_26_pseudo_00168;old_locus_tag=MGIFBNEP_00583
+MGIFBNEP_54	pseudofinder	gene	61763	62530	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 54.4%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_54_pseudo_00169;old_locus_tag=MGIFBNEP_01130
+MGIFBNEP_91	pseudofinder	gene	61947	62045	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 60.3%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_91_pseudo_00170;old_locus_tag=MGIFBNEP_01924
+MGIFBNEP_26	pseudofinder	gene	62135	62580	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_26_pseudo_00171;old_locus_tag=MGIFBNEP_26_ign_00041
+MGIFBNEP_54	pseudofinder	gene	62524	62784	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 20.7%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_54_pseudo_00172;old_locus_tag=MGIFBNEP_01131
+MGIFBNEP_96	pseudofinder	gene	65019	65252	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 15.6%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_96_pseudo_00173;old_locus_tag=MGIFBNEP_02050
+MGIFBNEP_96	pseudofinder	gene	65752	65945	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_96_pseudo_00174;old_locus_tag=MGIFBNEP_96_ign_00042
+MGIFBNEP_69	pseudofinder	gene	65792	66562	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_69_pseudo_00175;old_locus_tag=MGIFBNEP_69_ign_00039
+MGIFBNEP_20	pseudofinder	gene	68279	68382	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_20_pseudo_00176;old_locus_tag=MGIFBNEP_20_ign_00043
+MGIFBNEP_91	pseudofinder	gene	68474	68847	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_91_pseudo_00177;old_locus_tag=MGIFBNEP_91_ign_00038
+MGIFBNEP_68	pseudofinder	gene	70100	70285	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 20.9%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_68_pseudo_00178;old_locus_tag=MGIFBNEP_01366
+MGIFBNEP_68	pseudofinder	gene	70573	71033	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_68_pseudo_00179;old_locus_tag=MGIFBNEP_68_ign_00040
+MGIFBNEP_69	pseudofinder	gene	72265	72452	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_69_pseudo_00180;old_locus_tag=MGIFBNEP_69_ign_00041
+MGIFBNEP_22	pseudofinder	gene	74183	74449	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 25.0%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_22_pseudo_00181;old_locus_tag=MGIFBNEP_00473
+MGIFBNEP_22	pseudofinder	gene	74754	75085	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=MGIFBNEP_22_pseudo_00182;old_locus_tag=MGIFBNEP_22_ign_00043,MGIFBNEP_00475
+MGIFBNEP_69	pseudofinder	gene	77482	77879	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_69_pseudo_00183;old_locus_tag=MGIFBNEP_69_ign_00043
+MGIFBNEP_68	pseudofinder	gene	78332	78732	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_68_pseudo_00184;old_locus_tag=MGIFBNEP_68_ign_00045
+MGIFBNEP_68	pseudofinder	gene	80005	80295	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 13.4%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_68_pseudo_00185;old_locus_tag=MGIFBNEP_01375
+MGIFBNEP_68	pseudofinder	gene	80296	80846	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_68_pseudo_00186;old_locus_tag=MGIFBNEP_68_ign_00047
+MGIFBNEP_68	pseudofinder	gene	80868	81059	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 15.0%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_68_pseudo_00187;old_locus_tag=MGIFBNEP_01376
+MGIFBNEP_68	pseudofinder	gene	81062	81153	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 8 blast hits.;locus_tag=MGIFBNEP_68_pseudo_00188;old_locus_tag=MGIFBNEP_68_ign_00048
+MGIFBNEP_68	pseudofinder	gene	81155	81301	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 14.0%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_68_pseudo_00189;old_locus_tag=MGIFBNEP_01377
+MGIFBNEP_68	pseudofinder	gene	81329	81445	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 5.3%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_68_pseudo_00190;old_locus_tag=MGIFBNEP_01378
+MGIFBNEP_28	pseudofinder	gene	81472	81684	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 36.9%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_28_pseudo_00191;old_locus_tag=MGIFBNEP_00655
+MGIFBNEP_68	pseudofinder	gene	81942	82238	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 18.2%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_68_pseudo_00192;old_locus_tag=MGIFBNEP_01379
+MGIFBNEP_68	pseudofinder	gene	82445	82806	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_68_pseudo_00193;old_locus_tag=MGIFBNEP_68_ign_00050
+MGIFBNEP_22	pseudofinder	gene	82564	83164	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=MGIFBNEP_22_pseudo_00194;old_locus_tag=MGIFBNEP_22_ign_00047,MGIFBNEP_00480
+MGIFBNEP_28	pseudofinder	gene	83534	83640	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_28_pseudo_00195;old_locus_tag=MGIFBNEP_28_ign_00055
+MGIFBNEP_28	pseudofinder	gene	83681	83782	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 28.4%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_28_pseudo_00196;old_locus_tag=MGIFBNEP_00658
+MGIFBNEP_28	pseudofinder	gene	83963	84274	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 64.8%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_28_pseudo_00197;old_locus_tag=MGIFBNEP_00659
+MGIFBNEP_28	pseudofinder	gene	84717	84905	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 21.6%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_28_pseudo_00198;old_locus_tag=MGIFBNEP_00660
+MGIFBNEP_28	pseudofinder	gene	84908	85212	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_28_pseudo_00199;old_locus_tag=MGIFBNEP_28_ign_00058
+MGIFBNEP_28	pseudofinder	gene	85373	85723	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 37.9%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_28_pseudo_00200;old_locus_tag=MGIFBNEP_00661
+MGIFBNEP_96	pseudofinder	gene	93510	93664	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 9 blast hits.;locus_tag=MGIFBNEP_96_pseudo_00201;old_locus_tag=MGIFBNEP_96_ign_00055
+MGIFBNEP_96	pseudofinder	gene	95387	95656	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 17.6%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_96_pseudo_00202;old_locus_tag=MGIFBNEP_02069
+MGIFBNEP_96	pseudofinder	gene	95657	95844	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_96_pseudo_00203;old_locus_tag=MGIFBNEP_96_ign_00057
+MGIFBNEP_96	pseudofinder	gene	95846	95965	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 7.9%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_96_pseudo_00204;old_locus_tag=MGIFBNEP_02070
+MGIFBNEP_96	pseudofinder	gene	95969	96273	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_96_pseudo_00205;old_locus_tag=MGIFBNEP_96_ign_00058
+MGIFBNEP_20	pseudofinder	gene	96096	96362	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 25.0%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_20_pseudo_00206;old_locus_tag=MGIFBNEP_00401
+MGIFBNEP_96	pseudofinder	gene	96280	96564	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 18.3%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_96_pseudo_00207;old_locus_tag=MGIFBNEP_02071
+MGIFBNEP_20	pseudofinder	gene	96363	96661	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_20_pseudo_00208;old_locus_tag=MGIFBNEP_20_ign_00062
+MGIFBNEP_20	pseudofinder	gene	96675	96839	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 15.4%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_20_pseudo_00209;old_locus_tag=MGIFBNEP_00402
+MGIFBNEP_96	pseudofinder	gene	96714	96931	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_96_pseudo_00210;old_locus_tag=MGIFBNEP_96_ign_00059
+MGIFBNEP_20	pseudofinder	gene	96841	97028	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_20_pseudo_00211;old_locus_tag=MGIFBNEP_20_ign_00063
+MGIFBNEP_20	pseudofinder	gene	97082	97315	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 20.2%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_20_pseudo_00212;old_locus_tag=MGIFBNEP_00403
+MGIFBNEP_96	pseudofinder	gene	97131	97598	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_96_pseudo_00213;old_locus_tag=MGIFBNEP_96_ign_00060
+MGIFBNEP_20	pseudofinder	gene	97318	97607	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_20_pseudo_00214;old_locus_tag=MGIFBNEP_20_ign_00064
+MGIFBNEP_22	pseudofinder	gene	98515	98691	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 19.8%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_22_pseudo_00215;old_locus_tag=MGIFBNEP_00491
+MGIFBNEP_22	pseudofinder	gene	98692	99116	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_22_pseudo_00216;old_locus_tag=MGIFBNEP_22_ign_00059
+MGIFBNEP_96	pseudofinder	gene	99853	100041	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 53.4%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_96_pseudo_00217;old_locus_tag=MGIFBNEP_02074
+MGIFBNEP_96	pseudofinder	gene	100107	101045	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=MGIFBNEP_96_pseudo_00218;old_locus_tag=MGIFBNEP_96_ign_00063,MGIFBNEP_02075
+MGIFBNEP_22	pseudofinder	gene	103746	104197	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_22_pseudo_00219;old_locus_tag=MGIFBNEP_22_ign_00062
+MGIFBNEP_96	pseudofinder	gene	103786	104033	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_96_pseudo_00220;old_locus_tag=MGIFBNEP_96_ign_00065
+MGIFBNEP_96	pseudofinder	gene	104037	104339	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 31.9%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_96_pseudo_00221;old_locus_tag=MGIFBNEP_02078
+MGIFBNEP_96	pseudofinder	gene	104341	104522	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_96_pseudo_00222;old_locus_tag=MGIFBNEP_96_ign_00066
+MGIFBNEP_22	pseudofinder	gene	114596	115413	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_22_pseudo_00223;old_locus_tag=MGIFBNEP_22_ign_00069
+MGIFBNEP_10	pseudofinder	gene	121671	121832	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 46.3%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_10_pseudo_00224;old_locus_tag=MGIFBNEP_00229
+MGIFBNEP_68	pseudofinder	gene	122775	123088	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_68_pseudo_00225;old_locus_tag=MGIFBNEP_68_ign_00073
+MGIFBNEP_10	pseudofinder	gene	143232	143657	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 48.4%25 of the average length of hits to this gene.;locus_tag=MGIFBNEP_10_pseudo_00226;old_locus_tag=MGIFBNEP_00245
+MGIFBNEP_10	pseudofinder	gene	145045	145781	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=MGIFBNEP_10_pseudo_00227;old_locus_tag=MGIFBNEP_10_ign_00085

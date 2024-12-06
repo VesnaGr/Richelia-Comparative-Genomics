@@ -1,0 +1,1052 @@
+##gff-version 3
+#!annotation-date	2024-06-25 14:14:14
+##sequence-region FOIFOIMD_1 1 28780
+##sequence-region FOIFOIMD_2 1 7175
+##sequence-region FOIFOIMD_3 1 28635
+##sequence-region FOIFOIMD_4 1 7169
+##sequence-region FOIFOIMD_5 1 28890
+##sequence-region FOIFOIMD_6 1 7218
+##sequence-region FOIFOIMD_7 1 7277
+##sequence-region FOIFOIMD_8 1 7324
+##sequence-region FOIFOIMD_9 1 7393
+##sequence-region FOIFOIMD_10 1 29300
+##sequence-region FOIFOIMD_11 1 7403
+##sequence-region FOIFOIMD_12 1 29282
+##sequence-region FOIFOIMD_13 1 5520
+##sequence-region FOIFOIMD_14 1 29241
+##sequence-region FOIFOIMD_15 1 5542
+##sequence-region FOIFOIMD_16 1 29556
+##sequence-region FOIFOIMD_17 1 89920
+##sequence-region FOIFOIMD_18 1 30000
+##sequence-region FOIFOIMD_19 1 30275
+##sequence-region FOIFOIMD_20 1 5363
+##sequence-region FOIFOIMD_21 1 5677
+##sequence-region FOIFOIMD_22 1 30968
+##sequence-region FOIFOIMD_23 1 30952
+##sequence-region FOIFOIMD_24 1 31400
+##sequence-region FOIFOIMD_25 1 31974
+##sequence-region FOIFOIMD_26 1 108531
+##sequence-region FOIFOIMD_27 1 32083
+##sequence-region FOIFOIMD_28 1 32557
+##sequence-region FOIFOIMD_29 1 32940
+##sequence-region FOIFOIMD_30 1 32874
+##sequence-region FOIFOIMD_31 1 33308
+##sequence-region FOIFOIMD_32 1 33889
+##sequence-region FOIFOIMD_33 1 34255
+##sequence-region FOIFOIMD_34 1 34502
+##sequence-region FOIFOIMD_35 1 34683
+##sequence-region FOIFOIMD_36 1 35439
+##sequence-region FOIFOIMD_37 1 6158
+##sequence-region FOIFOIMD_38 1 20743
+##sequence-region FOIFOIMD_39 1 20997
+##sequence-region FOIFOIMD_40 1 85771
+##sequence-region FOIFOIMD_41 1 21425
+##sequence-region FOIFOIMD_42 1 22184
+##sequence-region FOIFOIMD_43 1 22127
+##sequence-region FOIFOIMD_44 1 5015
+##sequence-region FOIFOIMD_45 1 22257
+##sequence-region FOIFOIMD_46 1 5048
+##sequence-region FOIFOIMD_47 1 22392
+##sequence-region FOIFOIMD_48 1 5057
+##sequence-region FOIFOIMD_49 1 22336
+##sequence-region FOIFOIMD_50 1 22560
+##sequence-region FOIFOIMD_51 1 22444
+##sequence-region FOIFOIMD_52 1 22608
+##sequence-region FOIFOIMD_53 1 22810
+##sequence-region FOIFOIMD_54 1 22781
+##sequence-region FOIFOIMD_55 1 23052
+##sequence-region FOIFOIMD_56 1 23272
+##sequence-region FOIFOIMD_57 1 5447
+##sequence-region FOIFOIMD_58 1 23376
+##sequence-region FOIFOIMD_59 1 23726
+##sequence-region FOIFOIMD_60 1 23588
+##sequence-region FOIFOIMD_61 1 23585
+##sequence-region FOIFOIMD_62 1 23920
+##sequence-region FOIFOIMD_63 1 24149
+##sequence-region FOIFOIMD_64 1 24129
+##sequence-region FOIFOIMD_65 1 24299
+##sequence-region FOIFOIMD_66 1 24281
+##sequence-region FOIFOIMD_67 1 24258
+##sequence-region FOIFOIMD_68 1 24667
+##sequence-region FOIFOIMD_69 1 24848
+##sequence-region FOIFOIMD_70 1 24820
+##sequence-region FOIFOIMD_71 1 25061
+##sequence-region FOIFOIMD_72 1 25025
+##sequence-region FOIFOIMD_73 1 25230
+##sequence-region FOIFOIMD_74 1 25289
+##sequence-region FOIFOIMD_75 1 25474
+##sequence-region FOIFOIMD_76 1 25414
+##sequence-region FOIFOIMD_77 1 49916
+##sequence-region FOIFOIMD_78 1 26284
+##sequence-region FOIFOIMD_79 1 138058
+##sequence-region FOIFOIMD_80 1 49779
+##sequence-region FOIFOIMD_81 1 49666
+##sequence-region FOIFOIMD_82 1 16397
+##sequence-region FOIFOIMD_83 1 16382
+##sequence-region FOIFOIMD_84 1 16614
+##sequence-region FOIFOIMD_85 1 16805
+##sequence-region FOIFOIMD_86 1 16740
+##sequence-region FOIFOIMD_87 1 16695
+##sequence-region FOIFOIMD_88 1 16812
+##sequence-region FOIFOIMD_89 1 16986
+##sequence-region FOIFOIMD_90 1 50985
+##sequence-region FOIFOIMD_91 1 16985
+##sequence-region FOIFOIMD_92 1 50875
+##sequence-region FOIFOIMD_93 1 17009
+##sequence-region FOIFOIMD_94 1 17007
+##sequence-region FOIFOIMD_95 1 17465
+##sequence-region FOIFOIMD_96 1 17418
+##sequence-region FOIFOIMD_97 1 17398
+##sequence-region FOIFOIMD_98 1 17533
+##sequence-region FOIFOIMD_99 1 17492
+##sequence-region FOIFOIMD_100 1 17689
+##sequence-region FOIFOIMD_101 1 51874
+##sequence-region FOIFOIMD_102 1 17822
+##sequence-region FOIFOIMD_103 1 17792
+##sequence-region FOIFOIMD_104 1 17924
+##sequence-region FOIFOIMD_105 1 17874
+##sequence-region FOIFOIMD_106 1 18073
+##sequence-region FOIFOIMD_107 1 18211
+##sequence-region FOIFOIMD_108 1 18325
+##sequence-region FOIFOIMD_109 1 52027
+##sequence-region FOIFOIMD_110 1 18470
+##sequence-region FOIFOIMD_111 1 53085
+##sequence-region FOIFOIMD_112 1 18609
+##sequence-region FOIFOIMD_113 1 18839
+##sequence-region FOIFOIMD_114 1 52777
+##sequence-region FOIFOIMD_115 1 18937
+##sequence-region FOIFOIMD_116 1 19119
+##sequence-region FOIFOIMD_117 1 19054
+##sequence-region FOIFOIMD_118 1 19049
+##sequence-region FOIFOIMD_119 1 19176
+##sequence-region FOIFOIMD_120 1 53454
+##sequence-region FOIFOIMD_121 1 19274
+##sequence-region FOIFOIMD_122 1 19375
+##sequence-region FOIFOIMD_123 1 19364
+##sequence-region FOIFOIMD_124 1 19508
+##sequence-region FOIFOIMD_125 1 19492
+##sequence-region FOIFOIMD_126 1 19436
+##sequence-region FOIFOIMD_127 1 19638
+##sequence-region FOIFOIMD_128 1 54095
+##sequence-region FOIFOIMD_129 1 54031
+##sequence-region FOIFOIMD_130 1 19869
+##sequence-region FOIFOIMD_131 1 19866
+##sequence-region FOIFOIMD_132 1 19859
+##sequence-region FOIFOIMD_133 1 19854
+##sequence-region FOIFOIMD_134 1 19723
+##sequence-region FOIFOIMD_135 1 19988
+##sequence-region FOIFOIMD_136 1 20122
+##sequence-region FOIFOIMD_137 1 20079
+##sequence-region FOIFOIMD_138 1 20345
+##sequence-region FOIFOIMD_139 1 20312
+##sequence-region FOIFOIMD_140 1 20524
+##sequence-region FOIFOIMD_141 1 20518
+##sequence-region FOIFOIMD_142 1 20701
+##sequence-region FOIFOIMD_143 1 20698
+##sequence-region FOIFOIMD_144 1 13170
+##sequence-region FOIFOIMD_145 1 13126
+##sequence-region FOIFOIMD_146 1 56142
+##sequence-region FOIFOIMD_147 1 56137
+##sequence-region FOIFOIMD_148 1 13209
+##sequence-region FOIFOIMD_149 1 13254
+##sequence-region FOIFOIMD_150 1 13380
+##sequence-region FOIFOIMD_151 1 13353
+##sequence-region FOIFOIMD_152 1 13442
+##sequence-region FOIFOIMD_153 1 13418
+##sequence-region FOIFOIMD_154 1 13575
+##sequence-region FOIFOIMD_155 1 13659
+##sequence-region FOIFOIMD_156 1 57669
+##sequence-region FOIFOIMD_157 1 13624
+##sequence-region FOIFOIMD_158 1 13777
+##sequence-region FOIFOIMD_159 1 13759
+##sequence-region FOIFOIMD_160 1 13729
+##sequence-region FOIFOIMD_161 1 13862
+##sequence-region FOIFOIMD_162 1 43613
+##sequence-region FOIFOIMD_163 1 14538
+##sequence-region FOIFOIMD_164 1 14506
+##sequence-region FOIFOIMD_165 1 14667
+##sequence-region FOIFOIMD_166 1 14769
+##sequence-region FOIFOIMD_167 1 60373
+##sequence-region FOIFOIMD_168 1 15003
+##sequence-region FOIFOIMD_169 1 14925
+##sequence-region FOIFOIMD_170 1 15092
+##sequence-region FOIFOIMD_171 1 15069
+##sequence-region FOIFOIMD_172 1 15157
+##sequence-region FOIFOIMD_173 1 15286
+##sequence-region FOIFOIMD_174 1 15423
+##sequence-region FOIFOIMD_175 1 15319
+##sequence-region FOIFOIMD_176 1 15437
+##sequence-region FOIFOIMD_177 1 15571
+##sequence-region FOIFOIMD_178 1 15569
+##sequence-region FOIFOIMD_179 1 15545
+##sequence-region FOIFOIMD_180 1 15543
+##sequence-region FOIFOIMD_181 1 15660
+##sequence-region FOIFOIMD_182 1 15621
+##sequence-region FOIFOIMD_183 1 15793
+##sequence-region FOIFOIMD_184 1 15792
+##sequence-region FOIFOIMD_185 1 15733
+##sequence-region FOIFOIMD_186 1 15896
+##sequence-region FOIFOIMD_187 1 15816
+##sequence-region FOIFOIMD_188 1 16145
+##sequence-region FOIFOIMD_189 1 16045
+##sequence-region FOIFOIMD_190 1 64665
+##sequence-region FOIFOIMD_191 1 10610
+##sequence-region FOIFOIMD_192 1 10666
+##sequence-region FOIFOIMD_193 1 10655
+##sequence-region FOIFOIMD_194 1 10759
+##sequence-region FOIFOIMD_195 1 10805
+##sequence-region FOIFOIMD_196 1 10994
+##sequence-region FOIFOIMD_197 1 11057
+##sequence-region FOIFOIMD_198 1 66830
+##sequence-region FOIFOIMD_199 1 66741
+##sequence-region FOIFOIMD_200 1 11077
+##sequence-region FOIFOIMD_201 1 70478
+##sequence-region FOIFOIMD_202 1 11327
+##sequence-region FOIFOIMD_203 1 11316
+##sequence-region FOIFOIMD_204 1 11303
+##sequence-region FOIFOIMD_205 1 11377
+##sequence-region FOIFOIMD_206 1 11482
+##sequence-region FOIFOIMD_207 1 70597
+##sequence-region FOIFOIMD_208 1 11463
+##sequence-region FOIFOIMD_209 1 74357
+##sequence-region FOIFOIMD_210 1 11528
+##sequence-region FOIFOIMD_211 1 11582
+##sequence-region FOIFOIMD_212 1 11699
+##sequence-region FOIFOIMD_213 1 11671
+##sequence-region FOIFOIMD_214 1 9667
+##sequence-region FOIFOIMD_215 1 9564
+##sequence-region FOIFOIMD_216 1 9428
+##sequence-region FOIFOIMD_217 1 11916
+##sequence-region FOIFOIMD_218 1 11916
+##sequence-region FOIFOIMD_219 1 11935
+##sequence-region FOIFOIMD_220 1 12038
+##sequence-region FOIFOIMD_221 1 12227
+##sequence-region FOIFOIMD_222 1 12196
+##sequence-region FOIFOIMD_223 1 36273
+##sequence-region FOIFOIMD_224 1 36250
+##sequence-region FOIFOIMD_225 1 36759
+##sequence-region FOIFOIMD_226 1 12347
+##sequence-region FOIFOIMD_227 1 12338
+##sequence-region FOIFOIMD_228 1 36731
+##sequence-region FOIFOIMD_229 1 12393
+##sequence-region FOIFOIMD_230 1 12379
+##sequence-region FOIFOIMD_231 1 12510
+##sequence-region FOIFOIMD_232 1 12675
+##sequence-region FOIFOIMD_233 1 12674
+##sequence-region FOIFOIMD_234 1 12622
+##sequence-region FOIFOIMD_235 1 36944
+##sequence-region FOIFOIMD_236 1 12755
+##sequence-region FOIFOIMD_237 1 12900
+##sequence-region FOIFOIMD_238 1 12983
+##sequence-region FOIFOIMD_239 1 12953
+##sequence-region FOIFOIMD_240 1 12951
+##sequence-region FOIFOIMD_241 1 12944
+##sequence-region FOIFOIMD_242 1 37162
+##sequence-region FOIFOIMD_243 1 8870
+##sequence-region FOIFOIMD_244 1 8974
+##sequence-region FOIFOIMD_245 1 38776
+##sequence-region FOIFOIMD_246 1 9031
+##sequence-region FOIFOIMD_247 1 9103
+##sequence-region FOIFOIMD_248 1 9095
+##sequence-region FOIFOIMD_249 1 33521
+##sequence-region FOIFOIMD_250 1 9172
+##sequence-region FOIFOIMD_251 1 38970
+##sequence-region FOIFOIMD_252 1 9228
+##sequence-region FOIFOIMD_253 1 9219
+##sequence-region FOIFOIMD_254 1 38841
+##sequence-region FOIFOIMD_255 1 9345
+##sequence-region FOIFOIMD_256 1 33115
+##sequence-region FOIFOIMD_257 1 9513
+##sequence-region FOIFOIMD_258 1 9478
+##sequence-region FOIFOIMD_259 1 9477
+##sequence-region FOIFOIMD_260 1 38972
+##sequence-region FOIFOIMD_261 1 9778
+##sequence-region FOIFOIMD_262 1 9999
+##sequence-region FOIFOIMD_263 1 10009
+##sequence-region FOIFOIMD_264 1 77733
+##sequence-region FOIFOIMD_265 1 10067
+##sequence-region FOIFOIMD_266 1 39955
+##sequence-region FOIFOIMD_267 1 10121
+##sequence-region FOIFOIMD_268 1 10207
+##sequence-region FOIFOIMD_269 1 10313
+##sequence-region FOIFOIMD_270 1 10401
+##sequence-region FOIFOIMD_271 1 40576
+##sequence-region FOIFOIMD_272 1 10587
+##sequence-region FOIFOIMD_273 1 10528
+##sequence-region FOIFOIMD_274 1 10526
+##sequence-region FOIFOIMD_275 1 79375
+##sequence-region FOIFOIMD_276 1 78599
+##sequence-region FOIFOIMD_277 1 7496
+##sequence-region FOIFOIMD_278 1 78435
+##sequence-region FOIFOIMD_279 1 41472
+##sequence-region FOIFOIMD_280 1 42239
+##sequence-region FOIFOIMD_281 1 7641
+##sequence-region FOIFOIMD_282 1 7671
+##sequence-region FOIFOIMD_283 1 42375
+##sequence-region FOIFOIMD_284 1 7788
+##sequence-region FOIFOIMD_285 1 43144
+##sequence-region FOIFOIMD_286 1 42989
+##sequence-region FOIFOIMD_287 1 44023
+##sequence-region FOIFOIMD_288 1 44751
+##sequence-region FOIFOIMD_289 1 45195
+##sequence-region FOIFOIMD_290 1 6876
+##sequence-region FOIFOIMD_291 1 45590
+##sequence-region FOIFOIMD_292 1 45530
+##sequence-region FOIFOIMD_293 1 8161
+##sequence-region FOIFOIMD_294 1 8121
+##sequence-region FOIFOIMD_295 1 45747
+##sequence-region FOIFOIMD_296 1 46449
+##sequence-region FOIFOIMD_297 1 8210
+##sequence-region FOIFOIMD_298 1 8201
+##sequence-region FOIFOIMD_299 1 46942
+##sequence-region FOIFOIMD_300 1 46895
+##sequence-region FOIFOIMD_301 1 46827
+##sequence-region FOIFOIMD_302 1 8405
+##sequence-region FOIFOIMD_303 1 68164
+##sequence-region FOIFOIMD_304 1 8694
+##sequence-region FOIFOIMD_305 1 6399
+##sequence-region FOIFOIMD_306 1 49301
+##sequence-region FOIFOIMD_307 1 6466
+##sequence-region FOIFOIMD_308 1 26998
+##sequence-region FOIFOIMD_309 1 26940
+##sequence-region FOIFOIMD_310 1 27421
+##sequence-region FOIFOIMD_311 1 6716
+##sequence-region FOIFOIMD_312 1 27728
+##sequence-region FOIFOIMD_313 1 6768
+##sequence-region FOIFOIMD_314 1 6806
+##sequence-region FOIFOIMD_315 1 6902
+##sequence-region FOIFOIMD_316 1 27920
+##sequence-region FOIFOIMD_317 1 6973
+##sequence-region FOIFOIMD_318 1 28188
+##sequence-region FOIFOIMD_319 1 6959
+##sequence-region FOIFOIMD_320 1 28579
+##sequence-region FOIFOIMD_321 1 28576
+FOIFOIMD_109	pseudofinder	gene	4	255	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 40.6%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_109_pseudo_00001;old_locus_tag=FOIFOIMD_02329
+FOIFOIMD_301	pseudofinder	gene	7	531	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 29.9%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_301_pseudo_00002;old_locus_tag=FOIFOIMD_05972
+FOIFOIMD_265	pseudofinder	gene	8	304	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 19.7%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_265_pseudo_00003;old_locus_tag=FOIFOIMD_05078
+FOIFOIMD_196	pseudofinder	gene	10	564	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 33.4%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_196_pseudo_00004;old_locus_tag=FOIFOIMD_03880
+FOIFOIMD_199	pseudofinder	gene	17	406	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 30.6%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_199_pseudo_00005;old_locus_tag=FOIFOIMD_03949
+FOIFOIMD_258	pseudofinder	gene	26	493	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 39.7%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_258_pseudo_00006;old_locus_tag=FOIFOIMD_04930
+FOIFOIMD_7	pseudofinder	gene	31	2016	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 63.5%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_7_pseudo_00007;old_locus_tag=FOIFOIMD_00096
+FOIFOIMD_274	pseudofinder	gene	31	1107	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 30.8%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_274_pseudo_00008;old_locus_tag=FOIFOIMD_05199
+FOIFOIMD_288	pseudofinder	gene	35	295	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 11.9%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_288_pseudo_00011;old_locus_tag=FOIFOIMD_05618
+FOIFOIMD_136	pseudofinder	gene	43	2649	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 38.2%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_136_pseudo_00012;old_locus_tag=FOIFOIMD_02928
+FOIFOIMD_160	pseudofinder	gene	48	560	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 16.9%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_160_pseudo_00013;old_locus_tag=FOIFOIMD_03357
+FOIFOIMD_234	pseudofinder	gene	54	1811	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 63.7%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_234_pseudo_00014;old_locus_tag=FOIFOIMD_04560
+FOIFOIMD_5	pseudofinder	gene	59	295	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 49.0%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_5_pseudo_00015;old_locus_tag=FOIFOIMD_00065
+FOIFOIMD_128	pseudofinder	gene	65	250	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 25.6%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_128_pseudo_00016;old_locus_tag=FOIFOIMD_02744
+FOIFOIMD_114	pseudofinder	gene	65	160	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 52.8%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_114_pseudo_00017;old_locus_tag=FOIFOIMD_02458
+FOIFOIMD_314	pseudofinder	gene	66	314	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 35.5%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_314_pseudo_00018;old_locus_tag=FOIFOIMD_06236
+FOIFOIMD_223	pseudofinder	gene	103	1311	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 20.9%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_223_pseudo_00019;old_locus_tag=FOIFOIMD_04377
+FOIFOIMD_319	pseudofinder	gene	109	768	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 63.0%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_319_pseudo_00020;old_locus_tag=FOIFOIMD_06294
+FOIFOIMD_35	pseudofinder	gene	112	240	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 16.6%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_35_pseudo_00021;old_locus_tag=FOIFOIMD_00799
+FOIFOIMD_225	pseudofinder	gene	114	323	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 38.2%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_225_pseudo_00022;old_locus_tag=FOIFOIMD_04434
+FOIFOIMD_154	pseudofinder	gene	116	364	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 36.0%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_154_pseudo_00023;old_locus_tag=FOIFOIMD_03248
+FOIFOIMD_203	pseudofinder	gene	120	1285	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_203_pseudo_00024;old_locus_tag=FOIFOIMD_203_ign_00001
+FOIFOIMD_273	pseudofinder	gene	148	1221	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 49.9%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_273_pseudo_00025;old_locus_tag=FOIFOIMD_05189
+FOIFOIMD_178	pseudofinder	gene	152	1153	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 36.7%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_178_pseudo_00026;old_locus_tag=FOIFOIMD_03626
+FOIFOIMD_119	pseudofinder	gene	160	2817	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 64.5%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_119_pseudo_00027;old_locus_tag=FOIFOIMD_02578
+FOIFOIMD_91	pseudofinder	gene	184	1167	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 21.9%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_91_pseudo_00028;old_locus_tag=FOIFOIMD_02016
+FOIFOIMD_275	pseudofinder	gene	185	769	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 39.9%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_275_pseudo_00029;old_locus_tag=FOIFOIMD_05210
+FOIFOIMD_185	pseudofinder	gene	188	469	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 29.1%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_185_pseudo_00030;old_locus_tag=FOIFOIMD_03724
+FOIFOIMD_170	pseudofinder	gene	196	357	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 24.9%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_170_pseudo_00031;old_locus_tag=FOIFOIMD_03511
+FOIFOIMD_25	pseudofinder	gene	205	366	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 29.9%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_25_pseudo_00032;old_locus_tag=FOIFOIMD_00440
+FOIFOIMD_66	pseudofinder	gene	211	1146	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 32.5%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_66_pseudo_00033;old_locus_tag=FOIFOIMD_01395
+FOIFOIMD_204	pseudofinder	gene	263	391	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 52.8%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_204_pseudo_00036;old_locus_tag=FOIFOIMD_04095
+FOIFOIMD_16	pseudofinder	gene	267	2456	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 38.1%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_16_pseudo_00037;old_locus_tag=FOIFOIMD_00212
+FOIFOIMD_52	pseudofinder	gene	288	1529	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 60.1%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_52_pseudo_00038;old_locus_tag=FOIFOIMD_01148
+FOIFOIMD_279	pseudofinder	gene	313	588	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 43.5%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_279_pseudo_00039;old_locus_tag=FOIFOIMD_05410
+FOIFOIMD_312	pseudofinder	gene	353	814	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 45.4%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_312_pseudo_00041;old_locus_tag=FOIFOIMD_06206
+FOIFOIMD_37	pseudofinder	gene	356	724	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 30.8%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_37_pseudo_00042;old_locus_tag=FOIFOIMD_00853
+FOIFOIMD_184	pseudofinder	gene	356	498	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=FOIFOIMD_184_pseudo_00043;old_locus_tag=FOIFOIMD_184_ign_00001
+FOIFOIMD_156	pseudofinder	gene	358	2117	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_156_pseudo_00044;old_locus_tag=FOIFOIMD_156_ign_00001
+FOIFOIMD_288	pseudofinder	gene	362	426	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 13 blast hits.;locus_tag=FOIFOIMD_288_pseudo_00045;old_locus_tag=FOIFOIMD_288_ign_00001
+FOIFOIMD_115	pseudofinder	gene	389	1338	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_115_pseudo_00046;old_locus_tag=FOIFOIMD_115_ign_00001
+FOIFOIMD_173	pseudofinder	gene	394	656	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_173_pseudo_00047;old_locus_tag=FOIFOIMD_173_ign_00001
+FOIFOIMD_299	pseudofinder	gene	416	673	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 27.4%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_299_pseudo_00048;old_locus_tag=FOIFOIMD_05890
+FOIFOIMD_276	pseudofinder	gene	419	571	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 44.3%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_276_pseudo_00049;old_locus_tag=FOIFOIMD_05264
+FOIFOIMD_126	pseudofinder	gene	419	1321	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 56.6%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_126_pseudo_00050;old_locus_tag=FOIFOIMD_02712
+FOIFOIMD_252	pseudofinder	gene	423	3701	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 54.4%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_252_pseudo_00051;old_locus_tag=FOIFOIMD_04837
+FOIFOIMD_271	pseudofinder	gene	443	1054	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 63.1%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_271_pseudo_00053;old_locus_tag=FOIFOIMD_05150
+FOIFOIMD_82	pseudofinder	gene	451	1218	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 55.7%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_82_pseudo_00055;old_locus_tag=FOIFOIMD_01871
+FOIFOIMD_251	pseudofinder	gene	542	732	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=FOIFOIMD_251_pseudo_00057;old_locus_tag=FOIFOIMD_251_ign_00001
+FOIFOIMD_72	pseudofinder	gene	606	773	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 35.1%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_72_pseudo_00058;old_locus_tag=FOIFOIMD_01519
+FOIFOIMD_258	pseudofinder	gene	616	3585	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 158.9%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_258_pseudo_00059;old_locus_tag=FOIFOIMD_04931
+FOIFOIMD_13	pseudofinder	gene	623	778	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 47.1%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_13_pseudo_00060;old_locus_tag=FOIFOIMD_00163
+FOIFOIMD_165	pseudofinder	gene	700	1113	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 19.1%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_165_pseudo_00061;old_locus_tag=FOIFOIMD_03417
+FOIFOIMD_319	pseudofinder	gene	784	938	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_319_pseudo_00062;old_locus_tag=FOIFOIMD_319_ign_00001
+FOIFOIMD_97	pseudofinder	gene	829	1992	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 21.8%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_97_pseudo_00064;old_locus_tag=FOIFOIMD_02123
+FOIFOIMD_31	pseudofinder	gene	833	1084	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 40.0%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_31_pseudo_00065;old_locus_tag=FOIFOIMD_00669
+FOIFOIMD_13	pseudofinder	gene	852	967	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_13_pseudo_00066;old_locus_tag=FOIFOIMD_13_ign_00001
+FOIFOIMD_114	pseudofinder	gene	879	1091	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 63.9%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_114_pseudo_00067;old_locus_tag=FOIFOIMD_02460
+FOIFOIMD_133	pseudofinder	gene	922	1167	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 45.4%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_133_pseudo_00069;old_locus_tag=FOIFOIMD_02877
+FOIFOIMD_190	pseudofinder	gene	927	1571	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FOIFOIMD_190_pseudo_00070;old_locus_tag=FOIFOIMD_03795,FOIFOIMD_190_ign_00001
+FOIFOIMD_275	pseudofinder	gene	943	1800	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 64.6%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_275_pseudo_00071;old_locus_tag=FOIFOIMD_05211
+FOIFOIMD_243	pseudofinder	gene	951	1063	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=FOIFOIMD_243_pseudo_00072;old_locus_tag=FOIFOIMD_243_ign_00001
+FOIFOIMD_31	pseudofinder	gene	1074	1481	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 63.5%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_31_pseudo_00073;old_locus_tag=FOIFOIMD_00670
+FOIFOIMD_9	pseudofinder	gene	1085	1954	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 56.3%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_9_pseudo_00074;old_locus_tag=FOIFOIMD_00109
+FOIFOIMD_22	pseudofinder	gene	1090	1230	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 57.3%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_22_pseudo_00075;old_locus_tag=FOIFOIMD_00365
+FOIFOIMD_44	pseudofinder	gene	1230	1553	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 50.3%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_44_pseudo_00076;old_locus_tag=FOIFOIMD_01039
+FOIFOIMD_294	pseudofinder	gene	1265	4525	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 135.3%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_294_pseudo_00077;old_locus_tag=FOIFOIMD_05796
+FOIFOIMD_271	pseudofinder	gene	1323	2117	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 50.5%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_271_pseudo_00078;old_locus_tag=FOIFOIMD_05151
+FOIFOIMD_178	pseudofinder	gene	1348	1460	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=FOIFOIMD_178_pseudo_00080;old_locus_tag=FOIFOIMD_178_ign_00001
+FOIFOIMD_173	pseudofinder	gene	1373	1807	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 29.5%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_173_pseudo_00081;old_locus_tag=FOIFOIMD_03559
+FOIFOIMD_226	pseudofinder	gene	1382	1510	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 32.0%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_226_pseudo_00082;old_locus_tag=FOIFOIMD_04463
+FOIFOIMD_11	pseudofinder	gene	1422	1612	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 8 blast hits.;locus_tag=FOIFOIMD_11_pseudo_00083;old_locus_tag=FOIFOIMD_11_ign_00001
+FOIFOIMD_128	pseudofinder	gene	1437	1634	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 53.0%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_128_pseudo_00084;old_locus_tag=FOIFOIMD_02747
+FOIFOIMD_153	pseudofinder	gene	1556	1726	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 52.9%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_153_pseudo_00085;old_locus_tag=FOIFOIMD_03237
+FOIFOIMD_196	pseudofinder	gene	1639	1995	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 34.7%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_196_pseudo_00086;old_locus_tag=FOIFOIMD_03882
+FOIFOIMD_157	pseudofinder	gene	1668	1840	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_157_pseudo_00087;old_locus_tag=FOIFOIMD_157_ign_00002
+FOIFOIMD_281	pseudofinder	gene	1696	1760	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_281_pseudo_00088;old_locus_tag=FOIFOIMD_281_ign_00001
+FOIFOIMD_177	pseudofinder	gene	1704	1792	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_177_pseudo_00089;old_locus_tag=FOIFOIMD_177_ign_00002
+FOIFOIMD_98	pseudofinder	gene	1792	1995	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 9.1%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_98_pseudo_00090;old_locus_tag=FOIFOIMD_02133
+FOIFOIMD_177	pseudofinder	gene	1794	1961	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 62.3%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_177_pseudo_00091;old_locus_tag=FOIFOIMD_03613
+FOIFOIMD_187	pseudofinder	gene	1800	1916	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 11 blast hits.;locus_tag=FOIFOIMD_187_pseudo_00092;old_locus_tag=FOIFOIMD_187_ign_00002
+FOIFOIMD_275	pseudofinder	gene	1801	1892	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_275_pseudo_00093;old_locus_tag=FOIFOIMD_275_ign_00002
+FOIFOIMD_173	pseudofinder	gene	1804	2013	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 20.8%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_173_pseudo_00094;old_locus_tag=FOIFOIMD_03560
+FOIFOIMD_213	pseudofinder	gene	1819	2012	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 12 blast hits.;locus_tag=FOIFOIMD_213_pseudo_00095;old_locus_tag=FOIFOIMD_213_ign_00002
+FOIFOIMD_218	pseudofinder	gene	1822	2138	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_218_pseudo_00096;old_locus_tag=FOIFOIMD_218_ign_00002
+FOIFOIMD_242	pseudofinder	gene	1849	1958	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_242_pseudo_00098;old_locus_tag=FOIFOIMD_242_ign_00001
+FOIFOIMD_138	pseudofinder	gene	1864	1946	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_138_pseudo_00099;old_locus_tag=FOIFOIMD_138_ign_00001
+FOIFOIMD_275	pseudofinder	gene	1894	2262	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 27.7%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_275_pseudo_00100;old_locus_tag=FOIFOIMD_05212
+FOIFOIMD_113	pseudofinder	gene	1915	2125	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FOIFOIMD_113_pseudo_00101;old_locus_tag=FOIFOIMD_02445,FOIFOIMD_113_ign_00002
+FOIFOIMD_251	pseudofinder	gene	1972	2085	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 29.3%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_251_pseudo_00102;old_locus_tag=FOIFOIMD_04807
+FOIFOIMD_46	pseudofinder	gene	1986	3083	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 60.7%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_46_pseudo_00103;old_locus_tag=FOIFOIMD_01063
+FOIFOIMD_255	pseudofinder	gene	2005	2787	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 64.9%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_255_pseudo_00104;old_locus_tag=FOIFOIMD_04893
+FOIFOIMD_75	pseudofinder	gene	2063	2329	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 43.2%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_75_pseudo_00105;old_locus_tag=FOIFOIMD_01594
+FOIFOIMD_87	pseudofinder	gene	2195	2358	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_87_pseudo_00106;old_locus_tag=FOIFOIMD_87_ign_00003
+FOIFOIMD_121	pseudofinder	gene	2209	4377	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 136.3%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_121_pseudo_00107;old_locus_tag=FOIFOIMD_02631
+FOIFOIMD_140	pseudofinder	gene	2291	2425	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 54.7%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_140_pseudo_00108;old_locus_tag=FOIFOIMD_03002
+FOIFOIMD_215	pseudofinder	gene	2314	2781	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 54.9%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_215_pseudo_00110;old_locus_tag=FOIFOIMD_04296
+FOIFOIMD_251	pseudofinder	gene	2322	4440	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FOIFOIMD_251_pseudo_00111;old_locus_tag=FOIFOIMD_04809,FOIFOIMD_04808
+FOIFOIMD_271	pseudofinder	gene	2323	2489	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_271_pseudo_00112;old_locus_tag=FOIFOIMD_271_ign_00002
+FOIFOIMD_198	pseudofinder	gene	2340	2762	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 61.2%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_198_pseudo_00113;old_locus_tag=FOIFOIMD_03904
+FOIFOIMD_75	pseudofinder	gene	2351	2575	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 31.1%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_75_pseudo_00114;old_locus_tag=FOIFOIMD_01595
+FOIFOIMD_306	pseudofinder	gene	2367	2585	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_306_pseudo_00116;old_locus_tag=FOIFOIMD_306_ign_00002
+FOIFOIMD_299	pseudofinder	gene	2392	2528	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_299_pseudo_00117;old_locus_tag=FOIFOIMD_299_ign_00002
+FOIFOIMD_290	pseudofinder	gene	2416	2579	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_290_pseudo_00118;old_locus_tag=FOIFOIMD_290_ign_00003
+FOIFOIMD_102	pseudofinder	gene	2421	2590	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=FOIFOIMD_102_pseudo_00119;old_locus_tag=FOIFOIMD_102_ign_00002
+FOIFOIMD_149	pseudofinder	gene	2486	2772	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=FOIFOIMD_149_pseudo_00120;old_locus_tag=FOIFOIMD_149_ign_00003
+FOIFOIMD_210	pseudofinder	gene	2520	2656	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=FOIFOIMD_210_pseudo_00121;old_locus_tag=FOIFOIMD_210_ign_00001
+FOIFOIMD_283	pseudofinder	gene	2591	2781	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_283_pseudo_00122;old_locus_tag=FOIFOIMD_283_ign_00002
+FOIFOIMD_83	pseudofinder	gene	2604	2773	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_83_pseudo_00123;old_locus_tag=FOIFOIMD_83_ign_00002
+FOIFOIMD_311	pseudofinder	gene	2608	2774	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 8 blast hits.;locus_tag=FOIFOIMD_311_pseudo_00124;old_locus_tag=FOIFOIMD_311_ign_00001
+FOIFOIMD_124	pseudofinder	gene	2644	3437	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FOIFOIMD_124_pseudo_00126;old_locus_tag=FOIFOIMD_02673,FOIFOIMD_02674
+FOIFOIMD_167	pseudofinder	gene	2658	2849	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 64.4%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_167_pseudo_00127;old_locus_tag=FOIFOIMD_03441
+FOIFOIMD_109	pseudofinder	gene	2662	2972	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_109_pseudo_00128;old_locus_tag=FOIFOIMD_109_ign_00002
+FOIFOIMD_88	pseudofinder	gene	2766	2893	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_88_pseudo_00130;old_locus_tag=FOIFOIMD_88_ign_00002
+FOIFOIMD_256	pseudofinder	gene	2786	2964	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_256_pseudo_00132;old_locus_tag=FOIFOIMD_256_ign_00002
+FOIFOIMD_139	pseudofinder	gene	2796	3554	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 53.4%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_139_pseudo_00133;old_locus_tag=FOIFOIMD_02982
+FOIFOIMD_259	pseudofinder	gene	2803	2963	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_259_pseudo_00134;old_locus_tag=FOIFOIMD_259_ign_00002
+FOIFOIMD_110	pseudofinder	gene	2820	3107	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 63.2%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_110_pseudo_00135;old_locus_tag=FOIFOIMD_02370
+FOIFOIMD_226	pseudofinder	gene	2824	3015	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 46.4%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_226_pseudo_00136;old_locus_tag=FOIFOIMD_04465
+FOIFOIMD_55	pseudofinder	gene	2870	3559	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 270.6%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_55_pseudo_00137;old_locus_tag=FOIFOIMD_01211
+FOIFOIMD_217	pseudofinder	gene	2929	3114	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 35.1%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_217_pseudo_00139;old_locus_tag=FOIFOIMD_04311
+FOIFOIMD_132	pseudofinder	gene	2939	3115	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 21.1%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_132_pseudo_00140;old_locus_tag=FOIFOIMD_02859
+FOIFOIMD_111	pseudofinder	gene	3008	3162	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_111_pseudo_00141;old_locus_tag=FOIFOIMD_111_ign_00002
+FOIFOIMD_170	pseudofinder	gene	3022	3353	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_170_pseudo_00142;old_locus_tag=FOIFOIMD_170_ign_00002
+FOIFOIMD_109	pseudofinder	gene	3051	3911	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 62.6%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_109_pseudo_00143;old_locus_tag=FOIFOIMD_02331
+FOIFOIMD_23	pseudofinder	gene	3065	3206	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 12 blast hits.;locus_tag=FOIFOIMD_23_pseudo_00144;old_locus_tag=FOIFOIMD_23_ign_00002
+FOIFOIMD_260	pseudofinder	gene	3067	3194	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_260_pseudo_00145;old_locus_tag=FOIFOIMD_260_ign_00002
+FOIFOIMD_180	pseudofinder	gene	3146	3379	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 12.6%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_180_pseudo_00147;old_locus_tag=FOIFOIMD_03654
+FOIFOIMD_117	pseudofinder	gene	3160	3284	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=FOIFOIMD_117_pseudo_00148;old_locus_tag=FOIFOIMD_117_ign_00002
+FOIFOIMD_111	pseudofinder	gene	3188	3646	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 53.8%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_111_pseudo_00150;old_locus_tag=FOIFOIMD_02386
+FOIFOIMD_21	pseudofinder	gene	3188	3256	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=FOIFOIMD_21_pseudo_00151;old_locus_tag=FOIFOIMD_21_ign_00001
+FOIFOIMD_253	pseudofinder	gene	3236	3345	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_253_pseudo_00152;old_locus_tag=FOIFOIMD_253_ign_00002
+FOIFOIMD_46	pseudofinder	gene	3281	3586	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 42.2%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_46_pseudo_00154;old_locus_tag=FOIFOIMD_01064
+FOIFOIMD_141	pseudofinder	gene	3319	3549	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 18.4%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_141_pseudo_00155;old_locus_tag=FOIFOIMD_03023
+FOIFOIMD_47	pseudofinder	gene	3345	3767	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 52.4%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_47_pseudo_00156;old_locus_tag=FOIFOIMD_01069
+FOIFOIMD_66	pseudofinder	gene	3351	3688	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=FOIFOIMD_66_pseudo_00157;old_locus_tag=FOIFOIMD_66_ign_00002
+FOIFOIMD_170	pseudofinder	gene	3355	3600	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 39.7%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_170_pseudo_00158;old_locus_tag=FOIFOIMD_03515
+FOIFOIMD_253	pseudofinder	gene	3400	3687	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 36.3%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_253_pseudo_00159;old_locus_tag=FOIFOIMD_04847
+FOIFOIMD_110	pseudofinder	gene	3432	4061	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 46.1%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_110_pseudo_00160;old_locus_tag=FOIFOIMD_02371
+FOIFOIMD_144	pseudofinder	gene	3439	3608	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_144_pseudo_00161;old_locus_tag=FOIFOIMD_144_ign_00003
+FOIFOIMD_124	pseudofinder	gene	3450	4412	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 54.4%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_124_pseudo_00162;old_locus_tag=FOIFOIMD_02675
+FOIFOIMD_8	pseudofinder	gene	3545	3654	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_8_pseudo_00163;old_locus_tag=FOIFOIMD_8_ign_00003
+FOIFOIMD_141	pseudofinder	gene	3552	3655	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_141_pseudo_00164;old_locus_tag=FOIFOIMD_141_ign_00004
+FOIFOIMD_192	pseudofinder	gene	3589	3695	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=FOIFOIMD_192_pseudo_00165;old_locus_tag=FOIFOIMD_192_ign_00003
+FOIFOIMD_144	pseudofinder	gene	3611	3865	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 18.5%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_144_pseudo_00166;old_locus_tag=FOIFOIMD_03076
+FOIFOIMD_170	pseudofinder	gene	3692	3768	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 8 blast hits.;locus_tag=FOIFOIMD_170_pseudo_00167;old_locus_tag=FOIFOIMD_170_ign_00003
+FOIFOIMD_162	pseudofinder	gene	3732	4030	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=FOIFOIMD_162_pseudo_00168;old_locus_tag=FOIFOIMD_162_ign_00002
+FOIFOIMD_160	pseudofinder	gene	3762	3895	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 9 blast hits.;locus_tag=FOIFOIMD_160_pseudo_00169;old_locus_tag=FOIFOIMD_160_ign_00004
+FOIFOIMD_125	pseudofinder	gene	3799	4059	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 12.3%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_125_pseudo_00170;old_locus_tag=FOIFOIMD_02693
+FOIFOIMD_252	pseudofinder	gene	3799	3941	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=FOIFOIMD_252_pseudo_00171;old_locus_tag=FOIFOIMD_252_ign_00001
+FOIFOIMD_83	pseudofinder	gene	3801	4083	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_83_pseudo_00172;old_locus_tag=FOIFOIMD_83_ign_00004
+FOIFOIMD_120	pseudofinder	gene	3819	4454	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 34.2%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_120_pseudo_00173;old_locus_tag=FOIFOIMD_02593
+FOIFOIMD_181	pseudofinder	gene	3864	5039	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 214.2%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_181_pseudo_00175;old_locus_tag=FOIFOIMD_03670
+FOIFOIMD_222	pseudofinder	gene	3866	4405	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 49.6%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_222_pseudo_00176;old_locus_tag=FOIFOIMD_04367
+FOIFOIMD_201	pseudofinder	gene	3900	5176	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FOIFOIMD_201_pseudo_00177;old_locus_tag=FOIFOIMD_201_ign_00004,FOIFOIMD_04018
+FOIFOIMD_128	pseudofinder	gene	3911	4243	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=FOIFOIMD_128_pseudo_00178;old_locus_tag=FOIFOIMD_128_ign_00005
+FOIFOIMD_47	pseudofinder	gene	3914	4239	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_47_pseudo_00179;old_locus_tag=FOIFOIMD_47_ign_00004
+FOIFOIMD_44	pseudofinder	gene	3921	4087	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_44_pseudo_00180;old_locus_tag=FOIFOIMD_44_ign_00002
+FOIFOIMD_277	pseudofinder	gene	3922	4037	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_277_pseudo_00181;old_locus_tag=FOIFOIMD_277_ign_00004
+FOIFOIMD_211	pseudofinder	gene	3965	4167	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_211_pseudo_00182;old_locus_tag=FOIFOIMD_211_ign_00003
+FOIFOIMD_144	pseudofinder	gene	3978	4273	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_144_pseudo_00183;old_locus_tag=FOIFOIMD_144_ign_00004
+FOIFOIMD_187	pseudofinder	gene	4023	4160	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 54.2%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_187_pseudo_00184;old_locus_tag=FOIFOIMD_03757
+FOIFOIMD_319	pseudofinder	gene	4036	4262	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=FOIFOIMD_319_pseudo_00185;old_locus_tag=FOIFOIMD_319_ign_00004
+FOIFOIMD_14	pseudofinder	gene	4064	4556	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_14_pseudo_00186;old_locus_tag=FOIFOIMD_14_ign_00004
+FOIFOIMD_44	pseudofinder	gene	4090	4251	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 54.2%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_44_pseudo_00187;old_locus_tag=FOIFOIMD_01041
+FOIFOIMD_245	pseudofinder	gene	4128	4261	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=FOIFOIMD_245_pseudo_00188;old_locus_tag=FOIFOIMD_245_ign_00004
+FOIFOIMD_215	pseudofinder	gene	4172	5422	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FOIFOIMD_215_pseudo_00189;old_locus_tag=FOIFOIMD_215_ign_00005,FOIFOIMD_04298
+FOIFOIMD_163	pseudofinder	gene	4187	5039	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 9 blast hits.;locus_tag=FOIFOIMD_163_pseudo_00190;old_locus_tag=FOIFOIMD_163_ign_00002
+FOIFOIMD_275	pseudofinder	gene	4243	4878	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 137.2%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_275_pseudo_00191;old_locus_tag=FOIFOIMD_05214
+FOIFOIMD_268	pseudofinder	gene	4243	4518	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 31.4%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_268_pseudo_00192;old_locus_tag=FOIFOIMD_05129
+FOIFOIMD_42	pseudofinder	gene	4314	4691	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 165.8%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_42_pseudo_00194;old_locus_tag=FOIFOIMD_00998
+FOIFOIMD_120	pseudofinder	gene	4456	4703	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_120_pseudo_00195;old_locus_tag=FOIFOIMD_120_ign_00002
+FOIFOIMD_213	pseudofinder	gene	4485	5264	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FOIFOIMD_213_pseudo_00196;old_locus_tag=FOIFOIMD_04275,FOIFOIMD_213_ign_00004,FOIFOIMD_04276
+FOIFOIMD_49	pseudofinder	gene	4490	6691	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 197.0%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_49_pseudo_00197;old_locus_tag=FOIFOIMD_01097
+FOIFOIMD_285	pseudofinder	gene	4492	4583	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=FOIFOIMD_285_pseudo_00198;old_locus_tag=FOIFOIMD_285_ign_00003
+FOIFOIMD_113	pseudofinder	gene	4611	5620	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_113_pseudo_00200;old_locus_tag=FOIFOIMD_113_ign_00004
+FOIFOIMD_8	pseudofinder	gene	4657	4886	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_8_pseudo_00201;old_locus_tag=FOIFOIMD_8_ign_00004
+FOIFOIMD_28	pseudofinder	gene	4662	5191	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_28_pseudo_00202;old_locus_tag=FOIFOIMD_28_ign_00003
+FOIFOIMD_31	pseudofinder	gene	4684	4826	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_31_pseudo_00204;old_locus_tag=FOIFOIMD_31_ign_00006
+FOIFOIMD_194	pseudofinder	gene	4691	4850	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_194_pseudo_00205;old_locus_tag=FOIFOIMD_194_ign_00004
+FOIFOIMD_44	pseudofinder	gene	4730	4891	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 54.4%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_44_pseudo_00206;old_locus_tag=FOIFOIMD_01043
+FOIFOIMD_118	pseudofinder	gene	4794	4870	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 10 blast hits.;locus_tag=FOIFOIMD_118_pseudo_00207;old_locus_tag=FOIFOIMD_118_ign_00002
+FOIFOIMD_255	pseudofinder	gene	4824	4975	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_255_pseudo_00208;old_locus_tag=FOIFOIMD_255_ign_00005
+FOIFOIMD_294	pseudofinder	gene	4837	5102	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_294_pseudo_00209;old_locus_tag=FOIFOIMD_294_ign_00002
+FOIFOIMD_108	pseudofinder	gene	4867	5286	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_108_pseudo_00211;old_locus_tag=FOIFOIMD_108_ign_00003
+FOIFOIMD_165	pseudofinder	gene	4878	4951	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_165_pseudo_00212;old_locus_tag=FOIFOIMD_165_ign_00005
+FOIFOIMD_31	pseudofinder	gene	4906	5103	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 60.4%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_31_pseudo_00213;old_locus_tag=FOIFOIMD_00676
+FOIFOIMD_259	pseudofinder	gene	4910	5326	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 50.3%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_259_pseudo_00214;old_locus_tag=FOIFOIMD_04943
+FOIFOIMD_65	pseudofinder	gene	5052	5161	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_65_pseudo_00215;old_locus_tag=FOIFOIMD_65_ign_00003
+FOIFOIMD_132	pseudofinder	gene	5083	5237	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_132_pseudo_00216;old_locus_tag=FOIFOIMD_132_ign_00005
+FOIFOIMD_236	pseudofinder	gene	5103	5179	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_236_pseudo_00217;old_locus_tag=FOIFOIMD_236_ign_00003
+FOIFOIMD_291	pseudofinder	gene	5140	6113	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FOIFOIMD_291_pseudo_00218;old_locus_tag=FOIFOIMD_05700,FOIFOIMD_291_ign_00005
+FOIFOIMD_91	pseudofinder	gene	5165	5364	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_91_pseudo_00219;old_locus_tag=FOIFOIMD_91_ign_00003
+FOIFOIMD_253	pseudofinder	gene	5198	5701	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FOIFOIMD_253_pseudo_00220;old_locus_tag=FOIFOIMD_04850,FOIFOIMD_253_ign_00005
+FOIFOIMD_319	pseudofinder	gene	5211	5750	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 48.0%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_319_pseudo_00221;old_locus_tag=FOIFOIMD_06300
+FOIFOIMD_117	pseudofinder	gene	5218	5408	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_117_pseudo_00222;old_locus_tag=FOIFOIMD_117_ign_00004
+FOIFOIMD_292	pseudofinder	gene	5247	5366	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=FOIFOIMD_292_pseudo_00223;old_locus_tag=FOIFOIMD_292_ign_00004
+FOIFOIMD_9	pseudofinder	gene	5251	5679	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 54.1%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_9_pseudo_00224;old_locus_tag=FOIFOIMD_00112
+FOIFOIMD_199	pseudofinder	gene	5287	5760	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 62.0%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_199_pseudo_00225;old_locus_tag=FOIFOIMD_03955
+FOIFOIMD_223	pseudofinder	gene	5300	5506	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 38.7%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_223_pseudo_00227;old_locus_tag=FOIFOIMD_04381
+FOIFOIMD_160	pseudofinder	gene	5338	5922	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 61.5%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_160_pseudo_00228;old_locus_tag=FOIFOIMD_03362
+FOIFOIMD_114	pseudofinder	gene	5376	5503	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=FOIFOIMD_114_pseudo_00229;old_locus_tag=FOIFOIMD_114_ign_00006
+FOIFOIMD_92	pseudofinder	gene	5438	6247	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 52.8%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_92_pseudo_00231;old_locus_tag=FOIFOIMD_02030
+FOIFOIMD_321	pseudofinder	gene	5449	6198	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 166.6%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_321_pseudo_00232;old_locus_tag=FOIFOIMD_06333
+FOIFOIMD_180	pseudofinder	gene	5453	5785	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 32.6%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_180_pseudo_00233;old_locus_tag=FOIFOIMD_03658
+FOIFOIMD_213	pseudofinder	gene	5474	5605	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 28.2%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_213_pseudo_00234;old_locus_tag=FOIFOIMD_04277
+FOIFOIMD_254	pseudofinder	gene	5526	5638	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 13 blast hits.;locus_tag=FOIFOIMD_254_pseudo_00235;old_locus_tag=FOIFOIMD_254_ign_00004
+FOIFOIMD_27	pseudofinder	gene	5534	5986	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 31.1%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_27_pseudo_00236;old_locus_tag=FOIFOIMD_00568
+FOIFOIMD_106	pseudofinder	gene	5552	5899	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 53.7%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_106_pseudo_00237;old_locus_tag=FOIFOIMD_02276
+FOIFOIMD_113	pseudofinder	gene	5622	5783	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 13.5%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_113_pseudo_00238;old_locus_tag=FOIFOIMD_02449
+FOIFOIMD_229	pseudofinder	gene	5639	7675	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 139.4%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_229_pseudo_00239;old_locus_tag=FOIFOIMD_04516
+FOIFOIMD_12	pseudofinder	gene	5642	8104	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 59.7%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_12_pseudo_00240;old_locus_tag=FOIFOIMD_00144
+FOIFOIMD_213	pseudofinder	gene	5645	5970	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_213_pseudo_00241;old_locus_tag=FOIFOIMD_213_ign_00006
+FOIFOIMD_234	pseudofinder	gene	5655	5761	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_234_pseudo_00242;old_locus_tag=FOIFOIMD_234_ign_00003
+FOIFOIMD_224	pseudofinder	gene	5672	5802	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_224_pseudo_00244;old_locus_tag=FOIFOIMD_224_ign_00005
+FOIFOIMD_10	pseudofinder	gene	5717	5890	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 24.2%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_10_pseudo_00245;old_locus_tag=FOIFOIMD_00120
+FOIFOIMD_180	pseudofinder	gene	5788	6053	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_180_pseudo_00246;old_locus_tag=FOIFOIMD_180_ign_00005
+FOIFOIMD_197	pseudofinder	gene	5791	6078	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 12 blast hits.;locus_tag=FOIFOIMD_197_pseudo_00247;old_locus_tag=FOIFOIMD_197_ign_00003
+FOIFOIMD_36	pseudofinder	gene	5791	5921	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 10 blast hits.;locus_tag=FOIFOIMD_36_pseudo_00248;old_locus_tag=FOIFOIMD_36_ign_00003
+FOIFOIMD_303	pseudofinder	gene	5872	8724	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 42.3%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_303_pseudo_00249;old_locus_tag=FOIFOIMD_06026
+FOIFOIMD_3	pseudofinder	gene	5973	6070	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_3_pseudo_00250;old_locus_tag=FOIFOIMD_3_ign_00003
+FOIFOIMD_280	pseudofinder	gene	5980	6681	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 59.3%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_280_pseudo_00251;old_locus_tag=FOIFOIMD_05445
+FOIFOIMD_155	pseudofinder	gene	6053	6346	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 58.5%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_155_pseudo_00253;old_locus_tag=FOIFOIMD_03266
+FOIFOIMD_180	pseudofinder	gene	6055	6528	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 53.5%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_180_pseudo_00254;old_locus_tag=FOIFOIMD_03659
+FOIFOIMD_47	pseudofinder	gene	6133	6519	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 158.4%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_47_pseudo_00255;old_locus_tag=FOIFOIMD_01071
+FOIFOIMD_295	pseudofinder	gene	6170	6644	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FOIFOIMD_295_pseudo_00256;old_locus_tag=FOIFOIMD_295_ign_00005,FOIFOIMD_05805,FOIFOIMD_05804
+FOIFOIMD_202	pseudofinder	gene	6182	6382	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 15.3%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_202_pseudo_00257;old_locus_tag=FOIFOIMD_04076
+FOIFOIMD_92	pseudofinder	gene	6279	6412	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_92_pseudo_00261;old_locus_tag=FOIFOIMD_92_ign_00006
+FOIFOIMD_154	pseudofinder	gene	6283	7788	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 138.5%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_154_pseudo_00262;old_locus_tag=FOIFOIMD_03253
+FOIFOIMD_65	pseudofinder	gene	6317	6609	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 11 blast hits.;locus_tag=FOIFOIMD_65_pseudo_00263;old_locus_tag=FOIFOIMD_65_ign_00004
+FOIFOIMD_311	pseudofinder	gene	6364	6567	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 10.8%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_311_pseudo_00265;old_locus_tag=FOIFOIMD_06205
+FOIFOIMD_233	pseudofinder	gene	6420	6601	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_233_pseudo_00266;old_locus_tag=FOIFOIMD_233_ign_00004
+FOIFOIMD_70	pseudofinder	gene	6452	7720	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 48.9%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_70_pseudo_00267;old_locus_tag=FOIFOIMD_01484
+FOIFOIMD_160	pseudofinder	gene	6535	6846	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 48.8%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_160_pseudo_00268;old_locus_tag=FOIFOIMD_03363
+FOIFOIMD_56	pseudofinder	gene	6561	7079	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 57.3%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_56_pseudo_00269;old_locus_tag=FOIFOIMD_01232
+FOIFOIMD_315	pseudofinder	gene	6612	6779	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 14.3%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_315_pseudo_00270;old_locus_tag=FOIFOIMD_06247
+FOIFOIMD_242	pseudofinder	gene	6624	9875	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 46.9%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_242_pseudo_00271;old_locus_tag=FOIFOIMD_04672
+FOIFOIMD_317	pseudofinder	gene	6641	6759	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_317_pseudo_00273;old_locus_tag=FOIFOIMD_317_ign_00004
+FOIFOIMD_93	pseudofinder	gene	6867	6994	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_93_pseudo_00275;old_locus_tag=FOIFOIMD_93_ign_00005
+FOIFOIMD_55	pseudofinder	gene	6880	7049	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_55_pseudo_00276;old_locus_tag=FOIFOIMD_55_ign_00007
+FOIFOIMD_96	pseudofinder	gene	6895	7212	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 186.0%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_96_pseudo_00277;old_locus_tag=FOIFOIMD_02113
+FOIFOIMD_221	pseudofinder	gene	6897	6991	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_221_pseudo_00278;old_locus_tag=FOIFOIMD_221_ign_00005
+FOIFOIMD_224	pseudofinder	gene	7007	7245	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 12 blast hits.;locus_tag=FOIFOIMD_224_pseudo_00279;old_locus_tag=FOIFOIMD_224_ign_00006
+FOIFOIMD_185	pseudofinder	gene	7092	8639	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FOIFOIMD_185_pseudo_00281;old_locus_tag=FOIFOIMD_03734,FOIFOIMD_185_ign_00009,FOIFOIMD_03735
+FOIFOIMD_316	pseudofinder	gene	7127	7293	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 9 blast hits.;locus_tag=FOIFOIMD_316_pseudo_00282;old_locus_tag=FOIFOIMD_316_ign_00008
+FOIFOIMD_273	pseudofinder	gene	7137	7297	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 8 blast hits.;locus_tag=FOIFOIMD_273_pseudo_00283;old_locus_tag=FOIFOIMD_273_ign_00005
+FOIFOIMD_216	pseudofinder	gene	7145	7252	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 43.9%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_216_pseudo_00284;old_locus_tag=FOIFOIMD_04306
+FOIFOIMD_285	pseudofinder	gene	7180	7553	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_285_pseudo_00285;old_locus_tag=FOIFOIMD_285_ign_00004
+FOIFOIMD_274	pseudofinder	gene	7286	8008	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 19.1%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_274_pseudo_00286;old_locus_tag=FOIFOIMD_05205
+FOIFOIMD_309	pseudofinder	gene	7310	7494	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_309_pseudo_00288;old_locus_tag=FOIFOIMD_309_ign_00004
+FOIFOIMD_155	pseudofinder	gene	7371	7550	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 56.1%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_155_pseudo_00289;old_locus_tag=FOIFOIMD_03269
+FOIFOIMD_270	pseudofinder	gene	7450	7562	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_270_pseudo_00291;old_locus_tag=FOIFOIMD_270_ign_00006
+FOIFOIMD_221	pseudofinder	gene	7511	7650	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_221_pseudo_00293;old_locus_tag=FOIFOIMD_221_ign_00006
+FOIFOIMD_248	pseudofinder	gene	7524	7817	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 32.4%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_248_pseudo_00294;old_locus_tag=FOIFOIMD_04768
+FOIFOIMD_217	pseudofinder	gene	7535	7885	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 24.9%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_217_pseudo_00295;old_locus_tag=FOIFOIMD_04314
+FOIFOIMD_144	pseudofinder	gene	7588	7955	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_144_pseudo_00296;old_locus_tag=FOIFOIMD_144_ign_00005
+FOIFOIMD_252	pseudofinder	gene	7596	7787	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 11.3%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_252_pseudo_00297;old_locus_tag=FOIFOIMD_04841
+FOIFOIMD_233	pseudofinder	gene	7616	7824	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_233_pseudo_00298;old_locus_tag=FOIFOIMD_233_ign_00005
+FOIFOIMD_70	pseudofinder	gene	7749	7867	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=FOIFOIMD_70_pseudo_00302;old_locus_tag=FOIFOIMD_70_ign_00004
+FOIFOIMD_115	pseudofinder	gene	7793	7893	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_115_pseudo_00303;old_locus_tag=FOIFOIMD_115_ign_00007
+FOIFOIMD_248	pseudofinder	gene	7818	7954	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_248_pseudo_00304;old_locus_tag=FOIFOIMD_248_ign_00005
+FOIFOIMD_233	pseudofinder	gene	7826	7951	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 25.8%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_233_pseudo_00305;old_locus_tag=FOIFOIMD_04557
+FOIFOIMD_295	pseudofinder	gene	7848	8501	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 57.7%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_295_pseudo_00306;old_locus_tag=FOIFOIMD_05808
+FOIFOIMD_229	pseudofinder	gene	7879	9729	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 175.4%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_229_pseudo_00307;old_locus_tag=FOIFOIMD_04517
+FOIFOIMD_136	pseudofinder	gene	7927	8132	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_136_pseudo_00310;old_locus_tag=FOIFOIMD_136_ign_00004
+FOIFOIMD_153	pseudofinder	gene	7964	8120	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_153_pseudo_00311;old_locus_tag=FOIFOIMD_153_ign_00007
+FOIFOIMD_241	pseudofinder	gene	7989	8360	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 48.8%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_241_pseudo_00312;old_locus_tag=FOIFOIMD_04663
+FOIFOIMD_88	pseudofinder	gene	8000	8112	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_88_pseudo_00313;old_locus_tag=FOIFOIMD_88_ign_00007
+FOIFOIMD_209	pseudofinder	gene	8035	8138	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=FOIFOIMD_209_pseudo_00315;old_locus_tag=FOIFOIMD_209_ign_00004
+FOIFOIMD_252	pseudofinder	gene	8052	8249	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_252_pseudo_00317;old_locus_tag=FOIFOIMD_252_ign_00004
+FOIFOIMD_39	pseudofinder	gene	8131	8442	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 22.7%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_39_pseudo_00320;old_locus_tag=FOIFOIMD_00875
+FOIFOIMD_136	pseudofinder	gene	8135	8389	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 64.9%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_136_pseudo_00321;old_locus_tag=FOIFOIMD_02934
+FOIFOIMD_312	pseudofinder	gene	8139	8221	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=FOIFOIMD_312_pseudo_00322;old_locus_tag=FOIFOIMD_312_ign_00008
+FOIFOIMD_276	pseudofinder	gene	8155	10440	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 185.7%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_276_pseudo_00323;old_locus_tag=FOIFOIMD_05270
+FOIFOIMD_114	pseudofinder	gene	8156	8406	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_114_pseudo_00324;old_locus_tag=FOIFOIMD_114_ign_00007
+FOIFOIMD_243	pseudofinder	gene	8223	8338	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 11 blast hits.;locus_tag=FOIFOIMD_243_pseudo_00325;old_locus_tag=FOIFOIMD_243_ign_00007
+FOIFOIMD_180	pseudofinder	gene	8232	8651	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 46.9%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_180_pseudo_00326;old_locus_tag=FOIFOIMD_03661
+FOIFOIMD_312	pseudofinder	gene	8233	8664	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 170.8%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_312_pseudo_00327;old_locus_tag=FOIFOIMD_06216
+FOIFOIMD_47	pseudofinder	gene	8249	8422	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 61.7%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_47_pseudo_00328;old_locus_tag=FOIFOIMD_01073
+FOIFOIMD_259	pseudofinder	gene	8252	8379	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 13 blast hits.;locus_tag=FOIFOIMD_259_pseudo_00329;old_locus_tag=FOIFOIMD_259_ign_00007
+FOIFOIMD_149	pseudofinder	gene	8258	8388	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_149_pseudo_00330;old_locus_tag=FOIFOIMD_149_ign_00006
+FOIFOIMD_117	pseudofinder	gene	8303	8560	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 47.3%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_117_pseudo_00331;old_locus_tag=FOIFOIMD_02554
+FOIFOIMD_215	pseudofinder	gene	8380	8523	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 15.2%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_215_pseudo_00332;old_locus_tag=FOIFOIMD_04301
+FOIFOIMD_129	pseudofinder	gene	8451	8831	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 41.7%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_129_pseudo_00333;old_locus_tag=FOIFOIMD_02796
+FOIFOIMD_295	pseudofinder	gene	8501	8995	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 48.6%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_295_pseudo_00336;old_locus_tag=FOIFOIMD_05809
+FOIFOIMD_58	pseudofinder	gene	8503	8751	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 143.7%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_58_pseudo_00337;old_locus_tag=FOIFOIMD_01257
+FOIFOIMD_72	pseudofinder	gene	8534	9428	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FOIFOIMD_72_pseudo_00338;old_locus_tag=FOIFOIMD_01528,FOIFOIMD_01527
+FOIFOIMD_249	pseudofinder	gene	8540	8629	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=FOIFOIMD_249_pseudo_00339;old_locus_tag=FOIFOIMD_249_ign_00008
+FOIFOIMD_185	pseudofinder	gene	8653	9276	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 41.2%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_185_pseudo_00340;old_locus_tag=FOIFOIMD_03736
+FOIFOIMD_200	pseudofinder	gene	8738	11068	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 50.3%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_200_pseudo_00341;old_locus_tag=FOIFOIMD_04014
+FOIFOIMD_217	pseudofinder	gene	8744	9084	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=FOIFOIMD_217_pseudo_00342;old_locus_tag=FOIFOIMD_217_ign_00007
+FOIFOIMD_303	pseudofinder	gene	8744	11599	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 58.5%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_303_pseudo_00343;old_locus_tag=FOIFOIMD_06027
+FOIFOIMD_182	pseudofinder	gene	8745	8995	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_182_pseudo_00344;old_locus_tag=FOIFOIMD_182_ign_00006
+FOIFOIMD_202	pseudofinder	gene	8795	9094	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 54.9%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_202_pseudo_00345;old_locus_tag=FOIFOIMD_04078
+FOIFOIMD_292	pseudofinder	gene	8863	9192	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 33.3%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_292_pseudo_00346;old_locus_tag=FOIFOIMD_05759
+FOIFOIMD_165	pseudofinder	gene	8868	8989	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_165_pseudo_00347;old_locus_tag=FOIFOIMD_165_ign_00008
+FOIFOIMD_126	pseudofinder	gene	8896	9123	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 42.4%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_126_pseudo_00348;old_locus_tag=FOIFOIMD_02718
+FOIFOIMD_202	pseudofinder	gene	8912	9063	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_202_pseudo_00349;old_locus_tag=FOIFOIMD_202_ign_00005
+FOIFOIMD_138	pseudofinder	gene	8950	9723	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 176.9%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_138_pseudo_00350;old_locus_tag=FOIFOIMD_02967
+FOIFOIMD_217	pseudofinder	gene	9122	9343	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 23.2%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_217_pseudo_00351;old_locus_tag=FOIFOIMD_04316
+FOIFOIMD_39	pseudofinder	gene	9144	9734	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FOIFOIMD_39_pseudo_00352;old_locus_tag=FOIFOIMD_39_ign_00005,FOIFOIMD_00878
+FOIFOIMD_126	pseudofinder	gene	9155	9481	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 35.8%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_126_pseudo_00353;old_locus_tag=FOIFOIMD_02719
+FOIFOIMD_116	pseudofinder	gene	9240	9356	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 3.6%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_116_pseudo_00355;old_locus_tag=FOIFOIMD_02533
+FOIFOIMD_270	pseudofinder	gene	9252	9950	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 144.5%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_270_pseudo_00356;old_locus_tag=FOIFOIMD_05149
+FOIFOIMD_264	pseudofinder	gene	9272	9435	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=FOIFOIMD_264_pseudo_00357;old_locus_tag=FOIFOIMD_264_ign_00006
+FOIFOIMD_280	pseudofinder	gene	9320	9438	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=FOIFOIMD_280_pseudo_00359;old_locus_tag=FOIFOIMD_280_ign_00005
+FOIFOIMD_202	pseudofinder	gene	9374	9655	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 52.3%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_202_pseudo_00360;old_locus_tag=FOIFOIMD_04080
+FOIFOIMD_12	pseudofinder	gene	9380	9555	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_12_pseudo_00361;old_locus_tag=FOIFOIMD_12_ign_00007
+FOIFOIMD_135	pseudofinder	gene	9485	10168	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 147.4%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_135_pseudo_00362;old_locus_tag=FOIFOIMD_02919
+FOIFOIMD_201	pseudofinder	gene	9560	9744	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_201_pseudo_00363;old_locus_tag=FOIFOIMD_201_ign_00008
+FOIFOIMD_53	pseudofinder	gene	9577	10419	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 141.2%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_53_pseudo_00364;old_locus_tag=FOIFOIMD_01177
+FOIFOIMD_62	pseudofinder	gene	9626	9790	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 64.0%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_62_pseudo_00366;old_locus_tag=FOIFOIMD_01330
+FOIFOIMD_173	pseudofinder	gene	9663	9958	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=FOIFOIMD_173_pseudo_00367;old_locus_tag=FOIFOIMD_173_ign_00009
+FOIFOIMD_267	pseudofinder	gene	9703	9858	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 50.3%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_267_pseudo_00368;old_locus_tag=FOIFOIMD_05124
+FOIFOIMD_164	pseudofinder	gene	9755	10114	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 58.2%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_164_pseudo_00369;old_locus_tag=FOIFOIMD_03410
+FOIFOIMD_39	pseudofinder	gene	9812	9925	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=FOIFOIMD_39_pseudo_00370;old_locus_tag=FOIFOIMD_39_ign_00006
+FOIFOIMD_165	pseudofinder	gene	9863	9927	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=FOIFOIMD_165_pseudo_00371;old_locus_tag=FOIFOIMD_165_ign_00010
+FOIFOIMD_62	pseudofinder	gene	9863	10042	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 55.5%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_62_pseudo_00372;old_locus_tag=FOIFOIMD_01331
+FOIFOIMD_178	pseudofinder	gene	9874	10227	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 136.6%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_178_pseudo_00373;old_locus_tag=FOIFOIMD_03632
+FOIFOIMD_239	pseudofinder	gene	9938	10750	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 56.5%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_239_pseudo_00375;old_locus_tag=FOIFOIMD_04647
+FOIFOIMD_173	pseudofinder	gene	9988	10242	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 146.7%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_173_pseudo_00376;old_locus_tag=FOIFOIMD_03568
+FOIFOIMD_62	pseudofinder	gene	10103	10242	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_62_pseudo_00377;old_locus_tag=FOIFOIMD_62_ign_00007
+FOIFOIMD_208	pseudofinder	gene	10167	10390	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_208_pseudo_00378;old_locus_tag=FOIFOIMD_208_ign_00008
+FOIFOIMD_145	pseudofinder	gene	10194	10312	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 8 blast hits.;locus_tag=FOIFOIMD_145_pseudo_00379;old_locus_tag=FOIFOIMD_145_ign_00007
+FOIFOIMD_76	pseudofinder	gene	10245	10418	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 51.4%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_76_pseudo_00380;old_locus_tag=FOIFOIMD_01619
+FOIFOIMD_47	pseudofinder	gene	10260	10487	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 9.8%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_47_pseudo_00382;old_locus_tag=FOIFOIMD_01076
+FOIFOIMD_249	pseudofinder	gene	10281	10354	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_249_pseudo_00383;old_locus_tag=FOIFOIMD_249_ign_00011
+FOIFOIMD_266	pseudofinder	gene	10369	10572	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 46.6%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_266_pseudo_00384;old_locus_tag=FOIFOIMD_05096
+FOIFOIMD_116	pseudofinder	gene	10398	11672	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 140.8%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_116_pseudo_00385;old_locus_tag=FOIFOIMD_02536
+FOIFOIMD_132	pseudofinder	gene	10407	10859	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 183.0%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_132_pseudo_00386;old_locus_tag=FOIFOIMD_02865
+FOIFOIMD_85	pseudofinder	gene	10415	10825	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 51.8%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_85_pseudo_00387;old_locus_tag=FOIFOIMD_01920
+FOIFOIMD_76	pseudofinder	gene	10424	10602	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_76_pseudo_00388;old_locus_tag=FOIFOIMD_76_ign_00003
+FOIFOIMD_26	pseudofinder	gene	10503	10766	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 251.4%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_26_pseudo_00389;old_locus_tag=FOIFOIMD_00475
+FOIFOIMD_31	pseudofinder	gene	10509	10703	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 14.2%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_31_pseudo_00390;old_locus_tag=FOIFOIMD_00684
+FOIFOIMD_204	pseudofinder	gene	10520	10743	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_204_pseudo_00391;old_locus_tag=FOIFOIMD_204_ign_00007
+FOIFOIMD_155	pseudofinder	gene	10533	13553	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 153.7%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_155_pseudo_00392;old_locus_tag=FOIFOIMD_03275
+FOIFOIMD_32	pseudofinder	gene	10549	10737	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 9 blast hits.;locus_tag=FOIFOIMD_32_pseudo_00393;old_locus_tag=FOIFOIMD_32_ign_00009
+FOIFOIMD_203	pseudofinder	gene	10562	11305	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 50.1%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_203_pseudo_00394;old_locus_tag=FOIFOIMD_04094
+FOIFOIMD_30	pseudofinder	gene	10586	10734	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_30_pseudo_00395;old_locus_tag=FOIFOIMD_30_ign_00007
+FOIFOIMD_51	pseudofinder	gene	10600	10751	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_51_pseudo_00397;old_locus_tag=FOIFOIMD_51_ign_00006
+FOIFOIMD_266	pseudofinder	gene	10615	10796	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_266_pseudo_00398;old_locus_tag=FOIFOIMD_266_ign_00009
+FOIFOIMD_114	pseudofinder	gene	10630	11064	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 29.3%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_114_pseudo_00399;old_locus_tag=FOIFOIMD_02469
+FOIFOIMD_66	pseudofinder	gene	10674	11141	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FOIFOIMD_66_pseudo_00400;old_locus_tag=FOIFOIMD_01401,FOIFOIMD_66_ign_00005,FOIFOIMD_01402
+FOIFOIMD_316	pseudofinder	gene	10733	10975	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 61.4%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_316_pseudo_00401;old_locus_tag=FOIFOIMD_06260
+FOIFOIMD_144	pseudofinder	gene	10755	11168	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 12.7%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_144_pseudo_00402;old_locus_tag=FOIFOIMD_03081
+FOIFOIMD_266	pseudofinder	gene	10798	11340	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 62.3%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_266_pseudo_00403;old_locus_tag=FOIFOIMD_05097
+FOIFOIMD_188	pseudofinder	gene	10913	11743	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 146.4%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_188_pseudo_00405;old_locus_tag=FOIFOIMD_03771
+FOIFOIMD_239	pseudofinder	gene	10917	11062	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_239_pseudo_00406;old_locus_tag=FOIFOIMD_239_ign_00010
+FOIFOIMD_228	pseudofinder	gene	10920	11225	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 20.6%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_228_pseudo_00407;old_locus_tag=FOIFOIMD_04494
+FOIFOIMD_127	pseudofinder	gene	10954	11259	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 143.7%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_127_pseudo_00408;old_locus_tag=FOIFOIMD_02735
+FOIFOIMD_316	pseudofinder	gene	10976	11118	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_316_pseudo_00409;old_locus_tag=FOIFOIMD_316_ign_00012
+FOIFOIMD_64	pseudofinder	gene	11046	12755	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 225.7%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_64_pseudo_00410;old_locus_tag=FOIFOIMD_01372
+FOIFOIMD_295	pseudofinder	gene	11074	11313	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 19.0%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_295_pseudo_00412;old_locus_tag=FOIFOIMD_05812
+FOIFOIMD_36	pseudofinder	gene	11110	11661	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 58.4%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_36_pseudo_00413;old_locus_tag=FOIFOIMD_00833
+FOIFOIMD_40	pseudofinder	gene	11257	11550	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 43.6%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_40_pseudo_00415;old_locus_tag=FOIFOIMD_00900
+FOIFOIMD_65	pseudofinder	gene	11287	11394	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 9 blast hits.;locus_tag=FOIFOIMD_65_pseudo_00416;old_locus_tag=FOIFOIMD_65_ign_00006
+FOIFOIMD_240	pseudofinder	gene	11325	11527	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 10 blast hits.;locus_tag=FOIFOIMD_240_pseudo_00417;old_locus_tag=FOIFOIMD_240_ign_00006
+FOIFOIMD_96	pseudofinder	gene	11374	12765	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 58.4%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_96_pseudo_00418;old_locus_tag=FOIFOIMD_02117
+FOIFOIMD_156	pseudofinder	gene	11415	13265	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 57.2%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_156_pseudo_00419;old_locus_tag=FOIFOIMD_03282
+FOIFOIMD_301	pseudofinder	gene	11417	11671	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 42.1%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_301_pseudo_00420;old_locus_tag=FOIFOIMD_05983
+FOIFOIMD_180	pseudofinder	gene	11419	11600	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=FOIFOIMD_180_pseudo_00421;old_locus_tag=FOIFOIMD_180_ign_00008
+FOIFOIMD_295	pseudofinder	gene	11460	12097	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FOIFOIMD_295_pseudo_00422;old_locus_tag=FOIFOIMD_05813,FOIFOIMD_295_ign_00012
+FOIFOIMD_70	pseudofinder	gene	11513	11877	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_70_pseudo_00423;old_locus_tag=FOIFOIMD_70_ign_00007
+FOIFOIMD_145	pseudofinder	gene	11514	12896	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 145.1%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_145_pseudo_00424;old_locus_tag=FOIFOIMD_03091
+FOIFOIMD_23	pseudofinder	gene	11515	11697	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 141.2%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_23_pseudo_00425;old_locus_tag=FOIFOIMD_00404
+FOIFOIMD_303	pseudofinder	gene	11596	15822	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 60.8%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_303_pseudo_00426;old_locus_tag=FOIFOIMD_06028
+FOIFOIMD_301	pseudofinder	gene	11672	11757	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_301_pseudo_00427;old_locus_tag=FOIFOIMD_301_ign_00011
+FOIFOIMD_36	pseudofinder	gene	11676	11813	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 15.1%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_36_pseudo_00428;old_locus_tag=FOIFOIMD_00834
+FOIFOIMD_301	pseudofinder	gene	11759	12031	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 46.1%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_301_pseudo_00429;old_locus_tag=FOIFOIMD_05984
+FOIFOIMD_69	pseudofinder	gene	11813	12081	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_69_pseudo_00430;old_locus_tag=FOIFOIMD_69_ign_00008
+FOIFOIMD_147	pseudofinder	gene	11835	12800	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 170.0%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_147_pseudo_00431;old_locus_tag=FOIFOIMD_03143
+FOIFOIMD_285	pseudofinder	gene	11902	12071	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_285_pseudo_00432;old_locus_tag=FOIFOIMD_285_ign_00005
+FOIFOIMD_184	pseudofinder	gene	11906	12109	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 4.2%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_184_pseudo_00433;old_locus_tag=FOIFOIMD_03721
+FOIFOIMD_179	pseudofinder	gene	11997	12962	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 60.0%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_179_pseudo_00434;old_locus_tag=FOIFOIMD_03647
+FOIFOIMD_127	pseudofinder	gene	12001	12195	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 18.6%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_127_pseudo_00435;old_locus_tag=FOIFOIMD_02736
+FOIFOIMD_54	pseudofinder	gene	12083	12170	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 11 blast hits.;locus_tag=FOIFOIMD_54_pseudo_00436;old_locus_tag=FOIFOIMD_54_ign_00008
+FOIFOIMD_58	pseudofinder	gene	12099	12285	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=FOIFOIMD_58_pseudo_00437;old_locus_tag=FOIFOIMD_58_ign_00008
+FOIFOIMD_285	pseudofinder	gene	12111	12320	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 22.8%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_285_pseudo_00438;old_locus_tag=FOIFOIMD_05518
+FOIFOIMD_184	pseudofinder	gene	12113	12366	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_184_pseudo_00439;old_locus_tag=FOIFOIMD_184_ign_00011
+FOIFOIMD_75	pseudofinder	gene	12239	12604	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 23.3%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_75_pseudo_00441;old_locus_tag=FOIFOIMD_01606
+FOIFOIMD_300	pseudofinder	gene	12243	12494	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 20.4%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_300_pseudo_00442;old_locus_tag=FOIFOIMD_05940
+FOIFOIMD_26	pseudofinder	gene	12271	12575	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_26_pseudo_00443;old_locus_tag=FOIFOIMD_26_ign_00007
+FOIFOIMD_80	pseudofinder	gene	12344	12616	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 39.8%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_80_pseudo_00444;old_locus_tag=FOIFOIMD_01813
+FOIFOIMD_81	pseudofinder	gene	12355	14913	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 61.8%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_81_pseudo_00445;old_locus_tag=FOIFOIMD_01852
+FOIFOIMD_285	pseudofinder	gene	12361	12533	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_285_pseudo_00446;old_locus_tag=FOIFOIMD_285_ign_00006
+FOIFOIMD_105	pseudofinder	gene	12403	13288	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=FOIFOIMD_105_pseudo_00448;old_locus_tag=FOIFOIMD_105_ign_00007
+FOIFOIMD_99	pseudofinder	gene	12488	12681	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_99_pseudo_00449;old_locus_tag=FOIFOIMD_99_ign_00009
+FOIFOIMD_100	pseudofinder	gene	12577	12875	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_100_pseudo_00451;old_locus_tag=FOIFOIMD_100_ign_00011
+FOIFOIMD_26	pseudofinder	gene	12580	12672	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 8.0%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_26_pseudo_00452;old_locus_tag=FOIFOIMD_00477
+FOIFOIMD_28	pseudofinder	gene	12601	13334	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FOIFOIMD_28_pseudo_00453;old_locus_tag=FOIFOIMD_00597,FOIFOIMD_00596,FOIFOIMD_28_ign_00011
+FOIFOIMD_151	pseudofinder	gene	12638	13285	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 33.8%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_151_pseudo_00455;old_locus_tag=FOIFOIMD_03223
+FOIFOIMD_149	pseudofinder	gene	12785	13123	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 57.8%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_149_pseudo_00456;old_locus_tag=FOIFOIMD_03201
+FOIFOIMD_121	pseudofinder	gene	12786	13421	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_121_pseudo_00457;old_locus_tag=FOIFOIMD_121_ign_00004
+FOIFOIMD_17	pseudofinder	gene	12867	13028	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=FOIFOIMD_17_pseudo_00458;old_locus_tag=FOIFOIMD_17_ign_00008
+FOIFOIMD_288	pseudofinder	gene	12881	13366	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 17.8%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_288_pseudo_00459;old_locus_tag=FOIFOIMD_05626
+FOIFOIMD_61	pseudofinder	gene	12955	13070	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=FOIFOIMD_61_pseudo_00461;old_locus_tag=FOIFOIMD_61_ign_00010
+FOIFOIMD_99	pseudofinder	gene	13056	13223	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 45.6%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_99_pseudo_00464;old_locus_tag=FOIFOIMD_02156
+FOIFOIMD_95	pseudofinder	gene	13081	13289	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_95_pseudo_00465;old_locus_tag=FOIFOIMD_95_ign_00006
+FOIFOIMD_66	pseudofinder	gene	13148	13296	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_66_pseudo_00466;old_locus_tag=FOIFOIMD_66_ign_00008
+FOIFOIMD_132	pseudofinder	gene	13215	13322	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 24.0%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_132_pseudo_00467;old_locus_tag=FOIFOIMD_02870
+FOIFOIMD_99	pseudofinder	gene	13224	13447	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_99_pseudo_00468;old_locus_tag=FOIFOIMD_99_ign_00010
+FOIFOIMD_157	pseudofinder	gene	13230	13303	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_157_pseudo_00469;old_locus_tag=FOIFOIMD_157_ign_00013
+FOIFOIMD_185	pseudofinder	gene	13236	14117	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 57.6%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_185_pseudo_00470;old_locus_tag=FOIFOIMD_03739
+FOIFOIMD_235	pseudofinder	gene	13476	13928	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 184.9%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_235_pseudo_00471;old_locus_tag=FOIFOIMD_04581
+FOIFOIMD_121	pseudofinder	gene	13486	13767	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 30.4%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_121_pseudo_00472;old_locus_tag=FOIFOIMD_02636
+FOIFOIMD_132	pseudofinder	gene	13496	14311	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 58.1%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_132_pseudo_00473;old_locus_tag=FOIFOIMD_02871
+FOIFOIMD_199	pseudofinder	gene	13514	13689	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_199_pseudo_00474;old_locus_tag=FOIFOIMD_199_ign_00014
+FOIFOIMD_312	pseudofinder	gene	13571	13864	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 21.9%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_312_pseudo_00475;old_locus_tag=FOIFOIMD_06220
+FOIFOIMD_260	pseudofinder	gene	13615	13766	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=FOIFOIMD_260_pseudo_00476;old_locus_tag=FOIFOIMD_260_ign_00011
+FOIFOIMD_29	pseudofinder	gene	13664	13759	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_29_pseudo_00477;old_locus_tag=FOIFOIMD_29_ign_00008
+FOIFOIMD_74	pseudofinder	gene	13667	13851	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_74_pseudo_00478;old_locus_tag=FOIFOIMD_74_ign_00008
+FOIFOIMD_87	pseudofinder	gene	13730	14599	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 40.4%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_87_pseudo_00479;old_locus_tag=FOIFOIMD_01950
+FOIFOIMD_199	pseudofinder	gene	13749	14141	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 57.0%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_199_pseudo_00480;old_locus_tag=FOIFOIMD_03965
+FOIFOIMD_301	pseudofinder	gene	13831	14359	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_301_pseudo_00481;old_locus_tag=FOIFOIMD_301_ign_00014
+FOIFOIMD_56	pseudofinder	gene	13832	13967	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 10 blast hits.;locus_tag=FOIFOIMD_56_pseudo_00482;old_locus_tag=FOIFOIMD_56_ign_00010
+FOIFOIMD_177	pseudofinder	gene	13930	14076	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 8 blast hits.;locus_tag=FOIFOIMD_177_pseudo_00483;old_locus_tag=FOIFOIMD_177_ign_00012
+FOIFOIMD_1	pseudofinder	gene	14208	14480	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 156.9%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_1_pseudo_00484;old_locus_tag=FOIFOIMD_00013
+FOIFOIMD_185	pseudofinder	gene	14210	14325	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_185_pseudo_00485;old_locus_tag=FOIFOIMD_185_ign_00012
+FOIFOIMD_39	pseudofinder	gene	14274	15074	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 167.9%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_39_pseudo_00486;old_locus_tag=FOIFOIMD_00884
+FOIFOIMD_95	pseudofinder	gene	14303	14476	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 31.3%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_95_pseudo_00487;old_locus_tag=FOIFOIMD_02104
+FOIFOIMD_185	pseudofinder	gene	14327	14701	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 19.4%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_185_pseudo_00488;old_locus_tag=FOIFOIMD_03740
+FOIFOIMD_181	pseudofinder	gene	14443	14838	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_181_pseudo_00490;old_locus_tag=FOIFOIMD_181_ign_00013
+FOIFOIMD_32	pseudofinder	gene	14713	14870	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 8 blast hits.;locus_tag=FOIFOIMD_32_pseudo_00491;old_locus_tag=FOIFOIMD_32_ign_00011
+FOIFOIMD_168	pseudofinder	gene	14734	14970	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 25.7%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_168_pseudo_00493;old_locus_tag=FOIFOIMD_03498
+FOIFOIMD_69	pseudofinder	gene	14734	14879	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=FOIFOIMD_69_pseudo_00494;old_locus_tag=FOIFOIMD_69_ign_00010
+FOIFOIMD_87	pseudofinder	gene	14794	16442	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_87_pseudo_00495;old_locus_tag=FOIFOIMD_87_ign_00011
+FOIFOIMD_271	pseudofinder	gene	14848	14960	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 12 blast hits.;locus_tag=FOIFOIMD_271_pseudo_00496;old_locus_tag=FOIFOIMD_271_ign_00010
+FOIFOIMD_156	pseudofinder	gene	14984	15193	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 56.5%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_156_pseudo_00498;old_locus_tag=FOIFOIMD_03284
+FOIFOIMD_175	pseudofinder	gene	15051	15287	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 25.4%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_175_pseudo_00499;old_locus_tag=FOIFOIMD_03594
+FOIFOIMD_180	pseudofinder	gene	15082	15534	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 43.1%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_180_pseudo_00500;old_locus_tag=FOIFOIMD_03666
+FOIFOIMD_286	pseudofinder	gene	15178	15834	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FOIFOIMD_286_pseudo_00501;old_locus_tag=FOIFOIMD_05554,FOIFOIMD_286_ign_00012
+FOIFOIMD_306	pseudofinder	gene	15248	15709	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 37.3%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_306_pseudo_00502;old_locus_tag=FOIFOIMD_06094
+FOIFOIMD_181	pseudofinder	gene	15270	15632	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 164.3%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_181_pseudo_00503;old_locus_tag=FOIFOIMD_03686
+FOIFOIMD_53	pseudofinder	gene	15312	15457	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 9 blast hits.;locus_tag=FOIFOIMD_53_pseudo_00504;old_locus_tag=FOIFOIMD_53_ign_00010
+FOIFOIMD_56	pseudofinder	gene	15331	15498	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 27.7%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_56_pseudo_00505;old_locus_tag=FOIFOIMD_01240
+FOIFOIMD_186	pseudofinder	gene	15369	15532	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 12 blast hits.;locus_tag=FOIFOIMD_186_pseudo_00506;old_locus_tag=FOIFOIMD_186_ign_00010
+FOIFOIMD_156	pseudofinder	gene	15375	15481	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 9 blast hits.;locus_tag=FOIFOIMD_156_pseudo_00507;old_locus_tag=FOIFOIMD_156_ign_00007
+FOIFOIMD_141	pseudofinder	gene	15420	15539	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 12 blast hits.;locus_tag=FOIFOIMD_141_pseudo_00508;old_locus_tag=FOIFOIMD_141_ign_00013
+FOIFOIMD_47	pseudofinder	gene	15431	15774	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 8 blast hits.;locus_tag=FOIFOIMD_47_pseudo_00509;old_locus_tag=FOIFOIMD_47_ign_00013
+FOIFOIMD_52	pseudofinder	gene	15590	17122	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 55.6%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_52_pseudo_00510;old_locus_tag=FOIFOIMD_01167
+FOIFOIMD_77	pseudofinder	gene	15614	16344	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=FOIFOIMD_77_pseudo_00511;old_locus_tag=FOIFOIMD_77_ign_00012
+FOIFOIMD_75	pseudofinder	gene	15664	16707	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FOIFOIMD_75_pseudo_00512;old_locus_tag=FOIFOIMD_01609,FOIFOIMD_75_ign_00011,FOIFOIMD_01610
+FOIFOIMD_36	pseudofinder	gene	15830	16039	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 32.6%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_36_pseudo_00513;old_locus_tag=FOIFOIMD_00838
+FOIFOIMD_131	pseudofinder	gene	15952	16085	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=FOIFOIMD_131_pseudo_00515;old_locus_tag=FOIFOIMD_131_ign_00007
+FOIFOIMD_198	pseudofinder	gene	16118	16359	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_198_pseudo_00516;old_locus_tag=FOIFOIMD_198_ign_00009
+FOIFOIMD_140	pseudofinder	gene	16128	16226	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 50.6%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_140_pseudo_00517;old_locus_tag=FOIFOIMD_03014
+FOIFOIMD_92	pseudofinder	gene	16182	16297	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_92_pseudo_00518;old_locus_tag=FOIFOIMD_92_ign_00014
+FOIFOIMD_235	pseudofinder	gene	16298	16392	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 13 blast hits.;locus_tag=FOIFOIMD_235_pseudo_00519;old_locus_tag=FOIFOIMD_235_ign_00013
+FOIFOIMD_54	pseudofinder	gene	16343	17393	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FOIFOIMD_54_pseudo_00520;old_locus_tag=FOIFOIMD_54_ign_00012,FOIFOIMD_01202,FOIFOIMD_54_ign_00013
+FOIFOIMD_36	pseudofinder	gene	16349	16552	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 27.0%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_36_pseudo_00521;old_locus_tag=FOIFOIMD_00839
+FOIFOIMD_141	pseudofinder	gene	16372	16884	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 62.7%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_141_pseudo_00522;old_locus_tag=FOIFOIMD_03034
+FOIFOIMD_113	pseudofinder	gene	16390	16488	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 8.7%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_113_pseudo_00523;old_locus_tag=FOIFOIMD_02456
+FOIFOIMD_47	pseudofinder	gene	16422	16495	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_47_pseudo_00524;old_locus_tag=FOIFOIMD_47_ign_00014
+FOIFOIMD_70	pseudofinder	gene	16554	16768	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=FOIFOIMD_70_pseudo_00525;old_locus_tag=FOIFOIMD_70_ign_00009
+FOIFOIMD_47	pseudofinder	gene	16602	17671	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FOIFOIMD_47_pseudo_00526;old_locus_tag=FOIFOIMD_01082,FOIFOIMD_01081,FOIFOIMD_47_ign_00015
+FOIFOIMD_279	pseudofinder	gene	16667	16761	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_279_pseudo_00527;old_locus_tag=FOIFOIMD_279_ign_00014
+FOIFOIMD_113	pseudofinder	gene	16762	18140	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_113_pseudo_00528;old_locus_tag=FOIFOIMD_113_ign_00010
+FOIFOIMD_137	pseudofinder	gene	16795	17454	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 152.5%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_137_pseudo_00529;old_locus_tag=FOIFOIMD_02956
+FOIFOIMD_28	pseudofinder	gene	16863	17090	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 16.1%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_28_pseudo_00530;old_locus_tag=FOIFOIMD_00601
+FOIFOIMD_156	pseudofinder	gene	16876	18086	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FOIFOIMD_156_pseudo_00531;old_locus_tag=FOIFOIMD_156_ign_00009,FOIFOIMD_03288
+FOIFOIMD_312	pseudofinder	gene	16916	16977	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=FOIFOIMD_312_pseudo_00532;old_locus_tag=FOIFOIMD_312_ign_00013
+FOIFOIMD_224	pseudofinder	gene	16992	17166	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=FOIFOIMD_224_pseudo_00534;old_locus_tag=FOIFOIMD_224_ign_00013
+FOIFOIMD_102	pseudofinder	gene	16997	17281	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 140.0%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_102_pseudo_00535;old_locus_tag=FOIFOIMD_02233
+FOIFOIMD_53	pseudofinder	gene	17035	17640	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 63.7%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_53_pseudo_00536;old_locus_tag=FOIFOIMD_01184
+FOIFOIMD_122	pseudofinder	gene	17119	17212	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 12 blast hits.;locus_tag=FOIFOIMD_122_pseudo_00537;old_locus_tag=FOIFOIMD_122_ign_00010
+FOIFOIMD_108	pseudofinder	gene	17324	17800	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 62.4%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_108_pseudo_00539;old_locus_tag=FOIFOIMD_02327
+FOIFOIMD_19	pseudofinder	gene	17395	17555	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_19_pseudo_00540;old_locus_tag=FOIFOIMD_19_ign_00013
+FOIFOIMD_12	pseudofinder	gene	17413	18099	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 60.1%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_12_pseudo_00541;old_locus_tag=FOIFOIMD_00154
+FOIFOIMD_74	pseudofinder	gene	17429	17575	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 9 blast hits.;locus_tag=FOIFOIMD_74_pseudo_00542;old_locus_tag=FOIFOIMD_74_ign_00012
+FOIFOIMD_3	pseudofinder	gene	17604	17725	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_3_pseudo_00543;old_locus_tag=FOIFOIMD_3_ign_00014
+FOIFOIMD_1	pseudofinder	gene	17616	17812	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=FOIFOIMD_1_pseudo_00544;old_locus_tag=FOIFOIMD_1_ign_00012
+FOIFOIMD_22	pseudofinder	gene	17713	17907	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 51.8%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_22_pseudo_00545;old_locus_tag=FOIFOIMD_00380
+FOIFOIMD_31	pseudofinder	gene	17752	18936	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FOIFOIMD_31_pseudo_00546;old_locus_tag=FOIFOIMD_00693,FOIFOIMD_00694,FOIFOIMD_31_ign_00020
+FOIFOIMD_47	pseudofinder	gene	17755	17912	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_47_pseudo_00547;old_locus_tag=FOIFOIMD_47_ign_00016
+FOIFOIMD_75	pseudofinder	gene	17846	21910	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 169.0%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_75_pseudo_00549;old_locus_tag=FOIFOIMD_01612
+FOIFOIMD_54	pseudofinder	gene	17934	18136	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 10 blast hits.;locus_tag=FOIFOIMD_54_pseudo_00551;old_locus_tag=FOIFOIMD_54_ign_00014
+FOIFOIMD_33	pseudofinder	gene	17939	18012	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_33_pseudo_00552;old_locus_tag=FOIFOIMD_33_ign_00014
+FOIFOIMD_22	pseudofinder	gene	17959	18089	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_22_pseudo_00553;old_locus_tag=FOIFOIMD_22_ign_00015
+FOIFOIMD_92	pseudofinder	gene	17999	18326	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=FOIFOIMD_92_pseudo_00554;old_locus_tag=FOIFOIMD_92_ign_00016
+FOIFOIMD_127	pseudofinder	gene	18122	18523	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 34.1%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_127_pseudo_00555;old_locus_tag=FOIFOIMD_02742
+FOIFOIMD_108	pseudofinder	gene	18182	18325	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 8.6%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_108_pseudo_00556;old_locus_tag=FOIFOIMD_02328
+FOIFOIMD_43	pseudofinder	gene	18209	18303	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_43_pseudo_00557;old_locus_tag=FOIFOIMD_43_ign_00013
+FOIFOIMD_49	pseudofinder	gene	18246	18632	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 54.7%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_49_pseudo_00558;old_locus_tag=FOIFOIMD_01108
+FOIFOIMD_110	pseudofinder	gene	18311	18406	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 51.9%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_110_pseudo_00559;old_locus_tag=FOIFOIMD_02383
+FOIFOIMD_33	pseudofinder	gene	18313	18423	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 36.3%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_33_pseudo_00560;old_locus_tag=FOIFOIMD_00760
+FOIFOIMD_130	pseudofinder	gene	18361	18513	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 45.0%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_130_pseudo_00561;old_locus_tag=FOIFOIMD_02844
+FOIFOIMD_66	pseudofinder	gene	18379	18491	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=FOIFOIMD_66_pseudo_00562;old_locus_tag=FOIFOIMD_66_ign_00012
+FOIFOIMD_22	pseudofinder	gene	18443	18622	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 17.3%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_22_pseudo_00563;old_locus_tag=FOIFOIMD_00382
+FOIFOIMD_121	pseudofinder	gene	18492	18761	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 16.0%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_121_pseudo_00564;old_locus_tag=FOIFOIMD_02639
+FOIFOIMD_36	pseudofinder	gene	18574	18846	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 21.5%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_36_pseudo_00565;old_locus_tag=FOIFOIMD_00842
+FOIFOIMD_308	pseudofinder	gene	18718	18876	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 14 blast hits.;locus_tag=FOIFOIMD_308_pseudo_00567;old_locus_tag=FOIFOIMD_308_ign_00014
+FOIFOIMD_36	pseudofinder	gene	18848	18942	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_36_pseudo_00568;old_locus_tag=FOIFOIMD_36_ign_00015
+FOIFOIMD_129	pseudofinder	gene	18890	19134	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 11 blast hits.;locus_tag=FOIFOIMD_129_pseudo_00569;old_locus_tag=FOIFOIMD_129_ign_00015
+FOIFOIMD_310	pseudofinder	gene	19046	19249	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 31.2%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_310_pseudo_00570;old_locus_tag=FOIFOIMD_06194
+FOIFOIMD_133	pseudofinder	gene	19081	19404	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 55.2%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_133_pseudo_00572;old_locus_tag=FOIFOIMD_02891
+FOIFOIMD_142	pseudofinder	gene	19085	19185	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=FOIFOIMD_142_pseudo_00573;old_locus_tag=FOIFOIMD_142_ign_00014
+FOIFOIMD_60	pseudofinder	gene	19213	19833	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 35.5%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_60_pseudo_00575;old_locus_tag=FOIFOIMD_01303
+FOIFOIMD_162	pseudofinder	gene	19398	19579	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_162_pseudo_00581;old_locus_tag=FOIFOIMD_162_ign_00012
+FOIFOIMD_133	pseudofinder	gene	19401	19775	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 32.2%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_133_pseudo_00582;old_locus_tag=FOIFOIMD_02892
+FOIFOIMD_47	pseudofinder	gene	19483	19805	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_47_pseudo_00583;old_locus_tag=FOIFOIMD_47_ign_00017
+FOIFOIMD_63	pseudofinder	gene	19530	23732	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 143.6%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_63_pseudo_00585;old_locus_tag=FOIFOIMD_01363
+FOIFOIMD_130	pseudofinder	gene	19596	19838	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 34.1%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_130_pseudo_00586;old_locus_tag=FOIFOIMD_02846
+FOIFOIMD_128	pseudofinder	gene	19663	19760	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_128_pseudo_00587;old_locus_tag=FOIFOIMD_128_ign_00014
+FOIFOIMD_225	pseudofinder	gene	19730	19911	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_225_pseudo_00588;old_locus_tag=FOIFOIMD_225_ign_00014
+FOIFOIMD_47	pseudofinder	gene	19807	20034	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 33.1%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_47_pseudo_00589;old_locus_tag=FOIFOIMD_01084
+FOIFOIMD_138	pseudofinder	gene	19829	19992	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_138_pseudo_00590;old_locus_tag=FOIFOIMD_138_ign_00018
+FOIFOIMD_53	pseudofinder	gene	19860	20074	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_53_pseudo_00591;old_locus_tag=FOIFOIMD_53_ign_00013
+FOIFOIMD_76	pseudofinder	gene	19883	20088	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=FOIFOIMD_76_pseudo_00592;old_locus_tag=FOIFOIMD_76_ign_00006
+FOIFOIMD_139	pseudofinder	gene	19964	20098	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 14.1%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_139_pseudo_00594;old_locus_tag=FOIFOIMD_02999
+FOIFOIMD_25	pseudofinder	gene	20001	22553	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 135.4%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_25_pseudo_00596;old_locus_tag=FOIFOIMD_00461
+FOIFOIMD_138	pseudofinder	gene	20006	20314	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 48.7%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_138_pseudo_00597;old_locus_tag=FOIFOIMD_02978
+FOIFOIMD_19	pseudofinder	gene	20065	20250	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 50.3%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_19_pseudo_00598;old_locus_tag=FOIFOIMD_00346
+FOIFOIMD_78	pseudofinder	gene	20089	20204	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_78_pseudo_00599;old_locus_tag=FOIFOIMD_78_ign_00013
+FOIFOIMD_22	pseudofinder	gene	20128	20631	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 195.3%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_22_pseudo_00600;old_locus_tag=FOIFOIMD_00384
+FOIFOIMD_254	pseudofinder	gene	20282	21526	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 60.3%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_254_pseudo_00602;old_locus_tag=FOIFOIMD_04873
+FOIFOIMD_19	pseudofinder	gene	20287	20745	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 60.2%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_19_pseudo_00603;old_locus_tag=FOIFOIMD_00347
+FOIFOIMD_68	pseudofinder	gene	20379	20452	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 14 blast hits.;locus_tag=FOIFOIMD_68_pseudo_00604;old_locus_tag=FOIFOIMD_68_ign_00014
+FOIFOIMD_30	pseudofinder	gene	20429	20743	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 29.1%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_30_pseudo_00605;old_locus_tag=FOIFOIMD_00660
+FOIFOIMD_68	pseudofinder	gene	20456	20599	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 44.3%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_68_pseudo_00606;old_locus_tag=FOIFOIMD_01456
+FOIFOIMD_72	pseudofinder	gene	20636	21046	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 52.0%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_72_pseudo_00607;old_locus_tag=FOIFOIMD_01543
+FOIFOIMD_251	pseudofinder	gene	20810	21044	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 10 blast hits.;locus_tag=FOIFOIMD_251_pseudo_00608;old_locus_tag=FOIFOIMD_251_ign_00015
+FOIFOIMD_5	pseudofinder	gene	20956	21088	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=FOIFOIMD_5_pseudo_00609;old_locus_tag=FOIFOIMD_5_ign_00018
+FOIFOIMD_51	pseudofinder	gene	21004	21183	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 57.4%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_51_pseudo_00610;old_locus_tag=FOIFOIMD_01144
+FOIFOIMD_50	pseudofinder	gene	21006	21386	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 144.3%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_50_pseudo_00611;old_locus_tag=FOIFOIMD_01125
+FOIFOIMD_60	pseudofinder	gene	21268	21869	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_60_pseudo_00612;old_locus_tag=FOIFOIMD_60_ign_00012
+FOIFOIMD_72	pseudofinder	gene	21290	21712	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 62.4%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_72_pseudo_00613;old_locus_tag=FOIFOIMD_01544
+FOIFOIMD_30	pseudofinder	gene	21361	21491	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_30_pseudo_00614;old_locus_tag=FOIFOIMD_30_ign_00014
+FOIFOIMD_55	pseudofinder	gene	21403	21626	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=FOIFOIMD_55_pseudo_00615;old_locus_tag=FOIFOIMD_55_ign_00015
+FOIFOIMD_114	pseudofinder	gene	21413	21964	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 44.3%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_114_pseudo_00616;old_locus_tag=FOIFOIMD_02478
+FOIFOIMD_228	pseudofinder	gene	21522	22982	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 148.0%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_228_pseudo_00617;old_locus_tag=FOIFOIMD_04501
+FOIFOIMD_28	pseudofinder	gene	21574	22107	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 38.9%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_28_pseudo_00618;old_locus_tag=FOIFOIMD_00607
+FOIFOIMD_280	pseudofinder	gene	21624	22257	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_280_pseudo_00620;old_locus_tag=FOIFOIMD_280_ign_00010
+FOIFOIMD_72	pseudofinder	gene	21993	22178	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 32.6%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_72_pseudo_00622;old_locus_tag=FOIFOIMD_01545
+FOIFOIMD_254	pseudofinder	gene	22054	22169	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_254_pseudo_00623;old_locus_tag=FOIFOIMD_254_ign_00016
+FOIFOIMD_114	pseudofinder	gene	22079	22489	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 21.1%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_114_pseudo_00624;old_locus_tag=FOIFOIMD_02479
+FOIFOIMD_51	pseudofinder	gene	22174	22440	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 27.4%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_51_pseudo_00625;old_locus_tag=FOIFOIMD_01146
+FOIFOIMD_114	pseudofinder	gene	22648	22980	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 135.4%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_114_pseudo_00627;old_locus_tag=FOIFOIMD_02480
+FOIFOIMD_76	pseudofinder	gene	22736	23299	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 166.2%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_76_pseudo_00628;old_locus_tag=FOIFOIMD_01626
+FOIFOIMD_286	pseudofinder	gene	23133	23278	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_286_pseudo_00630;old_locus_tag=FOIFOIMD_286_ign_00019
+FOIFOIMD_16	pseudofinder	gene	23156	23361	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_16_pseudo_00631;old_locus_tag=FOIFOIMD_16_ign_00012
+FOIFOIMD_228	pseudofinder	gene	23379	25609	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FOIFOIMD_228_pseudo_00633;old_locus_tag=FOIFOIMD_228_ign_00015,FOIFOIMD_04504,FOIFOIMD_04503
+FOIFOIMD_75	pseudofinder	gene	23454	23921	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 52.2%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_75_pseudo_00634;old_locus_tag=FOIFOIMD_01614
+FOIFOIMD_31	pseudofinder	gene	23541	23713	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_31_pseudo_00635;old_locus_tag=FOIFOIMD_31_ign_00024
+FOIFOIMD_24	pseudofinder	gene	23692	23929	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 12 blast hits.;locus_tag=FOIFOIMD_24_pseudo_00636;old_locus_tag=FOIFOIMD_24_ign_00015
+FOIFOIMD_301	pseudofinder	gene	23794	23957	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_301_pseudo_00637;old_locus_tag=FOIFOIMD_301_ign_00021
+FOIFOIMD_264	pseudofinder	gene	23851	24675	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 147.3%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_264_pseudo_00638;old_locus_tag=FOIFOIMD_05033
+FOIFOIMD_78	pseudofinder	gene	23925	24038	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 13.3%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_78_pseudo_00639;old_locus_tag=FOIFOIMD_01683
+FOIFOIMD_321	pseudofinder	gene	23978	24160	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 8 blast hits.;locus_tag=FOIFOIMD_321_pseudo_00640;old_locus_tag=FOIFOIMD_321_ign_00017
+FOIFOIMD_70	pseudofinder	gene	24257	24811	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 33.3%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_70_pseudo_00641;old_locus_tag=FOIFOIMD_01497
+FOIFOIMD_75	pseudofinder	gene	24341	24541	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 12.4%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_75_pseudo_00642;old_locus_tag=FOIFOIMD_01615
+FOIFOIMD_321	pseudofinder	gene	24364	26616	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 148.9%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_321_pseudo_00643;old_locus_tag=FOIFOIMD_06351
+FOIFOIMD_280	pseudofinder	gene	24399	24560	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_280_pseudo_00644;old_locus_tag=FOIFOIMD_280_ign_00012
+FOIFOIMD_207	pseudofinder	gene	24523	24713	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_207_pseudo_00645;old_locus_tag=FOIFOIMD_207_ign_00018
+FOIFOIMD_75	pseudofinder	gene	24575	24790	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 14.5%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_75_pseudo_00646;old_locus_tag=FOIFOIMD_01616
+FOIFOIMD_1	pseudofinder	gene	24659	24853	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 12.2%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_1_pseudo_00647;old_locus_tag=FOIFOIMD_00022
+FOIFOIMD_190	pseudofinder	gene	24789	25000	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_190_pseudo_00648;old_locus_tag=FOIFOIMD_190_ign_00016
+FOIFOIMD_278	pseudofinder	gene	24834	25075	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_278_pseudo_00649;old_locus_tag=FOIFOIMD_278_ign_00018
+FOIFOIMD_73	pseudofinder	gene	24926	25177	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 28.6%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_73_pseudo_00650;old_locus_tag=FOIFOIMD_01568
+FOIFOIMD_299	pseudofinder	gene	25176	28013	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 166.0%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_299_pseudo_00652;old_locus_tag=FOIFOIMD_05915
+FOIFOIMD_275	pseudofinder	gene	25710	26135	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 53.5%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_275_pseudo_00653;old_locus_tag=FOIFOIMD_05229
+FOIFOIMD_228	pseudofinder	gene	25735	26235	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 23.4%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_228_pseudo_00654;old_locus_tag=FOIFOIMD_04505
+FOIFOIMD_190	pseudofinder	gene	25851	27902	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 159.8%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_190_pseudo_00655;old_locus_tag=FOIFOIMD_03815
+FOIFOIMD_283	pseudofinder	gene	26062	26174	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_283_pseudo_00656;old_locus_tag=FOIFOIMD_283_ign_00018
+FOIFOIMD_18	pseudofinder	gene	26139	26564	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 53.2%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_18_pseudo_00658;old_locus_tag=FOIFOIMD_00326
+FOIFOIMD_275	pseudofinder	gene	26141	26419	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 45.4%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_275_pseudo_00659;old_locus_tag=FOIFOIMD_05230
+FOIFOIMD_92	pseudofinder	gene	26526	28022	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 136.0%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_92_pseudo_00660;old_locus_tag=FOIFOIMD_02050
+FOIFOIMD_283	pseudofinder	gene	26571	27092	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 27.0%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_283_pseudo_00661;old_locus_tag=FOIFOIMD_05499
+FOIFOIMD_31	pseudofinder	gene	26650	26892	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 30.8%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_31_pseudo_00662;old_locus_tag=FOIFOIMD_00703
+FOIFOIMD_292	pseudofinder	gene	26773	29159	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FOIFOIMD_292_pseudo_00663;old_locus_tag=FOIFOIMD_292_ign_00017,FOIFOIMD_05769
+FOIFOIMD_12	pseudofinder	gene	26827	26925	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 10 blast hits.;locus_tag=FOIFOIMD_12_pseudo_00664;old_locus_tag=FOIFOIMD_12_ign_00020
+FOIFOIMD_31	pseudofinder	gene	26850	27104	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 30.5%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_31_pseudo_00665;old_locus_tag=FOIFOIMD_00704
+FOIFOIMD_283	pseudofinder	gene	27093	27337	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_283_pseudo_00666;old_locus_tag=FOIFOIMD_283_ign_00019
+FOIFOIMD_287	pseudofinder	gene	27234	30641	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 259.2%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_287_pseudo_00667;old_locus_tag=FOIFOIMD_05602
+FOIFOIMD_162	pseudofinder	gene	27319	27742	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 9 blast hits.;locus_tag=FOIFOIMD_162_pseudo_00668;old_locus_tag=FOIFOIMD_162_ign_00014
+FOIFOIMD_260	pseudofinder	gene	27339	27505	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_260_pseudo_00669;old_locus_tag=FOIFOIMD_260_ign_00020
+FOIFOIMD_32	pseudofinder	gene	27364	27500	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=FOIFOIMD_32_pseudo_00670;old_locus_tag=FOIFOIMD_32_ign_00021
+FOIFOIMD_10	pseudofinder	gene	27602	28345	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 177.4%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_10_pseudo_00671;old_locus_tag=FOIFOIMD_00132
+FOIFOIMD_17	pseudofinder	gene	27717	28349	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 145.1%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_17_pseudo_00672;old_locus_tag=FOIFOIMD_00255
+FOIFOIMD_32	pseudofinder	gene	28012	28386	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 32.2%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_32_pseudo_00673;old_locus_tag=FOIFOIMD_00736
+FOIFOIMD_29	pseudofinder	gene	28101	28186	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=FOIFOIMD_29_pseudo_00674;old_locus_tag=FOIFOIMD_29_ign_00017
+FOIFOIMD_1	pseudofinder	gene	28536	28691	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 35.3%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_1_pseudo_00676;old_locus_tag=FOIFOIMD_00024
+FOIFOIMD_299	pseudofinder	gene	28614	28727	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 58.5%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_299_pseudo_00677;old_locus_tag=FOIFOIMD_05916
+FOIFOIMD_167	pseudofinder	gene	28814	28965	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=FOIFOIMD_167_pseudo_00678;old_locus_tag=FOIFOIMD_167_ign_00020
+FOIFOIMD_291	pseudofinder	gene	28901	29746	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 138.4%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_291_pseudo_00679;old_locus_tag=FOIFOIMD_05729
+FOIFOIMD_18	pseudofinder	gene	29113	29306	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_18_pseudo_00680;old_locus_tag=FOIFOIMD_18_ign_00022
+FOIFOIMD_280	pseudofinder	gene	29176	29928	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 59.9%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_280_pseudo_00681;old_locus_tag=FOIFOIMD_05461
+FOIFOIMD_283	pseudofinder	gene	29219	29409	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_283_pseudo_00682;old_locus_tag=FOIFOIMD_283_ign_00020
+FOIFOIMD_228	pseudofinder	gene	29254	29363	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 12 blast hits.;locus_tag=FOIFOIMD_228_pseudo_00683;old_locus_tag=FOIFOIMD_228_ign_00018
+FOIFOIMD_249	pseudofinder	gene	29910	30263	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 36.6%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_249_pseudo_00684;old_locus_tag=FOIFOIMD_04790
+FOIFOIMD_280	pseudofinder	gene	29929	30107	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_280_pseudo_00685;old_locus_tag=FOIFOIMD_280_ign_00014
+FOIFOIMD_209	pseudofinder	gene	30010	30134	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_209_pseudo_00686;old_locus_tag=FOIFOIMD_209_ign_00018
+FOIFOIMD_249	pseudofinder	gene	30300	30536	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 24.4%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_249_pseudo_00687;old_locus_tag=FOIFOIMD_04791
+FOIFOIMD_146	pseudofinder	gene	30641	30753	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_146_pseudo_00689;old_locus_tag=FOIFOIMD_146_ign_00025
+FOIFOIMD_77	pseudofinder	gene	30669	31042	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=FOIFOIMD_77_pseudo_00691;old_locus_tag=FOIFOIMD_77_ign_00021
+FOIFOIMD_287	pseudofinder	gene	30741	32297	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 181.6%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_287_pseudo_00692;old_locus_tag=FOIFOIMD_05603
+FOIFOIMD_249	pseudofinder	gene	30970	31139	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=FOIFOIMD_249_pseudo_00693;old_locus_tag=FOIFOIMD_249_ign_00020
+FOIFOIMD_286	pseudofinder	gene	30987	31201	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_286_pseudo_00694;old_locus_tag=FOIFOIMD_286_ign_00023
+FOIFOIMD_146	pseudofinder	gene	31008	32615	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 60.5%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_146_pseudo_00695;old_locus_tag=FOIFOIMD_03117
+FOIFOIMD_32	pseudofinder	gene	31211	31825	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 54.3%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_32_pseudo_00696;old_locus_tag=FOIFOIMD_00738
+FOIFOIMD_286	pseudofinder	gene	31265	31405	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 12.2%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_286_pseudo_00697;old_locus_tag=FOIFOIMD_05567
+FOIFOIMD_114	pseudofinder	gene	31764	32204	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 137.5%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_114_pseudo_00698;old_locus_tag=FOIFOIMD_02489
+FOIFOIMD_291	pseudofinder	gene	31804	31943	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=FOIFOIMD_291_pseudo_00699;old_locus_tag=FOIFOIMD_291_ign_00034
+FOIFOIMD_279	pseudofinder	gene	31916	32037	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=FOIFOIMD_279_pseudo_00701;old_locus_tag=FOIFOIMD_279_ign_00024
+FOIFOIMD_276	pseudofinder	gene	31924	32043	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 12.6%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_276_pseudo_00702;old_locus_tag=FOIFOIMD_05290
+FOIFOIMD_245	pseudofinder	gene	32009	32191	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 18.9%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_245_pseudo_00703;old_locus_tag=FOIFOIMD_04741
+FOIFOIMD_40	pseudofinder	gene	32148	32271	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_40_pseudo_00704;old_locus_tag=FOIFOIMD_40_ign_00020
+FOIFOIMD_114	pseudofinder	gene	32179	32493	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 62.0%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_114_pseudo_00705;old_locus_tag=FOIFOIMD_02490
+FOIFOIMD_92	pseudofinder	gene	32192	32358	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=FOIFOIMD_92_pseudo_00706;old_locus_tag=FOIFOIMD_92_ign_00025
+FOIFOIMD_167	pseudofinder	gene	32215	32332	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 12 blast hits.;locus_tag=FOIFOIMD_167_pseudo_00708;old_locus_tag=FOIFOIMD_167_ign_00024
+FOIFOIMD_266	pseudofinder	gene	32263	32384	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_266_pseudo_00709;old_locus_tag=FOIFOIMD_266_ign_00020
+FOIFOIMD_146	pseudofinder	gene	32619	32743	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_146_pseudo_00711;old_locus_tag=FOIFOIMD_146_ign_00026
+FOIFOIMD_114	pseudofinder	gene	32752	32840	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_114_pseudo_00712;old_locus_tag=FOIFOIMD_114_ign_00027
+FOIFOIMD_17	pseudofinder	gene	33259	33770	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_17_pseudo_00714;old_locus_tag=FOIFOIMD_17_ign_00019
+FOIFOIMD_288	pseudofinder	gene	33272	33387	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 8 blast hits.;locus_tag=FOIFOIMD_288_pseudo_00715;old_locus_tag=FOIFOIMD_288_ign_00016
+FOIFOIMD_278	pseudofinder	gene	33535	33647	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 12 blast hits.;locus_tag=FOIFOIMD_278_pseudo_00716;old_locus_tag=FOIFOIMD_278_ign_00023
+FOIFOIMD_79	pseudofinder	gene	33574	33815	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_79_pseudo_00717;old_locus_tag=FOIFOIMD_79_ign_00017
+FOIFOIMD_224	pseudofinder	gene	33699	34108	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FOIFOIMD_224_pseudo_00719;old_locus_tag=FOIFOIMD_04431,FOIFOIMD_04430
+FOIFOIMD_289	pseudofinder	gene	34244	34437	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_289_pseudo_00720;old_locus_tag=FOIFOIMD_289_ign_00024
+FOIFOIMD_285	pseudofinder	gene	34486	34605	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 10 blast hits.;locus_tag=FOIFOIMD_285_pseudo_00721;old_locus_tag=FOIFOIMD_285_ign_00021
+FOIFOIMD_80	pseudofinder	gene	34890	34985	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 51.4%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_80_pseudo_00723;old_locus_tag=FOIFOIMD_01831
+FOIFOIMD_224	pseudofinder	gene	34990	35775	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 138.6%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_224_pseudo_00724;old_locus_tag=FOIFOIMD_04433
+FOIFOIMD_40	pseudofinder	gene	35578	35901	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 64.2%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_40_pseudo_00726;old_locus_tag=FOIFOIMD_00918
+FOIFOIMD_254	pseudofinder	gene	35713	35913	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 191.4%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_254_pseudo_00727;old_locus_tag=FOIFOIMD_04886
+FOIFOIMD_198	pseudofinder	gene	36014	36169	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 13.3%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_198_pseudo_00728;old_locus_tag=FOIFOIMD_03927
+FOIFOIMD_251	pseudofinder	gene	36022	37005	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 59.8%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_251_pseudo_00729;old_locus_tag=FOIFOIMD_04835
+FOIFOIMD_242	pseudofinder	gene	36084	36530	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 42.1%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_242_pseudo_00730;old_locus_tag=FOIFOIMD_04693
+FOIFOIMD_306	pseudofinder	gene	36131	36616	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 12 blast hits.;locus_tag=FOIFOIMD_306_pseudo_00731;old_locus_tag=FOIFOIMD_306_ign_00030
+FOIFOIMD_254	pseudofinder	gene	36135	37046	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 139.2%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_254_pseudo_00732;old_locus_tag=FOIFOIMD_04887
+FOIFOIMD_242	pseudofinder	gene	36562	36620	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_242_pseudo_00733;old_locus_tag=FOIFOIMD_242_ign_00025
+FOIFOIMD_242	pseudofinder	gene	36622	36927	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 55.1%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_242_pseudo_00734;old_locus_tag=FOIFOIMD_04694
+FOIFOIMD_207	pseudofinder	gene	36900	37024	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=FOIFOIMD_207_pseudo_00735;old_locus_tag=FOIFOIMD_207_ign_00028
+FOIFOIMD_129	pseudofinder	gene	36977	37417	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 33.0%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_129_pseudo_00736;old_locus_tag=FOIFOIMD_02820
+FOIFOIMD_90	pseudofinder	gene	37170	38005	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=FOIFOIMD_90_pseudo_00737;old_locus_tag=FOIFOIMD_90_ign_00019
+FOIFOIMD_260	pseudofinder	gene	37292	37545	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_260_pseudo_00738;old_locus_tag=FOIFOIMD_260_ign_00027
+FOIFOIMD_80	pseudofinder	gene	37838	38173	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 32.1%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_80_pseudo_00739;old_locus_tag=FOIFOIMD_01833
+FOIFOIMD_306	pseudofinder	gene	37851	38162	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 58.0%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_306_pseudo_00740;old_locus_tag=FOIFOIMD_06117
+FOIFOIMD_162	pseudofinder	gene	38126	38310	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_162_pseudo_00742;old_locus_tag=FOIFOIMD_162_ign_00016
+FOIFOIMD_306	pseudofinder	gene	38219	38367	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 12 blast hits.;locus_tag=FOIFOIMD_306_pseudo_00743;old_locus_tag=FOIFOIMD_306_ign_00034
+FOIFOIMD_295	pseudofinder	gene	38585	38724	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_295_pseudo_00744;old_locus_tag=FOIFOIMD_295_ign_00034
+FOIFOIMD_254	pseudofinder	gene	38592	38723	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 20.3%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_254_pseudo_00745;old_locus_tag=FOIFOIMD_04890
+FOIFOIMD_278	pseudofinder	gene	38753	38832	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_278_pseudo_00746;old_locus_tag=FOIFOIMD_278_ign_00024
+FOIFOIMD_111	pseudofinder	gene	38896	39215	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_111_pseudo_00747;old_locus_tag=FOIFOIMD_111_ign_00027
+FOIFOIMD_275	pseudofinder	gene	38912	39051	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_275_pseudo_00748;old_locus_tag=FOIFOIMD_275_ign_00024
+FOIFOIMD_264	pseudofinder	gene	39094	41796	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 57.9%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_264_pseudo_00749;old_locus_tag=FOIFOIMD_05048
+FOIFOIMD_101	pseudofinder	gene	39310	40302	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_101_pseudo_00750;old_locus_tag=FOIFOIMD_101_ign_00029
+FOIFOIMD_201	pseudofinder	gene	39910	40200	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 62.3%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_201_pseudo_00751;old_locus_tag=FOIFOIMD_04051
+FOIFOIMD_90	pseudofinder	gene	39915	40033	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 9 blast hits.;locus_tag=FOIFOIMD_90_pseudo_00752;old_locus_tag=FOIFOIMD_90_ign_00021
+FOIFOIMD_280	pseudofinder	gene	40134	42218	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 65.0%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_280_pseudo_00753;old_locus_tag=FOIFOIMD_05469
+FOIFOIMD_201	pseudofinder	gene	40201	40400	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_201_pseudo_00754;old_locus_tag=FOIFOIMD_201_ign_00032
+FOIFOIMD_276	pseudofinder	gene	40389	40536	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 12 blast hits.;locus_tag=FOIFOIMD_276_pseudo_00755;old_locus_tag=FOIFOIMD_276_ign_00030
+FOIFOIMD_162	pseudofinder	gene	40484	40560	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_162_pseudo_00756;old_locus_tag=FOIFOIMD_162_ign_00017
+FOIFOIMD_146	pseudofinder	gene	40566	40813	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_146_pseudo_00757;old_locus_tag=FOIFOIMD_146_ign_00032
+FOIFOIMD_289	pseudofinder	gene	40604	41104	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 40.2%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_289_pseudo_00758;old_locus_tag=FOIFOIMD_05683
+FOIFOIMD_40	pseudofinder	gene	40767	40928	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 17.1%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_40_pseudo_00759;old_locus_tag=FOIFOIMD_00923
+FOIFOIMD_40	pseudofinder	gene	40930	41073	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 44.2%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_40_pseudo_00760;old_locus_tag=FOIFOIMD_00924
+FOIFOIMD_288	pseudofinder	gene	40975	41205	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 44.6%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_288_pseudo_00761;old_locus_tag=FOIFOIMD_05647
+FOIFOIMD_275	pseudofinder	gene	41010	41128	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 10 blast hits.;locus_tag=FOIFOIMD_275_pseudo_00762;old_locus_tag=FOIFOIMD_275_ign_00026
+FOIFOIMD_40	pseudofinder	gene	41088	41351	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 40.6%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_40_pseudo_00763;old_locus_tag=FOIFOIMD_00925
+FOIFOIMD_167	pseudofinder	gene	41191	43821	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 344.4%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_167_pseudo_00764;old_locus_tag=FOIFOIMD_03474
+FOIFOIMD_303	pseudofinder	gene	41283	41408	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=FOIFOIMD_303_pseudo_00765;old_locus_tag=FOIFOIMD_303_ign_00018
+FOIFOIMD_292	pseudofinder	gene	41584	42630	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 158.6%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_292_pseudo_00766;old_locus_tag=FOIFOIMD_05784
+FOIFOIMD_101	pseudofinder	gene	42660	44131	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FOIFOIMD_101_pseudo_00767;old_locus_tag=FOIFOIMD_02215,FOIFOIMD_02214
+FOIFOIMD_301	pseudofinder	gene	43053	44003	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 36.0%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_301_pseudo_00768;old_locus_tag=FOIFOIMD_06013
+FOIFOIMD_156	pseudofinder	gene	43413	43528	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 14 blast hits.;locus_tag=FOIFOIMD_156_pseudo_00769;old_locus_tag=FOIFOIMD_156_ign_00027
+FOIFOIMD_111	pseudofinder	gene	43414	44220	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 30.6%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_111_pseudo_00770;old_locus_tag=FOIFOIMD_02418
+FOIFOIMD_167	pseudofinder	gene	43862	44019	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_167_pseudo_00771;old_locus_tag=FOIFOIMD_167_ign_00033
+FOIFOIMD_306	pseudofinder	gene	43895	44134	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 19.7%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_306_pseudo_00772;old_locus_tag=FOIFOIMD_06122
+FOIFOIMD_167	pseudofinder	gene	44049	44300	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 40.9%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_167_pseudo_00773;old_locus_tag=FOIFOIMD_03475
+FOIFOIMD_306	pseudofinder	gene	44135	44442	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 12 blast hits.;locus_tag=FOIFOIMD_306_pseudo_00774;old_locus_tag=FOIFOIMD_306_ign_00038
+FOIFOIMD_209	pseudofinder	gene	44741	45103	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=FOIFOIMD_209_pseudo_00775;old_locus_tag=FOIFOIMD_209_ign_00022
+FOIFOIMD_278	pseudofinder	gene	44927	45757	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FOIFOIMD_278_pseudo_00776;old_locus_tag=FOIFOIMD_05380,FOIFOIMD_05381,FOIFOIMD_278_ign_00028
+FOIFOIMD_156	pseudofinder	gene	45174	45275	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 8.4%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_156_pseudo_00777;old_locus_tag=FOIFOIMD_03310
+FOIFOIMD_291	pseudofinder	gene	45332	45547	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 21.5%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_291_pseudo_00778;old_locus_tag=FOIFOIMD_05752
+FOIFOIMD_209	pseudofinder	gene	45365	48856	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 61.9%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_209_pseudo_00779;old_locus_tag=FOIFOIMD_04226
+FOIFOIMD_167	pseudofinder	gene	46007	46146	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=FOIFOIMD_167_pseudo_00780;old_locus_tag=FOIFOIMD_167_ign_00035
+FOIFOIMD_264	pseudofinder	gene	47048	49471	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 181.1%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_264_pseudo_00782;old_locus_tag=FOIFOIMD_05054
+FOIFOIMD_198	pseudofinder	gene	47253	47346	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=FOIFOIMD_198_pseudo_00783;old_locus_tag=FOIFOIMD_198_ign_00029
+FOIFOIMD_198	pseudofinder	gene	47349	47519	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 21.1%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_198_pseudo_00784;old_locus_tag=FOIFOIMD_03937
+FOIFOIMD_79	pseudofinder	gene	48192	50771	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 188.7%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_79_pseudo_00785;old_locus_tag=FOIFOIMD_01719
+FOIFOIMD_109	pseudofinder	gene	49240	49475	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_109_pseudo_00786;old_locus_tag=FOIFOIMD_109_ign_00027
+FOIFOIMD_114	pseudofinder	gene	49415	49548	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_114_pseudo_00787;old_locus_tag=FOIFOIMD_114_ign_00042
+FOIFOIMD_109	pseudofinder	gene	49478	49882	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 21.9%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_109_pseudo_00789;old_locus_tag=FOIFOIMD_02363
+FOIFOIMD_109	pseudofinder	gene	49965	51146	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 137.0%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_109_pseudo_00790;old_locus_tag=FOIFOIMD_02364
+FOIFOIMD_120	pseudofinder	gene	50065	50364	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_120_pseudo_00791;old_locus_tag=FOIFOIMD_120_ign_00029
+FOIFOIMD_92	pseudofinder	gene	50629	50856	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 13.8%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_92_pseudo_00792;old_locus_tag=FOIFOIMD_02063
+FOIFOIMD_109	pseudofinder	gene	51590	52027	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 2.1%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_109_pseudo_00793;old_locus_tag=FOIFOIMD_02366
+FOIFOIMD_101	pseudofinder	gene	51690	51854	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 6.0%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_101_pseudo_00794;old_locus_tag=FOIFOIMD_02219
+FOIFOIMD_198	pseudofinder	gene	51806	53497	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 141.9%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_198_pseudo_00795;old_locus_tag=FOIFOIMD_03941
+FOIFOIMD_201	pseudofinder	gene	52158	52544	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 215.0%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_201_pseudo_00797;old_locus_tag=FOIFOIMD_04060
+FOIFOIMD_120	pseudofinder	gene	52228	52385	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_120_pseudo_00798;old_locus_tag=FOIFOIMD_120_ign_00030
+FOIFOIMD_40	pseudofinder	gene	52760	53011	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 13.4%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_40_pseudo_00799;old_locus_tag=FOIFOIMD_00935
+FOIFOIMD_40	pseudofinder	gene	53132	53256	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_40_pseudo_00800;old_locus_tag=FOIFOIMD_40_ign_00037
+FOIFOIMD_156	pseudofinder	gene	53150	53268	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=FOIFOIMD_156_pseudo_00801;old_locus_tag=FOIFOIMD_156_ign_00034
+FOIFOIMD_207	pseudofinder	gene	53493	53635	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 12 blast hits.;locus_tag=FOIFOIMD_207_pseudo_00802;old_locus_tag=FOIFOIMD_207_ign_00045
+FOIFOIMD_156	pseudofinder	gene	53591	53962	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 147.7%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_156_pseudo_00803;old_locus_tag=FOIFOIMD_03316
+FOIFOIMD_128	pseudofinder	gene	53664	54083	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 55.8%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_128_pseudo_00804;old_locus_tag=FOIFOIMD_02787
+FOIFOIMD_17	pseudofinder	gene	54497	54664	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 11.2%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_17_pseudo_00805;old_locus_tag=FOIFOIMD_00274
+FOIFOIMD_17	pseudofinder	gene	54603	55199	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 54.3%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_17_pseudo_00806;old_locus_tag=FOIFOIMD_00275
+FOIFOIMD_278	pseudofinder	gene	56330	56415	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_278_pseudo_00807;old_locus_tag=FOIFOIMD_278_ign_00033
+FOIFOIMD_278	pseudofinder	gene	56417	56581	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 49.3%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_278_pseudo_00808;old_locus_tag=FOIFOIMD_05392
+FOIFOIMD_303	pseudofinder	gene	56499	56687	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 140.0%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_303_pseudo_00809;old_locus_tag=FOIFOIMD_06055
+FOIFOIMD_276	pseudofinder	gene	58349	58443	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_276_pseudo_00810;old_locus_tag=FOIFOIMD_276_ign_00045
+FOIFOIMD_207	pseudofinder	gene	58455	58544	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_207_pseudo_00811;old_locus_tag=FOIFOIMD_207_ign_00048
+FOIFOIMD_199	pseudofinder	gene	59172	59266	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_199_pseudo_00812;old_locus_tag=FOIFOIMD_199_ign_00047
+FOIFOIMD_201	pseudofinder	gene	59201	59323	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 27.5%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_201_pseudo_00813;old_locus_tag=FOIFOIMD_04066
+FOIFOIMD_201	pseudofinder	gene	59329	59477	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_201_pseudo_00814;old_locus_tag=FOIFOIMD_201_ign_00044
+FOIFOIMD_207	pseudofinder	gene	59516	59619	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 11 blast hits.;locus_tag=FOIFOIMD_207_pseudo_00815;old_locus_tag=FOIFOIMD_207_ign_00049
+FOIFOIMD_26	pseudofinder	gene	60692	60834	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_26_pseudo_00816;old_locus_tag=FOIFOIMD_26_ign_00041
+FOIFOIMD_40	pseudofinder	gene	61241	61999	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 170.3%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_40_pseudo_00817;old_locus_tag=FOIFOIMD_00944
+FOIFOIMD_201	pseudofinder	gene	63836	64460	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=FOIFOIMD_201_pseudo_00818;old_locus_tag=FOIFOIMD_201_ign_00045
+FOIFOIMD_199	pseudofinder	gene	64539	66491	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 50.2%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_199_pseudo_00819;old_locus_tag=FOIFOIMD_04006
+FOIFOIMD_276	pseudofinder	gene	65628	66848	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 165.7%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_276_pseudo_00820;old_locus_tag=FOIFOIMD_05320
+FOIFOIMD_264	pseudofinder	gene	67223	68344	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 35.4%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_264_pseudo_00823;old_locus_tag=FOIFOIMD_05070
+FOIFOIMD_79	pseudofinder	gene	67304	67548	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_79_pseudo_00824;old_locus_tag=FOIFOIMD_79_ign_00036
+FOIFOIMD_207	pseudofinder	gene	67733	67854	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_207_pseudo_00825;old_locus_tag=FOIFOIMD_207_ign_00054
+FOIFOIMD_207	pseudofinder	gene	67860	68564	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 62.4%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_207_pseudo_00826;old_locus_tag=FOIFOIMD_04186
+FOIFOIMD_207	pseudofinder	gene	68600	69178	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 59.2%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_207_pseudo_00828;old_locus_tag=FOIFOIMD_04187
+FOIFOIMD_40	pseudofinder	gene	70666	71513	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_40_pseudo_00829;old_locus_tag=FOIFOIMD_40_ign_00048
+FOIFOIMD_79	pseudofinder	gene	72748	73317	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 52.6%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_79_pseudo_00830;old_locus_tag=FOIFOIMD_01739
+FOIFOIMD_276	pseudofinder	gene	76395	78302	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 155.6%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_276_pseudo_00831;old_locus_tag=FOIFOIMD_05329
+FOIFOIMD_275	pseudofinder	gene	77942	79038	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_275_pseudo_00832;old_locus_tag=FOIFOIMD_275_ign_00044
+FOIFOIMD_79	pseudofinder	gene	81234	82859	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 143.5%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_79_pseudo_00833;old_locus_tag=FOIFOIMD_01747
+FOIFOIMD_26	pseudofinder	gene	95608	95708	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 13 blast hits.;locus_tag=FOIFOIMD_26_pseudo_00835;old_locus_tag=FOIFOIMD_26_ign_00071
+FOIFOIMD_26	pseudofinder	gene	95712	95909	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 31.2%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_26_pseudo_00836;old_locus_tag=FOIFOIMD_00550
+FOIFOIMD_26	pseudofinder	gene	102401	102561	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_26_pseudo_00837;old_locus_tag=FOIFOIMD_26_ign_00078
+FOIFOIMD_79	pseudofinder	gene	106006	106116	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=FOIFOIMD_79_pseudo_00838;old_locus_tag=FOIFOIMD_79_ign_00060
+FOIFOIMD_79	pseudofinder	gene	119871	120089	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 17.8%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_79_pseudo_00839;old_locus_tag=FOIFOIMD_01781
+FOIFOIMD_79	pseudofinder	gene	129320	129529	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 62.9%25 of the average length of hits to this gene.;locus_tag=FOIFOIMD_79_pseudo_00841;old_locus_tag=FOIFOIMD_01790
+FOIFOIMD_79	pseudofinder	gene	137306	137427	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FOIFOIMD_79_pseudo_00842;old_locus_tag=FOIFOIMD_79_ign_00086

@@ -1,0 +1,575 @@
+##gff-version 3
+#!annotation-date	2022-12-22 11:07:38
+##sequence-region NBPNILKP_1 1 3900
+##sequence-region NBPNILKP_2 1 8311
+##sequence-region NBPNILKP_3 1 6975
+##sequence-region NBPNILKP_4 1 7886
+##sequence-region NBPNILKP_5 1 4565
+##sequence-region NBPNILKP_6 1 68430
+##sequence-region NBPNILKP_7 1 6022
+##sequence-region NBPNILKP_8 1 4023
+##sequence-region NBPNILKP_9 1 7730
+##sequence-region NBPNILKP_10 1 10699
+##sequence-region NBPNILKP_11 1 3687
+##sequence-region NBPNILKP_12 1 4332
+##sequence-region NBPNILKP_13 1 34765
+##sequence-region NBPNILKP_14 1 4546
+##sequence-region NBPNILKP_15 1 7015
+##sequence-region NBPNILKP_16 1 2703
+##sequence-region NBPNILKP_17 1 12162
+##sequence-region NBPNILKP_18 1 7402
+##sequence-region NBPNILKP_19 1 2847
+##sequence-region NBPNILKP_20 1 6531
+##sequence-region NBPNILKP_21 1 15315
+##sequence-region NBPNILKP_22 1 8992
+##sequence-region NBPNILKP_23 1 5391
+##sequence-region NBPNILKP_24 1 28814
+##sequence-region NBPNILKP_25 1 4331
+##sequence-region NBPNILKP_26 1 6147
+##sequence-region NBPNILKP_27 1 7340
+##sequence-region NBPNILKP_28 1 16371
+##sequence-region NBPNILKP_29 1 10105
+##sequence-region NBPNILKP_30 1 10382
+##sequence-region NBPNILKP_31 1 6027
+##sequence-region NBPNILKP_32 1 5862
+##sequence-region NBPNILKP_33 1 7240
+##sequence-region NBPNILKP_34 1 2669
+##sequence-region NBPNILKP_35 1 4776
+##sequence-region NBPNILKP_36 1 12989
+##sequence-region NBPNILKP_37 1 9894
+##sequence-region NBPNILKP_38 1 5256
+##sequence-region NBPNILKP_39 1 5979
+##sequence-region NBPNILKP_40 1 41359
+##sequence-region NBPNILKP_41 1 3646
+##sequence-region NBPNILKP_42 1 19491
+##sequence-region NBPNILKP_43 1 2603
+##sequence-region NBPNILKP_44 1 10954
+##sequence-region NBPNILKP_45 1 13817
+##sequence-region NBPNILKP_46 1 16751
+##sequence-region NBPNILKP_47 1 9573
+##sequence-region NBPNILKP_48 1 12287
+##sequence-region NBPNILKP_49 1 24081
+##sequence-region NBPNILKP_50 1 4530
+##sequence-region NBPNILKP_51 1 2756
+##sequence-region NBPNILKP_52 1 50902
+##sequence-region NBPNILKP_53 1 6458
+##sequence-region NBPNILKP_54 1 9840
+##sequence-region NBPNILKP_55 1 3854
+##sequence-region NBPNILKP_56 1 5252
+##sequence-region NBPNILKP_57 1 4614
+##sequence-region NBPNILKP_58 1 2843
+##sequence-region NBPNILKP_59 1 4852
+##sequence-region NBPNILKP_60 1 5763
+##sequence-region NBPNILKP_61 1 2599
+##sequence-region NBPNILKP_62 1 2610
+##sequence-region NBPNILKP_63 1 11888
+##sequence-region NBPNILKP_64 1 3855
+##sequence-region NBPNILKP_65 1 9285
+##sequence-region NBPNILKP_66 1 8809
+##sequence-region NBPNILKP_67 1 4233
+##sequence-region NBPNILKP_68 1 7812
+##sequence-region NBPNILKP_69 1 5174
+##sequence-region NBPNILKP_70 1 36591
+##sequence-region NBPNILKP_71 1 5487
+##sequence-region NBPNILKP_72 1 13468
+##sequence-region NBPNILKP_73 1 6842
+##sequence-region NBPNILKP_74 1 5525
+##sequence-region NBPNILKP_75 1 9048
+##sequence-region NBPNILKP_76 1 7926
+##sequence-region NBPNILKP_77 1 12525
+##sequence-region NBPNILKP_78 1 4850
+##sequence-region NBPNILKP_79 1 4828
+##sequence-region NBPNILKP_80 1 5917
+##sequence-region NBPNILKP_81 1 7235
+##sequence-region NBPNILKP_82 1 4082
+##sequence-region NBPNILKP_83 1 27243
+##sequence-region NBPNILKP_84 1 14814
+##sequence-region NBPNILKP_85 1 13092
+##sequence-region NBPNILKP_86 1 2607
+##sequence-region NBPNILKP_87 1 4058
+##sequence-region NBPNILKP_88 1 8569
+##sequence-region NBPNILKP_89 1 11892
+##sequence-region NBPNILKP_90 1 15184
+##sequence-region NBPNILKP_91 1 4912
+##sequence-region NBPNILKP_92 1 5596
+##sequence-region NBPNILKP_93 1 5573
+##sequence-region NBPNILKP_94 1 2821
+##sequence-region NBPNILKP_95 1 5142
+##sequence-region NBPNILKP_96 1 8784
+##sequence-region NBPNILKP_97 1 8630
+##sequence-region NBPNILKP_98 1 3369
+##sequence-region NBPNILKP_99 1 12170
+##sequence-region NBPNILKP_100 1 3664
+##sequence-region NBPNILKP_101 1 22331
+##sequence-region NBPNILKP_102 1 4492
+##sequence-region NBPNILKP_103 1 7268
+##sequence-region NBPNILKP_104 1 4388
+##sequence-region NBPNILKP_105 1 3474
+##sequence-region NBPNILKP_106 1 3804
+##sequence-region NBPNILKP_107 1 13446
+##sequence-region NBPNILKP_108 1 5490
+##sequence-region NBPNILKP_109 1 24562
+##sequence-region NBPNILKP_110 1 12388
+##sequence-region NBPNILKP_111 1 3144
+##sequence-region NBPNILKP_112 1 5293
+##sequence-region NBPNILKP_113 1 8091
+##sequence-region NBPNILKP_114 1 4545
+##sequence-region NBPNILKP_115 1 12624
+##sequence-region NBPNILKP_116 1 3968
+##sequence-region NBPNILKP_117 1 8769
+##sequence-region NBPNILKP_118 1 4154
+##sequence-region NBPNILKP_119 1 13795
+##sequence-region NBPNILKP_120 1 3436
+##sequence-region NBPNILKP_121 1 5850
+##sequence-region NBPNILKP_122 1 4655
+##sequence-region NBPNILKP_123 1 13762
+##sequence-region NBPNILKP_124 1 14052
+##sequence-region NBPNILKP_125 1 9393
+##sequence-region NBPNILKP_126 1 9163
+##sequence-region NBPNILKP_127 1 6418
+##sequence-region NBPNILKP_128 1 10032
+##sequence-region NBPNILKP_129 1 10036
+##sequence-region NBPNILKP_130 1 7609
+##sequence-region NBPNILKP_131 1 4273
+##sequence-region NBPNILKP_132 1 3759
+##sequence-region NBPNILKP_133 1 13656
+##sequence-region NBPNILKP_134 1 7880
+##sequence-region NBPNILKP_135 1 5963
+##sequence-region NBPNILKP_136 1 16182
+##sequence-region NBPNILKP_137 1 4416
+##sequence-region NBPNILKP_138 1 8226
+##sequence-region NBPNILKP_139 1 5928
+##sequence-region NBPNILKP_140 1 6466
+##sequence-region NBPNILKP_141 1 4375
+##sequence-region NBPNILKP_142 1 16263
+##sequence-region NBPNILKP_143 1 16683
+##sequence-region NBPNILKP_144 1 3222
+##sequence-region NBPNILKP_145 1 3346
+##sequence-region NBPNILKP_146 1 5796
+##sequence-region NBPNILKP_147 1 11117
+##sequence-region NBPNILKP_148 1 7147
+##sequence-region NBPNILKP_149 1 14358
+##sequence-region NBPNILKP_150 1 3352
+##sequence-region NBPNILKP_151 1 6318
+##sequence-region NBPNILKP_152 1 10442
+##sequence-region NBPNILKP_153 1 5226
+##sequence-region NBPNILKP_154 1 19897
+##sequence-region NBPNILKP_155 1 4080
+##sequence-region NBPNILKP_156 1 8181
+##sequence-region NBPNILKP_157 1 4129
+##sequence-region NBPNILKP_158 1 7559
+##sequence-region NBPNILKP_159 1 12303
+##sequence-region NBPNILKP_160 1 3070
+##sequence-region NBPNILKP_161 1 3081
+##sequence-region NBPNILKP_162 1 3048
+##sequence-region NBPNILKP_163 1 6104
+##sequence-region NBPNILKP_164 1 8091
+##sequence-region NBPNILKP_165 1 4603
+##sequence-region NBPNILKP_166 1 19931
+##sequence-region NBPNILKP_167 1 7197
+##sequence-region NBPNILKP_168 1 14641
+##sequence-region NBPNILKP_169 1 7174
+##sequence-region NBPNILKP_170 1 10714
+##sequence-region NBPNILKP_171 1 4954
+##sequence-region NBPNILKP_172 1 16843
+##sequence-region NBPNILKP_173 1 2899
+##sequence-region NBPNILKP_174 1 5668
+##sequence-region NBPNILKP_175 1 15993
+##sequence-region NBPNILKP_176 1 2617
+##sequence-region NBPNILKP_177 1 11718
+##sequence-region NBPNILKP_178 1 6767
+##sequence-region NBPNILKP_179 1 9647
+##sequence-region NBPNILKP_180 1 2662
+##sequence-region NBPNILKP_181 1 3258
+##sequence-region NBPNILKP_182 1 11506
+##sequence-region NBPNILKP_183 1 3304
+##sequence-region NBPNILKP_184 1 8055
+##sequence-region NBPNILKP_185 1 8572
+##sequence-region NBPNILKP_186 1 4716
+##sequence-region NBPNILKP_187 1 9306
+##sequence-region NBPNILKP_188 1 3570
+##sequence-region NBPNILKP_189 1 2888
+##sequence-region NBPNILKP_190 1 7276
+##sequence-region NBPNILKP_191 1 4031
+##sequence-region NBPNILKP_192 1 9567
+##sequence-region NBPNILKP_193 1 7352
+##sequence-region NBPNILKP_194 1 6773
+##sequence-region NBPNILKP_195 1 6937
+##sequence-region NBPNILKP_196 1 16014
+##sequence-region NBPNILKP_197 1 14628
+##sequence-region NBPNILKP_198 1 4626
+##sequence-region NBPNILKP_199 1 14512
+##sequence-region NBPNILKP_200 1 3151
+##sequence-region NBPNILKP_201 1 11076
+##sequence-region NBPNILKP_202 1 6349
+##sequence-region NBPNILKP_203 1 5937
+##sequence-region NBPNILKP_204 1 6845
+##sequence-region NBPNILKP_205 1 17091
+##sequence-region NBPNILKP_206 1 4235
+##sequence-region NBPNILKP_207 1 7572
+##sequence-region NBPNILKP_208 1 4108
+##sequence-region NBPNILKP_209 1 4047
+##sequence-region NBPNILKP_210 1 3427
+##sequence-region NBPNILKP_211 1 4932
+##sequence-region NBPNILKP_212 1 5286
+##sequence-region NBPNILKP_213 1 10659
+##sequence-region NBPNILKP_214 1 17591
+##sequence-region NBPNILKP_215 1 7489
+##sequence-region NBPNILKP_216 1 5572
+##sequence-region NBPNILKP_217 1 8317
+##sequence-region NBPNILKP_218 1 7375
+##sequence-region NBPNILKP_219 1 10607
+##sequence-region NBPNILKP_220 1 4788
+##sequence-region NBPNILKP_221 1 7255
+##sequence-region NBPNILKP_222 1 6579
+##sequence-region NBPNILKP_223 1 10865
+##sequence-region NBPNILKP_224 1 3362
+##sequence-region NBPNILKP_225 1 7392
+##sequence-region NBPNILKP_226 1 19677
+##sequence-region NBPNILKP_227 1 6550
+##sequence-region NBPNILKP_228 1 14721
+##sequence-region NBPNILKP_229 1 3904
+##sequence-region NBPNILKP_230 1 7078
+##sequence-region NBPNILKP_231 1 3393
+##sequence-region NBPNILKP_232 1 8636
+##sequence-region NBPNILKP_233 1 7395
+##sequence-region NBPNILKP_234 1 8385
+##sequence-region NBPNILKP_235 1 12285
+##sequence-region NBPNILKP_236 1 5029
+##sequence-region NBPNILKP_237 1 3096
+##sequence-region NBPNILKP_238 1 5981
+##sequence-region NBPNILKP_239 1 2620
+##sequence-region NBPNILKP_240 1 3975
+##sequence-region NBPNILKP_241 1 2568
+##sequence-region NBPNILKP_242 1 6926
+##sequence-region NBPNILKP_243 1 23519
+##sequence-region NBPNILKP_244 1 4146
+##sequence-region NBPNILKP_245 1 4811
+##sequence-region NBPNILKP_246 1 3969
+##sequence-region NBPNILKP_247 1 8801
+##sequence-region NBPNILKP_248 1 10646
+##sequence-region NBPNILKP_249 1 11425
+##sequence-region NBPNILKP_250 1 4511
+##sequence-region NBPNILKP_251 1 3590
+##sequence-region NBPNILKP_252 1 5233
+##sequence-region NBPNILKP_253 1 5747
+##sequence-region NBPNILKP_254 1 6918
+##sequence-region NBPNILKP_255 1 22558
+##sequence-region NBPNILKP_256 1 4536
+##sequence-region NBPNILKP_257 1 3339
+##sequence-region NBPNILKP_258 1 13850
+##sequence-region NBPNILKP_259 1 6731
+##sequence-region NBPNILKP_260 1 15790
+##sequence-region NBPNILKP_261 1 7926
+##sequence-region NBPNILKP_262 1 3515
+##sequence-region NBPNILKP_263 1 2984
+##sequence-region NBPNILKP_264 1 2813
+##sequence-region NBPNILKP_265 1 3121
+##sequence-region NBPNILKP_266 1 10433
+##sequence-region NBPNILKP_267 1 15620
+##sequence-region NBPNILKP_268 1 9905
+##sequence-region NBPNILKP_269 1 9523
+##sequence-region NBPNILKP_270 1 3643
+##sequence-region NBPNILKP_271 1 9609
+##sequence-region NBPNILKP_272 1 7637
+##sequence-region NBPNILKP_273 1 16385
+##sequence-region NBPNILKP_274 1 5146
+##sequence-region NBPNILKP_275 1 4911
+##sequence-region NBPNILKP_276 1 7391
+##sequence-region NBPNILKP_277 1 3367
+##sequence-region NBPNILKP_278 1 21056
+##sequence-region NBPNILKP_279 1 5862
+##sequence-region NBPNILKP_280 1 5855
+##sequence-region NBPNILKP_281 1 5014
+##sequence-region NBPNILKP_282 1 10340
+##sequence-region NBPNILKP_283 1 5357
+##sequence-region NBPNILKP_284 1 12876
+##sequence-region NBPNILKP_285 1 14292
+##sequence-region NBPNILKP_286 1 8838
+##sequence-region NBPNILKP_287 1 5707
+##sequence-region NBPNILKP_288 1 10991
+##sequence-region NBPNILKP_289 1 6283
+##sequence-region NBPNILKP_290 1 27604
+##sequence-region NBPNILKP_291 1 2613
+##sequence-region NBPNILKP_292 1 32246
+##sequence-region NBPNILKP_293 1 9737
+##sequence-region NBPNILKP_294 1 5190
+##sequence-region NBPNILKP_295 1 5987
+##sequence-region NBPNILKP_296 1 11710
+##sequence-region NBPNILKP_297 1 21832
+##sequence-region NBPNILKP_298 1 3653
+##sequence-region NBPNILKP_299 1 18381
+##sequence-region NBPNILKP_300 1 6033
+##sequence-region NBPNILKP_301 1 3697
+##sequence-region NBPNILKP_302 1 9603
+##sequence-region NBPNILKP_303 1 3815
+##sequence-region NBPNILKP_304 1 36183
+##sequence-region NBPNILKP_305 1 6358
+##sequence-region NBPNILKP_306 1 21730
+##sequence-region NBPNILKP_307 1 6516
+##sequence-region NBPNILKP_308 1 18907
+##sequence-region NBPNILKP_309 1 2923
+##sequence-region NBPNILKP_310 1 17042
+##sequence-region NBPNILKP_311 1 7943
+##sequence-region NBPNILKP_312 1 6140
+##sequence-region NBPNILKP_313 1 39926
+##sequence-region NBPNILKP_314 1 2701
+##sequence-region NBPNILKP_315 1 3982
+##sequence-region NBPNILKP_316 1 4623
+##sequence-region NBPNILKP_317 1 4971
+##sequence-region NBPNILKP_318 1 3630
+##sequence-region NBPNILKP_319 1 11255
+##sequence-region NBPNILKP_320 1 5644
+##sequence-region NBPNILKP_321 1 2693
+##sequence-region NBPNILKP_322 1 15968
+##sequence-region NBPNILKP_323 1 9565
+##sequence-region NBPNILKP_324 1 18699
+##sequence-region NBPNILKP_325 1 12924
+##sequence-region NBPNILKP_326 1 5901
+##sequence-region NBPNILKP_327 1 10529
+##sequence-region NBPNILKP_328 1 13878
+##sequence-region NBPNILKP_329 1 4254
+##sequence-region NBPNILKP_330 1 2634
+##sequence-region NBPNILKP_331 1 6304
+##sequence-region NBPNILKP_332 1 9872
+##sequence-region NBPNILKP_333 1 10923
+##sequence-region NBPNILKP_334 1 6467
+##sequence-region NBPNILKP_335 1 3124
+##sequence-region NBPNILKP_336 1 8152
+##sequence-region NBPNILKP_337 1 16727
+##sequence-region NBPNILKP_338 1 7023
+##sequence-region NBPNILKP_339 1 5568
+##sequence-region NBPNILKP_340 1 2951
+NBPNILKP_22	pseudofinder	gene	29	262	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 25.0%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_22_pseudo_00001;old_locus_tag=NBPNILKP_00172
+NBPNILKP_32	pseudofinder	gene	31	279	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 14.0%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_32_pseudo_00002;old_locus_tag=NBPNILKP_00241
+NBPNILKP_2	pseudofinder	gene	46	447	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 42.0%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_2_pseudo_00003;old_locus_tag=NBPNILKP_00003
+NBPNILKP_121	pseudofinder	gene	99	443	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 56.2%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_121_pseudo_00004;old_locus_tag=NBPNILKP_00823
+NBPNILKP_146	pseudofinder	gene	170	325	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 18.5%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_146_pseudo_00005;old_locus_tag=NBPNILKP_00943
+NBPNILKP_196	pseudofinder	gene	226	1684	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=NBPNILKP_196_pseudo_00006;old_locus_tag=NBPNILKP_01210,NBPNILKP_01211,NBPNILKP_196_ign_00001
+NBPNILKP_166	pseudofinder	gene	233	418	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 24.2%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_166_pseudo_00007;old_locus_tag=NBPNILKP_01052
+NBPNILKP_336	pseudofinder	gene	246	548	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 31.9%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_336_pseudo_00008;old_locus_tag=NBPNILKP_02062
+NBPNILKP_35	pseudofinder	gene	291	473	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 28.8%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_35_pseudo_00009;old_locus_tag=NBPNILKP_00253
+NBPNILKP_240	pseudofinder	gene	394	546	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 20.3%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_240_pseudo_00010;old_locus_tag=NBPNILKP_01446
+NBPNILKP_160	pseudofinder	gene	425	1778	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_160_pseudo_00011;old_locus_tag=NBPNILKP_160_ign_00001
+NBPNILKP_166	pseudofinder	gene	456	745	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_166_pseudo_00012;old_locus_tag=NBPNILKP_166_ign_00001
+NBPNILKP_35	pseudofinder	gene	474	1489	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_35_pseudo_00013;old_locus_tag=NBPNILKP_35_ign_00001
+NBPNILKP_336	pseudofinder	gene	550	731	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_336_pseudo_00014;old_locus_tag=NBPNILKP_336_ign_00001
+NBPNILKP_211	pseudofinder	gene	588	1180	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_211_pseudo_00015;old_locus_tag=NBPNILKP_211_ign_00001
+NBPNILKP_317	pseudofinder	gene	623	736	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 7.3%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_317_pseudo_00016;old_locus_tag=NBPNILKP_01946
+NBPNILKP_18	pseudofinder	gene	640	2408	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=NBPNILKP_18_pseudo_00017;old_locus_tag=NBPNILKP_00149,NBPNILKP_18_ign_00002,NBPNILKP_18_ign_00001
+NBPNILKP_273	pseudofinder	gene	692	1066	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 63.2%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_273_pseudo_00018;old_locus_tag=NBPNILKP_01597
+NBPNILKP_317	pseudofinder	gene	771	1976	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 11 blast hits.;locus_tag=NBPNILKP_317_pseudo_00019;old_locus_tag=NBPNILKP_317_ign_00001
+NBPNILKP_153	pseudofinder	gene	791	976	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 20.9%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_153_pseudo_00020;old_locus_tag=NBPNILKP_00985
+NBPNILKP_297	pseudofinder	gene	793	1125	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 62.0%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_297_pseudo_00021;old_locus_tag=NBPNILKP_01775
+NBPNILKP_177	pseudofinder	gene	1027	2066	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=NBPNILKP_177_pseudo_00022;old_locus_tag=NBPNILKP_177_ign_00001
+NBPNILKP_138	pseudofinder	gene	1210	1775	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=NBPNILKP_138_pseudo_00023;old_locus_tag=NBPNILKP_138_ign_00002,NBPNILKP_00909
+NBPNILKP_297	pseudofinder	gene	1228	1430	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_297_pseudo_00024;old_locus_tag=NBPNILKP_297_ign_00001
+NBPNILKP_237	pseudofinder	gene	1290	1493	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 49.4%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_237_pseudo_00025;old_locus_tag=NBPNILKP_01439
+NBPNILKP_63	pseudofinder	gene	1372	1772	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_63_pseudo_00026;old_locus_tag=NBPNILKP_63_ign_00001
+NBPNILKP_288	pseudofinder	gene	1398	1622	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 19.4%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_288_pseudo_00027;old_locus_tag=NBPNILKP_01692
+NBPNILKP_246	pseudofinder	gene	1400	2124	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_246_pseudo_00028;old_locus_tag=NBPNILKP_246_ign_00001
+NBPNILKP_211	pseudofinder	gene	1417	1613	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_211_pseudo_00029;old_locus_tag=NBPNILKP_211_ign_00002
+NBPNILKP_273	pseudofinder	gene	1578	2860	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_273_pseudo_00030;old_locus_tag=NBPNILKP_273_ign_00001
+NBPNILKP_230	pseudofinder	gene	1597	1734	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 21.2%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_230_pseudo_00031;old_locus_tag=NBPNILKP_01404
+NBPNILKP_79	pseudofinder	gene	1700	1903	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 44.3%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_79_pseudo_00032;old_locus_tag=NBPNILKP_00577
+NBPNILKP_17	pseudofinder	gene	1703	1812	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_17_pseudo_00033;old_locus_tag=NBPNILKP_17_ign_00001
+NBPNILKP_43	pseudofinder	gene	1705	2577	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 47.5%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_43_pseudo_00034;old_locus_tag=NBPNILKP_00337
+NBPNILKP_226	pseudofinder	gene	1752	2269	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_226_pseudo_00035;old_locus_tag=NBPNILKP_226_ign_00002
+NBPNILKP_230	pseudofinder	gene	1799	1947	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_230_pseudo_00036;old_locus_tag=NBPNILKP_230_ign_00003
+NBPNILKP_191	pseudofinder	gene	1813	2073	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 20.7%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_191_pseudo_00037;old_locus_tag=NBPNILKP_01184
+NBPNILKP_206	pseudofinder	gene	1835	2839	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 61.1%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_206_pseudo_00038;old_locus_tag=NBPNILKP_01277
+NBPNILKP_106	pseudofinder	gene	1878	2954	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_106_pseudo_00039;old_locus_tag=NBPNILKP_106_ign_00001
+NBPNILKP_230	pseudofinder	gene	1949	2419	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 63.9%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_230_pseudo_00040;old_locus_tag=NBPNILKP_01405
+NBPNILKP_295	pseudofinder	gene	1968	3491	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 63.8%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_295_pseudo_00041;old_locus_tag=NBPNILKP_01761
+NBPNILKP_288	pseudofinder	gene	1974	2177	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 27.8%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_288_pseudo_00042;old_locus_tag=NBPNILKP_01693
+NBPNILKP_76	pseudofinder	gene	1979	2374	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 21.5%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_76_pseudo_00043;old_locus_tag=NBPNILKP_00562
+NBPNILKP_214	pseudofinder	gene	2008	2153	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=NBPNILKP_214_pseudo_00044;old_locus_tag=NBPNILKP_214_ign_00002
+NBPNILKP_73	pseudofinder	gene	2037	2362	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_73_pseudo_00045;old_locus_tag=NBPNILKP_73_ign_00001
+NBPNILKP_191	pseudofinder	gene	2067	2495	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 31.6%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_191_pseudo_00046;old_locus_tag=NBPNILKP_01185
+NBPNILKP_91	pseudofinder	gene	2091	3268	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_91_pseudo_00047;old_locus_tag=NBPNILKP_91_ign_00001
+NBPNILKP_47	pseudofinder	gene	2105	2448	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_47_pseudo_00048;old_locus_tag=NBPNILKP_47_ign_00002
+NBPNILKP_325	pseudofinder	gene	2113	2946	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=NBPNILKP_325_pseudo_00049;old_locus_tag=NBPNILKP_325_ign_00002,NBPNILKP_01996,NBPNILKP_01997
+NBPNILKP_107	pseudofinder	gene	2124	2492	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 50.5%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_107_pseudo_00050;old_locus_tag=NBPNILKP_00736
+NBPNILKP_288	pseudofinder	gene	2143	2289	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 22.6%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_288_pseudo_00051;old_locus_tag=NBPNILKP_01694
+NBPNILKP_29	pseudofinder	gene	2236	2582	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_29_pseudo_00052;old_locus_tag=NBPNILKP_29_ign_00001
+NBPNILKP_340	pseudofinder	gene	2268	2906	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 38.1%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_340_pseudo_00053;old_locus_tag=NBPNILKP_02087
+NBPNILKP_42	pseudofinder	gene	2321	3081	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_42_pseudo_00054;old_locus_tag=NBPNILKP_42_ign_00002
+NBPNILKP_45	pseudofinder	gene	2330	2517	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_45_pseudo_00055;old_locus_tag=NBPNILKP_45_ign_00001
+NBPNILKP_73	pseudofinder	gene	2364	2780	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 51.1%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_73_pseudo_00056;old_locus_tag=NBPNILKP_00551
+NBPNILKP_191	pseudofinder	gene	2455	2838	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 28.1%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_191_pseudo_00057;old_locus_tag=NBPNILKP_01186
+NBPNILKP_214	pseudofinder	gene	2471	2695	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 25.7%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_214_pseudo_00058;old_locus_tag=NBPNILKP_01314
+NBPNILKP_236	pseudofinder	gene	2485	2600	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=NBPNILKP_236_pseudo_00059;old_locus_tag=NBPNILKP_236_ign_00002
+NBPNILKP_107	pseudofinder	gene	2493	2716	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_107_pseudo_00060;old_locus_tag=NBPNILKP_107_ign_00002
+NBPNILKP_281	pseudofinder	gene	2610	2873	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 63.1%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_281_pseudo_00061;old_locus_tag=NBPNILKP_01645
+NBPNILKP_214	pseudofinder	gene	2723	3413	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_214_pseudo_00062;old_locus_tag=NBPNILKP_214_ign_00003
+NBPNILKP_44	pseudofinder	gene	2735	3674	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=NBPNILKP_44_pseudo_00063;old_locus_tag=NBPNILKP_00340,NBPNILKP_44_ign_00002
+NBPNILKP_191	pseudofinder	gene	2784	3161	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 29.9%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_191_pseudo_00064;old_locus_tag=NBPNILKP_01187
+NBPNILKP_73	pseudofinder	gene	2804	2929	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 17.4%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_73_pseudo_00065;old_locus_tag=NBPNILKP_00552
+NBPNILKP_325	pseudofinder	gene	2960	3078	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_325_pseudo_00066;old_locus_tag=NBPNILKP_325_ign_00003
+NBPNILKP_13	pseudofinder	gene	3016	3568	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_13_pseudo_00067;old_locus_tag=NBPNILKP_13_ign_00001
+NBPNILKP_274	pseudofinder	gene	3017	3189	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_274_pseudo_00068;old_locus_tag=NBPNILKP_274_ign_00002
+NBPNILKP_67	pseudofinder	gene	3066	3223	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_67_pseudo_00069;old_locus_tag=NBPNILKP_67_ign_00001
+NBPNILKP_325	pseudofinder	gene	3080	3477	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=NBPNILKP_325_pseudo_00070;old_locus_tag=NBPNILKP_325_ign_00004,NBPNILKP_01998
+NBPNILKP_283	pseudofinder	gene	3083	3456	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_283_pseudo_00071;old_locus_tag=NBPNILKP_283_ign_00002
+NBPNILKP_141	pseudofinder	gene	3088	4163	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_141_pseudo_00072;old_locus_tag=NBPNILKP_141_ign_00002
+NBPNILKP_191	pseudofinder	gene	3162	3247	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_191_pseudo_00073;old_locus_tag=NBPNILKP_191_ign_00002
+NBPNILKP_106	pseudofinder	gene	3176	3751	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 25.8%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_106_pseudo_00074;old_locus_tag=NBPNILKP_00734
+NBPNILKP_319	pseudofinder	gene	3189	3719	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_319_pseudo_00075;old_locus_tag=NBPNILKP_319_ign_00003
+NBPNILKP_191	pseudofinder	gene	3250	3522	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 32.7%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_191_pseudo_00076;old_locus_tag=NBPNILKP_01188
+NBPNILKP_84	pseudofinder	gene	3259	3636	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 59.0%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_84_pseudo_00077;old_locus_tag=NBPNILKP_00607
+NBPNILKP_227	pseudofinder	gene	3332	3541	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 45.4%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_227_pseudo_00078;old_locus_tag=NBPNILKP_01386
+NBPNILKP_38	pseudofinder	gene	3344	3586	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 25.1%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_38_pseudo_00079;old_locus_tag=NBPNILKP_00276
+NBPNILKP_312	pseudofinder	gene	3399	3497	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 60.3%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_312_pseudo_00080;old_locus_tag=NBPNILKP_01906
+NBPNILKP_78	pseudofinder	gene	3427	3660	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 15.6%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_78_pseudo_00081;old_locus_tag=NBPNILKP_00573
+NBPNILKP_151	pseudofinder	gene	3482	3714	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 9 blast hits.;locus_tag=NBPNILKP_151_pseudo_00082;old_locus_tag=NBPNILKP_151_ign_00001
+NBPNILKP_295	pseudofinder	gene	3492	4258	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_295_pseudo_00083;old_locus_tag=NBPNILKP_295_ign_00003
+NBPNILKP_137	pseudofinder	gene	3680	4396	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 59.6%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_137_pseudo_00084;old_locus_tag=NBPNILKP_00907
+NBPNILKP_35	pseudofinder	gene	3689	3879	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_35_pseudo_00085;old_locus_tag=NBPNILKP_35_ign_00003
+NBPNILKP_156	pseudofinder	gene	3695	3910	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 175.6%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_156_pseudo_00086;old_locus_tag=NBPNILKP_01006
+NBPNILKP_245	pseudofinder	gene	3715	4806	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 54.1%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_245_pseudo_00087;old_locus_tag=NBPNILKP_01474
+NBPNILKP_44	pseudofinder	gene	3739	3927	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 52.0%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_44_pseudo_00088;old_locus_tag=NBPNILKP_00341
+NBPNILKP_151	pseudofinder	gene	3764	3904	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 13.3%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_151_pseudo_00089;old_locus_tag=NBPNILKP_00974
+NBPNILKP_319	pseudofinder	gene	3766	3891	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 19.7%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_319_pseudo_00090;old_locus_tag=NBPNILKP_01953
+NBPNILKP_281	pseudofinder	gene	3805	3981	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 14.4%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_281_pseudo_00091;old_locus_tag=NBPNILKP_01646
+NBPNILKP_215	pseudofinder	gene	3858	4090	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_215_pseudo_00092;old_locus_tag=NBPNILKP_215_ign_00003
+NBPNILKP_313	pseudofinder	gene	3901	4868	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=NBPNILKP_313_pseudo_00093;old_locus_tag=NBPNILKP_313_ign_00005,NBPNILKP_01913
+NBPNILKP_83	pseudofinder	gene	3916	4104	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 24.9%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_83_pseudo_00094;old_locus_tag=NBPNILKP_00590
+NBPNILKP_332	pseudofinder	gene	4022	4581	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=NBPNILKP_332_pseudo_00095;old_locus_tag=NBPNILKP_02042,NBPNILKP_332_ign_00003
+NBPNILKP_286	pseudofinder	gene	4126	4425	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 35.7%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_286_pseudo_00096;old_locus_tag=NBPNILKP_01683
+NBPNILKP_285	pseudofinder	gene	4129	4380	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 35.3%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_285_pseudo_00097;old_locus_tag=NBPNILKP_01676
+NBPNILKP_83	pseudofinder	gene	4215	4424	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 22.8%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_83_pseudo_00098;old_locus_tag=NBPNILKP_00591
+NBPNILKP_125	pseudofinder	gene	4244	4446	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_125_pseudo_00099;old_locus_tag=NBPNILKP_125_ign_00001
+NBPNILKP_13	pseudofinder	gene	4289	4507	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 20.9%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_13_pseudo_00100;old_locus_tag=NBPNILKP_00101
+NBPNILKP_232	pseudofinder	gene	4312	5165	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_232_pseudo_00101;old_locus_tag=NBPNILKP_232_ign_00004
+NBPNILKP_151	pseudofinder	gene	4333	4502	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=NBPNILKP_151_pseudo_00102;old_locus_tag=NBPNILKP_151_ign_00003
+NBPNILKP_286	pseudofinder	gene	4397	4684	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 32.4%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_286_pseudo_00103;old_locus_tag=NBPNILKP_01684
+NBPNILKP_255	pseudofinder	gene	4458	5791	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_255_pseudo_00104;old_locus_tag=NBPNILKP_255_ign_00002
+NBPNILKP_130	pseudofinder	gene	4541	4938	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_130_pseudo_00105;old_locus_tag=NBPNILKP_130_ign_00001
+NBPNILKP_83	pseudofinder	gene	4556	4750	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 20.3%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_83_pseudo_00106;old_locus_tag=NBPNILKP_00592
+NBPNILKP_110	pseudofinder	gene	4616	5070	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_110_pseudo_00107;old_locus_tag=NBPNILKP_110_ign_00005
+NBPNILKP_286	pseudofinder	gene	4720	5139	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 44.7%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_286_pseudo_00108;old_locus_tag=NBPNILKP_01685
+NBPNILKP_138	pseudofinder	gene	4728	6436	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_138_pseudo_00109;old_locus_tag=NBPNILKP_138_ign_00003
+NBPNILKP_83	pseudofinder	gene	4752	4936	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_83_pseudo_00110;old_locus_tag=NBPNILKP_83_ign_00004
+NBPNILKP_84	pseudofinder	gene	4765	5093	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 8 blast hits.;locus_tag=NBPNILKP_84_pseudo_00111;old_locus_tag=NBPNILKP_84_ign_00002
+NBPNILKP_93	pseudofinder	gene	4826	4915	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 35.3%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_93_pseudo_00112;old_locus_tag=NBPNILKP_00667
+NBPNILKP_101	pseudofinder	gene	4867	5040	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 10.5%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_101_pseudo_00113;old_locus_tag=NBPNILKP_00707
+NBPNILKP_89	pseudofinder	gene	4900	5376	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 49.2%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_89_pseudo_00114;old_locus_tag=NBPNILKP_00635
+NBPNILKP_22	pseudofinder	gene	4917	5662	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_22_pseudo_00115;old_locus_tag=NBPNILKP_22_ign_00003
+NBPNILKP_324	pseudofinder	gene	4924	5405	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_324_pseudo_00116;old_locus_tag=NBPNILKP_324_ign_00003
+NBPNILKP_184	pseudofinder	gene	5045	5251	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 52.6%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_184_pseudo_00117;old_locus_tag=NBPNILKP_01159
+NBPNILKP_101	pseudofinder	gene	5047	5321	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_101_pseudo_00118;old_locus_tag=NBPNILKP_101_ign_00004
+NBPNILKP_313	pseudofinder	gene	5056	5616	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 64.2%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_313_pseudo_00119;old_locus_tag=NBPNILKP_01914
+NBPNILKP_276	pseudofinder	gene	5125	5327	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_276_pseudo_00120;old_locus_tag=NBPNILKP_276_ign_00002
+NBPNILKP_232	pseudofinder	gene	5169	5339	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 36.4%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_232_pseudo_00121;old_locus_tag=NBPNILKP_01412
+NBPNILKP_227	pseudofinder	gene	5280	5561	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 142.9%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_227_pseudo_00122;old_locus_tag=NBPNILKP_01390
+NBPNILKP_46	pseudofinder	gene	5334	5695	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_46_pseudo_00123;old_locus_tag=NBPNILKP_46_ign_00003
+NBPNILKP_226	pseudofinder	gene	5343	5477	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 64.3%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_226_pseudo_00124;old_locus_tag=NBPNILKP_01372
+NBPNILKP_89	pseudofinder	gene	5412	5870	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 49.0%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_89_pseudo_00125;old_locus_tag=NBPNILKP_00636
+NBPNILKP_192	pseudofinder	gene	5505	5717	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 20.9%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_192_pseudo_00126;old_locus_tag=NBPNILKP_01192
+NBPNILKP_313	pseudofinder	gene	5558	5797	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 50.8%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_313_pseudo_00127;old_locus_tag=NBPNILKP_01915
+NBPNILKP_196	pseudofinder	gene	5597	6190	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=NBPNILKP_196_pseudo_00128;old_locus_tag=NBPNILKP_01215,NBPNILKP_196_ign_00005
+NBPNILKP_284	pseudofinder	gene	5682	5864	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 11.0%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_284_pseudo_00129;old_locus_tag=NBPNILKP_01664
+NBPNILKP_192	pseudofinder	gene	5877	6065	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 18.8%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_192_pseudo_00130;old_locus_tag=NBPNILKP_01194
+NBPNILKP_187	pseudofinder	gene	5979	7317	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_187_pseudo_00131;old_locus_tag=NBPNILKP_187_ign_00004
+NBPNILKP_192	pseudofinder	gene	6066	6415	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_192_pseudo_00132;old_locus_tag=NBPNILKP_192_ign_00004
+NBPNILKP_167	pseudofinder	gene	6128	6429	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_167_pseudo_00133;old_locus_tag=NBPNILKP_167_ign_00003
+NBPNILKP_284	pseudofinder	gene	6141	6559	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_284_pseudo_00134;old_locus_tag=NBPNILKP_284_ign_00004
+NBPNILKP_158	pseudofinder	gene	6167	6543	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_158_pseudo_00135;old_locus_tag=NBPNILKP_158_ign_00006
+NBPNILKP_44	pseudofinder	gene	6178	6645	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_44_pseudo_00136;old_locus_tag=NBPNILKP_44_ign_00005
+NBPNILKP_288	pseudofinder	gene	6278	6393	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_288_pseudo_00137;old_locus_tag=NBPNILKP_288_ign_00005
+NBPNILKP_213	pseudofinder	gene	6328	6728	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_213_pseudo_00138;old_locus_tag=NBPNILKP_213_ign_00003
+NBPNILKP_119	pseudofinder	gene	6340	7439	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_119_pseudo_00139;old_locus_tag=NBPNILKP_119_ign_00004
+NBPNILKP_167	pseudofinder	gene	6432	6641	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 43.2%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_167_pseudo_00140;old_locus_tag=NBPNILKP_01069
+NBPNILKP_322	pseudofinder	gene	6467	6793	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 56.3%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_322_pseudo_00141;old_locus_tag=NBPNILKP_01967
+NBPNILKP_18	pseudofinder	gene	6495	6827	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=NBPNILKP_18_pseudo_00142;old_locus_tag=NBPNILKP_00152,NBPNILKP_18_ign_00004
+NBPNILKP_284	pseudofinder	gene	6562	7089	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 31.3%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_284_pseudo_00143;old_locus_tag=NBPNILKP_01666
+NBPNILKP_195	pseudofinder	gene	6627	6776	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 17.8%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_195_pseudo_00144;old_locus_tag=NBPNILKP_01209
+NBPNILKP_322	pseudofinder	gene	6795	6953	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 25.9%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_322_pseudo_00145;old_locus_tag=NBPNILKP_01968
+NBPNILKP_333	pseudofinder	gene	6802	7275	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 49.5%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_333_pseudo_00146;old_locus_tag=NBPNILKP_02050
+NBPNILKP_40	pseudofinder	gene	6821	7171	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 45.8%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_40_pseudo_00147;old_locus_tag=NBPNILKP_00288
+NBPNILKP_44	pseudofinder	gene	6845	7062	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_44_pseudo_00148;old_locus_tag=NBPNILKP_44_ign_00006
+NBPNILKP_322	pseudofinder	gene	6958	7226	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_322_pseudo_00149;old_locus_tag=NBPNILKP_322_ign_00007
+NBPNILKP_48	pseudofinder	gene	6988	7341	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=NBPNILKP_48_pseudo_00150;old_locus_tag=NBPNILKP_48_ign_00004
+NBPNILKP_284	pseudofinder	gene	7090	7184	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_284_pseudo_00151;old_locus_tag=NBPNILKP_284_ign_00005
+NBPNILKP_306	pseudofinder	gene	7127	7644	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_306_pseudo_00152;old_locus_tag=NBPNILKP_306_ign_00006
+NBPNILKP_18	pseudofinder	gene	7132	7398	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 26.4%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_18_pseudo_00153;old_locus_tag=NBPNILKP_00154
+NBPNILKP_40	pseudofinder	gene	7172	7596	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_40_pseudo_00154;old_locus_tag=NBPNILKP_40_ign_00006
+NBPNILKP_284	pseudofinder	gene	7186	7959	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 55.3%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_284_pseudo_00155;old_locus_tag=NBPNILKP_01667
+NBPNILKP_44	pseudofinder	gene	7213	7497	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 18.5%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_44_pseudo_00156;old_locus_tag=NBPNILKP_00344
+NBPNILKP_235	pseudofinder	gene	7257	7445	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 57.1%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_235_pseudo_00157;old_locus_tag=NBPNILKP_01429
+NBPNILKP_44	pseudofinder	gene	7503	8119	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_44_pseudo_00158;old_locus_tag=NBPNILKP_44_ign_00007
+NBPNILKP_45	pseudofinder	gene	7575	7981	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_45_pseudo_00159;old_locus_tag=NBPNILKP_45_ign_00003
+NBPNILKP_213	pseudofinder	gene	7589	7809	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_213_pseudo_00160;old_locus_tag=NBPNILKP_213_ign_00004
+NBPNILKP_286	pseudofinder	gene	7736	7987	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 148.0%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_286_pseudo_00161;old_locus_tag=NBPNILKP_01688
+NBPNILKP_213	pseudofinder	gene	7965	8255	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 13.5%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_213_pseudo_00162;old_locus_tag=NBPNILKP_01306
+NBPNILKP_44	pseudofinder	gene	8121	8390	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 17.6%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_44_pseudo_00163;old_locus_tag=NBPNILKP_00345
+NBPNILKP_306	pseudofinder	gene	8128	8433	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 32.5%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_306_pseudo_00164;old_locus_tag=NBPNILKP_01863
+NBPNILKP_296	pseudofinder	gene	8141	8376	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_296_pseudo_00165;old_locus_tag=NBPNILKP_296_ign_00005
+NBPNILKP_37	pseudofinder	gene	8174	8440	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 25.0%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_37_pseudo_00166;old_locus_tag=NBPNILKP_00272
+NBPNILKP_187	pseudofinder	gene	8223	8399	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 14.7%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_187_pseudo_00167;old_locus_tag=NBPNILKP_01175
+NBPNILKP_213	pseudofinder	gene	8256	8806	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_213_pseudo_00168;old_locus_tag=NBPNILKP_213_ign_00005
+NBPNILKP_306	pseudofinder	gene	8409	8867	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 49.0%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_306_pseudo_00169;old_locus_tag=NBPNILKP_01864
+NBPNILKP_37	pseudofinder	gene	8441	8739	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_37_pseudo_00170;old_locus_tag=NBPNILKP_37_ign_00008
+NBPNILKP_187	pseudofinder	gene	8443	8516	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_187_pseudo_00171;old_locus_tag=NBPNILKP_187_ign_00005
+NBPNILKP_47	pseudofinder	gene	8453	9496	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 52.8%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_47_pseudo_00172;old_locus_tag=NBPNILKP_00367
+NBPNILKP_187	pseudofinder	gene	8527	8823	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 21.5%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_187_pseudo_00173;old_locus_tag=NBPNILKP_01176
+NBPNILKP_278	pseudofinder	gene	8710	9135	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 48.4%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_278_pseudo_00174;old_locus_tag=NBPNILKP_01622
+NBPNILKP_37	pseudofinder	gene	8753	8917	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 15.4%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_37_pseudo_00175;old_locus_tag=NBPNILKP_00273
+NBPNILKP_328	pseudofinder	gene	8780	9222	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=NBPNILKP_328_pseudo_00176;old_locus_tag=NBPNILKP_328_ign_00008,NBPNILKP_02025
+NBPNILKP_213	pseudofinder	gene	8828	9019	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 15.0%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_213_pseudo_00177;old_locus_tag=NBPNILKP_01307
+NBPNILKP_306	pseudofinder	gene	8887	9066	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 25.2%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_306_pseudo_00178;old_locus_tag=NBPNILKP_01865
+NBPNILKP_37	pseudofinder	gene	8919	9106	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_37_pseudo_00179;old_locus_tag=NBPNILKP_37_ign_00009
+NBPNILKP_213	pseudofinder	gene	9022	9113	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 8 blast hits.;locus_tag=NBPNILKP_213_pseudo_00180;old_locus_tag=NBPNILKP_213_ign_00006
+NBPNILKP_213	pseudofinder	gene	9115	9261	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 14.0%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_213_pseudo_00181;old_locus_tag=NBPNILKP_01308
+NBPNILKP_37	pseudofinder	gene	9160	9393	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 20.2%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_37_pseudo_00182;old_locus_tag=NBPNILKP_00274
+NBPNILKP_282	pseudofinder	gene	9220	9776	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=NBPNILKP_282_pseudo_00183;old_locus_tag=NBPNILKP_282_ign_00006,NBPNILKP_282_ign_00005,NBPNILKP_01654
+NBPNILKP_213	pseudofinder	gene	9289	9405	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 6.3%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_213_pseudo_00184;old_locus_tag=NBPNILKP_01309
+NBPNILKP_273	pseudofinder	gene	9348	9865	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_273_pseudo_00185;old_locus_tag=NBPNILKP_273_ign_00006
+NBPNILKP_328	pseudofinder	gene	9466	9614	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_328_pseudo_00186;old_locus_tag=NBPNILKP_328_ign_00009
+NBPNILKP_288	pseudofinder	gene	9608	9804	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_288_pseudo_00187;old_locus_tag=NBPNILKP_288_ign_00008
+NBPNILKP_328	pseudofinder	gene	9642	9836	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 15.2%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_328_pseudo_00188;old_locus_tag=NBPNILKP_02026
+NBPNILKP_288	pseudofinder	gene	9837	9971	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 40.3%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_288_pseudo_00189;old_locus_tag=NBPNILKP_01701
+NBPNILKP_213	pseudofinder	gene	9902	10042	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 55.3%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_213_pseudo_00190;old_locus_tag=NBPNILKP_01310
+NBPNILKP_333	pseudofinder	gene	9950	10828	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 49.3%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_333_pseudo_00191;old_locus_tag=NBPNILKP_02054
+NBPNILKP_44	pseudofinder	gene	10106	10300	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 18.1%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_44_pseudo_00192;old_locus_tag=NBPNILKP_00347
+NBPNILKP_278	pseudofinder	gene	10523	11259	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_278_pseudo_00193;old_locus_tag=NBPNILKP_278_ign_00004
+NBPNILKP_284	pseudofinder	gene	10706	11484	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_284_pseudo_00194;old_locus_tag=NBPNILKP_284_ign_00008
+NBPNILKP_70	pseudofinder	gene	11104	11222	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_70_pseudo_00195;old_locus_tag=NBPNILKP_70_ign_00008
+NBPNILKP_306	pseudofinder	gene	11264	11563	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 32.4%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_306_pseudo_00196;old_locus_tag=NBPNILKP_01868
+NBPNILKP_235	pseudofinder	gene	11285	11559	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_235_pseudo_00197;old_locus_tag=NBPNILKP_235_ign_00008
+NBPNILKP_40	pseudofinder	gene	11320	11777	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=NBPNILKP_40_pseudo_00198;old_locus_tag=NBPNILKP_40_ign_00010
+NBPNILKP_235	pseudofinder	gene	11561	11719	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 41.4%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_235_pseudo_00199;old_locus_tag=NBPNILKP_01433
+NBPNILKP_214	pseudofinder	gene	12109	12567	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 57.2%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_214_pseudo_00200;old_locus_tag=NBPNILKP_01319
+NBPNILKP_107	pseudofinder	gene	12637	12852	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 22.3%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_107_pseudo_00201;old_locus_tag=NBPNILKP_00744
+NBPNILKP_40	pseudofinder	gene	13484	13590	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_40_pseudo_00202;old_locus_tag=NBPNILKP_40_ign_00012
+NBPNILKP_40	pseudofinder	gene	13631	13732	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 28.4%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_40_pseudo_00203;old_locus_tag=NBPNILKP_00295
+NBPNILKP_310	pseudofinder	gene	14136	15397	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=NBPNILKP_310_pseudo_00204;old_locus_tag=NBPNILKP_01900,NBPNILKP_310_ign_00008
+NBPNILKP_40	pseudofinder	gene	14662	14850	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 21.6%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_40_pseudo_00205;old_locus_tag=NBPNILKP_00297
+NBPNILKP_40	pseudofinder	gene	14793	15080	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 27.7%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_40_pseudo_00206;old_locus_tag=NBPNILKP_00298
+NBPNILKP_40	pseudofinder	gene	15116	15315	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_40_pseudo_00207;old_locus_tag=NBPNILKP_40_ign_00015
+NBPNILKP_40	pseudofinder	gene	15318	15668	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 37.9%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_40_pseudo_00208;old_locus_tag=NBPNILKP_00299
+NBPNILKP_101	pseudofinder	gene	15720	16536	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_101_pseudo_00209;old_locus_tag=NBPNILKP_101_ign_00011
+NBPNILKP_322	pseudofinder	gene	15828	15953	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 51.2%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_322_pseudo_00210;old_locus_tag=NBPNILKP_01976
+NBPNILKP_304	pseudofinder	gene	16035	16359	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=NBPNILKP_304_pseudo_00211;old_locus_tag=NBPNILKP_01836,NBPNILKP_304_ign_00011
+NBPNILKP_292	pseudofinder	gene	17024	17422	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 45.7%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_292_pseudo_00212;old_locus_tag=NBPNILKP_01737
+NBPNILKP_292	pseudofinder	gene	17423	17499	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_292_pseudo_00213;old_locus_tag=NBPNILKP_292_ign_00011
+NBPNILKP_292	pseudofinder	gene	17501	17869	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 42.1%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_292_pseudo_00214;old_locus_tag=NBPNILKP_01738
+NBPNILKP_154	pseudofinder	gene	18985	19521	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 41.2%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_154_pseudo_00215;old_locus_tag=NBPNILKP_01000
+NBPNILKP_255	pseudofinder	gene	19213	19604	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_255_pseudo_00216;old_locus_tag=NBPNILKP_255_ign_00012
+NBPNILKP_154	pseudofinder	gene	19522	19712	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_154_pseudo_00217;old_locus_tag=NBPNILKP_154_ign_00011
+NBPNILKP_154	pseudofinder	gene	19716	19874	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 3.8%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_154_pseudo_00218;old_locus_tag=NBPNILKP_01001
+NBPNILKP_297	pseudofinder	gene	20259	20527	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=NBPNILKP_297_pseudo_00219;old_locus_tag=NBPNILKP_297_ign_00013
+NBPNILKP_304	pseudofinder	gene	20407	20495	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 10 blast hits.;locus_tag=NBPNILKP_304_pseudo_00220;old_locus_tag=NBPNILKP_304_ign_00016
+NBPNILKP_52	pseudofinder	gene	22322	22483	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 17.8%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_52_pseudo_00221;old_locus_tag=NBPNILKP_00428
+NBPNILKP_52	pseudofinder	gene	22484	22974	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_52_pseudo_00222;old_locus_tag=NBPNILKP_52_ign_00014
+NBPNILKP_52	pseudofinder	gene	22976	23119	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 15.8%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_52_pseudo_00223;old_locus_tag=NBPNILKP_00429
+NBPNILKP_70	pseudofinder	gene	23021	23810	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=NBPNILKP_70_pseudo_00224;old_locus_tag=NBPNILKP_70_ign_00018,NBPNILKP_70_ign_00019,NBPNILKP_00529
+NBPNILKP_52	pseudofinder	gene	23120	23538	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_52_pseudo_00225;old_locus_tag=NBPNILKP_52_ign_00015
+NBPNILKP_313	pseudofinder	gene	35313	35456	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 61.0%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_313_pseudo_00226;old_locus_tag=NBPNILKP_01938
+NBPNILKP_313	pseudofinder	gene	35457	35599	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_313_pseudo_00227;old_locus_tag=NBPNILKP_313_ign_00026
+NBPNILKP_6	pseudofinder	gene	39798	40046	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=NBPNILKP_6_pseudo_00228;old_locus_tag=NBPNILKP_6_ign_00027
+NBPNILKP_52	pseudofinder	gene	44921	45460	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 59.5%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_52_pseudo_00229;old_locus_tag=NBPNILKP_00442
+NBPNILKP_6	pseudofinder	gene	47951	48186	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=NBPNILKP_6_pseudo_00230;old_locus_tag=NBPNILKP_6_ign_00031
+NBPNILKP_6	pseudofinder	gene	52781	53068	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 135.1%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_6_pseudo_00231;old_locus_tag=NBPNILKP_00063
+NBPNILKP_6	pseudofinder	gene	52946	53064	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=NBPNILKP_6_pseudo_00232;old_locus_tag=NBPNILKP_6_ign_00034
+NBPNILKP_6	pseudofinder	gene	61327	61518	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 61.2%25 of the average length of hits to this gene.;locus_tag=NBPNILKP_6_pseudo_00233;old_locus_tag=NBPNILKP_00071

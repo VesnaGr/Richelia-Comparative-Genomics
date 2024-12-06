@@ -1,0 +1,430 @@
+##gff-version 3
+#!annotation-date	2022-12-22 11:00:49
+##sequence-region IPCPKDNE_1 1 689
+##sequence-region IPCPKDNE_2 1 7365
+##sequence-region IPCPKDNE_3 1 95791
+##sequence-region IPCPKDNE_4 1 47102
+##sequence-region IPCPKDNE_5 1 1837
+##sequence-region IPCPKDNE_6 1 127276
+##sequence-region IPCPKDNE_7 1 25603
+##sequence-region IPCPKDNE_8 1 520
+##sequence-region IPCPKDNE_9 1 55995
+##sequence-region IPCPKDNE_10 1 51301
+##sequence-region IPCPKDNE_11 1 120239
+##sequence-region IPCPKDNE_12 1 5364
+##sequence-region IPCPKDNE_13 1 565
+##sequence-region IPCPKDNE_14 1 17491
+##sequence-region IPCPKDNE_15 1 35623
+##sequence-region IPCPKDNE_16 1 38201
+##sequence-region IPCPKDNE_17 1 1502
+##sequence-region IPCPKDNE_18 1 34747
+##sequence-region IPCPKDNE_19 1 12841
+##sequence-region IPCPKDNE_20 1 27180
+##sequence-region IPCPKDNE_21 1 56970
+##sequence-region IPCPKDNE_22 1 82975
+##sequence-region IPCPKDNE_23 1 19008
+##sequence-region IPCPKDNE_24 1 47152
+##sequence-region IPCPKDNE_25 1 1612
+##sequence-region IPCPKDNE_26 1 14591
+##sequence-region IPCPKDNE_27 1 1018
+##sequence-region IPCPKDNE_28 1 5443
+##sequence-region IPCPKDNE_29 1 1182
+##sequence-region IPCPKDNE_30 1 2133
+##sequence-region IPCPKDNE_31 1 27037
+##sequence-region IPCPKDNE_32 1 1408
+##sequence-region IPCPKDNE_33 1 873
+##sequence-region IPCPKDNE_34 1 3004
+##sequence-region IPCPKDNE_35 1 40113
+##sequence-region IPCPKDNE_36 1 17668
+##sequence-region IPCPKDNE_37 1 76090
+##sequence-region IPCPKDNE_38 1 17656
+##sequence-region IPCPKDNE_39 1 85585
+##sequence-region IPCPKDNE_40 1 3458
+##sequence-region IPCPKDNE_41 1 587
+##sequence-region IPCPKDNE_42 1 35719
+##sequence-region IPCPKDNE_43 1 1995
+##sequence-region IPCPKDNE_44 1 50890
+##sequence-region IPCPKDNE_45 1 9364
+##sequence-region IPCPKDNE_46 1 4261
+##sequence-region IPCPKDNE_47 1 383331
+##sequence-region IPCPKDNE_48 1 3700
+##sequence-region IPCPKDNE_49 1 15960
+##sequence-region IPCPKDNE_50 1 1177
+##sequence-region IPCPKDNE_51 1 2004
+##sequence-region IPCPKDNE_52 1 26335
+##sequence-region IPCPKDNE_53 1 109784
+##sequence-region IPCPKDNE_54 1 11095
+##sequence-region IPCPKDNE_55 1 33139
+##sequence-region IPCPKDNE_56 1 42745
+##sequence-region IPCPKDNE_57 1 784
+##sequence-region IPCPKDNE_58 1 72213
+##sequence-region IPCPKDNE_59 1 948
+##sequence-region IPCPKDNE_60 1 64364
+##sequence-region IPCPKDNE_61 1 1269
+##sequence-region IPCPKDNE_62 1 121662
+##sequence-region IPCPKDNE_63 1 71267
+##sequence-region IPCPKDNE_64 1 381669
+##sequence-region IPCPKDNE_65 1 887
+##sequence-region IPCPKDNE_66 1 30922
+##sequence-region IPCPKDNE_67 1 1202
+##sequence-region IPCPKDNE_68 1 873
+##sequence-region IPCPKDNE_69 1 2118
+##sequence-region IPCPKDNE_70 1 12169
+##sequence-region IPCPKDNE_71 1 5759
+##sequence-region IPCPKDNE_72 1 3982
+##sequence-region IPCPKDNE_73 1 27715
+##sequence-region IPCPKDNE_74 1 482
+##sequence-region IPCPKDNE_75 1 56729
+##sequence-region IPCPKDNE_76 1 31549
+##sequence-region IPCPKDNE_77 1 6537
+##sequence-region IPCPKDNE_78 1 4322
+##sequence-region IPCPKDNE_79 1 73475
+##sequence-region IPCPKDNE_80 1 61915
+##sequence-region IPCPKDNE_81 1 6502
+##sequence-region IPCPKDNE_82 1 15216
+##sequence-region IPCPKDNE_83 1 495
+##sequence-region IPCPKDNE_84 1 1495
+##sequence-region IPCPKDNE_85 1 53796
+##sequence-region IPCPKDNE_86 1 126255
+##sequence-region IPCPKDNE_87 1 6792
+##sequence-region IPCPKDNE_88 1 3648
+##sequence-region IPCPKDNE_89 1 9588
+##sequence-region IPCPKDNE_90 1 40866
+IPCPKDNE_14	pseudofinder	gene	335	465	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_14_pseudo_00001;old_locus_tag=IPCPKDNE_14_ign_00001
+IPCPKDNE_79	pseudofinder	gene	351	598	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_79_pseudo_00002;old_locus_tag=IPCPKDNE_79_ign_00001
+IPCPKDNE_88	pseudofinder	gene	381	506	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 17.4%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_88_pseudo_00003;old_locus_tag=IPCPKDNE_02234
+IPCPKDNE_50	pseudofinder	gene	454	1146	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 53.5%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_50_pseudo_00004;old_locus_tag=IPCPKDNE_01171
+IPCPKDNE_69	pseudofinder	gene	512	778	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 28.4%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_69_pseudo_00005;old_locus_tag=IPCPKDNE_01880
+IPCPKDNE_88	pseudofinder	gene	530	871	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 41.9%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_88_pseudo_00006;old_locus_tag=IPCPKDNE_02235
+IPCPKDNE_79	pseudofinder	gene	602	904	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 31.9%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_79_pseudo_00007;old_locus_tag=IPCPKDNE_01989
+IPCPKDNE_9	pseudofinder	gene	615	809	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 20.3%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_9_pseudo_00008;old_locus_tag=IPCPKDNE_00208
+IPCPKDNE_46	pseudofinder	gene	688	984	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 27.8%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_46_pseudo_00009;old_locus_tag=IPCPKDNE_00883
+IPCPKDNE_15	pseudofinder	gene	882	1151	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 28.3%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_15_pseudo_00010;old_locus_tag=IPCPKDNE_00377
+IPCPKDNE_79	pseudofinder	gene	906	1087	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_79_pseudo_00011;old_locus_tag=IPCPKDNE_79_ign_00002
+IPCPKDNE_23	pseudofinder	gene	936	1286	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 27.8%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_23_pseudo_00012;old_locus_tag=IPCPKDNE_00575
+IPCPKDNE_9	pseudofinder	gene	941	1150	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 22.8%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_9_pseudo_00013;old_locus_tag=IPCPKDNE_00209
+IPCPKDNE_75	pseudofinder	gene	1163	1549	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=IPCPKDNE_75_pseudo_00014;old_locus_tag=IPCPKDNE_75_ign_00001,IPCPKDNE_01914
+IPCPKDNE_44	pseudofinder	gene	1182	1369	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_44_pseudo_00015;old_locus_tag=IPCPKDNE_44_ign_00001
+IPCPKDNE_9	pseudofinder	gene	1261	1449	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 24.9%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_9_pseudo_00016;old_locus_tag=IPCPKDNE_00210
+IPCPKDNE_42	pseudofinder	gene	1323	1844	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 44.8%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_42_pseudo_00017;old_locus_tag=IPCPKDNE_00816
+IPCPKDNE_60	pseudofinder	gene	1408	2037	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_60_pseudo_00018;old_locus_tag=IPCPKDNE_60_ign_00001
+IPCPKDNE_75	pseudofinder	gene	1551	1649	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_75_pseudo_00019;old_locus_tag=IPCPKDNE_75_ign_00002
+IPCPKDNE_30	pseudofinder	gene	1720	2115	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 60.3%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_30_pseudo_00020;old_locus_tag=IPCPKDNE_00632
+IPCPKDNE_76	pseudofinder	gene	1725	1904	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 26.4%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_76_pseudo_00021;old_locus_tag=IPCPKDNE_01951
+IPCPKDNE_36	pseudofinder	gene	1802	2085	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_36_pseudo_00022;old_locus_tag=IPCPKDNE_36_ign_00002
+IPCPKDNE_42	pseudofinder	gene	1904	2536	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 54.0%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_42_pseudo_00023;old_locus_tag=IPCPKDNE_00817
+IPCPKDNE_45	pseudofinder	gene	2195	2409	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 10 blast hits.;locus_tag=IPCPKDNE_45_pseudo_00024;old_locus_tag=IPCPKDNE_45_ign_00002
+IPCPKDNE_88	pseudofinder	gene	2488	2691	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 43.4%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_88_pseudo_00025;old_locus_tag=IPCPKDNE_02238
+IPCPKDNE_66	pseudofinder	gene	2571	2831	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 20.7%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_66_pseudo_00026;old_locus_tag=IPCPKDNE_01856
+IPCPKDNE_45	pseudofinder	gene	2660	2884	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 25.7%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_45_pseudo_00027;old_locus_tag=IPCPKDNE_00877
+IPCPKDNE_66	pseudofinder	gene	2825	3592	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 54.4%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_66_pseudo_00028;old_locus_tag=IPCPKDNE_01857
+IPCPKDNE_52	pseudofinder	gene	2873	3331	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 57.2%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_52_pseudo_00029;old_locus_tag=IPCPKDNE_01175
+IPCPKDNE_10	pseudofinder	gene	3005	4203	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_10_pseudo_00030;old_locus_tag=IPCPKDNE_10_ign_00002
+IPCPKDNE_45	pseudofinder	gene	3265	3839	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_45_pseudo_00031;old_locus_tag=IPCPKDNE_45_ign_00004
+IPCPKDNE_44	pseudofinder	gene	3364	3813	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_44_pseudo_00032;old_locus_tag=IPCPKDNE_44_ign_00003
+IPCPKDNE_75	pseudofinder	gene	3406	3609	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 44.3%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_75_pseudo_00033;old_locus_tag=IPCPKDNE_01917
+IPCPKDNE_76	pseudofinder	gene	3423	3839	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 44.4%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_76_pseudo_00034;old_locus_tag=IPCPKDNE_01954
+IPCPKDNE_16	pseudofinder	gene	3472	3984	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 62.9%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_16_pseudo_00035;old_locus_tag=IPCPKDNE_00402
+IPCPKDNE_66	pseudofinder	gene	3538	3915	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 29.9%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_66_pseudo_00036;old_locus_tag=IPCPKDNE_01858
+IPCPKDNE_44	pseudofinder	gene	3860	3985	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 19.7%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_44_pseudo_00037;old_locus_tag=IPCPKDNE_00844
+IPCPKDNE_76	pseudofinder	gene	3875	4159	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 31.6%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_76_pseudo_00038;old_locus_tag=IPCPKDNE_01955
+IPCPKDNE_66	pseudofinder	gene	3916	4001	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_66_pseudo_00039;old_locus_tag=IPCPKDNE_66_ign_00002
+IPCPKDNE_66	pseudofinder	gene	4004	4276	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 32.7%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_66_pseudo_00040;old_locus_tag=IPCPKDNE_01859
+IPCPKDNE_16	pseudofinder	gene	4014	4406	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 45.4%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_16_pseudo_00041;old_locus_tag=IPCPKDNE_00403
+IPCPKDNE_76	pseudofinder	gene	4131	4430	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 35.7%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_76_pseudo_00042;old_locus_tag=IPCPKDNE_01956
+IPCPKDNE_36	pseudofinder	gene	4351	4572	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 44.9%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_36_pseudo_00043;old_locus_tag=IPCPKDNE_00681
+IPCPKDNE_2	pseudofinder	gene	4399	4972	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 9 blast hits.;locus_tag=IPCPKDNE_2_pseudo_00044;old_locus_tag=IPCPKDNE_2_ign_00003
+IPCPKDNE_63	pseudofinder	gene	4434	7811	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_63_pseudo_00045;old_locus_tag=IPCPKDNE_63_ign_00003
+IPCPKDNE_36	pseudofinder	gene	4612	4743	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 16.0%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_36_pseudo_00046;old_locus_tag=IPCPKDNE_00682
+IPCPKDNE_86	pseudofinder	gene	4702	5163	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 26.1%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_86_pseudo_00047;old_locus_tag=IPCPKDNE_02150
+IPCPKDNE_73	pseudofinder	gene	4746	5143	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_73_pseudo_00048;old_locus_tag=IPCPKDNE_73_ign_00001
+IPCPKDNE_36	pseudofinder	gene	4935	5168	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 27.6%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_36_pseudo_00049;old_locus_tag=IPCPKDNE_00683
+IPCPKDNE_37	pseudofinder	gene	5072	5838	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_37_pseudo_00050;old_locus_tag=IPCPKDNE_37_ign_00006
+IPCPKDNE_36	pseudofinder	gene	5169	5584	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_36_pseudo_00051;old_locus_tag=IPCPKDNE_36_ign_00005
+IPCPKDNE_52	pseudofinder	gene	5360	6756	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=IPCPKDNE_52_pseudo_00052;old_locus_tag=IPCPKDNE_01177,IPCPKDNE_52_ign_00004,IPCPKDNE_01178
+IPCPKDNE_11	pseudofinder	gene	5539	5687	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_11_pseudo_00053;old_locus_tag=IPCPKDNE_11_ign_00002
+IPCPKDNE_82	pseudofinder	gene	5626	6105	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 53.8%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_82_pseudo_00054;old_locus_tag=IPCPKDNE_02103
+IPCPKDNE_37	pseudofinder	gene	5840	7362	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=IPCPKDNE_37_pseudo_00055;old_locus_tag=IPCPKDNE_00696,IPCPKDNE_00697
+IPCPKDNE_82	pseudofinder	gene	6081	6548	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 52.5%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_82_pseudo_00056;old_locus_tag=IPCPKDNE_02104
+IPCPKDNE_53	pseudofinder	gene	6416	7621	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 11 blast hits.;locus_tag=IPCPKDNE_53_pseudo_00057;old_locus_tag=IPCPKDNE_53_ign_00002
+IPCPKDNE_49	pseudofinder	gene	6550	7659	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 52.4%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_49_pseudo_00058;old_locus_tag=IPCPKDNE_01165
+IPCPKDNE_3	pseudofinder	gene	6955	8288	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_3_pseudo_00059;old_locus_tag=IPCPKDNE_3_ign_00002
+IPCPKDNE_18	pseudofinder	gene	7283	8777	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_18_pseudo_00060;old_locus_tag=IPCPKDNE_18_ign_00004
+IPCPKDNE_21	pseudofinder	gene	7345	7517	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_21_pseudo_00061;old_locus_tag=IPCPKDNE_21_ign_00006
+IPCPKDNE_53	pseudofinder	gene	7657	7770	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 7.3%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_53_pseudo_00062;old_locus_tag=IPCPKDNE_01195
+IPCPKDNE_38	pseudofinder	gene	7870	8147	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_38_pseudo_00063;old_locus_tag=IPCPKDNE_38_ign_00004
+IPCPKDNE_53	pseudofinder	gene	7905	8359	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_53_pseudo_00064;old_locus_tag=IPCPKDNE_53_ign_00003
+IPCPKDNE_35	pseudofinder	gene	7911	8143	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_35_pseudo_00065;old_locus_tag=IPCPKDNE_35_ign_00004
+IPCPKDNE_47	pseudofinder	gene	8353	8450	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_47_pseudo_00066;old_locus_tag=IPCPKDNE_47_ign_00007
+IPCPKDNE_58	pseudofinder	gene	8519	9760	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 35.2%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_58_pseudo_00067;old_locus_tag=IPCPKDNE_01344
+IPCPKDNE_22	pseudofinder	gene	8958	9415	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_22_pseudo_00068;old_locus_tag=IPCPKDNE_22_ign_00003
+IPCPKDNE_26	pseudofinder	gene	9189	9872	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=IPCPKDNE_26_pseudo_00069;old_locus_tag=IPCPKDNE_26_ign_00005,IPCPKDNE_00621
+IPCPKDNE_66	pseudofinder	gene	9374	9828	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_66_pseudo_00070;old_locus_tag=IPCPKDNE_66_ign_00007
+IPCPKDNE_47	pseudofinder	gene	9603	10142	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 59.5%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_47_pseudo_00071;old_locus_tag=IPCPKDNE_00896
+IPCPKDNE_18	pseudofinder	gene	9683	9907	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 18.7%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_18_pseudo_00072;old_locus_tag=IPCPKDNE_00428
+IPCPKDNE_58	pseudofinder	gene	9796	10020	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 6.6%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_58_pseudo_00073;old_locus_tag=IPCPKDNE_01345
+IPCPKDNE_18	pseudofinder	gene	9912	9979	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_18_pseudo_00074;old_locus_tag=IPCPKDNE_18_ign_00005
+IPCPKDNE_18	pseudofinder	gene	9981	10277	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 21.5%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_18_pseudo_00075;old_locus_tag=IPCPKDNE_00429
+IPCPKDNE_58	pseudofinder	gene	10017	12203	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 61.4%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_58_pseudo_00076;old_locus_tag=IPCPKDNE_01346
+IPCPKDNE_18	pseudofinder	gene	10279	10631	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_18_pseudo_00077;old_locus_tag=IPCPKDNE_18_ign_00006
+IPCPKDNE_56	pseudofinder	gene	10494	10762	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_56_pseudo_00078;old_locus_tag=IPCPKDNE_56_ign_00008
+IPCPKDNE_56	pseudofinder	gene	10768	10926	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 26.0%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_56_pseudo_00079;old_locus_tag=IPCPKDNE_01317
+IPCPKDNE_56	pseudofinder	gene	10928	11254	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 56.3%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_56_pseudo_00080;old_locus_tag=IPCPKDNE_01318
+IPCPKDNE_55	pseudofinder	gene	11287	11843	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_55_pseudo_00081;old_locus_tag=IPCPKDNE_55_ign_00008
+IPCPKDNE_39	pseudofinder	gene	11491	11792	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_39_pseudo_00082;old_locus_tag=IPCPKDNE_39_ign_00005
+IPCPKDNE_20	pseudofinder	gene	11916	12661	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_20_pseudo_00083;old_locus_tag=IPCPKDNE_20_ign_00008
+IPCPKDNE_11	pseudofinder	gene	12102	13069	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=IPCPKDNE_11_pseudo_00084;old_locus_tag=IPCPKDNE_00287,IPCPKDNE_11_ign_00007
+IPCPKDNE_35	pseudofinder	gene	12484	12618	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 40.3%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_35_pseudo_00085;old_locus_tag=IPCPKDNE_00658
+IPCPKDNE_53	pseudofinder	gene	12493	12593	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 14 blast hits.;locus_tag=IPCPKDNE_53_pseudo_00086;old_locus_tag=IPCPKDNE_53_ign_00005
+IPCPKDNE_35	pseudofinder	gene	12650	12846	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_35_pseudo_00087;old_locus_tag=IPCPKDNE_35_ign_00007
+IPCPKDNE_11	pseudofinder	gene	13257	13817	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 64.2%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_11_pseudo_00088;old_locus_tag=IPCPKDNE_00288
+IPCPKDNE_6	pseudofinder	gene	13389	13492	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_6_pseudo_00089;old_locus_tag=IPCPKDNE_6_ign_00007
+IPCPKDNE_11	pseudofinder	gene	13759	13998	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 50.8%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_11_pseudo_00090;old_locus_tag=IPCPKDNE_00289
+IPCPKDNE_22	pseudofinder	gene	13796	14212	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 29.1%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_22_pseudo_00091;old_locus_tag=IPCPKDNE_00525
+IPCPKDNE_55	pseudofinder	gene	13817	14581	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 52.7%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_55_pseudo_00092;old_locus_tag=IPCPKDNE_01296
+IPCPKDNE_55	pseudofinder	gene	14584	14798	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_55_pseudo_00093;old_locus_tag=IPCPKDNE_55_ign_00010
+IPCPKDNE_55	pseudofinder	gene	14800	15312	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 37.8%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_55_pseudo_00094;old_locus_tag=IPCPKDNE_01297
+IPCPKDNE_36	pseudofinder	gene	14945	15132	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_36_pseudo_00095;old_locus_tag=IPCPKDNE_36_ign_00009
+IPCPKDNE_62	pseudofinder	gene	15027	15530	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 43.2%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_62_pseudo_00096;old_locus_tag=IPCPKDNE_01457
+IPCPKDNE_75	pseudofinder	gene	15350	15690	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_75_pseudo_00097;old_locus_tag=IPCPKDNE_75_ign_00009
+IPCPKDNE_62	pseudofinder	gene	15527	16270	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 62.3%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_62_pseudo_00098;old_locus_tag=IPCPKDNE_01458
+IPCPKDNE_52	pseudofinder	gene	16014	16586	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 60.0%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_52_pseudo_00099;old_locus_tag=IPCPKDNE_01186
+IPCPKDNE_35	pseudofinder	gene	16060	16175	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_35_pseudo_00100;old_locus_tag=IPCPKDNE_35_ign_00010
+IPCPKDNE_3	pseudofinder	gene	16067	16282	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 11.9%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_3_pseudo_00101;old_locus_tag=IPCPKDNE_00015
+IPCPKDNE_62	pseudofinder	gene	16298	17337	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=IPCPKDNE_62_pseudo_00102;old_locus_tag=IPCPKDNE_62_ign_00009
+IPCPKDNE_52	pseudofinder	gene	16583	16909	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 34.3%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_52_pseudo_00103;old_locus_tag=IPCPKDNE_01187
+IPCPKDNE_52	pseudofinder	gene	16882	17004	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 13.2%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_52_pseudo_00104;old_locus_tag=IPCPKDNE_01188
+IPCPKDNE_16	pseudofinder	gene	16916	17508	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=IPCPKDNE_16_pseudo_00105;old_locus_tag=IPCPKDNE_16_ign_00008,IPCPKDNE_00409
+IPCPKDNE_21	pseudofinder	gene	17007	17221	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_21_pseudo_00106;old_locus_tag=IPCPKDNE_21_ign_00014
+IPCPKDNE_39	pseudofinder	gene	17188	17753	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=IPCPKDNE_39_pseudo_00107;old_locus_tag=IPCPKDNE_00763,IPCPKDNE_39_ign_00010
+IPCPKDNE_44	pseudofinder	gene	18200	18652	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 26.6%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_44_pseudo_00108;old_locus_tag=IPCPKDNE_00852
+IPCPKDNE_4	pseudofinder	gene	18630	18938	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 50.6%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_4_pseudo_00109;old_locus_tag=IPCPKDNE_00084
+IPCPKDNE_4	pseudofinder	gene	18971	19411	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 57.1%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_4_pseudo_00110;old_locus_tag=IPCPKDNE_00085
+IPCPKDNE_62	pseudofinder	gene	19688	20452	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 53.5%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_62_pseudo_00111;old_locus_tag=IPCPKDNE_01460
+IPCPKDNE_11	pseudofinder	gene	19787	20272	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 63.5%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_11_pseudo_00112;old_locus_tag=IPCPKDNE_00295
+IPCPKDNE_9	pseudofinder	gene	19837	20397	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=IPCPKDNE_9_pseudo_00113;old_locus_tag=IPCPKDNE_9_ign_00013,IPCPKDNE_00221
+IPCPKDNE_3	pseudofinder	gene	19875	20665	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=IPCPKDNE_3_pseudo_00114;old_locus_tag=IPCPKDNE_00018,IPCPKDNE_00017
+IPCPKDNE_58	pseudofinder	gene	20246	20662	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 23.9%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_58_pseudo_00115;old_locus_tag=IPCPKDNE_01353
+IPCPKDNE_11	pseudofinder	gene	20269	20580	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 41.5%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_11_pseudo_00116;old_locus_tag=IPCPKDNE_00296
+IPCPKDNE_35	pseudofinder	gene	20276	20479	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 27.8%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_35_pseudo_00117;old_locus_tag=IPCPKDNE_00666
+IPCPKDNE_37	pseudofinder	gene	20332	20995	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_37_pseudo_00118;old_locus_tag=IPCPKDNE_37_ign_00013
+IPCPKDNE_62	pseudofinder	gene	20449	21168	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 53.0%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_62_pseudo_00119;old_locus_tag=IPCPKDNE_01461
+IPCPKDNE_39	pseudofinder	gene	20718	22426	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_39_pseudo_00120;old_locus_tag=IPCPKDNE_39_ign_00011
+IPCPKDNE_35	pseudofinder	gene	20831	21055	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 19.4%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_35_pseudo_00121;old_locus_tag=IPCPKDNE_00667
+IPCPKDNE_35	pseudofinder	gene	21058	21480	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_35_pseudo_00122;old_locus_tag=IPCPKDNE_35_ign_00015
+IPCPKDNE_3	pseudofinder	gene	21708	22099	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_3_pseudo_00123;old_locus_tag=IPCPKDNE_3_ign_00012
+IPCPKDNE_6	pseudofinder	gene	24380	24897	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_6_pseudo_00124;old_locus_tag=IPCPKDNE_6_ign_00014
+IPCPKDNE_62	pseudofinder	gene	24522	25202	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 48.7%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_62_pseudo_00125;old_locus_tag=IPCPKDNE_01465
+IPCPKDNE_62	pseudofinder	gene	25202	26038	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 57.2%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_62_pseudo_00126;old_locus_tag=IPCPKDNE_01466
+IPCPKDNE_42	pseudofinder	gene	25762	25971	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=IPCPKDNE_42_pseudo_00127;old_locus_tag=IPCPKDNE_00830,IPCPKDNE_42_ign_00014
+IPCPKDNE_73	pseudofinder	gene	25947	26056	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_73_pseudo_00128;old_locus_tag=IPCPKDNE_73_ign_00013
+IPCPKDNE_4	pseudofinder	gene	26514	26735	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 22.4%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_4_pseudo_00129;old_locus_tag=IPCPKDNE_00090
+IPCPKDNE_42	pseudofinder	gene	27672	27941	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 17.6%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_42_pseudo_00130;old_locus_tag=IPCPKDNE_00832
+IPCPKDNE_42	pseudofinder	gene	27942	28129	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_42_pseudo_00131;old_locus_tag=IPCPKDNE_42_ign_00016
+IPCPKDNE_42	pseudofinder	gene	28131	28250	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 7.9%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_42_pseudo_00132;old_locus_tag=IPCPKDNE_00833
+IPCPKDNE_42	pseudofinder	gene	28254	28558	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_42_pseudo_00133;old_locus_tag=IPCPKDNE_42_ign_00017
+IPCPKDNE_42	pseudofinder	gene	28565	28849	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 18.3%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_42_pseudo_00134;old_locus_tag=IPCPKDNE_00834
+IPCPKDNE_86	pseudofinder	gene	28866	29069	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 49.4%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_86_pseudo_00135;old_locus_tag=IPCPKDNE_02164
+IPCPKDNE_42	pseudofinder	gene	28999	29216	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_42_pseudo_00136;old_locus_tag=IPCPKDNE_42_ign_00018
+IPCPKDNE_18	pseudofinder	gene	29213	29476	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 63.1%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_18_pseudo_00137;old_locus_tag=IPCPKDNE_00447
+IPCPKDNE_42	pseudofinder	gene	29416	29883	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_42_pseudo_00138;old_locus_tag=IPCPKDNE_42_ign_00019
+IPCPKDNE_18	pseudofinder	gene	30408	30584	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 14.4%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_18_pseudo_00139;old_locus_tag=IPCPKDNE_00448
+IPCPKDNE_18	pseudofinder	gene	30607	30803	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_18_pseudo_00140;old_locus_tag=IPCPKDNE_18_ign_00023
+IPCPKDNE_58	pseudofinder	gene	31160	32631	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=IPCPKDNE_58_pseudo_00141;old_locus_tag=IPCPKDNE_01359,IPCPKDNE_01360
+IPCPKDNE_79	pseudofinder	gene	31309	31706	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_79_pseudo_00142;old_locus_tag=IPCPKDNE_79_ign_00022
+IPCPKDNE_55	pseudofinder	gene	31422	31949	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 60.3%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_55_pseudo_00143;old_locus_tag=IPCPKDNE_01306
+IPCPKDNE_47	pseudofinder	gene	31490	31908	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_47_pseudo_00144;old_locus_tag=IPCPKDNE_47_ign_00020
+IPCPKDNE_62	pseudofinder	gene	31494	31700	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 52.6%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_62_pseudo_00145;old_locus_tag=IPCPKDNE_01469
+IPCPKDNE_6	pseudofinder	gene	31706	32553	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_6_pseudo_00146;old_locus_tag=IPCPKDNE_6_ign_00019
+IPCPKDNE_47	pseudofinder	gene	31910	32053	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 15.8%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_47_pseudo_00147;old_locus_tag=IPCPKDNE_00909
+IPCPKDNE_47	pseudofinder	gene	32054	32544	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_47_pseudo_00148;old_locus_tag=IPCPKDNE_47_ign_00021
+IPCPKDNE_42	pseudofinder	gene	32138	32326	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 53.4%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_42_pseudo_00149;old_locus_tag=IPCPKDNE_00837
+IPCPKDNE_64	pseudofinder	gene	32189	32532	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_64_pseudo_00150;old_locus_tag=IPCPKDNE_64_ign_00019
+IPCPKDNE_86	pseudofinder	gene	32380	33384	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 61.1%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_86_pseudo_00151;old_locus_tag=IPCPKDNE_02166
+IPCPKDNE_47	pseudofinder	gene	32546	32707	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 17.8%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_47_pseudo_00152;old_locus_tag=IPCPKDNE_00910
+IPCPKDNE_55	pseudofinder	gene	32759	33064	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 25.2%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_55_pseudo_00153;old_locus_tag=IPCPKDNE_01308
+IPCPKDNE_6	pseudofinder	gene	33181	33555	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 42.7%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_6_pseudo_00154;old_locus_tag=IPCPKDNE_00124
+IPCPKDNE_86	pseudofinder	gene	34283	34504	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 20.1%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_86_pseudo_00155;old_locus_tag=IPCPKDNE_02168
+IPCPKDNE_86	pseudofinder	gene	34554	34723	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_86_pseudo_00156;old_locus_tag=IPCPKDNE_86_ign_00020
+IPCPKDNE_56	pseudofinder	gene	34719	35162	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 152.8%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_56_pseudo_00157;old_locus_tag=IPCPKDNE_01334
+IPCPKDNE_85	pseudofinder	gene	35714	36082	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 50.5%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_85_pseudo_00158;old_locus_tag=IPCPKDNE_02136
+IPCPKDNE_85	pseudofinder	gene	36083	36306	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_85_pseudo_00159;old_locus_tag=IPCPKDNE_85_ign_00021
+IPCPKDNE_60	pseudofinder	gene	36382	36755	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_60_pseudo_00160;old_locus_tag=IPCPKDNE_60_ign_00025
+IPCPKDNE_58	pseudofinder	gene	36662	36963	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_58_pseudo_00161;old_locus_tag=IPCPKDNE_58_ign_00019
+IPCPKDNE_79	pseudofinder	gene	36736	36923	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_79_pseudo_00162;old_locus_tag=IPCPKDNE_79_ign_00024
+IPCPKDNE_58	pseudofinder	gene	36966	37175	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 43.2%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_58_pseudo_00163;old_locus_tag=IPCPKDNE_01363
+IPCPKDNE_47	pseudofinder	gene	37760	37990	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 16.3%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_47_pseudo_00164;old_locus_tag=IPCPKDNE_00914
+IPCPKDNE_53	pseudofinder	gene	37885	38376	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 64.0%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_53_pseudo_00165;old_locus_tag=IPCPKDNE_01219
+IPCPKDNE_53	pseudofinder	gene	38373	38678	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 45.1%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_53_pseudo_00166;old_locus_tag=IPCPKDNE_01220
+IPCPKDNE_24	pseudofinder	gene	38446	38769	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 48.0%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_24_pseudo_00167;old_locus_tag=IPCPKDNE_00609
+IPCPKDNE_10	pseudofinder	gene	38588	38757	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_10_pseudo_00168;old_locus_tag=IPCPKDNE_10_ign_00023
+IPCPKDNE_39	pseudofinder	gene	38731	39129	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=IPCPKDNE_39_pseudo_00169;old_locus_tag=IPCPKDNE_00778,IPCPKDNE_39_ign_00023
+IPCPKDNE_24	pseudofinder	gene	38790	39122	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 50.7%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_24_pseudo_00170;old_locus_tag=IPCPKDNE_00610
+IPCPKDNE_39	pseudofinder	gene	39130	39248	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_39_pseudo_00171;old_locus_tag=IPCPKDNE_39_ign_00024
+IPCPKDNE_39	pseudofinder	gene	39264	39542	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 27.0%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_39_pseudo_00172;old_locus_tag=IPCPKDNE_00779
+IPCPKDNE_39	pseudofinder	gene	39787	39930	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 13.2%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_39_pseudo_00173;old_locus_tag=IPCPKDNE_00780
+IPCPKDNE_3	pseudofinder	gene	40466	40939	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 49.3%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_3_pseudo_00174;old_locus_tag=IPCPKDNE_00032
+IPCPKDNE_37	pseudofinder	gene	41010	41491	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_37_pseudo_00175;old_locus_tag=IPCPKDNE_37_ign_00025
+IPCPKDNE_62	pseudofinder	gene	41976	42659	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 51.5%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_62_pseudo_00176;old_locus_tag=IPCPKDNE_01479
+IPCPKDNE_60	pseudofinder	gene	42123	42596	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 53.2%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_60_pseudo_00177;old_locus_tag=IPCPKDNE_01430
+IPCPKDNE_3	pseudofinder	gene	42216	42959	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 50.2%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_3_pseudo_00178;old_locus_tag=IPCPKDNE_00035
+IPCPKDNE_22	pseudofinder	gene	42348	42748	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_22_pseudo_00179;old_locus_tag=IPCPKDNE_22_ign_00019
+IPCPKDNE_79	pseudofinder	gene	42560	42712	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 20.3%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_79_pseudo_00180;old_locus_tag=IPCPKDNE_02015
+IPCPKDNE_60	pseudofinder	gene	42563	43075	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 57.4%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_60_pseudo_00181;old_locus_tag=IPCPKDNE_01431
+IPCPKDNE_62	pseudofinder	gene	42701	43300	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 45.5%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_62_pseudo_00182;old_locus_tag=IPCPKDNE_01480
+IPCPKDNE_79	pseudofinder	gene	42714	43330	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_79_pseudo_00183;old_locus_tag=IPCPKDNE_79_ign_00027
+IPCPKDNE_58	pseudofinder	gene	42956	43237	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 142.9%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_58_pseudo_00184;old_locus_tag=IPCPKDNE_01367
+IPCPKDNE_3	pseudofinder	gene	42983	43312	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 24.5%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_3_pseudo_00185;old_locus_tag=IPCPKDNE_00036
+IPCPKDNE_60	pseudofinder	gene	43184	43282	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 60.3%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_60_pseudo_00186;old_locus_tag=IPCPKDNE_01432
+IPCPKDNE_11	pseudofinder	gene	43505	43648	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 61.0%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_11_pseudo_00187;old_locus_tag=IPCPKDNE_00313
+IPCPKDNE_11	pseudofinder	gene	43649	43791	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_11_pseudo_00188;old_locus_tag=IPCPKDNE_11_ign_00028
+IPCPKDNE_62	pseudofinder	gene	44454	44549	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 22.6%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_62_pseudo_00189;old_locus_tag=IPCPKDNE_01482
+IPCPKDNE_62	pseudofinder	gene	44555	44913	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_62_pseudo_00190;old_locus_tag=IPCPKDNE_62_ign_00029
+IPCPKDNE_58	pseudofinder	gene	44976	45185	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 45.4%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_58_pseudo_00191;old_locus_tag=IPCPKDNE_01371
+IPCPKDNE_53	pseudofinder	gene	45305	45956	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=IPCPKDNE_53_pseudo_00192;old_locus_tag=IPCPKDNE_53_ign_00028,IPCPKDNE_01229
+IPCPKDNE_4	pseudofinder	gene	45949	46385	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_4_pseudo_00193;old_locus_tag=IPCPKDNE_4_ign_00025
+IPCPKDNE_85	pseudofinder	gene	46156	46371	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 22.3%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_85_pseudo_00194;old_locus_tag=IPCPKDNE_02144
+IPCPKDNE_62	pseudofinder	gene	46302	46727	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 48.4%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_62_pseudo_00195;old_locus_tag=IPCPKDNE_01484
+IPCPKDNE_85	pseudofinder	gene	46492	46808	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_85_pseudo_00196;old_locus_tag=IPCPKDNE_85_ign_00029
+IPCPKDNE_21	pseudofinder	gene	47561	47856	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 9 blast hits.;locus_tag=IPCPKDNE_21_pseudo_00197;old_locus_tag=IPCPKDNE_21_ign_00035
+IPCPKDNE_9	pseudofinder	gene	49569	49942	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_9_pseudo_00198;old_locus_tag=IPCPKDNE_9_ign_00030
+IPCPKDNE_37	pseudofinder	gene	49656	49852	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_37_pseudo_00199;old_locus_tag=IPCPKDNE_37_ign_00031
+IPCPKDNE_63	pseudofinder	gene	49989	51522	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=IPCPKDNE_63_pseudo_00200;old_locus_tag=IPCPKDNE_01567,IPCPKDNE_63_ign_00030
+IPCPKDNE_64	pseudofinder	gene	50459	52300	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=IPCPKDNE_64_pseudo_00201;old_locus_tag=IPCPKDNE_64_ign_00030
+IPCPKDNE_86	pseudofinder	gene	51454	51720	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 25.0%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_86_pseudo_00202;old_locus_tag=IPCPKDNE_02178
+IPCPKDNE_86	pseudofinder	gene	52025	52356	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=IPCPKDNE_86_pseudo_00203;old_locus_tag=IPCPKDNE_02180,IPCPKDNE_86_ign_00031
+IPCPKDNE_11	pseudofinder	gene	53758	53930	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_11_pseudo_00204;old_locus_tag=IPCPKDNE_11_ign_00031
+IPCPKDNE_64	pseudofinder	gene	54221	54477	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_64_pseudo_00205;old_locus_tag=IPCPKDNE_64_ign_00031
+IPCPKDNE_64	pseudofinder	gene	54485	54673	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 18.8%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_64_pseudo_00206;old_locus_tag=IPCPKDNE_01611
+IPCPKDNE_64	pseudofinder	gene	54684	54836	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 20.0%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_64_pseudo_00207;old_locus_tag=IPCPKDNE_01612
+IPCPKDNE_64	pseudofinder	gene	54833	55045	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 20.9%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_64_pseudo_00208;old_locus_tag=IPCPKDNE_01613
+IPCPKDNE_21	pseudofinder	gene	56151	56309	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 41.1%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_21_pseudo_00209;old_locus_tag=IPCPKDNE_00519
+IPCPKDNE_64	pseudofinder	gene	57385	57612	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 30.7%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_64_pseudo_00210;old_locus_tag=IPCPKDNE_01615
+IPCPKDNE_64	pseudofinder	gene	57647	57807	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_64_pseudo_00211;old_locus_tag=IPCPKDNE_64_ign_00034
+IPCPKDNE_64	pseudofinder	gene	57811	58164	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 49.0%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_64_pseudo_00212;old_locus_tag=IPCPKDNE_01616
+IPCPKDNE_86	pseudofinder	gene	59584	60062	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=IPCPKDNE_86_pseudo_00213;old_locus_tag=IPCPKDNE_86_ign_00034
+IPCPKDNE_86	pseudofinder	gene	60101	60436	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 46.2%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_86_pseudo_00214;old_locus_tag=IPCPKDNE_02184
+IPCPKDNE_6	pseudofinder	gene	60223	60458	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_6_pseudo_00215;old_locus_tag=IPCPKDNE_6_ign_00035
+IPCPKDNE_37	pseudofinder	gene	60549	60731	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 11.0%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_37_pseudo_00216;old_locus_tag=IPCPKDNE_00732
+IPCPKDNE_58	pseudofinder	gene	60842	61207	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 49.0%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_58_pseudo_00217;old_locus_tag=IPCPKDNE_01383
+IPCPKDNE_80	pseudofinder	gene	60856	61013	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_80_pseudo_00218;old_locus_tag=IPCPKDNE_80_ign_00046
+IPCPKDNE_39	pseudofinder	gene	60909	61547	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 52.9%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_39_pseudo_00219;old_locus_tag=IPCPKDNE_00793
+IPCPKDNE_37	pseudofinder	gene	61008	61426	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_37_pseudo_00220;old_locus_tag=IPCPKDNE_37_ign_00039
+IPCPKDNE_58	pseudofinder	gene	61263	61640	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 48.0%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_58_pseudo_00221;old_locus_tag=IPCPKDNE_01384
+IPCPKDNE_37	pseudofinder	gene	61429	61956	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 31.3%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_37_pseudo_00222;old_locus_tag=IPCPKDNE_00734
+IPCPKDNE_39	pseudofinder	gene	61566	62120	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 48.1%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_39_pseudo_00223;old_locus_tag=IPCPKDNE_00794
+IPCPKDNE_58	pseudofinder	gene	61671	61781	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 15.5%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_58_pseudo_00224;old_locus_tag=IPCPKDNE_01385
+IPCPKDNE_37	pseudofinder	gene	61957	62051	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_37_pseudo_00225;old_locus_tag=IPCPKDNE_37_ign_00040
+IPCPKDNE_37	pseudofinder	gene	62053	62591	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=IPCPKDNE_37_pseudo_00226;old_locus_tag=IPCPKDNE_00735,IPCPKDNE_37_ign_00041
+IPCPKDNE_58	pseudofinder	gene	62340	62785	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_58_pseudo_00227;old_locus_tag=IPCPKDNE_58_ign_00042
+IPCPKDNE_37	pseudofinder	gene	62593	62826	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 12.8%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_37_pseudo_00228;old_locus_tag=IPCPKDNE_00736
+IPCPKDNE_60	pseudofinder	gene	62621	62980	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 30.1%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_60_pseudo_00229;old_locus_tag=IPCPKDNE_01447
+IPCPKDNE_39	pseudofinder	gene	64299	64631	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 62.0%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_39_pseudo_00230;old_locus_tag=IPCPKDNE_00797
+IPCPKDNE_39	pseudofinder	gene	64734	64933	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_39_pseudo_00231;old_locus_tag=IPCPKDNE_39_ign_00041
+IPCPKDNE_37	pseudofinder	gene	65573	66351	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_37_pseudo_00232;old_locus_tag=IPCPKDNE_37_ign_00044
+IPCPKDNE_64	pseudofinder	gene	66039	67003	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=IPCPKDNE_64_pseudo_00233;old_locus_tag=IPCPKDNE_01622,IPCPKDNE_01623
+IPCPKDNE_58	pseudofinder	gene	66523	67191	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 47.4%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_58_pseudo_00234;old_locus_tag=IPCPKDNE_01390
+IPCPKDNE_58	pseudofinder	gene	67194	67402	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_58_pseudo_00235;old_locus_tag=IPCPKDNE_58_ign_00047
+IPCPKDNE_58	pseudofinder	gene	67404	67979	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 45.7%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_58_pseudo_00236;old_locus_tag=IPCPKDNE_01391
+IPCPKDNE_53	pseudofinder	gene	67912	68147	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_53_pseudo_00237;old_locus_tag=IPCPKDNE_53_ign_00042
+IPCPKDNE_62	pseudofinder	gene	68122	68283	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 46.3%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_62_pseudo_00238;old_locus_tag=IPCPKDNE_01500
+IPCPKDNE_22	pseudofinder	gene	68257	68459	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_22_pseudo_00239;old_locus_tag=IPCPKDNE_22_ign_00035
+IPCPKDNE_22	pseudofinder	gene	71998	72153	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 20.8%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_22_pseudo_00240;old_locus_tag=IPCPKDNE_00563
+IPCPKDNE_22	pseudofinder	gene	72156	72544	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_22_pseudo_00241;old_locus_tag=IPCPKDNE_22_ign_00038
+IPCPKDNE_22	pseudofinder	gene	72546	72773	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 30.0%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_22_pseudo_00242;old_locus_tag=IPCPKDNE_00564
+IPCPKDNE_53	pseudofinder	gene	72743	73030	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 135.1%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_53_pseudo_00243;old_locus_tag=IPCPKDNE_01247
+IPCPKDNE_53	pseudofinder	gene	72908	73026	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=IPCPKDNE_53_pseudo_00244;old_locus_tag=IPCPKDNE_53_ign_00045
+IPCPKDNE_86	pseudofinder	gene	75786	75962	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 19.8%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_86_pseudo_00245;old_locus_tag=IPCPKDNE_02195
+IPCPKDNE_86	pseudofinder	gene	75963	76387	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_86_pseudo_00246;old_locus_tag=IPCPKDNE_86_ign_00046
+IPCPKDNE_11	pseudofinder	gene	78781	80041	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=IPCPKDNE_11_pseudo_00247;old_locus_tag=IPCPKDNE_11_ign_00042,IPCPKDNE_00331
+IPCPKDNE_6	pseudofinder	gene	80099	80217	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_6_pseudo_00248;old_locus_tag=IPCPKDNE_6_ign_00048
+IPCPKDNE_86	pseudofinder	gene	81017	81468	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_86_pseudo_00249;old_locus_tag=IPCPKDNE_86_ign_00049
+IPCPKDNE_53	pseudofinder	gene	81297	81488	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 61.2%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_53_pseudo_00250;old_locus_tag=IPCPKDNE_01255
+IPCPKDNE_22	pseudofinder	gene	81500	81733	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 15.6%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_22_pseudo_00251;old_locus_tag=IPCPKDNE_00572
+IPCPKDNE_64	pseudofinder	gene	81646	81858	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 36.9%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_64_pseudo_00252;old_locus_tag=IPCPKDNE_01637
+IPCPKDNE_64	pseudofinder	gene	83707	83813	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_64_pseudo_00253;old_locus_tag=IPCPKDNE_64_ign_00056
+IPCPKDNE_64	pseudofinder	gene	83854	83955	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 28.4%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_64_pseudo_00254;old_locus_tag=IPCPKDNE_01640
+IPCPKDNE_64	pseudofinder	gene	84136	84447	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 64.8%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_64_pseudo_00255;old_locus_tag=IPCPKDNE_01641
+IPCPKDNE_64	pseudofinder	gene	84890	85078	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 21.6%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_64_pseudo_00256;old_locus_tag=IPCPKDNE_01642
+IPCPKDNE_64	pseudofinder	gene	85021	85308	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 27.7%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_64_pseudo_00257;old_locus_tag=IPCPKDNE_01643
+IPCPKDNE_64	pseudofinder	gene	85344	85543	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_64_pseudo_00258;old_locus_tag=IPCPKDNE_64_ign_00059
+IPCPKDNE_64	pseudofinder	gene	85546	85896	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 37.9%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_64_pseudo_00259;old_locus_tag=IPCPKDNE_01644
+IPCPKDNE_53	pseudofinder	gene	90999	91163	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 17.9%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_53_pseudo_00260;old_locus_tag=IPCPKDNE_01264
+IPCPKDNE_86	pseudofinder	gene	91867	92683	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_86_pseudo_00261;old_locus_tag=IPCPKDNE_86_ign_00056
+IPCPKDNE_6	pseudofinder	gene	92027	92816	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=IPCPKDNE_6_pseudo_00262;old_locus_tag=IPCPKDNE_00167,IPCPKDNE_6_ign_00059,IPCPKDNE_6_ign_00060
+IPCPKDNE_11	pseudofinder	gene	93051	93679	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_11_pseudo_00263;old_locus_tag=IPCPKDNE_11_ign_00050
+IPCPKDNE_3	pseudofinder	gene	93337	93768	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 35.8%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_3_pseudo_00264;old_locus_tag=IPCPKDNE_00073
+IPCPKDNE_86	pseudofinder	gene	95978	96571	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 57.4%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_86_pseudo_00265;old_locus_tag=IPCPKDNE_02211
+IPCPKDNE_86	pseudofinder	gene	96572	96777	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_86_pseudo_00266;old_locus_tag=IPCPKDNE_86_ign_00059
+IPCPKDNE_86	pseudofinder	gene	96781	97026	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 24.2%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_86_pseudo_00267;old_locus_tag=IPCPKDNE_02212
+IPCPKDNE_86	pseudofinder	gene	97739	98095	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 34.6%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_86_pseudo_00268;old_locus_tag=IPCPKDNE_02213
+IPCPKDNE_53	pseudofinder	gene	105342	105511	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=IPCPKDNE_53_pseudo_00269;old_locus_tag=IPCPKDNE_53_ign_00067
+IPCPKDNE_53	pseudofinder	gene	105944	106084	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 13.3%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_53_pseudo_00270;old_locus_tag=IPCPKDNE_01276
+IPCPKDNE_47	pseudofinder	gene	108003	109018	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_47_pseudo_00271;old_locus_tag=IPCPKDNE_47_ign_00074
+IPCPKDNE_86	pseudofinder	gene	112148	112858	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 37.0%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_86_pseudo_00272;old_locus_tag=IPCPKDNE_02223
+IPCPKDNE_6	pseudofinder	gene	123886	124074	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 57.1%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_6_pseudo_00273;old_locus_tag=IPCPKDNE_00187
+IPCPKDNE_47	pseudofinder	gene	124463	124572	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_47_pseudo_00274;old_locus_tag=IPCPKDNE_47_ign_00084
+IPCPKDNE_47	pseudofinder	gene	124576	124710	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 18.7%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_47_pseudo_00275;old_locus_tag=IPCPKDNE_00981
+IPCPKDNE_64	pseudofinder	gene	167084	167268	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_64_pseudo_00276;old_locus_tag=IPCPKDNE_64_ign_00114
+IPCPKDNE_47	pseudofinder	gene	174738	175316	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_47_pseudo_00277;old_locus_tag=IPCPKDNE_47_ign_00114
+IPCPKDNE_47	pseudofinder	gene	177979	178140	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 5.7%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_47_pseudo_00278;old_locus_tag=IPCPKDNE_01012
+IPCPKDNE_64	pseudofinder	gene	181312	181451	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_64_pseudo_00279;old_locus_tag=IPCPKDNE_64_ign_00121
+IPCPKDNE_64	pseudofinder	gene	181455	181817	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 11.0%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_64_pseudo_00280;old_locus_tag=IPCPKDNE_01708
+IPCPKDNE_64	pseudofinder	gene	184332	184868	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 41.2%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_64_pseudo_00281;old_locus_tag=IPCPKDNE_01711
+IPCPKDNE_64	pseudofinder	gene	184872	185062	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_64_pseudo_00282;old_locus_tag=IPCPKDNE_64_ign_00125
+IPCPKDNE_47	pseudofinder	gene	184943	185332	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 26.4%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_47_pseudo_00283;old_locus_tag=IPCPKDNE_01016
+IPCPKDNE_47	pseudofinder	gene	185336	185400	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_47_pseudo_00284;old_locus_tag=IPCPKDNE_47_ign_00119
+IPCPKDNE_64	pseudofinder	gene	200120	200371	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 35.3%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_64_pseudo_00285;old_locus_tag=IPCPKDNE_01720
+IPCPKDNE_47	pseudofinder	gene	211026	211411	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=IPCPKDNE_47_pseudo_00286;old_locus_tag=IPCPKDNE_01038,IPCPKDNE_47_ign_00139
+IPCPKDNE_47	pseudofinder	gene	211595	211929	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_47_pseudo_00287;old_locus_tag=IPCPKDNE_47_ign_00140
+IPCPKDNE_64	pseudofinder	gene	212031	212168	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 21.2%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_64_pseudo_00288;old_locus_tag=IPCPKDNE_01727
+IPCPKDNE_64	pseudofinder	gene	212169	212380	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_64_pseudo_00289;old_locus_tag=IPCPKDNE_64_ign_00141
+IPCPKDNE_64	pseudofinder	gene	212382	212852	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 63.8%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_64_pseudo_00290;old_locus_tag=IPCPKDNE_01728
+IPCPKDNE_47	pseudofinder	gene	217206	217423	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_47_pseudo_00291;old_locus_tag=IPCPKDNE_47_ign_00145
+IPCPKDNE_64	pseudofinder	gene	228936	229421	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 41.7%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_64_pseudo_00292;old_locus_tag=IPCPKDNE_01734
+IPCPKDNE_64	pseudofinder	gene	229430	230128	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 61.2%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_64_pseudo_00293;old_locus_tag=IPCPKDNE_01735
+IPCPKDNE_47	pseudofinder	gene	235047	235667	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=IPCPKDNE_47_pseudo_00294;old_locus_tag=IPCPKDNE_01054,IPCPKDNE_47_ign_00155
+IPCPKDNE_47	pseudofinder	gene	235669	235890	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 27.6%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_47_pseudo_00295;old_locus_tag=IPCPKDNE_01055
+IPCPKDNE_47	pseudofinder	gene	239961	240353	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 38.3%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_47_pseudo_00296;old_locus_tag=IPCPKDNE_01059
+IPCPKDNE_47	pseudofinder	gene	240356	240537	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_47_pseudo_00297;old_locus_tag=IPCPKDNE_47_ign_00160
+IPCPKDNE_47	pseudofinder	gene	240539	241024	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 47.5%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_47_pseudo_00298;old_locus_tag=IPCPKDNE_01060
+IPCPKDNE_47	pseudofinder	gene	242332	242621	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_47_pseudo_00299;old_locus_tag=IPCPKDNE_47_ign_00161
+IPCPKDNE_47	pseudofinder	gene	242660	242845	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 24.2%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_47_pseudo_00300;old_locus_tag=IPCPKDNE_01061
+IPCPKDNE_47	pseudofinder	gene	243439	243947	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_47_pseudo_00301;old_locus_tag=IPCPKDNE_47_ign_00162
+IPCPKDNE_64	pseudofinder	gene	245841	246466	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_64_pseudo_00302;old_locus_tag=IPCPKDNE_64_ign_00157
+IPCPKDNE_64	pseudofinder	gene	246472	246690	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 20.9%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_64_pseudo_00303;old_locus_tag=IPCPKDNE_01746
+IPCPKDNE_47	pseudofinder	gene	260257	261194	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 9 blast hits.;locus_tag=IPCPKDNE_47_pseudo_00304;old_locus_tag=IPCPKDNE_47_ign_00169
+IPCPKDNE_47	pseudofinder	gene	261714	261944	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 35.8%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_47_pseudo_00305;old_locus_tag=IPCPKDNE_01072
+IPCPKDNE_47	pseudofinder	gene	261945	262114	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_47_pseudo_00306;old_locus_tag=IPCPKDNE_47_ign_00170
+IPCPKDNE_47	pseudofinder	gene	264106	264455	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_47_pseudo_00307;old_locus_tag=IPCPKDNE_47_ign_00171
+IPCPKDNE_47	pseudofinder	gene	267908	268668	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_47_pseudo_00308;old_locus_tag=IPCPKDNE_47_ign_00173
+IPCPKDNE_47	pseudofinder	gene	288978	289526	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 63.0%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_47_pseudo_00309;old_locus_tag=IPCPKDNE_01088
+IPCPKDNE_47	pseudofinder	gene	289517	289873	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 42.0%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_47_pseudo_00310;old_locus_tag=IPCPKDNE_01089
+IPCPKDNE_47	pseudofinder	gene	298306	298491	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 20.9%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_47_pseudo_00311;old_locus_tag=IPCPKDNE_01095
+IPCPKDNE_47	pseudofinder	gene	298779	299239	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_47_pseudo_00312;old_locus_tag=IPCPKDNE_47_ign_00192
+IPCPKDNE_47	pseudofinder	gene	306537	306937	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_47_pseudo_00313;old_locus_tag=IPCPKDNE_47_ign_00197
+IPCPKDNE_47	pseudofinder	gene	308210	308500	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 13.4%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_47_pseudo_00314;old_locus_tag=IPCPKDNE_01104
+IPCPKDNE_47	pseudofinder	gene	308501	309051	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_47_pseudo_00315;old_locus_tag=IPCPKDNE_47_ign_00199
+IPCPKDNE_47	pseudofinder	gene	309073	309264	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 15.0%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_47_pseudo_00316;old_locus_tag=IPCPKDNE_01105
+IPCPKDNE_47	pseudofinder	gene	309267	309358	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 8 blast hits.;locus_tag=IPCPKDNE_47_pseudo_00317;old_locus_tag=IPCPKDNE_47_ign_00200
+IPCPKDNE_47	pseudofinder	gene	309360	309506	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 7.6%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_47_pseudo_00318;old_locus_tag=IPCPKDNE_01106
+IPCPKDNE_47	pseudofinder	gene	309534	309650	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 5.3%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_47_pseudo_00319;old_locus_tag=IPCPKDNE_01107
+IPCPKDNE_47	pseudofinder	gene	310147	310287	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 55.3%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_47_pseudo_00320;old_locus_tag=IPCPKDNE_01108
+IPCPKDNE_47	pseudofinder	gene	310288	311011	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_47_pseudo_00321;old_locus_tag=IPCPKDNE_47_ign_00202
+IPCPKDNE_64	pseudofinder	gene	331219	331307	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 10 blast hits.;locus_tag=IPCPKDNE_64_pseudo_00322;old_locus_tag=IPCPKDNE_64_ign_00221
+IPCPKDNE_64	pseudofinder	gene	335351	335674	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=IPCPKDNE_64_pseudo_00323;old_locus_tag=IPCPKDNE_64_ign_00226,IPCPKDNE_01818
+IPCPKDNE_64	pseudofinder	gene	347411	348253	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 40.4%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_64_pseudo_00324;old_locus_tag=IPCPKDNE_01829
+IPCPKDNE_47	pseudofinder	gene	351147	351296	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 28.3%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_47_pseudo_00325;old_locus_tag=IPCPKDNE_01134
+IPCPKDNE_47	pseudofinder	gene	360494	360696	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_47_pseudo_00326;old_locus_tag=IPCPKDNE_47_ign_00232
+IPCPKDNE_47	pseudofinder	gene	361980	362399	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 26.2%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_47_pseudo_00327;old_locus_tag=IPCPKDNE_01141
+IPCPKDNE_64	pseudofinder	gene	366188	366816	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_64_pseudo_00328;old_locus_tag=IPCPKDNE_64_ign_00249
+IPCPKDNE_47	pseudofinder	gene	367723	368012	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_47_pseudo_00329;old_locus_tag=IPCPKDNE_47_ign_00235
+IPCPKDNE_47	pseudofinder	gene	368016	368249	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 20.2%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_47_pseudo_00330;old_locus_tag=IPCPKDNE_01144
+IPCPKDNE_47	pseudofinder	gene	368302	368489	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_47_pseudo_00331;old_locus_tag=IPCPKDNE_47_ign_00236
+IPCPKDNE_47	pseudofinder	gene	368492	368656	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 15.4%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_47_pseudo_00332;old_locus_tag=IPCPKDNE_01145
+IPCPKDNE_47	pseudofinder	gene	368669	368967	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_47_pseudo_00333;old_locus_tag=IPCPKDNE_47_ign_00237
+IPCPKDNE_47	pseudofinder	gene	368969	369235	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 25.0%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_47_pseudo_00334;old_locus_tag=IPCPKDNE_01146
+IPCPKDNE_47	pseudofinder	gene	375642	375905	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 44.6%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_47_pseudo_00335;old_locus_tag=IPCPKDNE_01152
+IPCPKDNE_64	pseudofinder	gene	375724	376442	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=IPCPKDNE_64_pseudo_00336;old_locus_tag=IPCPKDNE_64_ign_00255
+IPCPKDNE_47	pseudofinder	gene	381704	382066	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 56.6%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_47_pseudo_00337;old_locus_tag=IPCPKDNE_01158
+IPCPKDNE_47	pseudofinder	gene	382060	382386	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 51.9%25 of the average length of hits to this gene.;locus_tag=IPCPKDNE_47_pseudo_00338;old_locus_tag=IPCPKDNE_01159

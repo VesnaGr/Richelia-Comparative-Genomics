@@ -1,0 +1,1511 @@
+##gff-version 3
+#!annotation-date	2022-12-22 11:05:27
+##sequence-region FDBDIGKM_1 1 1037
+##sequence-region FDBDIGKM_2 1 653
+##sequence-region FDBDIGKM_3 1 453
+##sequence-region FDBDIGKM_4 1 456
+##sequence-region FDBDIGKM_5 1 685
+##sequence-region FDBDIGKM_6 1 1229
+##sequence-region FDBDIGKM_7 1 679
+##sequence-region FDBDIGKM_8 1 2878
+##sequence-region FDBDIGKM_9 1 903
+##sequence-region FDBDIGKM_10 1 1258
+##sequence-region FDBDIGKM_11 1 542
+##sequence-region FDBDIGKM_12 1 3639
+##sequence-region FDBDIGKM_13 1 1540
+##sequence-region FDBDIGKM_14 1 508
+##sequence-region FDBDIGKM_15 1 1444
+##sequence-region FDBDIGKM_16 1 717
+##sequence-region FDBDIGKM_17 1 1242
+##sequence-region FDBDIGKM_18 1 348
+##sequence-region FDBDIGKM_19 1 3117
+##sequence-region FDBDIGKM_20 1 647
+##sequence-region FDBDIGKM_21 1 1178
+##sequence-region FDBDIGKM_22 1 783
+##sequence-region FDBDIGKM_23 1 912
+##sequence-region FDBDIGKM_24 1 712
+##sequence-region FDBDIGKM_25 1 731
+##sequence-region FDBDIGKM_26 1 1463
+##sequence-region FDBDIGKM_27 1 11066
+##sequence-region FDBDIGKM_28 1 3471
+##sequence-region FDBDIGKM_29 1 1479
+##sequence-region FDBDIGKM_30 1 939
+##sequence-region FDBDIGKM_31 1 17981
+##sequence-region FDBDIGKM_32 1 533
+##sequence-region FDBDIGKM_33 1 441
+##sequence-region FDBDIGKM_34 1 471
+##sequence-region FDBDIGKM_35 1 681
+##sequence-region FDBDIGKM_36 1 655
+##sequence-region FDBDIGKM_37 1 362
+##sequence-region FDBDIGKM_38 1 2185
+##sequence-region FDBDIGKM_39 1 698
+##sequence-region FDBDIGKM_40 1 1958
+##sequence-region FDBDIGKM_41 1 1535
+##sequence-region FDBDIGKM_42 1 9482
+##sequence-region FDBDIGKM_43 1 4383
+##sequence-region FDBDIGKM_44 1 5200
+##sequence-region FDBDIGKM_45 1 16055
+##sequence-region FDBDIGKM_46 1 705
+##sequence-region FDBDIGKM_47 1 346
+##sequence-region FDBDIGKM_48 1 12474
+##sequence-region FDBDIGKM_49 1 535
+##sequence-region FDBDIGKM_50 1 694
+##sequence-region FDBDIGKM_51 1 378
+##sequence-region FDBDIGKM_52 1 978
+##sequence-region FDBDIGKM_53 1 449
+##sequence-region FDBDIGKM_54 1 895
+##sequence-region FDBDIGKM_55 1 319
+##sequence-region FDBDIGKM_56 1 1399
+##sequence-region FDBDIGKM_57 1 642
+##sequence-region FDBDIGKM_58 1 2142
+##sequence-region FDBDIGKM_59 1 692
+##sequence-region FDBDIGKM_60 1 1201
+##sequence-region FDBDIGKM_61 1 663
+##sequence-region FDBDIGKM_62 1 473
+##sequence-region FDBDIGKM_63 1 2681
+##sequence-region FDBDIGKM_64 1 8845
+##sequence-region FDBDIGKM_65 1 1879
+##sequence-region FDBDIGKM_66 1 13433
+##sequence-region FDBDIGKM_67 1 11060
+##sequence-region FDBDIGKM_68 1 1380
+##sequence-region FDBDIGKM_69 1 696
+##sequence-region FDBDIGKM_70 1 1951
+##sequence-region FDBDIGKM_71 1 672
+##sequence-region FDBDIGKM_72 1 2119
+##sequence-region FDBDIGKM_73 1 2259
+##sequence-region FDBDIGKM_74 1 2377
+##sequence-region FDBDIGKM_75 1 2022
+##sequence-region FDBDIGKM_76 1 445
+##sequence-region FDBDIGKM_77 1 3789
+##sequence-region FDBDIGKM_78 1 466
+##sequence-region FDBDIGKM_79 1 609
+##sequence-region FDBDIGKM_80 1 1972
+##sequence-region FDBDIGKM_81 1 1751
+##sequence-region FDBDIGKM_82 1 1117
+##sequence-region FDBDIGKM_83 1 841
+##sequence-region FDBDIGKM_84 1 1136
+##sequence-region FDBDIGKM_85 1 734
+##sequence-region FDBDIGKM_86 1 492
+##sequence-region FDBDIGKM_87 1 2461
+##sequence-region FDBDIGKM_88 1 576
+##sequence-region FDBDIGKM_89 1 609
+##sequence-region FDBDIGKM_90 1 894
+##sequence-region FDBDIGKM_91 1 843
+##sequence-region FDBDIGKM_92 1 6102
+##sequence-region FDBDIGKM_93 1 856
+##sequence-region FDBDIGKM_94 1 698
+##sequence-region FDBDIGKM_95 1 1264
+##sequence-region FDBDIGKM_96 1 1354
+##sequence-region FDBDIGKM_97 1 533
+##sequence-region FDBDIGKM_98 1 530
+##sequence-region FDBDIGKM_99 1 765
+##sequence-region FDBDIGKM_100 1 2778
+##sequence-region FDBDIGKM_101 1 519
+##sequence-region FDBDIGKM_102 1 774
+##sequence-region FDBDIGKM_103 1 965
+##sequence-region FDBDIGKM_104 1 330
+##sequence-region FDBDIGKM_105 1 1283
+##sequence-region FDBDIGKM_106 1 494
+##sequence-region FDBDIGKM_107 1 1115
+##sequence-region FDBDIGKM_108 1 1786
+##sequence-region FDBDIGKM_109 1 613
+##sequence-region FDBDIGKM_110 1 956
+##sequence-region FDBDIGKM_111 1 472
+##sequence-region FDBDIGKM_112 1 630
+##sequence-region FDBDIGKM_113 1 1762
+##sequence-region FDBDIGKM_114 1 961
+##sequence-region FDBDIGKM_115 1 414
+##sequence-region FDBDIGKM_116 1 660
+##sequence-region FDBDIGKM_117 1 1591
+##sequence-region FDBDIGKM_118 1 12978
+##sequence-region FDBDIGKM_119 1 505
+##sequence-region FDBDIGKM_120 1 10075
+##sequence-region FDBDIGKM_121 1 1326
+##sequence-region FDBDIGKM_122 1 1098
+##sequence-region FDBDIGKM_123 1 2588
+##sequence-region FDBDIGKM_124 1 475
+##sequence-region FDBDIGKM_125 1 663
+##sequence-region FDBDIGKM_126 1 460
+##sequence-region FDBDIGKM_127 1 737
+##sequence-region FDBDIGKM_128 1 1208
+##sequence-region FDBDIGKM_129 1 2122
+##sequence-region FDBDIGKM_130 1 715
+##sequence-region FDBDIGKM_131 1 7762
+##sequence-region FDBDIGKM_132 1 5040
+##sequence-region FDBDIGKM_133 1 523
+##sequence-region FDBDIGKM_134 1 422
+##sequence-region FDBDIGKM_135 1 1525
+##sequence-region FDBDIGKM_136 1 752
+##sequence-region FDBDIGKM_137 1 1365
+##sequence-region FDBDIGKM_138 1 645
+##sequence-region FDBDIGKM_139 1 492
+##sequence-region FDBDIGKM_140 1 3669
+##sequence-region FDBDIGKM_141 1 25522
+##sequence-region FDBDIGKM_142 1 612
+##sequence-region FDBDIGKM_143 1 3501
+##sequence-region FDBDIGKM_144 1 340
+##sequence-region FDBDIGKM_145 1 8785
+##sequence-region FDBDIGKM_146 1 1747
+##sequence-region FDBDIGKM_147 1 2214
+##sequence-region FDBDIGKM_148 1 2999
+##sequence-region FDBDIGKM_149 1 1498
+##sequence-region FDBDIGKM_150 1 491
+##sequence-region FDBDIGKM_151 1 946
+##sequence-region FDBDIGKM_152 1 1368
+##sequence-region FDBDIGKM_153 1 884
+##sequence-region FDBDIGKM_154 1 2059
+##sequence-region FDBDIGKM_155 1 870
+##sequence-region FDBDIGKM_156 1 1467
+##sequence-region FDBDIGKM_157 1 716
+##sequence-region FDBDIGKM_158 1 2100
+##sequence-region FDBDIGKM_159 1 1923
+##sequence-region FDBDIGKM_160 1 489
+##sequence-region FDBDIGKM_161 1 4962
+##sequence-region FDBDIGKM_162 1 56341
+##sequence-region FDBDIGKM_163 1 594
+##sequence-region FDBDIGKM_164 1 8270
+##sequence-region FDBDIGKM_165 1 8728
+##sequence-region FDBDIGKM_166 1 396
+##sequence-region FDBDIGKM_167 1 2874
+##sequence-region FDBDIGKM_168 1 714
+##sequence-region FDBDIGKM_169 1 508
+##sequence-region FDBDIGKM_170 1 734
+##sequence-region FDBDIGKM_171 1 1228
+##sequence-region FDBDIGKM_172 1 4695
+##sequence-region FDBDIGKM_173 1 966
+##sequence-region FDBDIGKM_174 1 438
+##sequence-region FDBDIGKM_175 1 397
+##sequence-region FDBDIGKM_176 1 2858
+##sequence-region FDBDIGKM_177 1 1924
+##sequence-region FDBDIGKM_178 1 728
+##sequence-region FDBDIGKM_179 1 1054
+##sequence-region FDBDIGKM_180 1 1929
+##sequence-region FDBDIGKM_181 1 603
+##sequence-region FDBDIGKM_182 1 586
+##sequence-region FDBDIGKM_183 1 39823
+##sequence-region FDBDIGKM_184 1 2516
+##sequence-region FDBDIGKM_185 1 1447
+##sequence-region FDBDIGKM_186 1 927
+##sequence-region FDBDIGKM_187 1 1287
+##sequence-region FDBDIGKM_188 1 2304
+##sequence-region FDBDIGKM_189 1 513
+##sequence-region FDBDIGKM_190 1 1449
+##sequence-region FDBDIGKM_191 1 1577
+##sequence-region FDBDIGKM_192 1 445
+##sequence-region FDBDIGKM_193 1 646
+##sequence-region FDBDIGKM_194 1 974
+##sequence-region FDBDIGKM_195 1 320
+##sequence-region FDBDIGKM_196 1 2661
+##sequence-region FDBDIGKM_197 1 655
+##sequence-region FDBDIGKM_198 1 985
+##sequence-region FDBDIGKM_199 1 516
+##sequence-region FDBDIGKM_200 1 2194
+##sequence-region FDBDIGKM_201 1 1620
+##sequence-region FDBDIGKM_202 1 605
+##sequence-region FDBDIGKM_203 1 2184
+##sequence-region FDBDIGKM_204 1 813
+##sequence-region FDBDIGKM_205 1 681
+##sequence-region FDBDIGKM_206 1 935
+##sequence-region FDBDIGKM_207 1 16011
+##sequence-region FDBDIGKM_208 1 433
+##sequence-region FDBDIGKM_209 1 4056
+##sequence-region FDBDIGKM_210 1 485
+##sequence-region FDBDIGKM_211 1 585
+##sequence-region FDBDIGKM_212 1 891
+##sequence-region FDBDIGKM_213 1 392
+##sequence-region FDBDIGKM_214 1 259
+##sequence-region FDBDIGKM_215 1 549
+##sequence-region FDBDIGKM_216 1 425
+##sequence-region FDBDIGKM_217 1 275
+##sequence-region FDBDIGKM_218 1 994
+##sequence-region FDBDIGKM_219 1 600
+##sequence-region FDBDIGKM_220 1 5302
+##sequence-region FDBDIGKM_221 1 1931
+##sequence-region FDBDIGKM_222 1 953
+##sequence-region FDBDIGKM_223 1 484
+##sequence-region FDBDIGKM_224 1 850
+##sequence-region FDBDIGKM_225 1 10355
+##sequence-region FDBDIGKM_226 1 822
+##sequence-region FDBDIGKM_227 1 794
+##sequence-region FDBDIGKM_228 1 247
+##sequence-region FDBDIGKM_229 1 558
+##sequence-region FDBDIGKM_230 1 656
+##sequence-region FDBDIGKM_231 1 11481
+##sequence-region FDBDIGKM_232 1 704
+##sequence-region FDBDIGKM_233 1 1264
+##sequence-region FDBDIGKM_234 1 298
+##sequence-region FDBDIGKM_235 1 699
+##sequence-region FDBDIGKM_236 1 1062
+##sequence-region FDBDIGKM_237 1 634
+##sequence-region FDBDIGKM_238 1 457
+##sequence-region FDBDIGKM_239 1 4641
+##sequence-region FDBDIGKM_240 1 442
+##sequence-region FDBDIGKM_241 1 3221
+##sequence-region FDBDIGKM_242 1 2177
+##sequence-region FDBDIGKM_243 1 2164
+##sequence-region FDBDIGKM_244 1 1252
+##sequence-region FDBDIGKM_245 1 565
+##sequence-region FDBDIGKM_246 1 3278
+##sequence-region FDBDIGKM_247 1 499
+##sequence-region FDBDIGKM_248 1 506
+##sequence-region FDBDIGKM_249 1 1579
+##sequence-region FDBDIGKM_250 1 386
+##sequence-region FDBDIGKM_251 1 19162
+##sequence-region FDBDIGKM_252 1 415
+##sequence-region FDBDIGKM_253 1 969
+##sequence-region FDBDIGKM_254 1 734
+##sequence-region FDBDIGKM_255 1 1001
+##sequence-region FDBDIGKM_256 1 1875
+##sequence-region FDBDIGKM_257 1 1519
+##sequence-region FDBDIGKM_258 1 1050
+##sequence-region FDBDIGKM_259 1 487
+##sequence-region FDBDIGKM_260 1 2464
+##sequence-region FDBDIGKM_261 1 472
+##sequence-region FDBDIGKM_262 1 1519
+##sequence-region FDBDIGKM_263 1 461
+##sequence-region FDBDIGKM_264 1 4092
+##sequence-region FDBDIGKM_265 1 521
+##sequence-region FDBDIGKM_266 1 21324
+##sequence-region FDBDIGKM_267 1 303
+##sequence-region FDBDIGKM_268 1 4020
+##sequence-region FDBDIGKM_269 1 17520
+##sequence-region FDBDIGKM_270 1 596
+##sequence-region FDBDIGKM_271 1 469
+##sequence-region FDBDIGKM_272 1 515
+##sequence-region FDBDIGKM_273 1 593
+##sequence-region FDBDIGKM_274 1 6429
+##sequence-region FDBDIGKM_275 1 594
+##sequence-region FDBDIGKM_276 1 1960
+##sequence-region FDBDIGKM_277 1 474
+##sequence-region FDBDIGKM_278 1 1132
+##sequence-region FDBDIGKM_279 1 442
+##sequence-region FDBDIGKM_280 1 6831
+##sequence-region FDBDIGKM_281 1 545
+##sequence-region FDBDIGKM_282 1 1950
+##sequence-region FDBDIGKM_283 1 3227
+##sequence-region FDBDIGKM_284 1 617
+##sequence-region FDBDIGKM_285 1 2101
+##sequence-region FDBDIGKM_286 1 225
+##sequence-region FDBDIGKM_287 1 1055
+##sequence-region FDBDIGKM_288 1 2288
+##sequence-region FDBDIGKM_289 1 14381
+##sequence-region FDBDIGKM_290 1 4363
+##sequence-region FDBDIGKM_291 1 6901
+##sequence-region FDBDIGKM_292 1 559
+##sequence-region FDBDIGKM_293 1 18806
+##sequence-region FDBDIGKM_294 1 876
+##sequence-region FDBDIGKM_295 1 1296
+##sequence-region FDBDIGKM_296 1 585
+##sequence-region FDBDIGKM_297 1 5662
+##sequence-region FDBDIGKM_298 1 374
+##sequence-region FDBDIGKM_299 1 786
+##sequence-region FDBDIGKM_300 1 1295
+##sequence-region FDBDIGKM_301 1 1395
+##sequence-region FDBDIGKM_302 1 403
+##sequence-region FDBDIGKM_303 1 3493
+##sequence-region FDBDIGKM_304 1 9316
+##sequence-region FDBDIGKM_305 1 364
+##sequence-region FDBDIGKM_306 1 513
+##sequence-region FDBDIGKM_307 1 341
+##sequence-region FDBDIGKM_308 1 3195
+##sequence-region FDBDIGKM_309 1 2044
+##sequence-region FDBDIGKM_310 1 1325
+##sequence-region FDBDIGKM_311 1 740
+##sequence-region FDBDIGKM_312 1 661
+##sequence-region FDBDIGKM_313 1 2201
+##sequence-region FDBDIGKM_314 1 703
+##sequence-region FDBDIGKM_315 1 994
+##sequence-region FDBDIGKM_316 1 4192
+##sequence-region FDBDIGKM_317 1 3072
+##sequence-region FDBDIGKM_318 1 1480
+##sequence-region FDBDIGKM_319 1 465
+##sequence-region FDBDIGKM_320 1 28811
+##sequence-region FDBDIGKM_321 1 501
+##sequence-region FDBDIGKM_322 1 872
+##sequence-region FDBDIGKM_323 1 782
+##sequence-region FDBDIGKM_324 1 618
+##sequence-region FDBDIGKM_325 1 755
+##sequence-region FDBDIGKM_326 1 594
+##sequence-region FDBDIGKM_327 1 854
+##sequence-region FDBDIGKM_328 1 296
+##sequence-region FDBDIGKM_329 1 1330
+##sequence-region FDBDIGKM_330 1 746
+##sequence-region FDBDIGKM_331 1 370
+##sequence-region FDBDIGKM_332 1 675
+##sequence-region FDBDIGKM_333 1 245
+##sequence-region FDBDIGKM_334 1 3341
+##sequence-region FDBDIGKM_335 1 540
+##sequence-region FDBDIGKM_336 1 743
+##sequence-region FDBDIGKM_337 1 519
+##sequence-region FDBDIGKM_338 1 553
+##sequence-region FDBDIGKM_339 1 9280
+##sequence-region FDBDIGKM_340 1 276
+##sequence-region FDBDIGKM_341 1 2088
+##sequence-region FDBDIGKM_342 1 627
+##sequence-region FDBDIGKM_343 1 1314
+##sequence-region FDBDIGKM_344 1 3035
+##sequence-region FDBDIGKM_345 1 536
+##sequence-region FDBDIGKM_346 1 1069
+##sequence-region FDBDIGKM_347 1 1564
+##sequence-region FDBDIGKM_348 1 562
+##sequence-region FDBDIGKM_349 1 1741
+##sequence-region FDBDIGKM_350 1 368
+##sequence-region FDBDIGKM_351 1 672
+##sequence-region FDBDIGKM_352 1 1038
+##sequence-region FDBDIGKM_353 1 485
+##sequence-region FDBDIGKM_354 1 202
+##sequence-region FDBDIGKM_355 1 513
+##sequence-region FDBDIGKM_356 1 1777
+##sequence-region FDBDIGKM_357 1 602
+##sequence-region FDBDIGKM_358 1 972
+##sequence-region FDBDIGKM_359 1 749
+##sequence-region FDBDIGKM_360 1 342
+##sequence-region FDBDIGKM_361 1 1240
+##sequence-region FDBDIGKM_362 1 4108
+##sequence-region FDBDIGKM_363 1 679
+##sequence-region FDBDIGKM_364 1 1199
+##sequence-region FDBDIGKM_365 1 571
+##sequence-region FDBDIGKM_366 1 932
+##sequence-region FDBDIGKM_367 1 584
+##sequence-region FDBDIGKM_368 1 530
+##sequence-region FDBDIGKM_369 1 915
+##sequence-region FDBDIGKM_370 1 319
+##sequence-region FDBDIGKM_371 1 367
+##sequence-region FDBDIGKM_372 1 800
+##sequence-region FDBDIGKM_373 1 1696
+##sequence-region FDBDIGKM_374 1 502
+##sequence-region FDBDIGKM_375 1 490
+##sequence-region FDBDIGKM_376 1 627
+##sequence-region FDBDIGKM_377 1 2036
+##sequence-region FDBDIGKM_378 1 789
+##sequence-region FDBDIGKM_379 1 252
+##sequence-region FDBDIGKM_380 1 511
+##sequence-region FDBDIGKM_381 1 801
+##sequence-region FDBDIGKM_382 1 913
+##sequence-region FDBDIGKM_383 1 376
+##sequence-region FDBDIGKM_384 1 327
+##sequence-region FDBDIGKM_385 1 7299
+##sequence-region FDBDIGKM_386 1 13814
+##sequence-region FDBDIGKM_387 1 2621
+##sequence-region FDBDIGKM_388 1 758
+##sequence-region FDBDIGKM_389 1 305
+##sequence-region FDBDIGKM_390 1 2056
+##sequence-region FDBDIGKM_391 1 844
+##sequence-region FDBDIGKM_392 1 4392
+##sequence-region FDBDIGKM_393 1 639
+##sequence-region FDBDIGKM_394 1 1361
+##sequence-region FDBDIGKM_395 1 11293
+##sequence-region FDBDIGKM_396 1 876
+##sequence-region FDBDIGKM_397 1 577
+##sequence-region FDBDIGKM_398 1 1137
+##sequence-region FDBDIGKM_399 1 656
+##sequence-region FDBDIGKM_400 1 4219
+##sequence-region FDBDIGKM_401 1 1133
+##sequence-region FDBDIGKM_402 1 532
+##sequence-region FDBDIGKM_403 1 424
+##sequence-region FDBDIGKM_404 1 769
+##sequence-region FDBDIGKM_405 1 1311
+##sequence-region FDBDIGKM_406 1 1322
+##sequence-region FDBDIGKM_407 1 13740
+##sequence-region FDBDIGKM_408 1 455
+##sequence-region FDBDIGKM_409 1 547
+##sequence-region FDBDIGKM_410 1 332
+##sequence-region FDBDIGKM_411 1 1387
+##sequence-region FDBDIGKM_412 1 789
+##sequence-region FDBDIGKM_413 1 1067
+##sequence-region FDBDIGKM_414 1 520
+##sequence-region FDBDIGKM_415 1 2379
+##sequence-region FDBDIGKM_416 1 849
+##sequence-region FDBDIGKM_417 1 569
+##sequence-region FDBDIGKM_418 1 590
+##sequence-region FDBDIGKM_419 1 2148
+##sequence-region FDBDIGKM_420 1 616
+##sequence-region FDBDIGKM_421 1 524
+##sequence-region FDBDIGKM_422 1 842
+##sequence-region FDBDIGKM_423 1 1133
+##sequence-region FDBDIGKM_424 1 783
+##sequence-region FDBDIGKM_425 1 363
+##sequence-region FDBDIGKM_426 1 2439
+##sequence-region FDBDIGKM_427 1 891
+##sequence-region FDBDIGKM_428 1 656
+##sequence-region FDBDIGKM_429 1 865
+##sequence-region FDBDIGKM_430 1 732
+##sequence-region FDBDIGKM_431 1 608
+##sequence-region FDBDIGKM_432 1 427
+##sequence-region FDBDIGKM_433 1 943
+##sequence-region FDBDIGKM_434 1 474
+##sequence-region FDBDIGKM_435 1 743
+##sequence-region FDBDIGKM_436 1 893
+##sequence-region FDBDIGKM_437 1 646
+##sequence-region FDBDIGKM_438 1 545
+##sequence-region FDBDIGKM_439 1 967
+##sequence-region FDBDIGKM_440 1 424
+##sequence-region FDBDIGKM_441 1 741
+##sequence-region FDBDIGKM_442 1 917
+##sequence-region FDBDIGKM_443 1 707
+##sequence-region FDBDIGKM_444 1 1967
+##sequence-region FDBDIGKM_445 1 1719
+##sequence-region FDBDIGKM_446 1 18721
+##sequence-region FDBDIGKM_447 1 412
+##sequence-region FDBDIGKM_448 1 1092
+##sequence-region FDBDIGKM_449 1 3829
+##sequence-region FDBDIGKM_450 1 589
+##sequence-region FDBDIGKM_451 1 531
+##sequence-region FDBDIGKM_452 1 605
+##sequence-region FDBDIGKM_453 1 648
+##sequence-region FDBDIGKM_454 1 1199
+##sequence-region FDBDIGKM_455 1 674
+##sequence-region FDBDIGKM_456 1 1413
+##sequence-region FDBDIGKM_457 1 4245
+##sequence-region FDBDIGKM_458 1 278
+##sequence-region FDBDIGKM_459 1 1639
+##sequence-region FDBDIGKM_460 1 1143
+##sequence-region FDBDIGKM_461 1 459
+##sequence-region FDBDIGKM_462 1 324
+##sequence-region FDBDIGKM_463 1 478
+##sequence-region FDBDIGKM_464 1 1597
+##sequence-region FDBDIGKM_465 1 523
+##sequence-region FDBDIGKM_466 1 1142
+##sequence-region FDBDIGKM_467 1 574
+##sequence-region FDBDIGKM_468 1 1198
+##sequence-region FDBDIGKM_469 1 507
+##sequence-region FDBDIGKM_470 1 2032
+##sequence-region FDBDIGKM_471 1 976
+##sequence-region FDBDIGKM_472 1 454
+##sequence-region FDBDIGKM_473 1 5171
+##sequence-region FDBDIGKM_474 1 2148
+##sequence-region FDBDIGKM_475 1 596
+##sequence-region FDBDIGKM_476 1 478
+##sequence-region FDBDIGKM_477 1 2332
+##sequence-region FDBDIGKM_478 1 405
+##sequence-region FDBDIGKM_479 1 666
+##sequence-region FDBDIGKM_480 1 1205
+##sequence-region FDBDIGKM_481 1 2495
+##sequence-region FDBDIGKM_482 1 397
+##sequence-region FDBDIGKM_483 1 627
+##sequence-region FDBDIGKM_484 1 788
+##sequence-region FDBDIGKM_485 1 451
+##sequence-region FDBDIGKM_486 1 2816
+##sequence-region FDBDIGKM_487 1 744
+##sequence-region FDBDIGKM_488 1 270
+##sequence-region FDBDIGKM_489 1 614
+##sequence-region FDBDIGKM_490 1 1060
+##sequence-region FDBDIGKM_491 1 646
+##sequence-region FDBDIGKM_492 1 7072
+##sequence-region FDBDIGKM_493 1 4041
+##sequence-region FDBDIGKM_494 1 885
+##sequence-region FDBDIGKM_495 1 2321
+##sequence-region FDBDIGKM_496 1 892
+##sequence-region FDBDIGKM_497 1 1505
+##sequence-region FDBDIGKM_498 1 844
+##sequence-region FDBDIGKM_499 1 761
+##sequence-region FDBDIGKM_500 1 2905
+##sequence-region FDBDIGKM_501 1 983
+##sequence-region FDBDIGKM_502 1 1460
+##sequence-region FDBDIGKM_503 1 890
+##sequence-region FDBDIGKM_504 1 639
+##sequence-region FDBDIGKM_505 1 4679
+##sequence-region FDBDIGKM_506 1 420
+##sequence-region FDBDIGKM_507 1 820
+##sequence-region FDBDIGKM_508 1 592
+##sequence-region FDBDIGKM_509 1 737
+##sequence-region FDBDIGKM_510 1 943
+##sequence-region FDBDIGKM_511 1 1993
+##sequence-region FDBDIGKM_512 1 670
+##sequence-region FDBDIGKM_513 1 230
+##sequence-region FDBDIGKM_514 1 757
+##sequence-region FDBDIGKM_515 1 845
+##sequence-region FDBDIGKM_516 1 389
+##sequence-region FDBDIGKM_517 1 1187
+##sequence-region FDBDIGKM_518 1 763
+##sequence-region FDBDIGKM_519 1 487
+##sequence-region FDBDIGKM_520 1 1122
+##sequence-region FDBDIGKM_521 1 654
+##sequence-region FDBDIGKM_522 1 468
+##sequence-region FDBDIGKM_523 1 5244
+##sequence-region FDBDIGKM_524 1 565
+##sequence-region FDBDIGKM_525 1 285
+##sequence-region FDBDIGKM_526 1 721
+##sequence-region FDBDIGKM_527 1 5277
+##sequence-region FDBDIGKM_528 1 1527
+##sequence-region FDBDIGKM_529 1 525
+##sequence-region FDBDIGKM_530 1 1929
+##sequence-region FDBDIGKM_531 1 618
+##sequence-region FDBDIGKM_532 1 2655
+##sequence-region FDBDIGKM_533 1 2445
+##sequence-region FDBDIGKM_534 1 49995
+##sequence-region FDBDIGKM_535 1 505
+##sequence-region FDBDIGKM_536 1 1487
+##sequence-region FDBDIGKM_537 1 943
+##sequence-region FDBDIGKM_538 1 1858
+##sequence-region FDBDIGKM_539 1 13378
+##sequence-region FDBDIGKM_540 1 806
+##sequence-region FDBDIGKM_541 1 529
+##sequence-region FDBDIGKM_542 1 808
+##sequence-region FDBDIGKM_543 1 575
+##sequence-region FDBDIGKM_544 1 945
+##sequence-region FDBDIGKM_545 1 543
+##sequence-region FDBDIGKM_546 1 3477
+##sequence-region FDBDIGKM_547 1 882
+##sequence-region FDBDIGKM_548 1 498
+##sequence-region FDBDIGKM_549 1 1369
+##sequence-region FDBDIGKM_550 1 1294
+##sequence-region FDBDIGKM_551 1 519
+##sequence-region FDBDIGKM_552 1 2493
+##sequence-region FDBDIGKM_553 1 501
+##sequence-region FDBDIGKM_554 1 549
+##sequence-region FDBDIGKM_555 1 15673
+##sequence-region FDBDIGKM_556 1 571
+##sequence-region FDBDIGKM_557 1 440
+##sequence-region FDBDIGKM_558 1 1729
+##sequence-region FDBDIGKM_559 1 2011
+##sequence-region FDBDIGKM_560 1 747
+##sequence-region FDBDIGKM_561 1 1422
+##sequence-region FDBDIGKM_562 1 480
+##sequence-region FDBDIGKM_563 1 1839
+##sequence-region FDBDIGKM_564 1 25813
+##sequence-region FDBDIGKM_565 1 220
+##sequence-region FDBDIGKM_566 1 650
+##sequence-region FDBDIGKM_567 1 588
+##sequence-region FDBDIGKM_568 1 502
+##sequence-region FDBDIGKM_569 1 760
+##sequence-region FDBDIGKM_570 1 222
+##sequence-region FDBDIGKM_571 1 526
+##sequence-region FDBDIGKM_572 1 725
+##sequence-region FDBDIGKM_573 1 495
+##sequence-region FDBDIGKM_574 1 606
+##sequence-region FDBDIGKM_575 1 6496
+##sequence-region FDBDIGKM_576 1 1377
+##sequence-region FDBDIGKM_577 1 350
+##sequence-region FDBDIGKM_578 1 709
+##sequence-region FDBDIGKM_579 1 2523
+##sequence-region FDBDIGKM_580 1 477
+##sequence-region FDBDIGKM_581 1 635
+##sequence-region FDBDIGKM_582 1 513
+##sequence-region FDBDIGKM_583 1 35932
+##sequence-region FDBDIGKM_584 1 544
+##sequence-region FDBDIGKM_585 1 1030
+##sequence-region FDBDIGKM_586 1 3539
+##sequence-region FDBDIGKM_587 1 507
+##sequence-region FDBDIGKM_588 1 23500
+##sequence-region FDBDIGKM_589 1 542
+##sequence-region FDBDIGKM_590 1 579
+##sequence-region FDBDIGKM_591 1 6253
+##sequence-region FDBDIGKM_592 1 830
+##sequence-region FDBDIGKM_593 1 1947
+##sequence-region FDBDIGKM_594 1 32997
+##sequence-region FDBDIGKM_595 1 243
+##sequence-region FDBDIGKM_596 1 872
+##sequence-region FDBDIGKM_597 1 958
+##sequence-region FDBDIGKM_598 1 647
+##sequence-region FDBDIGKM_599 1 508
+##sequence-region FDBDIGKM_600 1 1090
+##sequence-region FDBDIGKM_601 1 541
+##sequence-region FDBDIGKM_602 1 480
+##sequence-region FDBDIGKM_603 1 710
+##sequence-region FDBDIGKM_604 1 1712
+##sequence-region FDBDIGKM_605 1 2041
+##sequence-region FDBDIGKM_606 1 866
+##sequence-region FDBDIGKM_607 1 2235
+##sequence-region FDBDIGKM_608 1 1230
+##sequence-region FDBDIGKM_609 1 392
+##sequence-region FDBDIGKM_610 1 7195
+##sequence-region FDBDIGKM_611 1 3288
+##sequence-region FDBDIGKM_612 1 1405
+##sequence-region FDBDIGKM_613 1 1019
+##sequence-region FDBDIGKM_614 1 204
+##sequence-region FDBDIGKM_615 1 2402
+##sequence-region FDBDIGKM_616 1 5161
+##sequence-region FDBDIGKM_617 1 3422
+##sequence-region FDBDIGKM_618 1 758
+##sequence-region FDBDIGKM_619 1 760
+##sequence-region FDBDIGKM_620 1 750
+##sequence-region FDBDIGKM_621 1 480
+##sequence-region FDBDIGKM_622 1 291
+##sequence-region FDBDIGKM_623 1 638
+##sequence-region FDBDIGKM_624 1 1343
+##sequence-region FDBDIGKM_625 1 841
+##sequence-region FDBDIGKM_626 1 1109
+##sequence-region FDBDIGKM_627 1 1235
+##sequence-region FDBDIGKM_628 1 477
+##sequence-region FDBDIGKM_629 1 614
+##sequence-region FDBDIGKM_630 1 448
+##sequence-region FDBDIGKM_631 1 766
+##sequence-region FDBDIGKM_632 1 1437
+##sequence-region FDBDIGKM_633 1 1046
+##sequence-region FDBDIGKM_634 1 717
+##sequence-region FDBDIGKM_635 1 763
+##sequence-region FDBDIGKM_636 1 216
+##sequence-region FDBDIGKM_637 1 1087
+##sequence-region FDBDIGKM_638 1 977
+##sequence-region FDBDIGKM_639 1 218
+##sequence-region FDBDIGKM_640 1 16767
+##sequence-region FDBDIGKM_641 1 1042
+##sequence-region FDBDIGKM_642 1 361
+##sequence-region FDBDIGKM_643 1 1070
+##sequence-region FDBDIGKM_644 1 22023
+##sequence-region FDBDIGKM_645 1 874
+##sequence-region FDBDIGKM_646 1 2049
+##sequence-region FDBDIGKM_647 1 451
+##sequence-region FDBDIGKM_648 1 462
+##sequence-region FDBDIGKM_649 1 875
+##sequence-region FDBDIGKM_650 1 9598
+##sequence-region FDBDIGKM_651 1 9746
+##sequence-region FDBDIGKM_652 1 369
+##sequence-region FDBDIGKM_653 1 929
+##sequence-region FDBDIGKM_654 1 514
+##sequence-region FDBDIGKM_655 1 410
+##sequence-region FDBDIGKM_656 1 2195
+##sequence-region FDBDIGKM_657 1 911
+##sequence-region FDBDIGKM_658 1 1786
+##sequence-region FDBDIGKM_659 1 4512
+##sequence-region FDBDIGKM_660 1 757
+##sequence-region FDBDIGKM_661 1 2908
+##sequence-region FDBDIGKM_662 1 200
+##sequence-region FDBDIGKM_663 1 507
+##sequence-region FDBDIGKM_664 1 904
+##sequence-region FDBDIGKM_665 1 1477
+##sequence-region FDBDIGKM_666 1 8088
+##sequence-region FDBDIGKM_667 1 1058
+##sequence-region FDBDIGKM_668 1 1663
+##sequence-region FDBDIGKM_669 1 15653
+##sequence-region FDBDIGKM_670 1 518
+##sequence-region FDBDIGKM_671 1 4153
+##sequence-region FDBDIGKM_672 1 270
+##sequence-region FDBDIGKM_673 1 553
+##sequence-region FDBDIGKM_674 1 900
+##sequence-region FDBDIGKM_675 1 912
+##sequence-region FDBDIGKM_676 1 399
+##sequence-region FDBDIGKM_677 1 1717
+##sequence-region FDBDIGKM_678 1 566
+##sequence-region FDBDIGKM_679 1 565
+##sequence-region FDBDIGKM_680 1 1193
+##sequence-region FDBDIGKM_681 1 742
+##sequence-region FDBDIGKM_682 1 541
+##sequence-region FDBDIGKM_683 1 1825
+##sequence-region FDBDIGKM_684 1 608
+##sequence-region FDBDIGKM_685 1 4302
+##sequence-region FDBDIGKM_686 1 489
+##sequence-region FDBDIGKM_687 1 979
+##sequence-region FDBDIGKM_688 1 3956
+##sequence-region FDBDIGKM_689 1 742
+##sequence-region FDBDIGKM_690 1 530
+##sequence-region FDBDIGKM_691 1 3120
+##sequence-region FDBDIGKM_692 1 712
+##sequence-region FDBDIGKM_693 1 1591
+##sequence-region FDBDIGKM_694 1 2107
+##sequence-region FDBDIGKM_695 1 873
+##sequence-region FDBDIGKM_696 1 522
+##sequence-region FDBDIGKM_697 1 557
+##sequence-region FDBDIGKM_698 1 1207
+##sequence-region FDBDIGKM_699 1 5033
+##sequence-region FDBDIGKM_700 1 685
+##sequence-region FDBDIGKM_701 1 2164
+##sequence-region FDBDIGKM_702 1 957
+##sequence-region FDBDIGKM_703 1 803
+##sequence-region FDBDIGKM_704 1 485
+##sequence-region FDBDIGKM_705 1 10507
+##sequence-region FDBDIGKM_706 1 1630
+##sequence-region FDBDIGKM_707 1 804
+##sequence-region FDBDIGKM_708 1 1313
+##sequence-region FDBDIGKM_709 1 502
+##sequence-region FDBDIGKM_710 1 690
+##sequence-region FDBDIGKM_711 1 1275
+##sequence-region FDBDIGKM_712 1 828
+##sequence-region FDBDIGKM_713 1 1916
+##sequence-region FDBDIGKM_714 1 200
+##sequence-region FDBDIGKM_715 1 1573
+##sequence-region FDBDIGKM_716 1 855
+##sequence-region FDBDIGKM_717 1 643
+##sequence-region FDBDIGKM_718 1 13730
+##sequence-region FDBDIGKM_719 1 7481
+##sequence-region FDBDIGKM_720 1 1207
+##sequence-region FDBDIGKM_721 1 882
+##sequence-region FDBDIGKM_722 1 1540
+##sequence-region FDBDIGKM_723 1 3762
+##sequence-region FDBDIGKM_724 1 645
+##sequence-region FDBDIGKM_725 1 1099
+##sequence-region FDBDIGKM_726 1 3005
+##sequence-region FDBDIGKM_727 1 880
+##sequence-region FDBDIGKM_728 1 466
+##sequence-region FDBDIGKM_729 1 1259
+##sequence-region FDBDIGKM_730 1 785
+##sequence-region FDBDIGKM_731 1 667
+##sequence-region FDBDIGKM_732 1 476
+##sequence-region FDBDIGKM_733 1 594
+##sequence-region FDBDIGKM_734 1 1481
+##sequence-region FDBDIGKM_735 1 414
+##sequence-region FDBDIGKM_736 1 23450
+##sequence-region FDBDIGKM_737 1 1339
+##sequence-region FDBDIGKM_738 1 11145
+##sequence-region FDBDIGKM_739 1 724
+##sequence-region FDBDIGKM_740 1 1135
+##sequence-region FDBDIGKM_741 1 576
+##sequence-region FDBDIGKM_742 1 457
+##sequence-region FDBDIGKM_743 1 523
+##sequence-region FDBDIGKM_744 1 449
+##sequence-region FDBDIGKM_745 1 222
+##sequence-region FDBDIGKM_746 1 792
+##sequence-region FDBDIGKM_747 1 810
+##sequence-region FDBDIGKM_748 1 9033
+##sequence-region FDBDIGKM_749 1 716
+##sequence-region FDBDIGKM_750 1 521
+##sequence-region FDBDIGKM_751 1 1234
+##sequence-region FDBDIGKM_752 1 1213
+##sequence-region FDBDIGKM_753 1 2834
+##sequence-region FDBDIGKM_754 1 512
+##sequence-region FDBDIGKM_755 1 702
+##sequence-region FDBDIGKM_756 1 457
+##sequence-region FDBDIGKM_757 1 432
+##sequence-region FDBDIGKM_758 1 850
+##sequence-region FDBDIGKM_759 1 939
+##sequence-region FDBDIGKM_760 1 1247
+##sequence-region FDBDIGKM_761 1 1388
+##sequence-region FDBDIGKM_762 1 374
+##sequence-region FDBDIGKM_763 1 608
+##sequence-region FDBDIGKM_764 1 612
+##sequence-region FDBDIGKM_765 1 9846
+##sequence-region FDBDIGKM_766 1 851
+##sequence-region FDBDIGKM_767 1 4449
+##sequence-region FDBDIGKM_768 1 2610
+##sequence-region FDBDIGKM_769 1 6818
+##sequence-region FDBDIGKM_770 1 9202
+##sequence-region FDBDIGKM_771 1 3543
+##sequence-region FDBDIGKM_772 1 789
+##sequence-region FDBDIGKM_773 1 2576
+##sequence-region FDBDIGKM_774 1 669
+##sequence-region FDBDIGKM_775 1 1550
+##sequence-region FDBDIGKM_776 1 9604
+##sequence-region FDBDIGKM_777 1 11454
+##sequence-region FDBDIGKM_778 1 203
+##sequence-region FDBDIGKM_779 1 554
+##sequence-region FDBDIGKM_780 1 778
+##sequence-region FDBDIGKM_781 1 548
+##sequence-region FDBDIGKM_782 1 1089
+##sequence-region FDBDIGKM_783 1 1033
+##sequence-region FDBDIGKM_784 1 236
+##sequence-region FDBDIGKM_785 1 457
+##sequence-region FDBDIGKM_786 1 911
+##sequence-region FDBDIGKM_787 1 5543
+##sequence-region FDBDIGKM_788 1 32562
+##sequence-region FDBDIGKM_789 1 8077
+##sequence-region FDBDIGKM_790 1 583
+##sequence-region FDBDIGKM_791 1 600
+##sequence-region FDBDIGKM_792 1 3199
+##sequence-region FDBDIGKM_793 1 16063
+##sequence-region FDBDIGKM_794 1 1078
+##sequence-region FDBDIGKM_795 1 1785
+##sequence-region FDBDIGKM_796 1 1096
+##sequence-region FDBDIGKM_797 1 338
+##sequence-region FDBDIGKM_798 1 4945
+##sequence-region FDBDIGKM_799 1 502
+##sequence-region FDBDIGKM_800 1 741
+##sequence-region FDBDIGKM_801 1 516
+##sequence-region FDBDIGKM_802 1 4619
+##sequence-region FDBDIGKM_803 1 756
+##sequence-region FDBDIGKM_804 1 4069
+##sequence-region FDBDIGKM_805 1 3348
+##sequence-region FDBDIGKM_806 1 2361
+##sequence-region FDBDIGKM_807 1 1728
+##sequence-region FDBDIGKM_808 1 1229
+##sequence-region FDBDIGKM_809 1 1073
+##sequence-region FDBDIGKM_810 1 595
+##sequence-region FDBDIGKM_811 1 703
+##sequence-region FDBDIGKM_812 1 1425
+##sequence-region FDBDIGKM_813 1 266
+##sequence-region FDBDIGKM_814 1 998
+##sequence-region FDBDIGKM_815 1 282
+##sequence-region FDBDIGKM_816 1 1752
+##sequence-region FDBDIGKM_817 1 16229
+##sequence-region FDBDIGKM_818 1 593
+##sequence-region FDBDIGKM_819 1 1029
+##sequence-region FDBDIGKM_820 1 482
+##sequence-region FDBDIGKM_821 1 3525
+##sequence-region FDBDIGKM_822 1 649
+##sequence-region FDBDIGKM_823 1 4095
+##sequence-region FDBDIGKM_824 1 1487
+##sequence-region FDBDIGKM_825 1 1782
+##sequence-region FDBDIGKM_826 1 577
+##sequence-region FDBDIGKM_827 1 1212
+##sequence-region FDBDIGKM_828 1 5986
+##sequence-region FDBDIGKM_829 1 1034
+##sequence-region FDBDIGKM_830 1 308
+##sequence-region FDBDIGKM_831 1 520
+##sequence-region FDBDIGKM_832 1 452
+##sequence-region FDBDIGKM_833 1 687
+##sequence-region FDBDIGKM_834 1 1109
+##sequence-region FDBDIGKM_835 1 294
+##sequence-region FDBDIGKM_836 1 2979
+##sequence-region FDBDIGKM_837 1 1590
+##sequence-region FDBDIGKM_838 1 1562
+##sequence-region FDBDIGKM_839 1 464
+##sequence-region FDBDIGKM_840 1 657
+##sequence-region FDBDIGKM_841 1 2871
+##sequence-region FDBDIGKM_842 1 18882
+##sequence-region FDBDIGKM_843 1 932
+##sequence-region FDBDIGKM_844 1 13131
+##sequence-region FDBDIGKM_845 1 1425
+##sequence-region FDBDIGKM_846 1 8886
+##sequence-region FDBDIGKM_847 1 3328
+##sequence-region FDBDIGKM_848 1 734
+##sequence-region FDBDIGKM_849 1 569
+##sequence-region FDBDIGKM_850 1 19716
+##sequence-region FDBDIGKM_851 1 602
+##sequence-region FDBDIGKM_852 1 1802
+##sequence-region FDBDIGKM_853 1 1897
+##sequence-region FDBDIGKM_854 1 310
+##sequence-region FDBDIGKM_855 1 485
+##sequence-region FDBDIGKM_856 1 564
+##sequence-region FDBDIGKM_857 1 3561
+##sequence-region FDBDIGKM_858 1 623
+##sequence-region FDBDIGKM_859 1 295
+##sequence-region FDBDIGKM_860 1 691
+##sequence-region FDBDIGKM_861 1 794
+##sequence-region FDBDIGKM_862 1 460
+##sequence-region FDBDIGKM_863 1 882
+##sequence-region FDBDIGKM_864 1 948
+##sequence-region FDBDIGKM_865 1 834
+##sequence-region FDBDIGKM_866 1 1088
+##sequence-region FDBDIGKM_867 1 11077
+##sequence-region FDBDIGKM_868 1 442
+##sequence-region FDBDIGKM_869 1 1259
+##sequence-region FDBDIGKM_870 1 4529
+##sequence-region FDBDIGKM_871 1 455
+##sequence-region FDBDIGKM_872 1 680
+##sequence-region FDBDIGKM_873 1 238
+##sequence-region FDBDIGKM_874 1 820
+##sequence-region FDBDIGKM_875 1 4570
+##sequence-region FDBDIGKM_876 1 1562
+##sequence-region FDBDIGKM_877 1 2388
+##sequence-region FDBDIGKM_878 1 5108
+##sequence-region FDBDIGKM_879 1 1125
+##sequence-region FDBDIGKM_880 1 40142
+##sequence-region FDBDIGKM_881 1 500
+##sequence-region FDBDIGKM_882 1 676
+##sequence-region FDBDIGKM_883 1 14549
+##sequence-region FDBDIGKM_884 1 1482
+##sequence-region FDBDIGKM_885 1 17916
+##sequence-region FDBDIGKM_886 1 1264
+##sequence-region FDBDIGKM_887 1 447
+##sequence-region FDBDIGKM_888 1 532
+##sequence-region FDBDIGKM_889 1 656
+##sequence-region FDBDIGKM_890 1 593
+##sequence-region FDBDIGKM_891 1 662
+##sequence-region FDBDIGKM_892 1 730
+##sequence-region FDBDIGKM_893 1 1493
+##sequence-region FDBDIGKM_894 1 8916
+##sequence-region FDBDIGKM_895 1 467
+##sequence-region FDBDIGKM_896 1 811
+##sequence-region FDBDIGKM_897 1 1743
+##sequence-region FDBDIGKM_898 1 1160
+##sequence-region FDBDIGKM_899 1 1541
+##sequence-region FDBDIGKM_900 1 1016
+##sequence-region FDBDIGKM_901 1 1076
+##sequence-region FDBDIGKM_902 1 691
+##sequence-region FDBDIGKM_903 1 3290
+##sequence-region FDBDIGKM_904 1 802
+##sequence-region FDBDIGKM_905 1 606
+##sequence-region FDBDIGKM_906 1 1054
+##sequence-region FDBDIGKM_907 1 2589
+##sequence-region FDBDIGKM_908 1 1127
+##sequence-region FDBDIGKM_909 1 483
+##sequence-region FDBDIGKM_910 1 854
+##sequence-region FDBDIGKM_911 1 556
+##sequence-region FDBDIGKM_912 1 489
+##sequence-region FDBDIGKM_913 1 728
+##sequence-region FDBDIGKM_914 1 899
+##sequence-region FDBDIGKM_915 1 1202
+##sequence-region FDBDIGKM_916 1 852
+FDBDIGKM_154	pseudofinder	gene	1	1515	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 64.1%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_154_pseudo_00001;old_locus_tag=FDBDIGKM_00289
+FDBDIGKM_907	pseudofinder	gene	2	499	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 19.8%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_907_pseudo_00002;old_locus_tag=FDBDIGKM_01722
+FDBDIGKM_183	pseudofinder	gene	3	2012	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 62.7%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_183_pseudo_00003;old_locus_tag=FDBDIGKM_00366
+FDBDIGKM_208	pseudofinder	gene	3	245	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 25.2%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_208_pseudo_00004;old_locus_tag=FDBDIGKM_00422
+FDBDIGKM_160	pseudofinder	gene	3	389	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 23.5%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_160_pseudo_00005;old_locus_tag=FDBDIGKM_00294
+FDBDIGKM_54	pseudofinder	gene	4	735	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 25.3%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_54_pseudo_00006;old_locus_tag=FDBDIGKM_00117
+FDBDIGKM_440	pseudofinder	gene	5	226	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 16.3%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_440_pseudo_00007;old_locus_tag=FDBDIGKM_00776
+FDBDIGKM_709	pseudofinder	gene	5	115	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 11.3%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_709_pseudo_00008;old_locus_tag=FDBDIGKM_01268
+FDBDIGKM_497	pseudofinder	gene	5	352	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 29.7%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_497_pseudo_00009;old_locus_tag=FDBDIGKM_00850
+FDBDIGKM_906	pseudofinder	gene	5	226	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 49.9%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_906_pseudo_00010;old_locus_tag=FDBDIGKM_01719
+FDBDIGKM_909	pseudofinder	gene	8	148	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 40.3%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_909_pseudo_00011;old_locus_tag=FDBDIGKM_01725
+FDBDIGKM_423	pseudofinder	gene	10	207	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 18.8%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_423_pseudo_00012;old_locus_tag=FDBDIGKM_00766
+FDBDIGKM_783	pseudofinder	gene	10	279	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 16.8%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_783_pseudo_00013;old_locus_tag=FDBDIGKM_01423
+FDBDIGKM_660	pseudofinder	gene	10	249	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 49.1%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_660_pseudo_00014;old_locus_tag=FDBDIGKM_01186
+FDBDIGKM_373	pseudofinder	gene	10	186	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 27.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_373_pseudo_00015;old_locus_tag=FDBDIGKM_00695
+FDBDIGKM_678	pseudofinder	gene	11	247	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 19.1%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_678_pseudo_00016;old_locus_tag=FDBDIGKM_01215
+FDBDIGKM_718	pseudofinder	gene	11	1459	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 43.1%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_718_pseudo_00017;old_locus_tag=FDBDIGKM_01274
+FDBDIGKM_444	pseudofinder	gene	11	319	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 22.0%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_444_pseudo_00018;old_locus_tag=FDBDIGKM_00777
+FDBDIGKM_94	pseudofinder	gene	11	178	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 29.3%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_94_pseudo_00019;old_locus_tag=FDBDIGKM_00190
+FDBDIGKM_533	pseudofinder	gene	11	1594	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 62.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_533_pseudo_00020;old_locus_tag=FDBDIGKM_00891
+FDBDIGKM_653	pseudofinder	gene	11	610	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 63.4%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_653_pseudo_00021;old_locus_tag=FDBDIGKM_01177
+FDBDIGKM_543	pseudofinder	gene	12	200	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 14.2%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_543_pseudo_00022;old_locus_tag=FDBDIGKM_00946
+FDBDIGKM_594	pseudofinder	gene	12	128	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 17.3%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_594_pseudo_00023;old_locus_tag=FDBDIGKM_01062
+FDBDIGKM_88	pseudofinder	gene	13	555	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 50.4%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_88_pseudo_00024;old_locus_tag=FDBDIGKM_00180
+FDBDIGKM_640	pseudofinder	gene	14	481	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 20.0%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_640_pseudo_00025;old_locus_tag=FDBDIGKM_01127
+FDBDIGKM_299	pseudofinder	gene	14	379	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 41.3%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_299_pseudo_00026;old_locus_tag=FDBDIGKM_00593
+FDBDIGKM_696	pseudofinder	gene	15	467	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 48.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_696_pseudo_00027;old_locus_tag=FDBDIGKM_01241
+FDBDIGKM_623	pseudofinder	gene	15	251	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 26.4%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_623_pseudo_00028;old_locus_tag=FDBDIGKM_01116
+FDBDIGKM_150	pseudofinder	gene	15	326	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 45.3%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_150_pseudo_00029;old_locus_tag=FDBDIGKM_00285
+FDBDIGKM_420	pseudofinder	gene	17	202	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 51.9%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_420_pseudo_00030;old_locus_tag=FDBDIGKM_00765
+FDBDIGKM_191	pseudofinder	gene	17	1465	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 44.8%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_191_pseudo_00031;old_locus_tag=FDBDIGKM_00396
+FDBDIGKM_900	pseudofinder	gene	17	358	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 14.0%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_900_pseudo_00032;old_locus_tag=FDBDIGKM_01714
+FDBDIGKM_840	pseudofinder	gene	18	293	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 7.0%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_840_pseudo_00033;old_locus_tag=FDBDIGKM_01548
+FDBDIGKM_361	pseudofinder	gene	18	404	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 39.7%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_361_pseudo_00034;old_locus_tag=FDBDIGKM_00681
+FDBDIGKM_643	pseudofinder	gene	19	669	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 52.5%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_643_pseudo_00035;old_locus_tag=FDBDIGKM_01140
+FDBDIGKM_204	pseudofinder	gene	20	229	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 17.9%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_204_pseudo_00036;old_locus_tag=FDBDIGKM_00406
+FDBDIGKM_916	pseudofinder	gene	21	371	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 16.4%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_916_pseudo_00037;old_locus_tag=FDBDIGKM_01731
+FDBDIGKM_194	pseudofinder	gene	21	275	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 28.0%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_194_pseudo_00038;old_locus_tag=FDBDIGKM_00397
+FDBDIGKM_703	pseudofinder	gene	22	768	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 45.7%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_703_pseudo_00039;old_locus_tag=FDBDIGKM_01252
+FDBDIGKM_437	pseudofinder	gene	22	486	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 45.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_437_pseudo_00040;old_locus_tag=FDBDIGKM_00773
+FDBDIGKM_141	pseudofinder	gene	22	324	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 24.1%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_141_pseudo_00041;old_locus_tag=FDBDIGKM_00252
+FDBDIGKM_491	pseudofinder	gene	22	555	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 56.8%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_491_pseudo_00042;old_locus_tag=FDBDIGKM_00836
+FDBDIGKM_449	pseudofinder	gene	23	268	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 32.2%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_449_pseudo_00043;old_locus_tag=FDBDIGKM_00799
+FDBDIGKM_759	pseudofinder	gene	23	313	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 24.0%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_759_pseudo_00044;old_locus_tag=FDBDIGKM_01357
+FDBDIGKM_521	pseudofinder	gene	25	318	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 23.2%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_521_pseudo_00045;old_locus_tag=FDBDIGKM_00872
+FDBDIGKM_540	pseudofinder	gene	25	279	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 16.9%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_540_pseudo_00046;old_locus_tag=FDBDIGKM_00944
+FDBDIGKM_58	pseudofinder	gene	25	261	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 53.1%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_58_pseudo_00047;old_locus_tag=FDBDIGKM_00119
+FDBDIGKM_226	pseudofinder	gene	26	769	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 42.2%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_226_pseudo_00048;old_locus_tag=FDBDIGKM_00445
+FDBDIGKM_304	pseudofinder	gene	27	521	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 37.1%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_304_pseudo_00049;old_locus_tag=FDBDIGKM_00600
+FDBDIGKM_475	pseudofinder	gene	27	548	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 33.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_475_pseudo_00050;old_locus_tag=FDBDIGKM_00826
+FDBDIGKM_69	pseudofinder	gene	27	512	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 19.1%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_69_pseudo_00051;old_locus_tag=FDBDIGKM_00158
+FDBDIGKM_689	pseudofinder	gene	28	276	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 10.9%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_689_pseudo_00052;old_locus_tag=FDBDIGKM_01229
+FDBDIGKM_240	pseudofinder	gene	28	441	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 41.3%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_240_pseudo_00053;old_locus_tag=FDBDIGKM_00461
+FDBDIGKM_725	pseudofinder	gene	28	516	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 37.3%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_725_pseudo_00054;old_locus_tag=FDBDIGKM_01301
+FDBDIGKM_116	pseudofinder	gene	29	619	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 42.2%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_116_pseudo_00055;old_locus_tag=FDBDIGKM_00208
+FDBDIGKM_365	pseudofinder	gene	30	350	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 41.7%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_365_pseudo_00056;old_locus_tag=FDBDIGKM_00690
+FDBDIGKM_674	pseudofinder	gene	31	606	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 54.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_674_pseudo_00057;old_locus_tag=FDBDIGKM_01212
+FDBDIGKM_236	pseudofinder	gene	31	774	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 55.3%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_236_pseudo_00058;old_locus_tag=FDBDIGKM_00457
+FDBDIGKM_884	pseudofinder	gene	31	504	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 42.7%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_884_pseudo_00059;old_locus_tag=FDBDIGKM_01685
+FDBDIGKM_898	pseudofinder	gene	32	421	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 33.0%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_898_pseudo_00060;old_locus_tag=FDBDIGKM_01713
+FDBDIGKM_853	pseudofinder	gene	33	605	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 58.5%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_853_pseudo_00061;old_locus_tag=FDBDIGKM_01606
+FDBDIGKM_721	pseudofinder	gene	34	192	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 17.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_721_pseudo_00062;old_locus_tag=FDBDIGKM_01293
+FDBDIGKM_386	pseudofinder	gene	35	436	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 41.2%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_386_pseudo_00063;old_locus_tag=FDBDIGKM_00709
+FDBDIGKM_913	pseudofinder	gene	35	361	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 27.2%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_913_pseudo_00064;old_locus_tag=FDBDIGKM_01727
+FDBDIGKM_889	pseudofinder	gene	35	544	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 31.7%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_889_pseudo_00065;old_locus_tag=FDBDIGKM_01704
+FDBDIGKM_295	pseudofinder	gene	35	298	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 17.5%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_295_pseudo_00066;old_locus_tag=FDBDIGKM_00588
+FDBDIGKM_309	pseudofinder	gene	36	605	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 46.5%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_309_pseudo_00067;old_locus_tag=FDBDIGKM_00612
+FDBDIGKM_363	pseudofinder	gene	36	155	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 16.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_363_pseudo_00068;old_locus_tag=FDBDIGKM_00686
+FDBDIGKM_698	pseudofinder	gene	37	228	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 8.1%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_698_pseudo_00069;old_locus_tag=FDBDIGKM_01242
+FDBDIGKM_712	pseudofinder	gene	40	384	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 11.8%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_712_pseudo_00070;old_locus_tag=FDBDIGKM_01270
+FDBDIGKM_730	pseudofinder	gene	40	321	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 56.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_730_pseudo_00071;old_locus_tag=FDBDIGKM_01304
+FDBDIGKM_162	pseudofinder	gene	40	555	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 49.3%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_162_pseudo_00072;old_locus_tag=FDBDIGKM_00297
+FDBDIGKM_838	pseudofinder	gene	40	858	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 59.7%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_838_pseudo_00073;old_locus_tag=FDBDIGKM_01546
+FDBDIGKM_591	pseudofinder	gene	40	1806	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 54.4%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_591_pseudo_00074;old_locus_tag=FDBDIGKM_01054
+FDBDIGKM_253	pseudofinder	gene	41	367	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 24.4%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_253_pseudo_00075;old_locus_tag=FDBDIGKM_00489
+FDBDIGKM_782	pseudofinder	gene	41	286	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 33.0%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_782_pseudo_00076;old_locus_tag=FDBDIGKM_01422
+FDBDIGKM_39	pseudofinder	gene	41	322	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 28.4%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_39_pseudo_00077;old_locus_tag=FDBDIGKM_00070
+FDBDIGKM_637	pseudofinder	gene	42	200	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 8.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_637_pseudo_00078;old_locus_tag=FDBDIGKM_01125
+FDBDIGKM_368	pseudofinder	gene	42	476	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 26.0%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_368_pseudo_00079;old_locus_tag=FDBDIGKM_00693
+FDBDIGKM_89	pseudofinder	gene	43	252	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 49.7%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_89_pseudo_00080;old_locus_tag=FDBDIGKM_00181
+FDBDIGKM_460	pseudofinder	gene	43	960	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 62.1%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_460_pseudo_00081;old_locus_tag=FDBDIGKM_00809
+FDBDIGKM_784	pseudofinder	gene	44	229	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 18.4%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_784_pseudo_00082;old_locus_tag=FDBDIGKM_01425
+FDBDIGKM_2	pseudofinder	gene	44	229	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 30.4%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_2_pseudo_00083;old_locus_tag=FDBDIGKM_00001
+FDBDIGKM_694	pseudofinder	gene	45	308	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 32.5%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_694_pseudo_00084;old_locus_tag=FDBDIGKM_01239
+FDBDIGKM_785	pseudofinder	gene	46	402	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 34.5%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_785_pseudo_00085;old_locus_tag=FDBDIGKM_01426
+FDBDIGKM_136	pseudofinder	gene	47	739	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 62.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_136_pseudo_00086;old_locus_tag=FDBDIGKM_00244
+FDBDIGKM_699	pseudofinder	gene	49	1614	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 50.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_699_pseudo_00087;old_locus_tag=FDBDIGKM_01244
+FDBDIGKM_110	pseudofinder	gene	49	237	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 18.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_110_pseudo_00088;old_locus_tag=FDBDIGKM_00204
+FDBDIGKM_370	pseudofinder	gene	49	261	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 31.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_370_pseudo_00089;old_locus_tag=FDBDIGKM_00694
+FDBDIGKM_790	pseudofinder	gene	52	294	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 26.0%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_790_pseudo_00090;old_locus_tag=FDBDIGKM_01464
+FDBDIGKM_103	pseudofinder	gene	53	196	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 33.3%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_103_pseudo_00091;old_locus_tag=FDBDIGKM_00198
+FDBDIGKM_542	pseudofinder	gene	54	410	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 25.1%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_542_pseudo_00092;old_locus_tag=FDBDIGKM_00945
+FDBDIGKM_308	pseudofinder	gene	54	998	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 46.0%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_308_pseudo_00093;old_locus_tag=FDBDIGKM_00611
+FDBDIGKM_375	pseudofinder	gene	54	476	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 16.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_375_pseudo_00094;old_locus_tag=FDBDIGKM_00697
+FDBDIGKM_809	pseudofinder	gene	55	375	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 27.1%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_809_pseudo_00095;old_locus_tag=FDBDIGKM_01500
+FDBDIGKM_40	pseudofinder	gene	56	205	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 7.9%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_40_pseudo_00096;old_locus_tag=FDBDIGKM_00072
+FDBDIGKM_720	pseudofinder	gene	58	495	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 47.9%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_720_pseudo_00097;old_locus_tag=FDBDIGKM_01292
+FDBDIGKM_202	pseudofinder	gene	58	363	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 37.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_202_pseudo_00098;old_locus_tag=FDBDIGKM_00405
+FDBDIGKM_397	pseudofinder	gene	62	418	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 48.0%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_397_pseudo_00099;old_locus_tag=FDBDIGKM_00739
+FDBDIGKM_734	pseudofinder	gene	62	292	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 16.1%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_734_pseudo_00100;old_locus_tag=FDBDIGKM_01306
+FDBDIGKM_563	pseudofinder	gene	62	526	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 28.5%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_563_pseudo_00101;old_locus_tag=FDBDIGKM_00974
+FDBDIGKM_448	pseudofinder	gene	65	247	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 12.0%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_448_pseudo_00102;old_locus_tag=FDBDIGKM_00798
+FDBDIGKM_854	pseudofinder	gene	66	272	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 30.3%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_854_pseudo_00103;old_locus_tag=FDBDIGKM_01607
+FDBDIGKM_134	pseudofinder	gene	67	279	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 62.8%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_134_pseudo_00104;old_locus_tag=FDBDIGKM_00241
+FDBDIGKM_551	pseudofinder	gene	68	421	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 48.8%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_551_pseudo_00105;old_locus_tag=FDBDIGKM_00953
+FDBDIGKM_327	pseudofinder	gene	69	725	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 40.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_327_pseudo_00106;old_locus_tag=FDBDIGKM_00657
+FDBDIGKM_798	pseudofinder	gene	70	414	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 42.5%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_798_pseudo_00107;old_locus_tag=FDBDIGKM_01482
+FDBDIGKM_285	pseudofinder	gene	70	645	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 63.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_285_pseudo_00108;old_locus_tag=FDBDIGKM_00552
+FDBDIGKM_109	pseudofinder	gene	70	345	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 34.5%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_109_pseudo_00109;old_locus_tag=FDBDIGKM_00203
+FDBDIGKM_23	pseudofinder	gene	70	324	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 34.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_23_pseudo_00110;old_locus_tag=FDBDIGKM_00028
+FDBDIGKM_140	pseudofinder	gene	71	574	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 40.2%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_140_pseudo_00111;old_locus_tag=FDBDIGKM_00247
+FDBDIGKM_297	pseudofinder	gene	72	356	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 21.3%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_297_pseudo_00112;old_locus_tag=FDBDIGKM_00590
+FDBDIGKM_118	pseudofinder	gene	75	623	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 61.3%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_118_pseudo_00113;old_locus_tag=FDBDIGKM_00210
+FDBDIGKM_216	pseudofinder	gene	76	207	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 44.4%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_216_pseudo_00114;old_locus_tag=FDBDIGKM_00426
+FDBDIGKM_605	pseudofinder	gene	77	652	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 60.0%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_605_pseudo_00115;old_locus_tag=FDBDIGKM_01095
+FDBDIGKM_165	pseudofinder	gene	78	533	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 42.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_165_pseudo_00116;old_locus_tag=FDBDIGKM_00346
+FDBDIGKM_101	pseudofinder	gene	78	215	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 25.3%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_101_pseudo_00117;old_locus_tag=FDBDIGKM_00197
+FDBDIGKM_486	pseudofinder	gene	78	221	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 14.0%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_486_pseudo_00118;old_locus_tag=FDBDIGKM_00831
+FDBDIGKM_364	pseudofinder	gene	79	459	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 18.1%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_364_pseudo_00119;old_locus_tag=FDBDIGKM_00688
+FDBDIGKM_244	pseudofinder	gene	81	305	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 62.4%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_244_pseudo_00120;old_locus_tag=FDBDIGKM_00470
+FDBDIGKM_752	pseudofinder	gene	81	284	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 39.3%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_752_pseudo_00121;old_locus_tag=FDBDIGKM_01352
+FDBDIGKM_651	pseudofinder	gene	84	302	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 13.0%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_651_pseudo_00122;old_locus_tag=FDBDIGKM_01167
+FDBDIGKM_868	pseudofinder	gene	88	231	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 29.2%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_868_pseudo_00123;old_locus_tag=FDBDIGKM_01622
+FDBDIGKM_518	pseudofinder	gene	88	255	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 14.2%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_518_pseudo_00124;old_locus_tag=FDBDIGKM_00868
+FDBDIGKM_347	pseudofinder	gene	88	1461	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 58.8%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_347_pseudo_00125;old_locus_tag=FDBDIGKM_00672
+FDBDIGKM_635	pseudofinder	gene	90	209	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 18.4%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_635_pseudo_00126;old_locus_tag=FDBDIGKM_01124
+FDBDIGKM_619	pseudofinder	gene	90	527	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 31.5%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_619_pseudo_00127;old_locus_tag=FDBDIGKM_01114
+FDBDIGKM_739	pseudofinder	gene	91	537	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 41.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_739_pseudo_00128;old_locus_tag=FDBDIGKM_01337
+FDBDIGKM_96	pseudofinder	gene	92	238	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 6.3%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_96_pseudo_00129;old_locus_tag=FDBDIGKM_00192
+FDBDIGKM_824	pseudofinder	gene	93	362	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 29.5%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_824_pseudo_00130;old_locus_tag=FDBDIGKM_01526
+FDBDIGKM_828	pseudofinder	gene	93	839	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 40.2%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_828_pseudo_00131;old_locus_tag=FDBDIGKM_01529
+FDBDIGKM_190	pseudofinder	gene	95	814	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 33.9%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_190_pseudo_00132;old_locus_tag=FDBDIGKM_00395
+FDBDIGKM_455	pseudofinder	gene	96	539	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 25.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_455_pseudo_00133;old_locus_tag=FDBDIGKM_00806
+FDBDIGKM_648	pseudofinder	gene	96	389	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 55.2%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_648_pseudo_00134;old_locus_tag=FDBDIGKM_01158
+FDBDIGKM_451	pseudofinder	gene	98	385	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 11.5%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_451_pseudo_00135;old_locus_tag=FDBDIGKM_00803
+FDBDIGKM_596	pseudofinder	gene	98	772	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 48.0%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_596_pseudo_00136;old_locus_tag=FDBDIGKM_01091
+FDBDIGKM_254	pseudofinder	gene	99	557	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 34.4%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_254_pseudo_00137;old_locus_tag=FDBDIGKM_00490
+FDBDIGKM_367	pseudofinder	gene	99	317	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 18.7%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_367_pseudo_00138;old_locus_tag=FDBDIGKM_00692
+FDBDIGKM_401	pseudofinder	gene	100	549	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 45.5%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_401_pseudo_00139;old_locus_tag=FDBDIGKM_00745
+FDBDIGKM_769	pseudofinder	gene	100	942	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 30.2%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_769_pseudo_00140;old_locus_tag=FDBDIGKM_01373
+FDBDIGKM_792	pseudofinder	gene	101	568	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 15.7%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_792_pseudo_00141;old_locus_tag=FDBDIGKM_01465
+FDBDIGKM_312	pseudofinder	gene	102	647	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 59.0%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_312_pseudo_00142;old_locus_tag=FDBDIGKM_00616
+FDBDIGKM_331	pseudofinder	gene	103	192	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 34.1%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_331_pseudo_00143;old_locus_tag=FDBDIGKM_00660
+FDBDIGKM_627	pseudofinder	gene	103	786	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 53.3%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_627_pseudo_00144;old_locus_tag=FDBDIGKM_01119
+FDBDIGKM_575	pseudofinder	gene	107	1036	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 60.2%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_575_pseudo_00145;old_locus_tag=FDBDIGKM_00995
+FDBDIGKM_405	pseudofinder	gene	110	835	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 42.5%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_405_pseudo_00146;old_locus_tag=FDBDIGKM_00746
+FDBDIGKM_641	pseudofinder	gene	112	714	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 46.3%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_641_pseudo_00147;old_locus_tag=FDBDIGKM_01139
+FDBDIGKM_112	pseudofinder	gene	115	261	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 18.8%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_112_pseudo_00148;old_locus_tag=FDBDIGKM_00205
+FDBDIGKM_856	pseudofinder	gene	116	343	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 30.4%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_856_pseudo_00149;old_locus_tag=FDBDIGKM_01609
+FDBDIGKM_288	pseudofinder	gene	120	728	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 35.1%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_288_pseudo_00150;old_locus_tag=FDBDIGKM_00554
+FDBDIGKM_855	pseudofinder	gene	121	336	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 42.7%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_855_pseudo_00151;old_locus_tag=FDBDIGKM_01608
+FDBDIGKM_599	pseudofinder	gene	121	444	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 24.1%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_599_pseudo_00152;old_locus_tag=FDBDIGKM_01092
+FDBDIGKM_829	pseudofinder	gene	124	224	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 11 blast hits.;locus_tag=FDBDIGKM_829_pseudo_00153;old_locus_tag=FDBDIGKM_829_ign_00001
+FDBDIGKM_348	pseudofinder	gene	125	343	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 21.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_348_pseudo_00154;old_locus_tag=FDBDIGKM_00673
+FDBDIGKM_20	pseudofinder	gene	125	412	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 17.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_20_pseudo_00155;old_locus_tag=FDBDIGKM_00024
+FDBDIGKM_862	pseudofinder	gene	127	339	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 29.9%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_862_pseudo_00156;old_locus_tag=FDBDIGKM_01612
+FDBDIGKM_291	pseudofinder	gene	128	379	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 26.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_291_pseudo_00157;old_locus_tag=FDBDIGKM_00569
+FDBDIGKM_737	pseudofinder	gene	131	661	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 48.0%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_737_pseudo_00158;old_locus_tag=FDBDIGKM_01326
+FDBDIGKM_24	pseudofinder	gene	136	336	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 36.5%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_24_pseudo_00159;old_locus_tag=FDBDIGKM_00030
+FDBDIGKM_872	pseudofinder	gene	137	460	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 35.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_872_pseudo_00160;old_locus_tag=FDBDIGKM_01629
+FDBDIGKM_106	pseudofinder	gene	140	481	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 22.9%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_106_pseudo_00161;old_locus_tag=FDBDIGKM_00200
+FDBDIGKM_8	pseudofinder	gene	140	340	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 39.4%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_8_pseudo_00162;old_locus_tag=FDBDIGKM_00005
+FDBDIGKM_25	pseudofinder	gene	143	286	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 45.7%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_25_pseudo_00163;old_locus_tag=FDBDIGKM_00031
+FDBDIGKM_19	pseudofinder	gene	148	812	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FDBDIGKM_19_pseudo_00164;old_locus_tag=FDBDIGKM_00019,FDBDIGKM_00020
+FDBDIGKM_454	pseudofinder	gene	149	256	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 15.8%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_454_pseudo_00165;old_locus_tag=FDBDIGKM_00805
+FDBDIGKM_701	pseudofinder	gene	150	782	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 49.2%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_701_pseudo_00166;old_locus_tag=FDBDIGKM_01250
+FDBDIGKM_803	pseudofinder	gene	162	608	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 32.3%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_803_pseudo_00167;old_locus_tag=FDBDIGKM_01491
+FDBDIGKM_22	pseudofinder	gene	163	564	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 29.2%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_22_pseudo_00168;old_locus_tag=FDBDIGKM_00027
+FDBDIGKM_113	pseudofinder	gene	170	1147	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 56.3%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_113_pseudo_00169;old_locus_tag=FDBDIGKM_00207
+FDBDIGKM_270	pseudofinder	gene	171	521	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 29.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_270_pseudo_00170;old_locus_tag=FDBDIGKM_00532
+FDBDIGKM_274	pseudofinder	gene	171	893	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 49.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_274_pseudo_00171;old_locus_tag=FDBDIGKM_00533
+FDBDIGKM_608	pseudofinder	gene	172	339	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 36.4%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_608_pseudo_00172;old_locus_tag=FDBDIGKM_01097
+FDBDIGKM_877	pseudofinder	gene	186	857	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 60.5%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_877_pseudo_00173;old_locus_tag=FDBDIGKM_01638
+FDBDIGKM_306	pseudofinder	gene	192	500	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 34.9%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_306_pseudo_00174;old_locus_tag=FDBDIGKM_00610
+FDBDIGKM_330	pseudofinder	gene	195	563	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 24.0%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_330_pseudo_00175;old_locus_tag=FDBDIGKM_00659
+FDBDIGKM_148	pseudofinder	gene	196	411	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 17.9%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_148_pseudo_00176;old_locus_tag=FDBDIGKM_00279
+FDBDIGKM_356	pseudofinder	gene	196	519	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 19.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_356_pseudo_00177;old_locus_tag=FDBDIGKM_00678
+FDBDIGKM_626	pseudofinder	gene	199	576	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 39.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_626_pseudo_00178;old_locus_tag=FDBDIGKM_01118
+FDBDIGKM_79	pseudofinder	gene	200	405	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_79_pseudo_00179;old_locus_tag=FDBDIGKM_79_ign_00001
+FDBDIGKM_112	pseudofinder	gene	200	352	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 18.5%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_112_pseudo_00180;old_locus_tag=FDBDIGKM_00206
+FDBDIGKM_391	pseudofinder	gene	206	703	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 47.7%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_391_pseudo_00181;old_locus_tag=FDBDIGKM_00725
+FDBDIGKM_504	pseudofinder	gene	206	571	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 28.4%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_504_pseudo_00182;old_locus_tag=FDBDIGKM_00855
+FDBDIGKM_691	pseudofinder	gene	209	604	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 47.7%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_691_pseudo_00183;old_locus_tag=FDBDIGKM_01232
+FDBDIGKM_137	pseudofinder	gene	216	1343	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 57.8%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_137_pseudo_00184;old_locus_tag=FDBDIGKM_00245
+FDBDIGKM_836	pseudofinder	gene	222	572	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 36.1%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_836_pseudo_00185;old_locus_tag=FDBDIGKM_01541
+FDBDIGKM_59	pseudofinder	gene	223	633	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 19.9%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_59_pseudo_00186;old_locus_tag=FDBDIGKM_00121
+FDBDIGKM_527	pseudofinder	gene	224	498	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FDBDIGKM_527_pseudo_00187;old_locus_tag=FDBDIGKM_00879,FDBDIGKM_527_ign_00001
+FDBDIGKM_284	pseudofinder	gene	228	452	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 18.2%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_284_pseudo_00188;old_locus_tag=FDBDIGKM_00551
+FDBDIGKM_829	pseudofinder	gene	228	452	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 20.3%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_829_pseudo_00189;old_locus_tag=FDBDIGKM_01536
+FDBDIGKM_415	pseudofinder	gene	231	361	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_415_pseudo_00190;old_locus_tag=FDBDIGKM_415_ign_00001
+FDBDIGKM_11	pseudofinder	gene	232	480	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 19.9%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_11_pseudo_00191;old_locus_tag=FDBDIGKM_00009
+FDBDIGKM_92	pseudofinder	gene	234	710	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 38.4%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_92_pseudo_00192;old_locus_tag=FDBDIGKM_00184
+FDBDIGKM_414	pseudofinder	gene	236	490	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 12.1%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_414_pseudo_00193;old_locus_tag=FDBDIGKM_00760
+FDBDIGKM_710	pseudofinder	gene	239	625	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 59.4%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_710_pseudo_00194;old_locus_tag=FDBDIGKM_01269
+FDBDIGKM_378	pseudofinder	gene	243	746	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 21.0%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_378_pseudo_00195;old_locus_tag=FDBDIGKM_00701
+FDBDIGKM_833	pseudofinder	gene	247	615	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 14.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_833_pseudo_00196;old_locus_tag=FDBDIGKM_01538
+FDBDIGKM_99	pseudofinder	gene	254	598	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 59.0%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_99_pseudo_00197;old_locus_tag=FDBDIGKM_00194
+FDBDIGKM_518	pseudofinder	gene	256	347	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_518_pseudo_00198;old_locus_tag=FDBDIGKM_518_ign_00001
+FDBDIGKM_548	pseudofinder	gene	257	478	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 21.4%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_548_pseudo_00199;old_locus_tag=FDBDIGKM_00950
+FDBDIGKM_439	pseudofinder	gene	258	716	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 57.2%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_439_pseudo_00200;old_locus_tag=FDBDIGKM_00775
+FDBDIGKM_338	pseudofinder	gene	258	503	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 30.8%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_338_pseudo_00201;old_locus_tag=FDBDIGKM_00662
+FDBDIGKM_84	pseudofinder	gene	259	384	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 17.0%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_84_pseudo_00202;old_locus_tag=FDBDIGKM_00176
+FDBDIGKM_868	pseudofinder	gene	266	406	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 8.2%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_868_pseudo_00203;old_locus_tag=FDBDIGKM_01623
+FDBDIGKM_185	pseudofinder	gene	268	1194	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 36.1%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_185_pseudo_00204;old_locus_tag=FDBDIGKM_00391
+FDBDIGKM_806	pseudofinder	gene	271	1836	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 64.7%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_806_pseudo_00205;old_locus_tag=FDBDIGKM_01496
+FDBDIGKM_200	pseudofinder	gene	272	691	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 34.4%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_200_pseudo_00206;old_locus_tag=FDBDIGKM_00402
+FDBDIGKM_531	pseudofinder	gene	273	506	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 51.8%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_531_pseudo_00207;old_locus_tag=FDBDIGKM_00888
+FDBDIGKM_749	pseudofinder	gene	275	649	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 47.5%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_749_pseudo_00208;old_locus_tag=FDBDIGKM_01350
+FDBDIGKM_376	pseudofinder	gene	275	619	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 24.4%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_376_pseudo_00209;old_locus_tag=FDBDIGKM_00698
+FDBDIGKM_408	pseudofinder	gene	276	419	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 19.5%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_408_pseudo_00210;old_locus_tag=FDBDIGKM_00758
+FDBDIGKM_40	pseudofinder	gene	283	693	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 25.5%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_40_pseudo_00211;old_locus_tag=FDBDIGKM_00073
+FDBDIGKM_695	pseudofinder	gene	289	711	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 59.4%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_695_pseudo_00212;old_locus_tag=FDBDIGKM_01240
+FDBDIGKM_526	pseudofinder	gene	295	558	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 39.2%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_526_pseudo_00213;old_locus_tag=FDBDIGKM_00877
+FDBDIGKM_800	pseudofinder	gene	298	567	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 22.8%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_800_pseudo_00214;old_locus_tag=FDBDIGKM_01488
+FDBDIGKM_511	pseudofinder	gene	298	944	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_511_pseudo_00215;old_locus_tag=FDBDIGKM_511_ign_00001
+FDBDIGKM_912	pseudofinder	gene	306	470	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 25.2%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_912_pseudo_00216;old_locus_tag=FDBDIGKM_01726
+FDBDIGKM_385	pseudofinder	gene	311	426	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=FDBDIGKM_385_pseudo_00217;old_locus_tag=FDBDIGKM_385_ign_00001
+FDBDIGKM_295	pseudofinder	gene	321	1265	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 53.4%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_295_pseudo_00218;old_locus_tag=FDBDIGKM_00589
+FDBDIGKM_831	pseudofinder	gene	322	516	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 12.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_831_pseudo_00219;old_locus_tag=FDBDIGKM_01537
+FDBDIGKM_157	pseudofinder	gene	327	704	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 44.3%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_157_pseudo_00220;old_locus_tag=FDBDIGKM_00291
+FDBDIGKM_913	pseudofinder	gene	340	723	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 27.7%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_913_pseudo_00221;old_locus_tag=FDBDIGKM_01728
+FDBDIGKM_479	pseudofinder	gene	342	641	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 30.3%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_479_pseudo_00222;old_locus_tag=FDBDIGKM_00829
+FDBDIGKM_743	pseudofinder	gene	344	502	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 13.7%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_743_pseudo_00223;old_locus_tag=FDBDIGKM_01339
+FDBDIGKM_656	pseudofinder	gene	346	546	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 32.0%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_656_pseudo_00224;old_locus_tag=FDBDIGKM_01178
+FDBDIGKM_799	pseudofinder	gene	349	468	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 9.0%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_799_pseudo_00225;old_locus_tag=FDBDIGKM_01487
+FDBDIGKM_518	pseudofinder	gene	351	515	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 13.9%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_518_pseudo_00226;old_locus_tag=FDBDIGKM_00869
+FDBDIGKM_554	pseudofinder	gene	354	503	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 8.7%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_554_pseudo_00227;old_locus_tag=FDBDIGKM_00957
+FDBDIGKM_470	pseudofinder	gene	354	674	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 39.1%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_470_pseudo_00228;old_locus_tag=FDBDIGKM_00816
+FDBDIGKM_746	pseudofinder	gene	359	676	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 36.2%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_746_pseudo_00229;old_locus_tag=FDBDIGKM_01341
+FDBDIGKM_395	pseudofinder	gene	360	1113	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FDBDIGKM_395_pseudo_00230;old_locus_tag=FDBDIGKM_00729,FDBDIGKM_00730,FDBDIGKM_395_ign_00001
+FDBDIGKM_418	pseudofinder	gene	368	589	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 12.4%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_418_pseudo_00231;old_locus_tag=FDBDIGKM_00763
+FDBDIGKM_528	pseudofinder	gene	370	1485	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 55.5%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_528_pseudo_00232;old_locus_tag=FDBDIGKM_00884
+FDBDIGKM_423	pseudofinder	gene	370	698	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_423_pseudo_00233;old_locus_tag=FDBDIGKM_423_ign_00001
+FDBDIGKM_39	pseudofinder	gene	378	665	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 24.0%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_39_pseudo_00234;old_locus_tag=FDBDIGKM_00071
+FDBDIGKM_668	pseudofinder	gene	378	1592	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 23.2%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_668_pseudo_00235;old_locus_tag=FDBDIGKM_01197
+FDBDIGKM_352	pseudofinder	gene	385	533	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=FDBDIGKM_352_pseudo_00236;old_locus_tag=FDBDIGKM_352_ign_00001
+FDBDIGKM_845	pseudofinder	gene	396	1394	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 40.5%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_845_pseudo_00237;old_locus_tag=FDBDIGKM_01580
+FDBDIGKM_411	pseudofinder	gene	399	1211	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 46.4%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_411_pseudo_00238;old_locus_tag=FDBDIGKM_00759
+FDBDIGKM_103	pseudofinder	gene	412	762	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 54.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_103_pseudo_00239;old_locus_tag=FDBDIGKM_00199
+FDBDIGKM_282	pseudofinder	gene	414	917	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 48.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_282_pseudo_00240;old_locus_tag=FDBDIGKM_00547
+FDBDIGKM_148	pseudofinder	gene	415	618	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_148_pseudo_00241;old_locus_tag=FDBDIGKM_148_ign_00001
+FDBDIGKM_512	pseudofinder	gene	416	541	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 5.7%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_512_pseudo_00242;old_locus_tag=FDBDIGKM_00862
+FDBDIGKM_708	pseudofinder	gene	417	1223	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 52.0%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_708_pseudo_00243;old_locus_tag=FDBDIGKM_01267
+FDBDIGKM_23	pseudofinder	gene	424	888	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 62.3%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_23_pseudo_00244;old_locus_tag=FDBDIGKM_00029
+FDBDIGKM_689	pseudofinder	gene	430	621	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 13.3%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_689_pseudo_00245;old_locus_tag=FDBDIGKM_01230
+FDBDIGKM_809	pseudofinder	gene	433	636	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 47.7%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_809_pseudo_00246;old_locus_tag=FDBDIGKM_01501
+FDBDIGKM_70	pseudofinder	gene	446	684	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_70_pseudo_00247;old_locus_tag=FDBDIGKM_70_ign_00001
+FDBDIGKM_26	pseudofinder	gene	448	726	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 21.9%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_26_pseudo_00248;old_locus_tag=FDBDIGKM_00033
+FDBDIGKM_364	pseudofinder	gene	459	1181	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 29.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_364_pseudo_00249;old_locus_tag=FDBDIGKM_00689
+FDBDIGKM_363	pseudofinder	gene	461	634	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 8.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_363_pseudo_00250;old_locus_tag=FDBDIGKM_00687
+FDBDIGKM_764	pseudofinder	gene	464	571	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 11.8%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_764_pseudo_00251;old_locus_tag=FDBDIGKM_01359
+FDBDIGKM_725	pseudofinder	gene	470	1030	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 42.9%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_725_pseudo_00252;old_locus_tag=FDBDIGKM_01302
+FDBDIGKM_79	pseudofinder	gene	487	579	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 7.1%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_79_pseudo_00253;old_locus_tag=FDBDIGKM_00172
+FDBDIGKM_152	pseudofinder	gene	491	1342	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 39.5%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_152_pseudo_00254;old_locus_tag=FDBDIGKM_00287
+FDBDIGKM_527	pseudofinder	gene	502	780	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 25.7%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_527_pseudo_00255;old_locus_tag=FDBDIGKM_00880
+FDBDIGKM_876	pseudofinder	gene	509	778	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 48.2%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_876_pseudo_00256;old_locus_tag=FDBDIGKM_01636
+FDBDIGKM_17	pseudofinder	gene	510	812	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 48.8%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_17_pseudo_00257;old_locus_tag=FDBDIGKM_00017
+FDBDIGKM_304	pseudofinder	gene	512	1000	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 40.5%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_304_pseudo_00258;old_locus_tag=FDBDIGKM_00601
+FDBDIGKM_537	pseudofinder	gene	512	916	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 57.9%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_537_pseudo_00259;old_locus_tag=FDBDIGKM_00929
+FDBDIGKM_356	pseudofinder	gene	516	899	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 37.5%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_356_pseudo_00260;old_locus_tag=FDBDIGKM_00679
+FDBDIGKM_620	pseudofinder	gene	520	672	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 45.9%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_620_pseudo_00261;old_locus_tag=FDBDIGKM_01115
+FDBDIGKM_569	pseudofinder	gene	544	726	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 56.2%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_569_pseudo_00262;old_locus_tag=FDBDIGKM_00993
+FDBDIGKM_222	pseudofinder	gene	551	904	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 15.5%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_222_pseudo_00263;old_locus_tag=FDBDIGKM_00435
+FDBDIGKM_361	pseudofinder	gene	557	822	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_361_pseudo_00264;old_locus_tag=FDBDIGKM_361_ign_00001
+FDBDIGKM_15	pseudofinder	gene	574	872	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_15_pseudo_00265;old_locus_tag=FDBDIGKM_15_ign_00001
+FDBDIGKM_721	pseudofinder	gene	575	865	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 22.7%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_721_pseudo_00266;old_locus_tag=FDBDIGKM_01294
+FDBDIGKM_310	pseudofinder	gene	580	1302	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 57.5%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_310_pseudo_00267;old_locus_tag=FDBDIGKM_00615
+FDBDIGKM_500	pseudofinder	gene	580	693	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 45.3%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_500_pseudo_00268;old_locus_tag=FDBDIGKM_00852
+FDBDIGKM_301	pseudofinder	gene	583	764	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_301_pseudo_00269;old_locus_tag=FDBDIGKM_301_ign_00001
+FDBDIGKM_164	pseudofinder	gene	589	951	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 44.8%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_164_pseudo_00270;old_locus_tag=FDBDIGKM_00337
+FDBDIGKM_555	pseudofinder	gene	590	879	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_555_pseudo_00271;old_locus_tag=FDBDIGKM_555_ign_00001
+FDBDIGKM_691	pseudofinder	gene	591	875	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 34.7%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_691_pseudo_00272;old_locus_tag=FDBDIGKM_01233
+FDBDIGKM_135	pseudofinder	gene	593	756	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_135_pseudo_00273;old_locus_tag=FDBDIGKM_135_ign_00001
+FDBDIGKM_536	pseudofinder	gene	596	841	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 53.3%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_536_pseudo_00274;old_locus_tag=FDBDIGKM_00928
+FDBDIGKM_388	pseudofinder	gene	602	718	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 15.9%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_388_pseudo_00275;old_locus_tag=FDBDIGKM_00723
+FDBDIGKM_821	pseudofinder	gene	603	827	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 22.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_821_pseudo_00276;old_locus_tag=FDBDIGKM_01519
+FDBDIGKM_464	pseudofinder	gene	613	756	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 16.8%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_464_pseudo_00277;old_locus_tag=FDBDIGKM_00811
+FDBDIGKM_171	pseudofinder	gene	613	1068	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 20.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_171_pseudo_00278;old_locus_tag=FDBDIGKM_00356
+FDBDIGKM_201	pseudofinder	gene	619	1596	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 59.1%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_201_pseudo_00279;old_locus_tag=FDBDIGKM_00404
+FDBDIGKM_67	pseudofinder	gene	621	3190	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FDBDIGKM_67_pseudo_00280;old_locus_tag=FDBDIGKM_67_ign_00001,FDBDIGKM_67_ign_00002,FDBDIGKM_00151
+FDBDIGKM_549	pseudofinder	gene	622	1362	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 35.3%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_549_pseudo_00281;old_locus_tag=FDBDIGKM_00951
+FDBDIGKM_148	pseudofinder	gene	622	786	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 15.3%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_148_pseudo_00282;old_locus_tag=FDBDIGKM_00280
+FDBDIGKM_239	pseudofinder	gene	624	920	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 52.7%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_239_pseudo_00283;old_locus_tag=FDBDIGKM_00458
+FDBDIGKM_657	pseudofinder	gene	629	904	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 20.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_657_pseudo_00284;old_locus_tag=FDBDIGKM_01179
+FDBDIGKM_80	pseudofinder	gene	632	1468	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 62.1%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_80_pseudo_00285;old_locus_tag=FDBDIGKM_00173
+FDBDIGKM_255	pseudofinder	gene	645	788	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 21.2%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_255_pseudo_00286;old_locus_tag=FDBDIGKM_00491
+FDBDIGKM_63	pseudofinder	gene	660	742	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 10 blast hits.;locus_tag=FDBDIGKM_63_pseudo_00287;old_locus_tag=FDBDIGKM_63_ign_00001
+FDBDIGKM_26	pseudofinder	gene	669	1061	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 31.3%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_26_pseudo_00288;old_locus_tag=FDBDIGKM_00034
+FDBDIGKM_579	pseudofinder	gene	686	828	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_579_pseudo_00289;old_locus_tag=FDBDIGKM_579_ign_00001
+FDBDIGKM_21	pseudofinder	gene	693	902	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 41.1%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_21_pseudo_00290;old_locus_tag=FDBDIGKM_00025
+FDBDIGKM_500	pseudofinder	gene	696	877	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_500_pseudo_00291;old_locus_tag=FDBDIGKM_500_ign_00001
+FDBDIGKM_722	pseudofinder	gene	735	1189	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_722_pseudo_00292;old_locus_tag=FDBDIGKM_722_ign_00001
+FDBDIGKM_517	pseudofinder	gene	747	1139	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 31.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_517_pseudo_00293;old_locus_tag=FDBDIGKM_00867
+FDBDIGKM_875	pseudofinder	gene	753	939	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 12 blast hits.;locus_tag=FDBDIGKM_875_pseudo_00294;old_locus_tag=FDBDIGKM_875_ign_00002
+FDBDIGKM_464	pseudofinder	gene	757	1122	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 42.0%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_464_pseudo_00295;old_locus_tag=FDBDIGKM_00812
+FDBDIGKM_172	pseudofinder	gene	766	1304	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_172_pseudo_00296;old_locus_tag=FDBDIGKM_172_ign_00001
+FDBDIGKM_255	pseudofinder	gene	779	934	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 21.7%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_255_pseudo_00297;old_locus_tag=FDBDIGKM_00492
+FDBDIGKM_17	pseudofinder	gene	785	1147	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 58.0%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_17_pseudo_00298;old_locus_tag=FDBDIGKM_00018
+FDBDIGKM_627	pseudofinder	gene	786	1109	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 26.5%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_627_pseudo_00299;old_locus_tag=FDBDIGKM_01120
+FDBDIGKM_148	pseudofinder	gene	788	984	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_148_pseudo_00300;old_locus_tag=FDBDIGKM_148_ign_00002
+FDBDIGKM_906	pseudofinder	gene	793	1044	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 35.8%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_906_pseudo_00301;old_locus_tag=FDBDIGKM_01721
+FDBDIGKM_480	pseudofinder	gene	793	1077	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 43.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_480_pseudo_00302;old_locus_tag=FDBDIGKM_00830
+FDBDIGKM_264	pseudofinder	gene	796	909	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 15.9%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_264_pseudo_00303;old_locus_tag=FDBDIGKM_00500
+FDBDIGKM_612	pseudofinder	gene	796	1236	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 38.1%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_612_pseudo_00304;old_locus_tag=FDBDIGKM_01104
+FDBDIGKM_877	pseudofinder	gene	805	1326	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 47.1%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_877_pseudo_00305;old_locus_tag=FDBDIGKM_01639
+FDBDIGKM_56	pseudofinder	gene	811	1290	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 37.1%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_56_pseudo_00306;old_locus_tag=FDBDIGKM_00118
+FDBDIGKM_19	pseudofinder	gene	815	1576	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 55.1%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_19_pseudo_00307;old_locus_tag=FDBDIGKM_00021
+FDBDIGKM_527	pseudofinder	gene	822	1036	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_527_pseudo_00308;old_locus_tag=FDBDIGKM_527_ign_00002
+FDBDIGKM_29	pseudofinder	gene	830	952	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 23.3%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_29_pseudo_00309;old_locus_tag=FDBDIGKM_00055
+FDBDIGKM_633	pseudofinder	gene	833	1021	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 24.5%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_633_pseudo_00310;old_locus_tag=FDBDIGKM_01122
+FDBDIGKM_470	pseudofinder	gene	841	1212	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 43.4%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_470_pseudo_00311;old_locus_tag=FDBDIGKM_00817
+FDBDIGKM_775	pseudofinder	gene	852	1487	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 44.4%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_775_pseudo_00312;old_locus_tag=FDBDIGKM_01394
+FDBDIGKM_691	pseudofinder	gene	879	1136	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 43.9%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_691_pseudo_00313;old_locus_tag=FDBDIGKM_01234
+FDBDIGKM_21	pseudofinder	gene	895	1176	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 56.5%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_21_pseudo_00314;old_locus_tag=FDBDIGKM_00026
+FDBDIGKM_274	pseudofinder	gene	896	1849	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 59.2%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_274_pseudo_00315;old_locus_tag=FDBDIGKM_00534
+FDBDIGKM_239	pseudofinder	gene	923	1473	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_239_pseudo_00316;old_locus_tag=FDBDIGKM_239_ign_00001
+FDBDIGKM_257	pseudofinder	gene	935	1477	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 47.5%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_257_pseudo_00317;old_locus_tag=FDBDIGKM_00496
+FDBDIGKM_135	pseudofinder	gene	937	1431	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 37.4%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_135_pseudo_00318;old_locus_tag=FDBDIGKM_00243
+FDBDIGKM_29	pseudofinder	gene	955	1034	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_29_pseudo_00319;old_locus_tag=FDBDIGKM_29_ign_00001
+FDBDIGKM_64	pseudofinder	gene	957	1220	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 44.5%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_64_pseudo_00320;old_locus_tag=FDBDIGKM_00130
+FDBDIGKM_798	pseudofinder	gene	958	1368	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 46.1%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_798_pseudo_00321;old_locus_tag=FDBDIGKM_01483
+FDBDIGKM_680	pseudofinder	gene	970	1188	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 21.7%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_680_pseudo_00322;old_locus_tag=FDBDIGKM_01217
+FDBDIGKM_225	pseudofinder	gene	971	1129	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 17.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_225_pseudo_00323;old_locus_tag=FDBDIGKM_00437
+FDBDIGKM_148	pseudofinder	gene	986	1090	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 6.3%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_148_pseudo_00324;old_locus_tag=FDBDIGKM_00281
+FDBDIGKM_164	pseudofinder	gene	1001	1450	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 54.0%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_164_pseudo_00325;old_locus_tag=FDBDIGKM_00338
+FDBDIGKM_406	pseudofinder	gene	1001	1282	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 21.5%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_406_pseudo_00326;old_locus_tag=FDBDIGKM_00747
+FDBDIGKM_669	pseudofinder	gene	1004	1170	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_669_pseudo_00327;old_locus_tag=FDBDIGKM_669_ign_00001
+FDBDIGKM_869	pseudofinder	gene	1023	1196	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 14.0%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_869_pseudo_00328;old_locus_tag=FDBDIGKM_01624
+FDBDIGKM_836	pseudofinder	gene	1043	1297	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 29.1%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_836_pseudo_00329;old_locus_tag=FDBDIGKM_01542
+FDBDIGKM_60	pseudofinder	gene	1057	1182	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 36.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_60_pseudo_00330;old_locus_tag=FDBDIGKM_00123
+FDBDIGKM_838	pseudofinder	gene	1060	1398	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 38.9%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_838_pseudo_00331;old_locus_tag=FDBDIGKM_01547
+FDBDIGKM_395	pseudofinder	gene	1115	1375	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 23.0%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_395_pseudo_00332;old_locus_tag=FDBDIGKM_00731
+FDBDIGKM_691	pseudofinder	gene	1127	1489	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 60.5%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_691_pseudo_00333;old_locus_tag=FDBDIGKM_01235
+FDBDIGKM_392	pseudofinder	gene	1134	1747	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_392_pseudo_00334;old_locus_tag=FDBDIGKM_392_ign_00001
+FDBDIGKM_828	pseudofinder	gene	1169	1414	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 41.4%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_828_pseudo_00335;old_locus_tag=FDBDIGKM_01530
+FDBDIGKM_15	pseudofinder	gene	1177	1359	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 29.4%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_15_pseudo_00336;old_locus_tag=FDBDIGKM_00016
+FDBDIGKM_470	pseudofinder	gene	1200	1367	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 21.0%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_470_pseudo_00337;old_locus_tag=FDBDIGKM_00818
+FDBDIGKM_58	pseudofinder	gene	1204	1634	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_58_pseudo_00338;old_locus_tag=FDBDIGKM_58_ign_00001
+FDBDIGKM_464	pseudofinder	gene	1206	1415	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 24.8%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_464_pseudo_00339;old_locus_tag=FDBDIGKM_00813
+FDBDIGKM_615	pseudofinder	gene	1223	1621	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 33.3%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_615_pseudo_00340;old_locus_tag=FDBDIGKM_01106
+FDBDIGKM_857	pseudofinder	gene	1226	3535	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 55.9%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_857_pseudo_00341;old_locus_tag=FDBDIGKM_01611
+FDBDIGKM_456	pseudofinder	gene	1255	1386	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 8.5%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_456_pseudo_00342;old_locus_tag=FDBDIGKM_00807
+FDBDIGKM_180	pseudofinder	gene	1259	1861	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 28.3%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_180_pseudo_00343;old_locus_tag=FDBDIGKM_00365
+FDBDIGKM_75	pseudofinder	gene	1273	1926	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 61.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_75_pseudo_00344;old_locus_tag=FDBDIGKM_00165
+FDBDIGKM_753	pseudofinder	gene	1288	1764	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 40.9%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_753_pseudo_00345;old_locus_tag=FDBDIGKM_01355
+FDBDIGKM_897	pseudofinder	gene	1313	1723	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 34.2%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_897_pseudo_00346;old_locus_tag=FDBDIGKM_01712
+FDBDIGKM_318	pseudofinder	gene	1315	1437	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 16.3%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_318_pseudo_00347;old_locus_tag=FDBDIGKM_00629
+FDBDIGKM_558	pseudofinder	gene	1328	1570	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 22.5%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_558_pseudo_00348;old_locus_tag=FDBDIGKM_00973
+FDBDIGKM_445	pseudofinder	gene	1334	1699	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 47.4%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_445_pseudo_00349;old_locus_tag=FDBDIGKM_00780
+FDBDIGKM_798	pseudofinder	gene	1369	1532	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_798_pseudo_00350;old_locus_tag=FDBDIGKM_798_ign_00002
+FDBDIGKM_828	pseudofinder	gene	1415	1551	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_828_pseudo_00351;old_locus_tag=FDBDIGKM_828_ign_00002
+FDBDIGKM_651	pseudofinder	gene	1418	1885	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 60.5%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_651_pseudo_00352;old_locus_tag=FDBDIGKM_01168
+FDBDIGKM_683	pseudofinder	gene	1470	1784	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 43.2%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_683_pseudo_00353;old_locus_tag=FDBDIGKM_01220
+FDBDIGKM_164	pseudofinder	gene	1477	1758	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 21.3%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_164_pseudo_00354;old_locus_tag=FDBDIGKM_00339
+FDBDIGKM_221	pseudofinder	gene	1490	1885	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 47.2%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_221_pseudo_00355;old_locus_tag=FDBDIGKM_00434
+FDBDIGKM_748	pseudofinder	gene	1492	1815	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 60.0%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_748_pseudo_00356;old_locus_tag=FDBDIGKM_01343
+FDBDIGKM_309	pseudofinder	gene	1504	2019	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 45.1%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_309_pseudo_00357;old_locus_tag=FDBDIGKM_00613
+FDBDIGKM_31	pseudofinder	gene	1535	1876	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 30.4%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_31_pseudo_00358;old_locus_tag=FDBDIGKM_00058
+FDBDIGKM_243	pseudofinder	gene	1549	1799	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_243_pseudo_00359;old_locus_tag=FDBDIGKM_243_ign_00002
+FDBDIGKM_798	pseudofinder	gene	1555	1920	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 39.8%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_798_pseudo_00360;old_locus_tag=FDBDIGKM_01484
+FDBDIGKM_828	pseudofinder	gene	1555	1812	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 41.9%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_828_pseudo_00361;old_locus_tag=FDBDIGKM_01531
+FDBDIGKM_836	pseudofinder	gene	1587	2056	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_836_pseudo_00362;old_locus_tag=FDBDIGKM_836_ign_00002
+FDBDIGKM_852	pseudofinder	gene	1591	1776	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 17.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_852_pseudo_00363;old_locus_tag=FDBDIGKM_01605
+FDBDIGKM_470	pseudofinder	gene	1592	2032	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 34.7%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_470_pseudo_00364;old_locus_tag=FDBDIGKM_00819
+FDBDIGKM_349	pseudofinder	gene	1604	1735	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 13.9%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_349_pseudo_00365;old_locus_tag=FDBDIGKM_00674
+FDBDIGKM_532	pseudofinder	gene	1606	2641	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FDBDIGKM_532_pseudo_00366;old_locus_tag=FDBDIGKM_00890,FDBDIGKM_532_ign_00001,FDBDIGKM_00889
+FDBDIGKM_120	pseudofinder	gene	1616	2017	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 43.8%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_120_pseudo_00367;old_locus_tag=FDBDIGKM_00220
+FDBDIGKM_699	pseudofinder	gene	1622	1735	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 3.9%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_699_pseudo_00368;old_locus_tag=FDBDIGKM_01245
+FDBDIGKM_615	pseudofinder	gene	1647	2327	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 39.8%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_615_pseudo_00369;old_locus_tag=FDBDIGKM_01107
+FDBDIGKM_699	pseudofinder	gene	1689	2615	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 33.1%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_699_pseudo_00370;old_locus_tag=FDBDIGKM_01246
+FDBDIGKM_701	pseudofinder	gene	1714	1896	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 9.1%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_701_pseudo_00371;old_locus_tag=FDBDIGKM_01251
+FDBDIGKM_19	pseudofinder	gene	1791	2475	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FDBDIGKM_19_pseudo_00372;old_locus_tag=FDBDIGKM_00023,FDBDIGKM_00022,FDBDIGKM_19_ign_00002
+FDBDIGKM_748	pseudofinder	gene	1796	2044	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 47.5%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_748_pseudo_00373;old_locus_tag=FDBDIGKM_01344
+FDBDIGKM_31	pseudofinder	gene	1834	2256	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 37.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_31_pseudo_00374;old_locus_tag=FDBDIGKM_00059
+FDBDIGKM_718	pseudofinder	gene	1865	2109	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_718_pseudo_00375;old_locus_tag=FDBDIGKM_718_ign_00001
+FDBDIGKM_313	pseudofinder	gene	1880	2194	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 41.2%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_313_pseudo_00376;old_locus_tag=FDBDIGKM_00618
+FDBDIGKM_651	pseudofinder	gene	1888	2226	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 43.7%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_651_pseudo_00377;old_locus_tag=FDBDIGKM_01169
+FDBDIGKM_575	pseudofinder	gene	1894	2521	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FDBDIGKM_575_pseudo_00378;old_locus_tag=FDBDIGKM_00996,FDBDIGKM_575_ign_00002
+FDBDIGKM_274	pseudofinder	gene	1911	2315	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 25.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_274_pseudo_00379;old_locus_tag=FDBDIGKM_00535
+FDBDIGKM_231	pseudofinder	gene	1919	2208	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=FDBDIGKM_231_pseudo_00380;old_locus_tag=FDBDIGKM_231_ign_00001
+FDBDIGKM_63	pseudofinder	gene	1930	2547	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 39.5%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_63_pseudo_00381;old_locus_tag=FDBDIGKM_00128
+FDBDIGKM_260	pseudofinder	gene	1947	2366	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 63.3%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_260_pseudo_00382;old_locus_tag=FDBDIGKM_00498
+FDBDIGKM_87	pseudofinder	gene	2084	2296	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 41.5%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_87_pseudo_00383;old_locus_tag=FDBDIGKM_00179
+FDBDIGKM_77	pseudofinder	gene	2088	2318	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 17.3%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_77_pseudo_00384;old_locus_tag=FDBDIGKM_00168
+FDBDIGKM_555	pseudofinder	gene	2092	2404	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FDBDIGKM_555_pseudo_00385;old_locus_tag=FDBDIGKM_00960,FDBDIGKM_555_ign_00003
+FDBDIGKM_718	pseudofinder	gene	2111	2329	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 24.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_718_pseudo_00386;old_locus_tag=FDBDIGKM_01275
+FDBDIGKM_165	pseudofinder	gene	2112	2857	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_165_pseudo_00387;old_locus_tag=FDBDIGKM_165_ign_00002
+FDBDIGKM_539	pseudofinder	gene	2150	2332	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 14.8%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_539_pseudo_00388;old_locus_tag=FDBDIGKM_00933
+FDBDIGKM_473	pseudofinder	gene	2157	2960	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 56.9%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_473_pseudo_00389;old_locus_tag=FDBDIGKM_00821
+FDBDIGKM_738	pseudofinder	gene	2180	2407	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 15.3%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_738_pseudo_00390;old_locus_tag=FDBDIGKM_01330
+FDBDIGKM_836	pseudofinder	gene	2181	2419	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FDBDIGKM_836_pseudo_00391;old_locus_tag=FDBDIGKM_836_ign_00003,FDBDIGKM_01543
+FDBDIGKM_788	pseudofinder	gene	2229	2696	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 42.8%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_788_pseudo_00392;old_locus_tag=FDBDIGKM_01435
+FDBDIGKM_31	pseudofinder	gene	2253	2720	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 43.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_31_pseudo_00393;old_locus_tag=FDBDIGKM_00060
+FDBDIGKM_225	pseudofinder	gene	2299	2715	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 29.1%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_225_pseudo_00394;old_locus_tag=FDBDIGKM_00439
+FDBDIGKM_274	pseudofinder	gene	2316	2544	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_274_pseudo_00395;old_locus_tag=FDBDIGKM_274_ign_00002
+FDBDIGKM_77	pseudofinder	gene	2319	2572	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_77_pseudo_00396;old_locus_tag=FDBDIGKM_77_ign_00003
+FDBDIGKM_718	pseudofinder	gene	2331	2746	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_718_pseudo_00397;old_locus_tag=FDBDIGKM_718_ign_00002
+FDBDIGKM_539	pseudofinder	gene	2336	3022	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FDBDIGKM_539_pseudo_00398;old_locus_tag=FDBDIGKM_539_ign_00002,FDBDIGKM_00934,FDBDIGKM_539_ign_00003
+FDBDIGKM_903	pseudofinder	gene	2341	3231	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 50.4%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_903_pseudo_00399;old_locus_tag=FDBDIGKM_01717
+FDBDIGKM_776	pseudofinder	gene	2393	2866	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 52.1%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_776_pseudo_00400;old_locus_tag=FDBDIGKM_01396
+FDBDIGKM_723	pseudofinder	gene	2410	2802	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 45.7%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_723_pseudo_00401;old_locus_tag=FDBDIGKM_01299
+FDBDIGKM_821	pseudofinder	gene	2432	2851	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 26.2%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_821_pseudo_00402;old_locus_tag=FDBDIGKM_01521
+FDBDIGKM_836	pseudofinder	gene	2557	2964	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 47.1%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_836_pseudo_00403;old_locus_tag=FDBDIGKM_01544
+FDBDIGKM_77	pseudofinder	gene	2574	2846	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 19.9%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_77_pseudo_00404;old_locus_tag=FDBDIGKM_00169
+FDBDIGKM_661	pseudofinder	gene	2602	2901	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 42.8%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_661_pseudo_00405;old_locus_tag=FDBDIGKM_01190
+FDBDIGKM_798	pseudofinder	gene	2603	2850	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_798_pseudo_00406;old_locus_tag=FDBDIGKM_798_ign_00003
+FDBDIGKM_274	pseudofinder	gene	2616	2750	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 3.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_274_pseudo_00407;old_locus_tag=FDBDIGKM_00536
+FDBDIGKM_788	pseudofinder	gene	2686	3267	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 43.9%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_788_pseudo_00408;old_locus_tag=FDBDIGKM_01436
+FDBDIGKM_870	pseudofinder	gene	2694	2966	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 48.8%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_870_pseudo_00409;old_locus_tag=FDBDIGKM_01626
+FDBDIGKM_274	pseudofinder	gene	2707	3480	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 24.3%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_274_pseudo_00410;old_locus_tag=FDBDIGKM_00537
+FDBDIGKM_718	pseudofinder	gene	2748	2909	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 17.8%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_718_pseudo_00411;old_locus_tag=FDBDIGKM_01276
+FDBDIGKM_251	pseudofinder	gene	2834	3474	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_251_pseudo_00412;old_locus_tag=FDBDIGKM_251_ign_00002
+FDBDIGKM_705	pseudofinder	gene	2862	3380	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 39.3%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_705_pseudo_00413;old_locus_tag=FDBDIGKM_01256
+FDBDIGKM_77	pseudofinder	gene	2875	3270	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 29.1%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_77_pseudo_00414;old_locus_tag=FDBDIGKM_00170
+FDBDIGKM_821	pseudofinder	gene	2899	3336	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 24.8%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_821_pseudo_00415;old_locus_tag=FDBDIGKM_01522
+FDBDIGKM_842	pseudofinder	gene	2915	3087	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_842_pseudo_00416;old_locus_tag=FDBDIGKM_842_ign_00003
+FDBDIGKM_473	pseudofinder	gene	2961	3064	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 8 blast hits.;locus_tag=FDBDIGKM_473_pseudo_00417;old_locus_tag=FDBDIGKM_473_ign_00002
+FDBDIGKM_241	pseudofinder	gene	2969	3154	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 21.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_241_pseudo_00418;old_locus_tag=FDBDIGKM_00463
+FDBDIGKM_718	pseudofinder	gene	2975	3310	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 26.4%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_718_pseudo_00419;old_locus_tag=FDBDIGKM_01277
+FDBDIGKM_246	pseudofinder	gene	2986	3204	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 32.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_246_pseudo_00420;old_locus_tag=FDBDIGKM_00473
+FDBDIGKM_870	pseudofinder	gene	3019	3273	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 45.7%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_870_pseudo_00421;old_locus_tag=FDBDIGKM_01627
+FDBDIGKM_539	pseudofinder	gene	3026	3460	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 34.8%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_539_pseudo_00422;old_locus_tag=FDBDIGKM_00935
+FDBDIGKM_473	pseudofinder	gene	3068	3580	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 36.9%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_473_pseudo_00423;old_locus_tag=FDBDIGKM_00822
+FDBDIGKM_842	pseudofinder	gene	3089	3433	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 35.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_842_pseudo_00424;old_locus_tag=FDBDIGKM_01554
+FDBDIGKM_546	pseudofinder	gene	3095	3457	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 27.0%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_546_pseudo_00425;old_locus_tag=FDBDIGKM_00949
+FDBDIGKM_527	pseudofinder	gene	3107	3967	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 50.2%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_527_pseudo_00426;old_locus_tag=FDBDIGKM_00882
+FDBDIGKM_850	pseudofinder	gene	3108	3620	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 62.9%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_850_pseudo_00427;old_locus_tag=FDBDIGKM_01591
+FDBDIGKM_320	pseudofinder	gene	3110	4480	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_320_pseudo_00428;old_locus_tag=FDBDIGKM_320_ign_00002
+FDBDIGKM_586	pseudofinder	gene	3115	3465	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 57.0%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_586_pseudo_00429;old_locus_tag=FDBDIGKM_01037
+FDBDIGKM_798	pseudofinder	gene	3131	3201	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_798_pseudo_00430;old_locus_tag=FDBDIGKM_798_ign_00004
+FDBDIGKM_446	pseudofinder	gene	3131	3292	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 15.1%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_446_pseudo_00431;old_locus_tag=FDBDIGKM_00783
+FDBDIGKM_685	pseudofinder	gene	3144	3620	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 36.8%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_685_pseudo_00432;old_locus_tag=FDBDIGKM_01223
+FDBDIGKM_594	pseudofinder	gene	3152	3306	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_594_pseudo_00433;old_locus_tag=FDBDIGKM_594_ign_00004
+FDBDIGKM_846	pseudofinder	gene	3176	4846	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 59.5%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_846_pseudo_00434;old_locus_tag=FDBDIGKM_01582
+FDBDIGKM_67	pseudofinder	gene	3193	3366	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 45.3%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_67_pseudo_00435;old_locus_tag=FDBDIGKM_00152
+FDBDIGKM_788	pseudofinder	gene	3273	3686	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 31.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_788_pseudo_00436;old_locus_tag=FDBDIGKM_01437
+FDBDIGKM_844	pseudofinder	gene	3352	3537	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 20.0%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_844_pseudo_00437;old_locus_tag=FDBDIGKM_01573
+FDBDIGKM_67	pseudofinder	gene	3369	3583	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_67_pseudo_00438;old_locus_tag=FDBDIGKM_67_ign_00003
+FDBDIGKM_723	pseudofinder	gene	3370	3615	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 52.9%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_723_pseudo_00439;old_locus_tag=FDBDIGKM_01300
+FDBDIGKM_446	pseudofinder	gene	3370	4198	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FDBDIGKM_446_pseudo_00440;old_locus_tag=FDBDIGKM_00784,FDBDIGKM_446_ign_00003,FDBDIGKM_446_ign_00004
+FDBDIGKM_207	pseudofinder	gene	3417	3858	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FDBDIGKM_207_pseudo_00441;old_locus_tag=FDBDIGKM_207_ign_00001,FDBDIGKM_00411
+FDBDIGKM_594	pseudofinder	gene	3418	3930	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 57.5%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_594_pseudo_00442;old_locus_tag=FDBDIGKM_01066
+FDBDIGKM_239	pseudofinder	gene	3454	4586	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FDBDIGKM_239_pseudo_00443;old_locus_tag=FDBDIGKM_00460,FDBDIGKM_239_ign_00002,FDBDIGKM_00459
+FDBDIGKM_770	pseudofinder	gene	3480	3847	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_770_pseudo_00444;old_locus_tag=FDBDIGKM_770_ign_00002
+FDBDIGKM_274	pseudofinder	gene	3481	3593	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_274_pseudo_00445;old_locus_tag=FDBDIGKM_274_ign_00003
+FDBDIGKM_172	pseudofinder	gene	3494	4558	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 43.5%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_172_pseudo_00446;old_locus_tag=FDBDIGKM_00359
+FDBDIGKM_705	pseudofinder	gene	3508	3851	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_705_pseudo_00447;old_locus_tag=FDBDIGKM_705_ign_00004
+FDBDIGKM_789	pseudofinder	gene	3508	3966	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 40.8%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_789_pseudo_00448;old_locus_tag=FDBDIGKM_01460
+FDBDIGKM_316	pseudofinder	gene	3568	3969	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 45.2%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_316_pseudo_00449;old_locus_tag=FDBDIGKM_00623
+FDBDIGKM_650	pseudofinder	gene	3592	3905	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=FDBDIGKM_650_pseudo_00450;old_locus_tag=FDBDIGKM_650_ign_00002
+FDBDIGKM_274	pseudofinder	gene	3596	6364	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 61.8%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_274_pseudo_00451;old_locus_tag=FDBDIGKM_00538
+FDBDIGKM_850	pseudofinder	gene	3650	4042	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 45.4%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_850_pseudo_00452;old_locus_tag=FDBDIGKM_01592
+FDBDIGKM_386	pseudofinder	gene	3840	3961	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_386_pseudo_00453;old_locus_tag=FDBDIGKM_386_ign_00004
+FDBDIGKM_705	pseudofinder	gene	3853	4116	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 19.9%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_705_pseudo_00454;old_locus_tag=FDBDIGKM_01257
+FDBDIGKM_473	pseudofinder	gene	3884	4336	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 47.5%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_473_pseudo_00455;old_locus_tag=FDBDIGKM_00823
+FDBDIGKM_594	pseudofinder	gene	3897	4370	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 53.3%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_594_pseudo_00456;old_locus_tag=FDBDIGKM_01067
+FDBDIGKM_591	pseudofinder	gene	3924	4582	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_591_pseudo_00457;old_locus_tag=FDBDIGKM_591_ign_00002
+FDBDIGKM_527	pseudofinder	gene	3954	4946	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 55.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_527_pseudo_00458;old_locus_tag=FDBDIGKM_00883
+FDBDIGKM_386	pseudofinder	gene	3965	4234	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 47.9%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_386_pseudo_00459;old_locus_tag=FDBDIGKM_00713
+FDBDIGKM_669	pseudofinder	gene	4122	5192	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 42.1%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_669_pseudo_00460;old_locus_tag=FDBDIGKM_01202
+FDBDIGKM_705	pseudofinder	gene	4126	4257	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 10.1%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_705_pseudo_00461;old_locus_tag=FDBDIGKM_01258
+FDBDIGKM_776	pseudofinder	gene	4187	4930	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 50.2%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_776_pseudo_00462;old_locus_tag=FDBDIGKM_01398
+FDBDIGKM_534	pseudofinder	gene	4209	4288	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_534_pseudo_00463;old_locus_tag=FDBDIGKM_534_ign_00003
+FDBDIGKM_788	pseudofinder	gene	4439	4642	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 44.3%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_788_pseudo_00464;old_locus_tag=FDBDIGKM_01439
+FDBDIGKM_207	pseudofinder	gene	4686	4862	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 14.4%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_207_pseudo_00465;old_locus_tag=FDBDIGKM_00412
+FDBDIGKM_591	pseudofinder	gene	4755	5047	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_591_pseudo_00466;old_locus_tag=FDBDIGKM_591_ign_00003
+FDBDIGKM_846	pseudofinder	gene	4850	4926	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=FDBDIGKM_846_pseudo_00467;old_locus_tag=FDBDIGKM_846_ign_00002
+FDBDIGKM_207	pseudofinder	gene	4885	5618	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_207_pseudo_00468;old_locus_tag=FDBDIGKM_207_ign_00003
+FDBDIGKM_846	pseudofinder	gene	4929	6053	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 40.7%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_846_pseudo_00469;old_locus_tag=FDBDIGKM_01583
+FDBDIGKM_776	pseudofinder	gene	4954	5283	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 26.8%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_776_pseudo_00470;old_locus_tag=FDBDIGKM_01399
+FDBDIGKM_92	pseudofinder	gene	5045	5275	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 24.7%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_92_pseudo_00471;old_locus_tag=FDBDIGKM_00188
+FDBDIGKM_705	pseudofinder	gene	5140	5438	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_705_pseudo_00472;old_locus_tag=FDBDIGKM_705_ign_00006
+FDBDIGKM_42	pseudofinder	gene	5286	5671	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_42_pseudo_00473;old_locus_tag=FDBDIGKM_42_ign_00004
+FDBDIGKM_575	pseudofinder	gene	5307	5524	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_575_pseudo_00474;old_locus_tag=FDBDIGKM_575_ign_00003
+FDBDIGKM_651	pseudofinder	gene	5462	6037	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 28.1%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_651_pseudo_00475;old_locus_tag=FDBDIGKM_01174
+FDBDIGKM_705	pseudofinder	gene	5473	5740	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FDBDIGKM_705_pseudo_00476;old_locus_tag=FDBDIGKM_705_ign_00007,FDBDIGKM_01260
+FDBDIGKM_162	pseudofinder	gene	5519	5784	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_162_pseudo_00477;old_locus_tag=FDBDIGKM_162_ign_00003
+FDBDIGKM_776	pseudofinder	gene	5582	6460	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 49.3%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_776_pseudo_00478;old_locus_tag=FDBDIGKM_01400
+FDBDIGKM_385	pseudofinder	gene	5714	5871	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_385_pseudo_00479;old_locus_tag=FDBDIGKM_385_ign_00003
+FDBDIGKM_280	pseudofinder	gene	6137	6676	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 18.2%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_280_pseudo_00480;old_locus_tag=FDBDIGKM_00546
+FDBDIGKM_846	pseudofinder	gene	6194	6607	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 41.4%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_846_pseudo_00481;old_locus_tag=FDBDIGKM_01584
+FDBDIGKM_165	pseudofinder	gene	6325	6432	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 10.5%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_165_pseudo_00482;old_locus_tag=FDBDIGKM_00351
+FDBDIGKM_386	pseudofinder	gene	6441	6954	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_386_pseudo_00483;old_locus_tag=FDBDIGKM_386_ign_00007
+FDBDIGKM_894	pseudofinder	gene	6545	7957	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 64.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_894_pseudo_00484;old_locus_tag=FDBDIGKM_01710
+FDBDIGKM_846	pseudofinder	gene	6558	7211	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 64.8%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_846_pseudo_00485;old_locus_tag=FDBDIGKM_01585
+FDBDIGKM_776	pseudofinder	gene	6574	7530	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 52.5%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_776_pseudo_00486;old_locus_tag=FDBDIGKM_01401
+FDBDIGKM_718	pseudofinder	gene	6581	8124	.	.	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FDBDIGKM_718_pseudo_00487;old_locus_tag=FDBDIGKM_01280,FDBDIGKM_01279,FDBDIGKM_01281
+FDBDIGKM_534	pseudofinder	gene	6788	6930	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_534_pseudo_00488;old_locus_tag=FDBDIGKM_534_ign_00005
+FDBDIGKM_446	pseudofinder	gene	6806	6973	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 27.9%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_446_pseudo_00489;old_locus_tag=FDBDIGKM_00788
+FDBDIGKM_817	pseudofinder	gene	6863	7629	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FDBDIGKM_817_pseudo_00490;old_locus_tag=FDBDIGKM_01510,FDBDIGKM_01511
+FDBDIGKM_304	pseudofinder	gene	6878	7072	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 50.2%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_304_pseudo_00491;old_locus_tag=FDBDIGKM_00607
+FDBDIGKM_850	pseudofinder	gene	6935	7075	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 20.5%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_850_pseudo_00492;old_locus_tag=FDBDIGKM_01594
+FDBDIGKM_64	pseudofinder	gene	7047	7409	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 56.4%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_64_pseudo_00493;old_locus_tag=FDBDIGKM_00137
+FDBDIGKM_844	pseudofinder	gene	7326	7705	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_844_pseudo_00494;old_locus_tag=FDBDIGKM_844_ign_00005
+FDBDIGKM_386	pseudofinder	gene	7335	7505	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 14.0%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_386_pseudo_00495;old_locus_tag=FDBDIGKM_00717
+FDBDIGKM_64	pseudofinder	gene	7403	7828	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 64.5%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_64_pseudo_00496;old_locus_tag=FDBDIGKM_00138
+FDBDIGKM_842	pseudofinder	gene	7429	7867	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FDBDIGKM_842_pseudo_00497;old_locus_tag=FDBDIGKM_842_ign_00007,FDBDIGKM_01558
+FDBDIGKM_539	pseudofinder	gene	7461	7852	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_539_pseudo_00498;old_locus_tag=FDBDIGKM_539_ign_00006
+FDBDIGKM_386	pseudofinder	gene	7509	8055	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_386_pseudo_00499;old_locus_tag=FDBDIGKM_386_ign_00009
+FDBDIGKM_225	pseudofinder	gene	7784	8512	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 50.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_225_pseudo_00500;old_locus_tag=FDBDIGKM_00442
+FDBDIGKM_705	pseudofinder	gene	7811	7950	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_705_pseudo_00501;old_locus_tag=FDBDIGKM_705_ign_00009
+FDBDIGKM_894	pseudofinder	gene	7903	8880	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 43.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_894_pseudo_00502;old_locus_tag=FDBDIGKM_01711
+FDBDIGKM_705	pseudofinder	gene	7958	8071	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 14.7%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_705_pseudo_00503;old_locus_tag=FDBDIGKM_01263
+FDBDIGKM_164	pseudofinder	gene	8057	8260	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 19.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_164_pseudo_00504;old_locus_tag=FDBDIGKM_00345
+FDBDIGKM_705	pseudofinder	gene	8114	8356	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 25.3%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_705_pseudo_00505;old_locus_tag=FDBDIGKM_01264
+FDBDIGKM_304	pseudofinder	gene	8305	8462	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_304_pseudo_00506;old_locus_tag=FDBDIGKM_304_ign_00006
+FDBDIGKM_765	pseudofinder	gene	8489	9168	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_765_pseudo_00507;old_locus_tag=FDBDIGKM_765_ign_00003
+FDBDIGKM_67	pseudofinder	gene	8531	8872	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 48.5%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_67_pseudo_00508;old_locus_tag=FDBDIGKM_00154
+FDBDIGKM_225	pseudofinder	gene	8567	9196	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 43.3%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_225_pseudo_00509;old_locus_tag=FDBDIGKM_00443
+FDBDIGKM_304	pseudofinder	gene	8829	9281	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 152.5%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_304_pseudo_00510;old_locus_tag=FDBDIGKM_00609
+FDBDIGKM_67	pseudofinder	gene	8945	9148	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 25.4%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_67_pseudo_00511;old_locus_tag=FDBDIGKM_00155
+FDBDIGKM_225	pseudofinder	gene	9171	9518	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 24.9%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_225_pseudo_00512;old_locus_tag=FDBDIGKM_00444
+FDBDIGKM_162	pseudofinder	gene	9216	9362	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 20.8%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_162_pseudo_00513;old_locus_tag=FDBDIGKM_00301
+FDBDIGKM_42	pseudofinder	gene	9221	9475	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 35.5%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_42_pseudo_00514;old_locus_tag=FDBDIGKM_00082
+FDBDIGKM_120	pseudofinder	gene	9367	9693	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 30.5%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_120_pseudo_00515;old_locus_tag=FDBDIGKM_00224
+FDBDIGKM_594	pseudofinder	gene	9621	9835	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_594_pseudo_00516;old_locus_tag=FDBDIGKM_594_ign_00009
+FDBDIGKM_842	pseudofinder	gene	9906	10706	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_842_pseudo_00517;old_locus_tag=FDBDIGKM_842_ign_00008
+FDBDIGKM_793	pseudofinder	gene	9999	12253	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FDBDIGKM_793_pseudo_00518;old_locus_tag=FDBDIGKM_01476,FDBDIGKM_01475
+FDBDIGKM_539	pseudofinder	gene	10015	10874	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FDBDIGKM_539_pseudo_00519;old_locus_tag=FDBDIGKM_00941,FDBDIGKM_539_ign_00009
+FDBDIGKM_251	pseudofinder	gene	10613	10686	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_251_pseudo_00520;old_locus_tag=FDBDIGKM_251_ign_00010
+FDBDIGKM_207	pseudofinder	gene	10800	11357	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_207_pseudo_00521;old_locus_tag=FDBDIGKM_207_ign_00007
+FDBDIGKM_539	pseudofinder	gene	10878	11681	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 48.2%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_539_pseudo_00522;old_locus_tag=FDBDIGKM_00942
+FDBDIGKM_736	pseudofinder	gene	11310	11683	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 12 blast hits.;locus_tag=FDBDIGKM_736_pseudo_00523;old_locus_tag=FDBDIGKM_736_ign_00006
+FDBDIGKM_539	pseudofinder	gene	11682	12319	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_539_pseudo_00524;old_locus_tag=FDBDIGKM_539_ign_00010
+FDBDIGKM_736	pseudofinder	gene	11692	11898	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 42.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_736_pseudo_00525;old_locus_tag=FDBDIGKM_01313
+FDBDIGKM_320	pseudofinder	gene	11917	12477	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 63.2%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_320_pseudo_00526;old_locus_tag=FDBDIGKM_00640
+FDBDIGKM_320	pseudofinder	gene	12419	12682	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 34.0%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_320_pseudo_00527;old_locus_tag=FDBDIGKM_00641
+FDBDIGKM_588	pseudofinder	gene	12447	12908	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 26.1%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_588_pseudo_00528;old_locus_tag=FDBDIGKM_01047
+FDBDIGKM_539	pseudofinder	gene	12494	13360	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 55.1%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_539_pseudo_00529;old_locus_tag=FDBDIGKM_00943
+FDBDIGKM_555	pseudofinder	gene	12614	13951	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 60.7%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_555_pseudo_00530;old_locus_tag=FDBDIGKM_00970
+FDBDIGKM_669	pseudofinder	gene	12778	13449	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 36.8%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_669_pseudo_00531;old_locus_tag=FDBDIGKM_01208
+FDBDIGKM_640	pseudofinder	gene	12947	13276	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 35.7%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_640_pseudo_00532;old_locus_tag=FDBDIGKM_01134
+FDBDIGKM_640	pseudofinder	gene	13304	13495	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 23.0%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_640_pseudo_00533;old_locus_tag=FDBDIGKM_01135
+FDBDIGKM_640	pseudofinder	gene	13678	13811	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=FDBDIGKM_640_pseudo_00534;old_locus_tag=FDBDIGKM_640_ign_00007
+FDBDIGKM_640	pseudofinder	gene	13872	14093	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 40.1%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_640_pseudo_00535;old_locus_tag=FDBDIGKM_01136
+FDBDIGKM_555	pseudofinder	gene	13952	14103	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_555_pseudo_00536;old_locus_tag=FDBDIGKM_555_ign_00013
+FDBDIGKM_640	pseudofinder	gene	14097	14518	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_640_pseudo_00537;old_locus_tag=FDBDIGKM_640_ign_00008
+FDBDIGKM_555	pseudofinder	gene	14107	14937	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 38.4%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_555_pseudo_00538;old_locus_tag=FDBDIGKM_00971
+FDBDIGKM_644	pseudofinder	gene	14549	14658	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_644_pseudo_00539;old_locus_tag=FDBDIGKM_644_ign_00007
+FDBDIGKM_564	pseudofinder	gene	14732	14938	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 16.5%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_564_pseudo_00540;old_locus_tag=FDBDIGKM_00985
+FDBDIGKM_644	pseudofinder	gene	15088	15786	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 61.4%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_644_pseudo_00541;old_locus_tag=FDBDIGKM_01152
+FDBDIGKM_564	pseudofinder	gene	15236	15828	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_564_pseudo_00542;old_locus_tag=FDBDIGKM_564_ign_00009
+FDBDIGKM_555	pseudofinder	gene	15399	15581	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 25.8%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_555_pseudo_00543;old_locus_tag=FDBDIGKM_00972
+FDBDIGKM_207	pseudofinder	gene	15541	15695	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_207_pseudo_00544;old_locus_tag=FDBDIGKM_207_ign_00010
+FDBDIGKM_885	pseudofinder	gene	15594	16055	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 36.7%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_885_pseudo_00545;old_locus_tag=FDBDIGKM_01701
+FDBDIGKM_644	pseudofinder	gene	15795	16280	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 42.0%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_644_pseudo_00546;old_locus_tag=FDBDIGKM_01153
+FDBDIGKM_564	pseudofinder	gene	15887	16135	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 30.8%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_564_pseudo_00547;old_locus_tag=FDBDIGKM_00986
+FDBDIGKM_293	pseudofinder	gene	15983	16726	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 62.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_293_pseudo_00548;old_locus_tag=FDBDIGKM_00586
+FDBDIGKM_885	pseudofinder	gene	16058	16287	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_885_pseudo_00549;old_locus_tag=FDBDIGKM_885_ign_00012
+FDBDIGKM_640	pseudofinder	gene	16260	16493	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 36.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_640_pseudo_00550;old_locus_tag=FDBDIGKM_01137
+FDBDIGKM_788	pseudofinder	gene	16265	16605	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_788_pseudo_00551;old_locus_tag=FDBDIGKM_788_ign_00008
+FDBDIGKM_885	pseudofinder	gene	16290	16889	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 47.9%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_885_pseudo_00552;old_locus_tag=FDBDIGKM_01702
+FDBDIGKM_640	pseudofinder	gene	16610	16753	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 55.2%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_640_pseudo_00553;old_locus_tag=FDBDIGKM_01138
+FDBDIGKM_534	pseudofinder	gene	16635	16705	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 9 blast hits.;locus_tag=FDBDIGKM_534_pseudo_00554;old_locus_tag=FDBDIGKM_534_ign_00011
+FDBDIGKM_293	pseudofinder	gene	16698	17228	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 45.0%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_293_pseudo_00555;old_locus_tag=FDBDIGKM_00587
+FDBDIGKM_880	pseudofinder	gene	16806	17943	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FDBDIGKM_880_pseudo_00556;old_locus_tag=FDBDIGKM_01652,FDBDIGKM_01653
+FDBDIGKM_141	pseudofinder	gene	16942	17283	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 26.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_141_pseudo_00557;old_locus_tag=FDBDIGKM_00263
+FDBDIGKM_842	pseudofinder	gene	17179	17719	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_842_pseudo_00558;old_locus_tag=FDBDIGKM_842_ign_00012
+FDBDIGKM_141	pseudofinder	gene	17284	17384	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_141_pseudo_00559;old_locus_tag=FDBDIGKM_141_ign_00012
+FDBDIGKM_162	pseudofinder	gene	17986	18315	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 166.9%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_162_pseudo_00560;old_locus_tag=FDBDIGKM_00308
+FDBDIGKM_162	pseudofinder	gene	18432	18622	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_162_pseudo_00561;old_locus_tag=FDBDIGKM_162_ign_00012
+FDBDIGKM_320	pseudofinder	gene	18628	18903	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 37.1%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_320_pseudo_00562;old_locus_tag=FDBDIGKM_00646
+FDBDIGKM_183	pseudofinder	gene	18985	19273	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FDBDIGKM_183_pseudo_00563;old_locus_tag=FDBDIGKM_00379,FDBDIGKM_00378
+FDBDIGKM_183	pseudofinder	gene	19283	19600	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 42.1%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_183_pseudo_00564;old_locus_tag=FDBDIGKM_00380
+FDBDIGKM_736	pseudofinder	gene	19309	19557	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 42.4%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_736_pseudo_00565;old_locus_tag=FDBDIGKM_01321
+FDBDIGKM_850	pseudofinder	gene	19434	19637	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 24.0%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_850_pseudo_00566;old_locus_tag=FDBDIGKM_01602
+FDBDIGKM_736	pseudofinder	gene	19700	19876	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 38.2%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_736_pseudo_00567;old_locus_tag=FDBDIGKM_01323
+FDBDIGKM_183	pseudofinder	gene	19790	20214	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_183_pseudo_00568;old_locus_tag=FDBDIGKM_183_ign_00013
+FDBDIGKM_880	pseudofinder	gene	21170	21334	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 17.9%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_880_pseudo_00569;old_locus_tag=FDBDIGKM_01657
+FDBDIGKM_583	pseudofinder	gene	21283	22046	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FDBDIGKM_583_pseudo_00570;old_locus_tag=FDBDIGKM_01019,FDBDIGKM_583_ign_00016
+FDBDIGKM_583	pseudofinder	gene	24474	24902	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FDBDIGKM_583_pseudo_00571;old_locus_tag=FDBDIGKM_583_ign_00018,FDBDIGKM_01022
+FDBDIGKM_583	pseudofinder	gene	24996	25247	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 18.8%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_583_pseudo_00572;old_locus_tag=FDBDIGKM_01024
+FDBDIGKM_583	pseudofinder	gene	35594	35923	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 48.1%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_583_pseudo_00573;old_locus_tag=FDBDIGKM_01030
+FDBDIGKM_183	pseudofinder	gene	38829	39629	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 42.2%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_183_pseudo_00574;old_locus_tag=FDBDIGKM_00389
+FDBDIGKM_880	pseudofinder	gene	39228	39515	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 135.1%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_880_pseudo_00575;old_locus_tag=FDBDIGKM_01672
+FDBDIGKM_880	pseudofinder	gene	39417	39514	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=FDBDIGKM_880_pseudo_00576;old_locus_tag=FDBDIGKM_880_ign_00024
+FDBDIGKM_880	pseudofinder	gene	39591	40115	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 48.4%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_880_pseudo_00577;old_locus_tag=FDBDIGKM_01674
+FDBDIGKM_162	pseudofinder	gene	40105	40899	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 33.4%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_162_pseudo_00578;old_locus_tag=FDBDIGKM_00322
+FDBDIGKM_162	pseudofinder	gene	45742	45954	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 20.9%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_162_pseudo_00579;old_locus_tag=FDBDIGKM_00325
+FDBDIGKM_162	pseudofinder	gene	47648	47917	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 17.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_162_pseudo_00580;old_locus_tag=FDBDIGKM_00327
+FDBDIGKM_162	pseudofinder	gene	47918	48105	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_162_pseudo_00581;old_locus_tag=FDBDIGKM_162_ign_00028
+FDBDIGKM_162	pseudofinder	gene	48107	48226	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 8.1%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_162_pseudo_00582;old_locus_tag=FDBDIGKM_00328
+FDBDIGKM_534	pseudofinder	gene	48157	48509	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FDBDIGKM_534_pseudo_00583;old_locus_tag=FDBDIGKM_00924,FDBDIGKM_00923
+FDBDIGKM_162	pseudofinder	gene	48230	48534	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_162_pseudo_00584;old_locus_tag=FDBDIGKM_162_ign_00029
+FDBDIGKM_534	pseudofinder	gene	48467	48955	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 63.7%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_534_pseudo_00585;old_locus_tag=FDBDIGKM_00925
+FDBDIGKM_162	pseudofinder	gene	48541	48810	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 17.4%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_162_pseudo_00586;old_locus_tag=FDBDIGKM_00329
+FDBDIGKM_162	pseudofinder	gene	49173	49337	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 9.6%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_162_pseudo_00587;old_locus_tag=FDBDIGKM_00330
+FDBDIGKM_162	pseudofinder	gene	49341	49465	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=FDBDIGKM_162_pseudo_00588;old_locus_tag=FDBDIGKM_162_ign_00031
+FDBDIGKM_534	pseudofinder	gene	49671	49949	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 48.5%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_534_pseudo_00589;old_locus_tag=FDBDIGKM_00926
+FDBDIGKM_162	pseudofinder	gene	51228	51580	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=FDBDIGKM_162_pseudo_00590;old_locus_tag=FDBDIGKM_162_ign_00032
+FDBDIGKM_162	pseudofinder	gene	51666	52601	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=FDBDIGKM_162_pseudo_00591;old_locus_tag=FDBDIGKM_162_ign_00033,FDBDIGKM_00332
+FDBDIGKM_162	pseudofinder	gene	54244	54489	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 25.1%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_162_pseudo_00592;old_locus_tag=FDBDIGKM_00334
+FDBDIGKM_162	pseudofinder	gene	56013	56228	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 52.7%25 of the average length of hits to this gene.;locus_tag=FDBDIGKM_162_pseudo_00593;old_locus_tag=FDBDIGKM_00336

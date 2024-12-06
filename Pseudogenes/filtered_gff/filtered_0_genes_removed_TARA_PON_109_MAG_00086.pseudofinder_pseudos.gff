@@ -1,0 +1,841 @@
+##gff-version 3
+#!annotation-date	2022-12-22 11:09:51
+##sequence-region GPGPLJFG_1 1 2972
+##sequence-region GPGPLJFG_2 1 13878
+##sequence-region GPGPLJFG_3 1 3624
+##sequence-region GPGPLJFG_4 1 5375
+##sequence-region GPGPLJFG_5 1 12449
+##sequence-region GPGPLJFG_6 1 2908
+##sequence-region GPGPLJFG_7 1 3005
+##sequence-region GPGPLJFG_8 1 6871
+##sequence-region GPGPLJFG_9 1 16538
+##sequence-region GPGPLJFG_10 1 24160
+##sequence-region GPGPLJFG_11 1 4270
+##sequence-region GPGPLJFG_12 1 7168
+##sequence-region GPGPLJFG_13 1 14985
+##sequence-region GPGPLJFG_14 1 6548
+##sequence-region GPGPLJFG_15 1 2560
+##sequence-region GPGPLJFG_16 1 10262
+##sequence-region GPGPLJFG_17 1 13022
+##sequence-region GPGPLJFG_18 1 14801
+##sequence-region GPGPLJFG_19 1 5792
+##sequence-region GPGPLJFG_20 1 15498
+##sequence-region GPGPLJFG_21 1 3053
+##sequence-region GPGPLJFG_22 1 3344
+##sequence-region GPGPLJFG_23 1 22791
+##sequence-region GPGPLJFG_24 1 16200
+##sequence-region GPGPLJFG_25 1 9828
+##sequence-region GPGPLJFG_26 1 24429
+##sequence-region GPGPLJFG_27 1 6324
+##sequence-region GPGPLJFG_28 1 6377
+##sequence-region GPGPLJFG_29 1 16757
+##sequence-region GPGPLJFG_30 1 5611
+##sequence-region GPGPLJFG_31 1 9060
+##sequence-region GPGPLJFG_32 1 5148
+##sequence-region GPGPLJFG_33 1 8747
+##sequence-region GPGPLJFG_34 1 17153
+##sequence-region GPGPLJFG_35 1 11991
+##sequence-region GPGPLJFG_36 1 4115
+##sequence-region GPGPLJFG_37 1 10931
+##sequence-region GPGPLJFG_38 1 3942
+##sequence-region GPGPLJFG_39 1 4438
+##sequence-region GPGPLJFG_40 1 17003
+##sequence-region GPGPLJFG_41 1 3658
+##sequence-region GPGPLJFG_42 1 8790
+##sequence-region GPGPLJFG_43 1 46823
+##sequence-region GPGPLJFG_44 1 2613
+##sequence-region GPGPLJFG_45 1 5599
+##sequence-region GPGPLJFG_46 1 16918
+##sequence-region GPGPLJFG_47 1 4718
+##sequence-region GPGPLJFG_48 1 18683
+##sequence-region GPGPLJFG_49 1 18104
+##sequence-region GPGPLJFG_50 1 20289
+##sequence-region GPGPLJFG_51 1 8953
+##sequence-region GPGPLJFG_52 1 4112
+##sequence-region GPGPLJFG_53 1 10664
+##sequence-region GPGPLJFG_54 1 8973
+##sequence-region GPGPLJFG_55 1 16899
+##sequence-region GPGPLJFG_56 1 16037
+##sequence-region GPGPLJFG_57 1 18081
+##sequence-region GPGPLJFG_58 1 29015
+##sequence-region GPGPLJFG_59 1 3008
+##sequence-region GPGPLJFG_60 1 3489
+##sequence-region GPGPLJFG_61 1 8593
+##sequence-region GPGPLJFG_62 1 3398
+##sequence-region GPGPLJFG_63 1 2578
+##sequence-region GPGPLJFG_64 1 16883
+##sequence-region GPGPLJFG_65 1 9143
+##sequence-region GPGPLJFG_66 1 23457
+##sequence-region GPGPLJFG_67 1 6894
+##sequence-region GPGPLJFG_68 1 4219
+##sequence-region GPGPLJFG_69 1 5519
+##sequence-region GPGPLJFG_70 1 3943
+##sequence-region GPGPLJFG_71 1 13984
+##sequence-region GPGPLJFG_72 1 6614
+##sequence-region GPGPLJFG_73 1 11103
+##sequence-region GPGPLJFG_74 1 12381
+##sequence-region GPGPLJFG_75 1 7669
+##sequence-region GPGPLJFG_76 1 3353
+##sequence-region GPGPLJFG_77 1 27129
+##sequence-region GPGPLJFG_78 1 3890
+##sequence-region GPGPLJFG_79 1 22407
+##sequence-region GPGPLJFG_80 1 13222
+##sequence-region GPGPLJFG_81 1 9198
+##sequence-region GPGPLJFG_82 1 39773
+##sequence-region GPGPLJFG_83 1 14516
+##sequence-region GPGPLJFG_84 1 24313
+##sequence-region GPGPLJFG_85 1 23445
+##sequence-region GPGPLJFG_86 1 7734
+##sequence-region GPGPLJFG_87 1 11195
+##sequence-region GPGPLJFG_88 1 19273
+##sequence-region GPGPLJFG_89 1 2980
+##sequence-region GPGPLJFG_90 1 3071
+##sequence-region GPGPLJFG_91 1 4648
+##sequence-region GPGPLJFG_92 1 4426
+##sequence-region GPGPLJFG_93 1 13679
+##sequence-region GPGPLJFG_94 1 4315
+##sequence-region GPGPLJFG_95 1 12831
+##sequence-region GPGPLJFG_96 1 8135
+##sequence-region GPGPLJFG_97 1 7936
+##sequence-region GPGPLJFG_98 1 7263
+##sequence-region GPGPLJFG_99 1 4460
+##sequence-region GPGPLJFG_100 1 3180
+##sequence-region GPGPLJFG_101 1 4090
+##sequence-region GPGPLJFG_102 1 10530
+##sequence-region GPGPLJFG_103 1 18161
+##sequence-region GPGPLJFG_104 1 16568
+##sequence-region GPGPLJFG_105 1 4305
+##sequence-region GPGPLJFG_106 1 6847
+##sequence-region GPGPLJFG_107 1 2843
+##sequence-region GPGPLJFG_108 1 4744
+##sequence-region GPGPLJFG_109 1 10492
+##sequence-region GPGPLJFG_110 1 4711
+##sequence-region GPGPLJFG_111 1 3900
+##sequence-region GPGPLJFG_112 1 2813
+##sequence-region GPGPLJFG_113 1 11162
+##sequence-region GPGPLJFG_114 1 3080
+##sequence-region GPGPLJFG_115 1 11094
+##sequence-region GPGPLJFG_116 1 3963
+##sequence-region GPGPLJFG_117 1 8399
+##sequence-region GPGPLJFG_118 1 9717
+##sequence-region GPGPLJFG_119 1 10259
+##sequence-region GPGPLJFG_120 1 17003
+##sequence-region GPGPLJFG_121 1 5669
+##sequence-region GPGPLJFG_122 1 4701
+##sequence-region GPGPLJFG_123 1 3793
+##sequence-region GPGPLJFG_124 1 9109
+##sequence-region GPGPLJFG_125 1 9269
+##sequence-region GPGPLJFG_126 1 11771
+##sequence-region GPGPLJFG_127 1 18252
+##sequence-region GPGPLJFG_128 1 4633
+##sequence-region GPGPLJFG_129 1 8075
+##sequence-region GPGPLJFG_130 1 6918
+##sequence-region GPGPLJFG_131 1 10748
+##sequence-region GPGPLJFG_132 1 9171
+##sequence-region GPGPLJFG_133 1 7097
+##sequence-region GPGPLJFG_134 1 11397
+##sequence-region GPGPLJFG_135 1 3661
+##sequence-region GPGPLJFG_136 1 3555
+##sequence-region GPGPLJFG_137 1 5229
+##sequence-region GPGPLJFG_138 1 2765
+##sequence-region GPGPLJFG_139 1 6206
+##sequence-region GPGPLJFG_140 1 5825
+##sequence-region GPGPLJFG_141 1 45521
+##sequence-region GPGPLJFG_142 1 13613
+##sequence-region GPGPLJFG_143 1 4645
+##sequence-region GPGPLJFG_144 1 9361
+##sequence-region GPGPLJFG_145 1 8698
+##sequence-region GPGPLJFG_146 1 21398
+##sequence-region GPGPLJFG_147 1 7562
+##sequence-region GPGPLJFG_148 1 2772
+##sequence-region GPGPLJFG_149 1 3193
+##sequence-region GPGPLJFG_150 1 4382
+##sequence-region GPGPLJFG_151 1 11360
+##sequence-region GPGPLJFG_152 1 17799
+##sequence-region GPGPLJFG_153 1 4597
+##sequence-region GPGPLJFG_154 1 9481
+##sequence-region GPGPLJFG_155 1 8733
+##sequence-region GPGPLJFG_156 1 4499
+##sequence-region GPGPLJFG_157 1 4523
+##sequence-region GPGPLJFG_158 1 5262
+##sequence-region GPGPLJFG_159 1 7019
+##sequence-region GPGPLJFG_160 1 11465
+##sequence-region GPGPLJFG_161 1 2974
+##sequence-region GPGPLJFG_162 1 8847
+##sequence-region GPGPLJFG_163 1 6211
+##sequence-region GPGPLJFG_164 1 3975
+##sequence-region GPGPLJFG_165 1 9042
+##sequence-region GPGPLJFG_166 1 5051
+##sequence-region GPGPLJFG_167 1 4815
+##sequence-region GPGPLJFG_168 1 3767
+##sequence-region GPGPLJFG_169 1 5572
+##sequence-region GPGPLJFG_170 1 8428
+##sequence-region GPGPLJFG_171 1 5443
+##sequence-region GPGPLJFG_172 1 4688
+##sequence-region GPGPLJFG_173 1 3882
+##sequence-region GPGPLJFG_174 1 11087
+##sequence-region GPGPLJFG_175 1 6242
+##sequence-region GPGPLJFG_176 1 2954
+##sequence-region GPGPLJFG_177 1 7106
+##sequence-region GPGPLJFG_178 1 9237
+##sequence-region GPGPLJFG_179 1 6730
+##sequence-region GPGPLJFG_180 1 2755
+##sequence-region GPGPLJFG_181 1 12439
+##sequence-region GPGPLJFG_182 1 6888
+##sequence-region GPGPLJFG_183 1 16176
+##sequence-region GPGPLJFG_184 1 2511
+##sequence-region GPGPLJFG_185 1 2632
+##sequence-region GPGPLJFG_186 1 4197
+##sequence-region GPGPLJFG_187 1 21763
+##sequence-region GPGPLJFG_188 1 6537
+##sequence-region GPGPLJFG_189 1 5476
+##sequence-region GPGPLJFG_190 1 8692
+##sequence-region GPGPLJFG_191 1 10433
+##sequence-region GPGPLJFG_192 1 20705
+##sequence-region GPGPLJFG_193 1 24145
+##sequence-region GPGPLJFG_194 1 6473
+##sequence-region GPGPLJFG_195 1 13295
+##sequence-region GPGPLJFG_196 1 3616
+##sequence-region GPGPLJFG_197 1 19386
+##sequence-region GPGPLJFG_198 1 6437
+##sequence-region GPGPLJFG_199 1 44769
+##sequence-region GPGPLJFG_200 1 8957
+##sequence-region GPGPLJFG_201 1 2696
+##sequence-region GPGPLJFG_202 1 4544
+##sequence-region GPGPLJFG_203 1 4456
+##sequence-region GPGPLJFG_204 1 6097
+##sequence-region GPGPLJFG_205 1 10762
+##sequence-region GPGPLJFG_206 1 3012
+##sequence-region GPGPLJFG_207 1 8182
+##sequence-region GPGPLJFG_208 1 33010
+##sequence-region GPGPLJFG_209 1 12590
+##sequence-region GPGPLJFG_210 1 4613
+##sequence-region GPGPLJFG_211 1 4083
+##sequence-region GPGPLJFG_212 1 10728
+##sequence-region GPGPLJFG_213 1 8458
+##sequence-region GPGPLJFG_214 1 4418
+##sequence-region GPGPLJFG_215 1 2689
+##sequence-region GPGPLJFG_216 1 9481
+##sequence-region GPGPLJFG_217 1 21611
+##sequence-region GPGPLJFG_218 1 4525
+##sequence-region GPGPLJFG_219 1 9427
+##sequence-region GPGPLJFG_220 1 3231
+##sequence-region GPGPLJFG_221 1 20660
+##sequence-region GPGPLJFG_222 1 7464
+##sequence-region GPGPLJFG_223 1 7783
+##sequence-region GPGPLJFG_224 1 5473
+##sequence-region GPGPLJFG_225 1 11938
+##sequence-region GPGPLJFG_226 1 12872
+##sequence-region GPGPLJFG_227 1 5566
+##sequence-region GPGPLJFG_228 1 13623
+##sequence-region GPGPLJFG_229 1 19631
+##sequence-region GPGPLJFG_230 1 4784
+##sequence-region GPGPLJFG_231 1 7692
+##sequence-region GPGPLJFG_232 1 6302
+##sequence-region GPGPLJFG_233 1 3940
+##sequence-region GPGPLJFG_234 1 2553
+##sequence-region GPGPLJFG_235 1 9739
+##sequence-region GPGPLJFG_236 1 5824
+##sequence-region GPGPLJFG_237 1 27091
+##sequence-region GPGPLJFG_238 1 2784
+##sequence-region GPGPLJFG_239 1 8556
+##sequence-region GPGPLJFG_240 1 7217
+##sequence-region GPGPLJFG_241 1 3219
+##sequence-region GPGPLJFG_242 1 7285
+##sequence-region GPGPLJFG_243 1 2999
+##sequence-region GPGPLJFG_244 1 7501
+##sequence-region GPGPLJFG_245 1 21407
+##sequence-region GPGPLJFG_246 1 3309
+##sequence-region GPGPLJFG_247 1 4641
+##sequence-region GPGPLJFG_248 1 10622
+##sequence-region GPGPLJFG_249 1 6472
+##sequence-region GPGPLJFG_250 1 3196
+##sequence-region GPGPLJFG_251 1 7220
+##sequence-region GPGPLJFG_252 1 15374
+##sequence-region GPGPLJFG_253 1 5032
+##sequence-region GPGPLJFG_254 1 2768
+##sequence-region GPGPLJFG_255 1 4860
+##sequence-region GPGPLJFG_256 1 4796
+##sequence-region GPGPLJFG_257 1 10465
+##sequence-region GPGPLJFG_258 1 8716
+##sequence-region GPGPLJFG_259 1 5204
+##sequence-region GPGPLJFG_260 1 6587
+##sequence-region GPGPLJFG_261 1 19196
+##sequence-region GPGPLJFG_262 1 5983
+##sequence-region GPGPLJFG_263 1 15773
+##sequence-region GPGPLJFG_264 1 2924
+##sequence-region GPGPLJFG_265 1 7696
+##sequence-region GPGPLJFG_266 1 6468
+##sequence-region GPGPLJFG_267 1 4765
+##sequence-region GPGPLJFG_268 1 6484
+##sequence-region GPGPLJFG_269 1 17723
+##sequence-region GPGPLJFG_270 1 4387
+##sequence-region GPGPLJFG_271 1 5392
+##sequence-region GPGPLJFG_272 1 3584
+##sequence-region GPGPLJFG_273 1 18122
+##sequence-region GPGPLJFG_274 1 24881
+##sequence-region GPGPLJFG_275 1 4430
+##sequence-region GPGPLJFG_276 1 2677
+##sequence-region GPGPLJFG_277 1 4326
+##sequence-region GPGPLJFG_278 1 5932
+##sequence-region GPGPLJFG_279 1 4634
+##sequence-region GPGPLJFG_280 1 16089
+##sequence-region GPGPLJFG_281 1 12218
+##sequence-region GPGPLJFG_282 1 5164
+##sequence-region GPGPLJFG_283 1 7044
+##sequence-region GPGPLJFG_284 1 7946
+##sequence-region GPGPLJFG_285 1 11313
+##sequence-region GPGPLJFG_286 1 3719
+##sequence-region GPGPLJFG_287 1 2740
+##sequence-region GPGPLJFG_288 1 41647
+##sequence-region GPGPLJFG_289 1 6381
+##sequence-region GPGPLJFG_290 1 37401
+##sequence-region GPGPLJFG_291 1 13348
+##sequence-region GPGPLJFG_292 1 20843
+##sequence-region GPGPLJFG_293 1 6079
+##sequence-region GPGPLJFG_294 1 5462
+##sequence-region GPGPLJFG_295 1 7864
+##sequence-region GPGPLJFG_296 1 3090
+##sequence-region GPGPLJFG_297 1 12541
+##sequence-region GPGPLJFG_298 1 16512
+##sequence-region GPGPLJFG_299 1 13653
+##sequence-region GPGPLJFG_300 1 6308
+##sequence-region GPGPLJFG_301 1 8972
+##sequence-region GPGPLJFG_302 1 7653
+##sequence-region GPGPLJFG_303 1 2751
+##sequence-region GPGPLJFG_304 1 11057
+##sequence-region GPGPLJFG_305 1 9353
+##sequence-region GPGPLJFG_306 1 2630
+##sequence-region GPGPLJFG_307 1 3303
+##sequence-region GPGPLJFG_308 1 23897
+##sequence-region GPGPLJFG_309 1 5620
+##sequence-region GPGPLJFG_310 1 4676
+##sequence-region GPGPLJFG_311 1 13432
+##sequence-region GPGPLJFG_312 1 10297
+##sequence-region GPGPLJFG_313 1 15318
+##sequence-region GPGPLJFG_314 1 6920
+##sequence-region GPGPLJFG_315 1 21955
+##sequence-region GPGPLJFG_316 1 3813
+##sequence-region GPGPLJFG_317 1 8830
+##sequence-region GPGPLJFG_318 1 3525
+##sequence-region GPGPLJFG_319 1 13450
+##sequence-region GPGPLJFG_320 1 4562
+##sequence-region GPGPLJFG_321 1 6750
+##sequence-region GPGPLJFG_322 1 10678
+GPGPLJFG_99	pseudofinder	gene	1	783	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 38.9%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_99_pseudo_00001;old_locus_tag=GPGPLJFG_00792
+GPGPLJFG_10	pseudofinder	gene	3	725	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 42.9%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_10_pseudo_00002;old_locus_tag=GPGPLJFG_00052
+GPGPLJFG_233	pseudofinder	gene	3	203	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 24.7%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_233_pseudo_00003;old_locus_tag=GPGPLJFG_01694
+GPGPLJFG_188	pseudofinder	gene	3	734	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 55.3%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_188_pseudo_00004;old_locus_tag=GPGPLJFG_01340
+GPGPLJFG_316	pseudofinder	gene	5	316	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 28.0%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_316_pseudo_00005;old_locus_tag=GPGPLJFG_02250
+GPGPLJFG_234	pseudofinder	gene	6	188	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 24.1%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_234_pseudo_00006;old_locus_tag=GPGPLJFG_01699
+GPGPLJFG_104	pseudofinder	gene	6	191	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 21.5%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_104_pseudo_00007;old_locus_tag=GPGPLJFG_00828
+GPGPLJFG_140	pseudofinder	gene	7	375	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 26.2%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_140_pseudo_00008;old_locus_tag=GPGPLJFG_01038
+GPGPLJFG_126	pseudofinder	gene	10	498	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 30.7%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_126_pseudo_00009;old_locus_tag=GPGPLJFG_00956
+GPGPLJFG_108	pseudofinder	gene	10	132	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 7.8%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_108_pseudo_00010;old_locus_tag=GPGPLJFG_00850
+GPGPLJFG_265	pseudofinder	gene	11	280	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 28.8%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_265_pseudo_00011;old_locus_tag=GPGPLJFG_01883
+GPGPLJFG_103	pseudofinder	gene	13	801	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 35.2%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_103_pseudo_00012;old_locus_tag=GPGPLJFG_00814
+GPGPLJFG_143	pseudofinder	gene	17	247	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 55.5%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_143_pseudo_00013;old_locus_tag=GPGPLJFG_01089
+GPGPLJFG_125	pseudofinder	gene	19	195	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 27.1%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_125_pseudo_00014;old_locus_tag=GPGPLJFG_00948
+GPGPLJFG_88	pseudofinder	gene	21	356	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 40.1%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_88_pseudo_00015;old_locus_tag=GPGPLJFG_00714
+GPGPLJFG_304	pseudofinder	gene	27	209	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 15.8%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_304_pseudo_00016;old_locus_tag=GPGPLJFG_02169
+GPGPLJFG_220	pseudofinder	gene	29	412	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 45.6%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_220_pseudo_00017;old_locus_tag=GPGPLJFG_01598
+GPGPLJFG_146	pseudofinder	gene	30	740	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 50.3%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_146_pseudo_00018;old_locus_tag=GPGPLJFG_01111
+GPGPLJFG_248	pseudofinder	gene	31	1161	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 60.9%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_248_pseudo_00019;old_locus_tag=GPGPLJFG_01782
+GPGPLJFG_64	pseudofinder	gene	34	912	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 55.2%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_64_pseudo_00020;old_locus_tag=GPGPLJFG_00472
+GPGPLJFG_59	pseudofinder	gene	35	1066	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 39.0%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_59_pseudo_00021;old_locus_tag=GPGPLJFG_00455
+GPGPLJFG_58	pseudofinder	gene	35	271	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 33.8%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_58_pseudo_00022;old_locus_tag=GPGPLJFG_00433
+GPGPLJFG_319	pseudofinder	gene	36	272	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 31.0%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_319_pseudo_00023;old_locus_tag=GPGPLJFG_02265
+GPGPLJFG_274	pseudofinder	gene	36	788	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 58.6%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_274_pseudo_00024;old_locus_tag=GPGPLJFG_01938
+GPGPLJFG_123	pseudofinder	gene	55	381	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 54.8%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_123_pseudo_00025;old_locus_tag=GPGPLJFG_00937
+GPGPLJFG_135	pseudofinder	gene	57	209	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 24.5%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_135_pseudo_00026;old_locus_tag=GPGPLJFG_01022
+GPGPLJFG_25	pseudofinder	gene	65	337	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 63.8%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_25_pseudo_00027;old_locus_tag=GPGPLJFG_00178
+GPGPLJFG_31	pseudofinder	gene	67	1518	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 60.4%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_31_pseudo_00028;old_locus_tag=GPGPLJFG_00224
+GPGPLJFG_272	pseudofinder	gene	76	426	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 27.8%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_272_pseudo_00029;old_locus_tag=GPGPLJFG_01923
+GPGPLJFG_144	pseudofinder	gene	79	282	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 23.2%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_144_pseudo_00030;old_locus_tag=GPGPLJFG_01094
+GPGPLJFG_2	pseudofinder	gene	81	581	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 22.4%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_2_pseudo_00031;old_locus_tag=GPGPLJFG_00002
+GPGPLJFG_209	pseudofinder	gene	84	1037	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=GPGPLJFG_209_pseudo_00032;old_locus_tag=GPGPLJFG_209_ign_00001,GPGPLJFG_01530,GPGPLJFG_01531
+GPGPLJFG_281	pseudofinder	gene	87	413	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 30.6%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_281_pseudo_00033;old_locus_tag=GPGPLJFG_01981
+GPGPLJFG_299	pseudofinder	gene	94	483	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 24.1%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_299_pseudo_00034;old_locus_tag=GPGPLJFG_02142
+GPGPLJFG_114	pseudofinder	gene	99	437	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 43.5%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_114_pseudo_00035;old_locus_tag=GPGPLJFG_00875
+GPGPLJFG_179	pseudofinder	gene	107	673	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 54.3%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_179_pseudo_00036;old_locus_tag=GPGPLJFG_01291
+GPGPLJFG_15	pseudofinder	gene	116	559	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 39.9%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_15_pseudo_00037;old_locus_tag=GPGPLJFG_00093
+GPGPLJFG_92	pseudofinder	gene	125	436	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 142.1%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_92_pseudo_00038;old_locus_tag=GPGPLJFG_00742
+GPGPLJFG_121	pseudofinder	gene	143	265	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 9.9%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_121_pseudo_00039;old_locus_tag=GPGPLJFG_00928
+GPGPLJFG_90	pseudofinder	gene	162	455	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 25.4%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_90_pseudo_00040;old_locus_tag=GPGPLJFG_00731
+GPGPLJFG_154	pseudofinder	gene	162	389	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 51.7%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_154_pseudo_00041;old_locus_tag=GPGPLJFG_01165
+GPGPLJFG_181	pseudofinder	gene	187	351	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 11.2%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_181_pseudo_00042;old_locus_tag=GPGPLJFG_01297
+GPGPLJFG_275	pseudofinder	gene	193	404	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_275_pseudo_00043;old_locus_tag=GPGPLJFG_275_ign_00001
+GPGPLJFG_168	pseudofinder	gene	204	1997	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=GPGPLJFG_168_pseudo_00044;old_locus_tag=GPGPLJFG_01243,GPGPLJFG_01242,GPGPLJFG_168_ign_00002
+GPGPLJFG_261	pseudofinder	gene	230	409	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 45.6%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_261_pseudo_00045;old_locus_tag=GPGPLJFG_01854
+GPGPLJFG_176	pseudofinder	gene	256	792	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 52.9%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_176_pseudo_00046;old_locus_tag=GPGPLJFG_01278
+GPGPLJFG_58	pseudofinder	gene	276	445	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_58_pseudo_00047;old_locus_tag=GPGPLJFG_58_ign_00001
+GPGPLJFG_227	pseudofinder	gene	277	696	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 41.6%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_227_pseudo_00048;old_locus_tag=GPGPLJFG_01649
+GPGPLJFG_9	pseudofinder	gene	279	547	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_9_pseudo_00049;old_locus_tag=GPGPLJFG_9_ign_00001
+GPGPLJFG_157	pseudofinder	gene	281	493	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 19.6%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_157_pseudo_00050;old_locus_tag=GPGPLJFG_01181
+GPGPLJFG_98	pseudofinder	gene	301	579	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 23.1%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_98_pseudo_00051;old_locus_tag=GPGPLJFG_00787
+GPGPLJFG_233	pseudofinder	gene	310	537	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 37.3%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_233_pseudo_00052;old_locus_tag=GPGPLJFG_01695
+GPGPLJFG_293	pseudofinder	gene	314	1035	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_293_pseudo_00053;old_locus_tag=GPGPLJFG_293_ign_00001
+GPGPLJFG_302	pseudofinder	gene	321	410	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 7.0%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_302_pseudo_00054;old_locus_tag=GPGPLJFG_02160
+GPGPLJFG_76	pseudofinder	gene	327	548	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 10.6%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_76_pseudo_00055;old_locus_tag=GPGPLJFG_00553
+GPGPLJFG_151	pseudofinder	gene	346	528	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 8.9%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_151_pseudo_00056;old_locus_tag=GPGPLJFG_01139
+GPGPLJFG_118	pseudofinder	gene	353	480	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_118_pseudo_00057;old_locus_tag=GPGPLJFG_118_ign_00001
+GPGPLJFG_181	pseudofinder	gene	362	685	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 22.5%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_181_pseudo_00058;old_locus_tag=GPGPLJFG_01298
+GPGPLJFG_261	pseudofinder	gene	412	1094	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_261_pseudo_00059;old_locus_tag=GPGPLJFG_261_ign_00001
+GPGPLJFG_281	pseudofinder	gene	414	655	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_281_pseudo_00060;old_locus_tag=GPGPLJFG_281_ign_00001
+GPGPLJFG_184	pseudofinder	gene	429	764	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 35.9%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_184_pseudo_00061;old_locus_tag=GPGPLJFG_01320
+GPGPLJFG_90	pseudofinder	gene	457	611	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_90_pseudo_00062;old_locus_tag=GPGPLJFG_90_ign_00001
+GPGPLJFG_302	pseudofinder	gene	465	620	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 12.1%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_302_pseudo_00063;old_locus_tag=GPGPLJFG_02161
+GPGPLJFG_256	pseudofinder	gene	489	773	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 24.2%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_256_pseudo_00064;old_locus_tag=GPGPLJFG_01821
+GPGPLJFG_76	pseudofinder	gene	556	1179	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 31.4%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_76_pseudo_00065;old_locus_tag=GPGPLJFG_00554
+GPGPLJFG_128	pseudofinder	gene	561	872	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=GPGPLJFG_128_pseudo_00066;old_locus_tag=GPGPLJFG_00979,GPGPLJFG_128_ign_00001
+GPGPLJFG_233	pseudofinder	gene	574	891	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 50.4%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_233_pseudo_00067;old_locus_tag=GPGPLJFG_01696
+GPGPLJFG_90	pseudofinder	gene	613	879	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 23.4%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_90_pseudo_00068;old_locus_tag=GPGPLJFG_00732
+GPGPLJFG_271	pseudofinder	gene	642	733	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=GPGPLJFG_271_pseudo_00069;old_locus_tag=GPGPLJFG_271_ign_00001
+GPGPLJFG_281	pseudofinder	gene	657	1214	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 49.6%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_281_pseudo_00070;old_locus_tag=GPGPLJFG_01982
+GPGPLJFG_9	pseudofinder	gene	696	803	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 7.4%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_9_pseudo_00071;old_locus_tag=GPGPLJFG_00041
+GPGPLJFG_237	pseudofinder	gene	727	2063	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_237_pseudo_00072;old_locus_tag=GPGPLJFG_237_ign_00001
+GPGPLJFG_143	pseudofinder	gene	802	1050	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 45.2%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_143_pseudo_00073;old_locus_tag=GPGPLJFG_01091
+GPGPLJFG_103	pseudofinder	gene	804	856	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 11 blast hits.;locus_tag=GPGPLJFG_103_pseudo_00074;old_locus_tag=GPGPLJFG_103_ign_00001
+GPGPLJFG_180	pseudofinder	gene	825	949	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_180_pseudo_00075;old_locus_tag=GPGPLJFG_180_ign_00001
+GPGPLJFG_5	pseudofinder	gene	853	1718	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=GPGPLJFG_5_pseudo_00076;old_locus_tag=GPGPLJFG_5_ign_00001,GPGPLJFG_5_ign_00002,GPGPLJFG_00024
+GPGPLJFG_103	pseudofinder	gene	858	1355	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 22.4%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_103_pseudo_00077;old_locus_tag=GPGPLJFG_00815
+GPGPLJFG_84	pseudofinder	gene	862	993	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 34.2%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_84_pseudo_00078;old_locus_tag=GPGPLJFG_00663
+GPGPLJFG_112	pseudofinder	gene	867	2038	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=GPGPLJFG_112_pseudo_00079;old_locus_tag=GPGPLJFG_112_ign_00001,GPGPLJFG_00866
+GPGPLJFG_17	pseudofinder	gene	909	1545	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=GPGPLJFG_17_pseudo_00080;old_locus_tag=GPGPLJFG_00107,GPGPLJFG_00106
+GPGPLJFG_184	pseudofinder	gene	917	1296	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_184_pseudo_00081;old_locus_tag=GPGPLJFG_184_ign_00001
+GPGPLJFG_126	pseudofinder	gene	921	1308	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_126_pseudo_00082;old_locus_tag=GPGPLJFG_126_ign_00001
+GPGPLJFG_302	pseudofinder	gene	938	1056	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_302_pseudo_00083;old_locus_tag=GPGPLJFG_302_ign_00002
+GPGPLJFG_256	pseudofinder	gene	945	1154	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 18.1%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_256_pseudo_00084;old_locus_tag=GPGPLJFG_01822
+GPGPLJFG_19	pseudofinder	gene	949	1104	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 13.2%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_19_pseudo_00085;old_locus_tag=GPGPLJFG_00127
+GPGPLJFG_195	pseudofinder	gene	961	1221	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 189.1%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_195_pseudo_00086;old_locus_tag=GPGPLJFG_01401
+GPGPLJFG_84	pseudofinder	gene	996	1243	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_84_pseudo_00087;old_locus_tag=GPGPLJFG_84_ign_00001
+GPGPLJFG_263	pseudofinder	gene	1006	1775	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=GPGPLJFG_263_pseudo_00088;old_locus_tag=GPGPLJFG_263_ign_00002,GPGPLJFG_01874
+GPGPLJFG_205	pseudofinder	gene	1010	2002	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=GPGPLJFG_205_pseudo_00089;old_locus_tag=GPGPLJFG_01495,GPGPLJFG_01496,GPGPLJFG_01494
+GPGPLJFG_209	pseudofinder	gene	1038	1210	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_209_pseudo_00090;old_locus_tag=GPGPLJFG_209_ign_00002
+GPGPLJFG_293	pseudofinder	gene	1038	1307	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 136.1%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_293_pseudo_00091;old_locus_tag=GPGPLJFG_02108
+GPGPLJFG_137	pseudofinder	gene	1045	1314	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 28.1%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_137_pseudo_00092;old_locus_tag=GPGPLJFG_01029
+GPGPLJFG_19	pseudofinder	gene	1049	1240	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 16.3%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_19_pseudo_00093;old_locus_tag=GPGPLJFG_00128
+GPGPLJFG_158	pseudofinder	gene	1078	1299	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 36.6%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_158_pseudo_00094;old_locus_tag=GPGPLJFG_01189
+GPGPLJFG_318	pseudofinder	gene	1172	1845	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=GPGPLJFG_318_pseudo_00095;old_locus_tag=GPGPLJFG_02263,GPGPLJFG_318_ign_00001,GPGPLJFG_02262
+GPGPLJFG_76	pseudofinder	gene	1180	1418	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_76_pseudo_00096;old_locus_tag=GPGPLJFG_76_ign_00001
+GPGPLJFG_209	pseudofinder	gene	1212	1517	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 21.5%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_209_pseudo_00097;old_locus_tag=GPGPLJFG_01532
+GPGPLJFG_195	pseudofinder	gene	1225	1442	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_195_pseudo_00098;old_locus_tag=GPGPLJFG_195_ign_00001
+GPGPLJFG_145	pseudofinder	gene	1241	1630	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 34.5%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_145_pseudo_00099;old_locus_tag=GPGPLJFG_01104
+GPGPLJFG_19	pseudofinder	gene	1242	1519	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_19_pseudo_00100;old_locus_tag=GPGPLJFG_19_ign_00001
+GPGPLJFG_225	pseudofinder	gene	1258	1547	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_225_pseudo_00101;old_locus_tag=GPGPLJFG_225_ign_00001
+GPGPLJFG_95	pseudofinder	gene	1296	1610	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 28.1%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_95_pseudo_00102;old_locus_tag=GPGPLJFG_00759
+GPGPLJFG_293	pseudofinder	gene	1310	1722	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_293_pseudo_00103;old_locus_tag=GPGPLJFG_293_ign_00002
+GPGPLJFG_269	pseudofinder	gene	1330	1487	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_269_pseudo_00104;old_locus_tag=GPGPLJFG_269_ign_00001
+GPGPLJFG_126	pseudofinder	gene	1342	1554	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 35.3%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_126_pseudo_00105;old_locus_tag=GPGPLJFG_00957
+GPGPLJFG_133	pseudofinder	gene	1363	1560	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 31.2%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_133_pseudo_00106;old_locus_tag=GPGPLJFG_01006
+GPGPLJFG_137	pseudofinder	gene	1374	1648	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_137_pseudo_00107;old_locus_tag=GPGPLJFG_137_ign_00002
+GPGPLJFG_103	pseudofinder	gene	1397	1519	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 5.3%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_103_pseudo_00108;old_locus_tag=GPGPLJFG_00816
+GPGPLJFG_74	pseudofinder	gene	1416	1640	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 14.2%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_74_pseudo_00109;old_locus_tag=GPGPLJFG_00539
+GPGPLJFG_161	pseudofinder	gene	1441	1547	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_161_pseudo_00110;old_locus_tag=GPGPLJFG_161_ign_00001
+GPGPLJFG_148	pseudofinder	gene	1464	1720	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_148_pseudo_00111;old_locus_tag=GPGPLJFG_148_ign_00001
+GPGPLJFG_269	pseudofinder	gene	1489	1959	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 34.3%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_269_pseudo_00112;old_locus_tag=GPGPLJFG_01899
+GPGPLJFG_314	pseudofinder	gene	1543	1715	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 14 blast hits.;locus_tag=GPGPLJFG_314_pseudo_00113;old_locus_tag=GPGPLJFG_314_ign_00001
+GPGPLJFG_64	pseudofinder	gene	1546	1748	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=GPGPLJFG_64_pseudo_00114;old_locus_tag=GPGPLJFG_64_ign_00001
+GPGPLJFG_161	pseudofinder	gene	1551	2153	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=GPGPLJFG_161_pseudo_00115;old_locus_tag=GPGPLJFG_161_ign_00002,GPGPLJFG_01205,GPGPLJFG_01204
+GPGPLJFG_255	pseudofinder	gene	1562	1719	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=GPGPLJFG_255_pseudo_00116;old_locus_tag=GPGPLJFG_255_ign_00001
+GPGPLJFG_133	pseudofinder	gene	1613	1831	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 34.2%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_133_pseudo_00117;old_locus_tag=GPGPLJFG_01007
+GPGPLJFG_195	pseudofinder	gene	1670	2101	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 32.2%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_195_pseudo_00118;old_locus_tag=GPGPLJFG_01402
+GPGPLJFG_293	pseudofinder	gene	1725	1865	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 41.9%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_293_pseudo_00119;old_locus_tag=GPGPLJFG_02109
+GPGPLJFG_80	pseudofinder	gene	1750	1880	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_80_pseudo_00120;old_locus_tag=GPGPLJFG_80_ign_00001
+GPGPLJFG_312	pseudofinder	gene	1752	1948	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_312_pseudo_00121;old_locus_tag=GPGPLJFG_312_ign_00001
+GPGPLJFG_5	pseudofinder	gene	1837	2480	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_5_pseudo_00122;old_locus_tag=GPGPLJFG_5_ign_00003
+GPGPLJFG_95	pseudofinder	gene	1865	2325	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 12 blast hits.;locus_tag=GPGPLJFG_95_pseudo_00123;old_locus_tag=GPGPLJFG_95_ign_00002
+GPGPLJFG_293	pseudofinder	gene	1868	2058	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_293_pseudo_00124;old_locus_tag=GPGPLJFG_293_ign_00003
+GPGPLJFG_174	pseudofinder	gene	1892	2152	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 26.8%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_174_pseudo_00125;old_locus_tag=GPGPLJFG_01264
+GPGPLJFG_269	pseudofinder	gene	1904	2092	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 12.8%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_269_pseudo_00126;old_locus_tag=GPGPLJFG_01900
+GPGPLJFG_312	pseudofinder	gene	1950	2096	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 19.9%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_312_pseudo_00127;old_locus_tag=GPGPLJFG_02215
+GPGPLJFG_168	pseudofinder	gene	2020	2508	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 22.2%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_168_pseudo_00128;old_locus_tag=GPGPLJFG_01244
+GPGPLJFG_112	pseudofinder	gene	2058	2414	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 23.0%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_112_pseudo_00129;old_locus_tag=GPGPLJFG_00867
+GPGPLJFG_145	pseudofinder	gene	2145	2299	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_145_pseudo_00130;old_locus_tag=GPGPLJFG_145_ign_00002
+GPGPLJFG_161	pseudofinder	gene	2155	2568	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 13.6%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_161_pseudo_00131;old_locus_tag=GPGPLJFG_01206
+GPGPLJFG_15	pseudofinder	gene	2155	2547	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 20.0%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_15_pseudo_00132;old_locus_tag=GPGPLJFG_00096
+GPGPLJFG_231	pseudofinder	gene	2157	2465	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 33.9%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_231_pseudo_00133;old_locus_tag=GPGPLJFG_01685
+GPGPLJFG_174	pseudofinder	gene	2160	2230	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_174_pseudo_00134;old_locus_tag=GPGPLJFG_174_ign_00002
+GPGPLJFG_204	pseudofinder	gene	2173	2282	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_204_pseudo_00135;old_locus_tag=GPGPLJFG_204_ign_00002
+GPGPLJFG_138	pseudofinder	gene	2181	2618	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 21.4%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_138_pseudo_00136;old_locus_tag=GPGPLJFG_01033
+GPGPLJFG_237	pseudofinder	gene	2210	2473	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 6.8%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_237_pseudo_00137;old_locus_tag=GPGPLJFG_01715
+GPGPLJFG_174	pseudofinder	gene	2232	2615	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 39.6%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_174_pseudo_00138;old_locus_tag=GPGPLJFG_01265
+GPGPLJFG_120	pseudofinder	gene	2265	2492	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 59.1%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_120_pseudo_00139;old_locus_tag=GPGPLJFG_00917
+GPGPLJFG_21	pseudofinder	gene	2295	3053	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 59.2%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_21_pseudo_00140;old_locus_tag=GPGPLJFG_00146
+GPGPLJFG_145	pseudofinder	gene	2306	2584	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 38.5%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_145_pseudo_00141;old_locus_tag=GPGPLJFG_01105
+GPGPLJFG_276	pseudofinder	gene	2325	2639	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 30.6%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_276_pseudo_00142;old_locus_tag=GPGPLJFG_01959
+GPGPLJFG_95	pseudofinder	gene	2348	2665	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 17.1%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_95_pseudo_00143;old_locus_tag=GPGPLJFG_00760
+GPGPLJFG_256	pseudofinder	gene	2359	2559	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 24.6%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_256_pseudo_00144;old_locus_tag=GPGPLJFG_01823
+GPGPLJFG_196	pseudofinder	gene	2369	2499	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_196_pseudo_00145;old_locus_tag=GPGPLJFG_196_ign_00002
+GPGPLJFG_62	pseudofinder	gene	2396	3382	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 49.2%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_62_pseudo_00146;old_locus_tag=GPGPLJFG_00469
+GPGPLJFG_4	pseudofinder	gene	2431	2711	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_4_pseudo_00147;old_locus_tag=GPGPLJFG_4_ign_00001
+GPGPLJFG_56	pseudofinder	gene	2454	2638	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_56_pseudo_00148;old_locus_tag=GPGPLJFG_56_ign_00003
+GPGPLJFG_2	pseudofinder	gene	2508	3011	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 38.0%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_2_pseudo_00149;old_locus_tag=GPGPLJFG_00003
+GPGPLJFG_112	pseudofinder	gene	2516	2788	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 25.6%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_112_pseudo_00150;old_locus_tag=GPGPLJFG_00868
+GPGPLJFG_256	pseudofinder	gene	2534	2746	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 26.6%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_256_pseudo_00151;old_locus_tag=GPGPLJFG_01824
+GPGPLJFG_31	pseudofinder	gene	2536	2718	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 25.9%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_31_pseudo_00152;old_locus_tag=GPGPLJFG_00225
+GPGPLJFG_89	pseudofinder	gene	2540	2980	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 38.6%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_89_pseudo_00153;old_locus_tag=GPGPLJFG_00730
+GPGPLJFG_282	pseudofinder	gene	2605	3037	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_282_pseudo_00154;old_locus_tag=GPGPLJFG_282_ign_00002
+GPGPLJFG_254	pseudofinder	gene	2612	2758	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 19.3%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_254_pseudo_00155;old_locus_tag=GPGPLJFG_01817
+GPGPLJFG_156	pseudofinder	gene	2628	3130	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=GPGPLJFG_156_pseudo_00156;old_locus_tag=GPGPLJFG_156_ign_00002,GPGPLJFG_156_ign_00001,GPGPLJFG_01178
+GPGPLJFG_202	pseudofinder	gene	2636	3723	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_202_pseudo_00157;old_locus_tag=GPGPLJFG_202_ign_00002
+GPGPLJFG_155	pseudofinder	gene	2658	3134	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 26.9%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_155_pseudo_00158;old_locus_tag=GPGPLJFG_01174
+GPGPLJFG_158	pseudofinder	gene	2677	3008	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_158_pseudo_00159;old_locus_tag=GPGPLJFG_158_ign_00004
+GPGPLJFG_261	pseudofinder	gene	2709	2947	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_261_pseudo_00160;old_locus_tag=GPGPLJFG_261_ign_00003
+GPGPLJFG_31	pseudofinder	gene	2719	2879	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_31_pseudo_00161;old_locus_tag=GPGPLJFG_31_ign_00002
+GPGPLJFG_269	pseudofinder	gene	2755	3757	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=GPGPLJFG_269_pseudo_00162;old_locus_tag=GPGPLJFG_01901,GPGPLJFG_01903
+GPGPLJFG_211	pseudofinder	gene	2777	2895	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_211_pseudo_00163;old_locus_tag=GPGPLJFG_211_ign_00003
+GPGPLJFG_249	pseudofinder	gene	2799	3103	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_249_pseudo_00164;old_locus_tag=GPGPLJFG_249_ign_00001
+GPGPLJFG_111	pseudofinder	gene	2801	2988	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_111_pseudo_00165;old_locus_tag=GPGPLJFG_111_ign_00003
+GPGPLJFG_231	pseudofinder	gene	2819	3046	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 24.9%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_231_pseudo_00166;old_locus_tag=GPGPLJFG_01686
+GPGPLJFG_85	pseudofinder	gene	2824	3201	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 28.8%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_85_pseudo_00167;old_locus_tag=GPGPLJFG_00684
+GPGPLJFG_248	pseudofinder	gene	2832	2968	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=GPGPLJFG_248_pseudo_00168;old_locus_tag=GPGPLJFG_248_ign_00001
+GPGPLJFG_65	pseudofinder	gene	2842	3066	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 40.4%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_65_pseudo_00169;old_locus_tag=GPGPLJFG_00482
+GPGPLJFG_127	pseudofinder	gene	2852	3060	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=GPGPLJFG_127_pseudo_00170;old_locus_tag=GPGPLJFG_127_ign_00001
+GPGPLJFG_95	pseudofinder	gene	2873	3009	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 10 blast hits.;locus_tag=GPGPLJFG_95_pseudo_00171;old_locus_tag=GPGPLJFG_95_ign_00003
+GPGPLJFG_31	pseudofinder	gene	2886	3389	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 60.2%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_31_pseudo_00172;old_locus_tag=GPGPLJFG_00226
+GPGPLJFG_211	pseudofinder	gene	2898	3173	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 27.2%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_211_pseudo_00173;old_locus_tag=GPGPLJFG_01546
+GPGPLJFG_219	pseudofinder	gene	2937	3136	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=GPGPLJFG_219_pseudo_00174;old_locus_tag=GPGPLJFG_219_ign_00002
+GPGPLJFG_269	pseudofinder	gene	2953	3597	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=GPGPLJFG_269_pseudo_00175;old_locus_tag=GPGPLJFG_269_ign_00003,GPGPLJFG_01902,GPGPLJFG_269_ign_00004
+GPGPLJFG_191	pseudofinder	gene	2972	3226	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 22.8%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_191_pseudo_00176;old_locus_tag=GPGPLJFG_01356
+GPGPLJFG_111	pseudofinder	gene	2992	3468	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 178.7%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_111_pseudo_00177;old_locus_tag=GPGPLJFG_00865
+GPGPLJFG_143	pseudofinder	gene	2995	4638	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 58.9%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_143_pseudo_00178;old_locus_tag=GPGPLJFG_01093
+GPGPLJFG_16	pseudofinder	gene	3000	3182	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 30.0%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_16_pseudo_00179;old_locus_tag=GPGPLJFG_00100
+GPGPLJFG_158	pseudofinder	gene	3010	3285	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 19.9%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_158_pseudo_00180;old_locus_tag=GPGPLJFG_01192
+GPGPLJFG_2	pseudofinder	gene	3032	3433	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 30.3%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_2_pseudo_00181;old_locus_tag=GPGPLJFG_00004
+GPGPLJFG_37	pseudofinder	gene	3161	3408	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_37_pseudo_00182;old_locus_tag=GPGPLJFG_37_ign_00002
+GPGPLJFG_94	pseudofinder	gene	3167	3342	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_94_pseudo_00183;old_locus_tag=GPGPLJFG_94_ign_00002
+GPGPLJFG_211	pseudofinder	gene	3174	3265	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_211_pseudo_00184;old_locus_tag=GPGPLJFG_211_ign_00004
+GPGPLJFG_314	pseudofinder	gene	3174	3602	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 201.0%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_314_pseudo_00185;old_locus_tag=GPGPLJFG_02230
+GPGPLJFG_249	pseudofinder	gene	3184	3294	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 21.4%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_249_pseudo_00186;old_locus_tag=GPGPLJFG_01791
+GPGPLJFG_85	pseudofinder	gene	3204	3478	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_85_pseudo_00187;old_locus_tag=GPGPLJFG_85_ign_00004
+GPGPLJFG_101	pseudofinder	gene	3211	3867	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 56.6%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_101_pseudo_00188;old_locus_tag=GPGPLJFG_00803
+GPGPLJFG_191	pseudofinder	gene	3229	3530	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_191_pseudo_00189;old_locus_tag=GPGPLJFG_191_ign_00002
+GPGPLJFG_136	pseudofinder	gene	3247	3365	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_136_pseudo_00190;old_locus_tag=GPGPLJFG_136_ign_00001
+GPGPLJFG_16	pseudofinder	gene	3260	3541	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 46.1%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_16_pseudo_00191;old_locus_tag=GPGPLJFG_00101
+GPGPLJFG_211	pseudofinder	gene	3267	3788	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 52.3%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_211_pseudo_00192;old_locus_tag=GPGPLJFG_01547
+GPGPLJFG_133	pseudofinder	gene	3293	3706	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=GPGPLJFG_133_pseudo_00193;old_locus_tag=GPGPLJFG_133_ign_00007,GPGPLJFG_01012,GPGPLJFG_01011
+GPGPLJFG_164	pseudofinder	gene	3336	3803	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 45.6%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_164_pseudo_00194;old_locus_tag=GPGPLJFG_01222
+GPGPLJFG_94	pseudofinder	gene	3345	3587	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 48.6%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_94_pseudo_00195;old_locus_tag=GPGPLJFG_00756
+GPGPLJFG_189	pseudofinder	gene	3347	3948	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_189_pseudo_00196;old_locus_tag=GPGPLJFG_189_ign_00002
+GPGPLJFG_135	pseudofinder	gene	3373	3612	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 27.1%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_135_pseudo_00197;old_locus_tag=GPGPLJFG_01025
+GPGPLJFG_37	pseudofinder	gene	3410	3625	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 17.3%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_37_pseudo_00198;old_locus_tag=GPGPLJFG_00257
+GPGPLJFG_106	pseudofinder	gene	3437	3633	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_106_pseudo_00199;old_locus_tag=GPGPLJFG_106_ign_00001
+GPGPLJFG_286	pseudofinder	gene	3482	3700	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 55.8%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_286_pseudo_00200;old_locus_tag=GPGPLJFG_02021
+GPGPLJFG_110	pseudofinder	gene	3531	3679	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_110_pseudo_00201;old_locus_tag=GPGPLJFG_110_ign_00002
+GPGPLJFG_191	pseudofinder	gene	3534	3887	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 30.9%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_191_pseudo_00202;old_locus_tag=GPGPLJFG_01357
+GPGPLJFG_16	pseudofinder	gene	3541	3636	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 15.5%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_16_pseudo_00203;old_locus_tag=GPGPLJFG_00102
+GPGPLJFG_150	pseudofinder	gene	3555	3773	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 19.8%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_150_pseudo_00204;old_locus_tag=GPGPLJFG_01138
+GPGPLJFG_48	pseudofinder	gene	3567	3643	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_48_pseudo_00205;old_locus_tag=GPGPLJFG_48_ign_00001
+GPGPLJFG_102	pseudofinder	gene	3595	3743	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_102_pseudo_00206;old_locus_tag=GPGPLJFG_102_ign_00004
+GPGPLJFG_167	pseudofinder	gene	3616	4637	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_167_pseudo_00207;old_locus_tag=GPGPLJFG_167_ign_00002
+GPGPLJFG_37	pseudofinder	gene	3626	3705	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_37_pseudo_00208;old_locus_tag=GPGPLJFG_37_ign_00003
+GPGPLJFG_83	pseudofinder	gene	3633	3760	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_83_pseudo_00209;old_locus_tag=GPGPLJFG_83_ign_00001
+GPGPLJFG_48	pseudofinder	gene	3645	4067	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 51.5%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_48_pseudo_00210;old_locus_tag=GPGPLJFG_00335
+GPGPLJFG_19	pseudofinder	gene	3648	3778	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_19_pseudo_00211;old_locus_tag=GPGPLJFG_19_ign_00002
+GPGPLJFG_2	pseudofinder	gene	3658	3783	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 9.8%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_2_pseudo_00212;old_locus_tag=GPGPLJFG_00006
+GPGPLJFG_110	pseudofinder	gene	3683	3904	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 55.2%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_110_pseudo_00213;old_locus_tag=GPGPLJFG_00861
+GPGPLJFG_37	pseudofinder	gene	3707	3865	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 13.1%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_37_pseudo_00214;old_locus_tag=GPGPLJFG_00258
+GPGPLJFG_133	pseudofinder	gene	3708	4225	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_133_pseudo_00215;old_locus_tag=GPGPLJFG_133_ign_00008
+GPGPLJFG_102	pseudofinder	gene	3747	4001	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 55.8%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_102_pseudo_00216;old_locus_tag=GPGPLJFG_00808
+GPGPLJFG_256	pseudofinder	gene	3757	4400	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_256_pseudo_00217;old_locus_tag=GPGPLJFG_256_ign_00004
+GPGPLJFG_83	pseudofinder	gene	3762	3998	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 24.0%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_83_pseudo_00218;old_locus_tag=GPGPLJFG_00655
+GPGPLJFG_19	pseudofinder	gene	3780	3908	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 30.5%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_19_pseudo_00219;old_locus_tag=GPGPLJFG_00130
+GPGPLJFG_170	pseudofinder	gene	3826	4080	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 59.9%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_170_pseudo_00220;old_locus_tag=GPGPLJFG_01250
+GPGPLJFG_247	pseudofinder	gene	3870	4499	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 56.9%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_247_pseudo_00221;old_locus_tag=GPGPLJFG_01781
+GPGPLJFG_191	pseudofinder	gene	3909	4061	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 13.4%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_191_pseudo_00222;old_locus_tag=GPGPLJFG_01358
+GPGPLJFG_257	pseudofinder	gene	4002	4247	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 52.7%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_257_pseudo_00223;old_locus_tag=GPGPLJFG_01830
+GPGPLJFG_259	pseudofinder	gene	4024	4859	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_259_pseudo_00224;old_locus_tag=GPGPLJFG_259_ign_00003
+GPGPLJFG_237	pseudofinder	gene	4032	4600	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_237_pseudo_00225;old_locus_tag=GPGPLJFG_237_ign_00005
+GPGPLJFG_252	pseudofinder	gene	4042	4173	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 54.2%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_252_pseudo_00226;old_locus_tag=GPGPLJFG_01803
+GPGPLJFG_202	pseudofinder	gene	4052	4146	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_202_pseudo_00227;old_locus_tag=GPGPLJFG_202_ign_00003
+GPGPLJFG_170	pseudofinder	gene	4065	4196	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 33.5%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_170_pseudo_00228;old_locus_tag=GPGPLJFG_01251
+GPGPLJFG_83	pseudofinder	gene	4065	4196	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 13.0%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_83_pseudo_00229;old_locus_tag=GPGPLJFG_00656
+GPGPLJFG_48	pseudofinder	gene	4089	4379	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 30.9%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_48_pseudo_00230;old_locus_tag=GPGPLJFG_00336
+GPGPLJFG_69	pseudofinder	gene	4127	4233	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=GPGPLJFG_69_pseudo_00231;old_locus_tag=GPGPLJFG_69_ign_00001
+GPGPLJFG_191	pseudofinder	gene	4176	4483	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_191_pseudo_00232;old_locus_tag=GPGPLJFG_191_ign_00003
+GPGPLJFG_83	pseudofinder	gene	4200	4348	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_83_pseudo_00233;old_locus_tag=GPGPLJFG_83_ign_00003
+GPGPLJFG_133	pseudofinder	gene	4227	4487	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 21.2%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_133_pseudo_00234;old_locus_tag=GPGPLJFG_01013
+GPGPLJFG_257	pseudofinder	gene	4317	4417	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=GPGPLJFG_257_pseudo_00235;old_locus_tag=GPGPLJFG_257_ign_00003
+GPGPLJFG_217	pseudofinder	gene	4385	4470	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 10 blast hits.;locus_tag=GPGPLJFG_217_pseudo_00236;old_locus_tag=GPGPLJFG_217_ign_00004
+GPGPLJFG_256	pseudofinder	gene	4402	4629	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 26.7%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_256_pseudo_00237;old_locus_tag=GPGPLJFG_01826
+GPGPLJFG_255	pseudofinder	gene	4413	4853	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 27.0%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_255_pseudo_00238;old_locus_tag=GPGPLJFG_01820
+GPGPLJFG_79	pseudofinder	gene	4472	4798	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 20.7%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_79_pseudo_00239;old_locus_tag=GPGPLJFG_00592
+GPGPLJFG_295	pseudofinder	gene	4476	4702	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_295_pseudo_00240;old_locus_tag=GPGPLJFG_295_ign_00003
+GPGPLJFG_191	pseudofinder	gene	4485	4748	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 32.6%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_191_pseudo_00241;old_locus_tag=GPGPLJFG_01359
+GPGPLJFG_195	pseudofinder	gene	4508	4801	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 37.7%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_195_pseudo_00242;old_locus_tag=GPGPLJFG_01405
+GPGPLJFG_20	pseudofinder	gene	4517	4846	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 30.8%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_20_pseudo_00243;old_locus_tag=GPGPLJFG_00134
+GPGPLJFG_125	pseudofinder	gene	4557	4726	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_125_pseudo_00244;old_locus_tag=GPGPLJFG_125_ign_00004
+GPGPLJFG_262	pseudofinder	gene	4584	4924	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_262_pseudo_00245;old_locus_tag=GPGPLJFG_262_ign_00001
+GPGPLJFG_204	pseudofinder	gene	4587	6017	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 53.7%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_204_pseudo_00246;old_locus_tag=GPGPLJFG_01492
+GPGPLJFG_260	pseudofinder	gene	4604	4894	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 18.7%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_260_pseudo_00247;old_locus_tag=GPGPLJFG_01851
+GPGPLJFG_32	pseudofinder	gene	4648	4998	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 53.7%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_32_pseudo_00248;old_locus_tag=GPGPLJFG_00233
+GPGPLJFG_295	pseudofinder	gene	4704	4934	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 26.9%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_295_pseudo_00249;old_locus_tag=GPGPLJFG_02118
+GPGPLJFG_191	pseudofinder	gene	4750	4919	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_191_pseudo_00250;old_locus_tag=GPGPLJFG_191_ign_00004
+GPGPLJFG_79	pseudofinder	gene	4795	4974	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 14.2%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_79_pseudo_00251;old_locus_tag=GPGPLJFG_00593
+GPGPLJFG_195	pseudofinder	gene	4807	5234	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_195_pseudo_00252;old_locus_tag=GPGPLJFG_195_ign_00005
+GPGPLJFG_73	pseudofinder	gene	4844	5430	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_73_pseudo_00253;old_locus_tag=GPGPLJFG_73_ign_00002
+GPGPLJFG_124	pseudofinder	gene	4845	5137	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_124_pseudo_00254;old_locus_tag=GPGPLJFG_124_ign_00003
+GPGPLJFG_260	pseudofinder	gene	4905	5621	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 41.8%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_260_pseudo_00255;old_locus_tag=GPGPLJFG_01852
+GPGPLJFG_262	pseudofinder	gene	4926	5102	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 12.7%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_262_pseudo_00256;old_locus_tag=GPGPLJFG_01871
+GPGPLJFG_155	pseudofinder	gene	4937	5121	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=GPGPLJFG_155_pseudo_00257;old_locus_tag=GPGPLJFG_155_ign_00003
+GPGPLJFG_20	pseudofinder	gene	4968	5545	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_20_pseudo_00258;old_locus_tag=GPGPLJFG_20_ign_00002
+GPGPLJFG_227	pseudofinder	gene	4971	5056	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 8 blast hits.;locus_tag=GPGPLJFG_227_pseudo_00259;old_locus_tag=GPGPLJFG_227_ign_00006
+GPGPLJFG_79	pseudofinder	gene	5108	5557	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 34.7%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_79_pseudo_00260;old_locus_tag=GPGPLJFG_00594
+GPGPLJFG_189	pseudofinder	gene	5122	5403	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 37.2%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_189_pseudo_00261;old_locus_tag=GPGPLJFG_01346
+GPGPLJFG_155	pseudofinder	gene	5123	5311	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 37.9%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_155_pseudo_00262;old_locus_tag=GPGPLJFG_01175
+GPGPLJFG_87	pseudofinder	gene	5125	5897	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=GPGPLJFG_87_pseudo_00263;old_locus_tag=GPGPLJFG_00708,GPGPLJFG_87_ign_00003
+GPGPLJFG_262	pseudofinder	gene	5125	5370	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 17.0%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_262_pseudo_00264;old_locus_tag=GPGPLJFG_01872
+GPGPLJFG_124	pseudofinder	gene	5139	5396	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 48.6%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_124_pseudo_00265;old_locus_tag=GPGPLJFG_00943
+GPGPLJFG_2	pseudofinder	gene	5205	5393	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 20.4%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_2_pseudo_00266;old_locus_tag=GPGPLJFG_00007
+GPGPLJFG_140	pseudofinder	gene	5228	5350	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 24.0%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_140_pseudo_00267;old_locus_tag=GPGPLJFG_01043
+GPGPLJFG_75	pseudofinder	gene	5245	5366	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_75_pseudo_00268;old_locus_tag=GPGPLJFG_75_ign_00002
+GPGPLJFG_223	pseudofinder	gene	5246	5535	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_223_pseudo_00269;old_locus_tag=GPGPLJFG_223_ign_00004
+GPGPLJFG_31	pseudofinder	gene	5312	6954	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_31_pseudo_00270;old_locus_tag=GPGPLJFG_31_ign_00004
+GPGPLJFG_291	pseudofinder	gene	5368	5672	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_291_pseudo_00271;old_locus_tag=GPGPLJFG_291_ign_00003
+GPGPLJFG_75	pseudofinder	gene	5368	5523	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 12.2%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_75_pseudo_00272;old_locus_tag=GPGPLJFG_00549
+GPGPLJFG_302	pseudofinder	gene	5408	5642	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=GPGPLJFG_302_pseudo_00273;old_locus_tag=GPGPLJFG_302_ign_00005
+GPGPLJFG_175	pseudofinder	gene	5495	5971	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 48.1%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_175_pseudo_00274;old_locus_tag=GPGPLJFG_01277
+GPGPLJFG_75	pseudofinder	gene	5526	5617	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_75_pseudo_00275;old_locus_tag=GPGPLJFG_75_ign_00003
+GPGPLJFG_223	pseudofinder	gene	5554	5685	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 20.5%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_223_pseudo_00276;old_locus_tag=GPGPLJFG_01624
+GPGPLJFG_79	pseudofinder	gene	5558	5667	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 10 blast hits.;locus_tag=GPGPLJFG_79_pseudo_00277;old_locus_tag=GPGPLJFG_79_ign_00006
+GPGPLJFG_163	pseudofinder	gene	5610	6149	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 48.4%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_163_pseudo_00278;old_locus_tag=GPGPLJFG_01217
+GPGPLJFG_75	pseudofinder	gene	5619	5807	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 14.7%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_75_pseudo_00279;old_locus_tag=GPGPLJFG_00550
+GPGPLJFG_260	pseudofinder	gene	5630	5883	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_260_pseudo_00280;old_locus_tag=GPGPLJFG_260_ign_00002
+GPGPLJFG_2	pseudofinder	gene	5653	6195	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=GPGPLJFG_2_pseudo_00281;old_locus_tag=GPGPLJFG_00009,GPGPLJFG_2_ign_00005
+GPGPLJFG_79	pseudofinder	gene	5672	6022	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 29.2%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_79_pseudo_00282;old_locus_tag=GPGPLJFG_00595
+GPGPLJFG_223	pseudofinder	gene	5686	5817	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 20.7%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_223_pseudo_00283;old_locus_tag=GPGPLJFG_01625
+GPGPLJFG_221	pseudofinder	gene	5758	6048	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 49.9%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_221_pseudo_00284;old_locus_tag=GPGPLJFG_01606
+GPGPLJFG_26	pseudofinder	gene	5775	5948	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 52.0%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_26_pseudo_00285;old_locus_tag=GPGPLJFG_00188
+GPGPLJFG_223	pseudofinder	gene	5818	5909	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_223_pseudo_00286;old_locus_tag=GPGPLJFG_223_ign_00005
+GPGPLJFG_257	pseudofinder	gene	5822	5950	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 18.2%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_257_pseudo_00287;old_locus_tag=GPGPLJFG_01831
+GPGPLJFG_226	pseudofinder	gene	5849	6022	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 42.8%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_226_pseudo_00288;old_locus_tag=GPGPLJFG_01642
+GPGPLJFG_260	pseudofinder	gene	5891	6322	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 27.8%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_260_pseudo_00289;old_locus_tag=GPGPLJFG_01853
+GPGPLJFG_87	pseudofinder	gene	5899	6438	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 46.3%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_87_pseudo_00290;old_locus_tag=GPGPLJFG_00709
+GPGPLJFG_20	pseudofinder	gene	5908	6119	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_20_pseudo_00291;old_locus_tag=GPGPLJFG_20_ign_00003
+GPGPLJFG_165	pseudofinder	gene	5931	7490	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=GPGPLJFG_165_pseudo_00292;old_locus_tag=GPGPLJFG_01227,GPGPLJFG_01228
+GPGPLJFG_257	pseudofinder	gene	5951	6069	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_257_pseudo_00293;old_locus_tag=GPGPLJFG_257_ign_00004
+GPGPLJFG_312	pseudofinder	gene	5964	6145	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_312_pseudo_00294;old_locus_tag=GPGPLJFG_312_ign_00004
+GPGPLJFG_98	pseudofinder	gene	6004	6497	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_98_pseudo_00295;old_locus_tag=GPGPLJFG_98_ign_00003
+GPGPLJFG_226	pseudofinder	gene	6044	6196	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 38.4%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_226_pseudo_00296;old_locus_tag=GPGPLJFG_01643
+GPGPLJFG_221	pseudofinder	gene	6051	6319	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_221_pseudo_00297;old_locus_tag=GPGPLJFG_221_ign_00005
+GPGPLJFG_193	pseudofinder	gene	6060	6625	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_193_pseudo_00298;old_locus_tag=GPGPLJFG_193_ign_00005
+GPGPLJFG_257	pseudofinder	gene	6071	6196	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 17.8%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_257_pseudo_00299;old_locus_tag=GPGPLJFG_01832
+GPGPLJFG_20	pseudofinder	gene	6121	6513	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 47.2%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_20_pseudo_00300;old_locus_tag=GPGPLJFG_00137
+GPGPLJFG_288	pseudofinder	gene	6199	6504	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 29.4%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_288_pseudo_00301;old_locus_tag=GPGPLJFG_02028
+GPGPLJFG_257	pseudofinder	gene	6206	6439	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 34.2%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_257_pseudo_00302;old_locus_tag=GPGPLJFG_01833
+GPGPLJFG_82	pseudofinder	gene	6281	7140	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_82_pseudo_00303;old_locus_tag=GPGPLJFG_82_ign_00004
+GPGPLJFG_313	pseudofinder	gene	6347	6459	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_313_pseudo_00304;old_locus_tag=GPGPLJFG_313_ign_00003
+GPGPLJFG_120	pseudofinder	gene	6402	6508	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=GPGPLJFG_120_pseudo_00305;old_locus_tag=GPGPLJFG_120_ign_00003
+GPGPLJFG_288	pseudofinder	gene	6462	6740	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 26.7%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_288_pseudo_00306;old_locus_tag=GPGPLJFG_02029
+GPGPLJFG_72	pseudofinder	gene	6474	6614	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 31.1%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_72_pseudo_00307;old_locus_tag=GPGPLJFG_00530
+GPGPLJFG_12	pseudofinder	gene	6497	6724	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 26.7%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_12_pseudo_00308;old_locus_tag=GPGPLJFG_00077
+GPGPLJFG_77	pseudofinder	gene	6503	6679	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 20.0%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_77_pseudo_00309;old_locus_tag=GPGPLJFG_00564
+GPGPLJFG_20	pseudofinder	gene	6552	6707	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 19.3%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_20_pseudo_00310;old_locus_tag=GPGPLJFG_00138
+GPGPLJFG_75	pseudofinder	gene	6594	6901	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_75_pseudo_00311;old_locus_tag=GPGPLJFG_75_ign_00004
+GPGPLJFG_265	pseudofinder	gene	6632	6879	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_265_pseudo_00312;old_locus_tag=GPGPLJFG_265_ign_00003
+GPGPLJFG_147	pseudofinder	gene	6664	6891	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 21.7%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_147_pseudo_00313;old_locus_tag=GPGPLJFG_01129
+GPGPLJFG_20	pseudofinder	gene	6723	7097	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 44.9%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_20_pseudo_00314;old_locus_tag=GPGPLJFG_00139
+GPGPLJFG_288	pseudofinder	gene	6741	6826	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_288_pseudo_00315;old_locus_tag=GPGPLJFG_288_ign_00005
+GPGPLJFG_257	pseudofinder	gene	6791	7138	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 29.8%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_257_pseudo_00316;old_locus_tag=GPGPLJFG_01834
+GPGPLJFG_80	pseudofinder	gene	6811	6971	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_80_pseudo_00317;old_locus_tag=GPGPLJFG_80_ign_00004
+GPGPLJFG_288	pseudofinder	gene	6828	7190	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 42.6%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_288_pseudo_00318;old_locus_tag=GPGPLJFG_02030
+GPGPLJFG_285	pseudofinder	gene	6873	7031	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 17.8%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_285_pseudo_00319;old_locus_tag=GPGPLJFG_02011
+GPGPLJFG_248	pseudofinder	gene	6898	7256	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_248_pseudo_00320;old_locus_tag=GPGPLJFG_248_ign_00005
+GPGPLJFG_98	pseudofinder	gene	6995	7138	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 23.8%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_98_pseudo_00321;old_locus_tag=GPGPLJFG_00791
+GPGPLJFG_77	pseudofinder	gene	7009	7251	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 27.4%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_77_pseudo_00322;old_locus_tag=GPGPLJFG_00566
+GPGPLJFG_75	pseudofinder	gene	7027	7287	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 19.3%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_75_pseudo_00323;old_locus_tag=GPGPLJFG_00551
+GPGPLJFG_285	pseudofinder	gene	7034	7542	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=GPGPLJFG_285_pseudo_00324;old_locus_tag=GPGPLJFG_02012,GPGPLJFG_285_ign_00006,GPGPLJFG_285_ign_00005
+GPGPLJFG_61	pseudofinder	gene	7036	7286	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=GPGPLJFG_61_pseudo_00325;old_locus_tag=GPGPLJFG_61_ign_00006
+GPGPLJFG_245	pseudofinder	gene	7059	7220	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 142.1%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_245_pseudo_00326;old_locus_tag=GPGPLJFG_01764
+GPGPLJFG_88	pseudofinder	gene	7083	7481	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=GPGPLJFG_88_pseudo_00327;old_locus_tag=GPGPLJFG_00719,GPGPLJFG_00720,GPGPLJFG_88_ign_00004
+GPGPLJFG_190	pseudofinder	gene	7092	7423	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_190_pseudo_00328;old_locus_tag=GPGPLJFG_190_ign_00006
+GPGPLJFG_20	pseudofinder	gene	7098	7336	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_20_pseudo_00329;old_locus_tag=GPGPLJFG_20_ign_00005
+GPGPLJFG_239	pseudofinder	gene	7098	7198	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_239_pseudo_00330;old_locus_tag=GPGPLJFG_239_ign_00007
+GPGPLJFG_229	pseudofinder	gene	7111	7403	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_229_pseudo_00331;old_locus_tag=GPGPLJFG_229_ign_00006
+GPGPLJFG_257	pseudofinder	gene	7147	7431	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 24.9%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_257_pseudo_00332;old_locus_tag=GPGPLJFG_01835
+GPGPLJFG_96	pseudofinder	gene	7256	7356	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=GPGPLJFG_96_pseudo_00333;old_locus_tag=GPGPLJFG_96_ign_00005
+GPGPLJFG_193	pseudofinder	gene	7272	7670	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 57.4%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_193_pseudo_00334;old_locus_tag=GPGPLJFG_01384
+GPGPLJFG_124	pseudofinder	gene	7272	7466	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 31.2%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_124_pseudo_00335;old_locus_tag=GPGPLJFG_00945
+GPGPLJFG_290	pseudofinder	gene	7282	7550	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_290_pseudo_00336;old_locus_tag=GPGPLJFG_290_ign_00004
+GPGPLJFG_75	pseudofinder	gene	7288	7526	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_75_pseudo_00337;old_locus_tag=GPGPLJFG_75_ign_00005
+GPGPLJFG_124	pseudofinder	gene	7408	7794	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 63.0%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_124_pseudo_00338;old_locus_tag=GPGPLJFG_00946
+GPGPLJFG_190	pseudofinder	gene	7425	7766	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 41.0%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_190_pseudo_00339;old_locus_tag=GPGPLJFG_01353
+GPGPLJFG_257	pseudofinder	gene	7434	7552	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_257_pseudo_00340;old_locus_tag=GPGPLJFG_257_ign_00006
+GPGPLJFG_61	pseudofinder	gene	7483	8526	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 64.8%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_61_pseudo_00341;old_locus_tag=GPGPLJFG_00467
+GPGPLJFG_165	pseudofinder	gene	7506	8237	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 22.7%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_165_pseudo_00342;old_locus_tag=GPGPLJFG_01229
+GPGPLJFG_42	pseudofinder	gene	7516	8460	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 57.5%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_42_pseudo_00343;old_locus_tag=GPGPLJFG_00289
+GPGPLJFG_75	pseudofinder	gene	7531	7653	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 9.1%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_75_pseudo_00344;old_locus_tag=GPGPLJFG_00552
+GPGPLJFG_297	pseudofinder	gene	7532	7713	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_297_pseudo_00345;old_locus_tag=GPGPLJFG_297_ign_00006
+GPGPLJFG_257	pseudofinder	gene	7554	7952	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 37.2%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_257_pseudo_00346;old_locus_tag=GPGPLJFG_01836
+GPGPLJFG_285	pseudofinder	gene	7580	7789	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 25.9%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_285_pseudo_00347;old_locus_tag=GPGPLJFG_02013
+GPGPLJFG_54	pseudofinder	gene	7633	8519	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=GPGPLJFG_54_pseudo_00348;old_locus_tag=GPGPLJFG_54_ign_00005,GPGPLJFG_00394,GPGPLJFG_54_ign_00004
+GPGPLJFG_269	pseudofinder	gene	7667	7942	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 24.8%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_269_pseudo_00349;old_locus_tag=GPGPLJFG_01906
+GPGPLJFG_297	pseudofinder	gene	7715	7906	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 29.1%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_297_pseudo_00350;old_locus_tag=GPGPLJFG_02129
+GPGPLJFG_132	pseudofinder	gene	7722	7963	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_132_pseudo_00351;old_locus_tag=GPGPLJFG_132_ign_00005
+GPGPLJFG_124	pseudofinder	gene	7795	7940	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_124_pseudo_00352;old_locus_tag=GPGPLJFG_124_ign_00006
+GPGPLJFG_66	pseudofinder	gene	7853	8230	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 51.3%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_66_pseudo_00353;old_locus_tag=GPGPLJFG_00497
+GPGPLJFG_151	pseudofinder	gene	7890	8438	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 34.1%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_151_pseudo_00354;old_locus_tag=GPGPLJFG_01146
+GPGPLJFG_297	pseudofinder	gene	7907	8202	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_297_pseudo_00355;old_locus_tag=GPGPLJFG_297_ign_00007
+GPGPLJFG_132	pseudofinder	gene	7994	8434	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 52.9%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_132_pseudo_00356;old_locus_tag=GPGPLJFG_01002
+GPGPLJFG_269	pseudofinder	gene	8050	8432	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_269_pseudo_00357;old_locus_tag=GPGPLJFG_269_ign_00008
+GPGPLJFG_24	pseudofinder	gene	8084	8293	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 21.1%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_24_pseudo_00358;old_locus_tag=GPGPLJFG_00171
+GPGPLJFG_165	pseudofinder	gene	8270	8491	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 7.0%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_165_pseudo_00359;old_locus_tag=GPGPLJFG_01230
+GPGPLJFG_24	pseudofinder	gene	8294	9081	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=GPGPLJFG_24_pseudo_00360;old_locus_tag=GPGPLJFG_24_ign_00005,GPGPLJFG_00172,GPGPLJFG_24_ign_00004
+GPGPLJFG_212	pseudofinder	gene	8359	8720	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_212_pseudo_00361;old_locus_tag=GPGPLJFG_212_ign_00005
+GPGPLJFG_132	pseudofinder	gene	8436	8728	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_132_pseudo_00362;old_locus_tag=GPGPLJFG_132_ign_00006
+GPGPLJFG_151	pseudofinder	gene	8450	8716	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 17.0%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_151_pseudo_00363;old_locus_tag=GPGPLJFG_01147
+GPGPLJFG_165	pseudofinder	gene	8508	8815	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_165_pseudo_00364;old_locus_tag=GPGPLJFG_165_ign_00006
+GPGPLJFG_17	pseudofinder	gene	8522	8926	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_17_pseudo_00365;old_locus_tag=GPGPLJFG_17_ign_00002
+GPGPLJFG_160	pseudofinder	gene	8616	8783	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 45.2%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_160_pseudo_00366;old_locus_tag=GPGPLJFG_01200
+GPGPLJFG_195	pseudofinder	gene	8647	10071	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=GPGPLJFG_195_pseudo_00367;old_locus_tag=GPGPLJFG_01408,GPGPLJFG_195_ign_00007
+GPGPLJFG_212	pseudofinder	gene	8724	9236	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=GPGPLJFG_212_pseudo_00368;old_locus_tag=GPGPLJFG_01554,GPGPLJFG_01553
+GPGPLJFG_151	pseudofinder	gene	8726	9136	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 27.5%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_151_pseudo_00369;old_locus_tag=GPGPLJFG_01148
+GPGPLJFG_132	pseudofinder	gene	8743	8844	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 13.1%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_132_pseudo_00370;old_locus_tag=GPGPLJFG_01003
+GPGPLJFG_216	pseudofinder	gene	8770	9456	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 57.3%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_216_pseudo_00371;old_locus_tag=GPGPLJFG_01572
+GPGPLJFG_160	pseudofinder	gene	8784	8944	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_160_pseudo_00372;old_locus_tag=GPGPLJFG_160_ign_00003
+GPGPLJFG_142	pseudofinder	gene	8787	9001	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_142_pseudo_00373;old_locus_tag=GPGPLJFG_142_ign_00006
+GPGPLJFG_165	pseudofinder	gene	8817	8963	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 10.3%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_165_pseudo_00374;old_locus_tag=GPGPLJFG_01231
+GPGPLJFG_9	pseudofinder	gene	8898	9337	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_9_pseudo_00375;old_locus_tag=GPGPLJFG_9_ign_00006
+GPGPLJFG_127	pseudofinder	gene	8964	9172	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_127_pseudo_00376;old_locus_tag=GPGPLJFG_127_ign_00004
+GPGPLJFG_142	pseudofinder	gene	9005	9181	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 24.7%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_142_pseudo_00377;old_locus_tag=GPGPLJFG_01082
+GPGPLJFG_235	pseudofinder	gene	9023	9229	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 33.2%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_235_pseudo_00378;old_locus_tag=GPGPLJFG_01707
+GPGPLJFG_118	pseudofinder	gene	9091	9243	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 17.0%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_118_pseudo_00379;old_locus_tag=GPGPLJFG_00908
+GPGPLJFG_58	pseudofinder	gene	9111	9278	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 21.7%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_58_pseudo_00380;old_locus_tag=GPGPLJFG_00441
+GPGPLJFG_2	pseudofinder	gene	9123	9427	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_2_pseudo_00381;old_locus_tag=GPGPLJFG_2_ign_00006
+GPGPLJFG_252	pseudofinder	gene	9147	9370	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_252_pseudo_00382;old_locus_tag=GPGPLJFG_252_ign_00005
+GPGPLJFG_23	pseudofinder	gene	9154	9269	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_23_pseudo_00383;old_locus_tag=GPGPLJFG_23_ign_00006
+GPGPLJFG_151	pseudofinder	gene	9176	9394	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 16.4%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_151_pseudo_00384;old_locus_tag=GPGPLJFG_01149
+GPGPLJFG_142	pseudofinder	gene	9226	9459	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 30.3%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_142_pseudo_00385;old_locus_tag=GPGPLJFG_01083
+GPGPLJFG_212	pseudofinder	gene	9260	9565	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 58.4%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_212_pseudo_00386;old_locus_tag=GPGPLJFG_01555
+GPGPLJFG_23	pseudofinder	gene	9271	10374	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=GPGPLJFG_23_pseudo_00387;old_locus_tag=GPGPLJFG_23_ign_00007,GPGPLJFG_00156,GPGPLJFG_00157
+GPGPLJFG_58	pseudofinder	gene	9284	9852	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_58_pseudo_00388;old_locus_tag=GPGPLJFG_58_ign_00009
+GPGPLJFG_118	pseudofinder	gene	9289	9525	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 26.3%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_118_pseudo_00389;old_locus_tag=GPGPLJFG_00909
+GPGPLJFG_248	pseudofinder	gene	9291	9920	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=GPGPLJFG_248_pseudo_00390;old_locus_tag=GPGPLJFG_01787,GPGPLJFG_248_ign_00006,GPGPLJFG_01788
+GPGPLJFG_252	pseudofinder	gene	9372	9758	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 38.7%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_252_pseudo_00391;old_locus_tag=GPGPLJFG_01805
+GPGPLJFG_141	pseudofinder	gene	9663	10151	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 61.2%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_141_pseudo_00392;old_locus_tag=GPGPLJFG_01052
+GPGPLJFG_290	pseudofinder	gene	9682	10007	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_290_pseudo_00393;old_locus_tag=GPGPLJFG_290_ign_00005
+GPGPLJFG_126	pseudofinder	gene	9687	9941	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 42.8%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_126_pseudo_00394;old_locus_tag=GPGPLJFG_00964
+GPGPLJFG_248	pseudofinder	gene	9889	10137	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 31.4%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_248_pseudo_00395;old_locus_tag=GPGPLJFG_01789
+GPGPLJFG_126	pseudofinder	gene	9942	10075	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_126_pseudo_00396;old_locus_tag=GPGPLJFG_126_ign_00009
+GPGPLJFG_290	pseudofinder	gene	10010	10309	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 17.4%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_290_pseudo_00397;old_locus_tag=GPGPLJFG_02060
+GPGPLJFG_208	pseudofinder	gene	10061	10624	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 32.8%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_208_pseudo_00398;old_locus_tag=GPGPLJFG_01516
+GPGPLJFG_297	pseudofinder	gene	10226	10372	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 52.8%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_297_pseudo_00399;old_locus_tag=GPGPLJFG_02130
+GPGPLJFG_205	pseudofinder	gene	10304	10732	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 57.4%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_205_pseudo_00400;old_locus_tag=GPGPLJFG_01503
+GPGPLJFG_290	pseudofinder	gene	10313	11224	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_290_pseudo_00401;old_locus_tag=GPGPLJFG_290_ign_00006
+GPGPLJFG_23	pseudofinder	gene	10384	10505	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_23_pseudo_00402;old_locus_tag=GPGPLJFG_23_ign_00008
+GPGPLJFG_115	pseudofinder	gene	10412	11038	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 33.4%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_115_pseudo_00403;old_locus_tag=GPGPLJFG_00887
+GPGPLJFG_53	pseudofinder	gene	10494	10628	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 11.0%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_53_pseudo_00404;old_locus_tag=GPGPLJFG_00389
+GPGPLJFG_23	pseudofinder	gene	10510	11331	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=GPGPLJFG_23_pseudo_00405;old_locus_tag=GPGPLJFG_23_ign_00009,GPGPLJFG_00158,GPGPLJFG_00159
+GPGPLJFG_252	pseudofinder	gene	10574	10971	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_252_pseudo_00406;old_locus_tag=GPGPLJFG_252_ign_00006
+GPGPLJFG_152	pseudofinder	gene	10574	10842	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_152_pseudo_00407;old_locus_tag=GPGPLJFG_152_ign_00008
+GPGPLJFG_208	pseudofinder	gene	10625	10779	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_208_pseudo_00408;old_locus_tag=GPGPLJFG_208_ign_00005
+GPGPLJFG_17	pseudofinder	gene	10680	11198	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=GPGPLJFG_17_pseudo_00409;old_locus_tag=GPGPLJFG_00111,GPGPLJFG_17_ign_00005,GPGPLJFG_00112
+GPGPLJFG_160	pseudofinder	gene	10708	11391	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 50.4%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_160_pseudo_00410;old_locus_tag=GPGPLJFG_01202
+GPGPLJFG_73	pseudofinder	gene	10846	11067	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 20.4%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_73_pseudo_00411;old_locus_tag=GPGPLJFG_00537
+GPGPLJFG_49	pseudofinder	gene	10988	11211	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_49_pseudo_00412;old_locus_tag=GPGPLJFG_49_ign_00007
+GPGPLJFG_82	pseudofinder	gene	11162	11542	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 48.4%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_82_pseudo_00413;old_locus_tag=GPGPLJFG_00629
+GPGPLJFG_237	pseudofinder	gene	11191	11451	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 16.9%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_237_pseudo_00414;old_locus_tag=GPGPLJFG_01721
+GPGPLJFG_141	pseudofinder	gene	11199	11662	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=GPGPLJFG_141_pseudo_00415;old_locus_tag=GPGPLJFG_141_ign_00009
+GPGPLJFG_10	pseudofinder	gene	11207	11346	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 14 blast hits.;locus_tag=GPGPLJFG_10_pseudo_00416;old_locus_tag=GPGPLJFG_10_ign_00008
+GPGPLJFG_49	pseudofinder	gene	11213	11641	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 43.1%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_49_pseudo_00417;old_locus_tag=GPGPLJFG_00354
+GPGPLJFG_126	pseudofinder	gene	11331	11570	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 14.9%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_126_pseudo_00418;old_locus_tag=GPGPLJFG_00967
+GPGPLJFG_193	pseudofinder	gene	11385	11641	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_193_pseudo_00419;old_locus_tag=GPGPLJFG_193_ign_00007
+GPGPLJFG_237	pseudofinder	gene	11454	12443	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=GPGPLJFG_237_pseudo_00420;old_locus_tag=GPGPLJFG_01722,GPGPLJFG_237_ign_00009,GPGPLJFG_237_ign_00008
+GPGPLJFG_274	pseudofinder	gene	11506	11684	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_274_pseudo_00421;old_locus_tag=GPGPLJFG_274_ign_00006
+GPGPLJFG_297	pseudofinder	gene	11511	12031	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_297_pseudo_00422;old_locus_tag=GPGPLJFG_297_ign_00008
+GPGPLJFG_82	pseudofinder	gene	11554	11664	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 18.7%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_82_pseudo_00423;old_locus_tag=GPGPLJFG_00630
+GPGPLJFG_261	pseudofinder	gene	11609	11983	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 21.2%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_261_pseudo_00424;old_locus_tag=GPGPLJFG_01864
+GPGPLJFG_71	pseudofinder	gene	11648	11962	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 29.3%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_71_pseudo_00425;old_locus_tag=GPGPLJFG_00525
+GPGPLJFG_274	pseudofinder	gene	11802	11993	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 14.3%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_274_pseudo_00426;old_locus_tag=GPGPLJFG_01945
+GPGPLJFG_95	pseudofinder	gene	11816	11950	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 8.0%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_95_pseudo_00427;old_locus_tag=GPGPLJFG_00773
+GPGPLJFG_13	pseudofinder	gene	11892	11992	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=GPGPLJFG_13_pseudo_00428;old_locus_tag=GPGPLJFG_13_ign_00009
+GPGPLJFG_77	pseudofinder	gene	11917	12060	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 48.8%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_77_pseudo_00429;old_locus_tag=GPGPLJFG_00569
+GPGPLJFG_9	pseudofinder	gene	11951	12093	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_9_pseudo_00430;old_locus_tag=GPGPLJFG_9_ign_00007
+GPGPLJFG_319	pseudofinder	gene	11954	12171	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_319_pseudo_00431;old_locus_tag=GPGPLJFG_319_ign_00008
+GPGPLJFG_71	pseudofinder	gene	11963	12087	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_71_pseudo_00432;old_locus_tag=GPGPLJFG_71_ign_00007
+GPGPLJFG_261	pseudofinder	gene	11984	12153	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_261_pseudo_00433;old_locus_tag=GPGPLJFG_261_ign_00010
+GPGPLJFG_274	pseudofinder	gene	12004	12209	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_274_pseudo_00434;old_locus_tag=GPGPLJFG_274_ign_00007
+GPGPLJFG_77	pseudofinder	gene	12062	12183	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_77_pseudo_00435;old_locus_tag=GPGPLJFG_77_ign_00010
+GPGPLJFG_217	pseudofinder	gene	12080	12186	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 14 blast hits.;locus_tag=GPGPLJFG_217_pseudo_00436;old_locus_tag=GPGPLJFG_217_ign_00011
+GPGPLJFG_71	pseudofinder	gene	12090	12587	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 46.4%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_71_pseudo_00437;old_locus_tag=GPGPLJFG_00526
+GPGPLJFG_9	pseudofinder	gene	12098	12646	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 52.7%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_9_pseudo_00438;old_locus_tag=GPGPLJFG_00047
+GPGPLJFG_261	pseudofinder	gene	12157	12390	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 11.4%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_261_pseudo_00439;old_locus_tag=GPGPLJFG_01865
+GPGPLJFG_274	pseudofinder	gene	12237	12629	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 29.3%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_274_pseudo_00440;old_locus_tag=GPGPLJFG_01946
+GPGPLJFG_319	pseudofinder	gene	12282	12488	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 5.3%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_319_pseudo_00441;old_locus_tag=GPGPLJFG_02274
+GPGPLJFG_290	pseudofinder	gene	12322	12720	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 44.9%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_290_pseudo_00442;old_locus_tag=GPGPLJFG_02062
+GPGPLJFG_261	pseudofinder	gene	12391	13507	.	.	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=GPGPLJFG_261_pseudo_00443;old_locus_tag=GPGPLJFG_261_ign_00012,GPGPLJFG_261_ign_00011
+GPGPLJFG_40	pseudofinder	gene	12553	14001	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 60.6%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_40_pseudo_00444;old_locus_tag=GPGPLJFG_00277
+GPGPLJFG_195	pseudofinder	gene	12649	13206	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 26.7%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_195_pseudo_00445;old_locus_tag=GPGPLJFG_01410
+GPGPLJFG_9	pseudofinder	gene	12649	12893	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_9_pseudo_00446;old_locus_tag=GPGPLJFG_9_ign_00008
+GPGPLJFG_319	pseudofinder	gene	12707	13402	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 35.6%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_319_pseudo_00447;old_locus_tag=GPGPLJFG_02275
+GPGPLJFG_290	pseudofinder	gene	12722	12870	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_290_pseudo_00448;old_locus_tag=GPGPLJFG_290_ign_00008
+GPGPLJFG_183	pseudofinder	gene	12827	13183	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 8.2%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_183_pseudo_00449;old_locus_tag=GPGPLJFG_01318
+GPGPLJFG_71	pseudofinder	gene	12872	13755	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_71_pseudo_00450;old_locus_tag=GPGPLJFG_71_ign_00008
+GPGPLJFG_261	pseudofinder	gene	12874	13300	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=GPGPLJFG_261_pseudo_00451;old_locus_tag=GPGPLJFG_01867,GPGPLJFG_01866
+GPGPLJFG_23	pseudofinder	gene	12981	14951	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=GPGPLJFG_23_pseudo_00452;old_locus_tag=GPGPLJFG_00161,GPGPLJFG_23_ign_00012,GPGPLJFG_00162
+GPGPLJFG_93	pseudofinder	gene	13022	13630	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 40.3%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_93_pseudo_00453;old_locus_tag=GPGPLJFG_00753
+GPGPLJFG_142	pseudofinder	gene	13177	13341	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 17.3%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_142_pseudo_00454;old_locus_tag=GPGPLJFG_01088
+GPGPLJFG_183	pseudofinder	gene	13184	13287	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_183_pseudo_00455;old_locus_tag=GPGPLJFG_183_ign_00005
+GPGPLJFG_292	pseudofinder	gene	13224	14356	.	.	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=GPGPLJFG_292_pseudo_00456;old_locus_tag=GPGPLJFG_292_ign_00009,GPGPLJFG_292_ign_00011
+GPGPLJFG_292	pseudofinder	gene	13426	14234	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=GPGPLJFG_292_pseudo_00457;old_locus_tag=GPGPLJFG_292_ign_00010,GPGPLJFG_02099,GPGPLJFG_02098
+GPGPLJFG_290	pseudofinder	gene	13517	14071	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 41.0%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_290_pseudo_00458;old_locus_tag=GPGPLJFG_02065
+GPGPLJFG_245	pseudofinder	gene	13884	14240	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 36.7%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_245_pseudo_00459;old_locus_tag=GPGPLJFG_01768
+GPGPLJFG_273	pseudofinder	gene	13946	14657	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_273_pseudo_00460;old_locus_tag=GPGPLJFG_273_ign_00008
+GPGPLJFG_40	pseudofinder	gene	14008	14265	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 9.3%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_40_pseudo_00461;old_locus_tag=GPGPLJFG_00278
+GPGPLJFG_245	pseudofinder	gene	14241	14536	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_245_pseudo_00462;old_locus_tag=GPGPLJFG_245_ign_00009
+GPGPLJFG_18	pseudofinder	gene	14289	14500	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_18_pseudo_00463;old_locus_tag=GPGPLJFG_18_ign_00008
+GPGPLJFG_308	pseudofinder	gene	14322	14626	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_308_pseudo_00464;old_locus_tag=GPGPLJFG_308_ign_00010
+GPGPLJFG_141	pseudofinder	gene	14486	14725	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 19.1%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_141_pseudo_00465;old_locus_tag=GPGPLJFG_01056
+GPGPLJFG_18	pseudofinder	gene	14504	14632	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 17.4%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_18_pseudo_00466;old_locus_tag=GPGPLJFG_00125
+GPGPLJFG_40	pseudofinder	gene	14634	14944	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_40_pseudo_00467;old_locus_tag=GPGPLJFG_40_ign_00008
+GPGPLJFG_308	pseudofinder	gene	14681	14950	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 12.5%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_308_pseudo_00468;old_locus_tag=GPGPLJFG_02191
+GPGPLJFG_141	pseudofinder	gene	14732	15027	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_141_pseudo_00469;old_locus_tag=GPGPLJFG_141_ign_00012
+GPGPLJFG_20	pseudofinder	gene	14769	15144	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=GPGPLJFG_20_pseudo_00470;old_locus_tag=GPGPLJFG_20_ign_00009,GPGPLJFG_00144
+GPGPLJFG_308	pseudofinder	gene	15055	15279	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 10.4%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_308_pseudo_00471;old_locus_tag=GPGPLJFG_02192
+GPGPLJFG_20	pseudofinder	gene	15153	15458	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 36.1%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_20_pseudo_00472;old_locus_tag=GPGPLJFG_00145
+GPGPLJFG_56	pseudofinder	gene	15164	15354	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_56_pseudo_00473;old_locus_tag=GPGPLJFG_56_ign_00009
+GPGPLJFG_58	pseudofinder	gene	15297	15493	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_58_pseudo_00474;old_locus_tag=GPGPLJFG_58_ign_00014
+GPGPLJFG_24	pseudofinder	gene	15324	16031	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 63.0%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_24_pseudo_00475;old_locus_tag=GPGPLJFG_00176
+GPGPLJFG_308	pseudofinder	gene	15328	15543	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 16.5%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_308_pseudo_00476;old_locus_tag=GPGPLJFG_02193
+GPGPLJFG_288	pseudofinder	gene	15337	16676	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_288_pseudo_00477;old_locus_tag=GPGPLJFG_288_ign_00012
+GPGPLJFG_9	pseudofinder	gene	15461	15651	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_9_pseudo_00478;old_locus_tag=GPGPLJFG_9_ign_00011
+GPGPLJFG_58	pseudofinder	gene	15495	15821	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 35.3%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_58_pseudo_00479;old_locus_tag=GPGPLJFG_00447
+GPGPLJFG_9	pseudofinder	gene	15653	15820	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 20.9%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_9_pseudo_00480;old_locus_tag=GPGPLJFG_00051
+GPGPLJFG_58	pseudofinder	gene	15825	17897	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_58_pseudo_00481;old_locus_tag=GPGPLJFG_58_ign_00015
+GPGPLJFG_24	pseudofinder	gene	15989	16111	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 10.6%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_24_pseudo_00482;old_locus_tag=GPGPLJFG_00177
+GPGPLJFG_221	pseudofinder	gene	16323	16595	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 50.5%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_221_pseudo_00483;old_locus_tag=GPGPLJFG_01613
+GPGPLJFG_221	pseudofinder	gene	16617	16853	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 43.9%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_221_pseudo_00484;old_locus_tag=GPGPLJFG_01614
+GPGPLJFG_187	pseudofinder	gene	16886	17275	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 32.7%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_187_pseudo_00485;old_locus_tag=GPGPLJFG_01333
+GPGPLJFG_269	pseudofinder	gene	16925	17023	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 14.6%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_269_pseudo_00486;old_locus_tag=GPGPLJFG_01913
+GPGPLJFG_269	pseudofinder	gene	17059	17550	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 32.3%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_269_pseudo_00487;old_locus_tag=GPGPLJFG_01914
+GPGPLJFG_49	pseudofinder	gene	17166	17615	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 60.5%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_49_pseudo_00488;old_locus_tag=GPGPLJFG_00359
+GPGPLJFG_187	pseudofinder	gene	17291	17497	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 17.0%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_187_pseudo_00489;old_locus_tag=GPGPLJFG_01334
+GPGPLJFG_187	pseudofinder	gene	17573	18004	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 34.7%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_187_pseudo_00490;old_locus_tag=GPGPLJFG_01335
+GPGPLJFG_308	pseudofinder	gene	17753	18093	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_308_pseudo_00491;old_locus_tag=GPGPLJFG_308_ign_00014
+GPGPLJFG_187	pseudofinder	gene	18242	18706	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 59.2%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_187_pseudo_00492;old_locus_tag=GPGPLJFG_01337
+GPGPLJFG_221	pseudofinder	gene	18310	20043	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_221_pseudo_00493;old_locus_tag=GPGPLJFG_221_ign_00014
+GPGPLJFG_192	pseudofinder	gene	19312	20333	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_192_pseudo_00494;old_locus_tag=GPGPLJFG_192_ign_00014
+GPGPLJFG_50	pseudofinder	gene	19395	19811	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 48.2%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_50_pseudo_00495;old_locus_tag=GPGPLJFG_00371
+GPGPLJFG_84	pseudofinder	gene	19845	20159	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 30.2%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_84_pseudo_00496;old_locus_tag=GPGPLJFG_00678
+GPGPLJFG_50	pseudofinder	gene	19854	19991	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 15.9%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_50_pseudo_00497;old_locus_tag=GPGPLJFG_00372
+GPGPLJFG_50	pseudofinder	gene	19992	20255	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 30.5%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_50_pseudo_00498;old_locus_tag=GPGPLJFG_00373
+GPGPLJFG_84	pseudofinder	gene	20161	20307	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 14.2%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_84_pseudo_00499;old_locus_tag=GPGPLJFG_00679
+GPGPLJFG_146	pseudofinder	gene	20708	21205	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 33.5%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_146_pseudo_00500;old_locus_tag=GPGPLJFG_01124
+GPGPLJFG_26	pseudofinder	gene	21804	22523	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 54.8%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_26_pseudo_00501;old_locus_tag=GPGPLJFG_00198
+GPGPLJFG_308	pseudofinder	gene	22083	22373	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 29.5%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_308_pseudo_00502;old_locus_tag=GPGPLJFG_02199
+GPGPLJFG_308	pseudofinder	gene	22370	22672	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 29.2%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_308_pseudo_00503;old_locus_tag=GPGPLJFG_02200
+GPGPLJFG_26	pseudofinder	gene	22532	22837	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 24.4%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_26_pseudo_00504;old_locus_tag=GPGPLJFG_00199
+GPGPLJFG_308	pseudofinder	gene	22728	23341	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=GPGPLJFG_308_pseudo_00505;old_locus_tag=GPGPLJFG_02202,GPGPLJFG_02201
+GPGPLJFG_308	pseudofinder	gene	23348	23452	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 14.0%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_308_pseudo_00506;old_locus_tag=GPGPLJFG_02203
+GPGPLJFG_43	pseudofinder	gene	25613	25881	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_43_pseudo_00507;old_locus_tag=GPGPLJFG_43_ign_00011
+GPGPLJFG_208	pseudofinder	gene	25849	26121	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 40.1%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_208_pseudo_00508;old_locus_tag=GPGPLJFG_01526
+GPGPLJFG_208	pseudofinder	gene	31120	32973	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 38.3%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_208_pseudo_00509;old_locus_tag=GPGPLJFG_01529
+GPGPLJFG_290	pseudofinder	gene	32118	32377	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_290_pseudo_00510;old_locus_tag=GPGPLJFG_290_ign_00019
+GPGPLJFG_290	pseudofinder	gene	36803	37021	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 53.8%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_290_pseudo_00511;old_locus_tag=GPGPLJFG_02078
+GPGPLJFG_290	pseudofinder	gene	37095	37211	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 28.9%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_290_pseudo_00512;old_locus_tag=GPGPLJFG_02079
+GPGPLJFG_288	pseudofinder	gene	38328	39176	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 9 blast hits.;locus_tag=GPGPLJFG_288_pseudo_00513;old_locus_tag=GPGPLJFG_288_ign_00022
+GPGPLJFG_43	pseudofinder	gene	38600	38868	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_43_pseudo_00514;old_locus_tag=GPGPLJFG_43_ign_00018
+GPGPLJFG_199	pseudofinder	gene	43988	44575	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 38.6%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_199_pseudo_00515;old_locus_tag=GPGPLJFG_01474
+GPGPLJFG_141	pseudofinder	gene	44605	44918	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=GPGPLJFG_141_pseudo_00516;old_locus_tag=GPGPLJFG_141_ign_00029
+GPGPLJFG_141	pseudofinder	gene	44925	45122	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 16.9%25 of the average length of hits to this gene.;locus_tag=GPGPLJFG_141_pseudo_00517;old_locus_tag=GPGPLJFG_01075

@@ -1,0 +1,57 @@
+GFF_File	Category	Count	Overall length	Median length
+GCA_030065255.1_ASM3006525v1_genomic.pseudofinder_pseudos.gff	Truncated	225	121125	357.0
+GCA_030065255.1_ASM3006525v1_genomic.pseudofinder_pseudos.gff	Run-on	42	67824	1170.0
+GCA_030065255.1_ASM3006525v1_genomic.pseudofinder_pseudos.gff	Intergenic region	194	56032	178.5
+GCA_030065255.1_ASM3006525v1_genomic.pseudofinder_pseudos.gff	Predicted fragmentation	15	15561	672.0
+GCA_000613065.1_RintRC_1_genomic.pseudofinder_pseudos.gff	Truncated	1288	438084	267.0
+GCA_000613065.1_RintRC_1_genomic.pseudofinder_pseudos.gff	Run-on	23	13086	417.0
+GCA_000613065.1_RintRC_1_genomic.pseudofinder_pseudos.gff	Intergenic region	1290	275185	173.0
+GCA_000613065.1_RintRC_1_genomic.pseudofinder_pseudos.gff	Predicted fragmentation	91	64542	596.0
+TARA_PON_109_MAG_00086.pseudofinder_pseudos.gff	Truncated	296	101337	271.5
+TARA_PON_109_MAG_00086.pseudofinder_pseudos.gff	Run-on	6	1911	291.0
+TARA_PON_109_MAG_00086.pseudofinder_pseudos.gff	Intergenic region	179	56015	224.0
+TARA_PON_109_MAG_00086.pseudofinder_pseudos.gff	Predicted fragmentation	35	29249	773.0
+GCF_000350125.1_ASM35012v1_genomic.pseudofinder_pseudos.gff	Truncated	472	198204	339.0
+GCF_000350125.1_ASM35012v1_genomic.pseudofinder_pseudos.gff	Run-on	3	1071	330.0
+GCF_000350125.1_ASM35012v1_genomic.pseudofinder_pseudos.gff	Intergenic region	93	28019	230.0
+GCF_000350125.1_ASM35012v1_genomic.pseudofinder_pseudos.gff	Predicted fragmentation	25	20298	687.0
+TARA_MED_95_MAG_00146.pseudofinder_pseudos.gff	Truncated	116	36396	234.0
+TARA_MED_95_MAG_00146.pseudofinder_pseudos.gff	Run-on	4	1038	267.0
+TARA_MED_95_MAG_00146.pseudofinder_pseudos.gff	Intergenic region	98	43331	336.5
+TARA_MED_95_MAG_00146.pseudofinder_pseudos.gff	Predicted fragmentation	15	11798	594.0
+GCA_002377925.1_ASM237792v1_genomic.pseudofinder_pseudos.gff	Truncated	99	28176	225.0
+GCA_002377925.1_ASM237792v1_genomic.pseudofinder_pseudos.gff	Run-on	3	9027	288.0
+GCA_002377925.1_ASM237792v1_genomic.pseudofinder_pseudos.gff	Intergenic region	113	45153	317.0
+GCA_002377925.1_ASM237792v1_genomic.pseudofinder_pseudos.gff	Predicted fragmentation	12	8825	597.0
+GCA_030065055.1_ASM3006505v1_genomic.pseudofinder_pseudos.gff	Truncated	297	138834	282.0
+GCA_030065055.1_ASM3006505v1_genomic.pseudofinder_pseudos.gff	Run-on	63	80928	798.0
+GCA_030065055.1_ASM3006505v1_genomic.pseudofinder_pseudos.gff	Intergenic region	342	75895	155.0
+GCA_030065055.1_ASM3006505v1_genomic.pseudofinder_pseudos.gff	Predicted fragmentation	26	30807	932.5
+GCA_013214565.1_ASM1321456v1_genomic.pseudofinder_pseudos.gff	Truncated	968	318315	267.0
+GCA_013214565.1_ASM1321456v1_genomic.pseudofinder_pseudos.gff	Run-on	12	9387	358.5
+GCA_013214565.1_ASM1321456v1_genomic.pseudofinder_pseudos.gff	Intergenic region	778	166220	167.0
+GCA_013214565.1_ASM1321456v1_genomic.pseudofinder_pseudos.gff	Predicted fragmentation	94	69830	609.5
+GCF_000350105.1_ASM35010v1_genomic.pseudofinder_pseudos.gff	Truncated	181	64356	291.0
+GCF_000350105.1_ASM35010v1_genomic.pseudofinder_pseudos.gff	Run-on	3	1014	288.0
+GCF_000350105.1_ASM35010v1_genomic.pseudofinder_pseudos.gff	Intergenic region	132	54877	300.5
+GCF_000350105.1_ASM35010v1_genomic.pseudofinder_pseudos.gff	Predicted fragmentation	22	16955	636.5
+GCA_900299445.1_Richelia_intracellularis_AM_2804_genomic.pseudofinder_pseudos.gff	Truncated	110	33288	229.5
+GCA_900299445.1_Richelia_intracellularis_AM_2804_genomic.pseudofinder_pseudos.gff	Run-on	4	11166	1213.5
+GCA_900299445.1_Richelia_intracellularis_AM_2804_genomic.pseudofinder_pseudos.gff	Intergenic region	129	53767	326.0
+GCA_900299445.1_Richelia_intracellularis_AM_2804_genomic.pseudofinder_pseudos.gff	Predicted fragmentation	14	9857	597.5
+GCA_030066045.1_ASM3006604v1_genomic.pseudofinder_pseudos.gff	Truncated	313	160476	300.0
+GCA_030066045.1_ASM3006604v1_genomic.pseudofinder_pseudos.gff	Run-on	74	91209	828.0
+GCA_030066045.1_ASM3006604v1_genomic.pseudofinder_pseudos.gff	Intergenic region	315	68254	157.0
+GCA_030066045.1_ASM3006604v1_genomic.pseudofinder_pseudos.gff	Predicted fragmentation	27	27453	895.0
+GCF_900185595.1_CalSC01_2013_genomic.pseudofinder_pseudos.gff	Truncated	348	196173	355.5
+GCF_900185595.1_CalSC01_2013_genomic.pseudofinder_pseudos.gff	Run-on	29	40092	903.0
+GCF_900185595.1_CalSC01_2013_genomic.pseudofinder_pseudos.gff	Intergenic region	259	69355	167.0
+GCF_900185595.1_CalSC01_2013_genomic.pseudofinder_pseudos.gff	Predicted fragmentation	33	37762	815.0
+BGEO_SAMN07136523_METAG_IKJKMCAK.pseudofinder_pseudos.gff	Truncated	166	92865	373.5
+BGEO_SAMN07136523_METAG_IKJKMCAK.pseudofinder_pseudos.gff	Run-on	15	41019	3366.0
+BGEO_SAMN07136523_METAG_IKJKMCAK.pseudofinder_pseudos.gff	Intergenic region	68	28711	257.0
+BGEO_SAMN07136523_METAG_IKJKMCAK.pseudofinder_pseudos.gff	Predicted fragmentation	12	9910	588.5
+GCA_002470035.1_ASM247003v1_genomic.pseudofinder_pseudos.gff	Truncated	170	67143	273.0
+GCA_002470035.1_ASM247003v1_genomic.pseudofinder_pseudos.gff	Run-on	3	1023	288.0
+GCA_002470035.1_ASM247003v1_genomic.pseudofinder_pseudos.gff	Intergenic region	129	50399	302.0
+GCA_002470035.1_ASM247003v1_genomic.pseudofinder_pseudos.gff	Predicted fragmentation	12	6708	519.5

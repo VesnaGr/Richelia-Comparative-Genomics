@@ -1,0 +1,617 @@
+##gff-version 3
+#!annotation-date	2023-02-07 08:25:05
+##sequence-region LFKEBONE_1 1 15463
+##sequence-region LFKEBONE_2 1 7844
+##sequence-region LFKEBONE_3 1 7663
+##sequence-region LFKEBONE_4 1 5650
+##sequence-region LFKEBONE_5 1 3124
+##sequence-region LFKEBONE_6 1 8512
+##sequence-region LFKEBONE_7 1 3324
+##sequence-region LFKEBONE_8 1 8973
+##sequence-region LFKEBONE_9 1 5385
+##sequence-region LFKEBONE_10 1 19973
+##sequence-region LFKEBONE_11 1 7750
+##sequence-region LFKEBONE_12 1 11544
+##sequence-region LFKEBONE_13 1 6317
+##sequence-region LFKEBONE_14 1 19364
+##sequence-region LFKEBONE_15 1 3395
+##sequence-region LFKEBONE_16 1 6473
+##sequence-region LFKEBONE_17 1 3886
+##sequence-region LFKEBONE_18 1 9607
+##sequence-region LFKEBONE_19 1 2888
+##sequence-region LFKEBONE_20 1 5339
+##sequence-region LFKEBONE_21 1 4473
+##sequence-region LFKEBONE_22 1 9333
+##sequence-region LFKEBONE_23 1 7243
+##sequence-region LFKEBONE_24 1 18580
+##sequence-region LFKEBONE_25 1 2790
+##sequence-region LFKEBONE_26 1 4987
+##sequence-region LFKEBONE_27 1 15638
+##sequence-region LFKEBONE_28 1 6834
+##sequence-region LFKEBONE_29 1 3809
+##sequence-region LFKEBONE_30 1 19641
+##sequence-region LFKEBONE_31 1 9280
+##sequence-region LFKEBONE_32 1 2816
+##sequence-region LFKEBONE_33 1 4367
+##sequence-region LFKEBONE_34 1 3609
+##sequence-region LFKEBONE_35 1 17783
+##sequence-region LFKEBONE_36 1 5918
+##sequence-region LFKEBONE_37 1 19613
+##sequence-region LFKEBONE_38 1 9807
+##sequence-region LFKEBONE_39 1 3362
+##sequence-region LFKEBONE_40 1 2717
+##sequence-region LFKEBONE_41 1 5043
+##sequence-region LFKEBONE_42 1 6783
+##sequence-region LFKEBONE_43 1 5811
+##sequence-region LFKEBONE_44 1 8484
+##sequence-region LFKEBONE_45 1 2985
+##sequence-region LFKEBONE_46 1 24116
+##sequence-region LFKEBONE_47 1 6000
+##sequence-region LFKEBONE_48 1 7663
+##sequence-region LFKEBONE_49 1 8403
+##sequence-region LFKEBONE_50 1 4861
+##sequence-region LFKEBONE_51 1 8024
+##sequence-region LFKEBONE_52 1 5784
+##sequence-region LFKEBONE_53 1 22566
+##sequence-region LFKEBONE_54 1 2563
+##sequence-region LFKEBONE_55 1 6869
+##sequence-region LFKEBONE_56 1 2557
+##sequence-region LFKEBONE_57 1 2601
+##sequence-region LFKEBONE_58 1 6667
+##sequence-region LFKEBONE_59 1 2556
+##sequence-region LFKEBONE_60 1 6110
+##sequence-region LFKEBONE_61 1 6217
+##sequence-region LFKEBONE_62 1 4291
+##sequence-region LFKEBONE_63 1 2549
+##sequence-region LFKEBONE_64 1 8495
+##sequence-region LFKEBONE_65 1 4520
+##sequence-region LFKEBONE_66 1 8025
+##sequence-region LFKEBONE_67 1 13132
+##sequence-region LFKEBONE_68 1 18989
+##sequence-region LFKEBONE_69 1 3341
+##sequence-region LFKEBONE_70 1 5332
+##sequence-region LFKEBONE_71 1 2775
+##sequence-region LFKEBONE_72 1 30034
+##sequence-region LFKEBONE_73 1 2601
+##sequence-region LFKEBONE_74 1 5599
+##sequence-region LFKEBONE_75 1 20186
+##sequence-region LFKEBONE_76 1 28496
+##sequence-region LFKEBONE_77 1 9634
+##sequence-region LFKEBONE_78 1 3281
+##sequence-region LFKEBONE_79 1 17585
+##sequence-region LFKEBONE_80 1 7487
+##sequence-region LFKEBONE_81 1 8255
+##sequence-region LFKEBONE_82 1 3149
+##sequence-region LFKEBONE_83 1 31130
+##sequence-region LFKEBONE_84 1 2613
+##sequence-region LFKEBONE_85 1 2880
+##sequence-region LFKEBONE_86 1 18946
+##sequence-region LFKEBONE_87 1 11163
+##sequence-region LFKEBONE_88 1 7650
+##sequence-region LFKEBONE_89 1 3845
+##sequence-region LFKEBONE_90 1 4432
+##sequence-region LFKEBONE_91 1 6961
+##sequence-region LFKEBONE_92 1 5127
+##sequence-region LFKEBONE_93 1 4389
+##sequence-region LFKEBONE_94 1 10168
+##sequence-region LFKEBONE_95 1 3464
+##sequence-region LFKEBONE_96 1 36639
+##sequence-region LFKEBONE_97 1 7159
+##sequence-region LFKEBONE_98 1 5481
+##sequence-region LFKEBONE_99 1 2731
+##sequence-region LFKEBONE_100 1 6180
+##sequence-region LFKEBONE_101 1 2634
+##sequence-region LFKEBONE_102 1 4653
+##sequence-region LFKEBONE_103 1 2621
+##sequence-region LFKEBONE_104 1 6536
+##sequence-region LFKEBONE_105 1 3214
+##sequence-region LFKEBONE_106 1 18201
+##sequence-region LFKEBONE_107 1 4707
+##sequence-region LFKEBONE_108 1 15063
+##sequence-region LFKEBONE_109 1 4946
+##sequence-region LFKEBONE_110 1 3176
+##sequence-region LFKEBONE_111 1 3231
+##sequence-region LFKEBONE_112 1 20798
+##sequence-region LFKEBONE_113 1 4128
+##sequence-region LFKEBONE_114 1 5052
+##sequence-region LFKEBONE_115 1 5465
+##sequence-region LFKEBONE_116 1 12459
+##sequence-region LFKEBONE_117 1 2795
+##sequence-region LFKEBONE_118 1 5662
+##sequence-region LFKEBONE_119 1 3732
+##sequence-region LFKEBONE_120 1 14810
+##sequence-region LFKEBONE_121 1 18785
+##sequence-region LFKEBONE_122 1 16723
+##sequence-region LFKEBONE_123 1 5254
+##sequence-region LFKEBONE_124 1 7756
+##sequence-region LFKEBONE_125 1 4979
+##sequence-region LFKEBONE_126 1 47631
+##sequence-region LFKEBONE_127 1 16249
+##sequence-region LFKEBONE_128 1 5470
+##sequence-region LFKEBONE_129 1 3831
+##sequence-region LFKEBONE_130 1 3477
+##sequence-region LFKEBONE_131 1 2627
+##sequence-region LFKEBONE_132 1 17039
+##sequence-region LFKEBONE_133 1 3177
+##sequence-region LFKEBONE_134 1 16690
+##sequence-region LFKEBONE_135 1 9612
+##sequence-region LFKEBONE_136 1 3331
+##sequence-region LFKEBONE_137 1 16245
+##sequence-region LFKEBONE_138 1 3856
+##sequence-region LFKEBONE_139 1 2632
+##sequence-region LFKEBONE_140 1 19514
+##sequence-region LFKEBONE_141 1 3260
+##sequence-region LFKEBONE_142 1 9327
+##sequence-region LFKEBONE_143 1 24114
+##sequence-region LFKEBONE_144 1 12900
+##sequence-region LFKEBONE_145 1 3521
+##sequence-region LFKEBONE_146 1 14563
+##sequence-region LFKEBONE_147 1 25825
+##sequence-region LFKEBONE_148 1 2716
+##sequence-region LFKEBONE_149 1 3220
+##sequence-region LFKEBONE_150 1 2604
+##sequence-region LFKEBONE_151 1 11671
+##sequence-region LFKEBONE_152 1 17588
+##sequence-region LFKEBONE_153 1 4715
+##sequence-region LFKEBONE_154 1 4733
+##sequence-region LFKEBONE_155 1 57426
+##sequence-region LFKEBONE_156 1 17324
+##sequence-region LFKEBONE_157 1 27267
+##sequence-region LFKEBONE_158 1 5689
+##sequence-region LFKEBONE_159 1 3209
+##sequence-region LFKEBONE_160 1 32250
+##sequence-region LFKEBONE_161 1 14678
+##sequence-region LFKEBONE_162 1 6202
+##sequence-region LFKEBONE_163 1 17813
+##sequence-region LFKEBONE_164 1 2576
+##sequence-region LFKEBONE_165 1 13115
+##sequence-region LFKEBONE_166 1 2686
+##sequence-region LFKEBONE_167 1 3677
+##sequence-region LFKEBONE_168 1 10716
+##sequence-region LFKEBONE_169 1 2593
+##sequence-region LFKEBONE_170 1 5364
+##sequence-region LFKEBONE_171 1 6247
+##sequence-region LFKEBONE_172 1 12712
+##sequence-region LFKEBONE_173 1 4929
+##sequence-region LFKEBONE_174 1 40944
+##sequence-region LFKEBONE_175 1 2519
+##sequence-region LFKEBONE_176 1 7915
+##sequence-region LFKEBONE_177 1 8152
+##sequence-region LFKEBONE_178 1 13418
+##sequence-region LFKEBONE_179 1 17483
+##sequence-region LFKEBONE_180 1 14522
+##sequence-region LFKEBONE_181 1 3914
+##sequence-region LFKEBONE_182 1 14158
+##sequence-region LFKEBONE_183 1 3503
+##sequence-region LFKEBONE_184 1 3939
+##sequence-region LFKEBONE_185 1 18084
+##sequence-region LFKEBONE_186 1 13582
+##sequence-region LFKEBONE_187 1 33660
+##sequence-region LFKEBONE_188 1 9224
+##sequence-region LFKEBONE_189 1 19985
+##sequence-region LFKEBONE_190 1 10637
+##sequence-region LFKEBONE_191 1 9153
+##sequence-region LFKEBONE_192 1 6110
+##sequence-region LFKEBONE_193 1 21622
+##sequence-region LFKEBONE_194 1 11153
+##sequence-region LFKEBONE_195 1 17567
+##sequence-region LFKEBONE_196 1 19089
+##sequence-region LFKEBONE_197 1 14211
+##sequence-region LFKEBONE_198 1 7368
+##sequence-region LFKEBONE_199 1 13629
+##sequence-region LFKEBONE_200 1 6397
+##sequence-region LFKEBONE_201 1 7165
+##sequence-region LFKEBONE_202 1 17371
+##sequence-region LFKEBONE_203 1 12666
+##sequence-region LFKEBONE_204 1 9903
+##sequence-region LFKEBONE_205 1 9848
+##sequence-region LFKEBONE_206 1 4319
+##sequence-region LFKEBONE_207 1 32739
+##sequence-region LFKEBONE_208 1 13224
+##sequence-region LFKEBONE_209 1 18361
+##sequence-region LFKEBONE_210 1 8767
+##sequence-region LFKEBONE_211 1 8412
+##sequence-region LFKEBONE_212 1 14999
+##sequence-region LFKEBONE_213 1 8003
+##sequence-region LFKEBONE_214 1 10527
+##sequence-region LFKEBONE_215 1 8485
+##sequence-region LFKEBONE_216 1 9806
+##sequence-region LFKEBONE_217 1 13438
+##sequence-region LFKEBONE_218 1 15319
+##sequence-region LFKEBONE_219 1 11778
+##sequence-region LFKEBONE_220 1 11451
+##sequence-region LFKEBONE_221 1 5747
+##sequence-region LFKEBONE_222 1 11467
+##sequence-region LFKEBONE_223 1 16584
+##sequence-region LFKEBONE_224 1 9787
+##sequence-region LFKEBONE_225 1 6270
+##sequence-region LFKEBONE_226 1 7112
+##sequence-region LFKEBONE_227 1 4523
+##sequence-region LFKEBONE_228 1 3941
+##sequence-region LFKEBONE_229 1 11649
+##sequence-region LFKEBONE_230 1 3441
+##sequence-region LFKEBONE_231 1 7876
+##sequence-region LFKEBONE_232 1 17554
+##sequence-region LFKEBONE_233 1 3497
+##sequence-region LFKEBONE_234 1 17424
+##sequence-region LFKEBONE_235 1 10789
+##sequence-region LFKEBONE_236 1 12316
+##sequence-region LFKEBONE_237 1 2852
+##sequence-region LFKEBONE_238 1 8740
+##sequence-region LFKEBONE_239 1 13941
+##sequence-region LFKEBONE_240 1 10583
+##sequence-region LFKEBONE_241 1 13532
+##sequence-region LFKEBONE_242 1 10882
+##sequence-region LFKEBONE_243 1 8029
+##sequence-region LFKEBONE_244 1 9869
+##sequence-region LFKEBONE_245 1 4999
+##sequence-region LFKEBONE_246 1 4432
+##sequence-region LFKEBONE_247 1 12191
+##sequence-region LFKEBONE_248 1 12510
+##sequence-region LFKEBONE_249 1 6962
+##sequence-region LFKEBONE_250 1 12775
+##sequence-region LFKEBONE_251 1 7948
+##sequence-region LFKEBONE_252 1 4014
+##sequence-region LFKEBONE_253 1 5487
+##sequence-region LFKEBONE_254 1 17416
+##sequence-region LFKEBONE_255 1 6103
+##sequence-region LFKEBONE_256 1 12360
+##sequence-region LFKEBONE_257 1 15814
+##sequence-region LFKEBONE_258 1 5418
+##sequence-region LFKEBONE_259 1 8477
+##sequence-region LFKEBONE_260 1 16108
+##sequence-region LFKEBONE_261 1 14498
+##sequence-region LFKEBONE_262 1 14350
+##sequence-region LFKEBONE_263 1 31920
+##sequence-region LFKEBONE_264 1 5287
+##sequence-region LFKEBONE_265 1 3526
+##sequence-region LFKEBONE_266 1 13870
+##sequence-region LFKEBONE_267 1 18118
+##sequence-region LFKEBONE_268 1 4067
+##sequence-region LFKEBONE_269 1 4566
+##sequence-region LFKEBONE_270 1 7698
+##sequence-region LFKEBONE_271 1 19927
+##sequence-region LFKEBONE_272 1 24465
+##sequence-region LFKEBONE_273 1 10661
+##sequence-region LFKEBONE_274 1 5977
+##sequence-region LFKEBONE_275 1 8498
+##sequence-region LFKEBONE_276 1 6866
+##sequence-region LFKEBONE_277 1 15871
+##sequence-region LFKEBONE_278 1 5298
+##sequence-region LFKEBONE_279 1 4972
+##sequence-region LFKEBONE_280 1 9930
+##sequence-region LFKEBONE_281 1 29973
+##sequence-region LFKEBONE_282 1 8454
+##sequence-region LFKEBONE_283 1 10128
+##sequence-region LFKEBONE_284 1 17820
+##sequence-region LFKEBONE_285 1 16141
+##sequence-region LFKEBONE_286 1 2935
+##sequence-region LFKEBONE_287 1 5178
+##sequence-region LFKEBONE_288 1 7829
+##sequence-region LFKEBONE_289 1 12697
+##sequence-region LFKEBONE_290 1 12445
+##sequence-region LFKEBONE_291 1 25281
+##sequence-region LFKEBONE_292 1 2612
+##sequence-region LFKEBONE_293 1 4463
+##sequence-region LFKEBONE_294 1 3093
+##sequence-region LFKEBONE_295 1 4433
+##sequence-region LFKEBONE_296 1 4860
+##sequence-region LFKEBONE_297 1 6231
+##sequence-region LFKEBONE_298 1 8915
+##sequence-region LFKEBONE_299 1 2580
+##sequence-region LFKEBONE_300 1 10320
+##sequence-region LFKEBONE_301 1 7696
+LFKEBONE_158	pseudofinder	gene	1	687	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 29.4%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_158_pseudo_00001;old_locus_tag=LFKEBONE_01036
+LFKEBONE_115	pseudofinder	gene	7	1179	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 60.4%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_115_pseudo_00002;old_locus_tag=LFKEBONE_00666
+LFKEBONE_94	pseudofinder	gene	14	862	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 58.8%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_94_pseudo_00003;old_locus_tag=LFKEBONE_00549
+LFKEBONE_123	pseudofinder	gene	19	2415	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 62.1%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_123_pseudo_00004;old_locus_tag=LFKEBONE_00726
+LFKEBONE_137	pseudofinder	gene	23	523	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 37.1%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_137_pseudo_00005;old_locus_tag=LFKEBONE_00830
+LFKEBONE_170	pseudofinder	gene	27	521	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 39.9%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_170_pseudo_00006;old_locus_tag=LFKEBONE_01121
+LFKEBONE_178	pseudofinder	gene	29	169	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 44.5%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_178_pseudo_00007;old_locus_tag=LFKEBONE_01178
+LFKEBONE_151	pseudofinder	gene	31	234	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 19.0%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_151_pseudo_00008;old_locus_tag=LFKEBONE_00934
+LFKEBONE_80	pseudofinder	gene	33	545	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 39.8%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_80_pseudo_00009;old_locus_tag=LFKEBONE_00467
+LFKEBONE_166	pseudofinder	gene	34	1224	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 56.5%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_166_pseudo_00010;old_locus_tag=LFKEBONE_01107
+LFKEBONE_162	pseudofinder	gene	45	788	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 53.0%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_162_pseudo_00011;old_locus_tag=LFKEBONE_01080
+LFKEBONE_45	pseudofinder	gene	46	426	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 26.3%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_45_pseudo_00012;old_locus_tag=LFKEBONE_00247
+LFKEBONE_249	pseudofinder	gene	46	243	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 50.4%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_249_pseudo_00013;old_locus_tag=LFKEBONE_01711
+LFKEBONE_239	pseudofinder	gene	49	522	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 64.6%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_239_pseudo_00014;old_locus_tag=LFKEBONE_01650
+LFKEBONE_36	pseudofinder	gene	55	234	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 43.1%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_36_pseudo_00015;old_locus_tag=LFKEBONE_00200
+LFKEBONE_174	pseudofinder	gene	57	245	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 7.2%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_174_pseudo_00016;old_locus_tag=LFKEBONE_01137
+LFKEBONE_193	pseudofinder	gene	61	291	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 23.9%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_193_pseudo_00017;old_locus_tag=LFKEBONE_01311
+LFKEBONE_301	pseudofinder	gene	62	292	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 10.0%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_301_pseudo_00018;old_locus_tag=LFKEBONE_02094
+LFKEBONE_278	pseudofinder	gene	63	677	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 63.0%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_278_pseudo_00019;old_locus_tag=LFKEBONE_01946
+LFKEBONE_177	pseudofinder	gene	69	332	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 19.2%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_177_pseudo_00020;old_locus_tag=LFKEBONE_01171
+LFKEBONE_176	pseudofinder	gene	72	737	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 35.9%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_176_pseudo_00021;old_locus_tag=LFKEBONE_01164
+LFKEBONE_164	pseudofinder	gene	75	1205	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 49.2%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_164_pseudo_00022;old_locus_tag=LFKEBONE_01098
+LFKEBONE_79	pseudofinder	gene	91	633	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 35.4%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_79_pseudo_00023;old_locus_tag=LFKEBONE_00450
+LFKEBONE_219	pseudofinder	gene	111	716	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 29.1%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_219_pseudo_00024;old_locus_tag=LFKEBONE_01516
+LFKEBONE_50	pseudofinder	gene	116	352	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 61.2%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_50_pseudo_00025;old_locus_tag=LFKEBONE_00282
+LFKEBONE_144	pseudofinder	gene	117	1118	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 39.6%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_144_pseudo_00026;old_locus_tag=LFKEBONE_00893
+LFKEBONE_28	pseudofinder	gene	132	419	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 34.5%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_28_pseudo_00027;old_locus_tag=LFKEBONE_00149
+LFKEBONE_252	pseudofinder	gene	149	676	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 37.2%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_252_pseudo_00028;old_locus_tag=LFKEBONE_01739
+LFKEBONE_229	pseudofinder	gene	161	805	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 38.5%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_229_pseudo_00029;old_locus_tag=LFKEBONE_01582
+LFKEBONE_209	pseudofinder	gene	195	824	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 39.2%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_209_pseudo_00030;old_locus_tag=LFKEBONE_01438
+LFKEBONE_103	pseudofinder	gene	210	358	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_103_pseudo_00031;old_locus_tag=LFKEBONE_103_ign_00001
+LFKEBONE_276	pseudofinder	gene	213	445	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_276_pseudo_00032;old_locus_tag=LFKEBONE_276_ign_00001
+LFKEBONE_10	pseudofinder	gene	236	1078	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 19.2%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_10_pseudo_00033;old_locus_tag=LFKEBONE_00046
+LFKEBONE_63	pseudofinder	gene	246	712	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_63_pseudo_00034;old_locus_tag=LFKEBONE_63_ign_00001
+LFKEBONE_68	pseudofinder	gene	280	468	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 24.9%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_68_pseudo_00035;old_locus_tag=LFKEBONE_00362
+LFKEBONE_32	pseudofinder	gene	284	1182	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_32_pseudo_00036;old_locus_tag=LFKEBONE_32_ign_00001
+LFKEBONE_6	pseudofinder	gene	286	425	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_6_pseudo_00037;old_locus_tag=LFKEBONE_6_ign_00001
+LFKEBONE_242	pseudofinder	gene	291	1051	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_242_pseudo_00038;old_locus_tag=LFKEBONE_242_ign_00001
+LFKEBONE_100	pseudofinder	gene	348	625	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_100_pseudo_00039;old_locus_tag=LFKEBONE_100_ign_00001
+LFKEBONE_107	pseudofinder	gene	466	1007	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_107_pseudo_00040;old_locus_tag=LFKEBONE_107_ign_00002
+LFKEBONE_103	pseudofinder	gene	588	1561	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_103_pseudo_00041;old_locus_tag=LFKEBONE_103_ign_00002
+LFKEBONE_289	pseudofinder	gene	591	1015	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_289_pseudo_00042;old_locus_tag=LFKEBONE_289_ign_00001
+LFKEBONE_215	pseudofinder	gene	592	1071	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=LFKEBONE_215_pseudo_00043;old_locus_tag=LFKEBONE_01485,LFKEBONE_215_ign_00001,LFKEBONE_01486
+LFKEBONE_266	pseudofinder	gene	594	697	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_266_pseudo_00044;old_locus_tag=LFKEBONE_266_ign_00001
+LFKEBONE_102	pseudofinder	gene	609	815	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 52.6%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_102_pseudo_00045;old_locus_tag=LFKEBONE_00601
+LFKEBONE_280	pseudofinder	gene	623	766	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 13.2%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_280_pseudo_00046;old_locus_tag=LFKEBONE_01953
+LFKEBONE_81	pseudofinder	gene	642	982	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_81_pseudo_00047;old_locus_tag=LFKEBONE_81_ign_00001
+LFKEBONE_140	pseudofinder	gene	642	755	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 7.3%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_140_pseudo_00048;old_locus_tag=LFKEBONE_00854
+LFKEBONE_129	pseudofinder	gene	779	955	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 14.4%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_129_pseudo_00049;old_locus_tag=LFKEBONE_00788
+LFKEBONE_187	pseudofinder	gene	812	966	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 9 blast hits.;locus_tag=LFKEBONE_187_pseudo_00050;old_locus_tag=LFKEBONE_187_ign_00001
+LFKEBONE_63	pseudofinder	gene	813	1009	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_63_pseudo_00051;old_locus_tag=LFKEBONE_63_ign_00002
+LFKEBONE_140	pseudofinder	gene	890	1344	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_140_pseudo_00052;old_locus_tag=LFKEBONE_140_ign_00001
+LFKEBONE_131	pseudofinder	gene	928	1998	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 28.3%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_131_pseudo_00053;old_locus_tag=LFKEBONE_00797
+LFKEBONE_67	pseudofinder	gene	940	1149	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 45.4%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_67_pseudo_00054;old_locus_tag=LFKEBONE_00352
+LFKEBONE_129	pseudofinder	gene	978	1174	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_129_pseudo_00055;old_locus_tag=LFKEBONE_129_ign_00001
+LFKEBONE_280	pseudofinder	gene	1011	1289	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 27.0%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_280_pseudo_00056;old_locus_tag=LFKEBONE_01954
+LFKEBONE_265	pseudofinder	gene	1021	2192	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_265_pseudo_00057;old_locus_tag=LFKEBONE_265_ign_00001
+LFKEBONE_301	pseudofinder	gene	1031	1501	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 63.8%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_301_pseudo_00058;old_locus_tag=LFKEBONE_02095
+LFKEBONE_174	pseudofinder	gene	1056	2311	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_174_pseudo_00059;old_locus_tag=LFKEBONE_174_ign_00001
+LFKEBONE_274	pseudofinder	gene	1080	1240	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_274_pseudo_00060;old_locus_tag=LFKEBONE_274_ign_00001
+LFKEBONE_40	pseudofinder	gene	1203	1574	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 29.0%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_40_pseudo_00061;old_locus_tag=LFKEBONE_00228
+LFKEBONE_280	pseudofinder	gene	1304	1422	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 12 blast hits.;locus_tag=LFKEBONE_280_pseudo_00062;old_locus_tag=LFKEBONE_280_ign_00002
+LFKEBONE_241	pseudofinder	gene	1332	1706	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 42.7%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_241_pseudo_00063;old_locus_tag=LFKEBONE_01665
+LFKEBONE_213	pseudofinder	gene	1334	1815	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=LFKEBONE_213_pseudo_00064;old_locus_tag=LFKEBONE_213_ign_00001,LFKEBONE_213_ign_00002,LFKEBONE_01471
+LFKEBONE_169	pseudofinder	gene	1420	1910	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_169_pseudo_00065;old_locus_tag=LFKEBONE_169_ign_00001
+LFKEBONE_280	pseudofinder	gene	1424	1821	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=LFKEBONE_280_pseudo_00066;old_locus_tag=LFKEBONE_01955,LFKEBONE_280_ign_00003
+LFKEBONE_52	pseudofinder	gene	1434	1633	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_52_pseudo_00067;old_locus_tag=LFKEBONE_52_ign_00001
+LFKEBONE_191	pseudofinder	gene	1491	1867	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_191_pseudo_00068;old_locus_tag=LFKEBONE_191_ign_00001
+LFKEBONE_44	pseudofinder	gene	1492	2157	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 47.9%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_44_pseudo_00069;old_locus_tag=LFKEBONE_00243
+LFKEBONE_301	pseudofinder	gene	1502	1713	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_301_pseudo_00070;old_locus_tag=LFKEBONE_301_ign_00002
+LFKEBONE_3	pseudofinder	gene	1506	1621	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_3_pseudo_00071;old_locus_tag=LFKEBONE_3_ign_00001
+LFKEBONE_151	pseudofinder	gene	1511	1984	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 49.3%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_151_pseudo_00072;old_locus_tag=LFKEBONE_00937
+LFKEBONE_5	pseudofinder	gene	1601	1783	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 12.0%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_5_pseudo_00073;old_locus_tag=LFKEBONE_00031
+LFKEBONE_237	pseudofinder	gene	1640	1779	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_237_pseudo_00074;old_locus_tag=LFKEBONE_237_ign_00001
+LFKEBONE_260	pseudofinder	gene	1710	1849	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_260_pseudo_00075;old_locus_tag=LFKEBONE_260_ign_00001
+LFKEBONE_301	pseudofinder	gene	1715	1852	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 21.2%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_301_pseudo_00076;old_locus_tag=LFKEBONE_02096
+LFKEBONE_52	pseudofinder	gene	1737	2069	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 62.0%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_52_pseudo_00077;old_locus_tag=LFKEBONE_00294
+LFKEBONE_260	pseudofinder	gene	1851	2015	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 17.6%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_260_pseudo_00078;old_locus_tag=LFKEBONE_01788
+LFKEBONE_279	pseudofinder	gene	1875	2620	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_279_pseudo_00079;old_locus_tag=LFKEBONE_279_ign_00001
+LFKEBONE_8	pseudofinder	gene	2039	2839	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 42.0%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_8_pseudo_00080;old_locus_tag=LFKEBONE_00040
+LFKEBONE_163	pseudofinder	gene	2052	2285	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 20.2%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_163_pseudo_00081;old_locus_tag=LFKEBONE_01084
+LFKEBONE_47	pseudofinder	gene	2075	2200	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 47.7%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_47_pseudo_00082;old_locus_tag=LFKEBONE_00268
+LFKEBONE_148	pseudofinder	gene	2088	2690	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 53.0%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_148_pseudo_00083;old_locus_tag=LFKEBONE_00930
+LFKEBONE_44	pseudofinder	gene	2158	2435	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_44_pseudo_00084;old_locus_tag=LFKEBONE_44_ign_00001
+LFKEBONE_192	pseudofinder	gene	2163	2332	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_192_pseudo_00085;old_locus_tag=LFKEBONE_192_ign_00001
+LFKEBONE_47	pseudofinder	gene	2203	2480	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_47_pseudo_00086;old_locus_tag=LFKEBONE_47_ign_00001
+LFKEBONE_20	pseudofinder	gene	2249	3743	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_20_pseudo_00087;old_locus_tag=LFKEBONE_20_ign_00002
+LFKEBONE_82	pseudofinder	gene	2263	3093	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 54.7%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_82_pseudo_00088;old_locus_tag=LFKEBONE_00479
+LFKEBONE_139	pseudofinder	gene	2291	2575	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 36.2%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_139_pseudo_00089;old_locus_tag=LFKEBONE_00853
+LFKEBONE_192	pseudofinder	gene	2334	2564	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 35.8%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_192_pseudo_00090;old_locus_tag=LFKEBONE_01309
+LFKEBONE_163	pseudofinder	gene	2338	2525	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_163_pseudo_00091;old_locus_tag=LFKEBONE_163_ign_00001
+LFKEBONE_237	pseudofinder	gene	2384	2559	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_237_pseudo_00092;old_locus_tag=LFKEBONE_237_ign_00003
+LFKEBONE_222	pseudofinder	gene	2427	2773	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_222_pseudo_00093;old_locus_tag=LFKEBONE_222_ign_00001
+LFKEBONE_299	pseudofinder	gene	2431	2556	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 9.3%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_299_pseudo_00094;old_locus_tag=LFKEBONE_02087
+LFKEBONE_44	pseudofinder	gene	2437	2928	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 37.2%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_44_pseudo_00095;old_locus_tag=LFKEBONE_00244
+LFKEBONE_78	pseudofinder	gene	2469	3239	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 54.5%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_78_pseudo_00096;old_locus_tag=LFKEBONE_00449
+LFKEBONE_163	pseudofinder	gene	2528	2692	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 15.4%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_163_pseudo_00097;old_locus_tag=LFKEBONE_01085
+LFKEBONE_187	pseudofinder	gene	2689	2958	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 17.6%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_187_pseudo_00098;old_locus_tag=LFKEBONE_01246
+LFKEBONE_163	pseudofinder	gene	2705	3003	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_163_pseudo_00099;old_locus_tag=LFKEBONE_163_ign_00002
+LFKEBONE_260	pseudofinder	gene	2715	2825	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 15.5%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_260_pseudo_00100;old_locus_tag=LFKEBONE_01789
+LFKEBONE_156	pseudofinder	gene	2797	2958	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 46.3%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_156_pseudo_00101;old_locus_tag=LFKEBONE_01006
+LFKEBONE_260	pseudofinder	gene	2856	3287	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=LFKEBONE_260_pseudo_00102;old_locus_tag=LFKEBONE_260_ign_00004,LFKEBONE_01790
+LFKEBONE_188	pseudofinder	gene	2858	3198	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_188_pseudo_00103;old_locus_tag=LFKEBONE_188_ign_00001
+LFKEBONE_67	pseudofinder	gene	2888	3169	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 142.9%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_67_pseudo_00104;old_locus_tag=LFKEBONE_00356
+LFKEBONE_187	pseudofinder	gene	2959	3146	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_187_pseudo_00105;old_locus_tag=LFKEBONE_187_ign_00003
+LFKEBONE_163	pseudofinder	gene	3005	3271	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 25.0%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_163_pseudo_00106;old_locus_tag=LFKEBONE_01086
+LFKEBONE_171	pseudofinder	gene	3026	4224	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_171_pseudo_00107;old_locus_tag=LFKEBONE_171_ign_00002
+LFKEBONE_145	pseudofinder	gene	3088	3504	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 55.8%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_145_pseudo_00108;old_locus_tag=LFKEBONE_00904
+LFKEBONE_187	pseudofinder	gene	3148	3267	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 7.9%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_187_pseudo_00109;old_locus_tag=LFKEBONE_01247
+LFKEBONE_233	pseudofinder	gene	3190	3336	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 45.9%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_233_pseudo_00110;old_locus_tag=LFKEBONE_01602
+LFKEBONE_50	pseudofinder	gene	3221	3924	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_50_pseudo_00111;old_locus_tag=LFKEBONE_50_ign_00004
+LFKEBONE_244	pseudofinder	gene	3269	3529	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 20.7%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_244_pseudo_00112;old_locus_tag=LFKEBONE_01682
+LFKEBONE_187	pseudofinder	gene	3271	3575	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_187_pseudo_00113;old_locus_tag=LFKEBONE_187_ign_00004
+LFKEBONE_260	pseudofinder	gene	3289	3654	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 49.0%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_260_pseudo_00114;old_locus_tag=LFKEBONE_01791
+LFKEBONE_248	pseudofinder	gene	3298	3864	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=LFKEBONE_248_pseudo_00115;old_locus_tag=LFKEBONE_01704,LFKEBONE_248_ign_00001
+LFKEBONE_113	pseudofinder	gene	3444	3596	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 20.3%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_113_pseudo_00116;old_locus_tag=LFKEBONE_00662
+LFKEBONE_81	pseudofinder	gene	3446	3735	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_81_pseudo_00117;old_locus_tag=LFKEBONE_81_ign_00002
+LFKEBONE_244	pseudofinder	gene	3523	4290	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 54.4%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_244_pseudo_00118;old_locus_tag=LFKEBONE_01683
+LFKEBONE_296	pseudofinder	gene	3550	4686	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 37.9%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_296_pseudo_00119;old_locus_tag=LFKEBONE_02070
+LFKEBONE_47	pseudofinder	gene	3561	3748	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_47_pseudo_00120;old_locus_tag=LFKEBONE_47_ign_00002
+LFKEBONE_187	pseudofinder	gene	3582	3866	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 18.3%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_187_pseudo_00121;old_locus_tag=LFKEBONE_01248
+LFKEBONE_173	pseudofinder	gene	3615	4171	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=LFKEBONE_173_pseudo_00122;old_locus_tag=LFKEBONE_01135,LFKEBONE_173_ign_00002,LFKEBONE_173_ign_00003
+LFKEBONE_192	pseudofinder	gene	3693	4021	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 8 blast hits.;locus_tag=LFKEBONE_192_pseudo_00123;old_locus_tag=LFKEBONE_192_ign_00002
+LFKEBONE_94	pseudofinder	gene	3731	3910	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 18.6%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_94_pseudo_00124;old_locus_tag=LFKEBONE_00552
+LFKEBONE_81	pseudofinder	gene	3774	3959	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 24.2%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_81_pseudo_00125;old_locus_tag=LFKEBONE_00475
+LFKEBONE_154	pseudofinder	gene	3977	4642	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 25.0%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_154_pseudo_00126;old_locus_tag=LFKEBONE_00961
+LFKEBONE_187	pseudofinder	gene	4016	4233	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_187_pseudo_00127;old_locus_tag=LFKEBONE_187_ign_00005
+LFKEBONE_75	pseudofinder	gene	4023	4439	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 44.4%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_75_pseudo_00128;old_locus_tag=LFKEBONE_00405
+LFKEBONE_118	pseudofinder	gene	4083	4318	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_118_pseudo_00129;old_locus_tag=LFKEBONE_118_ign_00004
+LFKEBONE_94	pseudofinder	gene	4094	4419	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_94_pseudo_00130;old_locus_tag=LFKEBONE_94_ign_00004
+LFKEBONE_301	pseudofinder	gene	4132	5774	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_301_pseudo_00131;old_locus_tag=LFKEBONE_301_ign_00005
+LFKEBONE_58	pseudofinder	gene	4147	4865	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_58_pseudo_00132;old_locus_tag=LFKEBONE_58_ign_00003
+LFKEBONE_60	pseudofinder	gene	4224	4427	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 44.3%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_60_pseudo_00133;old_locus_tag=LFKEBONE_00327
+LFKEBONE_244	pseudofinder	gene	4236	4613	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 29.9%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_244_pseudo_00134;old_locus_tag=LFKEBONE_01684
+LFKEBONE_254	pseudofinder	gene	4324	4829	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_254_pseudo_00135;old_locus_tag=LFKEBONE_254_ign_00004
+LFKEBONE_179	pseudofinder	gene	4360	4628	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_179_pseudo_00136;old_locus_tag=LFKEBONE_179_ign_00003
+LFKEBONE_50	pseudofinder	gene	4394	4668	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_50_pseudo_00137;old_locus_tag=LFKEBONE_50_ign_00005
+LFKEBONE_187	pseudofinder	gene	4433	4900	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_187_pseudo_00138;old_locus_tag=LFKEBONE_187_ign_00006
+LFKEBONE_75	pseudofinder	gene	4475	4759	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 31.6%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_75_pseudo_00139;old_locus_tag=LFKEBONE_00406
+LFKEBONE_81	pseudofinder	gene	4553	5076	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_81_pseudo_00140;old_locus_tag=LFKEBONE_81_ign_00003
+LFKEBONE_114	pseudofinder	gene	4594	5043	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 30.9%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_114_pseudo_00141;old_locus_tag=LFKEBONE_00665
+LFKEBONE_244	pseudofinder	gene	4614	4699	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_244_pseudo_00142;old_locus_tag=LFKEBONE_244_ign_00002
+LFKEBONE_179	pseudofinder	gene	4634	4792	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 26.0%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_179_pseudo_00143;old_locus_tag=LFKEBONE_01188
+LFKEBONE_20	pseudofinder	gene	4649	4873	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 18.7%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_20_pseudo_00144;old_locus_tag=LFKEBONE_00107
+LFKEBONE_221	pseudofinder	gene	4661	5587	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 39.6%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_221_pseudo_00145;old_locus_tag=LFKEBONE_01536
+LFKEBONE_244	pseudofinder	gene	4702	4974	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 32.7%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_244_pseudo_00146;old_locus_tag=LFKEBONE_01685
+LFKEBONE_128	pseudofinder	gene	4721	5434	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 45.3%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_128_pseudo_00147;old_locus_tag=LFKEBONE_00787
+LFKEBONE_75	pseudofinder	gene	4731	5030	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 35.7%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_75_pseudo_00148;old_locus_tag=LFKEBONE_00407
+LFKEBONE_276	pseudofinder	gene	4788	4922	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 40.3%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_276_pseudo_00149;old_locus_tag=LFKEBONE_01935
+LFKEBONE_179	pseudofinder	gene	4794	5120	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 56.3%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_179_pseudo_00150;old_locus_tag=LFKEBONE_01189
+LFKEBONE_278	pseudofinder	gene	4823	5272	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 58.0%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_278_pseudo_00151;old_locus_tag=LFKEBONE_01949
+LFKEBONE_214	pseudofinder	gene	4859	5190	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 9 blast hits.;locus_tag=LFKEBONE_214_pseudo_00152;old_locus_tag=LFKEBONE_214_ign_00004
+LFKEBONE_20	pseudofinder	gene	4878	4945	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_20_pseudo_00153;old_locus_tag=LFKEBONE_20_ign_00003
+LFKEBONE_20	pseudofinder	gene	4947	5243	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 21.5%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_20_pseudo_00154;old_locus_tag=LFKEBONE_00108
+LFKEBONE_276	pseudofinder	gene	4954	5150	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_276_pseudo_00155;old_locus_tag=LFKEBONE_276_ign_00004
+LFKEBONE_10	pseudofinder	gene	4989	5240	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 35.3%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_10_pseudo_00156;old_locus_tag=LFKEBONE_00050
+LFKEBONE_248	pseudofinder	gene	5088	5360	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 16.2%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_248_pseudo_00157;old_locus_tag=LFKEBONE_01706
+LFKEBONE_254	pseudofinder	gene	5273	5647	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 33.4%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_254_pseudo_00158;old_locus_tag=LFKEBONE_01749
+LFKEBONE_225	pseudofinder	gene	5432	6028	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 36.8%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_225_pseudo_00159;old_locus_tag=LFKEBONE_01569
+LFKEBONE_274	pseudofinder	gene	5445	5966	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 40.8%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_274_pseudo_00160;old_locus_tag=LFKEBONE_01927
+LFKEBONE_140	pseudofinder	gene	5524	5615	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 14 blast hits.;locus_tag=LFKEBONE_140_pseudo_00161;old_locus_tag=LFKEBONE_140_ign_00003
+LFKEBONE_24	pseudofinder	gene	5524	5717	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_24_pseudo_00162;old_locus_tag=LFKEBONE_24_ign_00002
+LFKEBONE_77	pseudofinder	gene	5606	6573	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=LFKEBONE_77_pseudo_00163;old_locus_tag=LFKEBONE_00445,LFKEBONE_77_ign_00004
+LFKEBONE_53	pseudofinder	gene	5654	6051	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_53_pseudo_00164;old_locus_tag=LFKEBONE_53_ign_00003
+LFKEBONE_3	pseudofinder	gene	5722	5925	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 27.8%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_3_pseudo_00165;old_locus_tag=LFKEBONE_00025
+LFKEBONE_200	pseudofinder	gene	5790	6395	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 38.5%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_200_pseudo_00166;old_locus_tag=LFKEBONE_01372
+LFKEBONE_204	pseudofinder	gene	5972	6097	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 19.7%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_204_pseudo_00167;old_locus_tag=LFKEBONE_01396
+LFKEBONE_178	pseudofinder	gene	6009	7342	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_178_pseudo_00168;old_locus_tag=LFKEBONE_178_ign_00005
+LFKEBONE_247	pseudofinder	gene	6022	6299	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_247_pseudo_00169;old_locus_tag=LFKEBONE_247_ign_00002
+LFKEBONE_190	pseudofinder	gene	6030	6248	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 20.9%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_190_pseudo_00170;old_locus_tag=LFKEBONE_01300
+LFKEBONE_76	pseudofinder	gene	6093	6551	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 57.2%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_76_pseudo_00171;old_locus_tag=LFKEBONE_00424
+LFKEBONE_204	pseudofinder	gene	6143	6673	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_204_pseudo_00172;old_locus_tag=LFKEBONE_204_ign_00004
+LFKEBONE_24	pseudofinder	gene	6218	6451	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 15.6%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_24_pseudo_00173;old_locus_tag=LFKEBONE_00127
+LFKEBONE_190	pseudofinder	gene	6253	6878	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_190_pseudo_00174;old_locus_tag=LFKEBONE_190_ign_00007
+LFKEBONE_3	pseudofinder	gene	6277	6501	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 19.4%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_3_pseudo_00175;old_locus_tag=LFKEBONE_00026
+LFKEBONE_276	pseudofinder	gene	6592	6756	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 15.0%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_276_pseudo_00176;old_locus_tag=LFKEBONE_01937
+LFKEBONE_176	pseudofinder	gene	6606	6775	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=LFKEBONE_176_pseudo_00177;old_locus_tag=LFKEBONE_176_ign_00005
+LFKEBONE_88	pseudofinder	gene	6621	6778	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_88_pseudo_00178;old_locus_tag=LFKEBONE_88_ign_00004
+LFKEBONE_236	pseudofinder	gene	6684	7276	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=LFKEBONE_236_pseudo_00179;old_locus_tag=LFKEBONE_236_ign_00005,LFKEBONE_01633
+LFKEBONE_77	pseudofinder	gene	6761	7321	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 64.2%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_77_pseudo_00180;old_locus_tag=LFKEBONE_00446
+LFKEBONE_213	pseudofinder	gene	6807	7081	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_213_pseudo_00181;old_locus_tag=LFKEBONE_213_ign_00006
+LFKEBONE_135	pseudofinder	gene	7053	7510	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_135_pseudo_00182;old_locus_tag=LFKEBONE_135_ign_00003
+LFKEBONE_66	pseudofinder	gene	7080	7441	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_66_pseudo_00183;old_locus_tag=LFKEBONE_66_ign_00005
+LFKEBONE_213	pseudofinder	gene	7085	7246	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 42.9%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_213_pseudo_00184;old_locus_tag=LFKEBONE_01476
+LFKEBONE_48	pseudofinder	gene	7109	7591	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 50.8%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_48_pseudo_00185;old_locus_tag=LFKEBONE_00277
+LFKEBONE_88	pseudofinder	gene	7145	7597	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 152.5%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_88_pseudo_00186;old_locus_tag=LFKEBONE_00535
+LFKEBONE_187	pseudofinder	gene	7155	7343	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 53.4%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_187_pseudo_00187;old_locus_tag=LFKEBONE_01251
+LFKEBONE_176	pseudofinder	gene	7208	7348	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 13.3%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_176_pseudo_00188;old_locus_tag=LFKEBONE_01170
+LFKEBONE_213	pseudofinder	gene	7248	7345	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_213_pseudo_00189;old_locus_tag=LFKEBONE_213_ign_00007
+LFKEBONE_77	pseudofinder	gene	7263	7502	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 50.8%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_77_pseudo_00190;old_locus_tag=LFKEBONE_00447
+LFKEBONE_213	pseudofinder	gene	7349	7597	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 56.9%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_213_pseudo_00191;old_locus_tag=LFKEBONE_01477
+LFKEBONE_187	pseudofinder	gene	7409	8347	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=LFKEBONE_187_pseudo_00192;old_locus_tag=LFKEBONE_187_ign_00009,LFKEBONE_01252
+LFKEBONE_87	pseudofinder	gene	7415	8091	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=LFKEBONE_87_pseudo_00193;old_locus_tag=LFKEBONE_87_ign_00004,LFKEBONE_00526
+LFKEBONE_120	pseudofinder	gene	7426	7817	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_120_pseudo_00194;old_locus_tag=LFKEBONE_120_ign_00005
+LFKEBONE_282	pseudofinder	gene	7512	7645	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_282_pseudo_00195;old_locus_tag=LFKEBONE_282_ign_00003
+LFKEBONE_66	pseudofinder	gene	7671	7891	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_66_pseudo_00196;old_locus_tag=LFKEBONE_66_ign_00006
+LFKEBONE_135	pseudofinder	gene	7780	8046	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 25.0%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_135_pseudo_00197;old_locus_tag=LFKEBONE_00826
+LFKEBONE_66	pseudofinder	gene	7895	8005	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 60.7%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_66_pseudo_00198;old_locus_tag=LFKEBONE_00351
+LFKEBONE_81	pseudofinder	gene	7955	8140	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 55.5%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_81_pseudo_00199;old_locus_tag=LFKEBONE_00477
+LFKEBONE_177	pseudofinder	gene	7970	8134	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 11.6%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_177_pseudo_00200;old_locus_tag=LFKEBONE_01177
+LFKEBONE_267	pseudofinder	gene	8003	8327	.	+	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=LFKEBONE_267_pseudo_00201;old_locus_tag=LFKEBONE_01864,LFKEBONE_267_ign_00007
+LFKEBONE_6	pseudofinder	gene	8178	8489	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 20.3%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_6_pseudo_00202;old_locus_tag=LFKEBONE_00038
+LFKEBONE_137	pseudofinder	gene	8215	8429	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_137_pseudo_00203;old_locus_tag=LFKEBONE_137_ign_00008
+LFKEBONE_112	pseudofinder	gene	8325	8641	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_112_pseudo_00204;old_locus_tag=LFKEBONE_112_ign_00003
+LFKEBONE_14	pseudofinder	gene	8388	10229	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 7 blast hits.;locus_tag=LFKEBONE_14_pseudo_00205;old_locus_tag=LFKEBONE_14_ign_00003
+LFKEBONE_72	pseudofinder	gene	8507	8802	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 6 blast hits.;locus_tag=LFKEBONE_72_pseudo_00206;old_locus_tag=LFKEBONE_72_ign_00005
+LFKEBONE_112	pseudofinder	gene	8763	8978	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 22.3%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_112_pseudo_00207;old_locus_tag=LFKEBONE_00651
+LFKEBONE_223	pseudofinder	gene	8909	9004	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 22.6%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_223_pseudo_00208;old_locus_tag=LFKEBONE_01550
+LFKEBONE_67	pseudofinder	gene	8950	9159	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 43.2%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_67_pseudo_00209;old_locus_tag=LFKEBONE_00360
+LFKEBONE_229	pseudofinder	gene	8978	9048	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 9 blast hits.;locus_tag=LFKEBONE_229_pseudo_00210;old_locus_tag=LFKEBONE_229_ign_00003
+LFKEBONE_38	pseudofinder	gene	8987	9285	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_38_pseudo_00211;old_locus_tag=LFKEBONE_38_ign_00007
+LFKEBONE_223	pseudofinder	gene	9010	9368	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_223_pseudo_00212;old_locus_tag=LFKEBONE_223_ign_00010
+LFKEBONE_67	pseudofinder	gene	9161	9462	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_67_pseudo_00213;old_locus_tag=LFKEBONE_67_ign_00009
+LFKEBONE_248	pseudofinder	gene	9259	9560	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_248_pseudo_00214;old_locus_tag=LFKEBONE_248_ign_00006
+LFKEBONE_205	pseudofinder	gene	9452	9763	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 25.7%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_205_pseudo_00215;old_locus_tag=LFKEBONE_01405
+LFKEBONE_273	pseudofinder	gene	9491	10495	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 44.0%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_273_pseudo_00216;old_locus_tag=LFKEBONE_01921
+LFKEBONE_83	pseudofinder	gene	9564	9937	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_83_pseudo_00217;old_locus_tag=LFKEBONE_83_ign_00006
+LFKEBONE_165	pseudofinder	gene	9744	10057	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_165_pseudo_00218;old_locus_tag=LFKEBONE_165_ign_00006
+LFKEBONE_151	pseudofinder	gene	9871	10316	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_151_pseudo_00219;old_locus_tag=LFKEBONE_151_ign_00009
+LFKEBONE_87	pseudofinder	gene	10309	11064	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 42.9%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_87_pseudo_00220;old_locus_tag=LFKEBONE_00528
+LFKEBONE_185	pseudofinder	gene	10412	10608	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_185_pseudo_00221;old_locus_tag=LFKEBONE_185_ign_00006
+LFKEBONE_223	pseudofinder	gene	10757	11182	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 48.4%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_223_pseudo_00222;old_locus_tag=LFKEBONE_01552
+LFKEBONE_285	pseudofinder	gene	10879	11270	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_285_pseudo_00223;old_locus_tag=LFKEBONE_285_ign_00005
+LFKEBONE_116	pseudofinder	gene	10922	12298	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 64.2%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_116_pseudo_00224;old_locus_tag=LFKEBONE_00674
+LFKEBONE_187	pseudofinder	gene	11088	11335	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_187_pseudo_00225;old_locus_tag=LFKEBONE_187_ign_00011
+LFKEBONE_236	pseudofinder	gene	11185	11657	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_236_pseudo_00226;old_locus_tag=LFKEBONE_236_ign_00008
+LFKEBONE_187	pseudofinder	gene	11339	11641	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 31.9%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_187_pseudo_00227;old_locus_tag=LFKEBONE_01255
+LFKEBONE_219	pseudofinder	gene	11489	11764	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 49.6%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_219_pseudo_00228;old_locus_tag=LFKEBONE_01521
+LFKEBONE_187	pseudofinder	gene	11643	11824	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_187_pseudo_00229;old_locus_tag=LFKEBONE_187_ign_00012
+LFKEBONE_239	pseudofinder	gene	11728	11819	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=LFKEBONE_239_pseudo_00230;old_locus_tag=LFKEBONE_239_ign_00008
+LFKEBONE_291	pseudofinder	gene	11751	11936	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 20.9%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_291_pseudo_00231;old_locus_tag=LFKEBONE_02046
+LFKEBONE_106	pseudofinder	gene	11946	12211	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=LFKEBONE_106_pseudo_00232;old_locus_tag=LFKEBONE_106_ign_00007
+LFKEBONE_236	pseudofinder	gene	11989	12119	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_236_pseudo_00233;old_locus_tag=LFKEBONE_236_ign_00009
+LFKEBONE_203	pseudofinder	gene	12139	12269	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_203_pseudo_00234;old_locus_tag=LFKEBONE_203_ign_00007
+LFKEBONE_289	pseudofinder	gene	12139	12654	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 52.5%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_289_pseudo_00235;old_locus_tag=LFKEBONE_02030
+LFKEBONE_14	pseudofinder	gene	12150	12406	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_14_pseudo_00236;old_locus_tag=LFKEBONE_14_ign_00004
+LFKEBONE_291	pseudofinder	gene	12224	12684	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_291_pseudo_00237;old_locus_tag=LFKEBONE_291_ign_00009
+LFKEBONE_267	pseudofinder	gene	12370	12458	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 10 blast hits.;locus_tag=LFKEBONE_267_pseudo_00238;old_locus_tag=LFKEBONE_267_ign_00011
+LFKEBONE_14	pseudofinder	gene	12414	12602	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 18.8%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_14_pseudo_00239;old_locus_tag=LFKEBONE_00076
+LFKEBONE_79	pseudofinder	gene	12536	12886	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 37.9%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_79_pseudo_00240;old_locus_tag=LFKEBONE_00459
+LFKEBONE_250	pseudofinder	gene	12567	12740	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 35.5%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_250_pseudo_00241;old_locus_tag=LFKEBONE_01732
+LFKEBONE_14	pseudofinder	gene	12613	12765	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 20.0%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_14_pseudo_00242;old_locus_tag=LFKEBONE_00077
+LFKEBONE_263	pseudofinder	gene	12615	13279	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_263_pseudo_00243;old_locus_tag=LFKEBONE_263_ign_00007
+LFKEBONE_212	pseudofinder	gene	12665	13221	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_212_pseudo_00244;old_locus_tag=LFKEBONE_212_ign_00006
+LFKEBONE_14	pseudofinder	gene	12762	12974	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 20.9%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_14_pseudo_00245;old_locus_tag=LFKEBONE_00078
+LFKEBONE_79	pseudofinder	gene	12888	13087	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_79_pseudo_00246;old_locus_tag=LFKEBONE_79_ign_00009
+LFKEBONE_160	pseudofinder	gene	12961	13346	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_160_pseudo_00247;old_locus_tag=LFKEBONE_160_ign_00007
+LFKEBONE_79	pseudofinder	gene	13124	13411	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 27.7%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_79_pseudo_00248;old_locus_tag=LFKEBONE_00460
+LFKEBONE_147	pseudofinder	gene	13154	13782	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_147_pseudo_00249;old_locus_tag=LFKEBONE_147_ign_00008
+LFKEBONE_79	pseudofinder	gene	13354	13542	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 21.6%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_79_pseudo_00250;old_locus_tag=LFKEBONE_00461
+LFKEBONE_285	pseudofinder	gene	13433	13722	.	-	.	note=Pseudogene candidate. Reason(s):Predicted fragmentation of a single gene.;locus_tag=LFKEBONE_285_pseudo_00251;old_locus_tag=LFKEBONE_285_ign_00008,LFKEBONE_02004
+LFKEBONE_193	pseudofinder	gene	13504	13847	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_193_pseudo_00252;old_locus_tag=LFKEBONE_193_ign_00008
+LFKEBONE_160	pseudofinder	gene	13614	13754	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 7.9%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_160_pseudo_00253;old_locus_tag=LFKEBONE_01049
+LFKEBONE_285	pseudofinder	gene	13724	14206	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 34.5%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_285_pseudo_00254;old_locus_tag=LFKEBONE_02005
+LFKEBONE_180	pseudofinder	gene	13886	14476	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 42.7%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_180_pseudo_00255;old_locus_tag=LFKEBONE_01209
+LFKEBONE_79	pseudofinder	gene	13985	14296	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 64.8%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_79_pseudo_00256;old_locus_tag=LFKEBONE_00462
+LFKEBONE_285	pseudofinder	gene	14207	14301	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_285_pseudo_00257;old_locus_tag=LFKEBONE_285_ign_00009
+LFKEBONE_234	pseudofinder	gene	14270	14446	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 19.8%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_234_pseudo_00258;old_locus_tag=LFKEBONE_01613
+LFKEBONE_285	pseudofinder	gene	14303	14830	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 31.3%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_285_pseudo_00259;old_locus_tag=LFKEBONE_02006
+LFKEBONE_234	pseudofinder	gene	14447	14871	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_234_pseudo_00260;old_locus_tag=LFKEBONE_234_ign_00011
+LFKEBONE_79	pseudofinder	gene	14477	14578	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 28.4%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_79_pseudo_00261;old_locus_tag=LFKEBONE_00463
+LFKEBONE_79	pseudofinder	gene	14618	14724	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_79_pseudo_00262;old_locus_tag=LFKEBONE_79_ign_00012
+LFKEBONE_285	pseudofinder	gene	14832	15250	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_285_pseudo_00263;old_locus_tag=LFKEBONE_285_ign_00010
+LFKEBONE_24	pseudofinder	gene	15181	15408	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 30.0%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_24_pseudo_00264;old_locus_tag=LFKEBONE_00136
+LFKEBONE_76	pseudofinder	gene	15250	15782	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_76_pseudo_00265;old_locus_tag=LFKEBONE_76_ign_00008
+LFKEBONE_143	pseudofinder	gene	15383	15675	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_143_pseudo_00266;old_locus_tag=LFKEBONE_143_ign_00011
+LFKEBONE_24	pseudofinder	gene	15409	15761	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_24_pseudo_00267;old_locus_tag=LFKEBONE_24_ign_00012
+LFKEBONE_285	pseudofinder	gene	15524	15706	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 11.0%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_285_pseudo_00268;old_locus_tag=LFKEBONE_02008
+LFKEBONE_24	pseudofinder	gene	15763	15957	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 26.0%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_24_pseudo_00269;old_locus_tag=LFKEBONE_00137
+LFKEBONE_127	pseudofinder	gene	15799	16137	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 50.1%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_127_pseudo_00270;old_locus_tag=LFKEBONE_00782
+LFKEBONE_10	pseudofinder	gene	15810	16663	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_10_pseudo_00271;old_locus_tag=LFKEBONE_10_ign_00012
+LFKEBONE_285	pseudofinder	gene	15895	16110	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 15.2%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_285_pseudo_00272;old_locus_tag=LFKEBONE_02009
+LFKEBONE_137	pseudofinder	gene	16062	16205	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 33.4%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_137_pseudo_00273;old_locus_tag=LFKEBONE_00845
+LFKEBONE_76	pseudofinder	gene	16164	16388	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 25.7%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_76_pseudo_00274;old_locus_tag=LFKEBONE_00431
+LFKEBONE_83	pseudofinder	gene	16367	16465	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 60.3%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_83_pseudo_00275;old_locus_tag=LFKEBONE_00493
+LFKEBONE_202	pseudofinder	gene	16536	16678	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_202_pseudo_00276;old_locus_tag=LFKEBONE_202_ign_00005
+LFKEBONE_79	pseudofinder	gene	16575	16787	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 36.9%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_79_pseudo_00277;old_locus_tag=LFKEBONE_00466
+LFKEBONE_76	pseudofinder	gene	16638	16852	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 10 blast hits.;locus_tag=LFKEBONE_76_pseudo_00278;old_locus_tag=LFKEBONE_76_ign_00010
+LFKEBONE_10	pseudofinder	gene	16667	16837	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 36.4%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_10_pseudo_00279;old_locus_tag=LFKEBONE_00058
+LFKEBONE_155	pseudofinder	gene	16670	16831	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 17.8%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_155_pseudo_00280;old_locus_tag=LFKEBONE_00973
+LFKEBONE_202	pseudofinder	gene	16680	16823	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 61.0%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_202_pseudo_00281;old_locus_tag=LFKEBONE_01383
+LFKEBONE_155	pseudofinder	gene	16832	17322	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_155_pseudo_00282;old_locus_tag=LFKEBONE_155_ign_00011
+LFKEBONE_254	pseudofinder	gene	16982	17245	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 63.1%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_254_pseudo_00283;old_locus_tag=LFKEBONE_01760
+LFKEBONE_72	pseudofinder	gene	17097	17255	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 41.1%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_72_pseudo_00284;old_locus_tag=LFKEBONE_00386
+LFKEBONE_72	pseudofinder	gene	17256	17560	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_72_pseudo_00285;old_locus_tag=LFKEBONE_72_ign_00010
+LFKEBONE_155	pseudofinder	gene	17324	17467	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 15.8%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_155_pseudo_00286;old_locus_tag=LFKEBONE_00974
+LFKEBONE_155	pseudofinder	gene	17468	17886	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_155_pseudo_00287;old_locus_tag=LFKEBONE_155_ign_00012
+LFKEBONE_46	pseudofinder	gene	17883	18170	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 135.1%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_46_pseudo_00288;old_locus_tag=LFKEBONE_00263
+LFKEBONE_46	pseudofinder	gene	18072	18169	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 5 blast hits.;locus_tag=LFKEBONE_46_pseudo_00289;old_locus_tag=LFKEBONE_46_ign_00014
+LFKEBONE_112	pseudofinder	gene	18827	19050	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_112_pseudo_00290;old_locus_tag=LFKEBONE_112_ign_00011
+LFKEBONE_112	pseudofinder	gene	19052	19420	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 50.5%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_112_pseudo_00291;old_locus_tag=LFKEBONE_00659
+LFKEBONE_189	pseudofinder	gene	19135	19932	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 34.8%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_189_pseudo_00292;old_locus_tag=LFKEBONE_01293
+LFKEBONE_157	pseudofinder	gene	19283	19683	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_157_pseudo_00293;old_locus_tag=LFKEBONE_157_ign_00013
+LFKEBONE_112	pseudofinder	gene	19506	20753	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 53.5%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_112_pseudo_00294;old_locus_tag=LFKEBONE_00660
+LFKEBONE_291	pseudofinder	gene	19983	20383	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_291_pseudo_00295;old_locus_tag=LFKEBONE_291_ign_00014
+LFKEBONE_72	pseudofinder	gene	21373	21561	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 57.1%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_72_pseudo_00296;old_locus_tag=LFKEBONE_00390
+LFKEBONE_291	pseudofinder	gene	21656	21946	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 13.4%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_291_pseudo_00297;old_locus_tag=LFKEBONE_02055
+LFKEBONE_291	pseudofinder	gene	21947	22497	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_291_pseudo_00298;old_locus_tag=LFKEBONE_291_ign_00016
+LFKEBONE_96	pseudofinder	gene	22192	22395	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 49.4%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_96_pseudo_00299;old_locus_tag=LFKEBONE_00573
+LFKEBONE_291	pseudofinder	gene	22519	22710	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 15.0%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_291_pseudo_00300;old_locus_tag=LFKEBONE_02056
+LFKEBONE_291	pseudofinder	gene	22713	22804	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 8 blast hits.;locus_tag=LFKEBONE_291_pseudo_00301;old_locus_tag=LFKEBONE_291_ign_00017
+LFKEBONE_291	pseudofinder	gene	22806	22952	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 14.0%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_291_pseudo_00302;old_locus_tag=LFKEBONE_02057
+LFKEBONE_291	pseudofinder	gene	22980	23096	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 5.3%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_291_pseudo_00303;old_locus_tag=LFKEBONE_02058
+LFKEBONE_46	pseudofinder	gene	23003	23514	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_46_pseudo_00304;old_locus_tag=LFKEBONE_46_ign_00016
+LFKEBONE_143	pseudofinder	gene	23592	23987	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 48.2%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_143_pseudo_00305;old_locus_tag=LFKEBONE_00892
+LFKEBONE_291	pseudofinder	gene	23593	23889	.	+	.	note=Pseudogene candidate. Reason(s):ORF is 18.2%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_291_pseudo_00306;old_locus_tag=LFKEBONE_02059
+LFKEBONE_291	pseudofinder	gene	24096	24457	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_291_pseudo_00307;old_locus_tag=LFKEBONE_291_ign_00019
+LFKEBONE_157	pseudofinder	gene	24597	25153	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_157_pseudo_00308;old_locus_tag=LFKEBONE_157_ign_00018
+LFKEBONE_160	pseudofinder	gene	25560	25678	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_160_pseudo_00309;old_locus_tag=LFKEBONE_160_ign_00019
+LFKEBONE_96	pseudofinder	gene	25706	26710	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 61.1%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_96_pseudo_00310;old_locus_tag=LFKEBONE_00575
+LFKEBONE_263	pseudofinder	gene	26510	28033	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 63.8%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_263_pseudo_00311;old_locus_tag=LFKEBONE_01835
+LFKEBONE_263	pseudofinder	gene	28034	28800	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_263_pseudo_00312;old_locus_tag=LFKEBONE_263_ign_00014
+LFKEBONE_126	pseudofinder	gene	36489	37504	.	.	.	note=Pseudogene candidate. Reason(s):Intergenic region with 15 blast hits.;locus_tag=LFKEBONE_126_pseudo_00313;old_locus_tag=LFKEBONE_126_ign_00023
+LFKEBONE_155	pseudofinder	gene	39253	39792	.	-	.	note=Pseudogene candidate. Reason(s):ORF is 59.5%25 of the average length of hits to this gene.;locus_tag=LFKEBONE_155_pseudo_00314;old_locus_tag=LFKEBONE_00987

@@ -1,0 +1,1127 @@
+---
+title: "Untitled"
+author: "Vesna"
+date: "2024-05-14"
+output: html_document
+---
+
+#List of packages
+
+```{r}
+library(kableExtra)
+library(tidyverse)
+library(readr)
+library(forcats)
+library(rstatix)
+library(ggpubr)
+library(cowplot)
+library(grid)
+library(RColorBrewer)
+library(patchwork)
+knitr::opts_chunk$set(message = FALSE)
+
+```
+
+
+
+#The dataset `Richelia_gene_clusters_summary.txt.gz` is loaded using `read_delim`, which reads the tab-separated values from the compressed file. Following the initial load, the dataset undergoes a preprocessing step where several columns are removed to streamline the analysis. The columns dropped include `functional_homogeneity_index`, `geometric_homogeneity_index`, `combined_homogeneity_index`, and `aa_sequence`. This column removal is aimed at reducing the complexity and size of the dataset, focusing on the most relevant data for subsequent analysis steps.
+
+```{r}
+
+RichPangenome <- read_delim("Richelia_gene_clusters_summary.txt.gz", "\t")
+RichPangenome <- RichPangenome %>%
+  select(-functional_homogeneity_index, -geometric_homogeneity_index, -combined_homogeneity_index, -aa_sequence)%>%
+  mutate(bin_name = str_replace_all(bin_name, "Acessory_", "Accessory_"))
+
+```
+
+
+#The `RichPangenome` dataframe is updated to categorize gene clusters based on the contents of the `bin_name` column. This is done by using a case-insensitive pattern matching approach to assign each entry into specific categories:
+
+- Entries where `bin_name` contains "core" (irrespective of case) are categorized as "Core".
+- Entries containing "singletons" are categorized as "Singletons".
+- Entries containing any form of "accessory" (also irrespective of case) are categorized as "Flexible".
+- All other entries that do not match these patterns are assigned `NA`.
+
+This categorization helps simplify the dataset for further analysis, ensuring that gene clusters are grouped into meaningful categories based on their bin names. The use of `tolower` ensures that the matching process is case-insensitive, enhancing the robustness of the categorization process.
+
+
+```{r}
+
+RichPangenome <- RichPangenome %>%
+  mutate(bin_name_lower = tolower(bin_name)) %>%
+  mutate(bin = case_when(
+    grepl("core", bin_name_lower, fixed = TRUE) ~ "Core",
+    grepl("singletons", bin_name_lower, fixed = TRUE) ~ "Singletons",
+    grepl("flexible_", bin_name_lower, fixed = FALSE) ~ "Flexible",
+    TRUE ~ NA_character_
+  ))
+
+```
+
+
+
+#Next code performs an analysis to count and compare the distribution of gene clusters across three specific bins—'Flexible', 'Core', and 'Singletons'—within the `RichPangenome` dataset. The breakdown of the process:
+
+1. **Filtering and Counting**: The dataset is first filtered to include only the gene clusters that are categorized under 'Flexible', 'Core', or 'Singletons'. For each gene cluster in these bins, it counts the occurrences grouped by `gene_cluster_id` and `bin`.
+
+2. **Aggregating Counts**: After counting, the data is grouped by `bin` to aggregate these counts. This is achieved by summarizing the number of unique `gene_cluster_id` per bin, giving us the total number of unique gene clusters in each bin.
+
+3. **Distribution into Variables**: The counts are then distributed into separate variables (`vFlexible_Rich`, `vCore_Rich`, `vSingle_Rich`) for each bin. 
+
+4. **Calculating Totals and Percentages**: The total number of gene clusters across all three bins is calculated. Subsequently, the percentage of gene clusters in each bin relative to the total is computed.
+
+```{r}
+# Calculate the number of unique gene clusters in each category
+category_counts <- RichPangenome %>%
+  filter(bin %in% c("Flexible", "Core", "Singletons")) %>%
+  count(gene_cluster_id, bin) %>%
+  group_by(bin) %>%
+  summarise(count = n(), .groups = 'drop')  # This summarise calculates the number of distinct gene_cluster_id for each bin
+
+# Spread counts into separate variables for easier calculations
+vFlexible_Rich <- category_counts$count[category_counts$bin == "Flexible"]
+vCore_Rich <- category_counts$count[category_counts$bin == "Core"]
+vSingle_Rich <- category_counts$count[category_counts$bin == "Singletons"]
+
+# Calculate the total count of gene clusters
+total_clusters <- sum(vFlexible_Rich, vCore_Rich, vSingle_Rich)
+
+# Calculate percentages for each category
+vFlex_rich.p <- round(100 * vFlexible_Rich / total_clusters, 1)
+vCore_rich.p <- round(100 * vCore_Rich / total_clusters, 1)
+vSingle_rich.p <- round(100 * vSingle_Rich / total_clusters, 1)
+
+
+# Create a table with the results
+results_table <- data.frame(
+  Category = c("Flexible", "Core", "Singletons"),
+  Count = c(vFlexible_Rich, vCore_Rich, vSingle_Rich),
+  Percentage = c(vFlex_rich.p, vCore_rich.p, vSingle_rich.p)
+)
+
+# Display the table using kable for better formatting
+kable(results_table)
+
+# Save the dataframe as a TSV file
+write.table(results_table, file = "results_table.tsv", sep = "\t", row.names = FALSE, quote = FALSE)
+
+
+```
+
+#If want to count separatelly for each flexible bin, numbers and percentages of gene clusters in Richelia Pangenome then use this code:
+
+```{r}
+# Calculate the number of unique gene clusters in each category
+category_counts_1 <- RichPangenome %>%
+  filter(bin_name %in% c("Core", "Singletons", "Flexible_1", "Flexible_2", "Flexible_3", "Flexible_4", "Flexible_5", "Flexible_6")) %>%
+  count(gene_cluster_id, bin_name) %>%
+  group_by(bin_name) %>%
+  summarise(count = n(), .groups = 'drop')  # This summarise calculates the number of distinct gene_cluster_id for each bin_name
+
+# Print category counts
+print(category_counts_1)
+
+# Spread counts into separate variables for easier calculations
+vCore_Rich <- category_counts_1$count[category_counts_1$bin_name == "Core"]
+vSingle_Rich <- category_counts_1$count[category_counts_1$bin_name == "Singletons"]
+vFlexible_1_Rich <- category_counts_1$count[category_counts_1$bin_name == "Flexible_1"]
+vFlexible_2_Rich <- category_counts_1$count[category_counts_1$bin_name == "Flexible_2"]
+vFlexible_3_Rich <- category_counts_1$count[category_counts_1$bin_name == "Flexible_3"]
+vFlexible_4_Rich <- category_counts_1$count[category_counts_1$bin_name == "Flexible_4"]
+vFlexible_5_Rich <- category_counts_1$count[category_counts_1$bin_name == "Flexible_5"]
+vFlexible_6_Rich <- category_counts_1$count[category_counts_1$bin_name == "Flexible_6"]
+
+# Calculate the total count of gene clusters
+total_clusters <- sum(vCore_Rich, vSingle_Rich, vFlexible_1_Rich, vFlexible_2_Rich, vFlexible_3_Rich, vFlexible_4_Rich, vFlexible_5_Rich, vFlexible_6_Rich)
+
+# Calculate percentages for each category
+vCore_rich.p <- round(100 * vCore_Rich / total_clusters, 1)
+vSingle_rich.p <- round(100 * vSingle_Rich / total_clusters, 1)
+vFlexible_1_rich.p <- round(100 * vFlexible_1_Rich / total_clusters, 1)
+vFlexible_2_rich.p <- round(100 * vFlexible_2_Rich / total_clusters, 1)
+vFlexible_3_rich.p <- round(100 * vFlexible_3_Rich / total_clusters, 1)
+vFlexible_4_rich.p <- round(100 * vFlexible_4_Rich / total_clusters, 1)
+vFlexible_5_rich.p <- round(100 * vFlexible_5_Rich / total_clusters, 1)
+vFlexible_6_rich.p <- round(100 * vFlexible_6_Rich / total_clusters, 1)
+
+
+# Print the results
+print(paste("Core: ", vCore_Rich, " GCs, ", vCore_rich.p, "%"))
+print(paste("Singletons: ", vSingle_Rich, " GCs, ", vSingle_rich.p, "%"))
+print(paste("Flexible_1: ", vFlexible_1_Rich, " GCs, ", vFlexible_1_rich.p, "%"))
+print(paste("Flexible_2: ", vFlexible_2_Rich, " GCs, ", vFlexible_2_rich.p, "%"))
+print(paste("Flexible_3: ", vFlexible_3_Rich, " GCs, ", vFlexible_3_rich.p, "%"))
+print(paste("Flexible_4: ", vFlexible_4_Rich, " GCs, ", vFlexible_4_rich.p, "%"))
+print(paste("Flexible_5: ", vFlexible_5_Rich, " GCs, ", vFlexible_5_rich.p, "%"))
+print(paste("Flexible_6: ", vFlexible_5_Rich, " GCs, ", vFlexible_6_rich.p, "%"))
+
+# Create a table with the results
+results_table_1 <- data.frame(
+  Category = c("Core", "Singletons", "Flexible_1", "Flexible_2", "Flexible_3", "Flexible_4", "Flexible_5", "Flexible_6"),
+  Count = c(vCore_Rich, vSingle_Rich, vFlexible_1_Rich, vFlexible_2_Rich, vFlexible_3_Rich, vFlexible_4_Rich, vFlexible_5_Rich, vFlexible_6_Rich),
+  Percentage = c(vCore_rich.p, vSingle_rich.p, vFlexible_1_rich.p, vFlexible_2_rich.p, vFlexible_3_rich.p, vFlexible_4_rich.p, vFlexible_5_rich.p, vFlexible_6_rich.p)
+)
+
+# Display the table using kable for better formatting
+kable(results_table_1)
+
+# Save the dataframe as a TSV file
+write.table(results_table_1, file = "results_table_1.tsv", sep = "\t", row.names = FALSE, quote = FALSE)
+```
+
+
+
+# `RichPangenome` is categorised by the `EGGNOG_COG_CATEGORY` values by mapping them to a new column, `COGs`. This mapping facilitates further categorizations:
+- COG category "S" is relabeled as "Uninformative", denoting gene clusters with functions that are poorly characterized or not well understood.
+- Entries containing a pipe symbol (`|`), which suggests multiple COG assignments, are marked as "Ambiguous" to indicate their mixed or uncertain categorization.
+- COG categories that are initially missing (`NA`) are labeled as "Unclassified", representing the absence of a specific functional categorization.
+- Additionally, any COG values consisting of two or more uppercase letters (e.g., "AB", "XYZ") are also classified as "Ambiguous"
+
+```{r}
+
+RichPangenome$COGs <- RichPangenome$EGGNOG_COG_CATEGORY
+RichPangenome$COGs[RichPangenome$COGs == "S"] <- "Uninformative"
+RichPangenome$COGs[grepl('|', RichPangenome$COGs, fixed=TRUE)] <- "Ambiguous"
+RichPangenome$COGs[is.na(RichPangenome$COGs)] <- "Unclassified"
+RichPangenome$COGs[grepl("^[A-Z]{2,}$", RichPangenome$COGs)] <- "Ambiguous"
+
+```
+
+
+#This part analyzes gene cluster distribution by COG categories within the `RichPangenome` dataset. It first calculates the total number of unique gene clusters. Subsequently, it determines the count of gene clusters in the categories of "Uninformative", "Ambiguous", "Unclassified", and "Informative", ensuring each gene cluster is counted only in its most relevant category to prevent duplication in counts. These counts are then put together along with their respective percentages of the total, providing a clear breakdown of the dataset's composition in terms of COG classification. 
+
+```{r}
+# Calculate the total number of gene clusters
+total_gene_clusters <- n_distinct(RichPangenome$gene_cluster_id)
+
+# Calculate distinct counts for each COG category to avoid double counting
+uninformative_count <- n_distinct(filter(RichPangenome, COGs == "Uninformative")$gene_cluster_id)
+ambiguous_count <- n_distinct(filter(RichPangenome, COGs == "Ambiguous")$gene_cluster_id)
+unclassified_count <- n_distinct(filter(RichPangenome, COGs == "Unclassified")$gene_cluster_id)
+informative_count <- n_distinct(filter(RichPangenome, COGs != "Uninformative" & COGs != "Ambiguous" & COGs != "Unclassified")$gene_cluster_id)
+
+# Create the table
+TableGene_Rich <- data.frame(
+  "Category" = c("Total Gene Clusters in Rich Pangenome", 
+                 "COG Category Uninformative = Function Unknown", 
+                 "COG Category Ambiguous (Mixed COG Category)",
+                 "COG Category Unclassified (Non-assigned)", 
+                 "Informative COGs (Total - Uninformative, Ambiguous & Unclassified)"),
+  "Count" = c(total_gene_clusters, 
+              uninformative_count, 
+              ambiguous_count,
+              unclassified_count,
+              informative_count)
+)
+
+# Calculate percentage for each category
+TableGene_Rich$Percentage <- round(100 * (TableGene_Rich$Count / total_gene_clusters), 1)
+
+# Display the table using kable for better formatting in markdown documents
+knitr::kable(TableGene_Rich)
+
+# Save the dataframe as a TSV file
+write.table(TableGene_Rich, file = "TableCOG_Rich.tsv", sep = "\t", row.names = FALSE, quote = FALSE)
+
+```
+
+
+#This code processes the `RichPangenome` dataset to quantify and analyze the distribution of unique gene clusters across different genomic bins and COG categories. Initially, it groups the data by genome, bin, and COG category, counting unique gene clusters within these categories. Subsequent steps involve calculating the total gene clusters per genome and deriving percentages that illustrate the proportion of each category relative to the genome's total gene cluster count. The results are then formatted and displayed in a table.
+
+```{r}
+# Counting unique gene clusters instead of all rows (genes)
+GCsbyCOG_Genome_Rich <- RichPangenome %>%
+  group_by(genome_name, bin, COGs) %>%
+  summarise(num_gene_clusters = n_distinct(gene_cluster_id), .groups = 'drop')
+
+# Calculate total gene clusters per genome
+total_gene_clusters_per_genome <- GCsbyCOG_Genome_Rich %>%
+  group_by(genome_name) %>%
+  summarise(total_gene_clusters = sum(num_gene_clusters), .groups = 'drop')
+
+# Join to calculate percentages
+GCsbyCOG_Genome_Rich <- GCsbyCOG_Genome_Rich %>%
+  left_join(total_gene_clusters_per_genome, by = "genome_name") %>%
+  mutate(percentage = (num_gene_clusters / total_gene_clusters) * 100)
+
+# Displaying the table using kable for better formatting
+kable(GCsbyCOG_Genome_Rich)
+
+# Save the dataframe as a TSV file
+write.table(GCsbyCOG_Genome_Rich, file = "GCsbyCOG_Genome_Rich.tsv", sep = "\t", row.names = FALSE, quote = FALSE)
+```
+
+
+#Now we add a new column that labels genes as "Informative" if they don't fall into "Uninformative", "Ambiguous", or "Unclassified" COG categories; otherwise, it keeps their original COG label.
+
+```{r}
+GCsbyCOG_Genome_Rich <- GCsbyCOG_Genome_Rich %>%
+  mutate(Assignment=ifelse(COGs!="Uninformative" & COGs!="Ambiguous" & COGs!="Unclassified", "Informative", COGs))
+
+```
+
+
+#Now we organize and quantify the gene clusters within the `RichPangenome` dataset based on genomic bins (`bin`) and COG assignments (`COGs`). We first group the data by these categories and sums the gene clusters to compute total counts per category. These counts are further processed to calculate the relative proportion of each category, expressed as percentages of the total gene clusters across the dataset. The summarized data is then formatted into a table using the `kable` function.
+
+
+```{r}
+
+# Revised code to count unique gene clusters
+TableGC_Rich <- RichPangenome %>%
+  group_by(bin, COGs) %>%
+  summarise(unique_gene_clusters = n_distinct(gene_cluster_id), .groups = 'drop')
+
+# Calculate the total number of unique gene clusters across all categories
+total_unique_gene_clusters <- sum(TableGC_Rich$unique_gene_clusters)
+
+# Calculate percentages of each category relative to the total unique gene clusters
+TableGC_Rich <- TableGC_Rich %>%
+  mutate(Percentages = round(100 * unique_gene_clusters / total_unique_gene_clusters, 1))
+
+# Display the table using kable for better formatting
+kable(TableGC_Rich)
+
+#Save the dataframe as a TSV file
+write.table(TableGC_Rich, file = "TableGC_Rich.tsv", sep = "\t", row.names = FALSE, quote = FALSE)
+
+```
+
+#This code filters the `GCsbyCOG_Genome_Rich` data frame to include only "Core" bins, then groups by `bin` and `Assignment` to summarize the total gene clusters. It calculates the percentage of each `Assignment` within the "Core" bin and displays the results using `kable`
+
+
+```{r}
+
+#Summarize gene clusters by 'Core' bin and 'Assignment'
+TableGC_Rich_Core <- GCsbyCOG_Genome_Rich %>%
+  filter(bin == "Core") %>%
+  group_by(bin, Assignment) %>%
+  summarize(total_gene_clusters = sum(num_gene_clusters), .groups = 'drop')  # Changed corrected_genes to total_gene_clusters
+
+#Calculate percentages of each 'Assignment' within the 'Core' bin
+total_core_gene_clusters <- sum(TableGC_Rich_Core$total_gene_clusters)  # Changed from total_core_genes
+TableGC_Rich_Core$Percentages <- round(100 * TableGC_Rich_Core$total_gene_clusters / total_core_gene_clusters, 1)  # Updated to use gene clusters
+
+#Display the table using kable for better formatting
+kable(TableGC_Rich_Core)
+
+```
+
+
+
+#This code filters the `GCsbyCOG_Genome_Rich` data frame to include only "Flexible" bins, then groups by `bin` and `Assignment` to summarize the total gene clusters. It calculates the percentage of each `Assignment` within the "Flexible" bin and displays the results using `kable`
+
+
+```{r}
+# Summarize gene clusters by 'Core' bin and 'Assignment'
+TableGC_Rich_Flexible <- GCsbyCOG_Genome_Rich %>%
+  filter(bin == "Flexible") %>%
+  group_by(bin, Assignment) %>%
+  summarize(total_gene_clusters = sum(num_gene_clusters), .groups = 'drop')  # Changed corrected_genes to total_gene_clusters
+
+# Calculate percentages of each 'Assignment' within the 'Core' bin
+total_Flexible_gene_clusters <- sum(TableGC_Rich_Flexible$total_gene_clusters)  # Changed from total_core_genes
+TableGC_Rich_Flexible$Percentages <- round(100 * TableGC_Rich_Flexible$total_gene_clusters / total_Flexible_gene_clusters, 1)  # Updated to use gene clusters
+
+# Display the table using kable for better formatting
+kable(TableGC_Rich_Flexible)
+
+```
+
+
+#This code filters the `GCsbyCOG_Genome_Rich` data frame to include only "Singletons" bins, then groups by `bin` and `Assignment` to summarize the total gene clusters. It calculates the percentage of each `Assignment` within the "Singletons" bin and displays the results using `kable`
+
+
+```{r}
+TableGC_Rich_Singletons <- GCsbyCOG_Genome_Rich %>%
+  filter(bin == "Singletons") %>%
+  group_by(bin, Assignment) %>%
+  summarize(total_gene_clusters = sum(num_gene_clusters), .groups = 'drop')  # Changed corrected_genes to total_gene_clusters
+
+# Calculate percentages of each 'Assignment' within the 'Core' bin
+total_Singletons_gene_clusters <- sum(TableGC_Rich_Singletons$total_gene_clusters)  # Changed from total_core_genes
+TableGC_Rich_Singletons$Percentages <- round(100 * TableGC_Rich_Singletons$total_gene_clusters / total_Singletons_gene_clusters, 1)  # Updated to use gene clusters
+
+# Display the table using kable for better formatting
+kable(TableGC_Rich_Singletons)
+```
+
+
+#This code groups the `GCsbyCOG_Genome_Rich` data frame by `genome_name` and `bin` to summarize the total gene clusters. It then displays the results using `kable` for better formatting in markdown documents.
+
+```{r}
+# Recode the genome names
+GCsbyCOG_Genome_Rich$genome_name <- recode_factor(GCsbyCOG_Genome_Rich$genome_name, 
+  "SAMN33830777" = "MO_167.B12",
+  "SAMN33830812" = "MO_192.B10",
+  "SAMN33830791" = "MO_167.B42",
+  "GCF_900185595_1_CalSC01_2013_genomic" = "RrhiSC01",
+  "TARA_PON_109_MAG_00086" = "TARA_PON",
+  "GCA_000350125_1_ASM35012v1_genomic" = "ReuHM01",
+  "TARA_MED_95_MAG_00146" = "TARA_MED",
+  "BGEO_SAMN07136523_METAG_IKJKMCAK" = "BGEO_MAG",
+  "GCA_002470035_1_ASM247003v1_genomic" = "UBA7409",
+  "GCA_002377925_1_ASM237792v1_genomic" = "UBA3481",
+  "GCA_900299445_1_Richelia_intracellularis_AM_2804_genomic" = "AM_2804",
+  "GCA_000350105_1_ASM35010v1_genomic" = "ReuHH01",
+  "GCA_000613065_1_RintRC_1_genomic" = "RintRC01",
+  "GCA_013214565_1_ASM1321456v1_genomic" = "MAG_DT_104",
+  .ordered = TRUE)
+
+# Summarize gene clusters by genome and bin
+TableGenomes_Rich <- GCsbyCOG_Genome_Rich %>%
+  group_by(genome_name, bin) %>%
+  summarize(total_gene_clusters = sum(num_gene_clusters), .groups = 'drop')
+
+# Calculate total gene clusters for each genome
+TotalGenomes <- TableGenomes_Rich %>%
+  group_by(genome_name) %>%
+  summarize(total_clusters_per_genome = sum(total_gene_clusters), .groups = 'drop')
+
+# Merge total back into TableGenomes_Rich and calculate percentages
+TableGenomes_Percentages <- TableGenomes_Rich %>%
+  left_join(TotalGenomes, by = "genome_name") %>%
+  mutate(percentage = round((total_gene_clusters / total_clusters_per_genome) * 100, 2))  # Rounding percentages to 2 decimal places
+
+# Display the table using kable for better formatting in markdown documents
+kable(TableGenomes_Rich)
+kable(TableGenomes_Percentages)
+
+# Save the data frame to a TSV file in the current working directory
+write.table(TableGenomes_Percentages, file = "TableGenomes_Percentages.tsv", sep = "\t", row.names = FALSE, quote = FALSE)
+
+
+```
+
+#Calculate average percentages over genomes and bins:
+
+```{r}
+# Define the list of internal genomes
+internal_genomes <- c(
+  "BGEO_SAMN07136523_METAG_IKJKMCAK", "GCA_000350105_1_ASM35010v1_genomic",
+  "GCA_000350125_1_ASM35012v1_genomic", "GCA_002377925_1_ASM237792v1_genomic",
+  "GCA_002470035_1_ASM247003v1_genomic", "GCA_900299445_1_Richelia_intracellularis_AM_2804_genomic",
+  "MARD_SAMEA2272302_REFG_MMP2272302", "MARD_SAMEA2272692_REFG_MMP2272692",
+  "TARA_MED_95_MAG_00146", "TARA_PON_109_MAG_00086"
+)
+
+# Filter the data for the specified genomes
+filtered_data <- TableGenomes_Percentages %>%
+  filter(genome_name %in% internal_genomes)
+
+# Calculate the average number and percentage of gene clusters in each category for the specified genomes
+internal_stats <- filtered_data %>%
+  group_by(bin) %>%
+  summarise(
+    avg_total_gene_clusters = mean(total_gene_clusters, na.rm = TRUE),
+    avg_percentage = mean(percentage, na.rm = TRUE),
+    .groups = 'drop'
+  )
+
+# Print the summary statistics
+print(internal_stats)
+
+
+semiinternal_genomes <- c(
+  "GCA_000613065_1_RintRC_1_genomic",
+  "GCA_013214565_1_ASM1321456v1_genomic", "MARD_SAMEA3138990_REFG_MMP3138990"
+)
+
+# Filter the data for the specified genomes
+filtered_data <- TableGenomes_Percentages %>%
+  filter(genome_name %in% semiinternal_genomes)
+
+# Calculate the average number and percentage of gene clusters in each category for the specified genomes
+semiinternal_stats <- filtered_data %>%
+  group_by(bin) %>%
+  summarise(
+    avg_total_gene_clusters = mean(total_gene_clusters, na.rm = TRUE),
+    avg_percentage = mean(percentage, na.rm = TRUE),
+    .groups = 'drop'
+  )
+
+# Print the summary statistics
+print(semiinternal_stats)
+
+external_genomes <- c(
+  "SRR11343830_6",
+  "GCF_900185595_1_CalSC01_2013_genomic"
+)
+
+# Filter the data for the specified genomes
+filtered_data <- TableGenomes_Percentages %>%
+  filter(genome_name %in% external_genomes)
+
+# Calculate the average number and percentage of gene clusters in each category for the specified genomes
+external_stats <- filtered_data %>%
+  group_by(bin) %>%
+  summarise(
+    avg_total_gene_clusters = mean(total_gene_clusters, na.rm = TRUE),
+    avg_percentage = mean(percentage, na.rm = TRUE),
+    .groups = 'drop'
+  )
+
+# Print the summary statistics
+print(external_stats)
+
+```
+
+
+
+#This code sets the `bin` column in `GCsbyCOG_Genome_Rich` as a factor with specified levels, creates a vector `COG_names` containing COG20 category descriptions, and adds a new column `COG_categories` to the dataset. It also renames genome names to shorter names used throughout the manuscript and sets their specific order. 
+
+```{r}
+
+#Set the bin column as a factor with a specified order of levels: "Core", "Flexible", and "Singletons"
+GCsbyCOG_Genome_Rich$bin <- factor(GCsbyCOG_Genome_Rich$bin, levels =c("Core", "Flexible", "Singletons")) 
+
+#Creating a vector 'COG_names' that contains description of each COG20 category
+COG_names <- c(
+  "J"="Translation, ribosomal structure, and biogenesis",
+  "K"="Transcription",
+  "L"="Replication, recombination, and repair",
+  "B"="Chromatin structure and dynamics",
+  "A"= "RNA processing and modification",
+  "D"="Cell cycle control, cell division, chromosome partitioning",
+  "O"="Post-translational modification, protein turnover, chaperones",
+  "M"="Cell wall/membrane/envelope biogenesis",
+  "N"="Cell motility", 
+  "T"="Signal transduction mechanisms",
+  "U"="Intracellular trafficking, secretion, and vesicular transport", 
+  "V"="Defense mechanisms",
+  "Z"="Cytoskeleton",
+  "C"="Energy production and conversion",
+  "G"="Carbohydrate transport and metabolism",
+  "E"="Amino acid transport and metabolism",
+  "F"="Nucleotide transport and metabolism",
+  "H"="Coenzyme transport and metabolism",
+  "I"="Lipid transport and metabolism",
+  "P"="Inorganic ion transport and metabolism",
+  "Q"="Secondary metabolites biosynthesis, transport, and catabolism",
+  "Uninformative"="Uninformative",
+  "Ambiguous"="Ambiguous",
+  "Unclassified"="Unclassified"
+)
+
+# Add a new column 'COG_categories' to 'GCsbyCOG_Genome_Rich' dataset
+GCsbyCOG_Genome_Rich <- GCsbyCOG_Genome_Rich %>%
+  mutate(COG_categories = case_when(
+    COGs %in% names(COG_names) ~ COG_names[COGs],
+    TRUE ~ "Other/Unknown"
+  ))
+
+#GCsbyCOG_Genome_Rich$Assignment <- recode_factor(GCsbyCOG_Genome_Rich$Assignment,  #"Informative"=" ", "Uninformative"="Uninformative", "Ambiguous"="Ambiguous", #"Unclassified"="Unclassified", .ordered = TRUE)
+
+#Rename genome names to shorter names used throughout the manuscript and set the sepcific order of the genomes
+GCsbyCOG_Genome_Rich$genome_name <- recode_factor(GCsbyCOG_Genome_Rich$genome_name, 
+   "BGEO_SAMN07136523_METAG_IKJKMCAK" = "BGO_MAG",                                               "TARA_MED_95_MAG_00146" = "TARA_MED",
+   "GCA_002470035_1_ASM247003v1_genomic" = "UBA7409",
+   "GCA_002377925_1_ASM237792v1_genomic" = "UBA3481",
+   "MARD_SAMEA2272692_REFG_MMP2272692" = "MARD_692",
+   "GCA_000350105_1_ASM35010v1_genomic" = "ReuHH01",                                         
+   "GCA_900299445_1_Richelia_intracellularis_AM_2804_genomic" = "AM_2804",
+   "MARD_SAMEA2272302_REFG_MMP2272302" = "MARD_302",
+   "GCA_000350125_1_ASM35012v1_genomic" = "ReuHM01",
+   "TARA_PON_109_MAG_00086" = "TARA_PON",
+   "GCA_013214565_1_ASM1321456v1_genomic" = "MAG_DT_104",
+   "MARD_SAMEA3138990_REFG_MMP3138990" = "MARD_990",
+   "GCA_000613065_1_RintRC_1_genomic" = "RintRC01",
+   "GCF_900185595_1_CalSC01_2013_genomic" = "RrhiSC01",
+   "SRR11343830_6" = "SRR11343830.6",.ordered = TRUE)
+
+```
+
+
+#This code groups the `RichPangenome` data frame by `bin` and `COGs`, then summarizes the number of unique gene clusters for each group, storing the result in `GCsbyCOG_Rich`.
+
+```{r}
+# Counting gene clusters directly
+GCsbyCOG_Rich <- RichPangenome %>%
+  group_by(bin, COGs) %>%
+  summarise(num_gene_clusters = n_distinct(gene_cluster_id), .groups = 'drop')
+
+# View the table
+print(GCsbyCOG_Rich)
+
+```
+
+
+
+#This code adds a new column `COG_categories` to `GCsbyCOG_Rich` using predefined `COG_names`, defines a color scheme for different categories, maps each group to a specific color, sets the desired order of COG categories, and reverses the levels of the `COGs` factor in `GCsbyCOG_Genome_Rich`.
+
+```{r}
+# Add a new column 'COG_categories' that we defined above
+GCsbyCOG_Rich <- GCsbyCOG_Rich %>%
+  mutate(COG_categories = case_when(
+    COGs %in% names(COG_names) ~ COG_names[COGs],
+    TRUE ~ "Other/Unknown"
+  ))
+
+color_scheme <- c(
+  # Information storage and processing - Shades of blue
+  "#5D8BC3", "#7898C9", "#8EA5D0", "#CEE2FF", "#C4D8F3",
+  # Cellular processes and signaling - Shades of green
+  "#DBE8B4","#C2E393","#B3DB96", "#7EC571", "#4FB05E", "#2F9559", "#0C784F", "#005A40",
+  # Metabolism - Shades of orange
+  "#D9D6ED", "#C5C1E0", "#B0A9D3", "#9B90C5", "#8C7FBB", "#7664AE", "#6247A2", "#4C2C89",
+  # Poorly characterized - Shades of pink
+  "#E8AFBA", "#DB8496", "#D66982"
+)
+
+# Create a mapping from group to color
+group_to_color <- setNames(
+  color_scheme,
+  c('J', 'K', 'L', 'B', 'A', 'D', 'O', 'M', 'N', 'T', 'U', 'V', 'Z',
+    'C', 'G', 'E', 'F', 'H', 'I', 'P', 'Q', 'Ambiguous', 'Unclassified', 'Uninformative')
+)
+
+
+# Define the desired order as a character vector
+desired_order <- c('J', 'K', 'L', 'B', 'A', 'D', 'O', 'M', 'N', 'T', 'U', 'V', 'Z',
+    'C', 'G', 'E', 'F', 'H', 'I', 'P', 'Q', 'Ambiguous', 'Unclassified', 'Uninformative')
+
+# Reverse the levels of the COGs factor
+GCsbyCOG_Genome_Rich$COGs <- factor(GCsbyCOG_Genome_Rich$COGs, levels = rev(desired_order))
+
+
+```
+
+
+#Calculate which informative COG categories have the highest percentage in singletions of external genomes:
+
+```{r}
+
+# Filter data for the specified genomes and singleton bin
+external_singletons <- GCsbyCOG_Genome_Rich %>%
+  filter(genome_name %in% c("SRR11343830.6", "RrhiSC01") & bin == "Singletons")
+
+
+# Calculate the top 3 informative categories with the highest percentage for each genome
+top_informative_categories <- external_singletons %>%
+  filter(Assignment == "Informative") %>%
+  group_by(genome_name, COGs) %>%
+  summarise(total_percentage = sum(percentage, na.rm = TRUE), .groups = 'drop') %>%
+  arrange(desc(total_percentage)) %>%
+  group_by(genome_name) %>%
+  slice_max(total_percentage, n = 3)
+
+# Print the results
+print(top_informative_categories)
+
+```
+
+
+
+#This code spreads the `GCsbyCOG_Rich` data frame by `bin`, replaces `NA` values with 0, and calculates total counts for normalization. It computes the percentages of each category, total gene count, and their respective percentages. It also calculates the ratios between categories and displays the results using `kable`.
+
+```{r}
+# Spread the data
+GCsbyCOG_Rich_CorevsAcc <- spread(GCsbyCOG_Rich, bin, num_gene_clusters)
+
+# Replace NA values with 0
+GCsbyCOG_Rich_CorevsAcc[is.na(GCsbyCOG_Rich_CorevsAcc)] <- 0
+
+# Calculate total counts for normalization
+totalFlexible <- sum(GCsbyCOG_Rich_CorevsAcc$Flexible)
+totalCore <- sum(GCsbyCOG_Rich_CorevsAcc$Core)
+totalSingletons <- sum(GCsbyCOG_Rich_CorevsAcc$Singletons)
+
+# Calculate percentages of each category
+GCsbyCOG_Rich_CorevsAcc$pTotal.Flexible <- round(100 * GCsbyCOG_Rich_CorevsAcc$Flexible / totalFlexible, 1)
+GCsbyCOG_Rich_CorevsAcc$pTotal.Core <- round(100 * GCsbyCOG_Rich_CorevsAcc$Core / totalCore, 1)
+GCsbyCOG_Rich_CorevsAcc$pTotal.Singletons <- round(100 * GCsbyCOG_Rich_CorevsAcc$Singletons / totalSingletons, 1)
+
+# Calculate total gene count and its percentage of the overall dataset
+GCsbyCOG_Rich_CorevsAcc$total <- GCsbyCOG_Rich_CorevsAcc$Flexible + GCsbyCOG_Rich_CorevsAcc$Core + GCsbyCOG_Rich_CorevsAcc$Singletons
+totalGenes <- sum(GCsbyCOG_Rich_CorevsAcc$total)
+GCsbyCOG_Rich_CorevsAcc$pTotal.total <- round(100 * GCsbyCOG_Rich_CorevsAcc$total / totalGenes, 1)
+
+# Calculate percentage of total for each category
+GCsbyCOG_Rich_CorevsAcc$p.flexible <- round(100 * (GCsbyCOG_Rich_CorevsAcc$Flexible / GCsbyCOG_Rich_CorevsAcc$total), 1)
+GCsbyCOG_Rich_CorevsAcc$p.core <- round(100 * (GCsbyCOG_Rich_CorevsAcc$Core / GCsbyCOG_Rich_CorevsAcc$total), 1)
+GCsbyCOG_Rich_CorevsAcc$p.singletons <- round(100 * (GCsbyCOG_Rich_CorevsAcc$Singletons / GCsbyCOG_Rich_CorevsAcc$total), 1)
+
+# Calculate ratios between categories
+GCsbyCOG_Rich_CorevsAcc$ratio.Flexible_Core <- round(GCsbyCOG_Rich_CorevsAcc$Flexible / GCsbyCOG_Rich_CorevsAcc$Core, 2)
+GCsbyCOG_Rich_CorevsAcc$ratio.Singletons_Core <- round(GCsbyCOG_Rich_CorevsAcc$Singletons / GCsbyCOG_Rich_CorevsAcc$Core, 2)
+GCsbyCOG_Rich_CorevsAcc$ratio.Flexible_Singletons <- round(GCsbyCOG_Rich_CorevsAcc$Flexible / GCsbyCOG_Rich_CorevsAcc$Singletons, 2)
+
+# Optionally, display the table
+kable(GCsbyCOG_Rich_CorevsAcc)
+
+#Save the dataframe as a TSV file
+write.table(GCsbyCOG_Rich_CorevsAcc, file = "COG_categories_details.tsv", sep = "\t", row.names = FALSE, quote = FALSE)
+
+```
+
+
+
+#This code initializes factor levels for COGs and converts genome_name to a factor in the GCsbyCOG_Genome_Rich data frame. It calculates the percentage of gene clusters within each genome and bin. Summarizes gene clusters by COG categories across all bins for each genome, adjusts the genome order, and recalculates overall gene cluster percentages. The resulting data frame is displayed using print.
+
+
+```{r}
+# Initial dataset preparation
+GCsbyCOG_Genome_Rich <- GCsbyCOG_Genome_Rich %>%
+  mutate(
+    COGs = factor(COGs, levels = desired_order),
+    genome_name = factor(genome_name)
+  )
+
+# Calculate percentages within each genome and bin
+GCsbyCOG_Per_Rich <- GCsbyCOG_Genome_Rich %>%
+  group_by(genome_name, bin) %>%
+  mutate(percentage_within_bin = (num_gene_clusters / sum(num_gene_clusters, na.rm = TRUE)) * 100) %>%
+  ungroup() %>%
+  mutate(COGs = factor(COGs, levels = desired_order)) # Ensure factor level ordering
+
+# Sum num_gene_clusters for each COG category across all bins for each genome
+GCsbyCOG_Summed <- GCsbyCOG_Per_Rich %>%
+  group_by(genome_name, COGs) %>%
+  summarize(num_gene_clusters_summed = sum(num_gene_clusters, na.rm = TRUE)) %>%
+  ungroup() %>%
+  mutate(
+   genome_name = factor(genome_name, levels = unique(genome_name)), 
+    COGs = factor(COGs, levels = desired_order) # Ensure factor level ordering
+  ) %>%
+  group_by(genome_name) %>%
+  mutate(total_genes = sum(num_gene_clusters_summed), # Sum total genes
+         percentage = (num_gene_clusters_summed / total_genes) * 100) %>%
+  ungroup()
+
+# Print the final data frame to see the changes
+print(GCsbyCOG_Summed)
+
+# Save the dataframe as a TSV file
+write.table(GCsbyCOG_Summed, file = "Genomes_COG.tsv", sep = "\t", row.names = FALSE, quote = FALSE)
+
+
+```
+
+
+#Plot 1 (per): Shows the percentage of gene clusters within each bin and genome, excluding non-informative COG categories. It uses stacked bars, with separate panels for each bin, facilitating detailed comparison across bins.
+
+#Plot 2 (per_cog): Displays the normalized distribution of gene clusters across all COGs for each genome, using filled bars to compare proportions directly.
+
+#Plot 3 (per_cog_2): Similar to the first plot but for summed data, excluding non-informative COG categories, emphasizing absolute percentage values with stacked bars.
+
+
+
+```{r}
+# Plot
+
+ per <- ggplot(
+    data = GCsbyCOG_Per_Rich %>% 
+        filter(!COGs %in% c("Uninformative", "Ambiguous", "Unclassified")), 
+    aes(x = genome_name, y = num_gene_clusters, fill = COGs)
+) +
+geom_bar(stat = "identity", position = "stack", color = "grey") +
+scale_fill_manual(values = group_to_color) +
+labs(fill = "COG Category", x = "", y = "Percentage of Gene Clusters") +
+theme_classic() +
+theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1),
+    legend.position = "bottom",
+    strip.background = element_blank(),
+    strip.text.x = element_text(size = 10)
+) +
+facet_wrap(~ bin, scales = 'free_y') + # Add faceting for each bin
+coord_flip()
+
+per_cog <- ggplot(data = GCsbyCOG_Summed, aes(x = genome_name, y = total_genes, fill = COGs)) +
+  geom_bar(stat = "identity", position = "fill", color = "grey") +  # Add black borders to the bars
+  scale_fill_manual(values = group_to_color) +
+  labs(fill = "COG Category", x = "", y = "Percentage of Gene Clusters") +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1),
+    legend.position = "bottom"
+  ) +
+  coord_flip()
+
+
+
+# Plot excluding 'Ambiguous', 'Uninformative', and 'Unclassified' categories
+per_cog_2 <- ggplot(
+  data = filter(
+    GCsbyCOG_Summed,
+    !COGs %in% c("Uninformative", "Ambiguous", "Unclassified")
+  ), 
+  aes(x = genome_name, y = total_genes, fill = COGs)
+) +
+  geom_bar(stat = "identity", position = "stack", color = "grey") +
+  scale_fill_manual(values = group_to_color) +
+  labs(fill = "COG Category", x = "", y = "Percentage of Gene Clusters") +
+  theme_classic() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1),
+    axis.text.y = element_text(size = 7),
+    legend.position = "bottom"
+  ) +
+  coord_flip()
+
+
+```
+
+
+
+
+
+
+```{r}
+per_cog
+
+per_cog_2
+
+per
+
+
+ggsave("per_cog.pdf", plot = per_cog, width = 8, height = 6, units = "in")
+
+ggsave("per_cog_2.pdf", plot = per_cog_2, width = 8, height = 6, units = "in")
+
+ggsave("per.pdf", plot = per, width = 8, height = 6, units = "in")
+
+```
+
+
+
+#This code generates a faceted, stacked bar plot visualizing the total gene clusters per genome categorized by COGs, with each bin displayed in separate horizontal facets. 
+
+```{r}
+### Plots by Genome
+
+pC_faceted <- ggplot(GCsbyCOG_Genome_Rich, aes(x = genome_name, y = num_gene_clusters, fill = COGs)) +
+  stat_summary(fun = sum, geom = "bar", position = "stack", color = "grey", size = 0.2) +
+  scale_fill_manual(values = group_to_color) +
+  scale_y_continuous(expand = c(0, 0)) +
+  labs(fill = "COG Assignment", x = "", y = "Number of Gene Clusters") +
+  facet_wrap(~bin, scales = "free_x", nrow = 1) +  # Use 'nrow = 1' for a single row and change to scales = "free_x" after coord_flip
+  theme_classic() +
+  theme(
+    axis.text.y = element_text(size = 7),
+    axis.text.x = element_text(size = 8, angle = 75, hjust = 1),
+    legend.position = "bottom",
+    legend.box = "horizontal"
+  ) +
+  guides(fill = guide_legend(ncol = 10)) +  # Adjust based on the number of COGs
+  coord_flip()
+
+```
+
+
+```{r}
+pC_faceted
+
+# Save the plot to a PDF file
+ggsave("COG20_categories_bins.pdf", plot = pC_faceted, width = 8, height = 6, units = "in")
+```
+
+
+
+#The code creates a stacked bar plot using ggplot2 to show the sum of gene clusters across different bins (Core, Flexible, Singletons) categorized by COG groups.
+
+```{r, TotalGCs in core vs flexible vs singletons}
+
+pA_1 <- ggplot(GCsbyCOG_Rich, aes(x = bin, y = num_gene_clusters, fill = COGs)) +
+  stat_summary(fun = sum, geom = "bar", position = "stack") +  # Sum gene clusters and stack bars
+  scale_x_discrete(labels = c("Core", "Flexible", "Singletons")) +  # Custom labels for the x-axis
+  scale_fill_manual(values = rev(color_scheme)) +  # Apply reversed color scheme
+  scale_y_continuous(expand = c(0, 0), breaks = seq(0, 50000, by = 250)) +  # Set y-axis properties
+  labs(fill = "COG Categories", x = " ", y = "Number of Gene Clusters") +  # Labels
+  theme_classic() +  # Use a classic theme for clean appearance
+  theme(axis.title = element_text(size = 9), axis.text = element_text(size = 7),
+        plot.margin = unit(c(10, 0, 10, 20), "pt"), legend.position = "right") +  # Adjust theme
+  guides(fill = guide_legend(ncol = 2, title.position = "top", title.hjust = 0.5))  # Customize legend
+
+
+```
+
+
+```{r, echo=FALSE,fig.height=4, fig.width=4}
+pA_1
+
+# Save the plot to a PDF file
+ggsave("COG20_categories_divided.pdf", plot = pA_1, width = 14, height = 8, units = "in")
+
+
+```
+
+
+#Check if genes for nitrogene fixation are in the Core
+
+```{r}
+# Example list of nitrogen fixation genes
+nitrogen_fixation_genes <- c("nifH", "nifD", "nifK", "nifE", "nifN", "nifX", "nifB", "nifU", "nifV")
+
+# Check if nif genes are present in the dataset
+nif_genes_present <- RichPangenome %>%
+  filter(EGGNOG_GENE_FUNCTION_NAME %in% nitrogen_fixation_genes)
+
+
+
+## Check if nif genes are marked as core
+core_nif_genes <- RichPangenome %>%
+  filter(bin == "Core" & EGGNOG_GENE_FUNCTION_NAME %in% nitrogen_fixation_genes)
+
+print(core_nif_genes)
+
+
+# Extract core genome genes
+core_genes <- RichPangenome %>%
+  filter(bin == "Core") %>%
+  pull(EGGNOG_GENE_FUNCTION_NAME)
+
+# Check if all nitrogen fixation genes are in the core genome
+all_in_core <- all(nitrogen_fixation_genes %in% core_genes)
+
+# Output the result
+if (all_in_core) {
+  print("All nitrogen fixation genes are in the core genome.")
+} else {
+  print("Not all nitrogen fixation genes are in the core genome.")
+}
+
+# Check the unique values in the 'bin' column to identify the correct value for core genes
+unique_bins <- unique(RichPangenome$bin)
+print(unique_bins)
+
+# Example: If the correct value for core genes is "core", set it appropriately
+correct_value_for_core <- "Core"  # Replace this with the actual value found in unique_bins
+
+# Extract core genome genes
+core_genes <- RichPangenome %>%
+  filter(bin == "Core") %>%
+  pull(EGGNOG_GENE_FUNCTION_NAME)
+
+# Find common nitrogen fixation genes in the core genome
+common_genes <- intersect(nitrogen_fixation_genes, core_genes)
+
+# Count how many nitrogen fixation genes are in the core genome
+num_common_genes <- length(common_genes)
+
+# Output the result
+print(paste(num_common_genes, "out of", length(nitrogen_fixation_genes), "nitrogen fixation genes are in the core genome."))
+print("The nitrogen fixation genes in the core genome are:")
+print(common_genes)
+
+```
+
+
+
+#Checking for photosyntheisi genes in the core
+
+```{r}
+# List of phycobilisome K numbers
+phycobilisome_K_numbers <- c(
+  # Allophycocyanin
+  "ko:K02092", "ko:K02093", "ko:K02094", "ko:K02095", "ko:K02096", "ko:K02097",
+  
+  # Phycocyanin
+  "ko:K02284", "ko:K02285", "ko:K02286", "ko:K02287", "ko:K02288", "ko:K02289", "ko:K20713", "ko:K02290",
+  
+  # Phycoerythrocyanin
+  "ko:K02628", "ko:K02629", "ko:K02630", "ko:K02631", "ko:K02632",
+  
+  # Phycoerythrin
+  "ko:K05376", "ko:K05377", "ko:K05378", "ko:K05379", "ko:K05380", "ko:K05381", "ko:K05382", "ko:K05383", "ko:K05384", "ko:K05385", "ko:K05386"
+  )
+
+# Check if phycobilisome K numbers are present in the dataset
+phycobilisome_genes_present <- RichPangenome %>%
+  filter(EGGNOG_KEGG_KO %in% phycobilisome_K_numbers)
+
+# Check if phycobilisome genes are marked as core
+core_phycobilisome_genes <- RichPangenome %>%
+  filter(bin == "Core" & EGGNOG_KEGG_KO %in% phycobilisome_K_numbers)
+
+print(core_phycobilisome_genes)
+
+# Extract core genome genes
+core_genes <- RichPangenome %>%
+  filter(bin == "Core") %>%
+  pull(EGGNOG_KEGG_KO)
+
+# Check if all phycobilisome genes are in the core genome
+all_in_core <- all(phycobilisome_K_numbers %in% core_genes)
+
+# Output the result
+if (all_in_core) {
+  print("All phycobilisome genes are in the core genome.")
+} else {
+  print("Not all phycobilisome genes are in the core genome.")
+}
+
+# Check the unique values in the 'bin' column to identify the correct value for core genes
+unique_bins <- unique(RichPangenome$bin)
+print(unique_bins)
+
+# Example: If the correct value for core genes is "Core", set it appropriately
+correct_value_for_core <- "Core"  # Replace this with the actual value found in unique_bins
+
+# Extract core genome genes
+core_genes <- RichPangenome %>%
+  filter(bin == correct_value_for_core) %>%
+  pull(EGGNOG_KEGG_KO)
+
+# Find common phycobilisome genes in the core genome
+common_genes <- intersect(phycobilisome_K_numbers, core_genes)
+
+# Count how many phycobilisome genes are in the core genome
+num_common_genes <- length(common_genes)
+
+# Output the result
+print(paste(num_common_genes, "out of", length(phycobilisome_K_numbers), "phycobilisome genes are in the core genome."))
+print("The phycobilisome genes in the core genome are:")
+print(common_genes)
+```
+
+
+
+
+
+
+
+
+```{r}
+# Check if phycobilisome K numbers are present in the dataset
+phycobilisome_genes_present <- RichPangenome %>%
+  filter(EGGNOG_KEGG_KO %in% phycobilisome_K_numbers)
+
+# Check if phycobilisome genes are marked as flexible
+flexible_phycobilisome_genes <- RichPangenome %>%
+  filter(bin == "Flexible" & EGGNOG_KEGG_KO %in% phycobilisome_K_numbers)
+
+print(flexible_phycobilisome_genes)
+
+# Extract flexible genome genes
+flexible_genes <- RichPangenome %>%
+  filter(bin == "Flexible") %>%
+  pull(EGGNOG_KEGG_KO)
+
+# Check if all phycobilisome genes are in the flexible genome
+all_in_flexible <- all(phycobilisome_K_numbers %in% flexible_genes)
+
+# Output the result
+if (all_in_flexible) {
+  print("All phycobilisome genes are in the flexible genome.")
+} else {
+  print("Not all phycobilisome genes are in the flexible genome.")
+}
+
+# Check the unique values in the 'bin' column to identify the correct value for flexible genes
+unique_bins <- unique(RichPangenome$bin)
+print(unique_bins)
+
+# Example: If the correct value for flexible genes is "Flexible", set it appropriately
+correct_value_for_flexible <- "Flexible"  # Replace this with the actual value found in unique_bins
+
+# Extract flexible genome genes
+flexible_genes <- RichPangenome %>%
+  filter(bin == correct_value_for_flexible) %>%
+  pull(EGGNOG_KEGG_KO)
+
+# Find common phycobilisome genes in the flexible genome
+common_genes <- intersect(phycobilisome_K_numbers, flexible_genes)
+
+# Count how many phycobilisome genes are in the flexible genome
+num_common_genes <- length(common_genes)
+
+# Output the result
+print(paste(num_common_genes, "out of", length(phycobilisome_K_numbers), "phycobilisome genes are in the flexible genome."))
+print("The phycobilisome genes in the flexible genome are:")
+print(common_genes)
+```
+
+
+```{r}
+# Function to check which genomes contain specific K numbers
+check_genomes <- function(df, k_numbers) {
+  df %>%
+    filter(EGGNOG_KEGG_KO %in% k_numbers) %>%
+    group_by(genome_name) %>%
+    summarize(K_numbers_present = list(unique(EGGNOG_KEGG_KO))) %>%
+    ungroup()
+}
+
+# Check which genomes contain phycobilisome K numbers
+genomes_with_phycobilisome <- check_genomes(RichPangenome, phycobilisome_K_numbers)
+print(genomes_with_phycobilisome)
+
+# Check if phycobilisome genes are marked as flexible
+flexible_phycobilisome_genes <- RichPangenome %>%
+  filter(bin == "Flexible" & EGGNOG_KEGG_KO %in% phycobilisome_K_numbers) %>%
+  group_by(genome_name) %>%
+  summarize(Flexible_K_numbers = list(unique(EGGNOG_KEGG_KO))) %>%
+  ungroup()
+print(flexible_phycobilisome_genes)
+
+# Combine the results to see the genomes and their respective K numbers in different bins
+combined_phycobilisome_genes <- full_join(flexible_phycobilisome_genes, genomes_with_phycobilisome, by = "genome_name")
+print(combined_phycobilisome_genes)
+
+```
+
+
+
+```{r}
+library(dplyr)
+library(tidyr)
+
+# List of DNA replication and repair K numbers with "ko" prefix
+dna_replication_repair_K_numbers <- c(
+  "ko:K02345", "ko:K02342", "ko:K14159", "ko:K02337", "ko:K03763", "ko:K02343", "ko:K02341",
+  "ko:K02340", "ko:K02344", "ko:K02339", "ko:K02338", "ko:K02314", "ko:K02316", "ko:K03111",
+  "ko:K03469", "ko:K22316", "ko:K03470", "ko:K03471", "ko:K02335", "ko:K01972", "ko:K02319",
+  "ko:K02323", "ko:K02322", "ko:K10726", "ko:K02683", "ko:K18882", "ko:K07466", "ko:K04802",
+  "ko:K04801", "ko:K04800", "ko:K10742", "ko:K04799", "ko:K10747", "ko:K02320", "ko:K02321",
+  "ko:K02684", "ko:K02685", "ko:K02327", "ko:K02328", "ko:K03504", "ko:K03505", "ko:K02324",
+  "ko:K02325", "ko:K02326", "ko:K03506", "ko:K02540", "ko:K02541", "ko:K02212", "ko:K02209",
+  "ko:K02542", "ko:K02210", "ko:K10739", "ko:K10741", "ko:K10740", "ko:K10754", "ko:K10755",
+  "ko:K10756", "ko:K10743", "ko:K10744", "ko:K10745"
+)
+
+# Function to check which genomes contain specific K numbers
+check_genomes <- function(df, k_numbers) {
+  df %>%
+    filter(EGGNOG_KEGG_KO %in% k_numbers) %>%
+    group_by(genome_name) %>%
+    summarize(K_numbers_present = list(unique(EGGNOG_KEGG_KO))) %>%
+    ungroup()
+}
+
+# Check which genomes contain DNA replication and repair K numbers
+genomes_with_dna_replication_repair <- check_genomes(RichPangenome, dna_replication_repair_K_numbers)
+print(genomes_with_dna_replication_repair)
+
+# Check if DNA replication and repair genes are marked as core
+core_dna_replication_repair_genes <- RichPangenome %>%
+  filter(bin == "Core" & EGGNOG_KEGG_KO %in% dna_replication_repair_K_numbers) %>%
+  group_by(genome_name) %>%
+  summarize(Core_K_numbers = list(unique(EGGNOG_KEGG_KO))) %>%
+  ungroup()
+print(core_dna_replication_repair_genes)
+
+# Check if DNA replication and repair genes are marked as flexible
+flexible_dna_replication_repair_genes <- RichPangenome %>%
+  filter(bin == "Flexible" & EGGNOG_KEGG_KO %in% dna_replication_repair_K_numbers) %>%
+  group_by(genome_name) %>%
+  summarize(Flexible_K_numbers = list(unique(EGGNOG_KEGG_KO))) %>%
+  ungroup()
+print(flexible_dna_replication_repair_genes)
+
+# Check if DNA replication and repair genes are marked as singleton
+singleton_dna_replication_repair_genes <- RichPangenome %>%
+  filter(bin == "Singleton" & EGGNOG_KEGG_KO %in% dna_replication_repair_K_numbers) %>%
+  group_by(genome_name) %>%
+  summarize(Singleton_K_numbers = list(unique(EGGNOG_KEGG_KO))) %>%
+  ungroup()
+print(singleton_dna_replication_repair_genes)
+
+# Combine the results to see the genomes and their respective K numbers in different bins
+combined_dna_replication_repair_genes <- full_join(core_dna_replication_repair_genes, flexible_dna_replication_repair_genes, by = "genome_name")
+combined_dna_replication_repair_genes <- full_join(combined_dna_replication_repair_genes, singleton_dna_replication_repair_genes, by = "genome_name")
+combined_dna_replication_repair_genes <- full_join(combined_dna_replication_repair_genes, genomes_with_dna_replication_repair, by = "genome_name")
+
+print(combined_dna_replication_repair_genes)
+```
+

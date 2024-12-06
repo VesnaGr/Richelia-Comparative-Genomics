@@ -1,0 +1,394 @@
+---
+title: "Figure 2"
+author: "Vesna"
+date: "2024-04-26"
+output: html_document
+---
+
+
+```{r}
+library(ggplot2)
+#install.packages("gridExtra")
+library("gridExtra")
+library(ggplot2)
+library(tidyr)
+library(hrbrthemes)
+library(patchwork)
+library(dplyr)
+library(tidyverse)
+library(hrbrthemes)
+library(viridis)
+library(ggplot2)
+library(reshape2)
+library(ggridges)
+library(dplyr)
+
+```
+
+
+
+```{r}
+Richelia_genome_stats = as.data.frame(read.delim("Genome_Stats.tsv"))
+```
+
+
+#Plot all the pannels in the figure 2:
+```{r}
+
+# Ensure the Symbiosis_location column is a factor with levels in the desired order
+Richelia_genome_stats$Symbiosis.type <- factor(Richelia_genome_stats$Symbiosis.type, 
+                                                   levels = unique(Richelia_genome_stats$Symbiosis.type))
+
+
+a <- ggplot(Richelia_genome_stats, aes(x = estimated.genome.size..Mb., y = GC.content...., color = Symbiosis.type, shape = Symbiosis.type)) +
+  geom_point(aes(fill = Symbiosis.type), alpha = 0.6, size = 4) +  # Add aes(fill = Symbiosis.type) here
+  labs(title = "a", y = "GC content (%)") +
+  theme_light() +
+  theme(
+    axis.title.x = element_blank(),
+    axis.title.y = element_text(size = 8, face = "bold", margin = margin(t = 0, r = 20, b = 0, l = 0)),
+    plot.title = element_text(size = 12, face = "bold", hjust = 0),
+    legend.position = "none"
+  ) +
+  scale_color_manual(name = "Symbiosis Type", values = c("#ddaad4", "#aa4499", "#e1be6a", "#a9e0db", "#40b0a6")) +
+  scale_shape_manual(name = "Symbiosis Type", values = c(22, 23, 21, 25, 24)) +
+  scale_fill_manual(name = "Symbiosis Type", values = c("#ddaad4", "#aa4499", "#e1be6a", "#a9e0db", "#40b0a6")) +
+  scale_y_continuous(limits = c(33, 41), breaks = seq(30, 42, by = 2))
+
+a
+
+
+b <- ggplot(Richelia_genome_stats, aes(x=estimated.genome.size..Mb., y=X..CDS, color=Symbiosis.type, shape=Symbiosis.type)) +
+  geom_point(aes(fill = Symbiosis.type), alpha = 0.6, size = 4) +
+  labs(title = "b", y = "Number of CDS") +
+  theme_light() +
+  theme(
+    axis.title.x = element_blank(),
+    axis.title.y = element_text(size = 8, face = "bold", margin = margin(t = 0, r = 20, b = 0, l = 0)),
+    plot.title = element_text(size = 12, face = "bold", hjust = 0),
+    legend.position = "none"
+  ) +
+  scale_color_manual(name = "Symbiosis Type", values = c("#ddaad4","#aa4499", "#e1be6a","#a9e0db", "#40b0a6")) +
+  scale_shape_manual(name = "Symbiosis Type", values = c(21, 22, 23, 24, 25)) +
+  scale_fill_manual(name = "Symbiosis Type", values = c("#ddaad4","#aa4499", "#e1be6a","#a9e0db", "#40b0a6")) +
+  scale_y_continuous(limits = c(1500, 7500), breaks = seq(1500, 7500, by = 1000))
+
+c <- ggplot(Richelia_genome_stats, aes(x=estimated.genome.size..Mb., y=coding.tRNA.., color=Symbiosis.type, shape=Symbiosis.type)) +
+  geom_point(aes(fill = Symbiosis.type), alpha = 0.6, size = 4) +
+  labs(title = "c", y = "Coding + tRNA %") +
+  theme_light() +
+  theme(
+    axis.title.x = element_blank(),
+    axis.title.y = element_text(size = 8, face = "bold", margin = margin(t = 0, r = 20, b = 0, l = 0)),
+    plot.title = element_text(size = 12, face = "bold", hjust = 0),
+    legend.position = "none"
+  ) +
+  scale_color_manual(name = "Symbiosis Type", values = c("#ddaad4","#aa4499", "#e1be6a","#a9e0db", "#40b0a6")) +
+  scale_shape_manual(name = "Symbiosis Type", values = c(21, 22, 23, 24, 25)) +
+  scale_fill_manual(name = "Symbiosis Type", values = c("#ddaad4","#aa4499", "#e1be6a","#a9e0db", "#40b0a6")) +
+  scale_y_continuous(limits = c(44, 78), breaks = seq(44, 78, by = 8))
+
+d <- ggplot(Richelia_genome_stats, aes(x=estimated.genome.size..Mb., y=Number.of.transposases, color=Symbiosis.type, shape=Symbiosis.type)) +
+  geom_point(aes(fill = Symbiosis.type), alpha = 0.6, size = 4) +
+  labs(title = "d", y = "Number of transposase") +
+  theme_light() +
+  theme(
+    axis.title.x = element_blank(),
+    axis.title.y = element_text(size = 8, face = "bold", margin = margin(t = 0, r = 20, b = 0, l = 0)),
+    plot.title = element_text(size = 12, face = "bold", hjust = 0),
+    legend.position = "none"
+  ) +
+  scale_color_manual(name = "Symbiosis Type", values = c("#ddaad4","#aa4499", "#e1be6a","#a9e0db", "#40b0a6")) +
+  scale_shape_manual(name = "Symbiosis Type", values = c(21, 22, 23, 24, 25)) +
+  scale_fill_manual(name = "Symbiosis Type", values = c("#ddaad4","#aa4499", "#e1be6a","#a9e0db", "#40b0a6")) +
+  scale_y_continuous(limits = c(0, 2050), breaks = seq(0, 2050, by = 400))
+
+e <- ggplot(Richelia_genome_stats, aes(x=estimated.genome.size..Mb., y=Median.length.of.transposase, color=Symbiosis.type, shape=Symbiosis.type)) +
+  geom_point(aes(fill = Symbiosis.type), alpha = 0.6, size = 4) +
+  labs(title = "e", y = "Median length of transposase (bp)") +
+  theme_light() +
+  theme(
+    axis.title.x = element_blank(),
+    axis.title.y = element_text(size = 8, face = "bold", margin = margin(t = 0, r = 20, b = 0, l = 0)),
+    plot.title = element_text(size = 12, face = "bold", hjust = 0),
+    legend.position = "none"
+  ) +
+  scale_color_manual(name = "Symbiosis Type", values = c("#ddaad4","#aa4499", "#e1be6a","#a9e0db", "#40b0a6")) +
+  scale_shape_manual(name = "Symbiosis Type", values = c(21, 22, 23, 24, 25)) +
+  scale_fill_manual(name = "Symbiosis Type", values = c("#ddaad4","#aa4499", "#e1be6a","#a9e0db", "#40b0a6")) +
+  scale_y_continuous(limits = c(0, 650), breaks = seq(0, 1000, by = 100))
+
+f <- ggplot(Richelia_genome_stats, aes(x=estimated.genome.size..Mb., y=overal.length.of.transposases.., color=Symbiosis.type, shape=Symbiosis.type)) +
+  geom_point(aes(fill = Symbiosis.type), alpha = 0.6, size = 4) +
+  labs(title = "f", y = "Transposase %") +
+  theme_light() +
+  theme(
+    axis.title.x = element_blank(),
+    axis.title.y = element_text(size = 8, face = "bold", margin = margin(t = 0, r = 20, b = 0, l = 0)),
+    plot.title = element_text(size = 12, face = "bold", hjust = 0),
+    legend.position = "none"
+  ) +
+  scale_color_manual(name = "Symbiosis Type", values = c("#ddaad4","#aa4499", "#e1be6a","#a9e0db", "#40b0a6")) +
+  scale_shape_manual(name = "Symbiosis Type", values = c(21, 22, 23, 24, 25)) +
+  scale_fill_manual(name = "Symbiosis Type", values = c("#ddaad4","#aa4499", "#e1be6a","#a9e0db", "#40b0a6")) +
+  scale_y_continuous(limits = c(0, 25), breaks = seq(0, 25, by = 5))
+
+g <- ggplot(Richelia_genome_stats, aes(x=estimated.genome.size..Mb., y=Intergenic_spacer_size_bp, color=Symbiosis.type, shape=Symbiosis.type)) +
+  geom_point(aes(fill = Symbiosis.type), alpha = 0.6, size = 4) +
+  labs(title = "g", y = "Overall IGS size (bp)") +
+  theme_light() +
+  theme(
+    axis.title.x = element_blank(),
+    axis.title.y = element_text(size = 8, face = "bold", margin = margin(t = 0, r = 20, b = 0, l = 0)),
+    plot.title = element_text(size = 12, face = "bold", hjust = 0),
+    legend.position = "none"
+  ) +
+  scale_color_manual(name = "Symbiosis Type", values = c("#ddaad4","#aa4499", "#e1be6a","#a9e0db", "#40b0a6")) +
+  scale_shape_manual(name = "Symbiosis Type", values = c(21, 22, 23, 24, 25)) +
+  scale_fill_manual(name = "Symbiosis Type", values = c("#ddaad4","#aa4499", "#e1be6a","#a9e0db", "#40b0a6"))
+
+h <- ggplot(Richelia_genome_stats, aes(x=estimated.genome.size..Mb., y=Intergenic_Median_Size_bp, color=Symbiosis.type, shape=Symbiosis.type)) +
+  geom_point(aes(fill = Symbiosis.type), alpha = 0.6, size = 4) +
+  labs(title = "h", y = "Median IGS size (bp)") +
+  theme_light() +
+  theme(
+    axis.title.x = element_blank(),
+    axis.title.y = element_text(size = 8, face = "bold", margin = margin(t = 0, r = 20, b = 0, l = 0)),
+    plot.title = element_text(size = 12, face = "bold", hjust = 0),
+    legend.position = "none"
+  ) +
+  scale_color_manual(name = "Symbiosis Type", values = c("#ddaad4","#aa4499", "#e1be6a","#a9e0db", "#40b0a6")) +
+  scale_shape_manual(name = "Symbiosis Type", values = c(21, 22, 23, 24, 25)) +
+  scale_fill_manual(name = "Symbiosis Type", values = c("#ddaad4","#aa4499", "#e1be6a","#a9e0db", "#40b0a6"))
+
+i <- ggplot(Richelia_genome_stats, aes(x=estimated.genome.size..Mb., y=overal.intergenic.spacer.., color=Symbiosis.type, shape=Symbiosis.type)) +
+  geom_point(aes(fill = Symbiosis.type), alpha = 0.6, size = 4) +
+  labs(title = "i", y = "IGS %") +
+  theme_light() +
+  theme(
+    axis.title.x = element_blank(),
+    axis.title.y = element_text(size = 8, face = "bold", margin = margin(t = 0, r = 20, b = 0, l = 0)),
+    plot.title = element_text(size = 12, face = "bold", hjust = 0),
+    legend.position = "none"
+  ) +
+  scale_color_manual(name = "Symbiosis Type", values = c("#ddaad4","#aa4499", "#e1be6a","#a9e0db", "#40b0a6")) +
+  scale_shape_manual(name = "Symbiosis Type", values = c(21, 22, 23, 24, 25)) +
+  scale_fill_manual(name = "Symbiosis Type", values = c("#ddaad4","#aa4499", "#e1be6a","#a9e0db", "#40b0a6"))
+
+j <- ggplot(Richelia_genome_stats, aes(x=estimated.genome.size..Mb., y=Number.of.Pseudogenes, color=Symbiosis.type, shape=Symbiosis.type)) +
+  geom_point(aes(fill = Symbiosis.type), alpha = 0.6, size = 4) +
+  labs(title = "j", x = "Estimated genome size (Mb)", y = "Number of Pseudogenes") +
+  theme_light() +
+  theme(
+    axis.title.x = element_text(size = 8, face = "bold", margin = margin(t = 20, r = 0, b = 0, l = 0)),
+    axis.title.y = element_text(size = 8, face = "bold", margin = margin(t = 0, r = 20, b = 0, l = 0)),
+    plot.title = element_text(size = 12, face = "bold", hjust = 0),
+    legend.position = "none"
+  ) +
+  scale_color_manual(name = "Symbiosis Type", values = c("#ddaad4","#aa4499", "#e1be6a","#a9e0db", "#40b0a6")) +
+  scale_shape_manual(name = "Symbiosis Type", values = c(21, 22, 23, 24, 25)) +
+  scale_fill_manual(name = "Symbiosis Type", values = c("#ddaad4","#aa4499", "#e1be6a","#a9e0db", "#40b0a6")) +
+  scale_y_continuous(limits = c(100, 2800), breaks = seq(100, 2800, by = 800))
+
+k <- ggplot(Richelia_genome_stats, aes(x=estimated.genome.size..Mb., y=median.lenght.of.pseudogenes, color=Symbiosis.type, shape=Symbiosis.type)) +
+  geom_point(aes(fill = Symbiosis.type), alpha = 0.6, size = 4) +
+  labs(title = "k", x = "Estimated genome size (Mb)", y = "Median length of pseudogenes (bp)") +
+  theme_light() +
+  theme(
+    axis.title.x = element_text(size = 8, face = "bold", margin = margin(t = 20, r = 0, b = 0, l = 0)),
+    axis.title.y = element_text(size = 8, face = "bold", margin = margin(t = 0, r = 20, b = 0, l = 0)),
+    plot.title = element_text(size = 12, face = "bold", hjust = 0),
+    legend.position = "none"
+  ) +
+  scale_color_manual(name = "Symbiosis Type", values = c("#ddaad4","#aa4499", "#e1be6a","#a9e0db", "#40b0a6")) +
+  scale_shape_manual(name = "Symbiosis Type", values = c(21, 22, 23, 24, 25)) +
+  scale_fill_manual(name = "Symbiosis Type", values = c("#ddaad4","#aa4499", "#e1be6a","#a9e0db", "#40b0a6")) +
+  scale_y_continuous(limits = c(200, 400), breaks = seq(100, 400, by = 100))
+
+l <- ggplot(Richelia_genome_stats, aes(x=estimated.genome.size..Mb., y=overal.lenght.of.pseudogenes.., color=Symbiosis.type, shape=Symbiosis.type)) +
+  geom_point(aes(fill = Symbiosis.type), alpha = 0.6, size = 4) +
+  labs(title = "l", x = "Estimated genome size (Mb)", y = "Pseudogenes %") +
+  theme_light() +
+  theme(
+    axis.title.x = element_text(size = 8, face = "bold", margin = margin(t = 20, r = 0, b = 0, l = 0)),
+    axis.title.y = element_text(size = 8, face = "bold", margin = margin(t = 0, r = 20, b = 0, l = 0)),
+    plot.title = element_text(size = 12, face = "bold", hjust = 0),
+    legend.position = "bottom"
+  ) +
+  scale_color_manual(name = "Symbiosis Type", values = c("#ddaad4","#aa4499", "#e1be6a","#a9e0db", "#40b0a6")) +
+  scale_shape_manual(name = "Symbiosis Type", values = c(21, 22, 23, 24, 25)) +
+  scale_fill_manual(name = "Symbiosis Type", values = c("#ddaad4","#aa4499", "#e1be6a","#a9e0db", "#40b0a6")) +
+  scale_y_continuous(limits = c(0, 15), breaks = seq(0, 15, by = 5))
+
+
+
+
+```
+
+
+#Cobine all the pannels and save the figure in PDF format - edit later in adobe illustrator
+
+```{r}
+
+# Combine the plots into a single panel
+combined_plots <- combined_plots <- (a | b | c) /
+                  (d | e | f) /
+                  (g | h | i) /
+                  (j | k | l) 
+                
+
+# Print the combined plot
+print(combined_plots)
+
+
+# Save the combined plot to a PDF with A4 dimensions
+ggsave("Genome_stats.pdf", plot = combined_plots, width =8 , height = 10, device = "pdf", units = "in")
+
+```
+
+
+#Plot other genome stats that will go in Supplementary figure 1
+
+```{r}
+
+library(ggplot2)
+library(scales) 
+
+a1 <- ggplot(Richelia_genome_stats, aes(x=estimated.genome.size..Mb., y=Median.CDS.length..bp., color=Symbiosis.type, shape=Symbiosis.type)) +
+  geom_point(aes(fill = Symbiosis.type), alpha = 0.6, size = 4) + 
+  labs(x = "Estimated genome size (Mb)", y = "Median CDS length (bp)", title = "a1") +
+  theme_light() +
+  theme(
+    axis.title.x = element_text(size = 8, face = "bold", margin = margin(t = 20, r = 0, b = 0, l = 0)),
+    axis.title.y = element_text(size = 8, face = "bold", margin = margin(t = 0, r = 20, b = 0, l = 0)),
+    plot.title = element_text(size = 12, face = "bold", hjust = 0),
+    legend.position = "none"
+  ) +
+  scale_color_manual(name = "Symbiosis Type", values = c("#ddaad4", "#aa4499", "#e1be6a", "#a9e0db", "#40b0a6")) +
+  scale_shape_manual(name = "Symbiosis Type", values = c(21, 22, 23, 24, 25)) +
+  scale_fill_manual(name = "Symbiosis Type", values = c("#ddaad4", "#aa4499", "#e1be6a", "#a9e0db", "#40b0a6"))
+
+b1 <- ggplot(Richelia_genome_stats, aes(x=estimated.genome.size..Mb., y=X.tRNA, color=Symbiosis.type, shape=Symbiosis.type)) +
+  geom_point(aes(fill = Symbiosis.type), alpha = 0.6, size = 4) +
+  labs(x = "Estimated genome size (Mb)", y = "Number of tRNA", title = "b1") +
+  theme_light() +
+  theme(
+    axis.title.x = element_text(size = 8, face = "bold", margin = margin(t = 20, r = 0, b = 0, l = 0)),
+    axis.title.y = element_text(size = 8, face = "bold", margin = margin(t = 0, r = 20, b = 0, l = 0)),
+    plot.title = element_text(size = 12, face = "bold", hjust = 0),
+    legend.position = "none"
+  ) +
+  scale_color_manual(name = "Symbiosis Type", values = c("#ddaad4", "#aa4499", "#e1be6a", "#a9e0db", "#40b0a6")) +
+  scale_shape_manual(name = "Symbiosis Type", values = c(21, 22, 23, 24, 25)) +
+  scale_fill_manual(name = "Symbiosis Type", values = c("#ddaad4", "#aa4499", "#e1be6a", "#a9e0db", "#40b0a6"))
+
+c1 <- ggplot(Richelia_genome_stats, aes(x=estimated.genome.size..Mb., y=overal.length.of.transposases, color=Symbiosis.type, shape=Symbiosis.type)) +
+  geom_point(aes(fill = Symbiosis.type), alpha = 0.6, size = 4) +
+  labs(x = "Estimated genome size (Mb)", y = "Overall length of transposases (bp)", title = "c1") +
+  theme_light() +
+  theme(
+    axis.title.x = element_text(size = 8, face = "bold", margin = margin(t = 20, r = 0, b = 0, l = 0)),
+    axis.title.y = element_text(size = 8, face = "bold", margin = margin(t = 0, r = 20, b = 0, l = 0)),
+    plot.title = element_text(size = 12, face = "bold", hjust = 0),
+    legend.position = "none"
+  ) +
+  scale_color_manual(name = "Symbiosis Type", values = c("#ddaad4", "#aa4499", "#e1be6a", "#a9e0db", "#40b0a6")) +
+  scale_shape_manual(name = "Symbiosis Type", values = c(21, 22, 23, 24, 25)) +
+  scale_fill_manual(name = "Symbiosis Type", values = c("#ddaad4", "#aa4499", "#e1be6a", "#a9e0db", "#40b0a6"))
+
+d1 <- ggplot(Richelia_genome_stats, aes(x=estimated.genome.size..Mb., y=overal.lenght.of.pseudogenes..bp., color=Symbiosis.type, shape=Symbiosis.type)) +
+  geom_point(aes(fill = Symbiosis.type), alpha = 0.6, size = 4) +
+  labs(x = "Estimated genome size (Mb)", y = "Overall length of pseudogenes (bp)", title = "d1") +
+  theme_light() +
+  theme(
+    axis.title.x = element_text(size = 8, face = "bold", margin = margin(t = 20, r = 0, b = 0, l = 0)),
+    axis.title.y = element_text(size = 8, face = "bold", margin = margin(t = 0, r = 20, b = 0, l = 0)),
+    plot.title = element_text(size = 12, face = "bold", hjust = 0),
+    legend.position = "none"
+  ) +
+  scale_color_manual(name = "Symbiosis Type", values = c("#ddaad4", "#aa4499", "#e1be6a", "#a9e0db", "#40b0a6")) +
+  scale_shape_manual(name = "Symbiosis Type", values = c(21, 22, 23, 24, 25)) +
+  scale_fill_manual(name = "Symbiosis Type", values = c("#ddaad4", "#aa4499", "#e1be6a", "#a9e0db", "#40b0a6"))
+
+e1 <- ggplot(Richelia_genome_stats, aes(x=estimated.genome.size..Mb., y=Lenght.of.pseudogenes.IGS, color=Symbiosis.type, shape=Symbiosis.type)) +
+  geom_point(aes(fill = Symbiosis.type), alpha = 0.6, size = 4) +
+  labs(x = "Estimated genome size (Mb)", y = "Overall length of pseudogenes in IGS (bp)", title = "e1") +
+  theme_light() +
+  theme(
+    axis.title.x = element_text(size = 8, face = "bold", margin = margin(t = 20, r = 0, b = 0, l = 0)),
+    axis.title.y = element_text(size = 8, face = "bold", margin = margin(t = 0, r = 20, b = 0, l = 0)),
+    plot.title = element_text(size = 12, face = "bold", hjust = 0),
+    legend.position = "bottom"
+  ) +
+  scale_color_manual(name = "Symbiosis Type", values = c("#ddaad4", "#aa4499", "#e1be6a", "#a9e0db", "#40b0a6")) +
+  scale_shape_manual(name = "Symbiosis Type", values = c(21, 22, 23, 24, 25)) +
+  scale_fill_manual(name = "Symbiosis Type", values = c("#ddaad4", "#aa4499", "#e1be6a", "#a9e0db", "#40b0a6"))
+
+f1 <- ggplot(Richelia_genome_stats, aes(x=estimated.genome.size..Mb., y=Median.length.of.pseudogenes.in.IGS, color=Symbiosis.type, shape=Symbiosis.type)) +
+  geom_point(aes(fill = Symbiosis.type), alpha = 0.6, size = 4) +
+  labs(x = "Estimated genome size (Mb)", y = "Median length of pseudogenes in IGS (bp)", title = "f1") +
+  theme_light() +
+  theme(
+    axis.title.x = element_text(size = 8, face = "bold", margin = margin(t = 20, r = 0, b = 0, l = 0)),
+    axis.title.y = element_text(size = 8, face = "bold", margin = margin(t = 0, r = 20, b = 0, l = 0)),
+    plot.title = element_text(size = 12, face = "bold", hjust = 0),
+    legend.position = "none"
+  ) +
+  scale_color_manual(name = "Symbiosis Type", values = c("#ddaad4", "#aa4499", "#e1be6a", "#a9e0db", "#40b0a6")) +
+  scale_shape_manual(name = "Symbiosis Type", values = c(21, 22, 23, 24, 25)) +
+  scale_fill_manual(name = "Symbiosis Type", values = c("#ddaad4", "#aa4499", "#e1be6a", "#a9e0db", "#40b0a6"))
+
+# Display all plots
+a1
+b1
+c1
+d1
+e1
+f1
+
+```
+
+
+
+```{r}
+# Combine plots into a single figure with labels
+combined_plot <- (a1 | b1 | c1) / (d1 | e1 | f1)
+
+# Display the combined plot
+print(combined_plot)
+
+# Save the combined plot to a PDF with A4 dimensions
+ggsave("Supplementary_1.pdf", plot = combined_plot, width = 8, height = 6, device = "pdf")
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
