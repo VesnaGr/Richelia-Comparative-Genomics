@@ -1,0 +1,29 @@
+Inside of this folder one can find 
+
+1) "workflow for pangenomics.rtf" which is a description of how to run Pangenomics workflow in Anvi'o, more specifically how it was done in this analysis but can be applied to any other genomes. Following this workflow you should be able to generate all the data 
+deposited in the folder "Anvio.tar.gz" as well as the Figure 4 in the manuscript.
+
+2) Folder "Anvio.tar.gz" contains all the necessary data and intermediate data produced by Anvio as well as scripts that are necessary for different steps, more specifically:
+
+Purpose of Each Script
+process_gff_files.sh:
+What it does: Parses .gff files to create gene calls and annotation files for each genome.
+Why it's needed: Prepares .gff files for importing Prokka annotations into Anvio's contigs databases.
+
+import_prokka_annot.sh:
+What it does: Imports the parsed Prokka annotations into Anvio contigs databases.
+Why it's needed: Adds functional annotations from Prokka to the contigs databases.
+
+get_AA_seq.sh:
+What it does: Extracts amino acid sequences from Anvio contigs databases.
+Why it's needed: Amino acid sequences are required for functional annotation using EggNOG-mapper.
+
+emapper.sh:
+What it does: Processes .db files with EggNOG-mapper annotations and integrates them into Anvio contigs databases.
+Why it's needed: Adds additional functional annotations to the contigs databases, complementing Prokka annotations.
+
+gff_parser.py:
+What it does: A Python script called by process_gff_files.sh to extract gene calls and annotations from .gff files.
+Why it's needed: It is a helper script specifically for parsing .gff files, making it a dependency of process_gff_files.sh.
+
+3) "Richelia_gene_clusters_summary.txt.gz" - summary of all gene clusters represented discussed in the manuscript and represented in the figure 4.  and Supplementary figures 5., 6. and 7.
